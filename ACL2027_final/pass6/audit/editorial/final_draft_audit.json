@@ -325,7 +325,7 @@
       "hybrid",
       "reader_main"
     ],
-    "completed_sentences_checked": 406,
+    "completed_sentences_checked": 409,
     "sentences_over_20_words": [],
     "counting_rule": "Inline mathematics and cross-references count as one token. Citation markup contributes no prose words. Headings and displayed formulas are excluded. Hyphenated terms follow whitespace tokenization. Main figure and table captions are included.",
     "em_dashes_in_main": 0,
@@ -424,7 +424,7 @@
     "pass6/paper/sections/refinement.tex": "73744c12494e41b9241ab4e4f4510fb200c7bc250bc33de19a25409d894898e7",
     "pass6/paper/sections/constrained.tex": "b4bc254f0ad6896a29a0518b4129d7e018eec3b3ab63b325662dc09d3298602c",
     "pass6/paper/sections/protocol.tex": "86b76a10e3f68831ca5a9260ce0f115af9a66c99f71762aa65cb4fad959d9186",
-    "pass6/paper/sections/results.tex": "6ba39ff97aca21d0d837bfd96d8fc5740135aa1dba05f514caedd90e2729ce17",
+    "pass6/paper/sections/results.tex": "9bd462af743c75299d0c7e44ebcf349c85aa587534cb5ae1f4b37967167023d1",
     "pass6/paper/sections/results_replacement.tex": "99312dd9f395fb418a811303e2fc860367814a21d5f9a2b15fedb3fccfa65100",
     "pass6/paper/sections/results_constraints.tex": "c38c2075ddde440ba86e072259c0c99adfb98311acb736c9d84e0d83f5d62c9e",
     "pass6/paper/sections/related.tex": "3ec11c6d30c4947522b7aca756b3068cb0b3ef04bc0054c30531769151f94285",
@@ -439,7 +439,7 @@
     "pass6/reader/paper/reader_numbers.json": "3e9e805a83a7fbbf293d6472469fa44a1580ea0c0dccdf13fd3fd4f9cd6e3850",
     "pass6/reader/protocol.json": "9986f7a5f457f776e15788cac26d72ed2d062cec14032e0cbe06476dc21ebb4d",
     "pass6/reader/pilot_result.json": "0c29ee0acbdcd91e5d03865ea12c38f156c0f87b53825cdceddb2692a2814c4b",
-    "pass6/paper/main.pdf": "c0cb26ce6e57ccaa6651d11daf3513ad77eb671625a92d2078f3e3f81e17b967",
+    "pass6/paper/main.pdf": "a4f17164bce63a1ce3caca8cc325a6a6e2af553bebea24ddea0baaeed7e35f04",
     "pass6/paper/sections/appendix_pipeline.tex": "93727d28b059398a4c0f669c52b5f09c2111af335c517fee57bf2eccdb025892"
   },
   "reader_verification": {
@@ -505,9 +505,9 @@
     },
     "changed_diagnostic_answers": [
       {
-        "question_id": "/wiki/Atlético_Madrid#P286#annotation5",
+        "question_id": "/wiki/Atl\u00e9tico_Madrid#P286#annotation5",
         "possible_answers": [
-          "Åge Hareide"
+          "\u00c5ge Hareide"
         ],
         "guaranteed_answers": [],
         "possible_f1": 0.0,
@@ -549,8 +549,9 @@
     ],
     "numeric_errors": []
   },
-  "refreshed_utc": "2026-10-07T08:15:21.480433+00:00",
+  "refreshed_utc": "2026-10-07T08:57:44.626052+00:00",
   "unresolved_findings": [],
   "pagination_revision_note": "Related-work descriptions shortened and repeated distinctions removed without changing citation keys or attribution scope.",
-  "final_appendix_revision_note": "The explanatory G.8 sentence links Tables 9–11. Main prose, citation keys, and result claims are unchanged. Final appendix visual review passes for the current PDF hash."
+  "final_appendix_revision_note": "The explanatory G.8 sentence links Tables 9\u201311. Main prose, citation keys, and result claims are unchanged. Final appendix visual review passes for the current PDF hash.",
+  "section_order_revision_note": "Related Work now follows Introduction. Five budget-comparison sentences replace two generic sentences. Values match the existing appendix table; all five satisfy the twenty-word limit. See section_order_audit.json for the current PDF visual review."
 }

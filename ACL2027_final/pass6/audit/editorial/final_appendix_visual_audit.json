@@ -143,5 +143,6 @@
       "issue": "Previously empty G.8 subsection followed its floated tables.",
       "resolution": "An explanatory sentence now links Tables 9\u201311 before Section H. The final rendering is correctly spaced."
     }
-  ]
+  ],
+  "historical_scope_note": "This audit records the previous reviewed PDF. The current reordered manuscript is visually checked in section_order_audit.json."
 }

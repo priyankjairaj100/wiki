@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.30)  7 OCT 2026 01:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.30)  7 OCT 2026 01:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,31 +589,32 @@ File: figures/architecture.pdf Graphic file (type pdf)
 <use figures/architecture.pdf>
 Package pdftex.def Info: figures/architecture.pdf  used on input line 21.
 (pdftex.def)             Requested size: 455.24411pt x 152.83408pt.
-) (./sections/sources.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) (./sections/related.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 
-]) (./sections/theory.tex [2 <./figures/architecture.pdf>]) (./sections/method.
-tex
-<figures/two_witnesses.pdf, id=257, 242.10449pt x 191.5155pt>
+]) (./sections/sources.tex [2 <./figures/architecture.pdf>]) (./sections/theory
+.tex [3]) (./sections/method.tex
+<figures/two_witnesses.pdf, id=350, 242.10449pt x 191.5155pt>
 File: figures/two_witnesses.pdf Graphic file (type pdf)
 <use figures/two_witnesses.pdf>
 Package pdftex.def Info: figures/two_witnesses.pdf  used on input line 11.
 (pdftex.def)             Requested size: 219.08614pt x 173.31207pt.
- [3] (./sections/refinement.tex [4 <./figures/two_witnesses.pdf>]) (./sections/
-constrained.tex)) (./sections/protocol.tex [5]) (./sections/results.tex
+ [4 <./figures/two_witnesses.pdf>] (./sections/refinement.tex) (./sections/cons
+trained.tex
+[5])) (./sections/protocol.tex) (./sections/results.tex
 Underfull \hbox (badness 7576) in paragraph at lines 60--1
  []\T1/ptm/b/n/10.95 (+20) Answer gen-er-a-tion.[] \T1/ptm/m/n/10.95 (+20) We r
 un Qwen2.5-3B-
  []
 
-(./sections/results_replacement.tex (./tables/replacement.tex
+[6] (./sections/results_replacement.tex (./tables/replacement.tex
 Underfull \hbox (badness 4543) in paragraph at lines 13--13
 []\T1/ptm/m/n/10 (+20) Table 1: |Source-derived re-place-ment chal-lenge.
  []
 
-)) (./sections/results_constraints.tex [6]
+)) (./sections/results_constraints.tex
 Underfull \hbox (badness 6859) in paragraph at lines 2--6
 \T1/ptm/m/n/10.95 (+20) Exhaustive world enu-mer-a-tion con-firms all
  []
@@ -624,25 +625,17 @@ Underfull \hbox (badness 2469) in paragraph at lines 2--6
  []
 
 (./tables/hybrid.tex))
-<figures/coverage.pdf, id=358, 242.10449pt x 130.086pt>
+<figures/coverage.pdf, id=429, 242.10449pt x 130.086pt>
 File: figures/coverage.pdf Graphic file (type pdf)
 <use figures/coverage.pdf>
 Package pdftex.def Info: figures/coverage.pdf  used on input line 15.
 (pdftex.def)             Requested size: 219.08614pt x 117.7214pt.
+ [7] (./sections/reader_results.tex
+(./tables/reader_main.tex))) (./sections/conclusion.tex) [8 <./figures/coverage
+.pdf>] (./sections/limitations.tex) (./sections/ethics.tex) (./main.bbl
+[9
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./figures/coverage.pdf>] (./sections/reader_results.tex (./tables/reader_m
-ain.tex)))
-(./sections/related.tex) (./sections/conclusion.tex)
-(./sections/limitations.tex
-Underfull \vbox (badness 1418) has occurred while \output is active []
-
- [8])
-(./sections/ethics.tex) (./main.bbl [9]
+]
 Underfull \hbox (badness 1062) in paragraph at lines 77--83
 []\T1/ptm/m/n/10 (+20) Bhuwan Dhin-gra, Jeremy R. Cole, Ju-lian Mar-tin
  []
@@ -705,7 +698,7 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E350B7C072C9E8B8E92A57661CBA49BB;9775.
+(rerunfilecheck)             Checksum: B69EC633842D5237467F61ED1534CC26;9775.
  ) 
 Here is how much of TeX's memory you used:
  16266 strings out of 476182
@@ -733,10 +726,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on main.pdf (22 pages, 422110 bytes).
+Output written on main.pdf (22 pages, 422590 bytes).
 PDF statistics:
- 798 PDF objects out of 1000 (max. 8388607)
- 701 compressed objects within 8 object streams
+ 799 PDF objects out of 1000 (max. 8388607)
+ 702 compressed objects within 8 object streams
  178 named destinations out of 1000 (max. 500000)
  54144 words of extra memory for PDF output out of 61914 (max. 10000000)
 

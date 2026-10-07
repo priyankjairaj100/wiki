@@ -28,7 +28,7 @@ Read `ACL2027_final/SESSION_STATE.md` and `ACL2027_final/README.md` first.
 The current manuscript is `ACL2027_final/pass6/paper/main.tex`.
 Current implementations, results, and audit records are under `ACL2027_final/pass6/`.
 Earlier directories preserve dependencies and historical runs.
-The project manifest records 1,732 released files and their checksums.
+The project manifest records 1,733 released files and their checksums.
 The release verification passed against that exact manifest.
 The repository excludes model weights and runtime binaries.
 Rebuild submission bundles with `ACL2027_final/pass6/release/build_final_packages.py`.

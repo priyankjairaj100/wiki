@@ -1,5 +1,15 @@
 # Pass6 revision
 
+## Final section order
+
+Related Work now follows the Introduction as Section 2.
+The main results restore the saved context-budget comparison from the appendix.
+Each budget uses the same modeled cohort selected at five excerpts.
+The paper retains eight full main pages, followed by Limitations on page nine.
+This layout revision changes no experiments, saved outputs, or bibliography entries.
+
+## Scientific revision
+
 This revision expands the temporal model and strengthens its empirical tests.
 The earlier extraction, retrieval, and reader artifacts remain unchanged.
 

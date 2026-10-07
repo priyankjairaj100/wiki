@@ -13,6 +13,7 @@ The previous pass5 release remains preserved in its original directories and doc
 ## Current manuscript and figures
 
 The current manuscript is `pass6/paper/main.tex`.
+Related Work follows the Introduction as Section 2.
 Compile it with pdfLaTeX, BibTeX, and two further pdfLaTeX passes.
 The final Overleaf archive places this manuscript at its root.
 Vector figures and editable sources accompany the manuscript.

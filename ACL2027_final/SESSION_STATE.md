@@ -6,6 +6,9 @@ Status: all scientific extensions and complete reader results are saved.
 The packaged `RELEASE_VERIFICATION.json` records the final manifest-bound release check.
 The PDF contains eight full main pages and 22 pages overall.
 Conclusion appears on page eight. Limitations starts on page nine.
+Related Work follows the Introduction as Section 2.
+The main results include the saved budget-sensitivity comparison for a fixed modeled cohort.
+This final layout revision changes no experiments, saved outputs, or bibliography entries.
 Static checks find 27 embedded fonts and no Type 3 fonts.
 The main body contains no raster figures.
 The package gate also requires a completed visual review of the exact PDF.

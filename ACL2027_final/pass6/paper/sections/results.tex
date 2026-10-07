@@ -46,7 +46,10 @@ The appendix gives all ten matched retrieval rows.
 Certificates also apply to all six prespecified ranking variants.
 Every one of 18,654 query--ranking decisions matches full-mask selection.
 Under the strongest human retrieval control, 102 of 120 modeled contexts remain stable.
-Larger excerpt budgets expose additional uncertain claims.
-The appendix reports every budget comparison.
+With one excerpt, 90.9\% of template contexts and 97.0\% of human contexts are stable.
+At twenty excerpts, these rates fall to 76.5\% and 78.8\%.
+Each comparison retains the modeled cohort selected at $k=5$, so changing coverage cannot explain this decline.
+A wider context can expose date-sensitive evidence that a narrow context excludes.
+Table~\ref{tab:budget} reports intermediate budgets before word truncation.
 
 \input{sections/reader_results}

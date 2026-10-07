@@ -6,13 +6,13 @@
   "checks": {
     "release_manifest": {
       "manifest_name": "MANIFEST.json",
-      "files": 1732,
-      "bytes": 1814002560,
-      "sha256": "1bcbb6cdcb7f89a8f08c0b0e80832ac635cf25efbd5c5ae0dc8619188d52d319",
+      "files": 1733,
+      "bytes": 1814006269,
+      "sha256": "3e1802e2d282a735de52da5f5f8f63a2324dbdaa0cae50e41dbc2b9ea4c9b82b",
       "all_match": true
     },
     "pass5_regression": {
-      "report_sha256": "1eb9c120dd7a2c43c5b4d2bae5020f4b51c76a979eb5c57a6bea635f44f3e2ff",
+      "report_sha256": "0fa721c11dec8877299f4c8c162a0b5ffc60224733a95135b14b9eab37f768be",
       "verification": {
         "status": "passed",
         "full_retrieval_replay": false,
@@ -20,9 +20,9 @@
         "checks": {
           "release_manifest": {
             "manifest_name": "MANIFEST.json",
-            "files": 1732,
-            "bytes": 1814002560,
-            "sha256": "1bcbb6cdcb7f89a8f08c0b0e80832ac635cf25efbd5c5ae0dc8619188d52d319",
+            "files": 1733,
+            "bytes": 1814006269,
+            "sha256": "3e1802e2d282a735de52da5f5f8f63a2324dbdaa0cae50e41dbc2b9ea4c9b82b",
             "all_match": true
           },
           "algorithm_freeze": {
@@ -206,8 +206,8 @@
             "byte_identical_table": true
           }
         },
-        "completed_utc": "2026-10-07T08:17:53.358493+00:00",
-        "elapsed_seconds": 46.728
+        "completed_utc": "2026-10-07T08:58:42.344271+00:00",
+        "elapsed_seconds": 34.011
       }
     },
     "revision_components": {
@@ -251,7 +251,7 @@
               "numpy"
             ],
             "saved_sha256": "22773f18e3a942e49c9210ee798473c13d3b96d2bfc10925de42c0738df8f7c6",
-            "generated_sha256": "b116474050f215fd72319d16e25c4a97575dfbf751670c543442930c765c6317",
+            "generated_sha256": "dc77a74b505fec04225dec771522aa207b6c22216d43f77fa0d789db7cc4d4b9",
             "match": true
           }
         ]
@@ -573,10 +573,10 @@
     },
     "verification_plan_sha256": "525aa90cb6cbf6efe2d65d1ab84e6c1783e8d0322f41734534c108f27a48fdef",
     "released_files_unchanged": {
-      "files": 1732,
+      "files": 1733,
       "all_match": true
     }
   },
-  "completed_utc": "2026-10-07T08:18:51.123323+00:00",
-  "elapsed_seconds": 104.555
+  "completed_utc": "2026-10-07T09:00:06.508587+00:00",
+  "elapsed_seconds": 118.245
 }

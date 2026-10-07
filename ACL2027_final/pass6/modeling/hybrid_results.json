@@ -1,0 +1,53 @@
+{
+  "by_budget": {
+    "1": {
+      "contexts": 3360,
+      "full_oracle_claim_queries": 16800,
+      "full_oracle_feasibility_calls": 72693,
+      "hybrid_feasibility_calls": 7887,
+      "hybrid_oracle_claim_queries": 1645,
+      "mismatches": 0,
+      "new_stable_contexts": 123,
+      "stable": 1897,
+      "zero_solver_screens": 1774
+    },
+    "3": {
+      "contexts": 3360,
+      "full_oracle_claim_queries": 16800,
+      "full_oracle_feasibility_calls": 72693,
+      "hybrid_feasibility_calls": 22674,
+      "hybrid_oracle_claim_queries": 4849,
+      "mismatches": 0,
+      "new_stable_contexts": 91,
+      "stable": 824,
+      "zero_solver_screens": 733
+    },
+    "5": {
+      "contexts": 3360,
+      "full_oracle_claim_queries": 16800,
+      "full_oracle_feasibility_calls": 72693,
+      "hybrid_feasibility_calls": 32391,
+      "hybrid_oracle_claim_queries": 6849,
+      "mismatches": 0,
+      "new_stable_contexts": 98,
+      "stable": 592,
+      "zero_solver_screens": 494
+    }
+  },
+  "counts": {
+    "contexts": 10080,
+    "counterworld_pairs_replayed": 6767,
+    "full_oracle_claim_queries": 50400,
+    "full_oracle_feasibility_calls": 218079,
+    "hybrid_feasibility_calls": 62952,
+    "hybrid_oracle_claim_queries": 13343,
+    "mismatches": 0,
+    "model_feasibility_calls": 120,
+    "models": 120,
+    "new_stable_contexts": 312,
+    "stable": 3313,
+    "zero_solver_screens": 3001
+  },
+  "protocol_sha256": "f0175dbc6335fb3a2e29e88171d4d25e0ce33f2e28bded777d71c0e6a225491f",
+  "status": "passed"
+}

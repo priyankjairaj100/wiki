@@ -1,0 +1,343 @@
+{
+  "by_budget": {
+    "1": {
+      "constrained_stable": 4604,
+      "context_checks": 10080,
+      "fixed_stable_dynamic_order_changes": 2683,
+      "fixed_stable_dynamic_set_changes": 2683,
+      "independent_stable": 4223,
+      "relaxation_false_alarm": 381
+    },
+    "3": {
+      "constrained_stable": 2197,
+      "context_checks": 10080,
+      "fixed_stable_dynamic_order_changes": 1242,
+      "fixed_stable_dynamic_set_changes": 957,
+      "independent_stable": 1925,
+      "relaxation_false_alarm": 272
+    },
+    "5": {
+      "constrained_stable": 1826,
+      "context_checks": 10080,
+      "fixed_stable_dynamic_order_changes": 883,
+      "fixed_stable_dynamic_set_changes": 0,
+      "independent_stable": 1550,
+      "relaxation_false_alarm": 276
+    }
+  },
+  "by_predicate": {
+    "appointed": {
+      "claim_query_decisions": 16800,
+      "constrained_guaranteed_only": 229,
+      "constrained_stable": 2626,
+      "context_checks": 10080,
+      "fixed_stable_dynamic_order_changes": 1572,
+      "fixed_stable_dynamic_set_changes": 1147,
+      "guaranteed_context_differs_from_overlap": 5040,
+      "guaranteed_differs_from_overlap": 2887,
+      "independent_stable": 2454,
+      "possible_context_differs_from_overlap": 3873,
+      "possible_differs_from_overlap": 2989,
+      "relaxation_false_alarm": 172,
+      "relaxed_possible_only": 255
+    },
+    "overlap": {
+      "claim_query_decisions": 16800,
+      "constrained_guaranteed_only": 316,
+      "constrained_stable": 3313,
+      "context_checks": 10080,
+      "fixed_stable_dynamic_order_changes": 2570,
+      "fixed_stable_dynamic_set_changes": 1929,
+      "independent_stable": 3001,
+      "relaxation_false_alarm": 312,
+      "relaxed_possible_only": 458
+    },
+    "throughout": {
+      "claim_query_decisions": 16800,
+      "constrained_guaranteed_only": 165,
+      "constrained_stable": 2688,
+      "context_checks": 10080,
+      "fixed_stable_dynamic_order_changes": 666,
+      "fixed_stable_dynamic_set_changes": 564,
+      "guaranteed_context_differs_from_overlap": 5902,
+      "guaranteed_differs_from_overlap": 5478,
+      "independent_stable": 2243,
+      "possible_context_differs_from_overlap": 5285,
+      "possible_differs_from_overlap": 5840,
+      "relaxation_false_alarm": 445,
+      "relaxed_possible_only": 771
+    }
+  },
+  "by_stratum": {
+    "joint": {
+      "constrained_stable": 3106,
+      "context_checks": 10080,
+      "feasible_worlds": 5013,
+      "fixed_stable_dynamic_order_changes": 1663,
+      "fixed_stable_dynamic_set_changes": 1248,
+      "independent_stable": 2612,
+      "models": 40,
+      "models_with_restrictive_constraints": 36,
+      "relaxation_false_alarm": 494
+    },
+    "lifetime": {
+      "constrained_stable": 2522,
+      "context_checks": 10080,
+      "feasible_worlds": 11484,
+      "fixed_stable_dynamic_order_changes": 1512,
+      "fixed_stable_dynamic_set_changes": 1203,
+      "independent_stable": 2461,
+      "models": 40,
+      "models_with_restrictive_constraints": 17,
+      "relaxation_false_alarm": 61
+    },
+    "precedence": {
+      "constrained_stable": 2999,
+      "context_checks": 10080,
+      "feasible_worlds": 4349,
+      "fixed_stable_dynamic_order_changes": 1633,
+      "fixed_stable_dynamic_set_changes": 1189,
+      "independent_stable": 2625,
+      "models": 40,
+      "models_with_restrictive_constraints": 36,
+      "relaxation_false_alarm": 374
+    }
+  },
+  "counts": {
+    "boolean_support_checks": 100800,
+    "cases": 140,
+    "claim_query_decisions": 50400,
+    "concrete_witnesses_checked": 68161,
+    "empty_families_rejected": 20,
+    "explicit_lifetimes": 80,
+    "feasibility_calls": 174172,
+    "feasible_models": 120,
+    "feasible_worlds": 20846,
+    "fixed_rank_context_checks": 30240,
+    "fixed_rank_stability_mismatches": 0,
+    "independent_worlds": 35590,
+    "models_with_restrictive_constraints": 89,
+    "old_compiler_boolean_checks": 33600,
+    "overlapping_lifetime_bounds": 38,
+    "support_mismatches": 0
+  },
+  "examples": {
+    "dynamic_set_failure": {
+      "case_id": "precedence_000",
+      "constrained_stable": true,
+      "dynamic_context_count": 5,
+      "dynamic_set_count": 5,
+      "fixed_context_count": 1,
+      "guaranteed_top": [
+        2
+      ],
+      "independent_stable": true,
+      "k": 1,
+      "model": {
+        "bounds": [
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "case_id": "precedence_000",
+        "constraints": [
+          [
+            4,
+            3,
+            -1
+          ]
+        ],
+        "expected_nonempty": true,
+        "generation_witness": [
+          4,
+          2,
+          3,
+          5,
+          4
+        ],
+        "pairs": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "ranking": [
+          2,
+          0,
+          1,
+          4,
+          3
+        ],
+        "source_constraints": [
+          {
+            "after": 3,
+            "before": 4,
+            "kind": "known_order"
+          }
+        ],
+        "stratum": "precedence",
+        "visible": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "possible_top": [
+        2
+      ],
+      "predicate": "overlap",
+      "query": [
+        0,
+        4
+      ]
+    },
+    "relaxation_false_alarm": {
+      "case_id": "precedence_002",
+      "constrained_stable": true,
+      "dynamic_context_count": 1,
+      "dynamic_set_count": 1,
+      "fixed_context_count": 1,
+      "guaranteed_top": [
+        3
+      ],
+      "independent_stable": false,
+      "k": 1,
+      "model": {
+        "bounds": [
+          [
+            1,
+            4
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            4,
+            6
+          ]
+        ],
+        "case_id": "precedence_002",
+        "constraints": [
+          [
+            0,
+            1,
+            -1
+          ],
+          [
+            3,
+            0,
+            -1
+          ],
+          [
+            2,
+            0,
+            -1
+          ]
+        ],
+        "expected_nonempty": true,
+        "generation_witness": [
+          3,
+          5,
+          2,
+          1,
+          5
+        ],
+        "pairs": [
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            4,
+            3
+          ]
+        ],
+        "ranking": [
+          0,
+          3,
+          1,
+          2,
+          4
+        ],
+        "source_constraints": [
+          {
+            "after": 1,
+            "before": 0,
+            "kind": "known_order"
+          },
+          {
+            "after": 0,
+            "before": 3,
+            "kind": "known_order"
+          },
+          {
+            "after": 0,
+            "before": 2,
+            "kind": "known_order"
+          }
+        ],
+        "stratum": "precedence",
+        "visible": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "possible_top": [
+        3
+      ],
+      "predicate": "overlap",
+      "query": [
+        0,
+        1
+      ]
+    }
+  },
+  "numpy": "2.3.5",
+  "protocol_sha256": "456741107701ca59293bf5085c0c6463621d2d2454dd737de18ab46494fe763e",
+  "python": "3.12.14",
+  "runtime_seconds": 47.422758538999915,
+  "status": "passed"
+}

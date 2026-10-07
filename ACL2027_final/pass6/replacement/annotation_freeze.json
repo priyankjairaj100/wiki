@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-07T07:07:59.207138+00:00",
+  "stage": "Before independent review and all certificate outcomes",
+  "candidate_accepts": 13,
+  "eligible_pending_review": 12,
+  "files": {
+    "pass6/replacement/annotated_candidates.jsonl": "3b2ffa113334c9ae2db6268855d153a47af64fbfe63e0e8a6ad3db6597da5217",
+    "pass6/replacement/source_judgments.jsonl": "962a7e91bbd51399477bb093395e6a9a1d78ec226fa44fb6e2f3b1bb1b5c8101",
+    "pass6/replacement/EXPOSURE_ADDENDUM.md": "30fea0889920b3f38a7c58a626273c570b5104315236b03ec027170b34777ae6"
+  }
+}

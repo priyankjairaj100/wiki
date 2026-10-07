@@ -1,0 +1,268 @@
+\section{Proofs for Uncertain Dates}
+\label{app:uncertain-proofs}
+
+All date assignments belong to the product $\Omega$ defined in Section~\ref{sec:theory}.
+The replacement gate remains fixed across these assignments.
+The proofs use real dates with closed input bounds.
+Every witness differs from its target: $G(c,c)=0$.
+
+\subsection{Point support}
+\begin{lemma}[Exact point support]
+\label{lem:uncertain-point}
+For every date $t$,
+\begin{align}
+ P_{[t,t]}(c)&\iff \ell_c\leq t<p_c,\\
+ H_{[t,t]}(c)&\iff u_c\leq t\ \land\bigl(t\leq\ell_c\ \lor\ t<r_c\bigr).
+\end{align}
+\end{lemma}
+\begin{proof}
+If $t<\ell_c$, no assignment makes $c$ active.
+If $t\geq p_c$, a witness satisfies $\ell_d>u_c$ and $u_d\leq t$.
+It occurs strictly after $c$ and by $t$ in every assignment.
+Thus possible support requires $\ell_c\leq t<p_c$.
+
+Conversely, assume these inequalities.
+Choose $x_c=\min(u_c,t)$.
+For each accepted witness, choose $x_d\leq x_c$ when its bounds permit that choice.
+Otherwise, $\ell_d>x_c$.
+If $x_c=t$, this witness occurs after $t$.
+If $x_c=u_c<t$, the definition of $p_c$ gives $u_d>t$.
+Choose the witness after $t$ in this case.
+Independent date bounds permit all these choices simultaneously.
+No witness then retires $c$ by $t$.
+
+For guaranteed point support, every assignment has $x_c\leq t$ exactly when $u_c\leq t$.
+Assume this condition.
+A witness can retire $c$ by $t$ exactly when some assignment satisfies $x_c<x_d\leq t$.
+Choose $x_c=\ell_c$.
+A suitable witness date exists exactly when
+$t>\ell_c$, $\ell_d\leq t$, and $u_d>\ell_c$.
+The minimum eligible $\ell_d$ is $r_c$.
+Possible retirement therefore requires $t>\ell_c$ and $r_c\leq t$.
+Its complement gives the stated condition.
+\end{proof}
+
+The equality term is necessary.
+Take $[\ell_c,u_c]=[0,0]$ and $[\ell_d,u_d]=[0,1]$ with $G(d,c)$ true.
+Claim $c$ is certainly active at zero.
+A strictly later replacement cannot have occurred by zero.
+It is not certainly active at any later date.
+An ordinary half-open interval cannot represent this singleton.
+The implementation retains the exact comparisons from the lemma.
+
+\subsection{Window support}
+\begin{proof}[Proof of Theorem~\ref{thm:window-support}]
+Possible point support occupies $[\ell_c,p_c)$ by Lemma~\ref{lem:uncertain-point}.
+This set intersects $[a,b]$ exactly when $\ell_c\leq b$ and $a<p_c$.
+The two existential quantifiers commute, proving Equation~\ref{eq:possible-window}.
+
+For guaranteed support, first suppose $u_c>b$.
+The assignment $x_c=u_c$ gives no support within the window.
+Thus $u_c\leq b$ is necessary.
+Now assume that inequality.
+Every assignment with $x_c\geq a$ supplies support at $x_c$ itself.
+For an earlier occurrence, support fails exactly when a direct witness retires $c$ by $a$.
+Such an assignment exists exactly when some witness satisfies $x_c<x_d\leq a$.
+The preceding lemma shows this is equivalent to $a>\ell_c$ and $r_c\leq a$.
+Taking its complement proves Equation~\ref{eq:guaranteed-window}.
+\end{proof}
+
+For each world, support means existence of a suitable time.
+The suitable time can differ across worlds.
+Consequently, a window can have guaranteed support even when no point has certain support.
+This distinction remains after exact text matching.
+
+\subsection{Sharpness and refinement}
+The possible filter retains precisely the union of world-specific support sets.
+Any smaller filter omits a supported claim in some world.
+The guaranteed filter retains precisely their intersection.
+Any larger filter includes an unsupported claim in some world.
+These statements establish the claimed minimal and maximal filters.
+They concern each retained claim's support, rather than one jointly optimal context.
+
+Narrowing date bounds replaces $\Omega$ with a subset $\Omega'\subseteq\Omega$.
+Existential support can only disappear when its assignment set shrinks.
+Universal support can only appear.
+This proves refinement monotonicity without assumptions about gate transitivity.
+For correlated dates, a product approximation instead gives conservative bounds.
+It can enlarge possible support and reduce guaranteed support.
+
+\subsection{Local gate influence}
+Suppose gates $G$ and $H$ differ on directed pairs with target set $U$.
+Every claim outside $U$ uses identical terms in both boundary minima.
+Its support status therefore remains unchanged for every query window.
+Thus either mask difference lies within $U$, where $|U|\leq h$.
+
+Fix a complete candidate ranking and deterministic tie handling.
+Changing one eligibility bit alters at most one selected item and one replacement.
+Apply this argument successively to the targets in $U$.
+The resulting context difference is at most $2|U|$.
+Each context also contains at most $k$ items.
+The difference is therefore at most $2\min(k,|U|)\leq2\min(k,h)$.
+
+A directed gate edit differs from a symmetric matching edit.
+A symmetric edit can change both directions and affect two target claims.
+Overlapping date bounds do not define one fixed older endpoint.
+A date edit can also affect several target certificates.
+The local bound does not treat either edit as one directed decision.
+
+\subsection{Exact dates and compilation cost}
+When $\ell_c=u_c=x_c$ for every claim, both boundary minima select the earliest strictly later direct witness.
+The possible and guaranteed masks then coincide for every window.
+For a point query, they equal the exact-date earliest-witness policy.
+
+The reference compiler evaluates all $n(n-1)$ candidate directed gates.
+The certificates require this scan or a proved complete candidate index.
+Two stored witnesses alone cannot verify that no omitted witness changes a boundary.
+If accepted pairs are already available, two minima require $O(n+m)$ time for $m$ pairs.
+The output contains at most $2n$ witness records.
+Every point or window decision takes $O(1)$ time per claim.
+A full mask takes $O(n)$ time.
+A complete text index can reduce gate evaluations without changing these results.
+No subquadratic guarantee is asserted for candidate discovery.
+
+The worked certificate in Section~\ref{sec:method} proves worst-case witness minimality.
+
+\section{Source and Evaluation Details}
+\label{app:source-audit}
+
+\subsection{TempLAMA source reconstruction}
+We recover the complete official test release and a public alias mirror.
+Both contain the same 34,963 records and the same answer identifiers.
+The normalizer verifies record IDs, query text, first answers, and full answer sets.
+The source manifest stores byte hashes for both inputs.
+It preserves all 45,866 answer observations.
+
+A source key combines the subject identifier and relation identifier.
+The revised evaluation reserves all 300 previously used keys for legacy development.
+A deterministic key split assigns 764 additional keys to development and 2,993 to test.
+No key appears in two partitions.
+The test contains 25,752 yearly records and 33,908 answer observations.
+All thresholds and baseline choices use development records.
+
+A year is a benchmark observation bucket.
+It is not a publication timestamp or an independently observed update date.
+Multiple answers can reflect within-year succession or concurrent values.
+An answer absent from a later label set is not independently verified as retired.
+The source audit consequently reports changes in label sets.
+It does not convert these changes into new occurrence bounds.
+
+Textual names do not always identify one source entity.
+Six parsed slots merge 13 source entities.
+Fifty identical question-year groups cover 105 source rows.
+Sixty-one of those rows occur in the held-out test partition.
+The evaluation keeps these cases.
+It does not expose hidden entity identifiers to the text parser.
+
+\subsection{TimeQA provenance and positive labels}
+The source repository is pinned to commit
+\texttt{38b0598}; the manifest records its full identifier.
+The release includes immutable download URLs, SHA256 hashes, and Git blob checks.
+The normalizer preserves each original paragraph and its character offsets.
+Repeated relation histories reuse the same paragraph identifier.
+The test corpus contains 33,493 distinct paragraphs.
+
+The test annotations contain 384 empty answers with zero-length spans.
+The human subset contains 159 such annotations.
+The positive retrieval tracks exclude these placeholders.
+They retain 2,613 template-rendered questions and 830 original human questions.
+The human track is a subset of the larger test collection.
+It is not an independent second benchmark.
+
+Eight articles occur in both the published development and test collections.
+Removing them before development produces 2,651 nonempty development questions.
+The natural-passage controls have fixed rules and no fitted parameters.
+The source audit records all removals and overlapping article paths.
+
+A matched string span identifies the benchmark's retrieval anchor.
+Some anchors appear in headings or in passages about another period.
+Aliases can also create several labels for one entity.
+The evaluation therefore names its metrics annotated passage hit and annotated span coverage.
+Entailment requires a separate source-support judgment.
+
+\subsection{Source-grounded examples}
+The Chicago Stadium paragraph gives two overlapping tenancies.
+The Blackhawks' stated period is 1929--1994.
+The Bulls' stated period is 1967--1994.
+Both cover the question's period, 1967--1988.
+This example supports coexistence directly from the passage.
+
+The News Quiz paragraph describes several hosts between 1977 and 1995.
+It includes Barry Norman, Barry Took, and Simon Hoggart.
+Barry Took returns after an intervening host.
+This example illustrates range coverage and recurrence.
+Its multiple answers do not establish simultaneous hosts.
+
+A Ruud Lubbers paragraph mixes month-level and day-level employment dates.
+The associated question uses year-level bounds.
+Other passages use expressions such as \emph{before 1516} and \emph{around 1713}.
+These examples motivate preserving source precision.
+They do not supply numerical uncertainty widths by themselves.
+The release records their original text and exact offsets.
+
+\subsection{The Warburg source example}
+
+
+A Warburg Institute paragraph lists Henri Frankfort, Gertrud Bing, and Ernst Gombrich as successive directors~\citep{chen2021timeqa}.
+The paragraph dates their starts to 1949, 1955, and 1959, respectively.
+A deterministic clause adapter recovers these three starts and their two direct succession links from the paragraph.
+The passage separately dates Bing's earlier organizational membership to 1922.
+That membership date does not start her directorship.
+
+Consider the illustrative period January 1954 through June 1955.
+Frankfort has guaranteed support somewhere within that period.
+Bing has possible support because her appointment might precede July.
+Gombrich has no support within the period.
+Rank Frankfort first and Bing second.
+A one-item context always contains Frankfort.
+A two-item context changes when Bing's start moves from January to December 1955.
+Both assignments satisfy the source's year-level precision.
+The same possible pool thus yields different stability decisions at different budgets.
+The source is natural; the query, ranking, and assignments illustrate the theorem.
+
+\section{Archived Results and Source Support}
+\label{app:archive}
+The supplement preserves previous generations, metrics, and source files.
+These records use a selected-answer protocol.
+Their answer metric checks normalized target containment.
+It does not require the complete answer set.
+The new source-only reader runs use a separate complete-answer protocol.
+
+The previous TempLAMA builder kept the first listed answer.
+Its 300 keys contain 447 changes in that selected answer.
+In 153 cases, the previous answer remains in the new full answer set.
+The revised scorer instead accepts every official answer identifier.
+The annual controls use this complete-source protocol.
+
+The archived extractive reader accesses an annotated value field.
+The archived historical evaluator also uses a gold anchor.
+Those outputs remain reproducible as historical records.
+They are separate from the source-only controls in the main body.
+
+The RealProse source audit identifies 17 excerpts without their assigned subject-role statement.
+It identifies 33 excerpts without the assigned start year.
+One excerpt gives a different start year.
+These findings concern the supplied passages, rather than the underlying facts.
+TimeQA provides the primary natural-text retrieval source in this revision.
+
+\section{Reproduction}
+\label{app:reproduction}
+The release includes the paper sources, vector figures, compilers, corpus normalizers, predictions, and result cards.
+A verification entry point reruns the compiler checks and reconstructs the paper tables.
+Longer entry points rerun full-source and natural-passage retrieval.
+Input and prediction hashes identify the exact evaluated artifacts.
+The Graphiti policy adapter includes the inspected upstream code segments and their license.
+It isolates temporal invalidation under supplied candidates.
+It does not reproduce Graphiti's semantic extraction model.
+
+\input{sections/appendix_lifecycle}
+\input{sections/appendix_refinement}
+\input{sections/appendix_pipeline}
+
+\input{sections/appendix_hardness}
+
+\input{sections/appendix_constraints}
+
+\input{sections/appendix_replacement}
+
+\input{sections/appendix_reader}

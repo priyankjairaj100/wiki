@@ -1,0 +1,556 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-07T07:40:56.519867+00:00",
+  "scope": "Final citation metadata and attribution, main prose including reader results and table captions, main result interpretation, and complete structured-reader numeric cross-checks. New reader appendix prose and generated tables are included. Formal theorem correctness is covered by the separate model audit; final PDF pagination is verified by the release team.",
+  "bibliography": {
+    "entries": 25,
+    "original_entries": 24,
+    "unchanged_original_entries": 24,
+    "changed_original_entries": [],
+    "new_keys": [
+      "dechter1991temporal"
+    ],
+    "unresolved_citation_keys": [],
+    "uncited_entries": [],
+    "citation_commands": 28,
+    "cited_keys": 25,
+    "claim_scope_errors": [],
+    "reference_audit_sources": {
+      "amarilli2017order": "pass5/audit/citations/second/audit.json",
+      "amarilli2017topk": "pass5/audit/citations/second/audit.json",
+      "an2026fresco": "pass5/audit/citations/second/audit.json",
+      "anselma2013indeterminacy": "pass5/audit/citations/second/audit.json",
+      "cao2026re3": "pass5/audit/citations/second/audit.json",
+      "chen2021timeqa": "pass5/audit/citations/second/audit.json",
+      "chen2026defuzzrag": "pass5/audit/citations/second/audit.json",
+      "dechter1991temporal": "pass6/audit/citations/second_revision_audit.json",
+      "dhingra2022templama": "pass5/audit/citations/second/audit.json",
+      "fan2012currency": "pass5/audit/citations/second/audit.json",
+      "feng2023ranking": "pass5/audit/citations/second/audit.json",
+      "graphiti2026source": "pass5/audit/citations/second/audit.json",
+      "hua2008ranking": "pass5/audit/citations/second/audit.json",
+      "karp1972reducibility": "pass5/audit/citations/second/audit.json",
+      "lau2025tarag": "pass5/audit/citations/second/audit.json",
+      "lewis2020rag": "pass5/audit/citations/second/audit.json",
+      "li2025erase": "pass5/audit/citations/second/audit.json",
+      "liska2022streamingqa": "pass5/audit/citations/second/audit.json",
+      "qwen2024model": "pass5/audit/citations/second/audit.json",
+      "rasmussen2025zep": "pass5/audit/citations/second/audit.json",
+      "robertson1995bm25": "pass5/audit/citations/second/audit.json",
+      "vu2024freshllms": "pass5/audit/citations/second/audit.json",
+      "wang2026iarag": "pass5/audit/citations/second/audit.json",
+      "yadav2026memstrata": "pass5/audit/citations/second/audit.json",
+      "zerhoudi2026nuggetindex": "pass5/audit/citations/second/audit.json"
+    },
+    "citations": [
+      {
+        "file": "pass6/paper/sections/appendices.tex",
+        "line": 206,
+        "keys": [
+          "chen2021timeqa"
+        ],
+        "context": "A Warburg Institute paragraph lists Henri Frankfort, Gertrud Bing, and Ernst Gombrich as successive directors~\\citep{chen2021timeqa}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/appendix_hardness.tex",
+        "line": 3,
+        "keys": [
+          "karp1972reducibility"
+        ],
+        "context": "We reduce Set Cover~\\citep{karp1972reducibility} to possible top-$k$ membership.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/constrained.tex",
+        "line": 4,
+        "keys": [
+          "dechter1991temporal"
+        ],
+        "context": "We represent these dependencies as difference constraints, following temporal constraint networks~\\citep{dechter1991temporal}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/introduction.tex",
+        "line": 12,
+        "keys": [
+          "lewis2020rag"
+        ],
+        "context": "Retrieval-augmented systems select passages before generating answers~\\citep{lewis2020rag}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/introduction.tex",
+        "line": 26,
+        "keys": [
+          "rasmussen2025zep",
+          "zerhoudi2026nuggetindex"
+        ],
+        "context": "Temporal memories already preserve histories and invalidate replaced facts~\\citep{rasmussen2025zep,zerhoudi2026nuggetindex}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/introduction.tex",
+        "line": 27,
+        "keys": [
+          "chen2026defuzzrag",
+          "wang2026iarag"
+        ],
+        "context": "Interval retrievers also handle fuzzy dates~\\citep{chen2026defuzzrag,wang2026iarag}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/protocol.tex",
+        "line": 5,
+        "keys": [
+          "chen2021timeqa"
+        ],
+        "context": "The natural-source experiments use original TimeQA paragraphs~\\citep{chen2021timeqa}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/protocol.tex",
+        "line": 39,
+        "keys": [
+          "robertson1995bm25"
+        ],
+        "context": "It removes matched title words before BM25 scoring~\\citep{robertson1995bm25}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/protocol.tex",
+        "line": 60,
+        "keys": [
+          "qwen2024model"
+        ],
+        "context": "We run Qwen2.5-3B-Instruct with official Q4\\_K\\_M weights and a pinned CPU runtime~\\citep{qwen2024model}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 5,
+        "keys": [
+          "rasmussen2025zep",
+          "graphiti2026source"
+        ],
+        "context": "Graphiti closes earlier facts through direct contradictory evidence~\\citep{rasmussen2025zep,graphiti2026source}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 6,
+        "keys": [
+          "yadav2026memstrata"
+        ],
+        "context": "MemStrata applies deterministic supersession to structured keys~\\citep{yadav2026memstrata}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 7,
+        "keys": [
+          "li2025erase"
+        ],
+        "context": "ERASE edits stored fact histories as new documents arrive~\\citep{li2025erase}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 8,
+        "keys": [
+          "zerhoudi2026nuggetindex"
+        ],
+        "context": "NuggetIndex attaches provenance and temporal states to atomic records~\\citep{zerhoudi2026nuggetindex}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 11,
+        "keys": [
+          "cao2026re3"
+        ],
+        "context": "Re$^3$ combines fact grouping, conflict filtering, and temporal relevance~\\citep{cao2026re3}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 12,
+        "keys": [
+          "chen2026defuzzrag"
+        ],
+        "context": "DeFuzzRAG adapts granularity and filters document scopes by query overlap~\\citep{chen2026defuzzrag}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 13,
+        "keys": [
+          "wang2026iarag"
+        ],
+        "context": "IA-RAG represents intervals and refines uncertain event dates~\\citep{wang2026iarag}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 14,
+        "keys": [
+          "lau2025tarag"
+        ],
+        "context": "TA-RAG retrieves evidence across timelines~\\citep{lau2025tarag}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 18,
+        "keys": [
+          "anselma2013indeterminacy"
+        ],
+        "context": "\\citet{anselma2013indeterminacy} study valid-time indeterminacy and compact representations.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 19,
+        "keys": [
+          "fan2012currency"
+        ],
+        "context": "\\citet{fan2012currency} study data currency without reliable timestamps.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 20,
+        "keys": [
+          "amarilli2017order"
+        ],
+        "context": "\\citet{amarilli2017order} study possible ordered answers and query-result certainty.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 23,
+        "keys": [
+          "hua2008ranking"
+        ],
+        "context": "\\citet{hua2008ranking} study top-$k$ membership probabilities under uncertain record membership.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 24,
+        "keys": [
+          "amarilli2017topk"
+        ],
+        "context": "\\citet{amarilli2017topk} study unknown ranking values constrained by a partial order.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 25,
+        "keys": [
+          "feng2023ranking"
+        ],
+        "context": "\\citet{feng2023ranking} bound ranking results and SQL window queries.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 29,
+        "keys": [
+          "chen2021timeqa"
+        ],
+        "context": "TimeQA supplies natural passages and questions about dated histories~\\citep{chen2021timeqa}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 30,
+        "keys": [
+          "dhingra2022templama"
+        ],
+        "context": "TempLAMA evaluates factual answers at yearly resolution~\\citep{dhingra2022templama}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 31,
+        "keys": [
+          "liska2022streamingqa",
+          "vu2024freshllms"
+        ],
+        "context": "StreamingQA and FreshLLMs study changing information access~\\citep{liska2022streamingqa,vu2024freshllms}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/related.tex",
+        "line": 32,
+        "keys": [
+          "an2026fresco"
+        ],
+        "context": "FRESCO distinguishes obsolete evidence from current but insufficient passages~\\citep{an2026fresco}.",
+        "scope_status": "supported"
+      },
+      {
+        "file": "pass6/paper/sections/sources.tex",
+        "line": 21,
+        "keys": [
+          "chen2021timeqa"
+        ],
+        "context": "The Chicago Stadium passage in TimeQA, for example, gives overlapping tenancies for two teams~\\citep{chen2021timeqa}.",
+        "scope_status": "supported"
+      }
+    ]
+  },
+  "prose": {
+    "abstract_word_count": 196,
+    "abstract_limit": 200,
+    "main_files_checked": [
+      "abstract",
+      "introduction",
+      "sources",
+      "theory",
+      "method",
+      "refinement",
+      "constrained",
+      "protocol",
+      "results",
+      "results_replacement",
+      "results_constraints",
+      "reader_results",
+      "related",
+      "conclusion"
+    ],
+    "main_table_captions_checked": [
+      "replacement",
+      "hybrid",
+      "reader_main"
+    ],
+    "completed_sentences_checked": 406,
+    "sentences_over_20_words": [],
+    "counting_rule": "Inline mathematics and cross-references count as one token. Citation markup contributes no prose words. Headings and displayed formulas are excluded. Hyphenated terms follow whitespace tokenization. Main figure and table captions are included.",
+    "em_dashes_in_main": 0,
+    "reader_appendix_sentences_checked": 51,
+    "reader_appendix_sentences_over_20_words": [],
+    "reader_appendix_em_dashes": 0
+  },
+  "verified_result_interpretations": [
+    "The abstract separates 309 modeled contexts from the complete 3,178-question evaluation.",
+    "The 34/73 replacement contrast uses the source-order view at budget five.",
+    "The 42 false stability calls use the same source-order comparison at budget one.",
+    "The 100,800 support checks, 30,240 context checks, and 20 inconsistent models match saved controlled results.",
+    "The 929 additional stable contexts sum the three predicate strata: 172 appointment, 312 overlap, and 445 throughout.",
+    "The 59.79% reduction compares 13,343 hybrid claim queries against 33,180 lazy exact queries.",
+    "The 55.67% reduction compares 62,952 hybrid feasibility calls against 141,992 lazy exact calls.",
+    "The single-witness grid intentionally isolates 476 cases requiring both witnesses. It does not estimate natural prevalence.",
+    "The ranking paragraph assigns retrieval gains to relevance ranking. It does not assign these gains to the certificate.",
+    "All 234 new reader outputs pass the unchanged parser, stop normally, and remain in scoring denominators.",
+    "The primary ranking contrast is 11.11 strict F1 points with article-cluster interval [3.33,19.44]; it is attributed to ranking.",
+    "Possible and guaranteed contexts are identical for all 60 primary questions. Deduplicated requests give identical primary answers.",
+    "Seven diagnostic questions change contexts and four change valid answer sets. One gains strict F1 and three remain strict zero ties.",
+    "The diagnostic gain is 9.09 strict F1 points with interval [0.00,30.00], retaining the historically selected eleven-question cohort.",
+    "Primary target cardinalities are 56 single-answer and four two-answer questions. The Russian prediction receives 2/3 strict F1 against British and Russian.",
+    "All twenty generated metric rows match the result card, and both paper tables exactly match their generated sources."
+  ],
+  "findings": [
+    {
+      "id": "E1",
+      "priority": "recommended",
+      "location": "sections/results.tex, source coverage paragraph",
+      "issue": "The statement that literal grounding is the extraction bottleneck generalizes beyond the six-paragraph learned pilot. The deterministic adapter also has semantic and coverage limits.",
+      "suggestion": "The learned pilot exposes a grounding bottleneck.",
+      "status": "resolved in current paper"
+    },
+    {
+      "id": "E2",
+      "priority": "recommended",
+      "location": "sections/refinement.tex, final sentence",
+      "issue": "Tractable witnessing belongs to the independent compiler. The generalized criterion also permits constrained support, whose branch search can be exponential. The sentence could inherit the broader context without its computational scope.",
+      "suggestion": "Under independent bounds, stability and its witnessing timelines remain tractable without computing every attainable context member.",
+      "status": "resolved in current paper"
+    },
+    {
+      "id": "E3",
+      "priority": "optional space saving",
+      "location": "sections/results.tex, final sentence before reader results",
+      "issue": "The 3,109-query agreement repeats a subset of the 18,654 query-ranking agreement already stated.",
+      "suggestion": "Delete the final 3,109-query sentence.",
+      "status": "resolved in current paper"
+    },
+    {
+      "id": "E4",
+      "priority": "optional space saving",
+      "location": "sections/results.tex, final sentence of the automatic-track illustration",
+      "issue": "The separate replacement challenge is already introduced and reported in the preceding results subsection.",
+      "suggestion": "Delete the repeated statement that the separate source challenge tests replacement.",
+      "status": "resolved in current paper"
+    },
+    {
+      "id": "E5",
+      "priority": "optional clarity",
+      "location": "sections/abstract.tex, selective solving result",
+      "issue": "Exact queries may suggest user questions. The measured unit is an exact claim-support query.",
+      "suggestion": "Use exact claim checks when naming the 59.79% reduction.",
+      "status": "resolved in current paper"
+    },
+    {
+      "id": "E6",
+      "priority": "optional clarity",
+      "location": "sections/results.tex, 54 of sixty source judgments",
+      "issue": "The main sentence does not identify this separate source audit as model-assisted. The appendix supplies this detail.",
+      "suggestion": "A model-assisted source audit accepts 54 of 60 event interpretations.",
+      "status": "resolved in current paper"
+    },
+    {
+      "id": "R1",
+      "priority": "minor transcription",
+      "location": "sections/appendix_reader.tex, Diop example",
+      "issue": "The earlier prose omitted (PS) from the archived literal prediction Socialist Party (PS).",
+      "status": "resolved in current paper"
+    }
+  ],
+  "file_sha256": {
+    "pass6/paper/refs.bib": "a6f122e1f6a33f29d20a3fbda243c7de5d297cea0900252893872042d2420df0",
+    "pass5/paper/refs.bib": "b53ec72bf39ac7ed88d93b039011fc68fc417ee71ffdc37237f40e2e0a7c56c7",
+    "pass5/audit/citations/second/audit.json": "aa7217f541f26f97badc6e9acee21f3790a4ae37aacbc4e11abd56cdf790599f",
+    "pass6/audit/citations/second_revision_audit.json": "e78844a80f694306f0ca13d2e9f78e3bfd2e846110e5a7852bf6d344e5b28f78",
+    "pass6/replacement/order_runs/order_summary.json": "3d4bf6bacca648625c18963294674f3b6d616d421aa85cde7b3839acc96bcb6a",
+    "pass6/modeling/results.json": "22773f18e3a942e49c9210ee798473c13d3b96d2bfc10925de42c0738df8f7c6",
+    "pass6/modeling/lazy_baseline_results.json": "e435e5916e193c7f00d209e80c898e1023eeae8ebdb786e04e92c6dfcb8bb553",
+    "pass6/paper/sections/abstract.tex": "70c3f09817bf872d95f6923bdbb3ead56a2d5a6cf90d670fd4fdb064dad5812b",
+    "pass6/paper/sections/introduction.tex": "af1193961647817e43a129b21fb48696ff83828d042b41d72adcdca23615981a",
+    "pass6/paper/sections/sources.tex": "788c8f8140a60ca060dfd0da85bb6824ea97477c23a21617f55bbf539f23d3c8",
+    "pass6/paper/sections/theory.tex": "7ba546e71d88a4afa5f973f7dd605946932aaf65d7f5665094fe7d53600fbd8b",
+    "pass6/paper/sections/method.tex": "c4b52b146296c146f621f93d094badf61224e70e265e71982b0fa1e7e8c7a21a",
+    "pass6/paper/sections/refinement.tex": "73744c12494e41b9241ab4e4f4510fb200c7bc250bc33de19a25409d894898e7",
+    "pass6/paper/sections/constrained.tex": "b4bc254f0ad6896a29a0518b4129d7e018eec3b3ab63b325662dc09d3298602c",
+    "pass6/paper/sections/protocol.tex": "86b76a10e3f68831ca5a9260ce0f115af9a66c99f71762aa65cb4fad959d9186",
+    "pass6/paper/sections/results.tex": "6ba39ff97aca21d0d837bfd96d8fc5740135aa1dba05f514caedd90e2729ce17",
+    "pass6/paper/sections/results_replacement.tex": "99312dd9f395fb418a811303e2fc860367814a21d5f9a2b15fedb3fccfa65100",
+    "pass6/paper/sections/results_constraints.tex": "c38c2075ddde440ba86e072259c0c99adfb98311acb736c9d84e0d83f5d62c9e",
+    "pass6/paper/sections/related.tex": "3ec11c6d30c4947522b7aca756b3068cb0b3ef04bc0054c30531769151f94285",
+    "pass6/paper/sections/conclusion.tex": "7ca55a84f37e0951b3e3938349d7b6b225b9313a187de9f3167479b005207303",
+    "pass6/paper/sections/reader_results.tex": "5ce622c65f3392fcff0ecb8c01e66aea2822f33655f7a3029a8aa077de64780c",
+    "pass6/paper/tables/replacement.tex": "234a405a3c5a771558bb6fcb329deaba74629405650430c8a1c4f63edbf702e6",
+    "pass6/paper/tables/hybrid.tex": "9ead353e0c20a3e89c815fe373f1a0e6641a2c808f18992b4d966fbdb80ffac4",
+    "pass6/paper/tables/reader_main.tex": "edcbb64df483f5a4a49021f3b85d4b830e3f1ce0ee09b533e2d73c67395e4d8b",
+    "pass6/paper/sections/appendix_reader.tex": "8fd693de2e975115b6e5f4d1ff82a548eccc9d52069a046e9340da463f382866",
+    "pass6/paper/tables/reader_appendix.tex": "b5ca206905b853db12d200cb36186e3278f441d79d34c6d7579f2bd2ba5d1b0e",
+    "pass6/reader/result_card.json": "23b7bc8d3bf3b802905769f5ce9318c747eed85961c9cbda6a0208687cbd6bfb",
+    "pass6/reader/paper/reader_numbers.json": "3e9e805a83a7fbbf293d6472469fa44a1580ea0c0dccdf13fd3fd4f9cd6e3850",
+    "pass6/reader/protocol.json": "9986f7a5f457f776e15788cac26d72ed2d062cec14032e0cbe06476dc21ebb4d",
+    "pass6/reader/pilot_result.json": "0c29ee0acbdcd91e5d03865ea12c38f156c0f87b53825cdceddb2692a2814c4b",
+    "pass6/paper/main.pdf": "c0cb26ce6e57ccaa6651d11daf3513ad77eb671625a92d2078f3e3f81e17b967",
+    "pass6/paper/sections/appendix_pipeline.tex": "93727d28b059398a4c0f669c52b5f09c2111af335c517fee57bf2eccdb025892"
+  },
+  "reader_verification": {
+    "status": "passed",
+    "source_files": [
+      "pass6/reader/result_card.json",
+      "pass6/reader/paper/reader_numbers.json",
+      "pass6/reader/human/answer_cardinality_rows.jsonl",
+      "pass6/reader/human_diagnostic/answer_cardinality_rows.jsonl",
+      "pass6/reader/protocol.json",
+      "pass6/reader/pilot_result.json"
+    ],
+    "unique_requests": 234,
+    "valid_unique_requests": 234,
+    "logical_conditions": 710,
+    "main_and_appendix_tables_match_generated_copies": {
+      "reader_main": true,
+      "reader_appendix": true
+    },
+    "all_twenty_metric_rows_match_result_card": true,
+    "primary_possible_guaranteed_different_contexts": 0,
+    "diagnostic_possible_guaranteed_different_contexts": 7,
+    "primary_title_minus_original_year_f1": {
+      "delta": 0.11111111111111112,
+      "ci95": [
+        0.03333333333333333,
+        0.19444444444444445
+      ],
+      "article_clusters": 55,
+      "repetitions": 2000,
+      "seed": 20261006
+    },
+    "diagnostic_guaranteed_minus_possible_f1": {
+      "delta": 0.09090909090909091,
+      "ci95": [
+        -0.0,
+        0.3
+      ],
+      "article_clusters": 9,
+      "repetitions": 2000,
+      "seed": 20261006
+    },
+    "primary_target_cardinalities": {
+      "1": 56,
+      "2": 4
+    },
+    "partial_match": {
+      "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+      "method": "no_temporal_filter",
+      "target_cardinality": 2,
+      "predicted_cardinality": 1,
+      "target_answers": [
+        "British",
+        "Russian"
+      ],
+      "predicted_answers": [
+        "Russian"
+      ],
+      "valid": true,
+      "exact_match": 0.0,
+      "strict_set_f1": 0.6666666666666666,
+      "soft_set_f1": 0.6666666666666666
+    },
+    "changed_diagnostic_answers": [
+      {
+        "question_id": "/wiki/Atlético_Madrid#P286#annotation5",
+        "possible_answers": [
+          "Åge Hareide"
+        ],
+        "guaranteed_answers": [],
+        "possible_f1": 0.0,
+        "guaranteed_f1": 0.0
+      },
+      {
+        "question_id": "/wiki/Mbaye-Jacques_Diop#P102#annotation1",
+        "possible_answers": [
+          "Party for Progress and Citizenship (PPC)"
+        ],
+        "guaranteed_answers": [
+          "Socialist Party (PS)"
+        ],
+        "possible_f1": 0.0,
+        "guaranteed_f1": 0.0
+      },
+      {
+        "question_id": "/wiki/Katherine_Maher#P108#annotation3",
+        "possible_answers": [
+          "chief communications officer of the Wikimedia Foundation"
+        ],
+        "guaranteed_answers": [
+          "Wikimedia Foundation"
+        ],
+        "possible_f1": 0.0,
+        "guaranteed_f1": 1.0
+      },
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation0",
+        "possible_answers": [
+          "Minister of Conservation"
+        ],
+        "guaranteed_answers": [
+          "Minister of Housing"
+        ],
+        "possible_f1": 0.0,
+        "guaranteed_f1": 0.0
+      }
+    ],
+    "numeric_errors": []
+  },
+  "refreshed_utc": "2026-10-07T08:15:21.480433+00:00",
+  "unresolved_findings": [],
+  "pagination_revision_note": "Related-work descriptions shortened and repeated distinctions removed without changing citation keys or attribution scope.",
+  "final_appendix_revision_note": "The explanatory G.8 sentence links Tables 9–11. Main prose, citation keys, and result claims are unchanged. Final appendix visual review passes for the current PDF hash."
+}

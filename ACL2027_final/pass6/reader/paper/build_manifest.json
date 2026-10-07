@@ -1,0 +1,11 @@
+{
+  "result_card_sha256": "23b7bc8d3bf3b802905769f5ce9318c747eed85961c9cbda6a0208687cbd6bfb",
+  "builder_sha256": "2e388bbb89003249d1f5074493b14295181dc0b39c337dac443296b08d489d3c",
+  "draft_word_count": 128,
+  "outputs": {
+    "reader_main.tex": "edcbb64df483f5a4a49021f3b85d4b830e3f1ce0ee09b533e2d73c67395e4d8b",
+    "reader_appendix.tex": "b5ca206905b853db12d200cb36186e3278f441d79d34c6d7579f2bd2ba5d1b0e",
+    "reader_results_draft.tex": "9ff47c24ce069756ea83f9cbfde73fbac590c4a8a4453893eb295c9fa0523f07",
+    "reader_numbers.json": "3e9e805a83a7fbbf293d6472469fa44a1580ea0c0dccdf13fd3fd4f9cd6e3850"
+  }
+}

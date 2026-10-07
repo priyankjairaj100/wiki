@@ -1,0 +1,20 @@
+{
+  "stage": "Source annotation before certificate outcomes and independent review",
+  "created_utc": "2026-10-07T07:18:25.755669+00:00",
+  "reviewed_indices": [
+    256,
+    383
+  ],
+  "reviewed_paragraphs": 128,
+  "candidate_graphs": 7,
+  "candidate_claims": 15,
+  "candidate_edges": 9,
+  "assessment": "model-assisted source interpretation",
+  "files": {
+    "pass6/audit/source_challenge_second/build_extra_b.py": "16149f33804fea4b193378f6e721194c768834d9110b0798a37ab8daaf7faed3",
+    "pass6/replacement/expanded_sample.jsonl": "ff9496fc0e0b603e9b1aeb1a4c4c6a5faa7093d89171f37774a98bebe3955a55",
+    "pass6/replacement/expansion_freeze.json": "d34967f3d63fd5445caffbf4212b933cb11492515338a8b21f46f0418b6cfdee",
+    "pass6/replacement/extra_judgments_b.jsonl": "51d0e1dbbf2df8556d25ce68601e7596f5e5a49697faac83a3424b84247b21ef",
+    "pass6/replacement/extra_candidates_b.jsonl": "db341b97c59b5981231845f150ca2d02090ebc20fed611960a65293b2c44ff61"
+  }
+}

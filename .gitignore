@@ -82,6 +82,16 @@ __pycache__/
 /ACL2027_final/pass5/protocol/reader_primary_scored/predictions_with_reader.jsonl
 /ACL2027_final/pass5/retrieval/secondary_human/questions.jsonl
 /ACL2027_final/pass5/retrieval/secondary_validation/questions.jsonl
+/ACL2027_final/pass6/audit/editorial/question_wording.jsonl
+/ACL2027_final/pass6/modeling/context_decisions.jsonl
+/ACL2027_final/pass6/modeling/hybrid_decisions.jsonl
+/ACL2027_final/pass6/modeling/lazy_baseline_decisions.jsonl
+/ACL2027_final/pass6/modeling/support_decisions.jsonl
+/ACL2027_final/pass6/modeling/two_witness_decisions.jsonl
+/ACL2027_final/pass6/reader/human/reader_jobs.jsonl
+/ACL2027_final/pass6/reader/human/scored/predictions_with_reader.jsonl
+/ACL2027_final/pass6/reader/reader_input.jsonl
+/ACL2027_final/pass6/reader/reader_output.jsonl
 /ACL2027_final/prior_pass1/experiments/results/templama_predictions.jsonl
 /ACL2027_final/prior_pass1/experiments/results/templama_source_rows.json
 /ACL2027_final/prior_pass1/experiments/results/templama_source_set_predictions.jsonl

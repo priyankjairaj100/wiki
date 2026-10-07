@@ -1,0 +1,338 @@
+{
+  "no_temporal_filter": {
+    "partial_strict_f1": 0,
+    "predicted_cardinality": {
+      "0": 35,
+      "1": 25
+    },
+    "multitarget": [
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Ich_bin_ein_Star_\u2013_Holt_mich_hier_raus!#P371#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Peter_Beattie#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      }
+    ]
+  },
+  "earliest_completion": {
+    "partial_strict_f1": 0,
+    "predicted_cardinality": {
+      "0": 36,
+      "1": 24
+    },
+    "multitarget": [
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Ich_bin_ein_Star_\u2013_Holt_mich_hier_raus!#P371#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Peter_Beattie#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      }
+    ]
+  },
+  "midpoint_completion": {
+    "partial_strict_f1": 0,
+    "predicted_cardinality": {
+      "0": 36,
+      "1": 24
+    },
+    "multitarget": [
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Ich_bin_ein_Star_\u2013_Holt_mich_hier_raus!#P371#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Peter_Beattie#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      }
+    ]
+  },
+  "latest_completion": {
+    "partial_strict_f1": 0,
+    "predicted_cardinality": {
+      "0": 36,
+      "1": 24
+    },
+    "multitarget": [
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Ich_bin_ein_Star_\u2013_Holt_mich_hier_raus!#P371#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Peter_Beattie#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      }
+    ]
+  },
+  "interval_outer_control": {
+    "partial_strict_f1": 0,
+    "predicted_cardinality": {
+      "0": 36,
+      "1": 24
+    },
+    "multitarget": [
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Ich_bin_ein_Star_\u2013_Holt_mich_hier_raus!#P371#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Peter_Beattie#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      }
+    ]
+  },
+  "possible_support": {
+    "partial_strict_f1": 0,
+    "predicted_cardinality": {
+      "0": 36,
+      "1": 24
+    },
+    "multitarget": [
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Ich_bin_ein_Star_\u2013_Holt_mich_hier_raus!#P371#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Peter_Beattie#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      }
+    ]
+  },
+  "guaranteed_support": {
+    "partial_strict_f1": 0,
+    "predicted_cardinality": {
+      "0": 36,
+      "1": 24
+    },
+    "multitarget": [
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Ich_bin_ein_Star_\u2013_Holt_mich_hier_raus!#P371#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Peter_Beattie#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      }
+    ]
+  },
+  "latest_mentioned_year_top20": {
+    "partial_strict_f1": 0,
+    "predicted_cardinality": {
+      "0": 30,
+      "1": 30
+    },
+    "multitarget": [
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Ich_bin_ein_Star_\u2013_Holt_mich_hier_raus!#P371#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Peter_Beattie#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": [
+          "Premier"
+        ]
+      },
+      {
+        "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      }
+    ]
+  },
+  "original_bm25": {
+    "partial_strict_f1": 0,
+    "predicted_cardinality": {
+      "0": 34,
+      "1": 26
+    },
+    "multitarget": [
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Ich_bin_ein_Star_\u2013_Holt_mich_hier_raus!#P371#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Peter_Beattie#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": [
+          "Premier of Queensland"
+        ]
+      },
+      {
+        "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      }
+    ]
+  },
+  "original_bm25_latestyear": {
+    "partial_strict_f1": 0,
+    "predicted_cardinality": {
+      "1": 24,
+      "0": 36
+    },
+    "multitarget": [
+      {
+        "question_id": "/wiki/Helen_Clark#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Ich_bin_ein_Star_\u2013_Holt_mich_hier_raus!#P371#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      },
+      {
+        "question_id": "/wiki/Peter_Beattie#P39#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": [
+          "Former Australian politician Peter Beattie held the role of State Leader of the Labor Party from 1996 to 1998."
+        ]
+      },
+      {
+        "question_id": "/wiki/Vladimir_Bukovsky#P27#annotation1",
+        "em": 0.0,
+        "f1": 0.0,
+        "prediction": []
+      }
+    ]
+  }
+}

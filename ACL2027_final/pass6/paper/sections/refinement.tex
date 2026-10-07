@@ -1,0 +1,43 @@
+\subsection{Constructing and resolving an unstable context}
+Let $U=\operatorname{Top}_k(P(Q)\cup F)\setminus(H(Q)\cup F)$.
+These claims have unresolved support and enter the possible context.
+Their status determines whether date uncertainty can change retrieval.
+
+\begin{theorem}[Constructive instability and refinement]
+\label{thm:refinement}
+Under independent date bounds, if $U\ne\varnothing$, we construct two complete date assignments with different contexts in $O(n)$ time.
+Here, $n$ counts the event dates.
+Any stabilizing date refinement makes each claim in $U$ guaranteed or impossible.
+\end{theorem}
+
+Each $c\in U$ has fewer than $k$ possible claims above it.
+Any timeline supporting $c$ therefore selects it.
+We place each accepted replacement of $c$ no later than $c$ or after a supporting query time.
+A second timeline places $c$ after the query, or a direct witness by the query start.
+Date refinement can only remove possible claims.
+Thus a remaining possible pivot cannot leave the possible context through rank changes.
+It must become guaranteed.
+The assignments use only event bounds and the compact certificate.
+Let $N$ count ranked excerpts, including fallback text.
+Full context replay takes $O(n+m+N)$ time with the accepted pair list.
+Appendix~\ref{app:refinement} gives the construction and proof.
+
+The witnesses locate the start or replacement date requiring refinement.
+New unresolved claims can enter after current pivots disappear, so refinement recomputes the frontier.
+
+\subsection{A tractability boundary}
+Possible support concerns one claim at a time.
+Possible context membership also depends on which higher-ranked claims coexist.
+We ask whether a given claim enters the context under \emph{any} allowed timeline.
+\begin{theorem}[Possible context membership]
+\label{thm:hardness}
+Possible context membership is NP-hard when $k$ is input; this result does not cover the fixed budget $k=5$.
+\end{theorem}
+The reduction uses a point query and a bipartite gate with one edge layer.
+Appendix~\ref{app:hardness} gives the proof.
+
+The appendix also gives a reduction with every start no later than the query.
+Our stability test instead needs one unresolved claim inside the possible prefix.
+Its rank guarantees selection whenever it has support.
+The test needs only individual support, even when shared events couple claim eligibility.
+Under independent bounds, this certifies stability without computing every attainable context member.

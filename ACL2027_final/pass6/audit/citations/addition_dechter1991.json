@@ -1,0 +1,28 @@
+{
+  "key": "dechter1991temporal",
+  "title": "Temporal constraint networks",
+  "authors": [
+    "Rina Dechter",
+    "Itay Meiri",
+    "Judea Pearl"
+  ],
+  "year": 1991,
+  "journal": "Artificial Intelligence",
+  "volume": "49",
+  "number": "1\u20133",
+  "pages": "61\u201395",
+  "doi": "10.1016/0004-3702(91)90006-6",
+  "verified_primary_sources": [
+    {
+      "url": "https://ics.uci.edu/~dechter/publications.html",
+      "locator": "R10; author publication list; volume49,1991,pages61\u201395"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/0004370291900066/pdf",
+      "locator": "publisher indexed metadata and abstract; May1991,volume49 issues1\u20133,pages61\u201395; DOI"
+    }
+  ],
+  "claim": "Standard temporal constraint networks represent event-time differences and support feasibility checking. Our paper uses this established engine within its own certificate screen.",
+  "access_note": "Author publication page retrieved. Publisher metadata retrieved through search; direct publisher open returned403.",
+  "bibliographic_status": "checked"
+}

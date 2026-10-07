@@ -1,0 +1,284 @@
+{
+  "revision": "pass6",
+  "status": "ready",
+  "required_components": [
+    "constrained_oracle",
+    "two_witness_grid",
+    "hybrid_screening",
+    "lazy_exact_baseline",
+    "replacement_challenge",
+    "reader_revision",
+    "editorial_coverage",
+    "paper_tables"
+  ],
+  "components": [
+    {
+      "name": "constrained_oracle",
+      "command": [
+        "pass6/modeling/run_benchmark.py",
+        "--output",
+        "{output}"
+      ],
+      "artifacts": [
+        {
+          "saved": "pass6/modeling/support_decisions.jsonl",
+          "generated": "support_decisions.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/modeling/context_decisions.jsonl",
+          "generated": "context_decisions.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/modeling/case_results.jsonl",
+          "generated": "case_results.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/modeling/results.json",
+          "generated": "results.json",
+          "comparison": "json",
+          "ignore_keys": [
+            "runtime_seconds",
+            "python",
+            "numpy"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "two_witness_grid",
+      "command": [
+        "pass6/modeling/two_witness_grid.py",
+        "--output",
+        "{output}"
+      ],
+      "artifacts": [
+        {
+          "saved": "pass6/modeling/two_witness_decisions.jsonl",
+          "generated": "two_witness_decisions.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/modeling/two_witness_results.json",
+          "generated": "two_witness_results.json",
+          "comparison": "json"
+        }
+      ]
+    },
+    {
+      "name": "hybrid_screening",
+      "command": [
+        "pass6/modeling/run_hybrid.py",
+        "--output",
+        "{output}"
+      ],
+      "artifacts": [
+        {
+          "saved": "pass6/modeling/hybrid_decisions.jsonl",
+          "generated": "hybrid_decisions.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/modeling/hybrid_results.json",
+          "generated": "hybrid_results.json",
+          "comparison": "json"
+        }
+      ]
+    },
+    {
+      "name": "lazy_exact_baseline",
+      "command": [
+        "pass6/modeling/run_lazy_baseline.py",
+        "--output",
+        "{output}"
+      ],
+      "artifacts": [
+        {
+          "saved": "pass6/modeling/lazy_baseline_decisions.jsonl",
+          "generated": "lazy_baseline_decisions.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/modeling/lazy_baseline_results.json",
+          "generated": "lazy_baseline_results.json",
+          "comparison": "json"
+        }
+      ]
+    },
+    {
+      "name": "replacement_challenge",
+      "command": [
+        "pass6/replacement/verify_saved.py",
+        "--output",
+        "{output}/verification.json"
+      ],
+      "artifacts": [
+        {
+          "saved": "pass6/replacement/verification.json",
+          "generated": "verification.json",
+          "comparison": "json"
+        }
+      ],
+      "scope": "The verifier checks frozen source membership and reruns both the independent-date and known-order views. It compares all eight saved output files exactly and replays all witnesses."
+    },
+    {
+      "name": "editorial_coverage",
+      "command": [
+        "pass6/audit/editorial/coverage_wording_audit.py",
+        "--output-dir",
+        "{output}"
+      ],
+      "artifacts": [
+        {
+          "saved": "pass6/audit/editorial/coverage_wording.json",
+          "generated": "coverage_wording.json",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/audit/editorial/question_wording.jsonl",
+          "generated": "question_wording.jsonl",
+          "comparison": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "reader_revision",
+      "command": [
+        "pass6/reader/analyze.py",
+        "--output",
+        "{output}"
+      ],
+      "artifacts": [
+        {
+          "saved": "pass6/reader/result_card.json",
+          "generated": "result_card.json",
+          "comparison": "json"
+        },
+        {
+          "saved": "pass6/reader/verification.json",
+          "generated": "verification.json",
+          "comparison": "json"
+        },
+        {
+          "saved": "pass6/reader/reader_structured.tex",
+          "generated": "reader_structured.tex",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/human/scored/scored_questions.jsonl",
+          "generated": "human/scored/scored_questions.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/human/scored/predictions_with_reader.jsonl",
+          "generated": "human/scored/predictions_with_reader.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/human/scored/reader_parse_audit.jsonl",
+          "generated": "human/scored/reader_parse_audit.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/human/cardinality_and_replication.json",
+          "generated": "human/cardinality_and_replication.json",
+          "comparison": "json"
+        },
+        {
+          "saved": "pass6/reader/human/answer_cardinality_rows.jsonl",
+          "generated": "human/answer_cardinality_rows.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/human_diagnostic/scored/scored_questions.jsonl",
+          "generated": "human_diagnostic/scored/scored_questions.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/human_diagnostic/scored/predictions_with_reader.jsonl",
+          "generated": "human_diagnostic/scored/predictions_with_reader.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/human_diagnostic/scored/reader_parse_audit.jsonl",
+          "generated": "human_diagnostic/scored/reader_parse_audit.jsonl",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/human_diagnostic/cardinality_and_replication.json",
+          "generated": "human_diagnostic/cardinality_and_replication.json",
+          "comparison": "json"
+        },
+        {
+          "saved": "pass6/reader/human_diagnostic/answer_cardinality_rows.jsonl",
+          "generated": "human_diagnostic/answer_cardinality_rows.jsonl",
+          "comparison": "bytes"
+        }
+      ]
+    },
+    {
+      "name": "paper_tables",
+      "artifacts": [
+        {
+          "saved": "pass6/paper/tables/hybrid.tex",
+          "generated": "hybrid.tex",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/paper/tables/replacement.tex",
+          "generated": "replacement.tex",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/paper/reader_main.tex",
+          "generated": "reader_main.tex",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/paper/reader_appendix.tex",
+          "generated": "reader_appendix.tex",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/paper/reader_results_draft.tex",
+          "generated": "reader_results_draft.tex",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/paper/reader_numbers.json",
+          "generated": "reader_numbers.json",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/reader/paper/build_manifest.json",
+          "generated": "build_manifest.json",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/paper/tables/reader_main.tex",
+          "generated": "reader_main.tex",
+          "comparison": "bytes"
+        },
+        {
+          "saved": "pass6/paper/tables/reader_appendix.tex",
+          "generated": "reader_appendix.tex",
+          "comparison": "bytes"
+        }
+      ],
+      "commands": [
+        [
+          "pass6/pipeline/build_tables.py",
+          "--output",
+          "{output}"
+        ],
+        [
+          "pass6/reader/build_paper_tables.py",
+          "--output",
+          "{output}"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "primary_requests": 194,
+  "diagnostic_requests": 40,
+  "valid_requests": 234,
+  "unique_requests": 234,
+  "primary_possible_guaranteed_different_contexts": 0,
+  "diagnostic_possible_guaranteed_different_contexts": 7,
+  "diagnostic_answer_changes": 4,
+  "diagnostic_changed_both_valid": 4,
+  "diagnostic_guaranteed_minus_possible_f1": {
+    "delta": 0.09090909090909091,
+    "ci95": [
+      -0.0,
+      0.3
+    ],
+    "article_clusters": 9,
+    "repetitions": 2000,
+    "seed": 20261006
+  },
+  "primary_title_minus_original_year_f1": {
+    "delta": 0.11111111111111112,
+    "ci95": [
+      0.03333333333333333,
+      0.19444444444444445
+    ],
+    "article_clusters": 55,
+    "repetitions": 2000,
+    "seed": 20261006
+  },
+  "primary_target_cardinalities": {
+    "1": 56,
+    "2": 4
+  },
+  "metric_rows": {
+    "primary": {
+      "original_bm25": {
+        "em": 23.333333333333332,
+        "f1": 24.444444444444443
+      },
+      "original_bm25_latestyear": {
+        "em": 25.0,
+        "f1": 25.0
+      },
+      "no_temporal_filter": {
+        "em": 35.0,
+        "f1": 36.11111111111111
+      },
+      "earliest_completion": {
+        "em": 35.0,
+        "f1": 36.11111111111111
+      },
+      "midpoint_completion": {
+        "em": 35.0,
+        "f1": 36.11111111111111
+      },
+      "latest_completion": {
+        "em": 35.0,
+        "f1": 36.11111111111111
+      },
+      "interval_outer_control": {
+        "em": 35.0,
+        "f1": 36.11111111111111
+      },
+      "possible_support": {
+        "em": 35.0,
+        "f1": 36.11111111111111
+      },
+      "guaranteed_support": {
+        "em": 35.0,
+        "f1": 36.11111111111111
+      },
+      "latest_mentioned_year_top20": {
+        "em": 33.33333333333333,
+        "f1": 33.33333333333333
+      }
+    },
+    "diagnostic": {
+      "original_bm25": {
+        "em": 9.090909090909092,
+        "f1": 9.090909090909092
+      },
+      "original_bm25_latestyear": {
+        "em": 18.181818181818183,
+        "f1": 18.181818181818183
+      },
+      "no_temporal_filter": {
+        "em": 9.090909090909092,
+        "f1": 9.090909090909092
+      },
+      "earliest_completion": {
+        "em": 18.181818181818183,
+        "f1": 18.181818181818183
+      },
+      "midpoint_completion": {
+        "em": 9.090909090909092,
+        "f1": 9.090909090909092
+      },
+      "latest_completion": {
+        "em": 9.090909090909092,
+        "f1": 9.090909090909092
+      },
+      "interval_outer_control": {
+        "em": 9.090909090909092,
+        "f1": 9.090909090909092
+      },
+      "possible_support": {
+        "em": 9.090909090909092,
+        "f1": 9.090909090909092
+      },
+      "guaranteed_support": {
+        "em": 18.181818181818183,
+        "f1": 18.181818181818183
+      },
+      "latest_mentioned_year_top20": {
+        "em": 18.181818181818183,
+        "f1": 24.24242424242424
+      }
+    }
+  }
+}

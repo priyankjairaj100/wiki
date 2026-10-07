@@ -1,0 +1,22 @@
+{
+  "accepted_records_sha256": "4d656a6b421f8783e607b2f384c7c70f71f899ad6c7f9ca5096eb6e929cfa394",
+  "created_utc": "2026-10-07T07:21:20.801905+00:00",
+  "files": {
+    "pass2/theory/uncertain_time.py": "0b91608941cdb292c68e2301db2233946a361724397be85006b54db667263833",
+    "pass3/theory/lifecycle.py": "4a765c40233ee33b2f1230a59df952acea8c93f8b2142c5e72cd73f6607ab81c",
+    "pass4/retrieval/lazy_certificate.py": "6264334ccc46694b27ce99ce6b5795a59983b3dda7fefc2f6b1e2fc3e53fdc24",
+    "pass6/modeling/constraint_oracle.py": "45ff4198d36c5407f5bc4df2a1a1b74d6045f97d8462ed5826404b2ae060e945",
+    "pass6/replacement/ORACLE_ADDENDUM.md": "cd49d4ec61cd2a8ff927ef5c4c3621289e54d007e285c1b01f8858a0a213be98",
+    "pass6/replacement/RENDERING_PROTOCOL.md": "604cdf206c28a728d0072d5486260ee018e7791783459745cc07d37b5a4994ae",
+    "pass6/replacement/accepted_records.jsonl": "4d656a6b421f8783e607b2f384c7c70f71f899ad6c7f9ca5096eb6e929cfa394",
+    "pass6/replacement/extra_judgments_a.jsonl": "b3df76fbbfdbe008c1b51e41bc9397c6d1c4aca4e8fbda32ffe9c465e991727d",
+    "pass6/replacement/extra_judgments_b.jsonl": "51d0e1dbbf2df8556d25ce68601e7596f5e5a49697faac83a3424b84247b21ef",
+    "pass6/replacement/extra_review_a.jsonl": "b19873c240befa0219a02c4a6cb27620048b3d48044638b6d296f9f0b9c392bc",
+    "pass6/replacement/extra_review_b.jsonl": "ce8c22ce01426afc3e80a2b4015ede9afbf6724bfc93a1c1bd7b6636c9fd1234",
+    "pass6/replacement/finalize_sources.py": "ca666a34d641a28338828b30cba90b4b28c1e1790a5ae0a8b4a9e9ca7261c322",
+    "pass6/replacement/independent_review.jsonl": "dacab9c026c668a28e00c5a62c49b15855e1e24923430ca218fba73b7c17c73d",
+    "pass6/replacement/run_challenge.py": "43f541fb41c830d89807bffd07507bb78b9917bdad96e8f3b637eb30f7951702",
+    "pass6/replacement/source_judgments.jsonl": "962a7e91bbd51399477bb093395e6a9a1d78ec226fa44fb6e2f3b1bb1b5c8101"
+  },
+  "stage": "Before all certificate outcomes"
+}

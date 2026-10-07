@@ -1,0 +1,26 @@
+{
+  "accepted_records": 20,
+  "accepted_records_sha256": "4d656a6b421f8783e607b2f384c7c70f71f899ad6c7f9ca5096eb6e929cfa394",
+  "all_worlds_replay": true,
+  "calendar_dates_checked": 51,
+  "complete_rerun_matches": true,
+  "directed_pairs_checked": 33,
+  "documented_implementation_corrections": 2,
+  "feasible_witness_pairs": 98,
+  "frozen_inputs_match": true,
+  "literal_spans_checked": 174,
+  "oracle_support_comparisons": 388,
+  "outputs": {
+    "decisions.jsonl": "694afb572b9d808bd4299ccf69317da2aad6595f38671d540143ab4423e086bb",
+    "instability_worlds.jsonl": "ea066d37cb37f549d1dbc42e585ec9a62dcd422740adf2f687d770537411a9dd",
+    "summary.json": "75069082530b92e4b1948774bfc680a5d9b78029150bdaa5de520089b4ce8a47",
+    "support_oracle.jsonl": "20532be628bb47268f3dff815a776cbc2bd36d6c3909110a3cb3041fa3421792"
+  },
+  "source_export_matches": 20,
+  "source_judgments_retained": 384,
+  "source_membership_rows": 384,
+  "source_order_queries_unchanged": true,
+  "source_order_view_rerun_matches": true,
+  "source_order_world_pairs": 96,
+  "status": "passed"
+}

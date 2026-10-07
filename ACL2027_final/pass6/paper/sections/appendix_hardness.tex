@@ -1,0 +1,46 @@
+\section{Hardness for Input Context Budgets}
+\label{app:hardness}
+We reduce Set Cover~\citep{karp1972reducibility} to possible top-$k$ membership.
+The context budget $k$ is part of the decision input.
+Take a universe $E$, sets $S_1,\ldots,S_s$, and budget $1\le K\le s$.
+Create variable claim $v_j$ with date interval $[1,3]$ for every set.
+Create $K+1$ copies of each element claim, all dated exactly $0$.
+Create candidate $c$ dated exactly $0$.
+Accept $v_j\to e$ for every copy of each $e\in S_j$.
+There are no other accepted pairs.
+The gate is bipartite, with one edge layer from variables to element copies.
+
+Rank all variables and element copies above $c$.
+Set query time $2$ and budget $k=K+1$.
+Candidate $c$ has guaranteed support.
+A variable is active exactly when its date is at most $2$.
+Every active variable retires its associated element copies by the query time.
+An inactive variable starts after the query and cannot retire any copy by that time.
+
+Given a cover of size at most $K$, assign its variables date $1$ and others date $3$.
+Every element copy is retired.
+At most $K$ higher-ranked variables remain active, so the context includes $c$.
+Conversely, suppose a world includes $c$.
+At most $K$ higher-ranked claims are active.
+The variables dated at most $2$ form a collection of at most $K$ sets.
+If they miss an element, its $K+1$ active copies exclude $c$.
+They must therefore cover $E$.
+The construction has polynomial size and proves NP-hardness.
+It does not establish hardness for a fixed budget such as $k=5$.
+
+The result also holds when every start occurs by the query time.
+For this variant, use variable bounds $[0,2]$, element dates $1$, and candidate date $2$.
+Add a clock at date $1$, ranked below the candidate, with a pair targeting each variable.
+Use the same variable-to-element pairs and query time $2$.
+Variables before $1$ retire under the clock.
+Variables at or after $1$ remain active, but only those after $1$ retire element copies.
+A cover assigns its variables $2$ and all others $0$.
+Conversely, a selected candidate permits at most $K$ active variables.
+Those after $1$ must cover every element, or $K+1$ active copies exclude the candidate.
+Variables exactly at $1$ add cost without covering an element.
+This variant has an acyclic gate with two edge layers.
+
+This hardness concerns arbitrary possible context membership.
+It does not contradict the linear exact stability test.
+An unstable possible context already supplies a pivot with fewer than $k$ possible items above it.
+That rank condition makes its supporting world sufficient to demonstrate a context change.

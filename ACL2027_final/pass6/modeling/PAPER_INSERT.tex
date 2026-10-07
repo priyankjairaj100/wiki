@@ -1,0 +1,28 @@
+% Suggested main-text material. The parent editor controls placement and length.
+\paragraph{Source constraints and query meaning.}
+The context theorem holds for every nonempty feasible timeline family under a fixed ranking.
+We implement an exact oracle for integer dates with known orders and valid lifetimes.
+It accepts overlapping start and end bounds by enforcing a strict start-before-end constraint.
+Queries select one of three predicates: active somewhere, active throughout, or appointed within the window.
+The oracle returns concrete supporting and excluding timelines.
+
+For overlap queries, the original certificates first screen the independent date product.
+Equal endpoint contexts certify every constrained subfamily.
+Otherwise, a ranked scan requests exact support only for unresolved candidates that can affect selection.
+This hybrid procedure preserves the exact stability decision.
+
+\paragraph{Controlled tests of the model.}
+A frozen benchmark covers 120 feasible models, 28 windows, three predicates, and budgets one, three, and five.
+Exhaustive evaluation confirms all 100,800 support decisions and 30,240 context decisions.
+The oracle rejects all 20 inconsistent models.
+The hybrid reduces exact claim queries from 33,180 to 13,343 across 10,080 overlap contexts.
+Both methods stop after filling the same context budget.
+It recovers 312 stable contexts hidden by the independent relaxation.
+Every remaining unstable context has two replayed timelines with different selections.
+These measurements count solver calls, rather than end-to-end runtime.
+
+A separate grid tests 476 configurations with two distinct supplying witnesses.
+The full compiler matches all 13,328 claim-window decisions.
+Each single-witness subset fails in every configuration.
+Removing the forced-retirement witness causes 1,750 incorrect possible inclusions.
+Removing the optional-retirement witness causes 5,576 incorrect guaranteed inclusions.

@@ -1,0 +1,33 @@
+\section*{Limitations}
+The context guarantee assumes a fixed relevance ranking and exact support masks.
+A ranking that depends on uncertain dates can change even when claim eligibility stays fixed.
+Appendix~\ref{app:constrained-dates} gives a concrete counterexample and controlled comparisons.
+The fast compiler uses independent date bounds.
+The constraint extension enforces known event order and valid lifetimes, including overlapping start and end bounds.
+Its exact search can branch exponentially with replacement degree.
+The implemented predicates cover overlap, uninterrupted validity, and appointment within a window.
+More complex temporal questions need additional predicates.
+
+Source interpretation remains separate from inference over the resulting model.
+The automatic adapter models 1.49\% of development units and 1.36\% of test units.
+Its recovered cross-claim links occur in calibration articles.
+A model-assisted audit accepts 54 of sixty sampled event interpretations.
+Eight accepted events omit paragraph-level ends; five additional endpoint interpretations remain uncertain.
+Fallback excerpts remain available without certified temporal support.
+The separate replacement challenge uses reviewed annotations and boundary queries.
+Its twenty paragraphs measure mechanism behavior, rather than representative retrieval accuracy.
+Both reviewers are model-assisted, and the recorded source exclusions cannot establish complete absence of earlier exposure.
+
+The answer evaluation uses one small quantized model and sixty primary questions.
+Structured decoding controls response syntax without establishing semantic correctness.
+The separate eleven-question diagnostic retains a historical cohort selected for certified context disagreement.
+TimeQA anchors can be aliases, headings, or mentions outside the relevant period.
+Strict annotated-answer metrics differ from expert judgments of semantic correctness.
+
+The evaluated questions have previously inspected outcomes.
+Source-audit findings guide the automatic adapter, which remains frozen throughout the reported evaluation.
+The earlier TimeQA human and template test tracks overlap.
+TempLAMA annual labels can combine concurrent values with within-year succession.
+The matched Graphiti comparison isolates its temporal policy kernel under supplied candidates.
+It does not evaluate Graphiti's semantic extraction model.
+The release preserves source licenses, raw results, and each experiment's scope.

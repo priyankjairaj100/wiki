@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{Primary} & \multicolumn{2}{c}{Diagnostic} & \\
+Method & EM & F1 & EM & F1 & Valid\\
+\midrule
+Original BM25 & 23.33 & 24.44 & 9.09 & 9.09 & 71/71\\
+Original + year & 25.00 & 25.00 & 18.18 & 18.18 & 71/71\\
+Title-aware & 35.00 & 36.11 & 9.09 & 9.09 & 71/71\\
+Earliest completion & 35.00 & 36.11 & 18.18 & 18.18 & 71/71\\
+Midpoint completion & 35.00 & 36.11 & 9.09 & 9.09 & 71/71\\
+Latest completion & 35.00 & 36.11 & 9.09 & 9.09 & 71/71\\
+Interval control & 35.00 & 36.11 & 9.09 & 9.09 & 71/71\\
+Possible support & 35.00 & 36.11 & 9.09 & 9.09 & 71/71\\
+Guaranteed support & 35.00 & 36.11 & 18.18 & 18.18 & 71/71\\
+Title-aware + year & 33.33 & 33.33 & 18.18 & 24.24 & 71/71\\
+\bottomrule
+\end{tabular}
+\caption{Complete structured reader results. EM and strict answer-set F1 are percentages. Valid counts use question-method conditions. All conditions remain in the denominators.}
+\label{tab:reader-structured}
+\end{table*}

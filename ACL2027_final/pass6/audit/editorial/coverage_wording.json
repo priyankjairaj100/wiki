@@ -1,0 +1,379 @@
+{
+  "status": "passed",
+  "scope": "A deterministic wording screen, not a gold annotation of temporal intent. Only visible question strings enter the classifier.",
+  "tracks": {
+    "template": {
+      "questions": 2348,
+      "coverage_partition": {
+        "parsed_all_fallback": 2053,
+        "modeled_stable": 189,
+        "modeled_unstable": 54,
+        "unparsed": 52
+      },
+      "coverage_percentage_all_questions": {
+        "parsed_all_fallback": 87.43611584327087,
+        "modeled_stable": 8.049403747870528,
+        "modeled_unstable": 2.299829642248722,
+        "unparsed": 2.2146507666098807
+      },
+      "selected_units": {
+        "selected_units": 11728,
+        "fallback_units": 11432,
+        "modeled_units": 296,
+        "contexts_with_any_fallback": 2348,
+        "contexts_with_only_modeled": 0
+      },
+      "fallback_unit_percentage": 97.47612551159618,
+      "wording_classes": {
+        "unspecified_or_ambiguous": 2298,
+        "start_event_cue": 50
+      },
+      "wording_by_coverage": {
+        "throughout_cue": {},
+        "start_event_cue": {
+          "unparsed": 1,
+          "modeled_unstable": 2,
+          "modeled_stable": 2,
+          "parsed_all_fallback": 45
+        },
+        "explicit_overlap_cue": {},
+        "mixed_cues": {},
+        "unspecified_or_ambiguous": {
+          "parsed_all_fallback": 2008,
+          "modeled_stable": 187,
+          "modeled_unstable": 52,
+          "unparsed": 51
+        }
+      }
+    },
+    "human": {
+      "questions": 830,
+      "coverage_partition": {
+        "parsed_all_fallback": 747,
+        "unparsed": 17,
+        "modeled_stable": 56,
+        "modeled_unstable": 10
+      },
+      "coverage_percentage_all_questions": {
+        "parsed_all_fallback": 90.0,
+        "unparsed": 2.0481927710843375,
+        "modeled_stable": 6.746987951807229,
+        "modeled_unstable": 1.2048192771084338
+      },
+      "selected_units": {
+        "selected_units": 4143,
+        "fallback_units": 4065,
+        "modeled_units": 78,
+        "contexts_with_any_fallback": 830,
+        "contexts_with_only_modeled": 0
+      },
+      "fallback_unit_percentage": 98.11730629978277,
+      "wording_classes": {
+        "unspecified_or_ambiguous": 798,
+        "start_event_cue": 32
+      },
+      "wording_by_coverage": {
+        "throughout_cue": {},
+        "start_event_cue": {
+          "parsed_all_fallback": 29,
+          "modeled_unstable": 1,
+          "modeled_stable": 2
+        },
+        "explicit_overlap_cue": {},
+        "mixed_cues": {},
+        "unspecified_or_ambiguous": {
+          "parsed_all_fallback": 718,
+          "unparsed": 17,
+          "modeled_stable": 54,
+          "modeled_unstable": 9
+        }
+      }
+    }
+  },
+  "aggregate": {
+    "questions": 3178,
+    "coverage_partition": {
+      "parsed_all_fallback": 2800,
+      "modeled_stable": 245,
+      "modeled_unstable": 64,
+      "unparsed": 69
+    },
+    "coverage_percentage_all_questions": {
+      "parsed_all_fallback": 88.10572687224669,
+      "modeled_stable": 7.709251101321586,
+      "modeled_unstable": 2.013845185651353,
+      "unparsed": 2.171176840780365
+    },
+    "modeled_contexts": 309,
+    "modeled_context_percentage_all_questions": 9.72309628697294,
+    "wording_classes": {
+      "unspecified_or_ambiguous": 3096,
+      "start_event_cue": 82
+    }
+  },
+  "hash_selected_examples": {
+    "throughout_cue": [],
+    "start_event_cue": [
+      {
+        "track": "template",
+        "question_id": "/wiki/Edward_Witten#P463#annotation1",
+        "question": "Edward Witten became a member of what organization or association in May 2006?",
+        "wording_class": "start_event_cue",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [
+            "became"
+          ],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "template",
+        "question_id": "/wiki/Marietje_Schaake#P463#annotation0",
+        "question": "Marietje Schaake became a member of what organization or association in Jul 2009?",
+        "wording_class": "start_event_cue",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [
+            "became"
+          ],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "template",
+        "question_id": "/wiki/David_Mumford#P463#annotation1",
+        "question": "David Mumford became a member of what organization or association in 1975?",
+        "wording_class": "start_event_cue",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [
+            "became"
+          ],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "template",
+        "question_id": "/wiki/David_Mumford#P463#annotation0",
+        "question": "David Mumford became a member of what organization or association in 2008?",
+        "wording_class": "start_event_cue",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [
+            "became"
+          ],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "human",
+        "question_id": "/wiki/Derek_Barton#P463#annotation0",
+        "question": "Derek Barton became a part of which organisation in 1954?",
+        "wording_class": "start_event_cue",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [
+            "became"
+          ],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "template",
+        "question_id": "/wiki/Deborah_S._Jin#P463#annotation1",
+        "question": "Deborah S . Jin became a member of what organization or association in 1997?",
+        "wording_class": "start_event_cue",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [
+            "became"
+          ],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "human",
+        "question_id": "/wiki/Helen_Clark#P39#annotation0",
+        "question": "What governmental role did Helen Elizabeth Clark assume from 1989 to Aug 1989?",
+        "wording_class": "start_event_cue",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [
+            "assume"
+          ],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "modeled_unstable",
+        "selected_modeled_units": 3,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "template",
+        "question_id": "/wiki/Chris_Reifert#P463#annotation3",
+        "question": "Chris Reifert became a member of what organization or association in 1997?",
+        "wording_class": "start_event_cue",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [
+            "became"
+          ],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      }
+    ],
+    "explicit_overlap_cue": [],
+    "mixed_cues": [],
+    "unspecified_or_ambiguous": [
+      {
+        "track": "human",
+        "question_id": "/wiki/Central_European_University#P1075#annotation3",
+        "question": "Austria's private research Central European University had the rector of who from 2000 to Jul 2009?",
+        "wording_class": "unspecified_or_ambiguous",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "template",
+        "question_id": "/wiki/Chris_Kettings#P54#annotation2",
+        "question": "Which team did Chris Kettings play for from 2014 to 2015?",
+        "wording_class": "unspecified_or_ambiguous",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "human",
+        "question_id": "/wiki/Supreme_Council_of_the_Armed_Forces#P488#annotation0",
+        "question": "Egypt's Supreme Council of the Armed Forces had which person at its top from May 1991 to Aug 2012?",
+        "wording_class": "unspecified_or_ambiguous",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "human",
+        "question_id": "/wiki/Nick_Saban#P6087#annotation2",
+        "question": "What team did American Nicholas Lou Saban Jr. have the coach job for from 2005 to 2006?",
+        "wording_class": "unspecified_or_ambiguous",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "template",
+        "question_id": "/wiki/Tarcisio_Burgnich#P54#annotation5",
+        "question": "Which team did Tarcisio Burgnich play for from 1974 to 1977?",
+        "wording_class": "unspecified_or_ambiguous",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "template",
+        "question_id": "/wiki/Alexander_Milošević#P54#annotation0",
+        "question": "Which team did Alexander Milošević play for from 2009 to 2010?",
+        "wording_class": "unspecified_or_ambiguous",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "template",
+        "question_id": "/wiki/Arthur_Kennedy_(colonial_administrator)#P39#annotation3",
+        "question": "Which position did Arthur Kennedy ( colonial administrator ) hold from 1869 to 1872?",
+        "wording_class": "unspecified_or_ambiguous",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      },
+      {
+        "track": "template",
+        "question_id": "/wiki/James_Wesolowski#P54#annotation2",
+        "question": "Which team did James Wesolowski play for from 2010 to 2011?",
+        "wording_class": "unspecified_or_ambiguous",
+        "matched_cues": {
+          "throughout_cue": [],
+          "start_event_cue": [],
+          "explicit_overlap_cue": []
+        },
+        "coverage_group": "parsed_all_fallback",
+        "selected_modeled_units": 0,
+        "heuristic_not_semantic_gold": true
+      }
+    ]
+  },
+  "input_sha256": {
+    "pass6/audit/editorial/WORDING_PROTOCOL.json": "8e306b6d01c3b99ff19d6768fbfb72026572203d4f8064b2f9201a7e724e817e",
+    "pass6/audit/editorial/coverage_wording_audit.py": "991fa26c78c942c0bb53bd2ef3e52d4379515cab90ccff7afc779705f74c1024",
+    "pass5/protocol/dev_validation_queries.jsonl": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7",
+    "pass5/pipeline/validation/mechanism_questions.jsonl": "8d4af595620473082c1ccee5b5f192129a7ea5f7bebb093112c30d41e441cc00",
+    "pass5/pipeline/validation/predictions.jsonl": "4e81f6bd5a24446df49b32a729a7ed5131311f77a1de127041455a61be8b0ca7",
+    "pass5/protocol/human_test_confirmation_queries.jsonl": "e946ae3e7d494663cf56e0c1462f271f6abd78e12b422e464166d1e8d34d872d",
+    "pass5/pipeline/human/mechanism_questions.jsonl": "c84a80046981c9d4cf9d3b7dc96251b19f62aa21abfd0dbfff88dda689fa5240",
+    "pass5/pipeline/human/predictions.jsonl": "466fa61f804e75ed1f18d5f8077f0df6364ac63a249ceb16e4d80eadfeb93ba0"
+  },
+  "limitations": [
+    "Words such as from, between, and during do not uniquely specify a logical predicate.",
+    "Event words can occur in unrelated noun phrases. The screen measures wording, not semantic accuracy.",
+    "No annotation strings, reference answers, or reader responses are read.",
+    "The existing evaluation uses its frozen somewhere-within predicate for every parsed question."
+  ]
+}

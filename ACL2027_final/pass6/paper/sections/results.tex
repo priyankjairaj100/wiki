@@ -1,0 +1,52 @@
+\section{Results}
+\label{sec:results}
+\input{sections/results_replacement}
+\input{sections/results_constraints}
+
+\subsection{Source coverage controls the automatic track}
+Figure~\ref{fig:coverage} reports every evaluated question.
+The automatic adapter reaches modeled contexts for 309 of 3,178 questions, or 9.72\%.
+It finds 245 stable contexts and 64 unstable contexts within this group.
+Stable means unchanged selected excerpts under the supplied date model.
+The other questions yield 2,800 parsed all-fallback contexts and 69 unparsed windows.
+Fallback eligibility stays fixed and contributes no temporal certificate.
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/coverage.pdf}
+\caption{Coverage before conditional stability. The left bars show every question. The right bars expand contexts containing modeled claims. Gray fallback excerpts have fixed eligibility. Stable and unstable counts apply only to the modeled subsets.}
+\label{fig:coverage}
+\end{figure}
+
+The adapter models 493 development claims and 464 test claims.
+They occupy 1.49\% and 1.36\% of indexed source units.
+A model-assisted source audit accepts 54 of sixty event interpretations.
+Grounding blocks both learned extraction pilots.
+Two learned extraction variants return 87 records from six shared calibration paragraphs.
+None passes both literal grounding and holder--date checks.
+The deterministic adapter therefore requires explicit supporting spans before issuing a temporal certificate.
+Appendix~\ref{app:pipeline} retains every source judgment and failed extraction output.
+
+Independent replay verifies all 128 date assignments for the 64 unstable contexts.
+Each pair changes the rendered source excerpts.
+Forty-one exclusions use explicit retirement dates; twenty-three use late starts.
+For example, a human question asks which title Peter Beattie held in February 1998.
+The source dates his premiership from 1998 to 2007.
+Starts on February 1 and December 31 produce different contexts while respecting that source precision.
+The automatic track exercises these interval boundaries.
+
+\subsection{Certificates compose with the relevance ranker}
+The selected title-aware ranking reaches 67.61\% template span recall and 58.11\% human span recall.
+Its gains over original BM25 with recency are 14.34 and 5.00 percentage points.
+Their paired intervals are $[11.86,16.77]$ and $[0.69,9.10]$.
+Adding recency to the selected ranker reaches 64.26\% human recall.
+These gains belong to relevance ranking.
+Possible support and the interval control select identical excerpts on the automatic track.
+The appendix gives all ten matched retrieval rows.
+
+Certificates also apply to all six prespecified ranking variants.
+Every one of 18,654 query--ranking decisions matches full-mask selection.
+Under the strongest human retrieval control, 102 of 120 modeled contexts remain stable.
+Larger excerpt budgets expose additional uncertain claims.
+The appendix reports every budget comparison.
+
+\input{sections/reader_results}

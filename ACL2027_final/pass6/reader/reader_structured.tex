@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{Primary} & \multicolumn{2}{c}{Diagnostic}\\
+Method & EM & F1 & EM & F1\\
+\midrule
+Original BM25 & 23.33 & 24.44 & 9.09 & 9.09\\
+Original + year & 25.00 & 25.00 & 18.18 & 18.18\\
+Title-aware & 35.00 & 36.11 & 9.09 & 9.09\\
+Earliest completion & 35.00 & 36.11 & 18.18 & 18.18\\
+Midpoint completion & 35.00 & 36.11 & 9.09 & 9.09\\
+Latest completion & 35.00 & 36.11 & 9.09 & 9.09\\
+Interval control & 35.00 & 36.11 & 9.09 & 9.09\\
+Possible support & 35.00 & 36.11 & 9.09 & 9.09\\
+Guaranteed support & 35.00 & 36.11 & 18.18 & 18.18\\
+Title-aware + year & 33.33 & 33.33 & 18.18 & 24.24\\
+\bottomrule
+\end{tabular}
+\caption{Structured reader replication on unchanged contexts. EM and strict answer-set F1 are percentages. The primary sample has 60 questions. The historical diagnostic has eleven. The unchanged parser accepts 234 of 234 requests.}
+\label{tab:structured_reader}
+\end{table}

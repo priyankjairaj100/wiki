@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "requests": 6,
+  "valid": 6,
+  "finish_reasons": [
+    "stop",
+    "stop",
+    "stop",
+    "stop",
+    "stop",
+    "stop"
+  ],
+  "completion_tokens": [
+    33,
+    24,
+    27,
+    28,
+    25,
+    32
+  ],
+  "wall_seconds": [
+    13.912891375999607,
+    15.798602503000438,
+    21.184222875999694,
+    16.944909777999783,
+    30.87007668700062,
+    81.5317605399996
+  ],
+  "mean_seconds": 30.040410626666624,
+  "projected_total_minutes": 117.15760144399982,
+  "quality_scores_inspected": false
+}

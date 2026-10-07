@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}rrrr@{}}
+\toprule
+Budget & Lazy exact & Hybrid & Saved (\%)\\
+\midrule
+1 & 4,361 & 1,645 & 62.28\\
+3 & 12,019 & 4,849 & 59.66\\
+5 & 16,800 & 6,849 & 59.23\\
+\midrule
+\textbf{All} & \textbf{33,180} & \textbf{13,343} & \textbf{59.79}\\
+\bottomrule
+\end{tabular}
+\caption{Exact claim queries on 120 constrained models and 28 windows. Both methods stop after filling the possible context. Each budget covers 3,360 requests. Their contexts and stability decisions agree throughout.}
+\label{tab:hybrid}
+\end{table}

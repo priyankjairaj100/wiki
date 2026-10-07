@@ -1,0 +1,140 @@
+{"case_id": "precedence_000", "feasibility_calls": 1073, "independent_worlds": 108, "status": "all_checks_passed", "worlds": 81}
+{"case_id": "precedence_001", "feasibility_calls": 1433, "independent_worlds": 18, "status": "all_checks_passed", "worlds": 15}
+{"case_id": "precedence_002", "feasibility_calls": 1137, "independent_worlds": 144, "status": "all_checks_passed", "worlds": 69}
+{"case_id": "precedence_003", "feasibility_calls": 1537, "independent_worlds": 96, "status": "all_checks_passed", "worlds": 36}
+{"case_id": "precedence_004", "feasibility_calls": 1289, "independent_worlds": 120, "status": "all_checks_passed", "worlds": 68}
+{"case_id": "precedence_005", "feasibility_calls": 1238, "independent_worlds": 48, "status": "all_checks_passed", "worlds": 25}
+{"case_id": "precedence_006", "feasibility_calls": 1120, "independent_worlds": 108, "status": "all_checks_passed", "worlds": 60}
+{"case_id": "precedence_007", "feasibility_calls": 1247, "independent_worlds": 24, "status": "all_checks_passed", "worlds": 4}
+{"case_id": "precedence_008", "feasibility_calls": 1413, "independent_worlds": 72, "status": "all_checks_passed", "worlds": 72}
+{"case_id": "precedence_009", "feasibility_calls": 1390, "independent_worlds": 96, "status": "all_checks_passed", "worlds": 48}
+{"case_id": "precedence_010", "feasibility_calls": 1496, "independent_worlds": 324, "status": "all_checks_passed", "worlds": 156}
+{"case_id": "precedence_011", "feasibility_calls": 1421, "independent_worlds": 900, "status": "all_checks_passed", "worlds": 255}
+{"case_id": "precedence_012", "feasibility_calls": 1441, "independent_worlds": 1200, "status": "all_checks_passed", "worlds": 528}
+{"case_id": "precedence_013", "feasibility_calls": 1258, "independent_worlds": 144, "status": "all_checks_passed", "worlds": 75}
+{"case_id": "precedence_014", "feasibility_calls": 1277, "independent_worlds": 288, "status": "all_checks_passed", "worlds": 153}
+{"case_id": "precedence_015", "feasibility_calls": 1395, "independent_worlds": 24, "status": "all_checks_passed", "worlds": 16}
+{"case_id": "precedence_016", "feasibility_calls": 1483, "independent_worlds": 216, "status": "all_checks_passed", "worlds": 216}
+{"case_id": "precedence_017", "feasibility_calls": 1050, "independent_worlds": 108, "status": "all_checks_passed", "worlds": 18}
+{"case_id": "precedence_018", "feasibility_calls": 1240, "independent_worlds": 432, "status": "all_checks_passed", "worlds": 324}
+{"case_id": "precedence_019", "feasibility_calls": 1436, "independent_worlds": 80, "status": "all_checks_passed", "worlds": 80}
+{"case_id": "precedence_020", "feasibility_calls": 1216, "independent_worlds": 144, "status": "all_checks_passed", "worlds": 108}
+{"case_id": "precedence_021", "feasibility_calls": 1509, "independent_worlds": 24, "status": "all_checks_passed", "worlds": 6}
+{"case_id": "precedence_022", "feasibility_calls": 1123, "independent_worlds": 288, "status": "all_checks_passed", "worlds": 264}
+{"case_id": "precedence_023", "feasibility_calls": 1112, "independent_worlds": 48, "status": "all_checks_passed", "worlds": 30}
+{"case_id": "precedence_024", "feasibility_calls": 1574, "independent_worlds": 18, "status": "all_checks_passed", "worlds": 18}
+{"case_id": "precedence_025", "feasibility_calls": 1117, "independent_worlds": 36, "status": "all_checks_passed", "worlds": 18}
+{"case_id": "precedence_026", "feasibility_calls": 1538, "independent_worlds": 216, "status": "all_checks_passed", "worlds": 198}
+{"case_id": "precedence_027", "feasibility_calls": 1245, "independent_worlds": 96, "status": "all_checks_passed", "worlds": 63}
+{"case_id": "precedence_028", "feasibility_calls": 1157, "independent_worlds": 180, "status": "all_checks_passed", "worlds": 90}
+{"case_id": "precedence_029", "feasibility_calls": 1199, "independent_worlds": 216, "status": "all_checks_passed", "worlds": 112}
+{"case_id": "precedence_030", "feasibility_calls": 1285, "independent_worlds": 216, "status": "all_checks_passed", "worlds": 192}
+{"case_id": "precedence_031", "feasibility_calls": 1686, "independent_worlds": 108, "status": "all_checks_passed", "worlds": 12}
+{"case_id": "precedence_032", "feasibility_calls": 1232, "independent_worlds": 243, "status": "all_checks_passed", "worlds": 162}
+{"case_id": "precedence_033", "feasibility_calls": 1309, "independent_worlds": 432, "status": "all_checks_passed", "worlds": 235}
+{"case_id": "precedence_034", "feasibility_calls": 1259, "independent_worlds": 64, "status": "all_checks_passed", "worlds": 14}
+{"case_id": "precedence_035", "feasibility_calls": 1371, "independent_worlds": 540, "status": "all_checks_passed", "worlds": 324}
+{"case_id": "precedence_036", "feasibility_calls": 1579, "independent_worlds": 90, "status": "all_checks_passed", "worlds": 70}
+{"case_id": "precedence_037", "feasibility_calls": 1187, "independent_worlds": 24, "status": "all_checks_passed", "worlds": 12}
+{"case_id": "precedence_038", "feasibility_calls": 1219, "independent_worlds": 54, "status": "all_checks_passed", "worlds": 36}
+{"case_id": "precedence_039", "feasibility_calls": 1286, "independent_worlds": 192, "status": "all_checks_passed", "worlds": 86}
+{"case_id": "lifetime_000", "feasibility_calls": 1791, "independent_worlds": 72, "status": "all_checks_passed", "worlds": 60}
+{"case_id": "lifetime_001", "feasibility_calls": 1616, "independent_worlds": 192, "status": "all_checks_passed", "worlds": 192}
+{"case_id": "lifetime_002", "feasibility_calls": 1391, "independent_worlds": 24, "status": "all_checks_passed", "worlds": 24}
+{"case_id": "lifetime_003", "feasibility_calls": 1786, "independent_worlds": 576, "status": "all_checks_passed", "worlds": 480}
+{"case_id": "lifetime_004", "feasibility_calls": 1668, "independent_worlds": 48, "status": "all_checks_passed", "worlds": 48}
+{"case_id": "lifetime_005", "feasibility_calls": 1574, "independent_worlds": 384, "status": "all_checks_passed", "worlds": 384}
+{"case_id": "lifetime_006", "feasibility_calls": 1256, "independent_worlds": 96, "status": "all_checks_passed", "worlds": 84}
+{"case_id": "lifetime_007", "feasibility_calls": 1422, "independent_worlds": 48, "status": "all_checks_passed", "worlds": 48}
+{"case_id": "lifetime_008", "feasibility_calls": 1633, "independent_worlds": 384, "status": "all_checks_passed", "worlds": 192}
+{"case_id": "lifetime_009", "feasibility_calls": 1644, "independent_worlds": 384, "status": "all_checks_passed", "worlds": 336}
+{"case_id": "lifetime_010", "feasibility_calls": 1239, "independent_worlds": 768, "status": "all_checks_passed", "worlds": 480}
+{"case_id": "lifetime_011", "feasibility_calls": 1624, "independent_worlds": 90, "status": "all_checks_passed", "worlds": 81}
+{"case_id": "lifetime_012", "feasibility_calls": 1244, "independent_worlds": 54, "status": "all_checks_passed", "worlds": 54}
+{"case_id": "lifetime_013", "feasibility_calls": 1401, "independent_worlds": 576, "status": "all_checks_passed", "worlds": 528}
+{"case_id": "lifetime_014", "feasibility_calls": 1380, "independent_worlds": 576, "status": "all_checks_passed", "worlds": 144}
+{"case_id": "lifetime_015", "feasibility_calls": 1528, "independent_worlds": 243, "status": "all_checks_passed", "worlds": 216}
+{"case_id": "lifetime_016", "feasibility_calls": 1566, "independent_worlds": 576, "status": "all_checks_passed", "worlds": 512}
+{"case_id": "lifetime_017", "feasibility_calls": 1146, "independent_worlds": 90, "status": "all_checks_passed", "worlds": 90}
+{"case_id": "lifetime_018", "feasibility_calls": 1278, "independent_worlds": 216, "status": "all_checks_passed", "worlds": 216}
+{"case_id": "lifetime_019", "feasibility_calls": 1462, "independent_worlds": 1080, "status": "all_checks_passed", "worlds": 540}
+{"case_id": "lifetime_020", "feasibility_calls": 1441, "independent_worlds": 96, "status": "all_checks_passed", "worlds": 72}
+{"case_id": "lifetime_021", "feasibility_calls": 1759, "independent_worlds": 144, "status": "all_checks_passed", "worlds": 144}
+{"case_id": "lifetime_022", "feasibility_calls": 1429, "independent_worlds": 60, "status": "all_checks_passed", "worlds": 36}
+{"case_id": "lifetime_023", "feasibility_calls": 1449, "independent_worlds": 162, "status": "all_checks_passed", "worlds": 162}
+{"case_id": "lifetime_024", "feasibility_calls": 1301, "independent_worlds": 256, "status": "all_checks_passed", "worlds": 256}
+{"case_id": "lifetime_025", "feasibility_calls": 1434, "independent_worlds": 648, "status": "all_checks_passed", "worlds": 648}
+{"case_id": "lifetime_026", "feasibility_calls": 1655, "independent_worlds": 9, "status": "all_checks_passed", "worlds": 9}
+{"case_id": "lifetime_027", "feasibility_calls": 1434, "independent_worlds": 360, "status": "all_checks_passed", "worlds": 240}
+{"case_id": "lifetime_028", "feasibility_calls": 1405, "independent_worlds": 216, "status": "all_checks_passed", "worlds": 216}
+{"case_id": "lifetime_029", "feasibility_calls": 1501, "independent_worlds": 960, "status": "all_checks_passed", "worlds": 960}
+{"case_id": "lifetime_030", "feasibility_calls": 1554, "independent_worlds": 162, "status": "all_checks_passed", "worlds": 162}
+{"case_id": "lifetime_031", "feasibility_calls": 1671, "independent_worlds": 384, "status": "all_checks_passed", "worlds": 384}
+{"case_id": "lifetime_032", "feasibility_calls": 1491, "independent_worlds": 16, "status": "all_checks_passed", "worlds": 16}
+{"case_id": "lifetime_033", "feasibility_calls": 1719, "independent_worlds": 1440, "status": "all_checks_passed", "worlds": 1440}
+{"case_id": "lifetime_034", "feasibility_calls": 1111, "independent_worlds": 108, "status": "all_checks_passed", "worlds": 90}
+{"case_id": "lifetime_035", "feasibility_calls": 1833, "independent_worlds": 900, "status": "all_checks_passed", "worlds": 900}
+{"case_id": "lifetime_036", "feasibility_calls": 1628, "independent_worlds": 16, "status": "all_checks_passed", "worlds": 16}
+{"case_id": "lifetime_037", "feasibility_calls": 1641, "independent_worlds": 576, "status": "all_checks_passed", "worlds": 432}
+{"case_id": "lifetime_038", "feasibility_calls": 1510, "independent_worlds": 512, "status": "all_checks_passed", "worlds": 512}
+{"case_id": "lifetime_039", "feasibility_calls": 1677, "independent_worlds": 80, "status": "all_checks_passed", "worlds": 80}
+{"case_id": "joint_000", "feasibility_calls": 1854, "independent_worlds": 384, "status": "all_checks_passed", "worlds": 128}
+{"case_id": "joint_001", "feasibility_calls": 1648, "independent_worlds": 360, "status": "all_checks_passed", "worlds": 90}
+{"case_id": "joint_002", "feasibility_calls": 1513, "independent_worlds": 48, "status": "all_checks_passed", "worlds": 16}
+{"case_id": "joint_003", "feasibility_calls": 1757, "independent_worlds": 144, "status": "all_checks_passed", "worlds": 72}
+{"case_id": "joint_004", "feasibility_calls": 1318, "independent_worlds": 36, "status": "all_checks_passed", "worlds": 24}
+{"case_id": "joint_005", "feasibility_calls": 1834, "independent_worlds": 288, "status": "all_checks_passed", "worlds": 108}
+{"case_id": "joint_006", "feasibility_calls": 1278, "independent_worlds": 2400, "status": "all_checks_passed", "worlds": 260}
+{"case_id": "joint_007", "feasibility_calls": 1530, "independent_worlds": 768, "status": "all_checks_passed", "worlds": 276}
+{"case_id": "joint_008", "feasibility_calls": 1722, "independent_worlds": 12, "status": "all_checks_passed", "worlds": 6}
+{"case_id": "joint_009", "feasibility_calls": 1301, "independent_worlds": 192, "status": "all_checks_passed", "worlds": 100}
+{"case_id": "joint_010", "feasibility_calls": 1771, "independent_worlds": 288, "status": "all_checks_passed", "worlds": 144}
+{"case_id": "joint_011", "feasibility_calls": 1396, "independent_worlds": 108, "status": "all_checks_passed", "worlds": 72}
+{"case_id": "joint_012", "feasibility_calls": 1602, "independent_worlds": 96, "status": "all_checks_passed", "worlds": 30}
+{"case_id": "joint_013", "feasibility_calls": 1887, "independent_worlds": 108, "status": "all_checks_passed", "worlds": 6}
+{"case_id": "joint_014", "feasibility_calls": 1518, "independent_worlds": 216, "status": "all_checks_passed", "worlds": 108}
+{"case_id": "joint_015", "feasibility_calls": 1476, "independent_worlds": 108, "status": "all_checks_passed", "worlds": 78}
+{"case_id": "joint_016", "feasibility_calls": 1666, "independent_worlds": 144, "status": "all_checks_passed", "worlds": 24}
+{"case_id": "joint_017", "feasibility_calls": 1836, "independent_worlds": 432, "status": "all_checks_passed", "worlds": 75}
+{"case_id": "joint_018", "feasibility_calls": 1504, "independent_worlds": 324, "status": "all_checks_passed", "worlds": 96}
+{"case_id": "joint_019", "feasibility_calls": 1174, "independent_worlds": 576, "status": "all_checks_passed", "worlds": 192}
+{"case_id": "joint_020", "feasibility_calls": 1165, "independent_worlds": 72, "status": "all_checks_passed", "worlds": 72}
+{"case_id": "joint_021", "feasibility_calls": 1837, "independent_worlds": 128, "status": "all_checks_passed", "worlds": 120}
+{"case_id": "joint_022", "feasibility_calls": 1354, "independent_worlds": 128, "status": "all_checks_passed", "worlds": 48}
+{"case_id": "joint_023", "feasibility_calls": 1518, "independent_worlds": 180, "status": "all_checks_passed", "worlds": 108}
+{"case_id": "joint_024", "feasibility_calls": 1663, "independent_worlds": 108, "status": "all_checks_passed", "worlds": 54}
+{"case_id": "joint_025", "feasibility_calls": 1448, "independent_worlds": 1080, "status": "all_checks_passed", "worlds": 135}
+{"case_id": "joint_026", "feasibility_calls": 1541, "independent_worlds": 144, "status": "all_checks_passed", "worlds": 144}
+{"case_id": "joint_027", "feasibility_calls": 1474, "independent_worlds": 675, "status": "all_checks_passed", "worlds": 240}
+{"case_id": "joint_028", "feasibility_calls": 1300, "independent_worlds": 1728, "status": "all_checks_passed", "worlds": 405}
+{"case_id": "joint_029", "feasibility_calls": 1563, "independent_worlds": 72, "status": "all_checks_passed", "worlds": 9}
+{"case_id": "joint_030", "feasibility_calls": 1536, "independent_worlds": 432, "status": "all_checks_passed", "worlds": 432}
+{"case_id": "joint_031", "feasibility_calls": 1246, "independent_worlds": 360, "status": "all_checks_passed", "worlds": 69}
+{"case_id": "joint_032", "feasibility_calls": 1436, "independent_worlds": 324, "status": "all_checks_passed", "worlds": 204}
+{"case_id": "joint_033", "feasibility_calls": 1352, "independent_worlds": 360, "status": "all_checks_passed", "worlds": 360}
+{"case_id": "joint_034", "feasibility_calls": 1969, "independent_worlds": 54, "status": "all_checks_passed", "worlds": 30}
+{"case_id": "joint_035", "feasibility_calls": 1504, "independent_worlds": 288, "status": "all_checks_passed", "worlds": 168}
+{"case_id": "joint_036", "feasibility_calls": 1415, "independent_worlds": 96, "status": "all_checks_passed", "worlds": 84}
+{"case_id": "joint_037", "feasibility_calls": 1492, "independent_worlds": 320, "status": "all_checks_passed", "worlds": 112}
+{"case_id": "joint_038", "feasibility_calls": 1405, "independent_worlds": 72, "status": "all_checks_passed", "worlds": 9}
+{"case_id": "joint_039", "feasibility_calls": 1500, "independent_worlds": 576, "status": "all_checks_passed", "worlds": 305}
+{"case_id": "empty_000", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_001", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_002", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_003", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_004", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_005", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_006", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_007", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_008", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_009", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_010", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_011", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_012", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_013", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_014", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_015", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_016", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_017", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_018", "worlds": 0, "status": "rejected_empty"}
+{"case_id": "empty_019", "worlds": 0, "status": "rejected_empty"}

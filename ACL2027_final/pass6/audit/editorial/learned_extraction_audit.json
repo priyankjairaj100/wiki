@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "scope": "Two exploratory prompts on the same six calibration paragraphs. These are 12 completed requests, not 12 distinct paragraphs. The model is Qwen2.5-1.5B, not the later 3B reader.",
+  "variants": [
+    {
+      "variant": "json_object",
+      "paragraphs": 6,
+      "planned_paragraphs": 30,
+      "records": 41,
+      "literal_grounded_records": 0,
+      "grounding_failures": 41,
+      "failure_reasons": {
+        "missing_or_nonstring_quote": 41
+      },
+      "model": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+      "model_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+      "stopping_reason": "Required quote fields were absent from all 41 records in the first six completed outputs. Root stopped this development calibration run to enforce the already required output schema. No benchmark performance comparison informed this change."
+    },
+    {
+      "variant": "required_schema",
+      "paragraphs": 6,
+      "planned_paragraphs": 30,
+      "records": 46,
+      "literal_grounded_records": 1,
+      "grounding_failures": 45,
+      "failure_reasons": {
+        "date_not_in_quote_or_partial_season": 1,
+        "quote_not_literal": 40,
+        "holder_not_literal": 2,
+        "next_not_literal": 1,
+        "previous_not_literal": 1
+      },
+      "model": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+      "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+      "model_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+      "stopping_reason": "Required fields now exist, but source quote/date matching and independent semantic checks fail. Root stopped the learned development calibration route after six completed outputs. This is not a benchmark performance result."
+    }
+  ],
+  "semantic_review": [
+    {
+      "record_id": "d9b3eeac9a3a3d94bbfac652",
+      "kind": "succession",
+      "approved": false,
+      "field_checks": {
+        "previous_holder": false,
+        "next_holder": false,
+        "role": true,
+        "organization": true,
+        "event_date": false
+      },
+      "reason": "The quote establishes Saxl to Henri Frankfort in 1949. The fields instead assign Gertrud Bing to Ernst Gombrich in 1949. Their succession occurs in 1959 elsewhere in this paragraph.",
+      "reject_derived_claim_ids": [
+        "dea0ec63e001709218319361"
+      ],
+      "source_span": {
+        "start": 0,
+        "end": 50,
+        "text": "Henri Frankfort succeeded Saxl as director in 1949"
+      }
+    }
+  ],
+  "semantically_accepted_records": 0,
+  "approved_compiler_claims": 0,
+  "approved_replacement_pairs": 0,
+  "main_text_suggestion": [
+    "Source grounding limits coverage before temporal reasoning starts.",
+    "On six calibration paragraphs, a small learned extractor returned 87 records across two prompts.",
+    "None passed both source and semantic checks.",
+    "We therefore retain unsupported text as fallback evidence."
+  ],
+  "input_sha256": {
+    "pass3/extraction/learned/validated/summary.json": "765101726b90de61048798c3538e534321e95f6174cf857b5e69860872ae6522",
+    "pass3/extraction/learned/validated/grounding_failures.jsonl": "711fdc1d408e2dc7b9bcadfbd72cca1b459ab0fe6b9f7a4956774c8672af8b25",
+    "pass3/extraction/learned/validated/job_validation.jsonl": "920242363191d7526e96c67db65af38c34d2afdb8f4a9015fe495a31defa4264",
+    "pass3/extraction/learned/raw_outputs.partial_manifest.json": "508043a69de9bd2f21882686e4f1bef9acae5f06ef52bcdbf48a6497379602a2",
+    "pass3/extraction/learned/validated_schema_v2/summary.json": "c13d12314aef81eae890f84219f0eb2a680d4abb0e53530c9f9e4e20f4cde1fc",
+    "pass3/extraction/learned/validated_schema_v2/grounding_failures.jsonl": "166c9035d35e37f4bb260a7e20f6e52bfc1ee68c0b6d8ad20aba858edc91c810",
+    "pass3/extraction/learned/validated_schema_v2/job_validation.jsonl": "7d874cf666794e982d4be9d524c9fb33d7bf4ffbec77e0dd3c83d08f6d84890a",
+    "pass3/extraction/learned/raw_outputs_schema_v2.partial_manifest.json": "948224de22ba89385a7f849f69f24f54558f580747f66e110779d7623f4abbea",
+    "pass3/data/learned_v2_semantic_audit.json": "bd34e95eff5cba27e7050b53dae8763fd3bdc162e81367bb64d57975602a6aef"
+  }
+}

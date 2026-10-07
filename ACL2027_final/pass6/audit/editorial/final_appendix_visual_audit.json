@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "reviewed_utc": "2026-10-07T08:15:21.464373+00:00",
+  "pdf": "pass6/paper/main.pdf",
+  "pdf_sha256": "c0cb26ce6e57ccaa6651d11daf3513ad77eb671625a92d2078f3e3f81e17b967",
+  "pages_reviewed": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "review_method": "Direct visual inspection of changed pages 18\u201322 in the final PDF. Prior inspection of pages 16\u201317 is retained because the rendered-page comparison confirms pixel identity.",
+  "pages": [
+    {
+      "page": 16,
+      "render_path": "/workspace/scratch/956c06247f78/pass6_final_preview/page-16.png",
+      "render_sha256": "ba84ea242a41a2f5f021a999b288c0988102d3ee289e4356b720fc8e465eeffb",
+      "clipping": false,
+      "overlap": false,
+      "broken_math": false,
+      "broken_tables": false,
+      "observation": "Earlier reader table, continuation text, captions, and line numbers fit within their columns.",
+      "review_status": "carried_forward_by_pixel_identity"
+    },
+    {
+      "page": 17,
+      "render_path": "/workspace/scratch/956c06247f78/pass6_final_preview/page-17.png",
+      "render_sha256": "c5b0a4dc414d11d52217954ed7c5a4346b668960f081eb5188cc51100367a364",
+      "clipping": false,
+      "overlap": false,
+      "broken_math": false,
+      "broken_tables": false,
+      "observation": "Ranking and annual-control tables remain readable; captions and section headings are separated.",
+      "review_status": "carried_forward_by_pixel_identity"
+    },
+    {
+      "page": 18,
+      "render_path": "/workspace/scratch/956c06247f78/pass6_final_preview/page-18.png",
+      "render_sha256": "3c858adc348310d70e791eef52817f1f28acc57a7ba7a23852cbd1a2d442de4d",
+      "clipping": false,
+      "overlap": false,
+      "broken_math": false,
+      "broken_tables": false,
+      "observation": "Four retrieval tables fit without clipping. G.8 now contains a correctly spaced explanatory sentence linking Tables 9\u201311 before Section H.",
+      "review_status": "reinspected"
+    },
+    {
+      "page": 19,
+      "render_path": "/workspace/scratch/956c06247f78/pass6_final_preview/page-19.png",
+      "render_sha256": "a4f008c0ceca8623195a7127d5824ccad6d57c3985fcc15a7becaa0703d8c57b",
+      "clipping": false,
+      "overlap": false,
+      "broken_math": false,
+      "broken_tables": false,
+      "observation": "Constraint formulas, equation numbers, conjunctions, subscripts, and both columns render without overlap.",
+      "review_status": "reinspected"
+    },
+    {
+      "page": 20,
+      "render_path": "/workspace/scratch/956c06247f78/pass6_final_preview/page-20.png",
+      "render_sha256": "d93802b757a3181b65ed78911468fd7c140c2a553aa3995d7fb939e500379c05",
+      "clipping": false,
+      "overlap": false,
+      "broken_math": false,
+      "broken_tables": false,
+      "observation": "Controlled results, formulas, and replacement-challenge heading fit within their columns.",
+      "review_status": "reinspected"
+    },
+    {
+      "page": 21,
+      "render_path": "/workspace/scratch/956c06247f78/pass6_final_preview/page-21.png",
+      "render_sha256": "9653bd83fe737748780997e256893466f58135d9f98571341d3ee342e7f71c3a",
+      "clipping": false,
+      "overlap": false,
+      "broken_math": false,
+      "broken_tables": false,
+      "observation": "Source challenge and structured-reader protocol paragraphs remain legible without clipping.",
+      "review_status": "reinspected"
+    },
+    {
+      "page": 22,
+      "render_path": "/workspace/scratch/956c06247f78/pass6_final_preview/page-22.png",
+      "render_sha256": "5bef8e1d60209659610eb9cc8d5f875e533cce1f803a36c5cd8c85746f64bb28",
+      "clipping": false,
+      "overlap": false,
+      "broken_math": false,
+      "broken_tables": false,
+      "observation": "All ten complete reader rows, grouped headings, percentages, validity counts, and full caption are aligned and readable. Final text is unclipped.",
+      "review_status": "reinspected"
+    }
+  ],
+  "blocking_findings": [],
+  "cosmetic_notes": [],
+  "previous_reviewed_pdf_sha256": "43f5711c46a83791b7451a6c2faf39773ae0038d8b5dca9c634a95f276887894",
+  "render_comparison": {
+    "pdf_sha256": "c0cb26ce6e57ccaa6651d11daf3513ad77eb671625a92d2078f3e3f81e17b967",
+    "pages": 22,
+    "unchanged_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "changed_pages": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "all_png_verified": true
+  },
+  "changed_pages_reinspected": [
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "unchanged_pages_carried_forward": [
+    16,
+    17
+  ],
+  "resolved_notes": [
+    {
+      "page": 18,
+      "issue": "Previously empty G.8 subsection followed its floated tables.",
+      "resolution": "An explanatory sentence now links Tables 9\u201311 before Section H. The final rendering is correctly spaced."
+    }
+  ]
+}

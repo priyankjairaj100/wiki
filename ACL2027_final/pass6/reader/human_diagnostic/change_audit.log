@@ -1,0 +1,45 @@
+{
+  "earliest_completion__latest_completion": {
+    "full_cohort_questions": 11,
+    "all_answer_set_changes": 4,
+    "both_outputs_parsed_questions": 11,
+    "answer_changes_with_both_outputs_parsed": 4,
+    "answer_changes_involving_parse_failure": 0,
+    "changed_both_parsed_question_ids": [
+      "/wiki/Atl\u00e9tico_Madrid#P286#annotation5",
+      "/wiki/Mbaye-Jacques_Diop#P102#annotation1",
+      "/wiki/Katherine_Maher#P108#annotation3",
+      "/wiki/Helen_Clark#P39#annotation0"
+    ],
+    "changed_with_parse_failure_question_ids": []
+  },
+  "guaranteed_support__possible_support": {
+    "full_cohort_questions": 11,
+    "all_answer_set_changes": 4,
+    "both_outputs_parsed_questions": 11,
+    "answer_changes_with_both_outputs_parsed": 4,
+    "answer_changes_involving_parse_failure": 0,
+    "changed_both_parsed_question_ids": [
+      "/wiki/Atl\u00e9tico_Madrid#P286#annotation5",
+      "/wiki/Mbaye-Jacques_Diop#P102#annotation1",
+      "/wiki/Katherine_Maher#P108#annotation3",
+      "/wiki/Helen_Clark#P39#annotation0"
+    ],
+    "changed_with_parse_failure_question_ids": []
+  },
+  "no_temporal_filter__original_bm25_latestyear": {
+    "full_cohort_questions": 11,
+    "all_answer_set_changes": 5,
+    "both_outputs_parsed_questions": 11,
+    "answer_changes_with_both_outputs_parsed": 5,
+    "answer_changes_involving_parse_failure": 0,
+    "changed_both_parsed_question_ids": [
+      "/wiki/Helen_Clark#P39#annotation3",
+      "/wiki/Atl\u00e9tico_Madrid#P286#annotation5",
+      "/wiki/Mbaye-Jacques_Diop#P102#annotation1",
+      "/wiki/Zambia#P35#annotation1",
+      "/wiki/Louis_Francis_Salzman#P551#annotation0"
+    ],
+    "changed_with_parse_failure_question_ids": []
+  }
+}

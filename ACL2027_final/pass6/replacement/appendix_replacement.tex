@@ -1,0 +1,66 @@
+\section{Source-Derived Replacement Challenge}
+\label{app:replacement}
+
+\paragraph{Selection before outcomes.}
+We screened the saved development and test paragraphs without reading original questions or answer labels.
+We first excluded 332 articles from the documented exposure records.
+Candidates required two distinct calendar years and an explicit succession cue.
+The cues were \emph{succeeded}, \emph{successor}, \emph{replaced}, \emph{replacing}, \emph{replacement}, \emph{took over}, and \emph{handed over}.
+We ordered 496 candidates by SHA-256 of a fixed seed and passage identifier.
+The first 128 paragraphs yielded seven accepted graphs.
+Before certificate evaluation, we fixed one additional panel containing the next 256 paragraphs.
+This panel yielded thirteen accepted graphs.
+The expansion responded to annotation yield, without changing eligibility rules.
+All 384 judgments remain available, including rejections and uncertain cases.
+
+Two model-assisted reviews checked every accepted graph against its complete source paragraph.
+Reviewers divided the additional annotation work and independently checked each other's proposed graphs.
+We excluded graphs with uncertain dates, roles, or replacement relations.
+We also excluded named prior examples and one article inspected during the current editorial audit.
+Membership of an earlier lost audit remains incomplete, so this challenge does not claim fully unseen articles.
+The accepted panel contains seventeen test paragraphs and three development paragraphs.
+These reviewed graphs form a mechanism diagnostic, rather than an evaluation of automatic extraction.
+
+\paragraph{Graphs and source excerpts.}
+Each graph retains its complete paragraph, article identifier, literal offsets, and date provenance.
+Twenty-five edges record consecutive replacements.
+Eight edges connect nonconsecutive holders within complete, explicitly ordered succession lists.
+We tag these closure edges separately.
+Source succession also supplies strict order constraints between the corresponding dates.
+A transition stated as both departure and succession uses one shared event, avoiding an independent duplicate endpoint.
+Separate explicit departures retain their own bounds.
+All 51 calendar dates and 174 literal spans pass source checks.
+Displayed excerpts contain literal clauses or coherent clause segments.
+Excerpts can overlap because one sentence can describe both holders.
+
+\paragraph{Queries and controls.}
+Each successor contributes its earliest date, integer midpoint, and latest date as point queries.
+We remove duplicate dates within each graph, producing 73 queries.
+The predicate is overlap, with $a=b$.
+The fixed ranking follows start-mention offsets, with annotation order breaking ties.
+One fixed fallback excerpt $F$ follows every modeled claim.
+We evaluate budgets $k=1$ and $k=5$.
+Both policies retain identical bounds, explicit ends, and known source orders.
+The interval control removes only cross-claim replacement edges.
+Thus the comparison isolates replacement while preserving the same feasible calendar assignments.
+
+\paragraph{Exact evaluation and replay.}
+The oracle searches every integer calendar assignment through complete difference-constraint branching, as described in Appendix~\ref{app:constrained-dates}.
+Endpoint sampling does not supply the reference labels.
+The source-order comparison changes 33 selected contexts at $k=1$ and 34 at $k=5$.
+Only the first budget changes stability labels, with 42 interval-stable contexts becoming unstable.
+Replacement certifies 25 queries at each budget.
+All 96 unstable context decisions have two feasible timelines that obey every source order and change the literal excerpts.
+
+We also retain the independent-date comparison on the same graphs and queries.
+The linear compiler matches 388 exact support judgments across 194 claim-query pairs.
+The lazy selector matches all 146 context decisions.
+All 98 unstable decisions have replayed witnesses under that product model.
+These counts include both budgets and do not represent independent source questions.
+
+\paragraph{Effect of a real source order.}
+The Levadia paragraph dates Bondarenko's appointment to 2001 and Rautiainen's succession to November 2001.
+Their known order removes three possible-support judgments for Bondarenko.
+The affected queries are 30 November 2001, 1 January 2003, and 16 January 2003.
+This restriction resolves one additional stable query at each budget.
+The archive retains both comparisons, every source decision, and every replayed timeline.

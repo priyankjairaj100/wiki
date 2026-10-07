@@ -1,0 +1,47 @@
+\subsection{Enforce known order only where it matters}
+\label{sec:constrained}
+A source can state that one appointment follows another without identifying either exact date.
+We represent these dependencies as difference constraints, following temporal constraint networks~\citep{dechter1991temporal}.
+This extension uses integer calendar days.
+For example, $x_i-x_j\leq-1$ states that event $i$ precedes event $j$.
+A departure date $z_c$ satisfies $x_c-z_c\leq-1$ and supplies a replacement pair targeting $c$.
+This permits overlapping start and end bounds while retaining only valid lifetimes.
+We check that the resulting feasible family $\Omega_D\subseteq\Omega$ is nonempty.
+
+\paragraph{Select the query predicate.}
+The interface distinguishes three temporal meanings.
+Query meaning is an explicit input.
+Overlap asks whether the claim applies somewhere in $[a,b]$.
+Throughout asks whether it applies at every date in that window.
+Appointment asks whether its start belongs to the window.
+Let $D(c)=\{d:G(d,c)=1\}$.
+The first two predicates have the common form
+\begin{equation}
+ x_c\leq s\ \land\!\bigwedge_{d\in D(c)}
+ (x_d\leq x_c\ \lor\ x_d>t),
+ \label{eq:constrained-support}
+\end{equation}
+where $(s,t)=(b,a)$ for overlap and $(a,b)$ for throughout.
+Appointment instead requires $a\leq x_c\leq b$.
+
+An exact oracle searches feasible branches of Equation~\ref{eq:constrained-support} and its negation.
+It returns supporting and excluding timelines when they exist.
+Possible support requires the former; guaranteed support excludes the latter.
+Each branch uses standard difference-constraint feasibility.
+Appendix~\ref{app:constrained-dates} proves completeness and gives the branching cost.
+The context criterion in Theorem~\ref{thm:context-stability} then applies without changing the ranking.
+
+\paragraph{Screen first, solve selectively.}
+For overlap, let $P_0,H_0$ denote the independent compiler's support sets.
+Let $P_D,H_D$ denote their exact constrained counterparts.
+Restricting the timeline family gives
+\begin{equation}
+ H_0\subseteq H_D\subseteq P_D\subseteq P_0.
+\end{equation}
+Equal product contexts therefore certify the constrained context without any query-level oracle call.
+Otherwise, scan the fixed ranking and skip claims outside $P_0$.
+Accept claims in $H_0$ as guaranteed.
+Query the exact oracle for remaining candidates until $k$ possible claims fill the context.
+Fixed fallback excerpts extend this scan by entering every support set without an oracle call.
+The resulting context is $\operatorname{Top}_k(P_D\cup F)$.
+An unresolved selected claim supplies the two replayable timelines.

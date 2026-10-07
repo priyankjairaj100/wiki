@@ -1,0 +1,49 @@
+\section{From Sources to Temporal Evidence}
+\label{sec:sources}
+
+An appointment in 2001 bounds one event.
+A tenure from 2001 to 2005 supplies separate start and end events.
+
+
+\paragraph{Occurrence precision.}
+A day gives a point on the time axis.
+A month or year bounds an occurrence within that calendar period.
+Expressions such as \emph{around 1713} require additional evidence before they supply finite bounds.
+We preserve the literal date expression and its source span.
+The query adapter applies the same convention to the visible question.
+A question about a whole year therefore remains a period query.
+Our predicate asks whether a claim applies \emph{somewhere} within that period.
+
+\paragraph{Replacement and coexistence.}
+A directed replacement decision connects values of the same subject and role.
+For office succession, the organization and office define the slot; people supply its values.
+For affiliation, a new organization can coexist with an older affiliation.
+The Chicago Stadium passage in TimeQA, for example, gives overlapping tenancies for two teams~\citep{chen2021timeqa}.
+
+\paragraph{Explicit ends.}
+A stated departure supplies an end event targeting its own claim.
+The compiler treats this hidden event as a direct replacement.
+The independent compiler requires the end's lower bound to exceed the start's upper bound.
+Section~\ref{sec:constrained} handles overlapping bounds through lifetime constraints.
+This reduction preserves gaps between tenures.
+It also handles a departure without a named successor.
+Appendix~\ref{app:lifecycle} proves equivalence to the corresponding half-open lifetime.
+
+\paragraph{Evidence units.}
+A paragraph can contain several states, so temporal selection operates on source excerpts.
+Each modeled claim preserves exact character offsets and its supporting sentence for audit.
+Uncovered text remains available through a shared fallback policy.
+An incomplete temporal parse retains the complete source text.
+Readers receive original excerpts, date bounds, and support tags.
+
+\paragraph{Binding dates to claims.}
+The source adapter requires an explicit local subject or a unique paragraph-level antecedent.
+It links a paragraph-level departure only when the target is unique.
+Recognized bounded states with unresolved endings remain fallback text.
+
+\paragraph{Support tags.}
+Modeled claims are guaranteed, unresolved, or unsupported for the requested period.
+Unresolved claims have possible support without guaranteed support.
+Unmodeled excerpts carry a separate \emph{unknown} tag.
+Their fixed fallback eligibility lets us isolate uncertainty in modeled dates.
+

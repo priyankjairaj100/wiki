@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-07T07:22:09.610878+00:00",
+  "changes": [
+    {
+      "path": "pass6/replacement/run_challenge.py",
+      "frozen_sha256": "43f541fb41c830d89807bffd07507bb78b9917bdad96e8f3b637eb30f7951702",
+      "current_sha256": "bf1228a53e1e968125d9176a2729703ef15675ea1d8e6594088483b1abe420b6",
+      "reason": "Correct a summary-counter dictionary lookup. The first attempted run stopped before writing outputs. Source membership, graph construction, query rules, oracle, and compiler are unchanged."
+    },
+    {
+      "path": "pass6/replacement/ORACLE_ADDENDUM.md",
+      "frozen_sha256": "cd49d4ec61cd2a8ff927ef5c4c3621289e54d007e285c1b01f8858a0a213be98",
+      "current_sha256": "0eb4152219012d108bb6197208ef0b6f87bf7794ee15bf2705e25ed80781d9e3",
+      "reason": "Update an earlier protocol description after source-panel expansion. The expanded Levadia record has overlapping start bounds. The frozen runner already evaluated its known source order."
+    }
+  ]
+}

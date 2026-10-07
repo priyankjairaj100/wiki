@@ -1,23 +1,34 @@
-# Final revision
+# Pass6 revision
 
-The central story now concerns consequential date uncertainty at evidence selection.
-The paper defines exact support decisions and proves a sharp two-witness representation.
-It adds constructive timelines, necessary refinement decisions, a stable-prefix rule, and a hardness boundary.
-The lazy selector tests only the candidates needed to fill the context.
+This revision expands the temporal model and strengthens its empirical tests.
+The earlier extraction, retrieval, and reader artifacts remain unchanged.
 
-The source revision repairs local subjects, abbreviations, date ownership, paragraph-level ends, and unresolved bounded states.
-Matched retrieval evaluates 3,178 unchanged questions under ten methods.
-The study preserves previous runs and regenerates every affected context.
-Reader reuse requires exact requests and matching execution settings.
+The new oracle handles correlated dates through difference constraints.
+It distinguishes overlap, continuous validity, and appointment queries.
+Exhaustive finite models check every support decision and fixed-ranking certificate.
+A separate grid tests when each single-witness reduction fails.
 
-The paper separates retrieval gains from certificate guarantees.
-It reports source interpretation and model inference under their actual evaluation scope.
-The recorded source audit keeps core-event judgments separate from missing ends.
+The hybrid selector first applies the independent-date certificate.
+It calls the constrained oracle when the initial screen remains unresolved.
+The comparison includes a lazy exact baseline under the same contexts and stopping rule.
 
-The main text fills eight pages without margin or font changes.
-The architecture uses vector graphics and editable drawing sources.
-Both citation audits check every reference against primary sources.
+The natural challenge adds replacement graphs from source passages outside the recorded exposure set.
+The primary comparison gives both policies the same source orders, calendar bounds, and explicit ends.
+The control removes only cross-claim replacement edges.
+The release retains accepted annotations, exclusions, source judgments, implementation corrections, and all feasible witnesses.
 
-The full private archive preserves the original project and earlier revisions.
-Use the separate anonymous software and data archives for submission.
-Each review archive stays below 200 MB.
+The new reader experiment uses schema constraints and a larger completion budget.
+It preserves all 234 requests, 71 questions, and 710 method conditions.
+All 234 outputs pass the unchanged parser.
+Possible and guaranteed support use identical contexts for all sixty primary questions.
+Seven diagnostic questions have different contexts. Four produce changed answer sets.
+Every change has valid responses on both sides.
+
+The manuscript defines each temporal predicate before using it.
+It separates fixed-ranking certificates from methods whose ranking changes with dates.
+The coverage audit reports modeled evidence against all questions.
+The citation audit verifies the original bibliography and the added temporal-constraint reference.
+
+The release checks regenerate eight experiment and presentation components from saved inputs.
+The package contains its manifest-bound verification record.
+Layout checks and the compiled PDF remain linked by their SHA256 digest.

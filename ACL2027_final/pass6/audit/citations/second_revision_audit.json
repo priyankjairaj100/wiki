@@ -1,0 +1,313 @@
+{
+  "status": "passed",
+  "scope": "Independent check of the one added reference, original bibliography preservation, citation resolution, and new formal scope. New experiment numbers are outside this audit.",
+  "checked_utc": "2026-10-07T07:25:12.196803+00:00",
+  "citation_inventory": {
+    "old_entries": 24,
+    "new_entries": 25,
+    "new_keys": [
+      "dechter1991temporal"
+    ],
+    "missing_old_keys": [],
+    "changed_old_entries": [],
+    "citation_commands": 29,
+    "cited_keys": 25,
+    "unresolved_keys": [],
+    "uncited_entries": [],
+    "old_sha256": "b53ec72bf39ac7ed88d93b039011fc68fc417ee71ffdc37237f40e2e0a7c56c7",
+    "new_sha256": "a6f122e1f6a33f29d20a3fbda243c7de5d297cea0900252893872042d2420df0",
+    "commands": [
+      {
+        "path": "pass6/paper/sections/appendix_hardness.tex",
+        "keys": [
+          "karp1972reducibility"
+        ],
+        "command": "\\citep{karp1972reducibility}"
+      },
+      {
+        "path": "pass6/paper/sections/appendix_hardness.tex",
+        "keys": [
+          "chen2021timeqa"
+        ],
+        "command": "\\citep{chen2021timeqa}"
+      },
+      {
+        "path": "pass6/paper/sections/appendix_refinement.tex",
+        "keys": [
+          "karp1972reducibility"
+        ],
+        "command": "\\citep{karp1972reducibility}"
+      },
+      {
+        "path": "pass6/paper/sections/constrained.tex",
+        "keys": [
+          "dechter1991temporal"
+        ],
+        "command": "\\citep{dechter1991temporal}"
+      },
+      {
+        "path": "pass6/paper/sections/introduction.tex",
+        "keys": [
+          "lewis2020rag"
+        ],
+        "command": "\\citep{lewis2020rag}"
+      },
+      {
+        "path": "pass6/paper/sections/introduction.tex",
+        "keys": [
+          "rasmussen2025zep",
+          "zerhoudi2026nuggetindex"
+        ],
+        "command": "\\citep{rasmussen2025zep,zerhoudi2026nuggetindex}"
+      },
+      {
+        "path": "pass6/paper/sections/introduction.tex",
+        "keys": [
+          "chen2026defuzzrag",
+          "wang2026iarag"
+        ],
+        "command": "\\citep{chen2026defuzzrag,wang2026iarag}"
+      },
+      {
+        "path": "pass6/paper/sections/protocol.tex",
+        "keys": [
+          "chen2021timeqa"
+        ],
+        "command": "\\citep{chen2021timeqa}"
+      },
+      {
+        "path": "pass6/paper/sections/protocol.tex",
+        "keys": [
+          "robertson1995bm25"
+        ],
+        "command": "\\citep{robertson1995bm25}"
+      },
+      {
+        "path": "pass6/paper/sections/protocol.tex",
+        "keys": [
+          "qwen2024model"
+        ],
+        "command": "\\citep{qwen2024model}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "rasmussen2025zep",
+          "graphiti2026source"
+        ],
+        "command": "\\citep{rasmussen2025zep,graphiti2026source}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "yadav2026memstrata"
+        ],
+        "command": "\\citep{yadav2026memstrata}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "li2025erase"
+        ],
+        "command": "\\citep{li2025erase}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "zerhoudi2026nuggetindex"
+        ],
+        "command": "\\citep{zerhoudi2026nuggetindex}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "cao2026re3"
+        ],
+        "command": "\\citep{cao2026re3}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "chen2026defuzzrag"
+        ],
+        "command": "\\citep{chen2026defuzzrag}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "wang2026iarag"
+        ],
+        "command": "\\citep{wang2026iarag}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "lau2025tarag"
+        ],
+        "command": "\\citep{lau2025tarag}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "anselma2013indeterminacy"
+        ],
+        "command": "\\citet{anselma2013indeterminacy}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "fan2012currency"
+        ],
+        "command": "\\citet{fan2012currency}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "amarilli2017order"
+        ],
+        "command": "\\citet{amarilli2017order}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "hua2008ranking"
+        ],
+        "command": "\\citet{hua2008ranking}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "amarilli2017topk"
+        ],
+        "command": "\\citet{amarilli2017topk}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "feng2023ranking"
+        ],
+        "command": "\\citet{feng2023ranking}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "chen2021timeqa"
+        ],
+        "command": "\\citep{chen2021timeqa}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "dhingra2022templama"
+        ],
+        "command": "\\citep{dhingra2022templama}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "liska2022streamingqa",
+          "vu2024freshllms"
+        ],
+        "command": "\\citep{liska2022streamingqa,vu2024freshllms}"
+      },
+      {
+        "path": "pass6/paper/sections/related.tex",
+        "keys": [
+          "an2026fresco"
+        ],
+        "command": "\\citep{an2026fresco}"
+      },
+      {
+        "path": "pass6/paper/sections/sources.tex",
+        "keys": [
+          "chen2021timeqa"
+        ],
+        "command": "\\citep{chen2021timeqa}"
+      }
+    ]
+  },
+  "new_reference": {
+    "key": "dechter1991temporal",
+    "metadata_status": "confirmed from independent primary retrievals",
+    "authors": [
+      "Rina Dechter",
+      "Itay Meiri",
+      "Judea Pearl"
+    ],
+    "title": "Temporal constraint networks",
+    "journal": "Artificial Intelligence",
+    "volume": "49",
+    "number": "1–3",
+    "year": 1991,
+    "pages": "61–95",
+    "doi": "10.1016/0004-3702(91)90006-6",
+    "primary_sources": [
+      {
+        "url": "https://www.sciencedirect.com/science/article/pii/0004370291900066",
+        "retrieval": "Publisher search result and abstract",
+        "reference": "turn188search1",
+        "supports": [
+          "title",
+          "authors",
+          "DOI",
+          "event-time differences",
+          "feasible scenario generation",
+          "polynomial feasibility for simple temporal problems"
+        ]
+      },
+      {
+        "url": "https://doi.org/10.1016/0004-3702(91)90006-6",
+        "retrieval": "Publisher indexed metadata and abstract",
+        "reference": "turn184search0",
+        "supports": [
+          "year",
+          "volume",
+          "issue",
+          "pages",
+          "authors",
+          "title",
+          "DOI"
+        ]
+      },
+      {
+        "url": "https://ics.uci.edu/~dechter/publications.html",
+        "retrieval": "Author publication page, entry R10, lines 474–476",
+        "reference": "turn186view1",
+        "supports": [
+          "author order",
+          "title",
+          "journal",
+          "volume",
+          "year",
+          "pages"
+        ]
+      }
+    ],
+    "claim_status": "supported",
+    "claim_analysis": "The cited paper defines metric temporal constraints through permitted differences between event times. Its simple temporal problem permits one interval per pair and supports polynomial reasoning. This supports using difference constraints as the established feasibility engine. The manuscript separately derives its support formula, branch search, and certificate screen.",
+    "access_limit": "Direct publisher DOI opening and PDF retrieval failed. Publisher indexed metadata and abstract were available. The author publication page was independently opened. No full paper download is claimed."
+  },
+  "formal_scope_review": {
+    "general_stability": "passed after explicit W definition. P and H now quantify over the same nonempty feasible family. The proof uses only fixed ranking and exact individual support.",
+    "box_compiler_scope": "The fast compiler remains explicitly scoped to the independent product family Omega.",
+    "constrained_family": "The extension requires nonempty Omega_D contained in Omega. It uses integer calendar days and standard integer difference bounds.",
+    "overlap_formula": "Correct: x_c<=b and every accepted replacement either occurs no later than x_c or after a.",
+    "throughout_formula": "Correct: x_c<=a and every accepted replacement either occurs no later than x_c or after b.",
+    "appointment_formula": "Correct: a<=x_c<=b. This predicate concerns the occurrence itself.",
+    "support_enclosure": "Correct for the same overlap predicate: H_0 subset H_D subset P_D subset P_0.",
+    "stability_screen": "Correct: equality of product-model contexts implies equality over every nonempty constrained subfamily.",
+    "fallback_note": "The generic method already adds fixed F to P and H. The constrained scan should use Top_k(P_D union F) when fallback excerpts are present. Its current claim-only expression is correct for the stated modeled-claim subsystem.",
+    "not_reviewed": [
+      "Constrained solver implementation and exhaustive tests",
+      "New empirical numbers",
+      "Appendix completeness proof not yet integrated when this audit began"
+    ]
+  },
+  "file_sha256": {
+    "pass5/paper/refs.bib": "b53ec72bf39ac7ed88d93b039011fc68fc417ee71ffdc37237f40e2e0a7c56c7",
+    "pass6/paper/refs.bib": "a6f122e1f6a33f29d20a3fbda243c7de5d297cea0900252893872042d2420df0",
+    "pass6/paper/sections/method.tex": "46e240cb3f2166501ce381ee124f0b8b9e7b3f40b121a8b2344bd57e63bc4290",
+    "pass6/paper/sections/constrained.tex": "3c5aa12b44dfa3053bed462dfe1f413aa98d4720a2aa7be1514defc1a8629d14",
+    "pass6/paper/sections/theory.tex": "7ba546e71d88a4afa5f973f7dd605946932aaf65d7f5665094fe7d53600fbd8b"
+  }
+}

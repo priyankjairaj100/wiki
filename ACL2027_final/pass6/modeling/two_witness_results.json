@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "cases": 476,
+    "cases_where_both_single_witness_subsets_fail": 476,
+    "claim_query_checks": 13328,
+    "worlds": 10060
+  },
+  "modes": {
+    "full": {
+      "cases_with_error": 0,
+      "guaranteed_mismatches": 0,
+      "incorrect_guaranteed_inclusion": 0,
+      "incorrect_possible_inclusion": 0,
+      "possible_mismatches": 0,
+      "query_checks": 13328
+    },
+    "keep_late": {
+      "cases_with_error": 476,
+      "guaranteed_mismatches": 5576,
+      "incorrect_guaranteed_inclusion": 5576,
+      "incorrect_possible_inclusion": 0,
+      "possible_mismatches": 0,
+      "query_checks": 13328
+    },
+    "keep_near": {
+      "cases_with_error": 476,
+      "guaranteed_mismatches": 0,
+      "incorrect_guaranteed_inclusion": 0,
+      "incorrect_possible_inclusion": 1750,
+      "possible_mismatches": 1750,
+      "query_checks": 13328
+    }
+  },
+  "protocol_sha256": "d77a8c3ca355157ba2e846ed1f10f0eecb54c47466f3ea661a57d57eed0abcc6",
+  "status": "passed"
+}

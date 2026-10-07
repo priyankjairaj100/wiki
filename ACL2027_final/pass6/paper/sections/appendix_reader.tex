@@ -1,0 +1,61 @@
+\section{Structured Reader Replication}
+\label{app:reader}
+\input{tables/reader_appendix}
+
+\paragraph{Unchanged evidence and scoring.}
+The replication retains all 234 distinct requests from the earlier primary and diagnostic cohorts.
+Every message, question, source excerpt, and method membership remains unchanged.
+The ten methods produce 710 question--method conditions.
+The model remains Qwen2.5-3B-Instruct with the same Q4\_K\_M weights and pinned llama.cpp runtime.
+The strict parser, normalization, answer aliases, and article-cluster resampling also remain fixed.
+Appendix~\ref{app:reader-legacy} retains the earlier decoding protocol and its complete results.
+
+\paragraph{Structured decoding.}
+A JSON schema constrains the output object and citation indices.
+Answer strings remain unrestricted, and the schema does not prescribe the number of answers.
+The completion budget increases to 512 tokens, with a 4,096-token context.
+Temperature remains zero and the seed remains 1729.
+Prompt caching stays disabled.
+A tokenizer preflight confirms that every complete prompt fits this context.
+The six lexicographically smallest request identifiers form a syntax pilot.
+All six complete normally and pass the frozen parser before the full run proceeds.
+No answer scores guide this gate.
+
+The run initially uses one four-thread CPU server.
+A recorded scheduling amendment adds a second independent server with identical settings.
+Completed responses remain fixed; outstanding requests alternate between workers.
+One interrupted request had no completed output and returns to the queue.
+The resulting archive contains 234 new completed responses, including the six pilot responses.
+The earlier 306 execution records remain unchanged.
+Per-request hashes identify the exact inputs, decoder settings, weights, runtime, and raw response.
+
+\paragraph{Context identity and answer cardinality.}
+Possible and guaranteed support produce identical requests for every primary question.
+Prompt deduplication therefore gives identical primary answers under both policies.
+Their diagnostic requests differ for seven questions.
+The primary targets contain one answer for 56 questions and two answers for four questions.
+Every diagnostic target contains one answer.
+The earlier primary decoder records no partial strict matches, which explains equality between exact match and strict F1.
+The new audit reports target and prediction cardinalities separately for every method.
+
+\paragraph{Complete outcomes.}
+Every response stops normally and passes the frozen parser.
+The longest completion contains 51 tokens.
+Across unique requests, 75 predictions are empty, 157 contain one answer, and two contain two answers.
+Empty predictions are valid abstentions and remain in every metric denominator.
+Table~\ref{tab:reader-structured} reports all ten methods in both cohorts.
+
+The title-aware primary row has 35.00\% exact match and 36.11\% strict F1.
+Its partial match concerns Vladimir Bukovsky.
+The prediction is \emph{Russian}; the annotated set contains \emph{British} and \emph{Russian}.
+Strict set F1 therefore assigns $2/3$ credit while exact match assigns zero.
+The same partial match occurs under each temporal policy.
+
+The diagnostic possible--guaranteed comparison changes four answer sets, all with valid responses.
+One change gains strict F1, and three retain zero strict F1.
+Strict ties do not establish semantic equivalence.
+For Mbaye-Jacques Diop, the prediction changes from the annotated party with its abbreviation to \emph{Socialist Party (PS)}.
+Both receive zero under strict normalized matching.
+The release records every changed question, answer, citation list, and cardinality.
+The diagnostic retains its historical selection and nine article clusters.
+Its guaranteed-minus-possible interval remains $[0.00,30.00]$ under the prespecified article bootstrap.

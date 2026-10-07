@@ -1,0 +1,152 @@
+{
+  "cases": 476,
+  "dates": "integer calendar units",
+  "design": "complete parameter grid; no outcome-based exclusions",
+  "files": {
+    "two_witness_cases.jsonl": "c585f63d477491123cbb3e407d734441de079412241d8f5907e28259e348c53c",
+    "two_witness_grid.py": "fbce509df4b991dcddcaf9aad2d6db57d25f86bcbd10708653f4550637607594"
+  },
+  "late_witness": "[el,eu], el in [u+1,6], eu in [el,6]",
+  "modes": {
+    "full": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "keep_late": [
+      [
+        2,
+        0
+      ]
+    ],
+    "keep_near": [
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "near_witness": "[dl,du], dl in [0,u], du in [max(1,dl),6]",
+  "queries": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "reference": "enumerate every date tuple and test active somewhere at each query date",
+  "selection_scope": "direct witness subsets; no claim about all possible encodings",
+  "target": "[0,u], u in {1,2,3}"
+}

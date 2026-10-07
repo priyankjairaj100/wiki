@@ -1,0 +1,185 @@
+{
+  "verification": {
+    "all_checks_passed": true,
+    "requests": 234,
+    "valid": 234,
+    "failures": 0,
+    "failure_reasons": {},
+    "finish_reasons": {
+      "stop": 234
+    },
+    "tokens": {
+      "mean_prompt": 677.7649572649573,
+      "mean_completion": 26.77777777777778,
+      "max_completion": 51,
+      "over_96_completion_tokens": 0,
+      "max_reserved": 1839
+    },
+    "generation_wall_seconds": 5881.448273589012,
+    "unique_predicted_cardinalities": {
+      "1": 157,
+      "0": 75,
+      "2": 2
+    },
+    "hashes": {
+      "protocol": "9986f7a5f457f776e15788cac26d72ed2d062cec14032e0cbe06476dc21ebb4d",
+      "inputs": "d4c82ff1b80ac8f2b9ba24c9a16d5210cbf0d3bfbab103cfc5dd71e24b9b72b2",
+      "outputs": "77a442a605bc848c7c6b3324874b09be2f8edb0a90203001c0e71ea543366205",
+      "analyzer": "ba797f856bdf5f14c2cba964d1f217b725b4a6e6d2aaf7a21242d7a8d26737e9"
+    }
+  },
+  "cohorts": {
+    "primary": {
+      "requests": 194,
+      "failures": 0,
+      "questions": 60,
+      "f1_percent": {
+        "earliest_completion": 36.11111111111111,
+        "guaranteed_support": 36.11111111111111,
+        "interval_outer_control": 36.11111111111111,
+        "latest_completion": 36.11111111111111,
+        "latest_mentioned_year_top20": 33.33333333333333,
+        "midpoint_completion": 36.11111111111111,
+        "no_temporal_filter": 36.11111111111111,
+        "original_bm25": 24.444444444444443,
+        "original_bm25_latestyear": 25.0,
+        "possible_support": 36.11111111111111
+      },
+      "contrasts": {
+        "no_temporal_filter__original_bm25_latestyear": {
+          "delta_pp": 11.111111111111112,
+          "ci95_pp": [
+            3.3333333333333335,
+            19.444444444444446
+          ],
+          "article_clusters": 55,
+          "repetitions": 2000,
+          "seed": 20261006
+        },
+        "guaranteed_support__possible_support": {
+          "delta_pp": 0.0,
+          "ci95_pp": [
+            0.0,
+            0.0
+          ],
+          "article_clusters": 55,
+          "repetitions": 2000,
+          "seed": 20261006
+        },
+        "latest_mentioned_year_top20__no_temporal_filter": {
+          "delta_pp": -2.7777777777777777,
+          "ci95_pp": [
+            -10.582010582010582,
+            4.678362573099416
+          ],
+          "article_clusters": 55,
+          "repetitions": 2000,
+          "seed": 20261006
+        }
+      },
+      "possible_guaranteed_changes": {
+        "full_cohort_questions": 60,
+        "all_answer_set_changes": 0,
+        "both_outputs_parsed_questions": 60,
+        "answer_changes_with_both_outputs_parsed": 0,
+        "answer_changes_involving_parse_failure": 0,
+        "changed_both_parsed_question_ids": [],
+        "changed_with_parse_failure_question_ids": []
+      },
+      "target_cardinalities": {
+        "1": 56,
+        "2": 4
+      },
+      "partial_strict_matches_by_method": {
+        "earliest_completion": 1,
+        "guaranteed_support": 1,
+        "interval_outer_control": 1,
+        "latest_completion": 1,
+        "latest_mentioned_year_top20": 0,
+        "midpoint_completion": 1,
+        "no_temporal_filter": 1,
+        "original_bm25": 1,
+        "original_bm25_latestyear": 0,
+        "possible_support": 1
+      }
+    },
+    "diagnostic": {
+      "requests": 40,
+      "failures": 0,
+      "questions": 11,
+      "f1_percent": {
+        "earliest_completion": 18.181818181818183,
+        "guaranteed_support": 18.181818181818183,
+        "interval_outer_control": 9.090909090909092,
+        "latest_completion": 9.090909090909092,
+        "latest_mentioned_year_top20": 24.24242424242424,
+        "midpoint_completion": 9.090909090909092,
+        "no_temporal_filter": 9.090909090909092,
+        "original_bm25": 9.090909090909092,
+        "original_bm25_latestyear": 18.181818181818183,
+        "possible_support": 9.090909090909092
+      },
+      "contrasts": {
+        "no_temporal_filter__original_bm25_latestyear": {
+          "delta_pp": -9.090909090909092,
+          "ci95_pp": [
+            -25.0,
+            0.0
+          ],
+          "article_clusters": 9,
+          "repetitions": 2000,
+          "seed": 20261006
+        },
+        "guaranteed_support__possible_support": {
+          "delta_pp": 9.090909090909092,
+          "ci95_pp": [
+            0.0,
+            30.0
+          ],
+          "article_clusters": 9,
+          "repetitions": 2000,
+          "seed": 20261006
+        },
+        "latest_mentioned_year_top20__no_temporal_filter": {
+          "delta_pp": 15.151515151515149,
+          "ci95_pp": [
+            0.0,
+            30.76923076923077
+          ],
+          "article_clusters": 9,
+          "repetitions": 2000,
+          "seed": 20261006
+        }
+      },
+      "possible_guaranteed_changes": {
+        "full_cohort_questions": 11,
+        "all_answer_set_changes": 4,
+        "both_outputs_parsed_questions": 11,
+        "answer_changes_with_both_outputs_parsed": 4,
+        "answer_changes_involving_parse_failure": 0,
+        "changed_both_parsed_question_ids": [
+          "/wiki/Atl\u00e9tico_Madrid#P286#annotation5",
+          "/wiki/Mbaye-Jacques_Diop#P102#annotation1",
+          "/wiki/Katherine_Maher#P108#annotation3",
+          "/wiki/Helen_Clark#P39#annotation0"
+        ],
+        "changed_with_parse_failure_question_ids": []
+      },
+      "target_cardinalities": {
+        "1": 11
+      },
+      "partial_strict_matches_by_method": {
+        "earliest_completion": 0,
+        "guaranteed_support": 0,
+        "interval_outer_control": 0,
+        "latest_completion": 0,
+        "latest_mentioned_year_top20": 1,
+        "midpoint_completion": 0,
+        "no_temporal_filter": 0,
+        "original_bm25": 0,
+        "original_bm25_latestyear": 0,
+        "possible_support": 0
+      }
+    }
+  }
+}

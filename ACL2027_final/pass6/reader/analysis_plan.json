@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-10-07T07:19:01.047343+00:00",
+  "analysis": "Full fixed cohorts. No requests or conditions excluded. Exact match, strict set F1, paired article bootstrap, parser validity, all method-pair answer changes, target and prediction cardinalities, and comparison with historical decoding.",
+  "frozen_before_complete_results": true,
+  "files": {
+    "pass6/reader/analyze.py": "ba797f856bdf5f14c2cba964d1f217b725b4a6e6d2aaf7a21242d7a8d26737e9",
+    "pass3/protocol/parse_reader.py": "fe0d8ffedafcd1fa62bb2e6f3cd4ee86624c529e5eea68e7d8958e0b0fa23eff",
+    "pass3/protocol/score_predictions.py": "d947af316ffcf0f716fca86051e4b0ba9867dc591cabf79c323e96b4bd09575f",
+    "pass5/protocol/score_reader.py": "3b241133def77e2f38328693c12785d4ca6296457bd85bffe1f1a8fa419f3603",
+    "pass5/protocol/audit_answer_changes.py": "6d00dd1bcd61bee41d4fe6402152c2f75cbf1a9c748100c71f1b002d5a366c3d",
+    "pass5/protocol/config.json": "df6d1c19448d1ef8f04f2ccf0cd458bc03458c0def8bb9740dc21ec3bafd8229"
+  }
+}

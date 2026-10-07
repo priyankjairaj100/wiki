@@ -1,0 +1,85 @@
+\section{Certifying the Reader's Context}
+\label{sec:method}
+
+\subsection{Compile once, query each claim in constant time}
+
+One scan updates both boundary minima, breaking ties by stable source identifiers.
+Figure~\ref{fig:compiler} shows why the two minima can require different witnesses.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\columnwidth]{figures/two_witnesses.pdf}
+\caption{Two witnesses control different boundaries. Witness $d$ supplies $r_c=1$, while $e$ supplies $p_c=5$. The strips show support for windows $[a,6]$. Open endpoints exclude equality. Removing $e$ wrongly permits point 5; removing $d$ wrongly guarantees point 2.}
+\label{fig:compiler}
+\end{figure}
+
+Let $n$ count modeled events, including explicit ends, and $m$ count accepted pairs.
+Compilation takes $O(n+m)$ time and stores $O(n)$ certificate records.
+Pair discovery remains the source adapter's responsibility.
+The reference complete scan makes $n(n-1)$ gate calls.
+An index can replace this scan when it preserves every accepted pair.
+
+\subsection{An exact stability test}
+
+Let $\pi_q$ be a complete relevance ranking for question $q$, including all tie breaks.
+For a set $S$, write $\operatorname{Top}_k(S)$ for its first $k$ ranked claims.
+Let $\mathcal W$ be any nonempty family of feasible timelines.
+Define $P(Q)$ and $H(Q)$ by possible and guaranteed support over $\mathcal W$.
+Only displayable claims enter these support sets.
+The fast compiler uses $\mathcal W=\Omega$.
+A realized timeline $x$ supplies a support set $S_x(Q)$.
+The reader's selected claim context is
+\begin{equation}
+ R_x(q)=\operatorname{Top}_k(S_x(Q)).
+\label{eq:context}
+\end{equation}
+Filtering preserves the ranking and occurs before the budget.
+
+\begin{theorem}[Exact context stability]
+\label{thm:context-stability}
+For any nonempty family of feasible timelines, every timeline returns the same context exactly when
+\begin{equation}
+ \operatorname{Top}_k(P(Q))=\operatorname{Top}_k(H(Q)).
+\label{eq:context-stability}
+\end{equation}
+Equivalently, every selected possible claim has guaranteed support.
+\end{theorem}
+\begin{proof}
+Set $C=\operatorname{Top}_k(P(Q))$.
+If $C\subseteq H(Q)$, every world retains $C$ and selects the same context.
+Otherwise, choose $c\in C\setminus H(Q)$.
+Some world supports $c$, while another does not.
+At most $k-1$ possible claims outrank $c$.
+Every world supporting $c$ therefore selects it.
+The two worlds return different contexts.
+For $k=0$, every context is empty.
+\end{proof}
+
+The theorem depends on fixed ranking and exact support masks.
+It applies to dependent dates and other support predicates.
+Only the support solver changes.
+The test uses two filtered rankings without enumerating attainable contexts.
+Let $F$ contain the fixed fallback excerpts.
+Apply the test to $P(Q)\cup F$ and $H(Q)\cup F$.
+Their inclusion remains constant while modeled dates vary.
+Claim selection precedes source rendering and any word-budget truncation.
+We report rendered-context agreement separately.
+
+\paragraph{Choose a stable context budget.}
+Let $r$ be the position of the first unresolved claim in the ranking of $P(Q)\cup F$.
+Every budget $k<r$ returns a fixed context, while every $k\ge r$ permits a context change.
+If no unresolved claim exists, every budget is stable.
+The claim at position $r$ supplies a counterexample for every larger budget.
+The system reports this stable prefix alongside the source dates requiring refinement.
+
+\paragraph{Stop once the context is full.}
+The implementation evaluates certificates lazily during selection.
+It scans ranked candidates until $k$ possible excerpts fill the context.
+It checks guaranteed support only for selected modeled claims.
+Fixed fallback excerpts remain eligible without a temporal lookup.
+If selection examines $j$ candidates, selection and certification take $O(j)$ time.
+Other dates need no evaluation for this decision.
+
+\input{sections/refinement}
+
+\input{sections/constrained}

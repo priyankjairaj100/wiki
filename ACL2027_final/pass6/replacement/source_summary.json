@@ -1,0 +1,50 @@
+{
+  "accepted_indices": [
+    5,
+    9,
+    18,
+    27,
+    31,
+    33,
+    107,
+    130,
+    184,
+    229,
+    239,
+    246,
+    255,
+    262,
+    277,
+    321,
+    323,
+    334,
+    346,
+    349
+  ],
+  "additional_panel": 256,
+  "articles": 18,
+  "claims": 45,
+  "edge_derivations": {
+    "explicit_consecutive_replacement": 25,
+    "ordered_succession_closure": 8
+  },
+  "edges": 33,
+  "first_review_candidate_graphs": 27,
+  "initial_panel": 128,
+  "known_exposure_exclusions_documented": true,
+  "panels": {
+    "additional256": 13,
+    "initial128": 7
+  },
+  "records": 20,
+  "screened": 384,
+  "second_review_accepts": 20,
+  "source_constraints_overlap": [
+    "r321"
+  ],
+  "splits": {
+    "dev": 3,
+    "test": 17
+  },
+  "unseen_status_claimed": false
+}

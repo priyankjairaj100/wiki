@@ -1,0 +1,8 @@
+{
+  "requests": 106,
+  "output_rows": 106,
+  "input_sha256": "ec759981e97a5fa0a9e2aab7b56b635f17d2f88be09eb2bb9d34d6525683c5fe",
+  "output_sha256": "81121869d41a90fb5e88f3c10bd64e1a439a4d1259029c9bdc1b8a9fb3893724",
+  "protocol_sha256": "9986f7a5f457f776e15788cac26d72ed2d062cec14032e0cbe06476dc21ebb4d",
+  "scheduling_amendment_sha256": "71c378cc9db40aa3940a8c4d21d8abfbb202b5ebe6a4fa4436ece9d517f30a1d"
+}

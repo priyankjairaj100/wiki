@@ -1,0 +1,1005 @@
+[
+  {
+    "question": {
+      "question_id": "/wiki/Peter_Beattie#P39#annotation2",
+      "question": "In feb 1998, what governmental title did the australian politician peter douglas beattie hold?"
+    },
+    "query_window_iso": [
+      "1998-02-01",
+      "1998-02-28"
+    ],
+    "track": "human",
+    "claim": {
+      "claim_id": "f9af642e95f228606d2c7217",
+      "passage_id": "12a62aee12c16ba67d61d1a0",
+      "article_path": "/wiki/Peter_Beattie",
+      "source_span": {
+        "start": 14,
+        "end": 156,
+        "text": "Beattie ( born 18 November 1952 ) is a former Australian politician who served as the 36th Premier of Queensland , in office from 1998 to 2007"
+      },
+      "subject": {
+        "surface": "Beattie",
+        "canonical": "Peter Beattie",
+        "source_span": {
+          "start": 14,
+          "end": 21,
+          "text": "Beattie"
+        },
+        "resolution": "relative_biography_title_alias",
+        "article_title": "Peter Beattie"
+      },
+      "slot": "position",
+      "value": "the 36th Premier of Queensland , in office",
+      "value_span": {
+        "start": 96,
+        "end": 138,
+        "text": "the 36th Premier of Queensland , in office"
+      },
+      "predicate_span": {
+        "start": 86,
+        "end": 95,
+        "text": "served as"
+      },
+      "temporal_kind": "validity_duration",
+      "start": {
+        "lower": 729390,
+        "upper": 729754,
+        "lower_iso": "1998-01-01",
+        "upper_iso": "1998-12-31",
+        "precision": "year",
+        "source_span": {
+          "start": 144,
+          "end": 148,
+          "text": "1998"
+        }
+      },
+      "end": {
+        "lower": 732677,
+        "upper": 733041,
+        "lower_iso": "2007-01-01",
+        "upper_iso": "2007-12-31",
+        "precision": "year",
+        "source_span": {
+          "start": 152,
+          "end": 156,
+          "text": "2007"
+        }
+      },
+      "rule": "relative_biography_tenure",
+      "replacement_policy": "explicit_succession_only",
+      "compiler_eligible": true,
+      "state_text": "Peter Beattie: position = the 36th Premier of Queensland , in office.",
+      "exclusion_assertion": null,
+      "adapter_version": "source-clause-v3",
+      "atomic_span": {
+        "start": 82,
+        "end": 156,
+        "text": "who served as the 36th Premier of Queensland , in office from 1998 to 2007"
+      },
+      "coverage_scope": "atomic_clause_only",
+      "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+    },
+    "source_paragraph": {
+      "passage_id": "12a62aee12c16ba67d61d1a0",
+      "article_path": "/wiki/Peter_Beattie",
+      "paragraph_index": 1,
+      "text": "Peter Douglas Beattie ( born 18 November 1952 ) is a former Australian politician who served as the 36th Premier of Queensland , in office from 1998 to 2007 . He was the state leader of the Labor Party from 1996 to 2007 ."
+    },
+    "exclusion_reason": "start_after_query",
+    "worlds": {
+      "support": {
+        "pivot_present": true,
+        "event_dates": {
+          "f9af642e95f228606d2c7217": "1998-02-01"
+        },
+        "selected_unit_ids": [
+          "fallback:12a62aee12c16ba67d61d1a0:0:81",
+          "fallback:1b0e997a2251b2e3fcd70421:0:23",
+          "fallback:2d7fac4d627bb511c2f8f8d1:0:136",
+          "f9af642e95f228606d2c7217",
+          "fallback:6a91a22abde25ca853787af4:0:13"
+        ],
+        "contexts": [
+          {
+            "unit_id": "fallback:12a62aee12c16ba67d61d1a0:0:81",
+            "claim_id": null,
+            "passage_id": "12a62aee12c16ba67d61d1a0",
+            "article_path": "/wiki/Peter_Beattie",
+            "title": "Peter Beattie",
+            "start_char": 0,
+            "end_char_exclusive": 81,
+            "text": "Peter Douglas Beattie ( born 18 November 1952 ) is a former Australian politician",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:1b0e997a2251b2e3fcd70421:0:23",
+            "claim_id": null,
+            "passage_id": "1b0e997a2251b2e3fcd70421",
+            "article_path": "/wiki/Peter_Beattie",
+            "title": "Peter Beattie",
+            "start_char": 0,
+            "end_char_exclusive": 23,
+            "text": "Premier ( 1998-2007 ) .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:2d7fac4d627bb511c2f8f8d1:0:136",
+            "claim_id": null,
+            "passage_id": "2d7fac4d627bb511c2f8f8d1",
+            "article_path": "/wiki/Peter_Beattie",
+            "title": "Peter Beattie",
+            "start_char": 0,
+            "end_char_exclusive": 136,
+            "text": "Beattie was appointed to the board of the Australian Rugby League Commission ( ARLC ) on 25 July 2017 , as an independent commissioner .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "f9af642e95f228606d2c7217",
+            "claim_id": "f9af642e95f228606d2c7217",
+            "passage_id": "12a62aee12c16ba67d61d1a0",
+            "article_path": "/wiki/Peter_Beattie",
+            "title": "Peter Beattie",
+            "start_char": 82,
+            "end_char_exclusive": 156,
+            "text": "who served as the 36th Premier of Queensland , in office from 1998 to 2007",
+            "kind": "modeled",
+            "start": {
+              "lower": 729390,
+              "upper": 729754,
+              "lower_iso": "1998-01-01",
+              "upper_iso": "1998-12-31",
+              "precision": "year",
+              "source_span": {
+                "start": 144,
+                "end": 148,
+                "text": "1998"
+              }
+            },
+            "end": {
+              "lower": 732677,
+              "upper": 733041,
+              "lower_iso": "2007-01-01",
+              "upper_iso": "2007-12-31",
+              "precision": "year",
+              "source_span": {
+                "start": 152,
+                "end": 156,
+                "text": "2007"
+              }
+            },
+            "source_subject": "Peter Beattie",
+            "source_relation": "position",
+            "temporal_status": "unresolved"
+          },
+          {
+            "unit_id": "fallback:6a91a22abde25ca853787af4:0:13",
+            "claim_id": null,
+            "passage_id": "6a91a22abde25ca853787af4",
+            "article_path": "/wiki/Peter_Beattie",
+            "title": "Peter Beattie",
+            "start_char": 0,
+            "end_char_exclusive": 13,
+            "text": "Peter Beattie",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          }
+        ]
+      },
+      "exclusion": {
+        "pivot_present": false,
+        "event_dates": {
+          "f9af642e95f228606d2c7217": "1998-12-31"
+        },
+        "selected_unit_ids": [
+          "fallback:12a62aee12c16ba67d61d1a0:0:81",
+          "fallback:1b0e997a2251b2e3fcd70421:0:23",
+          "fallback:2d7fac4d627bb511c2f8f8d1:0:136",
+          "fallback:6a91a22abde25ca853787af4:0:13",
+          "fallback:57c55b0966236d072e4dd034:88:500"
+        ],
+        "contexts": [
+          {
+            "unit_id": "fallback:12a62aee12c16ba67d61d1a0:0:81",
+            "claim_id": null,
+            "passage_id": "12a62aee12c16ba67d61d1a0",
+            "article_path": "/wiki/Peter_Beattie",
+            "title": "Peter Beattie",
+            "start_char": 0,
+            "end_char_exclusive": 81,
+            "text": "Peter Douglas Beattie ( born 18 November 1952 ) is a former Australian politician",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:1b0e997a2251b2e3fcd70421:0:23",
+            "claim_id": null,
+            "passage_id": "1b0e997a2251b2e3fcd70421",
+            "article_path": "/wiki/Peter_Beattie",
+            "title": "Peter Beattie",
+            "start_char": 0,
+            "end_char_exclusive": 23,
+            "text": "Premier ( 1998-2007 ) .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:2d7fac4d627bb511c2f8f8d1:0:136",
+            "claim_id": null,
+            "passage_id": "2d7fac4d627bb511c2f8f8d1",
+            "article_path": "/wiki/Peter_Beattie",
+            "title": "Peter Beattie",
+            "start_char": 0,
+            "end_char_exclusive": 136,
+            "text": "Beattie was appointed to the board of the Australian Rugby League Commission ( ARLC ) on 25 July 2017 , as an independent commissioner .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:6a91a22abde25ca853787af4:0:13",
+            "claim_id": null,
+            "passage_id": "6a91a22abde25ca853787af4",
+            "article_path": "/wiki/Peter_Beattie",
+            "title": "Peter Beattie",
+            "start_char": 0,
+            "end_char_exclusive": 13,
+            "text": "Peter Beattie",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:57c55b0966236d072e4dd034:88:500",
+            "claim_id": null,
+            "passage_id": "57c55b0966236d072e4dd034",
+            "article_path": "/wiki/Peter_Beattie",
+            "title": "Peter Beattie",
+            "start_char": 88,
+            "end_char_exclusive": 500,
+            "text": ". Beattie began co-hosting his own TV program with Peter Reith in April 2016 which continued with former Queensland Premier Campbell Newman in 2017 until May , 2018 when Beattie retired from Sky News to focus on his position of Chair of the ARLC . Beattie was a regular political election commentator on Channels 9 and 7 from 2007 to 2015 and a regular Columnists for The Australian Newspaper from 2010 to 2015 .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          }
+        ]
+      }
+    },
+    "selected_after_results_for_illustration": true,
+    "selection_scope": "State wording without appointment/start/throughout cues. This is an illustrative overlap reading, not a gold intent annotation.",
+    "input_sha256": {
+      "pass5/pipeline/human/claims.jsonl": "4cc7567b13973a5f3633d5e2d8d68e95d2ea624a38402051a2707e1331cdcf08",
+      "pass5/pipeline/human/counterworlds.jsonl": "dbebe8b2ea5849654cb80f5dd25b625ac428ad85aeacd2aea766d073b0bb2436",
+      "pass5/protocol/human_test_confirmation_queries.jsonl": "e946ae3e7d494663cf56e0c1462f271f6abd78e12b422e464166d1e8d34d872d",
+      "pass3/protocol/test_source_passages.jsonl": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a"
+    }
+  },
+  {
+    "question": {
+      "question_id": "/wiki/A._G._Sulzberger#P108#annotation2",
+      "question": "Which employer did A . G . Sulzberger work for from 2009 to 2010?"
+    },
+    "query_window_iso": [
+      "2009-01-01",
+      "2010-12-31"
+    ],
+    "track": "validation",
+    "claim": {
+      "claim_id": "e92964b465d798668c6d3967",
+      "passage_id": "d98ea268898b15a14e4359bb",
+      "article_path": "/wiki/A._G._Sulzberger",
+      "source_span": {
+        "start": 0,
+        "end": 89,
+        "text": "Sulzberger worked as a reporter for The Oregonian newspaper in Portland from 2006 to 2009"
+      },
+      "subject": {
+        "surface": "Sulzberger",
+        "canonical": "A. G. Sulzberger",
+        "source_span": {
+          "start": 0,
+          "end": 10,
+          "text": "Sulzberger"
+        },
+        "resolution": "article_title_alias",
+        "article_title": "A. G. Sulzberger"
+      },
+      "slot": "position",
+      "value": "a reporter for The Oregonian newspaper in Portland",
+      "value_span": {
+        "start": 21,
+        "end": 71,
+        "text": "a reporter for The Oregonian newspaper in Portland"
+      },
+      "predicate_span": {
+        "start": 11,
+        "end": 20,
+        "text": "worked as"
+      },
+      "temporal_kind": "validity_duration",
+      "start": {
+        "lower": 732312,
+        "upper": 732676,
+        "lower_iso": "2006-01-01",
+        "upper_iso": "2006-12-31",
+        "precision": "year",
+        "source_span": {
+          "start": 77,
+          "end": 81,
+          "text": "2006"
+        }
+      },
+      "end": {
+        "lower": 733408,
+        "upper": 733772,
+        "lower_iso": "2009-01-01",
+        "upper_iso": "2009-12-31",
+        "precision": "year",
+        "source_span": {
+          "start": 85,
+          "end": 89,
+          "text": "2009"
+        }
+      },
+      "rule": "clause_explicit_tenure",
+      "replacement_policy": "explicit_succession_only",
+      "compiler_eligible": true,
+      "state_text": "A. G. Sulzberger: position = a reporter for The Oregonian newspaper in Portland.",
+      "exclusion_assertion": null,
+      "adapter_version": "source-clause-v3",
+      "atomic_span": {
+        "start": 0,
+        "end": 89,
+        "text": "Sulzberger worked as a reporter for The Oregonian newspaper in Portland from 2006 to 2009"
+      },
+      "coverage_scope": "atomic_clause_only",
+      "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+    },
+    "source_paragraph": {
+      "passage_id": "d98ea268898b15a14e4359bb",
+      "article_path": "/wiki/A._G._Sulzberger",
+      "paragraph_index": 9,
+      "text": "Sulzberger worked as a reporter for The Oregonian newspaper in Portland from 2006 to 2009 , writing more than 300 pieces about local government and public life , including a series of investigative exposés on misconduct by Multnomah County Sheriff Bernie Giusto ."
+    },
+    "exclusion_reason": "retired_by_query_start",
+    "worlds": {
+      "support": {
+        "pivot_present": true,
+        "event_dates": {
+          "e92964b465d798668c6d3967": "2006-12-31",
+          "@explicit-end:e92964b465d798668c6d3967": "2009-12-31"
+        },
+        "selected_unit_ids": [
+          "e92964b465d798668c6d3967",
+          "fallback:d4896755bbc668aeecb25ced:0:841",
+          "fallback:46921ede0d5c8692d2f8f4e8:0:458",
+          "fallback:3800affc593beb9d66ad18f9:0:437",
+          "fallback:8aaa4ceb14f6d1863af499b5:0:588"
+        ],
+        "contexts": [
+          {
+            "unit_id": "e92964b465d798668c6d3967",
+            "claim_id": "e92964b465d798668c6d3967",
+            "passage_id": "d98ea268898b15a14e4359bb",
+            "article_path": "/wiki/A._G._Sulzberger",
+            "title": "A. G. Sulzberger",
+            "start_char": 0,
+            "end_char_exclusive": 89,
+            "text": "Sulzberger worked as a reporter for The Oregonian newspaper in Portland from 2006 to 2009",
+            "kind": "modeled",
+            "start": {
+              "lower": 732312,
+              "upper": 732676,
+              "lower_iso": "2006-01-01",
+              "upper_iso": "2006-12-31",
+              "precision": "year",
+              "source_span": {
+                "start": 77,
+                "end": 81,
+                "text": "2006"
+              }
+            },
+            "end": {
+              "lower": 733408,
+              "upper": 733772,
+              "lower_iso": "2009-01-01",
+              "upper_iso": "2009-12-31",
+              "precision": "year",
+              "source_span": {
+                "start": 85,
+                "end": 89,
+                "text": "2009"
+              }
+            },
+            "source_subject": "A. G. Sulzberger",
+            "source_relation": "position",
+            "temporal_status": "unresolved"
+          },
+          {
+            "unit_id": "fallback:d4896755bbc668aeecb25ced:0:841",
+            "claim_id": null,
+            "passage_id": "d4896755bbc668aeecb25ced",
+            "article_path": "/wiki/A._G._Sulzberger",
+            "title": "A. G. Sulzberger",
+            "start_char": 0,
+            "end_char_exclusive": 841,
+            "text": "Sulzberger began writing for the New York Times as a metro reporter in February 2009 , which published his first article on March 2 . He became a national correspondent , heading the Kansas City bureau and covering the Midwest region . The 2017 film Kodachrome , directed by Mark Raso , is based on his 2010 article about a rural community that became the last place to develop Kodachrome film . In 2013 , he was tapped by then-executive editor Jill Abramson to lead the team that produced the Times Innovation Report , an internal assessment of the challenges facing the Times in the digital age . He was the lead author of the 97-page report , which documented in clinical detail how the Times was losing ground to nimbler competitors and called for revolutionary changes . The Innovation Report was leaked to BuzzFeed News in March 2014 .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:46921ede0d5c8692d2f8f4e8:0:458",
+            "claim_id": null,
+            "passage_id": "46921ede0d5c8692d2f8f4e8",
+            "article_path": "/wiki/A._G._Sulzberger",
+            "title": "A. G. Sulzberger",
+            "start_char": 0,
+            "end_char_exclusive": 458,
+            "text": "After being encouraged by Brown journalism professor Tracy Breton to apply , Sulzberger interned at The Providence Journal from 2004 to 2006 , working from the papers office in Wakefield . While there , he revealed that membership of the Narragansett Lions Club was not open to women . Despite threats from the club to withdraw their advertising if the story ran , the Journal published Sulzbergers story . The club began admitting women a few months later .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:3800affc593beb9d66ad18f9:0:437",
+            "claim_id": null,
+            "passage_id": "3800affc593beb9d66ad18f9",
+            "article_path": "/wiki/A._G._Sulzberger",
+            "title": "A. G. Sulzberger",
+            "start_char": 0,
+            "end_char_exclusive": 437,
+            "text": "He has said that an independent press is not a liberal ideal or a progressive ideal or a Democratic ideal . Its an American ideal . In 2020 , Sulzberger voiced concern about the disappearance of local news , saying that if we dont find a path forward for local journalism , I believe well continue to watch society grow more polarized , less empathetic , more easily manipulated by powerful interests and more untethered from the truth .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:8aaa4ceb14f6d1863af499b5:0:588",
+            "claim_id": null,
+            "passage_id": "8aaa4ceb14f6d1863af499b5",
+            "article_path": "/wiki/A._G._Sulzberger",
+            "title": "A. G. Sulzberger",
+            "start_char": 0,
+            "end_char_exclusive": 588,
+            "text": "Sulzberger was named associate editor for newsroom strategy in August 2015 . In that role , he was part of the group that outlined the Times plan to double the news outlets digital revenue by 2020 and increase collaboration between departments , dubbed Our Path Forward . In October 2016 , he was named deputy publisher , putting him in line to succeed his father as publisher . His cousins Sam Dolnick , now assistant managing editor of the Times , and David Perpich , now head of standalone products and a member of the New York Times Company board , were also considered for the role .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          }
+        ]
+      },
+      "exclusion": {
+        "pivot_present": false,
+        "event_dates": {
+          "e92964b465d798668c6d3967": "2006-01-01",
+          "@explicit-end:e92964b465d798668c6d3967": "2009-01-01"
+        },
+        "selected_unit_ids": [
+          "fallback:d4896755bbc668aeecb25ced:0:841",
+          "fallback:46921ede0d5c8692d2f8f4e8:0:458",
+          "fallback:3800affc593beb9d66ad18f9:0:437",
+          "fallback:8aaa4ceb14f6d1863af499b5:0:588",
+          "fallback:c3fb2b380ae8832db87d6044:0:738"
+        ],
+        "contexts": [
+          {
+            "unit_id": "fallback:d4896755bbc668aeecb25ced:0:841",
+            "claim_id": null,
+            "passage_id": "d4896755bbc668aeecb25ced",
+            "article_path": "/wiki/A._G._Sulzberger",
+            "title": "A. G. Sulzberger",
+            "start_char": 0,
+            "end_char_exclusive": 841,
+            "text": "Sulzberger began writing for the New York Times as a metro reporter in February 2009 , which published his first article on March 2 . He became a national correspondent , heading the Kansas City bureau and covering the Midwest region . The 2017 film Kodachrome , directed by Mark Raso , is based on his 2010 article about a rural community that became the last place to develop Kodachrome film . In 2013 , he was tapped by then-executive editor Jill Abramson to lead the team that produced the Times Innovation Report , an internal assessment of the challenges facing the Times in the digital age . He was the lead author of the 97-page report , which documented in clinical detail how the Times was losing ground to nimbler competitors and called for revolutionary changes . The Innovation Report was leaked to BuzzFeed News in March 2014 .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:46921ede0d5c8692d2f8f4e8:0:458",
+            "claim_id": null,
+            "passage_id": "46921ede0d5c8692d2f8f4e8",
+            "article_path": "/wiki/A._G._Sulzberger",
+            "title": "A. G. Sulzberger",
+            "start_char": 0,
+            "end_char_exclusive": 458,
+            "text": "After being encouraged by Brown journalism professor Tracy Breton to apply , Sulzberger interned at The Providence Journal from 2004 to 2006 , working from the papers office in Wakefield . While there , he revealed that membership of the Narragansett Lions Club was not open to women . Despite threats from the club to withdraw their advertising if the story ran , the Journal published Sulzbergers story . The club began admitting women a few months later .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:3800affc593beb9d66ad18f9:0:437",
+            "claim_id": null,
+            "passage_id": "3800affc593beb9d66ad18f9",
+            "article_path": "/wiki/A._G._Sulzberger",
+            "title": "A. G. Sulzberger",
+            "start_char": 0,
+            "end_char_exclusive": 437,
+            "text": "He has said that an independent press is not a liberal ideal or a progressive ideal or a Democratic ideal . Its an American ideal . In 2020 , Sulzberger voiced concern about the disappearance of local news , saying that if we dont find a path forward for local journalism , I believe well continue to watch society grow more polarized , less empathetic , more easily manipulated by powerful interests and more untethered from the truth .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:8aaa4ceb14f6d1863af499b5:0:588",
+            "claim_id": null,
+            "passage_id": "8aaa4ceb14f6d1863af499b5",
+            "article_path": "/wiki/A._G._Sulzberger",
+            "title": "A. G. Sulzberger",
+            "start_char": 0,
+            "end_char_exclusive": 588,
+            "text": "Sulzberger was named associate editor for newsroom strategy in August 2015 . In that role , he was part of the group that outlined the Times plan to double the news outlets digital revenue by 2020 and increase collaboration between departments , dubbed Our Path Forward . In October 2016 , he was named deputy publisher , putting him in line to succeed his father as publisher . His cousins Sam Dolnick , now assistant managing editor of the Times , and David Perpich , now head of standalone products and a member of the New York Times Company board , were also considered for the role .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:c3fb2b380ae8832db87d6044:0:738",
+            "claim_id": null,
+            "passage_id": "c3fb2b380ae8832db87d6044",
+            "article_path": "/wiki/A._G._Sulzberger",
+            "title": "A. G. Sulzberger",
+            "start_char": 0,
+            "end_char_exclusive": 738,
+            "text": "Sulzberger met President Donald Trump at the White House on July 20 , 2018 . The meeting was off-the-record , but after President Trump tweeted about it eight days later , Sulzberger pushed back hard to dispute the Presidents characterization of the meeting . Sulzberger said in a statement that at the meeting , he told the president directly that I thought that his [ anti-press ] language was not just divisive but increasingly dangerous . I warned that this inflammatory language is contributing to a rise in threats against journalists and will lead to violence . Sulzberger met with President Trump in the Oval Office again on January 31 , 2019 , for an on-the-record interview with Times reporters Peter Baker and Maggie Haberman .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          }
+        ]
+      }
+    },
+    "selected_after_results_for_illustration": true,
+    "selection_scope": "State wording without appointment/start/throughout cues. This is an illustrative overlap reading, not a gold intent annotation.",
+    "input_sha256": {
+      "pass5/pipeline/validation/claims.jsonl": "01f55e346f4147458e3fa8b83e4c977cf76e3c4aab986428db0264627c759f98",
+      "pass5/pipeline/validation/counterworlds.jsonl": "e560ad536cc6b58341f2b6d2768e6385a043cdea2ec4c28715057534f5b8cf56",
+      "pass5/protocol/dev_validation_queries.jsonl": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7",
+      "pass3/protocol/dev_source_passages.jsonl": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4"
+    }
+  },
+  {
+    "question": {
+      "question_id": "/wiki/Carl_Romme#P39#annotation3",
+      "question": "Which position did Carl Romme hold from Jun 1937 to Jun 1937?"
+    },
+    "query_window_iso": [
+      "1937-06-01",
+      "1937-06-30"
+    ],
+    "track": "validation",
+    "claim": {
+      "claim_id": "058ecfaf8a375d56fdfe3be2",
+      "passage_id": "fadd168861435b9bb116b60d",
+      "article_path": "/wiki/Carl_Romme",
+      "source_span": {
+        "start": 244,
+        "end": 317,
+        "text": "Romme worked as a lawyer in Amsterdam from September 1919 until June 1937"
+      },
+      "subject": {
+        "surface": "Romme",
+        "canonical": "Carl Romme",
+        "source_span": {
+          "start": 244,
+          "end": 249,
+          "text": "Romme"
+        },
+        "resolution": "article_title_alias",
+        "article_title": "Carl Romme"
+      },
+      "slot": "position",
+      "value": "a lawyer in Amsterdam",
+      "value_span": {
+        "start": 260,
+        "end": 281,
+        "text": "a lawyer in Amsterdam"
+      },
+      "predicate_span": {
+        "start": 250,
+        "end": 259,
+        "text": "worked as"
+      },
+      "temporal_kind": "validity_duration",
+      "start": {
+        "lower": 700778,
+        "upper": 700807,
+        "lower_iso": "1919-09-01",
+        "upper_iso": "1919-09-30",
+        "precision": "month",
+        "source_span": {
+          "start": 287,
+          "end": 301,
+          "text": "September 1919"
+        }
+      },
+      "end": {
+        "lower": 707261,
+        "upper": 707290,
+        "lower_iso": "1937-06-01",
+        "upper_iso": "1937-06-30",
+        "precision": "month",
+        "source_span": {
+          "start": 308,
+          "end": 317,
+          "text": "June 1937"
+        }
+      },
+      "rule": "clause_explicit_tenure",
+      "replacement_policy": "explicit_succession_only",
+      "compiler_eligible": true,
+      "state_text": "Carl Romme: position = a lawyer in Amsterdam.",
+      "exclusion_assertion": null,
+      "adapter_version": "source-clause-v3",
+      "atomic_span": {
+        "start": 244,
+        "end": 317,
+        "text": "Romme worked as a lawyer in Amsterdam from September 1919 until June 1937"
+      },
+      "coverage_scope": "atomic_clause_only",
+      "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+    },
+    "source_paragraph": {
+      "passage_id": "fadd168861435b9bb116b60d",
+      "article_path": "/wiki/Carl_Romme",
+      "paragraph_index": 2,
+      "text": "Romme attended the Amsterdams Lyceum from June 1909 until June 1914 and applied at the University of Amsterdam in June 1914 majoring in Law and obtaining an Bachelor of Laws degree before graduating with an Master of Laws degree in July 1919 . Romme worked as a lawyer in Amsterdam from September 1919 until June 1937 . Romme also worked as an trade association executive for the Catholic Employers association from November 1919 until December 1924 and was a contributing editor for the magazines Het Patroonsblad and De RK Werkgever from February 1920 until December 1924 . Romme served on the Municipal Council of Amsterdam from April 1921 until June 1937 and served on the Provincial-Council of North Holland from June 1935 until June 1937 . Romme also became active in the private sector and public sector and occupied numerous seats as a corporate director and nonprofit director on several boards of directors and supervisory boards ( Brill Publishers , Elsevier and the Concertgebouw ) and served on several and councils on behalf of the government ( and the ) . Romme also worked as an associate professor of Labour law and at the Tilburg University from 1 January 1933 until 1 January 1935 and as a distinguished professor of Labour law , Administrative law and Constitutional law and at the Tilburg University from 1 January 1935 until 24 June 1937 . Romme became a Member of the House of Representatives after the resignation of Leo Guit , serving from 31 January 1933 until 9 May 1933 . Romme was elected as a Member of the Senate after the Senate election of 1937 , taking office on 8 June 1937 . After the election of 1937 Romme was appointed as Minister of Social Affairs in the Cabinet Colijn IV , taking office on 24 June 1937 . The Cabinet Colijn IV fell on 29 June 1939 and continued to serve in a demissionary capacity until the cabinet formation of 1939 when it was replaced by the Cabinet Colijn V on 25 July 1939 ."
+    },
+    "exclusion_reason": "retired_by_query_start",
+    "worlds": {
+      "support": {
+        "pivot_present": true,
+        "event_dates": {
+          "058ecfaf8a375d56fdfe3be2": "1919-09-30",
+          "@explicit-end:058ecfaf8a375d56fdfe3be2": "1937-06-30"
+        },
+        "selected_unit_ids": [
+          "058ecfaf8a375d56fdfe3be2",
+          "40db1970744baba0691ac6e4",
+          "fallback:fadd168861435b9bb116b60d:1360:1938",
+          "2e3b1def020a77c7259c3784",
+          "fallback:fadd168861435b9bb116b60d:659:1070"
+        ],
+        "contexts": [
+          {
+            "unit_id": "058ecfaf8a375d56fdfe3be2",
+            "claim_id": "058ecfaf8a375d56fdfe3be2",
+            "passage_id": "fadd168861435b9bb116b60d",
+            "article_path": "/wiki/Carl_Romme",
+            "title": "Carl Romme",
+            "start_char": 244,
+            "end_char_exclusive": 317,
+            "text": "Romme worked as a lawyer in Amsterdam from September 1919 until June 1937",
+            "kind": "modeled",
+            "start": {
+              "lower": 700778,
+              "upper": 700807,
+              "lower_iso": "1919-09-01",
+              "upper_iso": "1919-09-30",
+              "precision": "month",
+              "source_span": {
+                "start": 287,
+                "end": 301,
+                "text": "September 1919"
+              }
+            },
+            "end": {
+              "lower": 707261,
+              "upper": 707290,
+              "lower_iso": "1937-06-01",
+              "upper_iso": "1937-06-30",
+              "precision": "month",
+              "source_span": {
+                "start": 308,
+                "end": 317,
+                "text": "June 1937"
+              }
+            },
+            "source_subject": "Carl Romme",
+            "source_relation": "position",
+            "temporal_status": "unresolved"
+          },
+          {
+            "unit_id": "40db1970744baba0691ac6e4",
+            "claim_id": "40db1970744baba0691ac6e4",
+            "passage_id": "fadd168861435b9bb116b60d",
+            "article_path": "/wiki/Carl_Romme",
+            "title": "Carl Romme",
+            "start_char": 576,
+            "end_char_exclusive": 658,
+            "text": "Romme served on the Municipal Council of Amsterdam from April 1921 until June 1937",
+            "kind": "modeled",
+            "start": {
+              "lower": 701356,
+              "upper": 701385,
+              "lower_iso": "1921-04-01",
+              "upper_iso": "1921-04-30",
+              "precision": "month",
+              "source_span": {
+                "start": 632,
+                "end": 642,
+                "text": "April 1921"
+              }
+            },
+            "end": {
+              "lower": 707261,
+              "upper": 707290,
+              "lower_iso": "1937-06-01",
+              "upper_iso": "1937-06-30",
+              "precision": "month",
+              "source_span": {
+                "start": 649,
+                "end": 658,
+                "text": "June 1937"
+              }
+            },
+            "source_subject": "Carl Romme",
+            "source_relation": "position",
+            "temporal_status": "unresolved"
+          },
+          {
+            "unit_id": "fallback:fadd168861435b9bb116b60d:1360:1938",
+            "claim_id": null,
+            "passage_id": "fadd168861435b9bb116b60d",
+            "article_path": "/wiki/Carl_Romme",
+            "title": "Carl Romme",
+            "start_char": 1360,
+            "end_char_exclusive": 1938,
+            "text": ". Romme became a Member of the House of Representatives after the resignation of Leo Guit , serving from 31 January 1933 until 9 May 1933 . Romme was elected as a Member of the Senate after the Senate election of 1937 , taking office on 8 June 1937 . After the election of 1937 Romme was appointed as Minister of Social Affairs in the Cabinet Colijn IV , taking office on 24 June 1937 . The Cabinet Colijn IV fell on 29 June 1939 and continued to serve in a demissionary capacity until the cabinet formation of 1939 when it was replaced by the Cabinet Colijn V on 25 July 1939 .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "2e3b1def020a77c7259c3784",
+            "claim_id": "2e3b1def020a77c7259c3784",
+            "passage_id": "fadd168861435b9bb116b60d",
+            "article_path": "/wiki/Carl_Romme",
+            "title": "Carl Romme",
+            "start_char": 1200,
+            "end_char_exclusive": 1359,
+            "text": "and as a distinguished professor of Labour law , Administrative law and Constitutional law and at the Tilburg University from 1 January 1935 until 24 June 1937",
+            "kind": "modeled",
+            "start": {
+              "lower": 706379,
+              "upper": 706379,
+              "lower_iso": "1935-01-01",
+              "upper_iso": "1935-01-01",
+              "precision": "day",
+              "source_span": {
+                "start": 1326,
+                "end": 1340,
+                "text": "1 January 1935"
+              }
+            },
+            "end": {
+              "lower": 707284,
+              "upper": 707284,
+              "lower_iso": "1937-06-24",
+              "upper_iso": "1937-06-24",
+              "precision": "day",
+              "source_span": {
+                "start": 1347,
+                "end": 1359,
+                "text": "24 June 1937"
+              }
+            },
+            "source_subject": "Carl Romme",
+            "source_relation": "position",
+            "temporal_status": "guaranteed"
+          },
+          {
+            "unit_id": "fallback:fadd168861435b9bb116b60d:659:1070",
+            "claim_id": null,
+            "passage_id": "fadd168861435b9bb116b60d",
+            "article_path": "/wiki/Carl_Romme",
+            "title": "Carl Romme",
+            "start_char": 659,
+            "end_char_exclusive": 1070,
+            "text": "and served on the Provincial-Council of North Holland from June 1935 until June 1937 . Romme also became active in the private sector and public sector and occupied numerous seats as a corporate director and nonprofit director on several boards of directors and supervisory boards ( Brill Publishers , Elsevier and the Concertgebouw ) and served on several and councils on behalf of the government ( and the ) .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          }
+        ]
+      },
+      "exclusion": {
+        "pivot_present": false,
+        "event_dates": {
+          "058ecfaf8a375d56fdfe3be2": "1919-09-01",
+          "@explicit-end:058ecfaf8a375d56fdfe3be2": "1937-06-01"
+        },
+        "selected_unit_ids": [
+          "fallback:fadd168861435b9bb116b60d:1360:1938",
+          "2e3b1def020a77c7259c3784",
+          "fallback:fadd168861435b9bb116b60d:659:1070",
+          "fallback:fadd168861435b9bb116b60d:450:575",
+          "fallback:ad1ab7cfada22d69890f5ddb:78:1551"
+        ],
+        "contexts": [
+          {
+            "unit_id": "fallback:fadd168861435b9bb116b60d:1360:1938",
+            "claim_id": null,
+            "passage_id": "fadd168861435b9bb116b60d",
+            "article_path": "/wiki/Carl_Romme",
+            "title": "Carl Romme",
+            "start_char": 1360,
+            "end_char_exclusive": 1938,
+            "text": ". Romme became a Member of the House of Representatives after the resignation of Leo Guit , serving from 31 January 1933 until 9 May 1933 . Romme was elected as a Member of the Senate after the Senate election of 1937 , taking office on 8 June 1937 . After the election of 1937 Romme was appointed as Minister of Social Affairs in the Cabinet Colijn IV , taking office on 24 June 1937 . The Cabinet Colijn IV fell on 29 June 1939 and continued to serve in a demissionary capacity until the cabinet formation of 1939 when it was replaced by the Cabinet Colijn V on 25 July 1939 .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "2e3b1def020a77c7259c3784",
+            "claim_id": "2e3b1def020a77c7259c3784",
+            "passage_id": "fadd168861435b9bb116b60d",
+            "article_path": "/wiki/Carl_Romme",
+            "title": "Carl Romme",
+            "start_char": 1200,
+            "end_char_exclusive": 1359,
+            "text": "and as a distinguished professor of Labour law , Administrative law and Constitutional law and at the Tilburg University from 1 January 1935 until 24 June 1937",
+            "kind": "modeled",
+            "start": {
+              "lower": 706379,
+              "upper": 706379,
+              "lower_iso": "1935-01-01",
+              "upper_iso": "1935-01-01",
+              "precision": "day",
+              "source_span": {
+                "start": 1326,
+                "end": 1340,
+                "text": "1 January 1935"
+              }
+            },
+            "end": {
+              "lower": 707284,
+              "upper": 707284,
+              "lower_iso": "1937-06-24",
+              "upper_iso": "1937-06-24",
+              "precision": "day",
+              "source_span": {
+                "start": 1347,
+                "end": 1359,
+                "text": "24 June 1937"
+              }
+            },
+            "source_subject": "Carl Romme",
+            "source_relation": "position",
+            "temporal_status": "guaranteed"
+          },
+          {
+            "unit_id": "fallback:fadd168861435b9bb116b60d:659:1070",
+            "claim_id": null,
+            "passage_id": "fadd168861435b9bb116b60d",
+            "article_path": "/wiki/Carl_Romme",
+            "title": "Carl Romme",
+            "start_char": 659,
+            "end_char_exclusive": 1070,
+            "text": "and served on the Provincial-Council of North Holland from June 1935 until June 1937 . Romme also became active in the private sector and public sector and occupied numerous seats as a corporate director and nonprofit director on several boards of directors and supervisory boards ( Brill Publishers , Elsevier and the Concertgebouw ) and served on several and councils on behalf of the government ( and the ) .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:fadd168861435b9bb116b60d:450:575",
+            "claim_id": null,
+            "passage_id": "fadd168861435b9bb116b60d",
+            "article_path": "/wiki/Carl_Romme",
+            "title": "Carl Romme",
+            "start_char": 450,
+            "end_char_exclusive": 575,
+            "text": "and was a contributing editor for the magazines Het Patroonsblad and De RK Werkgever from February 1920 until December 1924 .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          },
+          {
+            "unit_id": "fallback:ad1ab7cfada22d69890f5ddb:78:1551",
+            "claim_id": null,
+            "passage_id": "ad1ab7cfada22d69890f5ddb",
+            "article_path": "/wiki/Carl_Romme",
+            "title": "Carl Romme",
+            "start_char": 78,
+            "end_char_exclusive": 1551,
+            "text": ". On 10 May 1940 Nazi Germany invaded the Netherlands and the government fled to London to escape the German occupation . During World War II Romme continued to work as a lawyer . In December 1941 Romme was arrested and detained in Amsterdam and was released on January 1942 . On 4 May 1942 Romme was arrested again and detained in Sint-Michielsgestel but was released four days later on 7 May 1942 . Following the end of World War II Romme became actively involved with politics again and was one of the primary initiators for reforming the Roman Catholic State Party . On 22 December 1945 the Roman Catholic State Party was renamed as the Catholic Peoples Party , Romme was one of the co-founders and was selected as the first Leader of the Catholic Peoples Party and the Lijsttrekker ( top candidate ) of the Catholic Peoples Party for the election of 1946 on 10 January 1946 . The Catholic Peoples Party had 31 seats in the House of House of Representatives previously held by the Roman Catholic State Party and made a small win , gaining 1 seat and remained the largest party and now had 32 seats in the House of Representatives . Romme was elected again as a Member of the House of Representatives and became the Parliamentary leader of the Catholic Peoples Party in the House of Representatives on 4 June 1946 . Romme served continuously as Leader and Parliamentary leader for the next 15 years and was Lijsttrekker for the elections of 1948 , 1952 , 1956 and 1959 .",
+            "kind": "fallback",
+            "start": null,
+            "end": null,
+            "source_subject": null,
+            "source_relation": null,
+            "temporal_status": "unknown"
+          }
+        ]
+      }
+    },
+    "selected_after_results_for_illustration": true,
+    "selection_scope": "State wording without appointment/start/throughout cues. This is an illustrative overlap reading, not a gold intent annotation.",
+    "input_sha256": {
+      "pass5/pipeline/validation/claims.jsonl": "01f55e346f4147458e3fa8b83e4c977cf76e3c4aab986428db0264627c759f98",
+      "pass5/pipeline/validation/counterworlds.jsonl": "e560ad536cc6b58341f2b6d2768e6385a043cdea2ec4c28715057534f5b8cf56",
+      "pass5/protocol/dev_validation_queries.jsonl": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7",
+      "pass3/protocol/dev_source_passages.jsonl": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4"
+    }
+  }
+]

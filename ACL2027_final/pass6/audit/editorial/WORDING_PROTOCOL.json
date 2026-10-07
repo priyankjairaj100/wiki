@@ -1,0 +1,25 @@
+{
+  "version": "question_wording_v1",
+  "frozen_before_corpus_classification": true,
+  "created_utc": "2026-10-07T07:02:45.156087+00:00",
+  "scope": "A deterministic wording screen, not a gold annotation of temporal intent. Only visible question strings enter the classifier.",
+  "rules": {
+    "throughout_cue": "\\b(?:throughout|entire(?:ty of)?|whole|full duration|all of|continuously|uninterrupted)\\b",
+    "start_event_cue": "\\b(?:appoint(?:ed|ment)?|join(?:ed)?|assum(?:e|ed)|became|become|becoming|start(?:ed)?|begin|began|commenc(?:e|ed)|take up|took up|elected|hired|promoted|succeeded|succeed|replaced|replace)\\b",
+    "explicit_overlap_cue": "\\b(?:at any (?:time|point)|at some (?:time|point)|sometime|ever (?:during|between|in)|any part of)\\b"
+  },
+  "decision": "Assign a category only when exactly one cue family matches. Multiple families become mixed_cues. No cue becomes unspecified_or_ambiguous.",
+  "categories": [
+    "throughout_cue",
+    "start_event_cue",
+    "explicit_overlap_cue",
+    "mixed_cues",
+    "unspecified_or_ambiguous"
+  ],
+  "limitations": [
+    "Words such as from, between, and during do not uniquely specify a logical predicate.",
+    "Event words can occur in unrelated noun phrases. The screen measures wording, not semantic accuracy.",
+    "No annotation strings, reference answers, or reader responses are read.",
+    "The existing evaluation uses its frozen somewhere-within predicate for every parsed question."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "required_saved_data_and_code": {
+    "pass4/inference/run_jsonl_final.py": "694eb668af730afa23f0a88f90732159dd56deb082efd09a13d82add61395017",
+    "pass3/protocol/parse_reader.py": "fe0d8ffedafcd1fa62bb2e6f3cd4ee86624c529e5eea68e7d8958e0b0fa23eff",
+    "pass3/protocol/reader_parser_freeze.json": "55a3c43ee70555b691e4d91c040ec69d12dc6cdf5440808a0f9bce9a7cb34ddb",
+    "pass3/protocol/score_predictions.py": "d947af316ffcf0f716fca86051e4b0ba9867dc591cabf79c323e96b4bd09575f",
+    "pass5/protocol/score_reader.py": "3b241133def77e2f38328693c12785d4ca6296457bd85bffe1f1a8fa419f3603",
+    "pass5/protocol/audit_answer_changes.py": "6d00dd1bcd61bee41d4fe6402152c2f75cbf1a9c748100c71f1b002d5a366c3d",
+    "pass5/protocol/config.json": "df6d1c19448d1ef8f04f2ccf0cd458bc03458c0def8bb9740dc21ec3bafd8229",
+    "pass5/protocol/reader_sample_manifest.json": "2309c78372ed0df3d7f38b070ddab0db864ce257d30bf3ee5e8a5aab6ed357d2",
+    "pass5/pipeline/run_matched.py": "75991da3e8446a7a4498424f152b42550741e6b21f17643be9c9928eb4130ace",
+    "pass5/pipeline/human/predictions.jsonl": "466fa61f804e75ed1f18d5f8077f0df6364ac63a249ceb16e4d80eadfeb93ba0",
+    "pass3/protocol/human_test_confirmation_labels.jsonl": "b8af351e1566c794de94092c31dbecddcf8c98e931ffcfee1f06230c7e224307",
+    "pass3/protocol/test_source_passages.jsonl": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a",
+    "pass5/protocol/reader_primary_scored/predictions_with_reader.jsonl": "42d6388ff02f5dcec18d0a2d6b3746e1eecb378f71baac0e6dd056f3f5e1d757",
+    "pass5/protocol/reader_primary_scored/scored_questions.jsonl": "d8b4e45c4c10d83ee3665162f147018c884257953b47304152e5e6a8c4d52cad",
+    "pass5/protocol/reader_diagnostic_scored/predictions_with_reader.jsonl": "b9c789191336197e5dd2a0268fa1628dc08ccad3797e62f147c40292270aede5",
+    "pass5/protocol/reader_diagnostic_scored/scored_questions.jsonl": "7eeae4368a012a9a0fbb38d738dce5f4545ad61d821c80ebb93a2544f59ca5ba",
+    "pass5/inference/human/reader_jobs.jsonl": "387c21a2ebb5ded67c2adbda977796c30bf90aafe3547c3b6418b78956146c70",
+    "pass5/inference/human/reader_memberships.jsonl": "7079bc5dbbe4a58cdd09d8305d017fef42e8bbae389fd1231bcb7023a7b94f34",
+    "pass5/inference/human/queries.jsonl": "ac16d6a63bed55d2cbf10c65d747e943b3c1b364fcd89ce5158e0216f79f8ded",
+    "pass5/inference/human_diagnostic/reader_jobs.jsonl": "3ae0a9f52478fdee3f4b13e9ac3d4cbc449686287e6af30a11568d803b9621f8",
+    "pass5/inference/human_diagnostic/reader_memberships.jsonl": "aea27b5a28ba2582bec42fb8e0791b3eaedd456e9005c42bd53556de1f834d7d",
+    "pass5/inference/human_diagnostic/queries.jsonl": "b1d2f20e919ef90e8aa6a46dbbd7aa75e49f0c5145992898ed8956727aadd0a0"
+  },
+  "note": "Include recursive Python imports of the declared entry scripts. The offline verifier does not require model weights or a server."
+}

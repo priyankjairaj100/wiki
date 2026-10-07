@@ -1,0 +1,32 @@
+{
+  "all_rendered_witness_pairs_differ": true,
+  "all_source_order_constraints_replayed": true,
+  "by_k": {
+    "1": {
+      "control_stable_but_replacement_unstable": 42,
+      "interval_stable": 67,
+      "possible_differs_from_interval": 33,
+      "queries": 73,
+      "rendered_possible_differs_from_interval": 33,
+      "stability_differs": 42,
+      "stable": 25
+    },
+    "5": {
+      "control_stable_but_replacement_unstable": 0,
+      "interval_stable": 25,
+      "possible_differs_from_interval": 34,
+      "queries": 73,
+      "rendered_possible_differs_from_interval": 34,
+      "stability_differs": 0,
+      "stable": 25
+    }
+  },
+  "claim_query_pairs": 194,
+  "context_decisions": 146,
+  "feasible_instability_pairs": 96,
+  "oracle_models": 2,
+  "point_queries": 73,
+  "records": 20,
+  "scope": "Exact source-order view. Both replacement and interval control retain identical calendar bounds and strict source orders. The interval control removes only cross-claim replacement edges. Explicit ends remain.",
+  "support_judgments_per_model": 388
+}

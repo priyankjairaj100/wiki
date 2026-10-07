@@ -1,0 +1,13 @@
+\subsection{Answer sensitivity under structured decoding}
+All 234 responses pass the unchanged parser, covering every primary and diagnostic condition.
+Table~\ref{tab:reader_main} reports strict answer-set F1.
+The title-aware ranking gains 11.11 points over original BM25 with recency, with interval $[3.33,19.44]$.
+This difference follows the relevance ranking.
+Possible and guaranteed support share every primary context and produce identical answers.
+\input{tables/reader_main}
+
+Seven diagnostic questions have different possible and guaranteed contexts.
+Four produce different answer sets.
+Guaranteed support gains 9.09 F1 points, with interval $[0.00,30.00]$.
+Partial strict matches now separate F1 from exact match.
+Appendix~\ref{app:reader} gives cardinality strata, every changed answer, and the complete decoding comparison.

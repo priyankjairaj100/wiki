@@ -1,0 +1,29 @@
+{
+  "architecture": {
+    "width_inches": 7.0,
+    "height_inches": 2.35,
+    "vector_formats": [
+      "pdf",
+      "svg"
+    ],
+    "preview_dpi": 144
+  },
+  "two_witnesses": {
+    "width_inches": 3.35,
+    "height_inches": 2.65,
+    "vector_formats": [
+      "pdf",
+      "svg"
+    ],
+    "preview_dpi": 144
+  },
+  "coverage": {
+    "width_inches": 3.35,
+    "height_inches": 1.8,
+    "vector_formats": [
+      "pdf",
+      "svg"
+    ],
+    "preview_dpi": 144
+  }
+}

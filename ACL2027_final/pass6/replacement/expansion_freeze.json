@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-07T07:12:44.345196+00:00",
+  "stage": "Before all certificate outcomes",
+  "sample_size": 384,
+  "initial_panel": 128,
+  "additional_panel": 256,
+  "files": {
+    "pass6/replacement/EXPANSION_ADDENDUM.md": "31a33aefbf82614ed3d2f686e75dc83faa18fabe40c2977f422d066ba14c266b",
+    "pass6/replacement/expanded_sample.jsonl": "ff9496fc0e0b603e9b1aeb1a4c4c6a5faa7093d89171f37774a98bebe3955a55"
+  }
+}

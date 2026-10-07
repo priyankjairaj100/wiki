@@ -1,0 +1,31 @@
+{
+  "pdf_sha256": "c0cb26ce6e57ccaa6651d11daf3513ad77eb671625a92d2078f3e3f81e17b967",
+  "pages": 22,
+  "unchanged_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "changed_pages": [
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "all_png_verified": true
+}

@@ -1,0 +1,52 @@
+{
+  "earliest_completion__latest_completion": {
+    "full_cohort_questions": 60,
+    "all_answer_set_changes": 0,
+    "both_outputs_parsed_questions": 60,
+    "answer_changes_with_both_outputs_parsed": 0,
+    "answer_changes_involving_parse_failure": 0,
+    "changed_both_parsed_question_ids": [],
+    "changed_with_parse_failure_question_ids": []
+  },
+  "guaranteed_support__possible_support": {
+    "full_cohort_questions": 60,
+    "all_answer_set_changes": 0,
+    "both_outputs_parsed_questions": 60,
+    "answer_changes_with_both_outputs_parsed": 0,
+    "answer_changes_involving_parse_failure": 0,
+    "changed_both_parsed_question_ids": [],
+    "changed_with_parse_failure_question_ids": []
+  },
+  "no_temporal_filter__original_bm25_latestyear": {
+    "full_cohort_questions": 60,
+    "all_answer_set_changes": 22,
+    "both_outputs_parsed_questions": 60,
+    "answer_changes_with_both_outputs_parsed": 22,
+    "answer_changes_involving_parse_failure": 0,
+    "changed_both_parsed_question_ids": [
+      "/wiki/Thomas_Fearnley#P937#annotation0",
+      "/wiki/2AM_(band)#P1416#annotation1",
+      "/wiki/VP-29#P1448#annotation4",
+      "/wiki/Ludwig_Martens#P937#annotation1",
+      "/wiki/Albuquerque_Dukes#P118#annotation2",
+      "/wiki/Peter_Beattie#P39#annotation1",
+      "/wiki/Olivier_Bernard#P54#annotation1",
+      "/wiki/Vladimir_Bukovsky#P27#annotation1",
+      "/wiki/Marcus_Ericsson#P641#annotation0",
+      "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+      "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+      "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+      "/wiki/Helen_Clark#P39#annotation4",
+      "/wiki/HMAS_Cairns_(J183)#P137#annotation2",
+      "/wiki/Nora_Ephron#P26#annotation1",
+      "/wiki/Nana_Okada#P463#annotation2",
+      "/wiki/FCI_Levadia_Tallinn#P286#annotation1",
+      "/wiki/Lee_Nogan#P54#annotation2",
+      "/wiki/Beugr\u00f3#P449#annotation4",
+      "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+      "/wiki/Lisa_Marie_Presley#P26#annotation3",
+      "/wiki/National_Library_of_Serbia#P1037#annotation1"
+    ],
+    "changed_with_parse_failure_question_ids": []
+  }
+}

@@ -1,0 +1,134 @@
+\section{Exact Queries Under Source Constraints}
+\label{app:constrained-dates}
+
+\paragraph{Feasible calendar dates.}
+This extension represents event dates as integers.
+Let $\mathcal C$ contain source constraints of the form $x_i-x_j\le v$.
+The feasible family is
+\[
+ \Omega_{\mathcal C}
+ =\{x:\ell_i\le x_i\le u_i\text{ for all }i,\ x\models\mathcal C\}.
+\]
+The implementation rejects an empty family before evaluating support.
+A known order $x_i<x_j$ becomes $x_i-x_j\le-1$.
+An explicit end $z_c$ requires $x_c-z_c\le-1$ and the hidden replacement pair $z_c\to c$.
+This constraint permits overlapping start and end bounds while excluding invalid lifetimes.
+End events remain hidden from the reader's context.
+
+\paragraph{Three query predicates.}
+Write $D(c)=\{d:G(d,c)=1\}$ for the accepted direct replacements of $c$.
+For query $[a,b]$, define overlap support, throughout support, and appointment support by
+\begin{align}
+ S^{\mathrm{overlap}}_x(c,[a,b])
+ &\iff x_c\le b\ \land\!\bigwedge_{d\in D(c)}
+ (x_d\le x_c\lor x_d\ge a+1),\label{eq:constrained-overlap}\\
+ S^{\mathrm{throughout}}_x(c,[a,b])
+ &\iff x_c\le a\ \land\!\bigwedge_{d\in D(c)}
+ (x_d\le x_c\lor x_d\ge b+1),\label{eq:constrained-throughout}\\
+ S^{\mathrm{appointed}}_x(c,[a,b])
+ &\iff a\le x_c\le b.\label{eq:constrained-appointed}
+\end{align}
+Appointment support concerns the start event, independently of later replacement.
+Throughout support respects half-open activity.
+A replacement at $b$ therefore invalidates support throughout $[a,b]$.
+
+For overlap, the first possible supporting date is $\max(a,x_c)$.
+Support requires $x_c\le b$ and no replacement with $x_c<x_d\le a$.
+Negating the replacement condition gives Equation~\eqref{eq:constrained-overlap}.
+Throughout additionally requires a start by $a$ and excludes replacement through $b$.
+This proves Equation~\eqref{eq:constrained-throughout}.
+
+\paragraph{Exact feasibility oracle.}
+Possible support asks whether one feasible assignment satisfies the selected predicate.
+The oracle branches over its replacement disjunctions.
+Every branch contains only difference constraints.
+An infeasible conjunction prunes that branch.
+A successful branch returns a supporting timeline.
+
+Guaranteed support holds exactly when the predicate's negation has no feasible assignment.
+The overlap negation is
+\[
+ x_c\ge b+1\quad\lor\quad
+ \bigvee_{d\in D(c)}(x_c+1\le x_d\le a).
+\]
+For throughout, replace $b+1$ by $a+1$ and the final $a$ by $b$.
+Appointment uses the alternatives $x_c\le a-1$ and $x_c\ge b+1$.
+Each feasible branch returns an excluding timeline.
+
+The implementation solves each conjunction through weighted graph relaxation.
+A negative cycle establishes infeasibility.
+Otherwise, final distances satisfy the constraints.
+Subtracting the zero-node distance preserves every difference and yields a valid timeline.
+Integer edge weights produce integer dates.
+Thus the oracle returns exact support decisions and valid witness assignments.
+
+Let $d=|D(c)|$, and let $e$ count the base constraints.
+Each feasibility check takes $O(n(e+d))$ time.
+Possible support can require $O(2^d)$ checks.
+Guaranteed overlap or throughout support needs at most $d+1$ checks.
+The constrained oracle therefore has a different cost from the independent compiler.
+
+\paragraph{Stability does not require independent dates.}
+Take any nonempty timeline family $\Omega$ and one fixed query predicate.
+Let $S_x$ denote its support set in timeline $x$.
+Define $P=\bigcup_{x\in\Omega}S_x$ and $H=\bigcap_{x\in\Omega}S_x$.
+Under a fixed complete ranking, the context is stable exactly when
+\[
+ \operatorname{Top}_k(P)=\operatorname{Top}_k(H).
+\]
+To prove sufficiency, every selected possible item is guaranteed and outranks every remaining possible item.
+For necessity, choose $c\in\operatorname{Top}_k(P)\setminus H$.
+Some timeline supports $c$, while another does not.
+Fewer than $k$ possible items outrank $c$.
+The supporting timeline therefore selects it, and the excluding timeline cannot.
+The proof also permits fixed fallback items in every operational support set.
+
+\paragraph{Screen first, then solve unresolved candidates.}
+Let $P_0,H_0$ denote independent-product overlap support.
+Because $\Omega_{\mathcal C}$ restricts that product,
+\[
+ H_0\subseteq H\subseteq P\subseteq P_0.
+\]
+Equal endpoint contexts immediately certify the constrained family.
+This screen uses no query-level feasibility calls.
+The model's nonemptiness is checked once before querying.
+
+Otherwise, scan candidates in their fixed relevance order.
+Skip claims outside $P_0$ and accept claims in $H_0$ as guaranteed.
+Query exact constrained support for the remaining candidates until $k$ possible claims are selected.
+Report stability when every selected claim is guaranteed.
+The inclusions above validate every shortcut.
+Exact queries resolve every remaining candidate needed by the scan.
+The resulting context is therefore exactly $\operatorname{Top}_k(P)$.
+The general stability result proves the final decision.
+For instability, the first unresolved selected claim supplies two feasible witness timelines.
+Its rank ensures selection in its supporting timeline.
+Its excluding timeline cannot select it.
+
+\paragraph{Controlled verification.}
+The frozen benchmark contains 120 feasible models and 20 inconsistent models.
+It covers known order, valid lifetimes, and their combination.
+Thirty-eight explicit lifetimes have overlapping date bounds.
+The reference enumerates 20,846 feasible timelines and evaluates direct activity.
+All 100,800 support decisions and 30,240 context decisions agree.
+Every inconsistent model is rejected.
+The audit checks 68,161 returned witness assignments.
+All generated cases remain in the release.
+
+For overlap queries, the hybrid agrees on all 10,080 context decisions.
+It screens 3,001 stable contexts without query-level solver calls.
+It recovers 312 additional stable contexts through exact constraints.
+Against lazy exact selection, it reduces claim queries from 33,180 to 13,343.
+Both methods stop after selecting the requested number of possible claims.
+Feasibility calls decrease from 141,992 to 62,952.
+The complete-mask oracle uses 50,400 claim queries and 218,079 feasibility calls.
+All 6,767 unstable contexts have two replayed timelines with different selections.
+These counts measure solver work without asserting an end-to-end speedup.
+
+\paragraph{A ranking counterexample.}
+Take two claims with independent start bounds $[0,1]$ and no replacement pairs.
+Both claims have guaranteed support at query date $1$.
+Any fixed ranking therefore gives a stable context for budget one.
+Ranking by realized start instead selects different claims in timelines $(1,0)$ and $(0,1)$.
+The support sets remain identical while the ranking changes.
+The fixed-ranking condition is therefore necessary for this stability test.

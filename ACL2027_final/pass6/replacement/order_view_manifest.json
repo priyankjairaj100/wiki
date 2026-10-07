@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-10-07T07:28:15.018556+00:00",
+  "files": {
+    "pass6/modeling/constraint_oracle.py": "45ff4198d36c5407f5bc4df2a1a1b74d6045f97d8462ed5826404b2ae060e945",
+    "pass6/replacement/accepted_freeze.json": "80a947e25c38733100f59461b74ee54915eaef5d314a959d0f493b32c0c55faf",
+    "pass6/replacement/accepted_records.jsonl": "4d656a6b421f8783e607b2f384c7c70f71f899ad6c7f9ca5096eb6e929cfa394",
+    "pass6/replacement/derive_order_view.py": "d390b0d8bca801600007dafe8443ea602d516e55f3919c561b8ab7cd2c583d98"
+  },
+  "outputs": {
+    "order_decisions.jsonl": "2b778a147ff5f89f7af8898a717cd43dae84d8136d62b78a271e7cc27e761735",
+    "order_summary.json": "3d4bf6bacca648625c18963294674f3b6d616d421aa85cde7b3839acc96bcb6a",
+    "order_support.jsonl": "f3a86dd5e0166a3357314e5644aac8e18218a04adfbd01cfb7a0366292ba1067",
+    "order_worlds.jsonl": "d03901211bd5abdbb2c9b8d4534492c3efd8ae701f355bfb3e6ad7c804393724"
+  },
+  "stage": "Derived source-order view after the independent-date run. Source membership and query rules remain fixed."
+}

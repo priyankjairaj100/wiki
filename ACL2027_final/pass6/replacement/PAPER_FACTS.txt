@@ -1,0 +1,28 @@
+Main text suggestion:
+We also audit source-derived replacement cases, where ordinary interval overlap cannot represent a successor's effect.
+Two source reviews accept 20 paragraphs with 45 claims and 33 directed edges.
+We probe each successor's earliest, middle, and latest date, producing 73 point queries.
+Both methods retain the same calendar bounds, explicit ends, and known source orders.
+With a five-excerpt budget, replacement changes 34 selected contexts relative to interval overlap.
+At budget one, omitting replacement marks 42 unstable contexts as stable.
+All 96 unstable decisions have feasible witnesses that obey source order and change literal excerpts.
+Under independent dates, the linear compiler matches all 388 exact support judgments.
+
+Natural source-order suggestion:
+A Levadia paragraph places Bondarenko's appointment in 2001 and Rautiainen's succession in November 2001.
+Enforcing their stated order removes three possible-support judgments and resolves one additional stable query at each budget.
+
+Table: paper_table.tex contains the primary source-order comparison.
+Independent-date results remain unchanged in runs/.
+Source-order results appear in order_runs/.
+
+Required scope:
+This is a source-derived mechanism diagnostic with manual annotations and boundary queries.
+The two source reviews are model-assisted, not human annotations.
+The fixed sample includes 128 initial paragraphs and one additional panel of 256 paragraphs.
+The larger panel was fixed before certificate outcomes because the first panel yielded seven accepted graphs.
+The main table enforces all known source orders with the exact calendar oracle.
+The linear independent-date compiler does not enforce arbitrary source constraints.
+Do not call this automatic held-out extraction, representative retrieval accuracy, or a reader benchmark.
+Do not claim natural necessity of two distinct witnesses from these results.
+Appendix reference should define sampling, review, point queries, source rank, and the eight ordered-list closure edges.

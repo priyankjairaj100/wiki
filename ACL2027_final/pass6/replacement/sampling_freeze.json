@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-10-07T07:01:40.343313+00:00",
+  "stage": "Before source judgments or certificate outcomes",
+  "sample_size": 128,
+  "seed": "pass6-replacement-source-audit-v1",
+  "files": {
+    "pass6/replacement/SAMPLING_ADDENDUM.md": "ef5f4ac8c7414e20dc0d6b47bf727641da9be95a42f64b64088fa3407c0ac646",
+    "pass6/replacement/sample.jsonl": "ff8396e05dce9541c162dfd99a46c90d7b6e18f4103e7770694a4fbebdf3b530"
+  }
+}

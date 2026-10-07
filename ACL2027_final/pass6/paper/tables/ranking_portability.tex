@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering\small
+\begin{tabular}{lrrrr}
+\toprule
+Ranking & Template & Human & Template & Human \\
+ & stable/modeled & stable/modeled & tests & tests \\
+\midrule
+Global BM25 & 285/354 & 86/102 & 2.64 & 2.34 \\
+Global BM25 + year & 443/534 & 138/164 & 2.72 & 2.39 \\
+Title BM25 & 241/298 & 76/86 & 2.66 & 2.41 \\
+Title-aware & 189/243 & 56/66 & 2.63 & 2.44 \\
+Title BM25 + year & 327/396 & 109/126 & 2.67 & 2.42 \\
+Title-aware + year & 281/343 & 102/120 & 2.56 & 2.40 \\
+\bottomrule
+\end{tabular}
+\caption{Secondary certificate analysis across all six prespecified rankings. Each stability denominator contains modeled evidence under that ranking. Tests count temporal predicate calls within that modeled cohort.}
+\label{tab:ranking-portability}
+\end{table*}

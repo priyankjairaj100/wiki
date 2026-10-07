@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-07T07:11:51.596513+00:00",
+  "reviewer": "independent model-assisted source review",
+  "outcome_blind": true,
+  "reviewed_records": 12,
+  "decisions": {
+    "accept": 7,
+    "uncertain": 4,
+    "reject": 1
+  },
+  "accepted_indices": [
+    5,
+    9,
+    18,
+    27,
+    31,
+    33,
+    107
+  ],
+  "accepted_claims": 14,
+  "accepted_edges": 7,
+  "checked_literal_spans": 92,
+  "literal_span_failures": [],
+  "source_sha256": "3b2ffa113334c9ae2db6268855d153a47af64fbfe63e0e8a6ad3db6597da5217",
+  "annotation_freeze_sha256": "29cf99a1bdca2a4705ace9975cba0ad6d0f092b5d03fef964fdd6e16e76a2c7a",
+  "protocol_sha256": "f2974d472ec64ff49728246b497cb6c16a2eb0b657926c04bd8a106577338c4e",
+  "review_sha256": "dacab9c026c668a28e00c5a62c49b15855e1e24923430ca218fba73b7c17c73d",
+  "rendering_observation": "Current unit spans can begin or end inside words. Use a separately frozen clause rendering policy before evaluation. This does not change the source interpretation decisions.",
+  "scope": "Purposive source challenge. These judgments do not estimate corpus extraction accuracy. Date carryover with an unstated upper bound remains uncertain."
+}

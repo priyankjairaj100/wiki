@@ -1,0 +1,40 @@
+{
+  "protocol_sha256": "9986f7a5f457f776e15788cac26d72ed2d062cec14032e0cbe06476dc21ebb4d",
+  "requests": 234,
+  "cohorts": {
+    "human": {
+      "questions": 60,
+      "conditions": 600,
+      "requests": 194
+    },
+    "human_diagnostic": {
+      "questions": 11,
+      "conditions": 110,
+      "requests": 40
+    }
+  }
+}
+All 234 prompts fit the fixed context.
+1/234 0041701d55e50dbc402b5e9977f954f6fc0883344911b123f0443024f7ef08e3 13.91s tokens=33 finish=stop
+2/234 0161e4e6b8b3597bab585e5285b79ca588eb73369aee6dd0365bd5a78edfdd29 15.80s tokens=24 finish=stop
+3/234 03919679ff152ecc20a5051a64b10fa082ae0609e7dff264377ae10c0c6c65d4 21.18s tokens=27 finish=stop
+4/234 03ce5b020077d93d3eb00833f906935e5c203394f0bd239a6d66d9404586de1d 16.94s tokens=28 finish=stop
+5/234 055e12c9f824b6f8c8c4db4ae46ab95925ce927033eb724cf25ca80d345f8549 30.87s tokens=25 finish=stop
+6/234 09e8eea3f9eed5d28aeec7417752c959713f3f1edaa7e94f6e00d68e90c9d787 81.53s tokens=32 finish=stop
+PILOT {"passed": true, "requests": 6, "valid": 6, "finish_reasons": ["stop", "stop", "stop", "stop", "stop", "stop"], "completion_tokens": [33, 24, 27, 28, 25, 32], "wall_seconds": [13.912891375999607, 15.798602503000438, 21.184222875999694, 16.944909777999783, 30.87007668700062, 81.5317605399996], "mean_seconds": 30.040410626666624, "projected_total_minutes": 117.15760144399982, "quality_scores_inspected": false}
+7/234 0b557016fffb50dc5220976326f751e16b6d9f49f173ecbb3e45310b67f9d110 13.39s tokens=22 finish=stop
+8/234 0c3ac7c75afa7ddfaa6057f32ccfcc929137abd0973bb73709a547012bf9fdab 21.76s tokens=25 finish=stop
+9/234 0d073ed6f835ec8ad4a18b732852e7f6235108cabafc725505e0032ba8fd1eea 16.95s tokens=32 finish=stop
+10/234 0d10e01842abbff2bb1efdd8f468f8d90d2f41d7cc4e69fca58999c207f945f7 20.29s tokens=32 finish=stop
+11/234 0def4e73cf25ecab97236af2de4d26b3e717ccbc33a2430b7cd6c481a18d4483 16.71s tokens=32 finish=stop
+12/234 0ecb392fc57341eec56a93415cd8d70729de25dc5d89852d82ec5b9aed75dc86 12.46s tokens=22 finish=stop
+13/234 10a129aba57e206d754cc4f8fd5840098815b97e287fcb1ce032cc2fbf723890 9.64s tokens=24 finish=stop
+14/234 13dc2a32dfb8ab37b27cd3b96e5e038fde951c05f941923435770d22c3b9a94d 24.05s tokens=27 finish=stop
+15/234 1467130e322248bc50e167112bf4199c6b46ed02882496095cf065eea9102102 20.00s tokens=33 finish=stop
+16/234 1627c4d2545125c147062127c7ff030277603948ef0d6a8a84b7e91c8cb7f720 22.09s tokens=43 finish=stop
+17/234 179794ba151691f1c7e7b15a45fe2a87f30770e6b35d7ea56fbe90760d185b97 38.15s tokens=28 finish=stop
+18/234 193ad2cca843dc1117708f7ae925413f5876d953d86e24bf371ec72f50735be6 21.74s tokens=32 finish=stop
+19/234 198a29466bba8b0b7ec1184a53751fbbcc21fe77fb91ef7410cd03ecc61ec51a 30.77s tokens=32 finish=stop
+20/234 1a2d9c73636353c5c643f84b114ad55ecafe9bd5b4ab9d24e42347b9c2c2191b 16.09s tokens=23 finish=stop
+21/234 1ab1fb38aee932bbd610e348d34e8f4db3a78c5a921a3fd3465f684295e21abd 12.96s tokens=26 finish=stop
+22/234 1b28e5579a16a1126aa091d269b1b689c88c90fdf522502423556a8647e025a3 11.92s tokens=20 finish=stop

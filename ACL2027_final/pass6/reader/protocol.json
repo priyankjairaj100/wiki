@@ -1,0 +1,69 @@
+{
+  "name": "Structured reader replication on unchanged source contexts",
+  "frozen_utc": "2026-10-07T07:02:42.099286+00:00",
+  "cohorts": {
+    "human": {
+      "questions": 60,
+      "conditions": 600,
+      "requests": 194
+    },
+    "human_diagnostic": {
+      "questions": 11,
+      "conditions": 110,
+      "requests": 40
+    }
+  },
+  "requests": 234,
+  "selection": "All 234 unique requests from the unchanged 60-question primary and 11-question historical diagnostic cohorts. No new question selection.",
+  "source_files": {
+    "pass5/inference/human/reader_jobs.jsonl": "387c21a2ebb5ded67c2adbda977796c30bf90aafe3547c3b6418b78956146c70",
+    "pass5/inference/human/reader_memberships.jsonl": "7079bc5dbbe4a58cdd09d8305d017fef42e8bbae389fd1231bcb7023a7b94f34",
+    "pass5/inference/human/queries.jsonl": "ac16d6a63bed55d2cbf10c65d747e943b3c1b364fcd89ce5158e0216f79f8ded",
+    "pass5/inference/human_diagnostic/reader_jobs.jsonl": "3ae0a9f52478fdee3f4b13e9ac3d4cbc449686287e6af30a11568d803b9621f8",
+    "pass5/inference/human_diagnostic/reader_memberships.jsonl": "aea27b5a28ba2582bec42fb8e0791b3eaedd456e9005c42bd53556de1f834d7d",
+    "pass5/inference/human_diagnostic/queries.jsonl": "b1d2f20e919ef90e8aa6a46dbbd7aa75e49f0c5145992898ed8956727aadd0a0"
+  },
+  "input_sha256": "d4c82ff1b80ac8f2b9ba24c9a16d5210cbf0d3bfbab103cfc5dd71e24b9b72b2",
+  "runner_sha256": "7d793aeb6c55aa9121f024a4562f85c4cedac18ea5fd66f063b07e382672b7d7",
+  "model_repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "model_revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+  "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "runtime_release": "b11435",
+  "runtime_commit": "43fe9c64281ef735046adc025e9e7559a1f659a5",
+  "runtime_binary_sha256": "04c6a24451eac4d7698c441420ce82d108fc6196fa57c5af1008ec86d96b340b",
+  "decoder": {
+    "max_tokens": 512,
+    "temperature": 0,
+    "seed": 1729,
+    "cache_prompt": false,
+    "json_schema": true,
+    "evidence_indices": "Constrained to the supplied excerpt numbers.",
+    "answers": "Arbitrary nonempty strings; no answer vocabulary or count constraint.",
+    "threads": 4,
+    "batch_threads": 4,
+    "context_tokens": 4096,
+    "batch_tokens": 512,
+    "ubatch_tokens": 512,
+    "parallel_slots": 1,
+    "gpu_layers": 0
+  },
+  "pilot": {
+    "selection": "Six lexicographically smallest prompt SHA256 identifiers.",
+    "ids": [
+      "0041701d55e50dbc402b5e9977f954f6fc0883344911b123f0443024f7ef08e3",
+      "0161e4e6b8b3597bab585e5285b79ca588eb73369aee6dd0365bd5a78edfdd29",
+      "03919679ff152ecc20a5051a64b10fa082ae0609e7dff264377ae10c0c6c65d4",
+      "03ce5b020077d93d3eb00833f906935e5c203394f0bd239a6d66d9404586de1d",
+      "055e12c9f824b6f8c8c4db4ae46ab95925ce927033eb724cf25ca80d345f8549",
+      "09e8eea3f9eed5d28aeec7417752c959713f3f1edaa7e94f6e00d68e90c9d787"
+    ],
+    "gate": "All six complete with stop and pass the unchanged frozen parser. No answer labels or quality scores are inspected before the full run.",
+    "action_if_gate_passes": "Continue once over every remaining request with identical settings.",
+    "action_if_gate_fails": "Stop. Preserve pilot records. Diagnose configuration or truncation before creating a separately versioned protocol."
+  },
+  "analysis": "Use the existing strict parser, aliases, paired question scores, and article bootstrap. Include every condition. Compare validity, EM, strict set F1, changed answers among jointly parsed pairs, and target/prediction cardinalities. Do not select settings or rerun requests for better answer scores.",
+  "primary_sources": [
+    "https://github.com/ggml-org/llama.cpp/blob/43fe9c64281ef735046adc025e9e7559a1f659a5/tools/server/README.md",
+    "https://github.com/ggml-org/llama.cpp/blob/43fe9c64281ef735046adc025e9e7559a1f659a5/grammars/README.md"
+  ]
+}

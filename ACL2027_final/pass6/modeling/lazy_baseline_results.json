@@ -1,0 +1,52 @@
+{
+  "by_budget": {
+    "1": {
+      "contexts": 3360,
+      "full_oracle_claim_queries": 16800,
+      "full_oracle_feasibility_calls": 72693,
+      "hybrid_feasibility_calls": 7887,
+      "hybrid_oracle_claim_queries": 1645,
+      "lazy_feasibility_calls": 18726,
+      "lazy_oracle_claim_queries": 4361,
+      "mismatches": 0,
+      "stable": 1897
+    },
+    "3": {
+      "contexts": 3360,
+      "full_oracle_claim_queries": 16800,
+      "full_oracle_feasibility_calls": 72693,
+      "hybrid_feasibility_calls": 22674,
+      "hybrid_oracle_claim_queries": 4849,
+      "lazy_feasibility_calls": 50573,
+      "lazy_oracle_claim_queries": 12019,
+      "mismatches": 0,
+      "stable": 824
+    },
+    "5": {
+      "contexts": 3360,
+      "full_oracle_claim_queries": 16800,
+      "full_oracle_feasibility_calls": 72693,
+      "hybrid_feasibility_calls": 32391,
+      "hybrid_oracle_claim_queries": 6849,
+      "lazy_feasibility_calls": 72693,
+      "lazy_oracle_claim_queries": 16800,
+      "mismatches": 0,
+      "stable": 592
+    }
+  },
+  "counts": {
+    "contexts": 10080,
+    "full_oracle_claim_queries": 50400,
+    "full_oracle_feasibility_calls": 218079,
+    "hybrid_feasibility_calls": 62952,
+    "hybrid_oracle_claim_queries": 13343,
+    "lazy_feasibility_calls": 141992,
+    "lazy_oracle_claim_queries": 33180,
+    "mismatches": 0,
+    "model_feasibility_calls": 120,
+    "models": 120,
+    "stable": 3313
+  },
+  "protocol_sha256": "bfbee6af9c9cc0c04c698f7762d80cfac979fab098bccd7dec00673827d103e7",
+  "status": "passed"
+}

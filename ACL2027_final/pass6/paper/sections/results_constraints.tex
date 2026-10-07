@@ -1,0 +1,19 @@
+\subsection{Constraints resolve avoidable uncertainty}
+Exhaustive world enumeration confirms all 100,800 support decisions and 30,240 fixed-ranking context decisions.
+The oracle rejects all twenty inconsistent models.
+Across the three predicates, constraints certify 929 contexts left unresolved by independent bounds.
+These cases include overlapping lifetime bounds and uncertain event order.
+
+For overlap queries, the hybrid first certifies 3,001 contexts without query-level constraint solving.
+Selective solving recovers 312 additional stable contexts.
+It returns two replayed timelines for each of the remaining 6,767 unstable contexts.
+Table~\ref{tab:hybrid} compares it with a lazy exact solver using the same ranking and stopping rule.
+The hybrid uses 59.79\% fewer exact claim queries and 55.67\% fewer feasibility calls.
+These counts measure solver work after ranking.
+\input{tables/hybrid}
+
+A separate grid tests 476 configurations with two distinct supplying witnesses.
+The complete compiler matches all 13,328 claim--window decisions.
+Each single-witness subset fails in every configuration.
+Removing the forced-retirement witness wrongly includes 1,750 possible cases.
+Removing the optional-retirement witness wrongly includes 5,576 guaranteed cases.

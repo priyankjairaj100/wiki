@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-07T07:18:59.375774+00:00",
+  "outcome_blind": true,
+  "assessments": "model-assisted source interpretation",
+  "reviewed_candidates": 7,
+  "decisions": {
+    "accept": 6,
+    "uncertain": 1
+  },
+  "checked_literal_spans": 55,
+  "literal_span_failures": [],
+  "candidate_sha256": "662bbf0917e231b23ddf1fd022c63d7a20885e50aff3919d9ac115d56732df98",
+  "review_sha256": "b19873c240befa0219a02c4a6cb27620048b3d48044638b6d296f9f0b9c392bc"
+}

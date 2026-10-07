@@ -1,0 +1,55 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Historical questions often ask about a period, while sources give incomplete event dates.
+A source might report an appointment in September without identifying its day.
+Choosing the first or last day can change which evidence reaches a reader.
+Yet resolving every uncertain date wastes effort when those dates cannot change the selected context.
+We ask a practical question:
+\emph{When does date uncertainty actually change retrieval?}
+
+This problem arises before answer generation.
+Retrieval-augmented systems select passages before generating answers~\citep{lewis2020rag}.
+Suppose a source states that a director's term ended in 2005.
+The unknown departure day does not affect a question about 2004.
+For a question about June 2005, it can change whether that tenure remains eligible.
+Even then, the uncertainty matters only if the excerpt reaches the reader's selected context.
+The system needs a test that distinguishes these cases before requesting more precise dates.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/architecture.pdf}
+\caption{From source dates to a context decision. A stated replacement in 2015 can occur before or after a June query. The fixed overview excerpt gives a stable one-item context. A second slot exposes the uncertain tenure. The system returns both valid timelines and their different excerpts. This example illustrates the interface.}
+\label{fig:architecture}
+\end{figure*}
+
+Temporal memories already preserve histories and invalidate replaced facts~\citep{rasmussen2025zep,zerhoudi2026nuggetindex}.
+Interval retrievers also handle fuzzy dates~\citep{chen2026defuzzrag,wang2026iarag}.
+We study which retrieval decisions can be settled before completing those dates.
+
+Each claim receives a range containing its unknown start date.
+A directed decision specifies which other claims can replace it.
+We compile these inputs into at most two source witnesses per claim.
+The first determines when support becomes impossible.
+The second determines when guaranteed support can fail.
+They answer every point or period query without enumerating timelines.
+\emph{Possible support} means that a claim applies somewhere in the requested period under at least one allowed timeline.
+\emph{Guaranteed support} means that it applies somewhere in that period under every allowed timeline.
+
+The resulting masks also decide whether uncertainty changes retrieval.
+Fix a relevance ranking and a budget of $k$ claims.
+If its first $k$ possible claims are guaranteed, every timeline returns the same context.
+Otherwise, we identify a selected claim whose membership changes across two explicit timelines.
+These timelines can be replayed through the retrieval pipeline.
+They identify selected support decisions that further date evidence must resolve.
+
+Our contributions connect three levels of the problem.
+First, two direct witnesses give exact period-support formulas under independent date bounds.
+Compilation takes linear time in the events and supplied replacement pairs.
+Second, an exact context criterion separates stability from the complete attainable context envelope.
+It holds for any nonempty family of feasible timelines under a fixed relevance ranking.
+A constraint solver extends the interface to known event order and three query predicates.
+Third, complementary evaluations measure source coverage, replacement behavior, and response sensitivity.
+The automatic TimeQA track measures the adapter's reach.
+A separate source-derived challenge directly tests replacement between claims.
+Controlled models test dependent dates and distinguish the two witnesses.

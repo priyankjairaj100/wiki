@@ -1,0 +1,52 @@
+Completed requests: 62
+Completed requests: 81
+Completed requests: 100
+Completed requests: 120
+Completed requests: 140
+Completed requests: 161
+Completed requests: 180
+Completed requests: 200
+Completed requests: 220
+All outputs are complete. Running the fixed full analysis.
+{
+  "verification": {
+    "all_checks_passed": true,
+    "requests": 234,
+    "valid": 234,
+    "failures": 0,
+    "failure_reasons": {},
+    "finish_reasons": {
+      "stop": 234
+    },
+    "tokens": {
+      "mean_prompt": 677.7649572649573,
+      "mean_completion": 26.77777777777778,
+      "max_completion": 51,
+      "over_96_completion_tokens": 0,
+      "max_reserved": 1839
+    },
+    "generation_wall_seconds": 5881.448273589012,
+    "unique_predicted_cardinalities": {
+      "1": 157,
+      "0": 75,
+      "2": 2
+    },
+    "hashes": {
+      "protocol": "9986f7a5f457f776e15788cac26d72ed2d062cec14032e0cbe06476dc21ebb4d",
+      "inputs": "d4c82ff1b80ac8f2b9ba24c9a16d5210cbf0d3bfbab103cfc5dd71e24b9b72b2",
+      "outputs": "77a442a605bc848c7c6b3324874b09be2f8edb0a90203001c0e71ea543366205",
+      "analyzer": "ba797f856bdf5f14c2cba964d1f217b725b4a6e6d2aaf7a21242d7a8d26737e9"
+    }
+  },
+  "cohorts": {
+    "primary": {
+      "questions": 60,
+      "failures": 0
+    },
+    "diagnostic": {
+      "questions": 11,
+      "failures": 0
+    }
+  }
+}
+The full reader analysis is complete.

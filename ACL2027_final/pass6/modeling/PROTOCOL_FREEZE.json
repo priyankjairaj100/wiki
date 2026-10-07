@@ -1,0 +1,156 @@
+{
+  "budgets": [
+    1,
+    3,
+    5
+  ],
+  "counts": {
+    "empty": 20,
+    "joint": 40,
+    "lifetime": 40,
+    "precedence": 40
+  },
+  "date_dependent_ranking": "descending realized start, with fixed ranking as tie break",
+  "design": "controlled source-independent stress benchmark",
+  "empty_family_policy": "explicit rejection before support queries",
+  "end_semantics": "half-open lifetime; end follows start by at least one calendar day",
+  "exclude_cases": "none",
+  "files": {
+    "cases.jsonl": "d269c1f8a752fed3f7a3f6165252091539c2011cc8f87db4cd74bc8303bbad95",
+    "constraint_oracle.py": "45ff4198d36c5407f5bc4df2a1a1b74d6045f97d8462ed5826404b2ae060e945",
+    "freeze_protocol.py": "a07eb98870ffcdb2e60f53deb41067b69dbdf94826bf1aff3f7024e7a110aeae",
+    "run_benchmark.py": "700bb9fbfda14250d660fe5431e305c45709131dfd7f6e268b38d59b6d135748"
+  },
+  "fixed_ranking": "one seeded complete relevance order per model",
+  "frozen_before_run": true,
+  "outcomes": [
+    "support_oracle_agreement",
+    "concrete_witness_validity",
+    "fixed_rank_stability_equivalence",
+    "independent_relaxation_gap",
+    "query_predicate_changes",
+    "dynamic_rank_false_certification"
+  ],
+  "predicates": [
+    "overlap",
+    "throughout",
+    "appointed"
+  ],
+  "queries": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "reference": "enumerate every integer date tuple; evaluate direct activity at each query date",
+  "seed": 20271007,
+  "timing_policy": "descriptive only; no system speedup claim"
+}

@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-07T07:00:58.122300+00:00",
+  "stage": "Before source judgments and certificate outcomes",
+  "excluded_articles": 332,
+  "candidate_paragraphs": 496,
+  "candidate_articles": 342,
+  "populations": {
+    "dev": {
+      "paragraphs": 32678,
+      "eligible_paragraphs": 25579
+    },
+    "test": {
+      "paragraphs": 33493,
+      "eligible_paragraphs": 31739
+    }
+  },
+  "files": {
+    "pass6/replacement/PROTOCOL.md": "f2974d472ec64ff49728246b497cb6c16a2eb0b657926c04bd8a106577338c4e",
+    "pass6/replacement/candidates.jsonl": "1690bd40ded79f47dddc17d3a19649189832ba71b74f33576d57e878415a4c02",
+    "pass6/replacement/excluded_articles.json": "c155eb2c68b4b40a679a51031783111d9e6544908cf9012aa17c7ab16c17af9b",
+    "pass2/naturaldata/normalized/dev_passages.jsonl": "7ea775985a3ff2a97795a0ffbf2e831da5829c251d0b832f56dab084226f1d6d",
+    "pass2/naturaldata/normalized/test_passages.jsonl": "c714909ba16e19fc32ec36fc99605d5935c92bc925d7bdb08045388aea4081ba"
+  }
+}

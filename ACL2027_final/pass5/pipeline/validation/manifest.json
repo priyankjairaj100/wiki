@@ -1,0 +1,30 @@
+{
+  "inputs": {
+    "pass5/protocol/config.json": "df6d1c19448d1ef8f04f2ccf0cd458bc03458c0def8bb9740dc21ec3bafd8229",
+    "pass3/protocol/dev_source_passages.jsonl": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4",
+    "pass5/protocol/dev_validation_queries.jsonl": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7",
+    "pass5/pipeline/run_matched.py": "75991da3e8446a7a4498424f152b42550741e6b21f17643be9c9928eb4130ace",
+    "pass5/extraction/source_adapter.py": "217a493c0ec3f2f831c4e3ae9824a50a3289a8ff4f0fcc7adff40c8a9ce767f5",
+    "pass3/theory/lifecycle.py": "4a765c40233ee33b2f1230a59df952acea8c93f8b2142c5e72cd73f6607ab81c",
+    "pass2/theory/uncertain_time.py": "0b91608941cdb292c68e2301db2233946a361724397be85006b54db667263833",
+    "pass4/retrieval/ranking.py": "bd898547382a12903b34656c4d06d518c63390efb68aec0fdbd46722066205dd",
+    "pass3/pipeline/run_matched.py": "a0a109aa4eab810686e372a57c3d4a5bc3663b9b9d31e49a97a9ab31ec200a39",
+    "pass3/theory/refinement.py": "a5ff01561725a879c876952f8e86c4b16c702e54aee7418c056292b08ff43670",
+    "pass5/extraction/dev_frozen/claims.jsonl": "01f55e346f4147458e3fa8b83e4c977cf76e3c4aab986428db0264627c759f98"
+  },
+  "artifacts": {
+    "units.jsonl": "b25b172c95d2228afce97b75d2b58678a70737544896a924010c88f77ca60047",
+    "reader_selected_queries.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rejected_claims.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "predictions.jsonl": "4e81f6bd5a24446df49b32a729a7ed5131311f77a1de127041455a61be8b0ca7",
+    "input_manifest.json": "ffc007690bcc3f3e25d18749ffb4a6778a51d721a9bc893ae3087b6e0052bcfb",
+    "reader_jobs.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "config.json": "df6d1c19448d1ef8f04f2ccf0cd458bc03458c0def8bb9740dc21ec3bafd8229",
+    "counterworlds.jsonl": "e560ad536cc6b58341f2b6d2768e6385a043cdea2ec4c28715057534f5b8cf56",
+    "claims.jsonl": "01f55e346f4147458e3fa8b83e4c977cf76e3c4aab986428db0264627c759f98",
+    "reader_memberships.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mechanism_summary.json": "0cb88b8c1b33fdbc86803d47e0e6c27355dd3001629a5e8bd330a387c79c70ab",
+    "mechanism_questions.jsonl": "8d4af595620473082c1ccee5b5f192129a7ea5f7bebb093112c30d41e441cc00"
+  },
+  "command": "pass5/pipeline/run_matched.py --passages pass3/protocol/dev_source_passages.jsonl --queries pass5/protocol/dev_validation_queries.jsonl --claims pass5/extraction/dev_frozen/claims.jsonl --config pass5/protocol/config.json --output pass5/pipeline/validation --track DEV"
+}

@@ -1,0 +1,25 @@
+{
+  "method": "Prefix scan with selected-only guaranteed checks",
+  "preconditions": [
+    "A complete fixed strict ranking containing every source unit exactly once",
+    "Source units map modeled identifiers to the compiled lifecycle index",
+    "Fallback eligibility is fixed across worlds",
+    "Query bounds and k satisfy the source-time contract"
+  ],
+  "outputs": [
+    "Possible top-k unit identifiers",
+    "Selected unresolved frontier",
+    "Exact context stability under the declared model",
+    "Examined candidate and support-check counts"
+  ],
+  "complexity": {
+    "query": "O(j) for j examined ranked candidates",
+    "storage": "O(k) for selected output and frontier",
+    "compile_and_rank": "Performed separately before the scan"
+  },
+  "source_sha256": {
+    "pass4/retrieval/lazy_certificate.py": "6264334ccc46694b27ce99ce6b5795a59983b3dda7fefc2f6b1e2fc3e53fdc24",
+    "pass4/retrieval/profile_lazy.py": "443190332ff85fe7b9f760e1a6049e48b17cd19fc5e018c2f3543faf36f0d97a"
+  },
+  "novelty": "Implementation of the established context criterion; no separate novelty claim."
+}

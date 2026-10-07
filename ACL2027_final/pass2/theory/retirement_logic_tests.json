@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "tests": 6,
+  "constraint_cases": 4734,
+  "target_model_comparisons": 16768,
+  "scope": "finite-model correctness checks; no benchmark performance claim"
+}

@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "tests": 8,
+  "scope": "compiler API, exact bounds, deterministic ties, and witness minimality"
+}

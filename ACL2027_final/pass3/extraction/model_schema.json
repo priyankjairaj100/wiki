@@ -1,0 +1,312 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source-only model extraction before deterministic date normalization",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "records"
+  ],
+  "properties": {
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim_id",
+          "passage_id",
+          "article_path",
+          "source_span",
+          "atomic_span",
+          "subject",
+          "slot",
+          "value",
+          "value_span",
+          "temporal_kind",
+          "start",
+          "end",
+          "exclusion_assertion"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string"
+          },
+          "passage_id": {
+            "type": "string"
+          },
+          "article_path": {
+            "type": "string"
+          },
+          "source_span": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "start",
+              "end",
+              "text"
+            ],
+            "properties": {
+              "start": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "end": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "atomic_span": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "start",
+              "end",
+              "text"
+            ],
+            "properties": {
+              "start": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "end": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "subject": {
+            "type": "object",
+            "required": [
+              "surface",
+              "canonical",
+              "source_span",
+              "resolution"
+            ],
+            "properties": {
+              "surface": {
+                "type": "string"
+              },
+              "canonical": {
+                "type": "string"
+              },
+              "source_span": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "start",
+                  "end",
+                  "text"
+                ],
+                "properties": {
+                  "start": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "end": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              "resolution": {
+                "enum": [
+                  "explicit_name",
+                  "source_coreference"
+                ]
+              }
+            }
+          },
+          "slot": {
+            "type": "string"
+          },
+          "value": {
+            "type": "string"
+          },
+          "value_span": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "start",
+              "end",
+              "text"
+            ],
+            "properties": {
+              "start": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "end": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "temporal_kind": {
+            "enum": [
+              "occurrence_start",
+              "validity_duration"
+            ]
+          },
+          "start": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "source_span",
+              "precision"
+            ],
+            "properties": {
+              "source_span": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "start",
+                  "end",
+                  "text"
+                ],
+                "properties": {
+                  "start": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "end": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              },
+              "precision": {
+                "enum": [
+                  "day",
+                  "month",
+                  "year"
+                ]
+              }
+            }
+          },
+          "end": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "source_span",
+                  "precision"
+                ],
+                "properties": {
+                  "source_span": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "start",
+                      "end",
+                      "text"
+                    ],
+                    "properties": {
+                      "start": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "end": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  },
+                  "precision": {
+                    "enum": [
+                      "day",
+                      "month",
+                      "year"
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "exclusion_assertion": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "excluded_claim_ids",
+                  "source_span",
+                  "reason"
+                ],
+                "properties": {
+                  "kind": {
+                    "const": "explicit_succession"
+                  },
+                  "excluded_claim_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "source_span": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "start",
+                      "end",
+                      "text"
+                    ],
+                    "properties": {
+                      "start": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "end": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "all_checks_passed": true,
+  "selection": "All11 eligible rendered possible/guaranteed disagreements; hash-ordered maximum24.",
+  "questions": 11,
+  "logical_conditions": 110,
+  "unique_jobs": 45,
+  "overlap_questions_with_primary": 0,
+  "reused_jobs_from_primary": 0,
+  "no_labels_or_reader_outputs_read": true,
+  "input_freeze_sha256": "4fa6f490b0c65fbc6be9257c78a9e226b7402e2be9266454a7250e2897d427ab"
+}

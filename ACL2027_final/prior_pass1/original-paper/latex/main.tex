@@ -1,0 +1,328 @@
+% =====================================================================
+%   WikiGraphRAG -- AAAI 2027 submission (anonymous)
+% =====================================================================
+% Compile:
+%   pdflatex main && bibtex main && pdflatex main && pdflatex main
+% Requires aaai2027.sty + aaai2027.bst (official AAAI author kit),
+% refs.bib, figures/*.pdf, tables/*.tex.
+% =====================================================================
+\documentclass[letterpaper]{article}
+\usepackage[submission]{aaai2027}
+
+\usepackage[hyphens]{url}
+\usepackage{graphicx}
+\urlstyle{rm}
+\def\UrlFont{\rm}
+\usepackage{natbib}
+\usepackage{caption}
+\frenchspacing
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsthm}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage[capitalize,nameinlink]{cleveref}
+
+\theoremstyle{plain}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\crefname{proposition}{Proposition}{Propositions}
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{equation}{Eq.}{Eqs.}
+
+\graphicspath{{figures/}}
+
+\newcommand{\ours}{\textsc{WikiGraphRAG}}
+\newcommand{\eg}{\emph{e.g.}}
+\newcommand{\ie}{\emph{i.e.}}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\pdfinfo{
+/TemplateVersion (2027.1)
+}
+
+\setcounter{secnumdepth}{2}
+
+\title{Reading the Latest, Not the Loudest:\\
+Lifecycle-Aware Structured Memory for Retrieval-Augmented Generation}
+
+\author{Anonymous Submission}
+\affiliations{}
+
+\begin{document}
+\maketitle
+
+% =====================================================================
+\begin{abstract}
+Retrieval-augmented generation feeds a language model the passages that look most relevant to a question, but relevance says nothing about whether a passage is still true. Real corpora describe the same fact many times as it changes over the years, so a question like ``who is the CEO?'' turns up both the outdated answer and the current one, and the model is given no way to tell them apart. We introduce \ours{}, a retrieval memory that tracks the \emph{lifecycle} of each fact. As it reads a corpus, it links every statement to the later statements that overturn it, using only cues already in the text without an LLM or labelled data. When a question arrives, the retriever pushes outdated statements down the ranking, so the model reads the current value. Our central claim is that being out of date is a \emph{structural} property of the text rather than a subjective call, and we make it precise: we prove when the method is guaranteed correct and show that its only way to fail is misjudging whether two messy sentences describe the same subject. Experiments confirm that across six datasets, from synthetic records to public Wikipedia biographies, the method spots superseded facts almost perfectly on clean text and reliably on noisy prose, and it beats an LLM asked to make the same judgements, at no added cost. Under an identical corpus, question, five-claim budget, prompt, reader, and scoring protocol, lifecycle retrieval reaches $0.937$--$0.970$ current-answer exact match (EM) on Wikidata and third-party TempLAMA with extractive and Qwen readers, versus $0.121$--$0.260$ for TempRALM and $0.350$--$0.485$ for RAG-Time ($p<0.001$ in every comparison). Because the same links delimit how long each fact held, the memory additionally answers as-of queries at $0.940$--$1.000$ historical top-1 accuracy, versus $0.388$--$0.750$ for TempRALM and $0.749$--$0.944$ for RAG-Time; the same intervals compose across hops for temporally-consistent multi-hop retrieval. Every reported number is backed by a SHA-256-verified reproducibility bundle that re-tests each headline against its strongest cheap competitor.
+\end{abstract}
+
+% =====================================================================
+\section{Introduction}
+\label{sec:intro}
+% =====================================================================
+
+\noindent Retrieval-augmented generation (RAG) grounds large language models in external text~\citep{lewis2020rag,izacard2022atlas,ram2023incontext}: a retriever returns the top-$k$ passages by similarity to the query, and a reader conditions on them. This pipeline implicitly treats the corpus as a set of mutually consistent facts. Real corpora are not. They accrete over time, so a single entity attribute, such as a country's head of government or a policy's income threshold, appears in the corpus as a \emph{sequence} of values, each true for a while and then replaced. Relevance is blind to this. The passage stating ``the CEO is X'' and the later passage stating ``the CEO is now Y'' are about equally similar to \emph{who is the CEO?}, so flat retrieval routinely packs both into the reader's context, and the reader, given no recency signal, can answer with the stale one.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.88\textwidth]{fig_architecture.pdf}
+\caption{\textbf{\ours{} overview.} \textbf{(A) Offline construction.} A time-stamped corpus is segmented into sentence-aware spans and parsed into subject--relation--value claims; claim and page nodes form a graph and are embedded with MiniLM for exact cosine scoring. \textbf{(B) Lifecycle memory.} The zero-LLM supersession detector (\cref{alg:supersession}) fires when a newer claim changes the value of the same subject and relation, adding a directed edge from the newer claim to the one it makes stale, so that recency becomes a retrieval feature rather than an afterthought. \textbf{(C) Query-time retrieval.} Hybrid dense and lexical retrieval returns candidate claims; lifecycle-aware re-ranking demotes any claim carrying an incoming supersession edge, so the reader's evidence set holds the active value (CEO: Y, dated 2024) instead of the superseded one (CEO: X, dated 2023), which reduces stale evidence and improves current-answer accuracy. The same edges bound each claim's validity interval, so beyond the current-answer path shown the memory also answers as-of queries (what was true at an earlier date) and composes intervals across hops, at no added cost.}
+\label{fig:arch}
+\end{figure*}
+
+\noindent Existing remedies stop short of this problem, and we defer their detailed comparison to the next section. In brief, structured and graph retrievers reorganize a corpus into entities and relations but treat an attribute as an unordered bag of every value it ever held; temporal-QA benchmarks document the failure and search-augmented methods re-query the live web rather than equip a static-corpus retriever; and knowledge editing rewrites a model once an oracle has already decided which fact is current. The question we ask sits upstream of all of these: can a retriever decide, from the text alone, which of its own claims have been superseded, and use that to retrieve the current one?
+
+\noindent\textbf{Approach.} We introduce \ours{}, a structured RAG memory in which the lifecycle of a claim is a retrieval signal (\cref{fig:arch}). \ours{} ingests documents into a claim/page graph and runs a supersession detector that adds a typed edge from a newer claim to an earlier claim it makes stale, using no language-model call and no gold labels: it fires only when two claims share a subject and relation, carry different values, and are temporally ordered (\cref{alg:supersession}). At query time a lifecycle-aware retriever demotes any claim an incoming edge marks superseded, so the reader sees the current value, computed once at indexing time, not per query.
+
+\noindent\textbf{Why a hand-built rule instead of a model?} The obvious alternative is to let a language model decide which claim is out of date; we try this and find it does worse (\cref{tab:llm_baseline}). A prompted \texttt{gpt-4o-mini} judge reaches $0.960$ F1 on the same span pairs while the zero-LLM detector is exact ($1.000$), because the structural gates (same subject, changed value, later date) avoid the judge's false-positive links. We then make the intuition formal (\cref{prop:sound}, \cref{lem:whichvalue}): the detector is provably exact as long as it correctly tells which claims are about the same subject, so raw, messy prose is its one weak spot; and without a recency signal, ordinary retrieval is no more likely to surface the current value than any of the stale ones, whereas lifecycle retrieval surfaces it every time.
+
+\noindent\textbf{Contributions.} We (i) recast a claim going out of date as a link a retriever can infer from the text alone, and build a detector for it that uses no language model and no labelled data; it flags superseded facts almost perfectly on structured text ($0.976$ F1 on the published TempLAMA benchmark) and beats a prompted LLM judge at no cost (\cref{sec:method}). We (ii) prove the which-value failure of ordinary retrieval, then confirm it in a direct head-to-head: across two datasets and two readers, lifecycle retrieval reaches $0.937$--$0.970$ current-answer EM while the strongest temporal scorer reaches $0.350$--$0.485$, with every paired gap significant. We (iii) reuse the same links to record how long each fact was valid, directly outperform temporal scoring on historical as-of queries and chain dated facts across multiple hops. Finally, we (iv) release every headline result behind a checksummed bundle that maps each result back to the file that produced it.
+
+% =====================================================================
+\section{Related Work}
+\label{sec:related}
+% =====================================================================
+
+\paragraph{Structured and graph RAG.} HippoRAG~\citep{gutierrez2024hipporag} builds an open-information-extraction graph and runs personalized PageRank~\citep{haveliwala2002topic} seeded by query entities; GraphRAG~\citep{edge2024graphrag} clusters an entity graph into communities and summarizes each with an LLM. Neither models time: a node accumulates every value an attribute ever held, with no notion that one value supersedes another. \ours{} adds a typed supersession edge over a claim/page graph, so the structure that supports multi-hop retrieval also encodes which value is current. Tree-organized retrievers such as RAPTOR~\citep{sarthi2024raptor} and TreeRAG~\citep{tao2025treerag} are likewise lifecycle-agnostic.
+
+\paragraph{Temporal and freshness RAG.} TempLAMA~\citep{dhingra2022templama}, TimeQA~\citep{chen2021timeqa}, StreamingQA~\citep{liska2022streamingqa}, and RealTime~QA~\citep{kasai2023realtimeqa} expose stale knowledge; FreshLLMs~\citep{vu2024freshllms} instead re-queries the live web. TimeRAG decomposes complex temporal questions and iteratively couples web search with time-aware answer generation~\citep{wang2025timerag}. Timestamp-aware retrievers blend semantic relevance with inverse time distance (TempRALM)~\citep{gade2024tempralm} or a half-life recency prior~\citep{grofsky2025ragtime}; FRESCO shows that even strong rerankers remain biased toward obsolete passages~\citep{an2026fresco}. TA-RAG retrieves contiguous evidence over an extracted temporal window~\citep{lau2025tarag}, whereas IA-RAG organizes interval events and applies interval-algebra constraints~\citep{wang2026iarag}. Temporal KGs~\citep{trivedi2017knowevolve,lacroix2020tensor} likewise operate on timestamped events or supplied validity intervals. Our task is upstream of search-time reasoning: infer supersession and validity intervals from a static raw-text corpus, without labels or an LLM call. We evaluate on TempLAMA and directly compare with TempRALM and the half-life prior.
+
+\paragraph{Knowledge conflicts and editing.} Entity-based knowledge conflicts~\citep{longpre2021conflicts} and studies of reader behavior under conflicting context~\citep{xie2024conflict,liu2023lostmiddle} show that models are swayed by what is retrieved; model editing~\citep{decao2021editing,meng2022rome} rewrites parameters once an oracle supplies the new fact. Our work is upstream of editing: it decides from text which claim is current and feeds that to the reader through retrieval rather than parameter surgery. Standard dense~\citep{karpukhin2020dpr,reimers2019sbert} and lexical~\citep{robertson1995bm25} retrieval are used as-is.
+
+% =====================================================================
+\section{Method}
+\label{sec:method}
+% =====================================================================
+
+\paragraph{Problem setup.} A document is split into sentence-aware spans and parsed into \emph{claims}. Let $\mathcal{C}$ denote the set of all claims. We model each $c\in\mathcal{C}$ as a tuple $c=(s_c, r_c, v_c, t_c)$: a subject $s_c$, a relation $r_c$, a value $v_c$, and a timestamp $t_c$ taken from the source (its date when available, else the claim's stated validity). Write the subject-relation \emph{key} $\kappa(c)=(s_c,r_c)$ and the group $\mathcal{C}_\kappa=\{c\in\mathcal{C}:\kappa(c)=\kappa\}$. A claim is \emph{superseded} when a later claim of the same key carries a different value:
+\begin{equation}
+\label{eq:super}
+S^\star=\bigl\{\,c\in\mathcal{C}\ :\ \exists\,c'\in\mathcal{C}_{\kappa(c)},\ t_{c'}>t_c,\ v_{c'}\neq v_c\,\bigr\},
+\end{equation}
+and the \emph{active} (current) set is $A=\mathcal{C}\setminus S^\star$; the active claim of a key is the latest, $\argmax_{c\in\mathcal{C}_\kappa} t_c$. The retrieval goal is to keep $A$ and drop $S^\star$ from the reader's context. Claim text is stored as a verbatim, source-attributed span rather than generated; extraction, temporal ordering, and lifecycle linking can nevertheless be wrong and are evaluated separately below. Claim and page nodes are embedded with \texttt{all-MiniLM-L6-v2}~\citep{reimers2019sbert}; the released implementation scores exact cosine similarity over the embedding matrix. The lifecycle layer is what makes this more than a structured index.
+
+\paragraph{Text-driven supersession detection.} The detector estimates the relation in \cref{eq:super} from text alone, with no language-model call and no gold label. It needs three signals. (1) \emph{Subject and relation}: each claim's tokens split into a \emph{frame} (relation words, \eg{} ``head of government of'') and \emph{value objects} (numbers or proper-noun spans); two claims share a relation when frames overlap by an overlap coefficient of at least $0.5$, and share a subject when, given that both name at least two proper nouns, they share a full capitalized phrase (\eg{} ``United Kingdom''), falling back to strong token overlap when a claim names at most one proper noun (then that noun is most likely the changing value). Phrase-level matching is what stops two subjects sharing only a generic suffix (``$\dots$ Liberal Party'' versus ``$\dots$ Republican Party'') from cross-linking, while still matching one subject across its value changes. (2) \emph{Changed value}: comparing only like-typed claims, a numeric claim changes when its unit-normalized magnitude differs (ignoring bare years and identifiers), and a string-valued claim changes when each side carries a content token the other lacks, \ie{} a substitution rather than a restatement. (3) \emph{Recency}: the edge is oriented from the later source to the earlier one, and lexical cues (``revised'', ``replaces'', ``with effect from'') raise edge confidence from $0.7$ to $0.9$ but are not required. \Cref{alg:supersession} keeps, for each claim, the single newest claim that supersedes it. The detector is worst-case quadratic in claims, but the gates reject most pairs at the first comparison; the largest combined corpus ($712$ claims) adds $0.3$ CPU-seconds at indexing time.
+
+\begin{algorithm}[t]
+\caption{Text-driven supersession detection}\label{alg:supersession}
+\begin{algorithmic}[1]
+\Require claims $\{c_i\}$ with text and source timestamps $t_i$
+\Ensure edges $E$; each $(c',c,\kappa(c))$ means ``$c'$ supersedes $c$''
+\For{each claim $c_i$}
+  \State $(f_i,v_i,p_i)\gets(\textsc{Frame},\textsc{Values},\textsc{Phrases})(c_i)$
+\EndFor
+\State $E\gets\emptyset$
+\For{each candidate stale claim $c$}
+  \State $best\gets\textsc{None}$
+  \For{each $c'\neq c$ with $t_{c'}>t_c$}
+    \If{\textbf{not} \textsc{SameSubjectRelation}$(c,c')$} \textbf{continue} \EndIf
+    \If{\textbf{not} \textsc{ChangedValue}$(c,c')$} \textbf{continue} \EndIf
+    \If{$best{=}\textsc{None}$ \textbf{or} $t_{c'}>t_{best}$} $best\gets c'$ \EndIf
+  \EndFor
+  \If{$best\neq\textsc{None}$} $E\gets E\cup\{(best,c,\kappa(c))\}$ \EndIf
+\EndFor
+\State \Return $E$
+\end{algorithmic}
+\end{algorithm}
+
+The detector's behavior is determined entirely by its one heuristic component, subject-relation matching. We record this as a \emph{diagnostic characterization}, not a correctness guarantee, since an exact matcher is precisely the hard part on open text. Let $M(a,b)$ denote the predicate $\textsc{SameSubjectRelation}(a,b)$, and let $\hat S$ be the set of claims the detector marks superseded.
+
+\begin{proposition}[Conditional exactness]
+\label{prop:sound}
+If $M$ is exact on $\mathcal{C}$, that is $M(a,b)\Leftrightarrow\kappa(a){=}\kappa(b)$ for all $a,b$, and timestamps are consistent with validity order, then $\hat S=S^\star$, so detection precision and recall are both $1$.
+\end{proposition}
+\begin{proof}
+The detector marks $c$ iff some later $c'$ satisfies $M(c',c)$ and $v_{c'}{\neq}v_c$; exactness makes this identical to membership in $S^\star$ (\cref{eq:super}), so $\hat S=S^\star$.
+\end{proof}
+
+The statement is near-immediate, and that is its point: it does not certify the practical matcher, it \emph{localizes} all error. Since comparison and recency are exact by construction, every detection error traces to an error by $M$; \cref{prop:sound} is thus the lens for the results below: perfect where keys are crisp, degrading in a specific, fixable way where prose blurs them (\cref{sec:results}).
+
+\paragraph{Lifecycle-aware retrieval.} A query retrieves a candidate set by hybrid dense and lexical similarity; the lifecycle layer then demotes any claim with an incoming supersession edge below every unsuperseded claim of the same key, spending the budget on current values. For the retrieved set $R_q$ of query $q$ we report, averaged over queries, the stale-evidence rate (did any stale claim reach the context?) and the active-evidence precision (what fraction of it is current?),
+\begin{equation}
+\label{eq:ser}
+\mathrm{SER}=\Pr_q\!\bigl[R_q\cap S^\star\neq\emptyset\bigr],\qquad
+\mathrm{AEP}=\mathbb{E}_q\!\left[\frac{|R_q\cap A|}{|R_q|}\right].
+\end{equation}
+The next lemma isolates the failure as one of \emph{which value}, not recall.
+
+\begin{lemma}[Which-value]
+\label{lem:whichvalue}
+Suppose relevance is value-agnostic within a key, $\rho(q,c)=\rho_\kappa(q)$ for all $c\in\mathcal{C}_\kappa$, and the queried key has $m$ claims (one active) of which the budget admits $j\geq 1$. Then flat top-$k$ retrieval with uniform tie-breaking includes the active claim with probability $j/m$, admits stale evidence with probability $1$ when $j\geq 2$ (and $(m-1)/m$ when $j=1$), and attains $\mathbb{E}[\mathrm{AEP}]=1/m$ on that key, whereas lifecycle retrieval includes the active claim with probability $1$, $\mathrm{SER}=0$, and $\mathrm{AEP}=1$.
+\end{lemma}
+\begin{proof}
+Exchangeability makes the $j$ admitted a uniform $j$-subset (active with probability $j/m$; each slot active with probability $1/m$; a stale one admitted with probability $1$ for $j\geq2$). Demotion ranks the active claim first, so it is always admitted and no stale one is.
+\end{proof}
+
+\Cref{lem:whichvalue} predicts the pattern: flat retrieval gets the topic right yet leaves stale claims co-resident, depressing $\mathrm{AEP}$ toward $1/m$, while demotion sends $\mathrm{SER}\to0$ and $\mathrm{AEP}\to1$. The next bound shows why a cheaper date reorder cannot match demotion as histories grow.
+
+\begin{proposition}[Date-reordering ceiling]
+\label{prop:datererank}
+Fix a queried key with $m$ claims of which a budget admits $j<m$, and suppose the reader returns one admitted value, choosing the active claim whenever it is admitted and otherwise erring with probability at least $\delta>0$. Any method that reorders or annotates but does not remove admitted claims still admits the active one with probability $j/m$ (\cref{lem:whichvalue}), so its expected exact match is at most $1-\delta\,(m-j)/m$, whereas demotion admits the active claim always and is limited only by reader error.
+\end{proposition}
+\begin{proof}
+Reordering preserves the admitted multiset (active with probability $j/m$ by \cref{lem:whichvalue}); on the complementary event the reader errs with probability $\geq\delta$, whereas demotion admits the active claim whenever $j\geq1$.
+\end{proof}
+
+The ceiling $1-\delta(m-j)/m$ loosens as $m$ grows, matching the measured decay of date-reranking against the flat $1/m$ active fraction (\cref{tab:msweep}).
+
+\paragraph{Validity intervals and as-of retrieval.} The supersession edges do more than flag the current value. Ordered by timestamp within a key, the claims $c_1,\dots,c_m$ partition time into validity intervals, $c_i$ holding on $[t_i,t_{i+1})$ and $c_m$ on $[t_m,\infty)$, so an \emph{as-of} query $(\kappa,T)$ returns the claim in force at $T$, namely $\argmax_{c\in\mathcal{C}_\kappa:\,t_c\le T} t_c$, read off the same edges at no added cost. Lifecycle retrieval is the case $T{=}\text{now}$; a current-only memory that stores only the active claim cannot serve any earlier $T$.
+
+\begin{proposition}[As-of correctness]
+\label{prop:asof}
+If the detector's edges equal $S^\star$ (the condition of \cref{prop:sound}), the as-of operator returns the claim valid at $T$ for every $T$, and any error localizes to the same subject-relation matcher.
+\end{proposition}
+\begin{proof}
+Exact edges recover the interval boundaries, so the operator returns the latest claim with $t_c\le T$; any error needs a wrong edge, which by \cref{prop:sound} traces to $M$.
+\end{proof}
+
+% =====================================================================
+\section{Experimental Setup}
+\label{sec:setup}
+% =====================================================================
+
+\paragraph{Detection benchmarks.} We evaluate detection on six datasets of increasing realism. \textbf{FreshRAG-Bench} is a synthetic policy corpus ($100$ cases, $304$ claims) whose numeric thresholds change over dated circulars. \textbf{Real-world} is $20$ hand-curated fact changes ($56$ claims). \textbf{Wikidata} contains $73$ subject--relation keys ($33$ multi-value QA chronologies), drawn by SPARQL~\citep{vrandecic2014wikidata}; its $208$ claims comprise $133$ superseded and $75$ active spans, including capital and headquarters hard negatives. \textbf{TempLAMA}~\citep{dhingra2022templama} is the published temporal-QA benchmark ($300$ cases, $9$ relations, $747$ claims, $447$ superseded). \textbf{Wikidata-prose} rewrites the same $208$ Wikidata claims as paraphrased paragraphs with distractors. \textbf{Real-Wikipedia} contains $26$ genuine CEO lead extracts across $12$ company chronologies, with $14$ superseded claims labeled from known tenure order.
+
+\paragraph{Metrics and statistics.} Detection reports span-level precision, recall, and F1 of superseded-claim identification with false positives; retrieval reports SER and AEP (\cref{eq:ser}); QA reports exact match (EM), the normalized gold value appearing in the answer. Confidence intervals are $95\%$ cluster bootstraps over cases ($2{,}000$ resamples); supersession and QA gains use paired bootstrap tests, with a $5$-seed mean where a condition is randomized. Every headline EM margin survives a strict clean match that rejects an answer also naming a stale value (Supplementary Sec.~G).
+
+\paragraph{Readers and baselines.} Current-answer readers are a deterministic extractive reader and local \texttt{Qwen2.5-3B-Instruct} (fp16, greedy decoding); a prompted \texttt{gpt-4o-mini} is used only for the supersession-judge comparison. Every current-answer method receives the identical corpus, question, five-claim budget, prompt, reader, and EM scoring. TempRALM~\citep{gade2024tempralm} and RAG-Time~\citep{grofsky2025ragtime} score the full candidate pool from the same dense cosine similarities; RAG-Time uses fixed $(\alpha,h){=}(0.7,730\,\mathrm{days})$. As-of probes target every historical interval midpoint and the present.
+
+% =====================================================================
+\section{Results}
+\label{sec:results}
+% =====================================================================
+
+\noindent\textbf{Supersession is detectable from text.} \Cref{tab:detection} reports span-level detection across all six benchmarks. FreshRAG, Real-world, Wikidata, and Wikidata-prose are exact (precision, recall, and F1 all $1.000$). On TempLAMA, the detector reaches F1 $0.976$ ($95\%$ CI $[0.964,0.986]$), with precision $0.982$ and recall $0.971$. On genuine Real-Wikipedia leads it reaches F1 $0.880$ at precision $1.000$ and recall $0.786$, localizing the degradation to missed links in raw prose rather than false supersessions. This is the pattern predicted by \cref{prop:sound}: crisp keys yield exact detection, while aliases and biographical clauses can split a timeline. Per-case ceilings alone do not certify the detector, so the pooled analysis below co-locates all subjects and contrasts the heuristic with newest-document-wins.
+
+\input{tables/table1_detection.tex}
+
+\noindent\textbf{It beats an LLM judge, for free.} \Cref{tab:llm_baseline} runs a prompted \texttt{gpt-4o-mini} judge on the identical $240$ Wikidata span pairs. The zero-LLM detector scores $1.000$ F1 versus $0.960$ for the judge: both find all $120$ supersessions, but the judge adds ten false links (precision $0.923$) while the structural rule adds none. The detector therefore wins on the exact task it was designed for, with no model call at indexing or retrieval time.
+
+\input{tables/table2_llm_baseline.tex}
+
+\noindent\textbf{Lifecycle retrieval removes stale evidence.} \Cref{tab:retrieval} isolates the retrieval effect and matches \cref{lem:whichvalue}. Without lifecycle, every current-fact context contains stale evidence on FreshRAG, Wikidata, and TempLAMA (SER $1.000$), while AEP is only $0.408$, $0.297$, and $0.438$. Lifecycle retrieval reduces SER to $0.000$, $0.000$, and $0.060$ and raises AEP to $1.000$, $1.000$, and $0.988$, respectively, essentially matching the gold-edge oracle. The retriever still targets the right topic in the flat condition; the failure is choosing among co-retrieved values, exactly the which-value failure of \cref{lem:whichvalue}.
+
+\noindent\textbf{Direct temporal-RAG head-to-head.} \Cref{tab:money} changes only retrieval: corpus, question, $k{=}5$ budget, prompt, reader, and EM scoring are identical for Flat RAG, TempRALM, RAG-Time, lifecycle, and the gold oracle. On Wikidata, lifecycle reaches $0.970$ with both readers, versus $0.121/0.152$ for TempRALM and $0.485/0.394$ for RAG-Time (extractive/Qwen). On all $300$ TempLAMA questions it reaches $0.953/0.937$, versus $0.213/0.260$ for TempRALM and $0.350/0.470$ for RAG-Time. Against RAG-Time, the four paired gains are $0.485$ ($95\%$ CI $[0.303,0.667]$), $0.576$ $[0.394,0.727]$, $0.603$ $[0.543,0.660]$, and $0.467$ $[0.407,0.530]$; all $p<0.001$. Gains over TempRALM are larger ($0.677$--$0.849$), with every lower confidence bound at least $0.623$. Lifecycle is unchanged under strict clean EM, which rejects an answer that also names a stale value, and remains within $0.000$--$0.043$ of the gold-edge oracle in every cell.
+
+\noindent\textbf{History length isolates the mechanism, not a dataset quirk.} \Cref{tab:msweep} truncates the same Wikidata histories to $m$ values. Flat AEP follows the predicted $1/m$ exactly, while date reranking only changes order and its EM decays; lifecycle removes stale values from the budget and stays at $1.000$. The pattern replicates within third-party TempLAMA: on its complete $31$-chronology long-history slice ($m{=}4$--$8$, mean $4.74$), Qwen reaches $1.000$ with lifecycle versus $0.710$ for flat retrieval, $0.645$ with an explicit trust-the-latest-date prompt, and $0.290$ after date reranking (all paired $p<0.001$). Natural prose reduces, but does not reverse, the effect. On $35$ genuine Wikipedia-lead questions in RealProse, Qwen rises from $0.714$ to $0.857$ EM (gold $0.914$), while SER falls from $0.971$ to $0.229$ and AEP rises from $0.319$ to $0.859$. Thus readers can exploit explicit tense and date cues, but lifecycle still changes the evidence they receive (Supplementary Secs.~E--F, ``Long histories'' and ``Realistic prose'').
+
+\begin{table}[t]
+\centering
+\footnotesize
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+ & $m{=}2$ & $m{=}3$ & $m{=}4$ & $m{=}5$ \\
+\midrule
+$n$ keys & 33 & 29 & 22 & 15 \\
+Flat AEP (pred.\ $1/m$) & 0.500 & 0.333 & 0.250 & 0.200 \\
+Flat EM & 0.879 & 0.552 & 0.500 & 0.533 \\
+Date-prompt EM & 0.909 & 0.655 & 0.409 & 0.600 \\
+Date-rerank EM & 0.212 & 0.276 & 0.318 & 0.333 \\
+\textbf{Lifecycle EM} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+\bottomrule
+\end{tabular*}
+\caption{\textbf{History length isolates the mechanism} (Qwen reader; Wikidata chronologies truncated to their latest $m$ values). Flat AEP matches the $1/m$ prediction of \cref{lem:whichvalue}; date prompting and reranking retain stale values, while lifecycle holds the EM ceiling. Source: \texttt{results/history\_sweep.json}.}
+\label{tab:msweep}
+\end{table}
+
+\input{tables/table4_retrieval.tex}
+\input{tables/table6_money.tex}
+
+\noindent\textbf{The same edges answer the whole timeline.} Supersession edges induce validity intervals (\cref{prop:asof}), so the memory serves the same value-at-time-$T$ probes with no added structure (\cref{tab:asof}). TempRALM reaches $0.388$--$0.750$ historical top-1 accuracy and RAG-Time $0.749$--$0.944$; lifecycle intervals reach $0.940$--$1.000$. Against RAG-Time, the gains are $0.142$ on Wikidata ($95\%$ CI $[0.067,0.224]$, $p<0.001$), $0.224$ on TempLAMA ($[0.181,0.269]$, $p<0.001$), and $0.056$ on Real-world ($[0.000,0.139]$, $p{=}0.269$); the latter is near ceiling rather than a reversal. Against TempRALM, lifecycle gains $0.552$, $0.302$, and $0.250$, respectively (all $p<0.001$). An exact-key temporal KG captures intervals but fragments co-referent timelines ($0.925$--$1.000$), while a current-only memory cannot recover past states ($0.007$--$0.056$; Supplementary Sec.~B, ``Text-driven temporal-KG baseline''). Temporal proximity is therefore useful, but it does not identify the interval in force.
+
+\begin{table}[t]
+\centering
+\footnotesize
+\begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+Benchmark & TempR & R-Time & exact-KG & \textbf{Ours} \\
+\midrule
+Wikidata & 0.388 & 0.799 & 0.925 & \textbf{0.940} \\
+TempLAMA & 0.671 & 0.749 & 0.933 & \textbf{0.973} \\
+Real-world & 0.750 & 0.944 & 1.000 & \textbf{1.000} \\
+\bottomrule
+\end{tabular*}
+\caption{\textbf{Historical as-of accuracy} under identical probes and candidate pools. TempRALM (TempR) and fixed RAG-Time (R-Time) score the full pool; exact-KG and lifecycle derive intervals from text. Probe counts: Wikidata $134$, TempLAMA $447$, Real-world $36$.}
+\label{tab:asof}
+\end{table}
+
+\noindent\textbf{The intervals compose across hops.} Chaining two validity intervals answers a temporally-consistent multi-hop query flat and current-only retrieval cannot. On real Wikidata chains of $10$ genuine subsidiary--parent--CEO timelines with real acquisition and tenure dates (\eg{} Whole Foods $\to$ Amazon $\to$ Bezos, Red Hat $\to$ IBM $\to$ Rometty), resolving both hops as-of the query time answers $1.000$, matching the gold-interval oracle, whereas a current-value graph chaining latest-to-latest answers only $0.200$: every answer is present but assembled from mismatched eras. A controlled $40$-query two-hop benchmark shows the same ($1.000$ vs.\ $0.000$; flat surfaces both bridging claims for only $0.100$, as the intermediate entity never appears in the query). Composition inherits its exactness from detection (\cref{prop:asof}).
+
+% =====================================================================
+\section{Analysis}
+\label{sec:analysis}
+% =====================================================================
+
+\noindent\textbf{The three signals play distinct roles.} \Cref{tab:ablation} lesions each detector signal. Recency is the backbone: removing reliable order reduces F1 from $1.000$ to $0.638$ on FreshRAG and from $0.976$ to $0.600$ on TempLAMA, because an edge cannot be oriented without it. Approximate order is sufficient: replacing one quarter of dates by wrong in-range years costs $0.060$/$0.113$ F1 on Wikidata/TempLAMA (\cref{tab:tsnoise}), whereas making the same fraction missing costs $0.185$/$0.234$. Subject matching prevents cross-entity links: removing it lowers F1 to $0.759$ on FreshRAG and $0.887$ on Wikidata-prose. The changed-value gate is dataset-specific: removing it lowers FreshRAG from $1.000$ to $0.940$, but is slack or slightly conservative elsewhere (TempLAMA rises to $0.986$ without it). Thus recency is universally necessary, subject matching matters under multi-entity noise, and the value gate protects corpora containing restatements.
+
+\input{tables/table3_ablation.tex}
+
+\begin{table}[t]
+\centering
+\footnotesize
+\begin{tabular}{@{}l@{\hspace{3pt}}l@{\hspace{3pt}}c@{\hspace{3pt}}c@{\hspace{3pt}}c@{\hspace{3pt}}c@{\hspace{3pt}}c@{}}
+\toprule
+Benchmark & dates & $0$ & $10\%$ & $25\%$ & $50\%$ & $100\%$ \\
+\midrule
+\multirow{2}{*}{Wikidata} & wrong & 1.000 & 0.968 & 0.940 & 0.876 & 0.798 \\
+ & missing & 1.000 & 0.936 & 0.815 & 0.556 & 0.000 \\
+\multirow{2}{*}{TempLAMA} & wrong & 0.976 & 0.933 & 0.864 & 0.765 & 0.595 \\
+ & missing & 0.976 & 0.890 & 0.742 & 0.453 & 0.000 \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Timestamp-noise robustness} (detection F1, mean of $5$ seeds) as a fraction of source dates is replaced by a \emph{wrong} in-range year or made \emph{missing}, with gold held fixed. Wrong-but-present dates degrade the detector gently; only missing dates hurt sharply, and only in the limit.}
+\label{tab:tsnoise}
+\end{table}
+
+\noindent\textbf{The honest limit on raw prose.} On $26$ genuine Real-Wikipedia CEO leads, the detector reaches F1 $0.880$ at precision $1.000$ and recall $0.786$ (\cref{tab:detection}): aliases and long biographical clauses split some timelines, but produce no false supersessions. The broader RealProse benchmark tests $132$ genuine leads across five relation families in one pooled hard-negative index. With the same zero-LLM parser rules it reaches F1 $0.941$ at precision $0.978$ and recall $0.907$ (\cref{tab:realprose}), leaving every structured score unchanged. The residual misses are precisely the matcher failures \cref{prop:sound} predicts.
+
+\begin{table}[t]
+\centering
+\footnotesize
+\begin{tabular}{@{}l@{\hspace{4pt}}r@{\hspace{4pt}}r@{\hspace{4pt}}r@{\hspace{4pt}}r@{}}
+\toprule
+Relation family & $n$ & P & R & F1 \\
+\midrule
+Company chief executive & 26 & 1.000 & 0.786 & 0.880 \\
+National head of government & 38 & 1.000 & 0.933 & 0.966 \\
+National head of state & 20 & 1.000 & 0.938 & 0.968 \\
+Football-club manager & 19 & 0.882 & 1.000 & 0.938 \\
+International-org.\ leader & 29 & 1.000 & 0.864 & 0.927 \\
+\midrule
+\textbf{Pooled} & \textbf{132} & \textbf{0.978} & \textbf{0.907} & \textbf{0.941} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Generalization on genuine prose} (RealProse: $132$ real Wikipedia leads, five relation families, $35$ subjects, one pooled index, no per-relation tuning). Precision is $1.000$ on four of five families ($0.978$ pooled): the pooled hard negatives (eight ``prime minister'' timelines, president-of-US vs.\ president-of-FIFA) are not cross-linked.}
+\label{tab:realprose}
+\end{table}
+
+\noindent\textbf{Residual errors are inspectable.} RealProse contains nine false negatives and two false positives. Four of five relation families retain precision $1.000$; the only false merges are two football managers whose leads share ``Premier League'' while one omits the club from its head sentence. The false splits are likewise concrete: corporate aliases (``Twitter'' versus ``X~Corp'', ``Starbucks'' versus ``Starbucks Coffee Company''), relation frames diluted by long biographies (a FIFA president introduced as lawyer, businessman, and athlete; a World Bank president as physician and anthropologist), and leads that append a second office with ``and''. Company chief executives and organization leaders account for six of the nine misses, exactly where aliases and long appositives are common. Thus every observed error has the form predicted by \cref{prop:sound}: an erroneous merge or split of subject--relation keys, not an untraceable generated judgement. Entity aliasing and better clause segmentation are direct repair targets.
+
+\noindent\textbf{Pooling separates structure from recency alone.} Across the four structured corpora pooled into one $1{,}315$-claim index, detection reaches $0.985$ F1 ($P{=}0.986$, $R{=}0.984$), close to $0.991$ when cases are isolated; newest-document-wins instead falls from $0.985$ to $0.756$ because it cannot distinguish stable facts belonging to other subjects. The scaling replay below tests the same pooled edge decision under unique-subject distractors; construction remains offline, and query-time retrieval adds only an edge lookup and reranking step.
+
+\noindent\textbf{``Current'' is an evidence-state claim, not a truth guarantee.} The method assumes that source timestamps order the assertions in the supplied corpus and that, within a subject--relation key, a later changed value replaces the earlier value. It therefore identifies the latest supported assertion in that corpus; it does not independently verify that the newest source is factually correct or more authoritative. A newer false report can consequently be marked active, while disagreement among simultaneous sources requires an authority or corroboration model outside our scope. Reversions are representable: if a value changes from A to B and later back to A, the final A claim becomes active and the intervening B claim is superseded. This distinction is why we evaluate edge precision, timestamp corruption, and genuine prose separately. Lifecycle memory manages which source-attributed assertion is in force; fact verification remains a complementary task.
+
+% =====================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+% =====================================================================
+Relevance tells a retriever what a passage is about, not whether it is still true. \ours{} adds the missing signal: a zero-LLM, text-driven supersession edge that links each claim to the claims that make it stale, inferred from a shared subject and relation, a changed value, and recency. A diagnostic characterization localizes all detector error to its matcher, and we proved that lifecycle demotion turns the which-value failure of flat retrieval into guaranteed inclusion of the current claim. The experiments track both statements: exact detection on structured text, a win over a prompted LLM judge at no cost, and $0.937$--$0.970$ current-answer EM across two datasets and readers, far above direct TempRALM and RAG-Time comparisons. Because the same edges bound validity intervals, the memory also serves value-at-time-$T$ queries, a full-timeline retriever at no extra cost.
+
+% =====================================================================
+\section*{Limitations}
+% =====================================================================
+The zero-LLM detector is exact on structured or lightly paraphrased claims but reaches F1 $0.880$ on genuine Real-Wikipedia CEO leads, where aliases and clauses blur subject--relation keys. The broader RealProse evaluation reaches $0.941$, but it is a separate pooled benchmark rather than a direct repair of those same leads. On TempLAMA, missed edges leave lifecycle $0.033$--$0.043$ below the gold oracle, so better entity canonicalization remains useful. FreshRAG-Bench measures evidence quality (SER, AEP), not reader EM, because every variant fits the answer in context. The method also assumes at least approximate timestamps: wrong dates degrade gracefully, but missing dates eventually remove the ordering signal (\cref{tab:tsnoise}). Finally, all benchmarks are English with crisp entity attributes, and gradual rather than substitutive change falls outside the changed-value test.
+
+% =====================================================================
+\section*{Ethics Statement}
+% =====================================================================
+We use public datasets (TempLAMA and Wikidata), a local open Qwen reader with greedy decoding, and an OpenAI model only for the explicitly reported judge comparison. Returning the current claim verbatim may reduce confident answers from outdated facts; a wrong edge could suppress a still-valid claim, but zero structured-benchmark false positives bound this risk. AI assisted with code and prose under author review.
+
+% =====================================================================
+% \bibliographystyle is set automatically by aaai2027.sty (do not re-set).
+\bibliography{refs}
+
+\end{document}

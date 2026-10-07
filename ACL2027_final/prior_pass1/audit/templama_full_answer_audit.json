@@ -1,0 +1,176 @@
+{
+  "records": 34963,
+  "answer_count_histogram": {
+    "1": 26240,
+    "2": 7055,
+    "3": 1270,
+    "4": 313,
+    "5": 58,
+    "6": 25,
+    "7": 2
+  },
+  "multi_answer_records": 8723,
+  "examples": [
+    {
+      "query": "David Beckham plays for _X_.",
+      "answer": [
+        {
+          "wikidata_id": "Q204357",
+          "name": [
+            "Galaxy",
+            "Los Angeles Galaxy",
+            "L.A. Galaxy"
+          ],
+          "original_name": [
+            "Los Angeles Galaxy"
+          ]
+        },
+        {
+          "wikidata_id": "Q1543",
+          "name": [
+            "A.C.Milan",
+            "AC Milan",
+            "ACM",
+            "Association Football Milan",
+            "Associazione Calcio Milan",
+            "ACMilan",
+            "Milan",
+            "A.C.M."
+          ],
+          "original_name": [
+            "Associazione Calcio Milan"
+          ]
+        }
+      ],
+      "date": "2010",
+      "id": "Q10520_P54_2010",
+      "most_frequent_answer": {
+        "wikidata_id": "Q204357",
+        "name": "Los Angeles Galaxy"
+      },
+      "most_recent_answer": {
+        "wikidata_id": "Q483020",
+        "name": "Paris Saint-Germain"
+      },
+      "relation": "P54"
+    },
+    {
+      "query": "Cristiano Ronaldo plays for _X_.",
+      "answer": [
+        {
+          "wikidata_id": "Q1422",
+          "name": [
+            "Juventus Football Club",
+            "JFC",
+            "Juve",
+            "Juve FC",
+            "Juventus",
+            "Juventus of Turin",
+            "Juventus FC",
+            "Juventus Turin"
+          ],
+          "original_name": [
+            "Juventus FC"
+          ]
+        },
+        {
+          "wikidata_id": "Q8682",
+          "name": [
+            "Real Madrid Club of Football",
+            "Real Madrid",
+            "Real Football Club",
+            "Real Madrid Football Club",
+            "RMCF 1902",
+            "Royal Madrid Football Club",
+            "Real Madrid CF",
+            "Madrid Football Club",
+            "Madrid FC",
+            "Royal Madrid",
+            "Real FC",
+            "RMCF",
+            "Real Madrid C.F."
+          ],
+          "original_name": [
+            "Real Madrid CF"
+          ]
+        }
+      ],
+      "date": "2018",
+      "id": "Q11571_P54_2018",
+      "most_frequent_answer": {
+        "wikidata_id": "Q8682",
+        "name": "Real Madrid CF"
+      },
+      "most_recent_answer": {
+        "wikidata_id": "Q1422",
+        "name": "Juventus FC"
+      },
+      "relation": "P54"
+    },
+    {
+      "query": "Zlatan Pepemovic plays for _X_.",
+      "answer": [
+        {
+          "wikidata_id": "Q7156",
+          "name": [
+            "Barcelona",
+            "Bar\u00e7a",
+            "F.C.Barcelona",
+            "FC Barcelona Football",
+            "Futbol Club Barcelona",
+            "Barcelona Football Club",
+            "FCB",
+            "F\u00fatbol Club Barcelona",
+            "Barcelona FC",
+            "F.C.B.",
+            "FCBarcelona",
+            "Football Club of Barcelona",
+            "Football Club Barcelona",
+            "FC Barcelona",
+            "F.C. Barcelona"
+          ],
+          "original_name": [
+            "FC Barcelona"
+          ]
+        },
+        {
+          "wikidata_id": "Q160826",
+          "name": [
+            "Sweden national football team",
+            "Sweden national association football team"
+          ],
+          "original_name": [
+            "Sweden national association football team"
+          ]
+        },
+        {
+          "wikidata_id": "Q1543",
+          "name": [
+            "A.C.Milan",
+            "AC Milan",
+            "ACM",
+            "Association Football Milan",
+            "Associazione Calcio Milan",
+            "ACMilan",
+            "Milan",
+            "A.C.M."
+          ],
+          "original_name": [
+            "Associazione Calcio Milan"
+          ]
+        }
+      ],
+      "date": "2010",
+      "id": "Q46896_P54_2010",
+      "most_frequent_answer": {
+        "wikidata_id": "Q160826",
+        "name": "Sweden national association football team"
+      },
+      "most_recent_answer": {
+        "wikidata_id": "Q1543",
+        "name": "Associazione Calcio Milan"
+      },
+      "relation": "P54"
+    }
+  ]
+}

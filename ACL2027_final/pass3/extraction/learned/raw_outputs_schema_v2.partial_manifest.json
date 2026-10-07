@@ -1,0 +1,140 @@
+{
+  "status": "stopped_after_source_only_grounding_check",
+  "planned_rows": 30,
+  "completed_rows": 6,
+  "interrupted_in_flight_request": 7,
+  "reason": "Required fields now exist, but source quote/date matching and independent semantic checks fail. Root stopped the learned development calibration route after six completed outputs. This is not a benchmark performance result.",
+  "input_sha256": "4808b04a16cd9496d8afe00ee864190d566518c217da04cdf02c3efa6ab0c8e1",
+  "output_sha256": "1844aa5c4158ae88cd728b4931949fb73cb399685dbe3b5dc2e45362f17ef612",
+  "temperature": 0,
+  "seed": 1729,
+  "threads": 8,
+  "context_tokens": 8192,
+  "per_job_max_tokens": [
+    1400,
+    1400,
+    1400,
+    1400,
+    1400,
+    1400
+  ],
+  "response_format": {
+    "type": "json_object",
+    "schema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "states",
+        "successions"
+      ],
+      "properties": {
+        "states": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "quote",
+              "holder",
+              "role",
+              "organization",
+              "start",
+              "end"
+            ],
+            "properties": {
+              "quote": {
+                "type": "string",
+                "minLength": 1
+              },
+              "holder": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "organization": {
+                "type": "string"
+              },
+              "start": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "end": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "successions": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "quote",
+              "previous",
+              "next",
+              "role",
+              "organization",
+              "date"
+            ],
+            "properties": {
+              "quote": {
+                "type": "string",
+                "minLength": 1
+              },
+              "previous": {
+                "type": "string"
+              },
+              "next": {
+                "type": "string"
+              },
+              "role": {
+                "type": "string"
+              },
+              "organization": {
+                "type": "string"
+              },
+              "date": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "model_repository": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+  "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+  "model_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+  "runtime_release": "b11435",
+  "interpretation": "Engineering calibration only; not benchmark evidence",
+  "utc": "2026-10-06T10:23:18.403235+00:00",
+  "total_request_seconds": 312.9833207690026,
+  "total_completion_tokens": 3912,
+  "finish_reason_counts": {
+    "stop": 6
+  }
+}

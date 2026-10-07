@@ -1,0 +1,71 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Date uncertainty and context uncertainty differ}
+
+Table~\ref{tab:mechanism} separates parsed questions from contexts containing modeled evidence.
+The validation adapter produces 481 claims, of which 221 have explicit end dates.
+These claims occupy 1.46\% of the 32,976 indexed source units.
+Among 375 parsed questions with modeled evidence in the possible context, 306 have an unchanged-context certificate.
+Thus 81.60\% of these contexts need no finer modeled dates to fix their selected evidence.
+The other 69 return different contexts under the matched date completions.
+\input{tables/mechanism}
+
+The certificate directs attention to the evidence actually selected.
+With modeled evidence anywhere in the first twenty lexical candidates, 987 of 1,056 parsed questions have stable contexts.
+Lower-ranked uncertainty can therefore remain unresolved.
+All 1,921 parsed all-fallback contexts also remain fixed under the declared policy.
+We report them separately because their dates remain unmodeled.
+
+\paragraph{The context budget controls exposure to uncertain dates.}
+We retain the same 375-question group and vary only the number of selected source units.
+Table~\ref{tab:budget} reports the exact stable-prefix decisions.
+Stability falls from 92.27\% at one item to 79.73\% at twenty items.
+Most of the decrease occurs within the first five positions.
+The diagnostic lets a system distinguish a short stable context from a larger context requiring refinement.
+It measures selection before source-text truncation.
+\input{tables/budget}
+
+\subsection{Replaying an unstable selection}
+
+For each of the 69 unstable validation contexts, the constructive procedure selects an unresolved claim.
+One assignment supports that claim within the query; another excludes it throughout the query.
+The replay records include all event dates, source offsets, and selected identifiers.
+They connect the abstract certificate to concrete reader inputs.
+\input{sections/replay_results}
+
+\subsection{Ranking controls separate evidence quality from stability}
+
+Table~\ref{tab:matched} reports exact shown-span coverage under matched source units.
+Possible support and the interval control coincide in this run.
+The source adapter supplies explicit endpoints and no cross-claim replacement pairs.
+Guaranteed support gains 0.09 points of span recall over the interval control.
+Its paired interval is $[-0.09,0.26]$ points.
+\input{tables/matched}
+
+Latest-year reranking reaches 53.51\% span recall, compared with 39.07\% for the interval control.
+The paired difference is 14.44 points, with interval $[12.05,16.86]$.
+This result identifies ranking as the main evidence-quality lever in this source adapter.
+The context theorem applies to either fixed ranking.
+The reported certificate uses the common lexical ranking so temporal policies share identical relevance decisions.
+
+\input{sections/reader_results}
+
+\subsection{Complete answers require complete candidate sets}
+
+Annual controls expose a separate selection loss.
+On the full TempLAMA split, latest-value selection achieves 99.89\% first-result accuracy but only 86.37\% answer recall.
+Latest-batch selection retains the same first-result accuracy and raises answer recall to 99.98\%.
+Selecting only one value suppresses 13.63\% of accepted annual answers before the final context budget.
+Its key-cluster confidence interval is $[13.06,14.21]$ points.
+The matched Graphiti and exact direct-first policies produce identical endpoints on all 45,866 source observations.
+These controls establish the exact-date reference and preserve the benchmark's full answer scope.
+
+\subsection{Independent execution checks}
+
+Enumeration checks the compiler directly against its possible-world definition.
+All 253,050 support comparisons and 328,747 context-stability comparisons agree.
+Explicit-end verification adds 39,600 support comparisons and 29,700 stability comparisons.
+An independent check of the constructive extension validates 1,300 counterworld pairs across 12,925 enumerated worlds.
+A separate small-instance check verifies both directions of the Set Cover construction.
+These finite correctness checks accompany the proofs and remain separate from corpus measurements.

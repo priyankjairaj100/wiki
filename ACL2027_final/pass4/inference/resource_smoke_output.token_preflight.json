@@ -1,0 +1,22 @@
+{
+  "requests": 2,
+  "context_tokens": 2048,
+  "margin_tokens": 16,
+  "max_prompt_tokens": 1028,
+  "max_reserved_tokens": 1140,
+  "all_fit": true,
+  "counts": [
+    {
+      "id": "long_source_1",
+      "prompt_tokens": 1028,
+      "max_tokens": 96,
+      "reserved_with_margin": 1140
+    },
+    {
+      "id": "long_source_2",
+      "prompt_tokens": 1028,
+      "max_tokens": 96,
+      "reserved_with_margin": 1140
+    }
+  ]
+}

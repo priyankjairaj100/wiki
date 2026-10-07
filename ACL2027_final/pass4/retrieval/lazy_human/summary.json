@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "queries": 830,
+  "parsed_queries_verified": 813,
+  "unparsed_queries_skipped": 17,
+  "saved_runner_comparisons": 813,
+  "modeled_claims": 744,
+  "source_units": 34480,
+  "k": 5,
+  "fallback_and_empty_budget_checks": "passed",
+  "stable": 802,
+  "mean_examined_candidates": 5.056580565805658,
+  "max_examined_candidates": 9,
+  "mean_lazy_support_checks": 0.3370233702337023,
+  "full_mask_support_checks_per_query": 1488,
+  "support_check_reduction_fraction": 0.9997735057995741,
+  "query_selection_timing": {
+    "repetitions_per_query": 11,
+    "median_query_lazy_microseconds": 1.749,
+    "median_query_full_masks_microseconds": 959.924,
+    "aggregate_ratio_of_median_times": 491.959233395378,
+    "excludes": [
+      "source extraction",
+      "index compilation",
+      "relevance ranking",
+      "context rendering",
+      "reader inference"
+    ],
+    "setting": "In-process CPU microbenchmark with cached source inputs; query-only selection, not end-to-end latency."
+  },
+  "input_sha256": {
+    "pass4/pipeline/human/units.jsonl": "ee930d03ece56b1bd57393716e4e5dd7cb38256947246b4f3bcb926a2ba581b4",
+    "pass4/pipeline/human/claims.jsonl": "e6b255a03a0fd8662dca5f6d917d0fe474b96f9fa520fed544a52c986a9fab7a",
+    "pass4/protocol/human_test_confirmation_queries.jsonl": "e946ae3e7d494663cf56e0c1462f271f6abd78e12b422e464166d1e8d34d872d",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/profile_lazy.py": "443190332ff85fe7b9f760e1a6049e48b17cd19fc5e018c2f3543faf36f0d97a",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/lazy_certificate.py": "6264334ccc46694b27ce99ce6b5795a59983b3dda7fefc2f6b1e2fc3e53fdc24",
+    "pass4/pipeline/human/predictions.jsonl": "cbd2867dc0fed4d5d83caaf4e405c37e4273284fa404a06a2c702913dca34912"
+  },
+  "slices": {
+    "selected_modeled_context": {
+      "queries": 90,
+      "stable": 79,
+      "mean_support_checks": 2.7,
+      "mean_examined_candidates": 5.166666666666667,
+      "median_lazy_microseconds": 3.1895,
+      "median_full_masks_microseconds": 954.5685
+    },
+    "all_fallback_context": {
+      "queries": 723,
+      "stable": 723,
+      "mean_support_checks": 0.042876901798063624,
+      "mean_examined_candidates": 5.0428769017980635,
+      "median_lazy_microseconds": 1.736,
+      "median_full_masks_microseconds": 961.318
+    }
+  }
+}

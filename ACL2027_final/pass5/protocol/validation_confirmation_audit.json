@@ -1,0 +1,60 @@
+{
+  "audit_kind": "Independent source-free-label replay; direct event scans replace compiler calls.",
+  "all_checks_passed": true,
+  "counts": {
+    "method_contexts_checked": 23480,
+    "queries": 2348,
+    "parsed": 2296,
+    "parsed_all_fallback": 2053,
+    "parsed_all_fallback_stable": 2053,
+    "budget_equalities_checked": 11480,
+    "parsed_modeled": 243,
+    "parsed_modeled_stable": 189,
+    "parsed_modeled_unstable": 54,
+    "worlds_checked": 108,
+    "event_assignments_checked": 84780,
+    "unparsed": 52
+  },
+  "stable_at_budgets_fixed_modeled_cohort": {
+    "1": {
+      "stable": 221,
+      "denominator": 243
+    },
+    "3": {
+      "stable": 193,
+      "denominator": 243
+    },
+    "5": {
+      "stable": 189,
+      "denominator": 243
+    },
+    "10": {
+      "stable": 187,
+      "denominator": 243
+    },
+    "20": {
+      "stable": 186,
+      "denominator": 243
+    }
+  },
+  "counterworld_pairs": 54,
+  "pairs_with_different_rendered_sources": 54,
+  "counterworld_exclusion_reasons": {
+    "retired_by_query_start": 33,
+    "start_after_query": 21
+  },
+  "reader_questions": 0,
+  "reader_logical_conditions": 0,
+  "reader_unique_jobs": 0,
+  "config_unchanged": true,
+  "source_partition_words_preserved": true,
+  "source_partition_nonoverlapping": true,
+  "files": {
+    "/workspace/scratch/956c06247f78/ACL2027_pass4/pass5/protocol/audit_confirmation.py": "b0a9cdd6ec2dc581d0d7a6cb5cf4621c1df3de5c13f41dfaf2f52d3e95216fa5",
+    "pass3/protocol/dev_source_passages.jsonl": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4",
+    "pass5/protocol/dev_validation_queries.jsonl": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7",
+    "pass5/pipeline/validation/manifest.json": "f859a9916270910f6032ed809f6812b15fe0d0edd8cb9b321b6f34264443a864",
+    "pass5/pipeline/validation/predictions.jsonl": "4e81f6bd5a24446df49b32a729a7ed5131311f77a1de127041455a61be8b0ca7",
+    "pass5/pipeline/validation/counterworlds.jsonl": "e560ad536cc6b58341f2b6d2768e6385a043cdea2ec4c28715057534f5b8cf56"
+  }
+}

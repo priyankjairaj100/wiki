@@ -1,0 +1,10 @@
+{
+  "main_body_pages": 8,
+  "total_pages": 12,
+  "limitations_page": 9,
+  "overfull_count": 0,
+  "undefined_references": false,
+  "clean_build": "three explicit pdflatex passes and bibtex in a new directory",
+  "pdf_sha256": "fb2672768f5d912ed5bd8b5a314481420e2c3c4b424dbf7237c017fdc04a71f8",
+  "portable_verification": "passed; compiler APIs, independent support/context/prefix oracles, Graphiti checks, TimeQA independent rescoring, and all three empirical tables"
+}

@@ -1,0 +1,14 @@
+{
+  "track": "test",
+  "old_claims": 744,
+  "new_claims": 464,
+  "mapping_counts": {
+    "retained": 425,
+    "fallback": 291,
+    "repaired": 28,
+    "newly_grounded": 11
+  },
+  "paragraph_calendar_end_links": 4,
+  "answer_annotation_reads": 0,
+  "interpretation": "Mapping counts describe output changes. They are not accuracy estimates. Matched keys use paragraph, date span, and subject span."
+}

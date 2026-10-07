@@ -1,0 +1,29 @@
+{
+  "determinism": "No runtime paths, timestamps, or random resampling enter generated files.",
+  "full_cohorts_verified": {
+    "diagnostic_conditions": 110,
+    "diagnostic_questions": 11,
+    "methods_per_question": 10,
+    "primary_conditions": 600,
+    "primary_questions": 60
+  },
+  "generator_sha256": "84152e540776de2c1e57ccc9065a47a161806d2bc68be54f74997217ad0ca187",
+  "input_sha256": {
+    "diagnostic": {
+      "reader_parse_audit.jsonl": "b3200e0a90675a166a5530f72abbcdaa345236bb21f0968f9ada2d6a3d3ce595",
+      "scored_questions.jsonl": "6819f88869e7ab9388c81331d5cbfec53e4bbe1a2148318cd165cce41bd94e5c",
+      "summary.json": "ad0d7fbc6432d126af4346ff48c2cf2f6c5d80cf57adab28063df89b9c1d57fb"
+    },
+    "primary": {
+      "reader_parse_audit.jsonl": "6198243eb79830701840aeab6ea40cd7fd26b297eda305512bfa50ff938afe2e",
+      "scored_questions.jsonl": "5c63bc98722ab45dc08215d83b39d0376b727c426efea54e1350e815afb2c80e",
+      "summary.json": "0cd83d126355fd92bf53458f2aa629e354f302c10da3be2af6d868219c6ef375"
+    }
+  },
+  "output_sha256": {
+    "paper_reader_results.json": "b9f623d702521f396475fe43f1f8c7caef8aafee63d38cf2a31a93da2450f81c",
+    "reader.tex": "9b9985375cd7229de7b558f12983a16934aafdb033ce45f3a019992a3ea9d1fa",
+    "reader_main.tex": "521dc8e351e5c54fc1e8b563ebd532a1543c29d74ba8813d5d938488b5cd889a"
+  },
+  "runtime_dependencies": "Python standard library only."
+}

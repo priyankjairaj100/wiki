@@ -1,0 +1,18 @@
+{
+  "entry": "cao2026re3",
+  "field": "author",
+  "authority": "PDF title-page order",
+  "source_url": "https://aclanthology.org/2026.acl-long.1180.pdf",
+  "retrieved_reference": "turn75view0",
+  "author_order": [
+    "Jiawei Cao",
+    "Jie Ouyang",
+    "Mingyue Cheng",
+    "Zhaomeng Zhou",
+    "Yupeng Li",
+    "Zirui Liu",
+    "Chunli Liu",
+    "Shijin Wang"
+  ],
+  "applied_to": "pass4/paper/refs.bib"
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "parsed_slot": [
+      "chair",
+      "centre party"
+    ],
+    "source_keys": [
+      "Q493685_P488",
+      "Q506591_P488"
+    ],
+    "queries": [
+      "_X_ is the chair of Centre Party.",
+      "_X_ is the chair of Centre Party."
+    ]
+  },
+  {
+    "parsed_slot": [
+      "chair",
+      "people's party"
+    ],
+    "source_keys": [
+      "Q185088_P488",
+      "Q22262466_P488"
+    ],
+    "queries": [
+      "_X_ is the chair of People's Party.",
+      "_X_ is the chair of People's Party."
+    ]
+  },
+  {
+    "parsed_slot": [
+      "chair",
+      "democratic party"
+    ],
+    "source_keys": [
+      "Q1029792_P488",
+      "Q1186234_P488",
+      "Q23055252_P488"
+    ],
+    "queries": [
+      "_X_ is the chair of Democratic Party.",
+      "_X_ is the chair of Democratic Party.",
+      "_X_ is the chair of Democratic Party."
+    ]
+  },
+  {
+    "parsed_slot": [
+      "chair",
+      "christian democrats"
+    ],
+    "source_keys": [
+      "Q1138982_P488",
+      "Q1789199_P488"
+    ],
+    "queries": [
+      "_X_ is the chair of Christian Democrats.",
+      "_X_ is the chair of Christian Democrats."
+    ]
+  },
+  {
+    "parsed_slot": [
+      "government",
+      "são paulo"
+    ],
+    "source_keys": [
+      "Q174_P6",
+      "Q175_P6"
+    ],
+    "queries": [
+      "_X_ is the head of the government of São Paulo.",
+      "_X_ is the head of the government of São Paulo."
+    ]
+  },
+  {
+    "parsed_slot": [
+      "coach",
+      "fc cincinnati"
+    ],
+    "source_keys": [
+      "Q20855983_P286",
+      "Q59313306_P286"
+    ],
+    "queries": [
+      "_X_ is the head coach of FC Cincinnati.",
+      "_X_ is the head coach of FC Cincinnati."
+    ]
+  }
+]

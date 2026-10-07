@@ -1,0 +1,22 @@
+{
+  "status": "Final, no post-audit tuning",
+  "created_utc": "2026-10-07T05:49:40.794495+00:00",
+  "files": {
+    "PROTOCOL.md": "4cdc9569262b037c9686b87ee2ac26bdc0735250e4fbabfd0abde4e35d4b2ec5",
+    "select_sample.py": "b9f781727492d10438d01ecacb1f04282ad2adde1d9e57583743cb40f510cdc5",
+    "check_literal.py": "99de4ee7568a986c126a5612ed7c2c6287c91dbd09b122341d490de3a398778e",
+    "finalize_review.py": "5f7de3b192e1d17cf1322801ff88809faa4c8bb920a8d7de39a3fcf9805b9971",
+    "freeze.json": "619b3d083ca7032ad083355e863a86c7962b2c4e64080cd9ace6fcdde53e9c7f",
+    "sample.jsonl": "58f7a4c15b9330a4dbc1f6bda97704e8c124dbf06d3897f754fc14a0f19c7c96",
+    "sample_membership.json": "d8024bd6640ba7371cff07b698c33f38ebb8ee8198d1967baf5e425d33d35161",
+    "exposure_registry.json": "e251f03ceef73fb0729fe2995490f582a5213b30b3d10445c568edf6e7eb2b34",
+    "literal_checks.json": "72510c267815eff2c40ca106f801826b7e0c8c43ac8422982f6df056cadc97b0",
+    "source_export_match.json": "7b8c6789a3ad5a644caef579e3af3791892ce8dfe78013379e94f69ae5f113d9",
+    "judgments.jsonl": "0250341cc145ee3a82200f3c1b8b80fe9d7dabea0e95f8814f4caf64cd79e38c",
+    "summary.json": "0457e364b3d5ffda55e385a6d1a3c5d864249c2d138475576fe7ea9db1da7519",
+    "README.md": "28de4c36b30542c47fa481dd941bfedbde19d022200daba7f210ee64abd287b1",
+    "show_sample.py": "ffaee9cccfcb3ff808ec2755e519fa922d282daed2c3d203cde91bd752641076",
+    "review_a.jsonl": "3524617965a449638b33e26f99f62e9354f202cee4e06537f3f6b20512fa3cdd",
+    "review_b.jsonl": "23315e0c63147161ba61640bf11dcf05673b2934156481575cf08da7c41cd570"
+  }
+}

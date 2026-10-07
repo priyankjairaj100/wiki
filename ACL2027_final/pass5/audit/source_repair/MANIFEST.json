@@ -1,0 +1,8 @@
+{
+  "files": {
+    "pass5/audit/source_repair/PROTOCOL.md": "134ca0d2fe67a615820e32e79748c82559704c42fca1551737c462d2ff94a92c",
+    "pass5/audit/source_repair/RESULTS.md": "42be96e1ffd92991d4f4a7368cf2f46d42a45c3f46718d9a77bf00b542ea3a7c",
+    "pass5/audit/source_repair/calibration_exposure.json": "b5c092d739fc99d861370d8f69aa5f3ab1ecb2f09e91e597d35bc29c14f592a8",
+    "pass5/audit/source_repair/known_case_checks.json": "8d74cae03c82fb08401b1c37042992fb97992520c33857a34484031b66086770"
+  }
+}

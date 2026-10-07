@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-06T09:52:35.066490+00:00",
+  "model": {
+    "repository": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+    "revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+    "filename": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "quantization": "Q4_K_M",
+    "bytes": 1117320736,
+    "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+    "license": "Apache-2.0",
+    "publisher": "Qwen"
+  },
+  "runtime": {
+    "repository": "ggml-org/llama.cpp",
+    "release": "b11435",
+    "commit": "43fe9c64281ef735046adc025e9e7559a1f659a5",
+    "archive": "llama-b11435-bin-ubuntu-x64.tar.gz",
+    "bytes": 17692966,
+    "sha256": "ee617d7af304985e268fbc33bdd8fe44110f1dc2f599ecb27bdf08890e6e6e4c",
+    "license": "MIT",
+    "build": "GNU 11.4.0 for Linux x86_64"
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "smoke_only": true
+}

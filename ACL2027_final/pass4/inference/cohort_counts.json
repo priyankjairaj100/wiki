@@ -1,0 +1,29 @@
+{
+  "primary": {
+    "questions": 60,
+    "articles": 55,
+    "logical_conditions": 600,
+    "distinct_jobs": 193,
+    "membership_path": "pass4/pipeline/human/reader_memberships.jsonl",
+    "membership_sha256": "65c724f234bb090e2d9790da9b0b7cfe58f71a2388163d382e3784f6f496b7b9"
+  },
+  "diagnostic": {
+    "questions": 11,
+    "articles": 9,
+    "logical_conditions": 110,
+    "distinct_jobs": 45,
+    "membership_path": "pass4/pipeline/human_diagnostic/reader_memberships.jsonl",
+    "membership_sha256": "96a27bdafb513f88d46113ed98bb26d7db6d6cfcfa1b7b7e72136f58e5bdc403"
+  },
+  "overlap": {
+    "questions": 0,
+    "articles": 4
+  },
+  "combined": {
+    "questions": 71,
+    "articles": 60,
+    "logical_conditions": 710,
+    "planned_generations": 238,
+    "completed_generations": 238
+  }
+}

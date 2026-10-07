@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "python_syntax": "valid",
+  "incomplete_or_nonreader_score_rejection": "passed",
+  "output_written_on_rejection": false,
+  "reason": "Both full saved scoring cohorts passed the generator consistency checks.",
+  "builder_sha256": "84152e540776de2c1e57ccc9065a47a161806d2bc68be54f74997217ad0ca187",
+  "check_stage": "Completed frozen primary and diagnostic cohorts",
+  "benchmark_reader_results_generated_at_this_check": true,
+  "full_cohort_verification": {
+    "diagnostic_conditions": 110,
+    "diagnostic_questions": 11,
+    "methods_per_question": 10,
+    "primary_conditions": 600,
+    "primary_questions": 60
+  },
+  "table_font": "footnotesize",
+  "paper_table_matches_generator": true,
+  "table_fonts": {
+    "reader.tex": "footnotesize",
+    "reader_main.tex": "small"
+  },
+  "generated_artifacts": [
+    "reader.tex",
+    "reader_main.tex",
+    "paper_reader_results.json",
+    "reader_build_manifest.json"
+  ],
+  "paper_tables_match_generator": true,
+  "appendix_headers": "Primary and Diagnostic; cohort counts remain in the caption"
+}

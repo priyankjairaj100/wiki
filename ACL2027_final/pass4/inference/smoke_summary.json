@@ -1,0 +1,82 @@
+{
+  "purpose": "generic runtime smoke; constructed examples; not a benchmark or extraction evaluation",
+  "rows": 3,
+  "results": [
+    {
+      "id": "short_json",
+      "wall_seconds": 2.437065761998383,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 17,
+        "prompt_tokens": 45,
+        "total_tokens": 62,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 45,
+        "prompt_ms": 752.318,
+        "prompt_per_token_ms": 16.71817777777778,
+        "prompt_per_second": 59.81513136732074,
+        "predicted_n": 17,
+        "predicted_ms": 1675.348,
+        "predicted_per_token_ms": 104.70925,
+        "predicted_per_second": 9.55025463366417
+      },
+      "generation": "```json\n{\n  \"colors\": [\"red\", \"blue\"]\n}\n```"
+    },
+    {
+      "id": "short_source",
+      "wall_seconds": 65.9115158229979,
+      "finish_reason": "length",
+      "usage": {
+        "completion_tokens": 64,
+        "prompt_tokens": 173,
+        "total_tokens": 237,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 173,
+        "prompt_ms": 2964.932,
+        "prompt_per_token_ms": 17.138335260115607,
+        "prompt_per_second": 58.34872435522974,
+        "predicted_n": 64,
+        "predicted_ms": 62923.188,
+        "predicted_per_token_ms": 998.7807619047619,
+        "predicted_per_second": 1.0012207264514315
+      },
+      "generation": "Based on the provided source excerpts, there is no information about a director for the fictional Alder Museum during 2005. The excerpts only mention Nora Vale's role as the director of Alder Museum from 2001 to 2009. Therefore, the answer is:\n\n```json\n"
+    },
+    {
+      "id": "long_source",
+      "wall_seconds": 20.766409148000093,
+      "finish_reason": "stop",
+      "usage": {
+        "completion_tokens": 24,
+        "prompt_tokens": 1028,
+        "total_tokens": 1052,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 1028,
+        "prompt_ms": 17463.128,
+        "prompt_per_token_ms": 16.98747859922179,
+        "prompt_per_second": 58.866887993949305,
+        "predicted_n": 24,
+        "predicted_ms": 3256.802,
+        "predicted_per_token_ms": 141.60008695652175,
+        "predicted_per_second": 7.062142555795531
+      },
+      "generation": "```json\n{\n  \"answers\": [\"Nora Vale\"],\n  \"evidence\": [3]\n}\n```"
+    }
+  ],
+  "contention": "An unrelated 8-worker CPU job overlapped the short_source request. This is not isolated throughput."
+}

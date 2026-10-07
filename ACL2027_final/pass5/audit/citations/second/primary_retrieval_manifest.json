@@ -1,0 +1,131 @@
+[
+  {
+    "file": "bm25_volume.pdf",
+    "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication500-225.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "graphiti.py",
+    "url": "https://raw.githubusercontent.com/getzep/graphiti/7514b4467d1f20f87bcf463fdb35e9f61086d263/graphiti_core/utils/maintenance/edge_operations.py",
+    "bytes": 36703,
+    "sha256": "b773ff4489968af2a996d5074e679cab9806cc0904a7ff9f2aecc74382325abe",
+    "status": "downloaded"
+  },
+  {
+    "file": "fresco.html",
+    "url": "https://arxiv.org/html/2604.14227v1",
+    "bytes": 612315,
+    "sha256": "518ccdd5b25da3ad61725cf7e068f75fa1ab05cd36410575ba58018985ca5ae6",
+    "status": "downloaded"
+  },
+  {
+    "file": "nugget.html",
+    "url": "https://arxiv.org/html/2604.27306v1",
+    "bytes": 404470,
+    "sha256": "3af51a290a73c12fda0832b66a0695796ffef9de0d664736c8c5f6c67d8eff0a",
+    "status": "downloaded"
+  },
+  {
+    "file": "memstrata.html",
+    "url": "https://arxiv.org/html/2606.26511v1",
+    "bytes": 587756,
+    "sha256": "91207bc3448a95150885d9e555b726e122c045b01738fd72a255d272f0992253",
+    "status": "downloaded"
+  },
+  {
+    "file": "zep.html",
+    "url": "https://arxiv.org/html/2501.13956v1",
+    "bytes": 137854,
+    "sha256": "8a16259db129b4109331df4aa17c404115eceb1d7f2df40d06bc34def7c27049",
+    "status": "downloaded"
+  },
+  {
+    "file": "re3.pdf",
+    "url": "https://aclanthology.org/2026.acl-long.1180.pdf",
+    "bytes": 951289,
+    "sha256": "9b73f6c901f7ac5d00ffb3976e0e6d20d139612270823fc8cb92a0cb4dbbd642",
+    "status": "downloaded"
+  },
+  {
+    "file": "time.pdf",
+    "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol090-time2017/LIPIcs.TIME.2017.4/LIPIcs.TIME.2017.4.pdf",
+    "bytes": 655351,
+    "sha256": "f8bb41eab76ec3fbcd3c55584d7783234e146ded4b1339def61668e6ff144103",
+    "status": "downloaded"
+  },
+  {
+    "file": "defuzz.pdf",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/download/40276/44237",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "file": "erase.pdf",
+    "url": "https://aclanthology.org/2025.findings-naacl.168.pdf",
+    "bytes": 3816985,
+    "sha256": "95adc1d356b1de20ab12ae7b8f527fdf4b75a7a8c0c49d4c85d7cf3894766d86",
+    "status": "downloaded"
+  },
+  {
+    "file": "karp.pdf",
+    "url": "https://www.cs.berkeley.edu/~luca/cs172/karp.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "rag.bib",
+    "url": "https://proceedings.neurips.cc/paper/2020/file/6b493230205f780e1bc26945df7481e5-Bibtex.bib",
+    "bytes": 723,
+    "sha256": "557de0dcbb54024c4f944202a27c3857d2414a5bb09420b5df65f7519a738848"
+  },
+  {
+    "file": "anselma.pdf",
+    "url": "https://iris.unito.it/retrieve/e27ce429-2182-2581-e053-d805fe0acbaa/final_4aperto.pdf",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "hua.pdf",
+    "url": "https://www.cse.unsw.edu.au/~lxue/sigmod08.pdf",
+    "bytes": 317743,
+    "sha256": "c03ae019c9be0e3fe5b5cd7583c474a96adfcc1e00ed3a384c1cd7511ffef7ab"
+  },
+  {
+    "file": "fan.pdf",
+    "url": "https://adrem.uantwerpen.be/bibrem/pubs/FG12.pdf",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "file": "defuzz.pdf",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/40276/44237",
+    "bytes": 260457,
+    "sha256": "e3a14097d6f2e184494424d3effccc83fae5b2f30be288dc62a396f3a821bdeb"
+  },
+  {
+    "file": "karp.pdf",
+    "url": "https://cgi.di.uoa.gr/~sgk/teaching/grad/handouts/karp.pdf",
+    "bytes": 10879201,
+    "sha256": "778c8b3507620a68154bc74b29810e0de6d2c4dd7ee5d24b84c7e7ba61404b81"
+  },
+  {
+    "file": "nugget.pdf",
+    "url": "https://arxiv.org/pdf/2604.27306",
+    "bytes": 2044829,
+    "sha256": "70c6a15eab018d97e3bd91df426a431a0c00f799823882b7c233814d18a7c4ee"
+  },
+  {
+    "file": "karp_frontmatter.pdf",
+    "url": "https://link.springer.com/content/pdf/bfm:978-1-4684-2001-2/1",
+    "bytes": 360078,
+    "sha256": "3108d2c0ee46dfc4f0f11054799fc369b49ca9983d3c8385b710666340477e12"
+  },
+  {
+    "file": "fan_crossref.json",
+    "url": "https://api.crossref.org/works/10.1145/2389241.2389244",
+    "bytes": 11861,
+    "sha256": "3c8e151bc996dbdcb0955700e5ce79112de97592f053ff92497e0b0e80a35fb1"
+  },
+  {
+    "file": "nugget_citation.cff",
+    "url": "https://raw.githubusercontent.com/searchsim-org/sigir26-nuggetindex/main/CITATION.cff",
+    "bytes": 1769,
+    "sha256": "004fbd0dbc6ad06cd44265fb8e2bd06d7ff834ae5ce9bfa11bd01fab5a050552"
+  }
+]

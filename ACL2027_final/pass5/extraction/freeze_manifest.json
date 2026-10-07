@@ -1,0 +1,28 @@
+{
+  "id": "pass5-source-clause-v3-recovery-freeze",
+  "created_utc": "2026-10-07T05:44:07.773963+00:00",
+  "status": "Frozen before full extraction, fresh audit, retrieval results, or new reader outcomes.",
+  "recovery_note": "The previous pass5 workspace was lost. This adapter was reconstructed from the saved pass4 repair plan. No old pass5 numerical outcomes are treated as regenerated evidence.",
+  "files": {
+    "pass5/extraction/source_adapter.py": "217a493c0ec3f2f831c4e3ae9824a50a3289a8ff4f0fcc7adff40c8a9ce767f5",
+    "pass5/extraction/test_source_adapter.py": "f82faba844d0eca80c9e04fe001a31f52c00cf7b43d374c9011a97a156422511",
+    "pass5/extraction/verify_partitions.py": "9e893000f62098ec6f239dc501e01c17919d739733cc54511eefe68d3974e0f5",
+    "pass3/extraction/source_adapter.py": "2424a76fdcfe08330fddc45853969406f1784bb2f1aad00d90499d79d2a8d185",
+    "pass3/extraction/succession_rules.py": "7f43b04487ef223b5114c79df203ed8962ef2963f14b7efcc8051e523c6e8795",
+    "pass5/extraction/calibration_sources.jsonl": "fae307dfce1de3572e2b14495f21ea8a78c868f7190d21df345642da1a6bd0b3",
+    "pass5/audit/source_repair/calibration_exposure.json": "b5c092d739fc99d861370d8f69aa5f3ab1ecb2f09e91e597d35bc29c14f592a8",
+    "pass5/audit/source_repair/known_case_checks.json": "8d74cae03c82fb08401b1c37042992fb97992520c33857a34484031b66086770"
+  },
+  "calibration_source_articles": 136,
+  "source_tests": 27,
+  "known_calendar_end_checks": 5,
+  "known_bounded_fallback_checks": 6,
+  "feature_inputs": [
+    "source text",
+    "source article title",
+    "paragraph order",
+    "opaque passage identifier"
+  ],
+  "answer_annotation_reads": 0,
+  "policy": "No cross-paragraph pronoun resolution, no inferred role-based replacement edges, no relative end arithmetic."
+}

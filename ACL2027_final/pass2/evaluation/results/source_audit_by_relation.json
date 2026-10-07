@@ -1,0 +1,65 @@
+{
+  "P54": {
+    "transitions": 4057,
+    "first_changed": 1055,
+    "first_changed_previous_retained": 343,
+    "set_changed": 1894,
+    "set_changed_value_retained": 1693
+  },
+  "P39": {
+    "transitions": 3372,
+    "first_changed": 504,
+    "first_changed_previous_retained": 190,
+    "set_changed": 884,
+    "set_changed_value_retained": 736
+  },
+  "P69": {
+    "transitions": 817,
+    "first_changed": 129,
+    "first_changed_previous_retained": 44,
+    "set_changed": 246,
+    "set_changed_value_retained": 237
+  },
+  "P488": {
+    "transitions": 1824,
+    "first_changed": 301,
+    "first_changed_previous_retained": 114,
+    "set_changed": 535,
+    "set_changed_value_retained": 474
+  },
+  "P102": {
+    "transitions": 3587,
+    "first_changed": 419,
+    "first_changed_previous_retained": 169,
+    "set_changed": 776,
+    "set_changed_value_retained": 699
+  },
+  "P108": {
+    "transitions": 4120,
+    "first_changed": 509,
+    "first_changed_previous_retained": 214,
+    "set_changed": 923,
+    "set_changed_value_retained": 822
+  },
+  "P6": {
+    "transitions": 1683,
+    "first_changed": 259,
+    "first_changed_previous_retained": 113,
+    "set_changed": 473,
+    "set_changed_value_retained": 436
+  },
+  "P286": {
+    "transitions": 2166,
+    "first_changed": 691,
+    "first_changed_previous_retained": 224,
+    "set_changed": 1014,
+    "set_changed_value_retained": 754
+  },
+  "P127": {
+    "transitions": 1133,
+    "first_changed": 113,
+    "first_changed_previous_retained": 45,
+    "set_changed": 216,
+    "set_changed_value_retained": 199
+  }
+}

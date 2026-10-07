@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Method & Template & Human\\
+\midrule
+Original BM25 & 37.84 & 43.90\\
+Original BM25 + latest year & 52.98 & 52.39\\
+Title-aware ranking & 66.30 & 57.39\\
+\quad + earliest completion & \textbf{66.84} & 57.87\\
+\quad + midpoint completion & 66.56 & 57.75\\
+\quad + latest completion & 66.48 & 57.75\\
+\quad + interval control & 66.73 & 57.75\\
+\quad + possible support & 66.73 & 57.75\\
+\quad + guaranteed support & 66.62 & 57.87\\
+Title-aware + latest year & 65.33 & \textbf{63.59}\\
+\bottomrule
+\end{tabular}
+\caption{Mean question-level annotated span recall (\%) within five excerpts and 768 source-text words. Temporal controls share the title-aware ranking. Latest-year controls change only ranking.}
+\label{tab:matched}
+\end{table}

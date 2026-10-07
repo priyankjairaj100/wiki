@@ -1,0 +1,109 @@
+pass2/theory/test_uncertain_time.py
+test_guaranteed_window_without_certain_point (__main__.CompilerTests.test_guaranteed_window_without_certain_point) ... ok
+test_pair_and_claim_order (__main__.CompilerTests.test_pair_and_claim_order) ... ok
+test_scan_and_pairs (__main__.CompilerTests.test_scan_and_pairs) ... ok
+test_self_pairs_are_ignored (__main__.CompilerTests.test_self_pairs_are_ignored) ... ok
+test_singleton_certain_point (__main__.CompilerTests.test_singleton_certain_point) ... ok
+test_ties (__main__.CompilerTests.test_ties) ... ok
+test_two_witnesses_necessary (__main__.CompilerTests.test_two_witnesses_necessary) ... ok
+test_unknown_and_duplicate_ids (__main__.CompilerTests.test_unknown_and_duplicate_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+OK
+
+pass2/theory/test_context_stability.py
+test_against_worlds (__main__.ContextTests.test_against_worlds) ... ok
+test_range_quantifiers (__main__.ContextTests.test_range_quantifiers) ... ok
+test_uncertainty_below_budget (__main__.ContextTests.test_uncertainty_below_budget) ... ok
+test_validation (__main__.ContextTests.test_validation) ... ok
+test_zero_budget_and_empty_index (__main__.ContextTests.test_zero_budget_and_empty_index) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.216s
+
+OK
+
+pass2/independent/exhaustive_uncertain_time.py
+{
+  "interval_configurations": 3615,
+  "worlds": 44135,
+  "point_comparisons": 50610,
+  "range_comparisons": 202440,
+  "implementation_comparisons": 253050,
+  "quantifier_counterexample": {
+    "claim": [
+      0,
+      10
+    ],
+    "witness": [
+      5,
+      5
+    ],
+    "query": [
+      0,
+      10
+    ],
+    "all_worlds_have_some_support": true,
+    "some_point_is_active_in_all_worlds": false
+  },
+  "continuous_boundary_assertions": 11,
+  "status": "passed"
+}
+
+pass2/independent/check_future_prefix.py
+{
+  "status": "passed",
+  "trials": 500,
+  "comparisons": 7000,
+  "strict_boundary_counterexample": "a new event at b can change support",
+  "scope": "existing date bounds and directed gates remain fixed"
+}
+
+pass2/independent/check_context_invariance.py
+{
+  "status": "passed",
+  "families_checked": 65809,
+  "conditions_checked": 328747,
+  "universe_sizes": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "maximum_world_masks_per_family": 16,
+  "all_k_from_zero_to_n": true,
+  "world_families": "arbitrary, including correlated and nonproduct families",
+  "ranking": "fixed complete strict order"
+}
+
+pass2/baselines/verify_policies.py
+{"passed": true, "exhaustive_ingestion_orders": 442, "future_prefix_checks": 22, "complete_snapshot_ties_preserved": true, "positive_only_ambiguity_demonstrated": true, "constructed_checks_are_benchmarks": false}
+
+pass2/evaluation/independent_timeqa_score.py
+{
+  "official_templates": {
+    "queries": 2613,
+    "methods": 5,
+    "per_query_metric_comparisons": 52260,
+    "all_scores_match": true,
+    "all_answer_substrings_match": true,
+    "all_prediction_ids_present": true,
+    "prediction_sha256": "f5b6bb83b4721ad1468826c2962220911688ae404a4c4d73c7b8cc2dabceb512"
+  },
+  "human_questions": {
+    "queries": 830,
+    "methods": 5,
+    "per_query_metric_comparisons": 16600,
+    "all_scores_match": true,
+    "all_answer_substrings_match": true,
+    "all_prediction_ids_present": true,
+    "prediction_sha256": "35db7bee9706774fcd0dc07849e6eea271877c785536133ea86a6047c9abf7c3"
+  }
+}
+
+pass2/audit/build_tables.py
+Rebuilt 3 empirical tables from saved result cards.
+

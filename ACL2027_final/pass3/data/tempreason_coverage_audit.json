@@ -1,0 +1,19 @@
+{
+  "records": 5397,
+  "unique_subject_qids": 999,
+  "unique_contexts": 999,
+  "normalized_answer_occurs_in_context": 1608,
+  "relations": {
+    "P108": 893,
+    "P54": 1336,
+    "P286": 377,
+    "P39": 1142,
+    "P69": 245,
+    "P488": 521,
+    "P102": 154,
+    "P127": 51,
+    "P6": 616,
+    "P35": 62
+  },
+  "interpretation": "Answer containment is a surface diagnostic. It does not establish relation or time entailment."
+}

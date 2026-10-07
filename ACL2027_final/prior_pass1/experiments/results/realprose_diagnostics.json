@@ -1,0 +1,610 @@
+{
+  "tie_batches": [],
+  "recurring_keys": [
+    {
+      "key": [
+        "united states",
+        "president"
+      ],
+      "values": [
+        "bill clinton",
+        "george w. bush",
+        "barack obama",
+        "donald trump",
+        "joe biden",
+        "donald trump"
+      ]
+    },
+    {
+      "key": [
+        "brazil",
+        "president"
+      ],
+      "values": [
+        "lula da silva",
+        "dilma rousseff",
+        "michel temer",
+        "jair bolsonaro",
+        "lula da silva"
+      ]
+    }
+  ],
+  "cross_key_pairs": [
+    {
+      "older": "rp:0",
+      "newer": "rp:3",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Steven Paul Jobs was an American businessman, inventor, and investor. Jobs returned to Apple in 1997 as CEO, where he was closely involved with the creation and promotion of many of the company's most influential products until his resignation in 2011."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:5",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Jeffrey Preston Bezos is an American businessman, and the founder, executive chairman, and former president and CEO of Amazon, the world's largest e-commerce and cloud computing company."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:7",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Lawrence Edward Page is an American businessman and computer scientist who co-founded Google with Sergey Brin. Page was chief executive officer of Google from 1997 until August 2001 when he was succeeded by Eric Schmidt, and then again from April 2011 until July 2015 when he became CEO of its newly formed parent organization Alphabet Inc."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:9",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Michael Dammann Eisner is an American businessman and media proprietor who served as chairman and chief executive officer of the Walt Disney Company from September 1984 to September 2005."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:11",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Robert Alan Chapek is an American businessman and former media executive who was the chief executive officer of the Walt Disney Company from 2020 to 2022."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:18",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Howard D. Schultz is an American businessman and author who was the chairman and chief executive officer of Starbucks from 1986 to 2000, from 2008 to 2017, and interim CEO from 2022 to 2023."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:19",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Kevin R. Johnson is an American businessman and software engineer who was the president and chief executive officer of Starbucks Coffee Company from 2017 to 2022."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:23",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "George Richard Wagoner Jr. is an American businessman and former chair and chief executive officer of General Motors."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:25",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Travis Cordell Kalanick is an American businessman best known as the co-founder and former chief executive officer of Uber."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:65",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "George Walker Bush is an American former politician, businessman, and former United States Air Force officer who was the 43rd president of the United States, serving from 2001 to 2009."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:67",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Donald John Trump is an American politician, media personality, and businessman who is the 47th president of the United States."
+    },
+    {
+      "older": "rp:0",
+      "newer": "rp:69",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Donald John Trump is an American politician, media personality, and businessman who is the 47th president of the United States."
+    },
+    {
+      "older": "rp:26",
+      "newer": "rp:61",
+      "older_text": "Sir Anthony Charles Lynton Blair is a British politician who served as Prime Minister of the United Kingdom from 1997 to 2007 and Leader of the Labour Party from 1994 to 2007.",
+      "newer_text": "Dame Jacinda Kate Laurell Ardern is a former New Zealand politician and activist who was the 40th prime minister of New Zealand and leader of the Labour Party from 2017 to 2023."
+    },
+    {
+      "older": "rp:27",
+      "newer": "rp:61",
+      "older_text": "James Gordon Brown is a British politician who served as Prime Minister of the United Kingdom and Leader of the Labour Party from 2007 to 2010.",
+      "newer_text": "Dame Jacinda Kate Laurell Ardern is a former New Zealand politician and activist who was the 40th prime minister of New Zealand and leader of the Labour Party from 2017 to 2023."
+    },
+    {
+      "older": "rp:61",
+      "newer": "rp:33",
+      "older_text": "Dame Jacinda Kate Laurell Ardern is a former New Zealand politician and activist who was the 40th prime minister of New Zealand and leader of the Labour Party from 2017 to 2023.",
+      "newer_text": "Sir Keir Rodney Starmer is a British politician and lawyer who has served as Prime Minister of the United Kingdom since 2024, and as Leader of the Labour Party since 2020."
+    },
+    {
+      "older": "rp:66",
+      "newer": "rp:109",
+      "older_text": "Barack Hussein Obama II is an American politician who served as the 44th president of the United States from 2009 to 2017.",
+      "newer_text": "Janet Louise Yellen is an American economist who served as the 78th United States secretary of the treasury from 2021 to 2025 and as chair of the Federal Reserve from 2014 to 2018."
+    },
+    {
+      "older": "rp:84",
+      "newer": "rp:94",
+      "older_text": "Sir Alexander Chapman Ferguson , also known by the nickname Fergie, is a Scottish former professional football manager and player, best known for managing Manchester United from 1986 to 2013.",
+      "newer_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player."
+    },
+    {
+      "older": "rp:84",
+      "newer": "rp:95",
+      "older_text": "Sir Alexander Chapman Ferguson , also known by the nickname Fergie, is a Scottish former professional football manager and player, best known for managing Manchester United from 1986 to 2013.",
+      "newer_text": "Roy Hodgson is an English former football manager and player."
+    },
+    {
+      "older": "rp:84",
+      "newer": "rp:96",
+      "older_text": "Sir Alexander Chapman Ferguson , also known by the nickname Fergie, is a Scottish former professional football manager and player, best known for managing Manchester United from 1986 to 2013.",
+      "newer_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager."
+    },
+    {
+      "older": "rp:84",
+      "newer": "rp:100",
+      "older_text": "Sir Alexander Chapman Ferguson , also known by the nickname Fergie, is a Scottish former professional football manager and player, best known for managing Manchester United from 1986 to 2013.",
+      "newer_text": "Roberto Mancini is an Italian football manager and former player."
+    },
+    {
+      "older": "rp:85",
+      "newer": "rp:92",
+      "older_text": "David William Moyes is a Scottish professional football manager and former player, who is the manager of Premier League club Everton.",
+      "newer_text": "Unai Emery Etxegoien is a Spanish football manager and former player who is the manager of Premier League club Aston Villa."
+    },
+    {
+      "older": "rp:85",
+      "newer": "rp:93",
+      "older_text": "David William Moyes is a Scottish professional football manager and former player, who is the manager of Premier League club Everton.",
+      "newer_text": "Mikel Arteta Amatriain is a Spanish professional football manager and former player who is the manager of Premier League club Arsenal."
+    },
+    {
+      "older": "rp:85",
+      "newer": "rp:99",
+      "older_text": "David William Moyes is a Scottish professional football manager and former player, who is the manager of Premier League club Everton.",
+      "newer_text": "Arend Martijn \"Arne\" Slot is a Dutch professional football manager and former player who was most recently the head coach of Premier League club Liverpool."
+    },
+    {
+      "older": "rp:86",
+      "newer": "rp:92",
+      "older_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager.",
+      "newer_text": "Unai Emery Etxegoien is a Spanish football manager and former player who is the manager of Premier League club Aston Villa."
+    },
+    {
+      "older": "rp:86",
+      "newer": "rp:93",
+      "older_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager.",
+      "newer_text": "Mikel Arteta Amatriain is a Spanish professional football manager and former player who is the manager of Premier League club Arsenal."
+    },
+    {
+      "older": "rp:86",
+      "newer": "rp:98",
+      "older_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager.",
+      "newer_text": "Jürgen Norbert Klopp is a German football executive, former manager and player who is the Head of Global Soccer for Red Bull GmbH."
+    },
+    {
+      "older": "rp:86",
+      "newer": "rp:99",
+      "older_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager.",
+      "newer_text": "Arend Martijn \"Arne\" Slot is a Dutch professional football manager and former player who was most recently the head coach of Premier League club Liverpool."
+    },
+    {
+      "older": "rp:86",
+      "newer": "rp:102",
+      "older_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager.",
+      "newer_text": "Josep \"Pep\" Guardiola Sala is a Spanish football manager and former player from Catalonia."
+    },
+    {
+      "older": "rp:87",
+      "newer": "rp:92",
+      "older_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player.",
+      "newer_text": "Unai Emery Etxegoien is a Spanish football manager and former player who is the manager of Premier League club Aston Villa."
+    },
+    {
+      "older": "rp:87",
+      "newer": "rp:93",
+      "older_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player.",
+      "newer_text": "Mikel Arteta Amatriain is a Spanish professional football manager and former player who is the manager of Premier League club Arsenal."
+    },
+    {
+      "older": "rp:87",
+      "newer": "rp:99",
+      "older_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player.",
+      "newer_text": "Arend Martijn \"Arne\" Slot is a Dutch professional football manager and former player who was most recently the head coach of Premier League club Liverpool."
+    },
+    {
+      "older": "rp:89",
+      "newer": "rp:99",
+      "older_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player.",
+      "newer_text": "Arend Martijn \"Arne\" Slot is a Dutch professional football manager and former player who was most recently the head coach of Premier League club Liverpool."
+    },
+    {
+      "older": "rp:91",
+      "newer": "rp:86",
+      "older_text": "Arsène Charles Ernest Wenger is a French former football manager and player who has been serving as FIFA's Chief of Global Football Development since 2019.",
+      "newer_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager."
+    },
+    {
+      "older": "rp:91",
+      "newer": "rp:87",
+      "older_text": "Arsène Charles Ernest Wenger is a French former football manager and player who has been serving as FIFA's Chief of Global Football Development since 2019.",
+      "newer_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player."
+    },
+    {
+      "older": "rp:91",
+      "newer": "rp:89",
+      "older_text": "Arsène Charles Ernest Wenger is a French former football manager and player who has been serving as FIFA's Chief of Global Football Development since 2019.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    },
+    {
+      "older": "rp:91",
+      "newer": "rp:94",
+      "older_text": "Arsène Charles Ernest Wenger is a French former football manager and player who has been serving as FIFA's Chief of Global Football Development since 2019.",
+      "newer_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player."
+    },
+    {
+      "older": "rp:91",
+      "newer": "rp:95",
+      "older_text": "Arsène Charles Ernest Wenger is a French former football manager and player who has been serving as FIFA's Chief of Global Football Development since 2019.",
+      "newer_text": "Roy Hodgson is an English former football manager and player."
+    },
+    {
+      "older": "rp:91",
+      "newer": "rp:96",
+      "older_text": "Arsène Charles Ernest Wenger is a French former football manager and player who has been serving as FIFA's Chief of Global Football Development since 2019.",
+      "newer_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager."
+    },
+    {
+      "older": "rp:91",
+      "newer": "rp:100",
+      "older_text": "Arsène Charles Ernest Wenger is a French former football manager and player who has been serving as FIFA's Chief of Global Football Development since 2019.",
+      "newer_text": "Roberto Mancini is an Italian football manager and former player."
+    },
+    {
+      "older": "rp:92",
+      "newer": "rp:89",
+      "older_text": "Unai Emery Etxegoien is a Spanish football manager and former player who is the manager of Premier League club Aston Villa.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    },
+    {
+      "older": "rp:92",
+      "newer": "rp:99",
+      "older_text": "Unai Emery Etxegoien is a Spanish football manager and former player who is the manager of Premier League club Aston Villa.",
+      "newer_text": "Arend Martijn \"Arne\" Slot is a Dutch professional football manager and former player who was most recently the head coach of Premier League club Liverpool."
+    },
+    {
+      "older": "rp:93",
+      "newer": "rp:89",
+      "older_text": "Mikel Arteta Amatriain is a Spanish professional football manager and former player who is the manager of Premier League club Arsenal.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    },
+    {
+      "older": "rp:93",
+      "newer": "rp:99",
+      "older_text": "Mikel Arteta Amatriain is a Spanish professional football manager and former player who is the manager of Premier League club Arsenal.",
+      "newer_text": "Arend Martijn \"Arne\" Slot is a Dutch professional football manager and former player who was most recently the head coach of Premier League club Liverpool."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:85",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "David William Moyes is a Scottish professional football manager and former player, who is the manager of Premier League club Everton."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:86",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:87",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:88",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "Ole Gunnar Solskjær is a Norwegian professional football manager and former player, who was most recently manager of Beşiktaş."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:89",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:90",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "Ruben Filipe Marques Amorim is a Portuguese professional football manager and former player who is currently the head coach of Serie A club AC Milan."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:92",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "Unai Emery Etxegoien is a Spanish football manager and former player who is the manager of Premier League club Aston Villa."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:93",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "Mikel Arteta Amatriain is a Spanish professional football manager and former player who is the manager of Premier League club Arsenal."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:100",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "Roberto Mancini is an Italian football manager and former player."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:101",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "Manuel Luis Pellegrini Ripamonti is a Chilean professional football manager and former player who is the head coach of La Liga club Real Betis."
+    },
+    {
+      "older": "rp:94",
+      "newer": "rp:102",
+      "older_text": "Rafael Benítez Maudes is a Spanish professional football manager and former player.",
+      "newer_text": "Josep \"Pep\" Guardiola Sala is a Spanish football manager and former player from Catalonia."
+    },
+    {
+      "older": "rp:95",
+      "newer": "rp:85",
+      "older_text": "Roy Hodgson is an English former football manager and player.",
+      "newer_text": "David William Moyes is a Scottish professional football manager and former player, who is the manager of Premier League club Everton."
+    },
+    {
+      "older": "rp:95",
+      "newer": "rp:86",
+      "older_text": "Roy Hodgson is an English former football manager and player.",
+      "newer_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager."
+    },
+    {
+      "older": "rp:95",
+      "newer": "rp:87",
+      "older_text": "Roy Hodgson is an English former football manager and player.",
+      "newer_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player."
+    },
+    {
+      "older": "rp:95",
+      "newer": "rp:88",
+      "older_text": "Roy Hodgson is an English former football manager and player.",
+      "newer_text": "Ole Gunnar Solskjær is a Norwegian professional football manager and former player, who was most recently manager of Beşiktaş."
+    },
+    {
+      "older": "rp:95",
+      "newer": "rp:89",
+      "older_text": "Roy Hodgson is an English former football manager and player.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    },
+    {
+      "older": "rp:95",
+      "newer": "rp:90",
+      "older_text": "Roy Hodgson is an English former football manager and player.",
+      "newer_text": "Ruben Filipe Marques Amorim is a Portuguese professional football manager and former player who is currently the head coach of Serie A club AC Milan."
+    },
+    {
+      "older": "rp:95",
+      "newer": "rp:92",
+      "older_text": "Roy Hodgson is an English former football manager and player.",
+      "newer_text": "Unai Emery Etxegoien is a Spanish football manager and former player who is the manager of Premier League club Aston Villa."
+    },
+    {
+      "older": "rp:95",
+      "newer": "rp:93",
+      "older_text": "Roy Hodgson is an English former football manager and player.",
+      "newer_text": "Mikel Arteta Amatriain is a Spanish professional football manager and former player who is the manager of Premier League club Arsenal."
+    },
+    {
+      "older": "rp:95",
+      "newer": "rp:101",
+      "older_text": "Roy Hodgson is an English former football manager and player.",
+      "newer_text": "Manuel Luis Pellegrini Ripamonti is a Chilean professional football manager and former player who is the head coach of La Liga club Real Betis."
+    },
+    {
+      "older": "rp:95",
+      "newer": "rp:102",
+      "older_text": "Roy Hodgson is an English former football manager and player.",
+      "newer_text": "Josep \"Pep\" Guardiola Sala is a Spanish football manager and former player from Catalonia."
+    },
+    {
+      "older": "rp:96",
+      "newer": "rp:85",
+      "older_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager.",
+      "newer_text": "David William Moyes is a Scottish professional football manager and former player, who is the manager of Premier League club Everton."
+    },
+    {
+      "older": "rp:96",
+      "newer": "rp:86",
+      "older_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager.",
+      "newer_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager."
+    },
+    {
+      "older": "rp:96",
+      "newer": "rp:87",
+      "older_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager.",
+      "newer_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player."
+    },
+    {
+      "older": "rp:96",
+      "newer": "rp:88",
+      "older_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager.",
+      "newer_text": "Ole Gunnar Solskjær is a Norwegian professional football manager and former player, who was most recently manager of Beşiktaş."
+    },
+    {
+      "older": "rp:96",
+      "newer": "rp:89",
+      "older_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    },
+    {
+      "older": "rp:96",
+      "newer": "rp:90",
+      "older_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager.",
+      "newer_text": "Ruben Filipe Marques Amorim is a Portuguese professional football manager and former player who is currently the head coach of Serie A club AC Milan."
+    },
+    {
+      "older": "rp:96",
+      "newer": "rp:92",
+      "older_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager.",
+      "newer_text": "Unai Emery Etxegoien is a Spanish football manager and former player who is the manager of Premier League club Aston Villa."
+    },
+    {
+      "older": "rp:96",
+      "newer": "rp:93",
+      "older_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager.",
+      "newer_text": "Mikel Arteta Amatriain is a Spanish professional football manager and former player who is the manager of Premier League club Arsenal."
+    },
+    {
+      "older": "rp:96",
+      "newer": "rp:101",
+      "older_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager.",
+      "newer_text": "Manuel Luis Pellegrini Ripamonti is a Chilean professional football manager and former player who is the head coach of La Liga club Real Betis."
+    },
+    {
+      "older": "rp:96",
+      "newer": "rp:102",
+      "older_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager.",
+      "newer_text": "Josep \"Pep\" Guardiola Sala is a Spanish football manager and former player from Catalonia."
+    },
+    {
+      "older": "rp:97",
+      "newer": "rp:86",
+      "older_text": "Brendan Rodgers is a Northern Irish professional football manager and former player who is the head coach of Saudi Pro League side Al Qadsiah.",
+      "newer_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager."
+    },
+    {
+      "older": "rp:97",
+      "newer": "rp:87",
+      "older_text": "Brendan Rodgers is a Northern Irish professional football manager and former player who is the head coach of Saudi Pro League side Al Qadsiah.",
+      "newer_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player."
+    },
+    {
+      "older": "rp:97",
+      "newer": "rp:89",
+      "older_text": "Brendan Rodgers is a Northern Irish professional football manager and former player who is the head coach of Saudi Pro League side Al Qadsiah.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    },
+    {
+      "older": "rp:98",
+      "newer": "rp:87",
+      "older_text": "Jürgen Norbert Klopp is a German football executive, former manager and player who is the Head of Global Soccer for Red Bull GmbH.",
+      "newer_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player."
+    },
+    {
+      "older": "rp:98",
+      "newer": "rp:89",
+      "older_text": "Jürgen Norbert Klopp is a German football executive, former manager and player who is the Head of Global Soccer for Red Bull GmbH.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:85",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "David William Moyes is a Scottish professional football manager and former player, who is the manager of Premier League club Everton."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:86",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:87",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:88",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Ole Gunnar Solskjær is a Norwegian professional football manager and former player, who was most recently manager of Beşiktaş."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:89",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:90",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Ruben Filipe Marques Amorim is a Portuguese professional football manager and former player who is currently the head coach of Serie A club AC Milan."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:92",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Unai Emery Etxegoien is a Spanish football manager and former player who is the manager of Premier League club Aston Villa."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:93",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Mikel Arteta Amatriain is a Spanish professional football manager and former player who is the manager of Premier League club Arsenal."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:95",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Roy Hodgson is an English former football manager and player."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:96",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Sir Kenneth Mathieson Dalglish is a Scottish former football player and manager."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:97",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Brendan Rodgers is a Northern Irish professional football manager and former player who is the head coach of Saudi Pro League side Al Qadsiah."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:98",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Jürgen Norbert Klopp is a German football executive, former manager and player who is the Head of Global Soccer for Red Bull GmbH."
+    },
+    {
+      "older": "rp:100",
+      "newer": "rp:99",
+      "older_text": "Roberto Mancini is an Italian football manager and former player.",
+      "newer_text": "Arend Martijn \"Arne\" Slot is a Dutch professional football manager and former player who was most recently the head coach of Premier League club Liverpool."
+    },
+    {
+      "older": "rp:101",
+      "newer": "rp:86",
+      "older_text": "Manuel Luis Pellegrini Ripamonti is a Chilean professional football manager and former player who is the head coach of La Liga club Real Betis.",
+      "newer_text": "Aloysius Paulus Maria \"Louis\" van Gaal is a Dutch former football player and manager."
+    },
+    {
+      "older": "rp:101",
+      "newer": "rp:87",
+      "older_text": "Manuel Luis Pellegrini Ripamonti is a Chilean professional football manager and former player who is the head coach of La Liga club Real Betis.",
+      "newer_text": "José Mário dos Santos Mourinho Félix is a Portuguese professional football manager and former player."
+    },
+    {
+      "older": "rp:101",
+      "newer": "rp:89",
+      "older_text": "Manuel Luis Pellegrini Ripamonti is a Chilean professional football manager and former player who is the head coach of La Liga club Real Betis.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    },
+    {
+      "older": "rp:102",
+      "newer": "rp:89",
+      "older_text": "Josep \"Pep\" Guardiola Sala is a Spanish football manager and former player from Catalonia.",
+      "newer_text": "Erik ten Hag is a Dutch professional football executive, former manager, and player."
+    }
+  ]
+}

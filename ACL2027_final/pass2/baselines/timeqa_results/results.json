@@ -1,0 +1,280 @@
+{
+  "audit": {
+    "n_passages": 33493,
+    "n_articles": 749,
+    "n_undated_passages": 15355,
+    "n_explicit_range_passages": 3882,
+    "all_span_substrings_validated": true
+  },
+  "results": {
+    "official_templates": {
+      "n_queries": 2613,
+      "n_input_queries": 2997,
+      "n_excluded_empty_gold": 384,
+      "n_articles": 738,
+      "n_queries_without_textual_year": 0,
+      "methods": {
+        "bm25": {
+          "annotated_passage_hit1": 0.13279755070799848,
+          "annotated_passage_hit5": 0.3249138920780712,
+          "annotated_span_recall5": 0.31751498915678017,
+          "all_annotated_spans5": 0.3099885189437428
+        },
+        "latest_mentioned_year_top20": {
+          "annotated_passage_hit1": 0.269804822043628,
+          "annotated_passage_hit5": 0.5185610409491006,
+          "annotated_span_recall5": 0.5088659267763745,
+          "all_annotated_spans5": 0.49904324531190203
+        },
+        "year_envelope_filter": {
+          "annotated_passage_hit1": 0.1385380788365863,
+          "annotated_passage_hit5": 0.34443168771526983,
+          "annotated_span_recall5": 0.3366500829187396,
+          "all_annotated_spans5": 0.3287409108304631
+        },
+        "explicit_range_filter": {
+          "annotated_passage_hit1": 0.13203214695752008,
+          "annotated_passage_hit5": 0.3210868733256793,
+          "annotated_span_recall5": 0.3138793213420079,
+          "all_annotated_spans5": 0.3065442020665901
+        },
+        "range_support_top20": {
+          "annotated_passage_hit1": 0.2093379257558362,
+          "annotated_passage_hit5": 0.3849980864906238,
+          "annotated_span_recall5": 0.37625972700599564,
+          "all_annotated_spans5": 0.36739380022962115
+        }
+      },
+      "paired_article_bootstrap": {
+        "latest_mentioned_year_top20": {
+          "annotated_passage_hit5": {
+            "delta": 0.19364714887102946,
+            "ci95": [
+              0.16945288753799392,
+              0.21784879189399844
+            ],
+            "article_clusters": 738,
+            "repetitions": 2000,
+            "seed": 20261006
+          },
+          "annotated_span_recall5": {
+            "delta": 0.19135093761959435,
+            "ci95": [
+              0.16746854182087342,
+              0.2155581186723055
+            ],
+            "article_clusters": 738,
+            "repetitions": 2000,
+            "seed": 20261006
+          }
+        },
+        "year_envelope_filter": {
+          "annotated_passage_hit5": {
+            "delta": 0.01951779563719862,
+            "ci95": [
+              0.012204424103737605,
+              0.026676829268292682
+            ],
+            "article_clusters": 738,
+            "repetitions": 2000,
+            "seed": 20261006
+          },
+          "annotated_span_recall5": {
+            "delta": 0.019135093761959432,
+            "ci95": [
+              0.011989509179467965,
+              0.02603572786012923
+            ],
+            "article_clusters": 738,
+            "repetitions": 2000,
+            "seed": 20261006
+          }
+        },
+        "explicit_range_filter": {
+          "annotated_passage_hit5": {
+            "delta": -0.003827018752391887,
+            "ci95": [
+              -0.009600614439324117,
+              0.0018234865061998542
+            ],
+            "article_clusters": 738,
+            "repetitions": 2000,
+            "seed": 20261006
+          },
+          "annotated_span_recall5": {
+            "delta": -0.0036356678147722926,
+            "ci95": [
+              -0.009444654325651681,
+              0.001899696048632219
+            ],
+            "article_clusters": 738,
+            "repetitions": 2000,
+            "seed": 20261006
+          }
+        },
+        "range_support_top20": {
+          "annotated_passage_hit5": {
+            "delta": 0.060084194412552624,
+            "ci95": [
+              0.043358297201419,
+              0.07729468599033816
+            ],
+            "article_clusters": 738,
+            "repetitions": 2000,
+            "seed": 20261006
+          },
+          "annotated_span_recall5": {
+            "delta": 0.05874473784921546,
+            "ci95": [
+              0.042393692645728315,
+              0.0754014884449667
+            ],
+            "article_clusters": 738,
+            "repetitions": 2000,
+            "seed": 20261006
+          }
+        }
+      },
+      "removed_span_counts": {
+        "year_envelope_filter": 284,
+        "explicit_range_filter": 170
+      },
+      "total_annotated_spans": 2840
+    },
+    "human_questions": {
+      "n_queries": 830,
+      "n_input_queries": 989,
+      "n_excluded_empty_gold": 159,
+      "n_articles": 251,
+      "n_queries_without_textual_year": 5,
+      "methods": {
+        "bm25": {
+          "annotated_passage_hit1": 0.20722891566265061,
+          "annotated_passage_hit5": 0.4566265060240964,
+          "annotated_span_recall5": 0.45040160642570276,
+          "all_annotated_spans5": 0.4433734939759036
+        },
+        "latest_mentioned_year_top20": {
+          "annotated_passage_hit1": 0.3144578313253012,
+          "annotated_passage_hit5": 0.5469879518072289,
+          "annotated_span_recall5": 0.5401606425702811,
+          "all_annotated_spans5": 0.5325301204819277
+        },
+        "year_envelope_filter": {
+          "annotated_passage_hit1": 0.23012048192771084,
+          "annotated_passage_hit5": 0.491566265060241,
+          "annotated_span_recall5": 0.48333333333333334,
+          "all_annotated_spans5": 0.4746987951807229
+        },
+        "explicit_range_filter": {
+          "annotated_passage_hit1": 0.20240963855421687,
+          "annotated_passage_hit5": 0.44096385542168676,
+          "annotated_span_recall5": 0.4353413654618474,
+          "all_annotated_spans5": 0.42891566265060244
+        },
+        "range_support_top20": {
+          "annotated_passage_hit1": 0.2325301204819277,
+          "annotated_passage_hit5": 0.4457831325301205,
+          "annotated_span_recall5": 0.4399598393574297,
+          "all_annotated_spans5": 0.43373493975903615
+        }
+      },
+      "paired_article_bootstrap": {
+        "latest_mentioned_year_top20": {
+          "annotated_passage_hit5": {
+            "delta": 0.09036144578313253,
+            "ci95": [
+              0.05535499398315283,
+              0.1269276393831554
+            ],
+            "article_clusters": 251,
+            "repetitions": 2000,
+            "seed": 20261006
+          },
+          "annotated_span_recall5": {
+            "delta": 0.08975903614457831,
+            "ci95": [
+              0.0558408215661104,
+              0.12548015364916773
+            ],
+            "article_clusters": 251,
+            "repetitions": 2000,
+            "seed": 20261006
+          }
+        },
+        "year_envelope_filter": {
+          "annotated_passage_hit5": {
+            "delta": 0.03493975903614458,
+            "ci95": [
+              0.017434620174346202,
+              0.052752293577981654
+            ],
+            "article_clusters": 251,
+            "repetitions": 2000,
+            "seed": 20261006
+          },
+          "annotated_span_recall5": {
+            "delta": 0.03293172690763052,
+            "ci95": [
+              0.01585460170146945,
+              0.05003940110323089
+            ],
+            "article_clusters": 251,
+            "repetitions": 2000,
+            "seed": 20261006
+          }
+        },
+        "explicit_range_filter": {
+          "annotated_passage_hit5": {
+            "delta": -0.01566265060240964,
+            "ci95": [
+              -0.029308323563892145,
+              -0.0025575447570332483
+            ],
+            "article_clusters": 251,
+            "repetitions": 2000,
+            "seed": 20261006
+          },
+          "annotated_span_recall5": {
+            "delta": -0.015060240963855422,
+            "ci95": [
+              -0.028535980148883373,
+              -0.002403846153846154
+            ],
+            "article_clusters": 251,
+            "repetitions": 2000,
+            "seed": 20261006
+          }
+        },
+        "range_support_top20": {
+          "annotated_passage_hit5": {
+            "delta": -0.010843373493975903,
+            "ci95": [
+              -0.03523693803159174,
+              0.01221001221001221
+            ],
+            "article_clusters": 251,
+            "repetitions": 2000,
+            "seed": 20261006
+          },
+          "annotated_span_recall5": {
+            "delta": -0.010441767068273091,
+            "ci95": [
+              -0.03508771929824562,
+              0.012307050479766376
+            ],
+            "article_clusters": 251,
+            "repetitions": 2000,
+            "seed": 20261006
+          }
+        }
+      },
+      "removed_span_counts": {
+        "year_envelope_filter": 107,
+        "explicit_range_filter": 63
+      },
+      "total_annotated_spans": 887
+    }
+  },
+  "elapsed_seconds": 431.652251427
+}

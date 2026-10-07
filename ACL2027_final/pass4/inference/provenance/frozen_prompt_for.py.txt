@@ -1,0 +1,13 @@
+def prompt_for(query,contexts):
+    blocks=[]
+    for n,c in enumerate(contexts,1):
+        # The reader gets original date bounds, never filled-in dates or gold labels.
+        meta={'source_title':c['title'],'temporal_status':c['temporal_status']}
+        if c.get('start'):meta['start_bounds']=[c['start']['lower_iso'],c['start']['upper_iso']]
+        if c.get('end'):meta['end_bounds']=[c['end']['lower_iso'],c['end']['upper_iso']]
+        blocks.append(f'[{n}] '+json.dumps(meta,ensure_ascii=False)+'\n'+c['text'])
+    return ('Answer the question using only the supplied source excerpts. Return all distinct answers supported for the requested time. '
+      'Do not use outside knowledge. If the excerpts do not support an answer, return an empty list. '
+      'Date bounds describe source precision. Unknown means that the temporal adapter did not model that excerpt. '
+      'Return only JSON with keys "answers" (list of strings) and "evidence" (list of excerpt numbers).\n\n'
+      'QUESTION: '+query['question']+'\n\nSOURCE EXCERPTS:\n'+'\n\n'.join(blocks))

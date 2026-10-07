@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "api_tests": 7,
+  "counterworld_configurations": 120,
+  "worlds_enumerated": 1686,
+  "counterworld_queries": 2880,
+  "unstable_queries": 1137,
+  "constructed_worlds_checked": 2274,
+  "refinement_configurations": 1440,
+  "stable_refinements_checked": 6578,
+  "mandatory_pivot_checks": 4042,
+  "set_cover_instances": 1024,
+  "reduction_worlds_checked": 27648,
+  "scope": "Constructed correctness checks, not benchmark examples or independent hardness proofs."
+}

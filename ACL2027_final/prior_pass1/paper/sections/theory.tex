@@ -1,0 +1,103 @@
+\section{Exactness and Error Propagation}
+\label{sec:theory}
+
+The analysis treats the supplied gate as an arbitrary fixed relation.
+It separates compiler correctness from the semantic accuracy of its inputs.
+Complete proofs and boundary cases appear in Appendix~\ref{app:proofs}.
+
+\begin{theorem}[All-cutoff equivalence]
+\label{thm:cutoff}
+For every dated claim $c$ and finite cutoff $\tau$,
+\begin{equation}
+c\in A_G(\tau)\quad\Longleftrightarrow\quad\tau\in I_G(c).
+\label{eq:equivalence}
+\end{equation}
+At most one stored witness per claim therefore represents every temporal eligibility decision.
+\end{theorem}
+\begin{proof}
+If $t_c>\tau$, both statements are false.
+Otherwise, an accepted replacement exists by $\tau$ exactly when $b_G(c)\leq\tau$.
+Taking the complement gives the equivalence.
+\end{proof}
+
+This result also explains why a newest replacement is insufficient for historical retrieval.
+A newest witness establishes eventual replacement, but can miss an earlier endpoint.
+Both choices nevertheless give the same final current mask.
+Each excludes exactly the claims with at least one accepted later witness.
+
+\begin{corollary}[Temporal prefix consistency]
+\label{cor:prefix}
+Let $\mathcal C_{\leq\tau}=\{c:t_c\leq\tau\}$.
+Querying full-corpus certificates at $\tau$ equals compiling the final mask on $\mathcal C_{\leq\tau}$.
+\end{corollary}
+\begin{proof}
+Both procedures examine precisely the accepted pairs satisfying $t_c<t_d\leq\tau$.
+\end{proof}
+
+Appending records dated after $\tau$ therefore preserves the evidence state at $\tau$.
+This statement concerns timestamp order, not file arrival order.
+A newly received record with an earlier timestamp can legitimately change the corresponding historical state.
+The gate must also remain fixed when the corpus grows.
+
+\begin{theorem}[Pair-local influence]
+\label{thm:influence}
+Fix claim timestamps and identifiers.
+Suppose gates $G$ and $H$ differ on $h$ temporally ordered pairs.
+Let $U$ contain the older endpoints of those pairs.
+For every cutoff,
+\begin{equation}
+A_G(\tau)\triangle A_H(\tau)\subseteq U,
+\qquad |U|\leq h.
+\label{eq:influence}
+\end{equation}
+With a fixed ranking and deterministic ties,
+\begin{equation}
+|R_G(q,\tau)\triangle R_H(q,\tau)|
+\leq 2\min\{k,|U|\}.
+\label{eq:context-bound}
+\end{equation}
+\end{theorem}
+\begin{proof}
+A claim's boundary depends only on pairs whose older endpoint is that claim.
+Its interval cannot change outside $U$.
+Changing one eligibility bit removes or adds at most one selected claim and one replacement.
+Apply this argument successively over $U$.
+The two contexts also contain at most $2k$ claims altogether.
+\end{proof}
+
+For one changed pair, the interval difference is confined to one record.
+Its temporal extent is also explicit.
+Writing $J_c=[\min\{b_G(c),b_H(c)\},\max\{b_G(c),b_H(c)\})$, we have
+\begin{equation}
+c\in A_G(\tau)\triangle A_H(\tau)
+\quad\Longleftrightarrow\quad\tau\in J_c.
+\label{eq:footprint}
+\end{equation}
+For a query-time distribution $\mu$, the expected mask difference equals $\sum_c\mu(J_c)$.
+This identifies the period affected by each changed decision.
+The bound concerns pair decisions, so a parser update can affect several intervals through several changed pairs.
+
+\paragraph{Why component closure differs.}
+An incorrect bridge can change intervals throughout a connected component.
+Consider one attribute with repeated value $a$ at times $0,\ldots,m-1$.
+It changes to $b$ at time $2m$.
+A second attribute has $z$ at time $m$ and $w$ at time $2m+1$.
+All four values differ.
+An incorrect accepted pair between $b$ and $w$ merges the histories.
+Component sorting then closes every earlier $a$ record at time $m$.
+At cutoff $m+\tfrac12$, it excludes $m$ records through one changed pair.
+Direct compilation changes none at that cutoff because the affected older endpoint has not appeared.
+This construction gives unbounded component amplification and a failure of temporal prefix consistency.
+It is a correctness example, not a benchmark observation.
+
+\begin{proposition}[Compiler exactness]
+\label{prop:compiler}
+The batched compiler returns Equation~\ref{eq:boundary} when its candidate postings contain every pair accepted by the gate.
+\end{proposition}
+\begin{proof}
+Before each batch, the index contains exactly the earlier claims without an accepted earlier witness.
+Completeness exposes every accepted pair from the batch to those claims.
+The first such batch supplies the minimum replacement time.
+Removing resolved claims cannot change that minimum.
+Inserting after comparison prevents equal-time replacement.
+\end{proof}

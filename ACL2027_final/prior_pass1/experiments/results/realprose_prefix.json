@@ -1,0 +1,1906 @@
+{
+  "dataset": "realprose",
+  "event_cutoffs": {
+    "n_cutoffs": 42,
+    "direct_mismatch_cutoffs": 0,
+    "component_mismatch_cutoffs": 27,
+    "component_membership_differences": 50,
+    "component_max_differences": 4
+  },
+  "all_cutoffs": {
+    "n_cutoffs": 72,
+    "direct_mismatch_cutoffs": 0,
+    "component_mismatch_cutoffs": 52,
+    "component_membership_differences": 97,
+    "component_max_differences": 4
+  },
+  "historical_queries": {
+    "n": 97,
+    "full_hits": 81,
+    "prefix_hits": 81,
+    "changed_top1": 8
+  },
+  "cutoffs": [
+    {
+      "cutoff": 1974.0,
+      "is_event": true,
+      "n_observed": 1,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1975.0,
+      "is_event": true,
+      "n_observed": 2,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1978.0,
+      "is_event": true,
+      "n_observed": 3,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1980.0,
+      "is_event": true,
+      "n_observed": 4,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1982.0,
+      "is_event": true,
+      "n_observed": 5,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1984.0,
+      "is_event": true,
+      "n_observed": 6,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [
+        "rp:0"
+      ],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1986.0,
+      "is_event": true,
+      "n_observed": 8,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [
+        "rp:0"
+      ],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1987.0,
+      "is_event": true,
+      "n_observed": 9,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [
+        "rp:0"
+      ],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1987.5,
+      "is_event": false,
+      "n_observed": 9,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [
+        "rp:0"
+      ],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1990.0,
+      "is_event": false,
+      "n_observed": 9,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [
+        "rp:0"
+      ],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1990.5,
+      "is_event": false,
+      "n_observed": 9,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [
+        "rp:0"
+      ],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1991.5,
+      "is_event": false,
+      "n_observed": 9,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [
+        "rp:0"
+      ],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1992.0,
+      "is_event": true,
+      "n_observed": 10,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [
+        "rp:0"
+      ],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1993.0,
+      "is_event": true,
+      "n_observed": 12,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1994.0,
+      "is_event": true,
+      "n_observed": 13,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1994.5,
+      "is_event": false,
+      "n_observed": 13,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1995.0,
+      "is_event": true,
+      "n_observed": 15,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1996.0,
+      "is_event": true,
+      "n_observed": 17,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 1996.5,
+      "is_event": false,
+      "n_observed": 17,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 1997.0,
+      "is_event": true,
+      "n_observed": 20,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 1998.0,
+      "is_event": true,
+      "n_observed": 24,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 1999.5,
+      "is_event": false,
+      "n_observed": 24,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 2000.0,
+      "is_event": true,
+      "n_observed": 27,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 2000.5,
+      "is_event": false,
+      "n_observed": 27,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 2001.0,
+      "is_event": true,
+      "n_observed": 29,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 2001.5,
+      "is_event": false,
+      "n_observed": 29,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 2002.0,
+      "is_event": false,
+      "n_observed": 29,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 2003.0,
+      "is_event": true,
+      "n_observed": 32,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:84"
+      ]
+    },
+    {
+      "cutoff": 2004.0,
+      "is_event": true,
+      "n_observed": 35,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2004.5,
+      "is_event": false,
+      "n_observed": 35,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2005.0,
+      "is_event": true,
+      "n_observed": 39,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2006.0,
+      "is_event": true,
+      "n_observed": 43,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2007.0,
+      "is_event": true,
+      "n_observed": 48,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2007.5,
+      "is_event": false,
+      "n_observed": 48,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2008.5,
+      "is_event": false,
+      "n_observed": 48,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2009.0,
+      "is_event": true,
+      "n_observed": 50,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2009.5,
+      "is_event": false,
+      "n_observed": 50,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2010.0,
+      "is_event": true,
+      "n_observed": 54,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:27"
+      ]
+    },
+    {
+      "cutoff": 2010.5,
+      "is_event": false,
+      "n_observed": 54,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "rp:27"
+      ]
+    },
+    {
+      "cutoff": 2011.0,
+      "is_event": true,
+      "n_observed": 60,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:27",
+        "rp:74"
+      ]
+    },
+    {
+      "cutoff": 2011.5,
+      "is_event": false,
+      "n_observed": 60,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:27",
+        "rp:74"
+      ]
+    },
+    {
+      "cutoff": 2012.0,
+      "is_event": true,
+      "n_observed": 66,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:27",
+        "rp:74"
+      ]
+    },
+    {
+      "cutoff": 2012.5,
+      "is_event": false,
+      "n_observed": 66,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:27",
+        "rp:74"
+      ]
+    },
+    {
+      "cutoff": 2013.0,
+      "is_event": true,
+      "n_observed": 72,
+      "direct_differences": 0,
+      "component_differences": 3,
+      "only_full": [],
+      "only_prefix": [
+        "rp:27",
+        "rp:74",
+        "rp:97"
+      ]
+    },
+    {
+      "cutoff": 2013.5,
+      "is_event": false,
+      "n_observed": 72,
+      "direct_differences": 0,
+      "component_differences": 3,
+      "only_full": [],
+      "only_prefix": [
+        "rp:27",
+        "rp:74",
+        "rp:97"
+      ]
+    },
+    {
+      "cutoff": 2014.0,
+      "is_event": true,
+      "n_observed": 77,
+      "direct_differences": 0,
+      "component_differences": 4,
+      "only_full": [
+        "rp:66",
+        "rp:85"
+      ],
+      "only_prefix": [
+        "rp:27",
+        "rp:74"
+      ]
+    },
+    {
+      "cutoff": 2014.5,
+      "is_event": false,
+      "n_observed": 77,
+      "direct_differences": 0,
+      "component_differences": 4,
+      "only_full": [
+        "rp:66",
+        "rp:85"
+      ],
+      "only_prefix": [
+        "rp:27",
+        "rp:74"
+      ]
+    },
+    {
+      "cutoff": 2015.0,
+      "is_event": true,
+      "n_observed": 81,
+      "direct_differences": 0,
+      "component_differences": 4,
+      "only_full": [
+        "rp:66",
+        "rp:85"
+      ],
+      "only_prefix": [
+        "rp:27",
+        "rp:74"
+      ]
+    },
+    {
+      "cutoff": 2015.5,
+      "is_event": false,
+      "n_observed": 81,
+      "direct_differences": 0,
+      "component_differences": 4,
+      "only_full": [
+        "rp:66",
+        "rp:85"
+      ],
+      "only_prefix": [
+        "rp:27",
+        "rp:74"
+      ]
+    },
+    {
+      "cutoff": 2016.0,
+      "is_event": true,
+      "n_observed": 86,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [
+        "rp:66",
+        "rp:85"
+      ],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2016.5,
+      "is_event": false,
+      "n_observed": 86,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [
+        "rp:66",
+        "rp:85"
+      ],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2017.0,
+      "is_event": true,
+      "n_observed": 92,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [
+        "rp:85"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2017.5,
+      "is_event": false,
+      "n_observed": 92,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [
+        "rp:85"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2018.0,
+      "is_event": true,
+      "n_observed": 99,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:28",
+        "rp:102"
+      ]
+    },
+    {
+      "cutoff": 2018.5,
+      "is_event": false,
+      "n_observed": 99,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:28",
+        "rp:102"
+      ]
+    },
+    {
+      "cutoff": 2019.0,
+      "is_event": true,
+      "n_observed": 104,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:28",
+        "rp:102"
+      ]
+    },
+    {
+      "cutoff": 2019.5,
+      "is_event": false,
+      "n_observed": 104,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:28",
+        "rp:102"
+      ]
+    },
+    {
+      "cutoff": 2020.0,
+      "is_event": true,
+      "n_observed": 107,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:28",
+        "rp:102"
+      ]
+    },
+    {
+      "cutoff": 2020.5,
+      "is_event": false,
+      "n_observed": 107,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:28",
+        "rp:102"
+      ]
+    },
+    {
+      "cutoff": 2020.85,
+      "is_event": false,
+      "n_observed": 107,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:28",
+        "rp:102"
+      ]
+    },
+    {
+      "cutoff": 2021.0,
+      "is_event": true,
+      "n_observed": 113,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "rp:28",
+        "rp:102"
+      ]
+    },
+    {
+      "cutoff": 2022.0,
+      "is_event": true,
+      "n_observed": 115,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [
+        "rp:93"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2022.5,
+      "is_event": false,
+      "n_observed": 115,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [
+        "rp:93"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2022.7,
+      "is_event": true,
+      "n_observed": 116,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [
+        "rp:93"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2022.75,
+      "is_event": false,
+      "n_observed": 116,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [
+        "rp:93"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2022.8,
+      "is_event": true,
+      "n_observed": 117,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [
+        "rp:93"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2023.0,
+      "is_event": true,
+      "n_observed": 121,
+      "direct_differences": 0,
+      "component_differences": 3,
+      "only_full": [
+        "rp:61",
+        "rp:93"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2023.4,
+      "is_event": false,
+      "n_observed": 121,
+      "direct_differences": 0,
+      "component_differences": 3,
+      "only_full": [
+        "rp:61",
+        "rp:93"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2023.45,
+      "is_event": false,
+      "n_observed": 121,
+      "direct_differences": 0,
+      "component_differences": 3,
+      "only_full": [
+        "rp:61",
+        "rp:93"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2023.9,
+      "is_event": true,
+      "n_observed": 122,
+      "direct_differences": 0,
+      "component_differences": 3,
+      "only_full": [
+        "rp:61",
+        "rp:93"
+      ],
+      "only_prefix": [
+        "rp:28"
+      ]
+    },
+    {
+      "cutoff": 2024.0,
+      "is_event": true,
+      "n_observed": 127,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2025.0,
+      "is_event": true,
+      "n_observed": 132,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    }
+  ],
+  "queries": [
+    {
+      "key": [
+        "microsoft",
+        "chief executive officer"
+      ],
+      "cutoff": 1987.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:18",
+      "prefix_cid": "rp:18"
+    },
+    {
+      "key": [
+        "microsoft",
+        "chief executive officer"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:1",
+      "prefix_cid": "rp:1"
+    },
+    {
+      "key": [
+        "apple",
+        "chief executive officer"
+      ],
+      "cutoff": 2004.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:3",
+      "prefix_cid": "rp:3"
+    },
+    {
+      "key": [
+        "amazon",
+        "chief executive officer"
+      ],
+      "cutoff": 2007.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:5",
+      "prefix_cid": "rp:5"
+    },
+    {
+      "key": [
+        "google",
+        "chief executive officer"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:7",
+      "prefix_cid": "rp:7"
+    },
+    {
+      "key": [
+        "disney",
+        "chief executive officer"
+      ],
+      "cutoff": 1994.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:9",
+      "prefix_cid": "rp:9"
+    },
+    {
+      "key": [
+        "disney",
+        "chief executive officer"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:10",
+      "prefix_cid": "rp:10"
+    },
+    {
+      "key": [
+        "ibm",
+        "chief executive officer"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:12",
+      "prefix_cid": "rp:12"
+    },
+    {
+      "key": [
+        "pepsico",
+        "chief executive officer"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:14",
+      "prefix_cid": "rp:14"
+    },
+    {
+      "key": [
+        "intel",
+        "chief executive officer"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:16",
+      "prefix_cid": "rp:16"
+    },
+    {
+      "key": [
+        "starbucks",
+        "chief executive officer"
+      ],
+      "cutoff": 2001.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:18",
+      "prefix_cid": "rp:18"
+    },
+    {
+      "key": [
+        "twitter",
+        "chief executive officer"
+      ],
+      "cutoff": 2022.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:20",
+      "prefix_cid": "rp:20"
+    },
+    {
+      "key": [
+        "general motors",
+        "chief executive officer"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:23",
+      "prefix_cid": "rp:23"
+    },
+    {
+      "key": [
+        "uber",
+        "chief executive officer"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:25",
+      "prefix_cid": "rp:25"
+    },
+    {
+      "key": [
+        "united kingdom",
+        "prime minister"
+      ],
+      "cutoff": 2002.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:26",
+      "prefix_cid": "rp:26"
+    },
+    {
+      "key": [
+        "united kingdom",
+        "prime minister"
+      ],
+      "cutoff": 2008.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:27",
+      "prefix_cid": "rp:27"
+    },
+    {
+      "key": [
+        "united kingdom",
+        "prime minister"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 0,
+      "full_cid": "rp:28",
+      "prefix_cid": "rp:27"
+    },
+    {
+      "key": [
+        "united kingdom",
+        "prime minister"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 0,
+      "full_cid": "rp:29",
+      "prefix_cid": "rp:28"
+    },
+    {
+      "key": [
+        "united kingdom",
+        "prime minister"
+      ],
+      "cutoff": 2020.85,
+      "full_hit": 1,
+      "prefix_hit": 0,
+      "full_cid": "rp:30",
+      "prefix_cid": "rp:28"
+    },
+    {
+      "key": [
+        "united kingdom",
+        "prime minister"
+      ],
+      "cutoff": 2022.75,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:31",
+      "prefix_cid": "rp:31"
+    },
+    {
+      "key": [
+        "united kingdom",
+        "prime minister"
+      ],
+      "cutoff": 2023.4,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:32",
+      "prefix_cid": "rp:32"
+    },
+    {
+      "key": [
+        "germany",
+        "chancellor"
+      ],
+      "cutoff": 1990.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:34",
+      "prefix_cid": "rp:34"
+    },
+    {
+      "key": [
+        "germany",
+        "chancellor"
+      ],
+      "cutoff": 2001.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:35",
+      "prefix_cid": "rp:35"
+    },
+    {
+      "key": [
+        "germany",
+        "chancellor"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:36",
+      "prefix_cid": "rp:36"
+    },
+    {
+      "key": [
+        "germany",
+        "chancellor"
+      ],
+      "cutoff": 2023.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:37",
+      "prefix_cid": "rp:37"
+    },
+    {
+      "key": [
+        "canada",
+        "prime minister"
+      ],
+      "cutoff": 1998.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:39",
+      "prefix_cid": "rp:39"
+    },
+    {
+      "key": [
+        "canada",
+        "prime minister"
+      ],
+      "cutoff": 2004.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:40",
+      "prefix_cid": "rp:40"
+    },
+    {
+      "key": [
+        "canada",
+        "prime minister"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:41",
+      "prefix_cid": "rp:41"
+    },
+    {
+      "key": [
+        "canada",
+        "prime minister"
+      ],
+      "cutoff": 2020.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:42",
+      "prefix_cid": "rp:42"
+    },
+    {
+      "key": [
+        "india",
+        "prime minister"
+      ],
+      "cutoff": 2001.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:44",
+      "prefix_cid": "rp:44"
+    },
+    {
+      "key": [
+        "india",
+        "prime minister"
+      ],
+      "cutoff": 2009.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:45",
+      "prefix_cid": "rp:45"
+    },
+    {
+      "key": [
+        "japan",
+        "prime minister"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:47",
+      "prefix_cid": "rp:47"
+    },
+    {
+      "key": [
+        "japan",
+        "prime minister"
+      ],
+      "cutoff": 2020.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:48",
+      "prefix_cid": "rp:48"
+    },
+    {
+      "key": [
+        "japan",
+        "prime minister"
+      ],
+      "cutoff": 2022.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:49",
+      "prefix_cid": "rp:49"
+    },
+    {
+      "key": [
+        "australia",
+        "prime minister"
+      ],
+      "cutoff": 2001.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:51",
+      "prefix_cid": "rp:51"
+    },
+    {
+      "key": [
+        "australia",
+        "prime minister"
+      ],
+      "cutoff": 2008.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:52",
+      "prefix_cid": "rp:52"
+    },
+    {
+      "key": [
+        "australia",
+        "prime minister"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:53",
+      "prefix_cid": "rp:53"
+    },
+    {
+      "key": [
+        "australia",
+        "prime minister"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:54",
+      "prefix_cid": "rp:54"
+    },
+    {
+      "key": [
+        "australia",
+        "prime minister"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:55",
+      "prefix_cid": "rp:55"
+    },
+    {
+      "key": [
+        "australia",
+        "prime minister"
+      ],
+      "cutoff": 2020.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:56",
+      "prefix_cid": "rp:56"
+    },
+    {
+      "key": [
+        "spain",
+        "prime minister"
+      ],
+      "cutoff": 2007.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:58",
+      "prefix_cid": "rp:58"
+    },
+    {
+      "key": [
+        "spain",
+        "prime minister"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:59",
+      "prefix_cid": "rp:59"
+    },
+    {
+      "key": [
+        "new zealand",
+        "prime minister"
+      ],
+      "cutoff": 2020.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:61",
+      "prefix_cid": "rp:61"
+    },
+    {
+      "key": [
+        "new zealand",
+        "prime minister"
+      ],
+      "cutoff": 2023.45,
+      "full_hit": 0,
+      "prefix_hit": 1,
+      "full_cid": "rp:61",
+      "prefix_cid": "rp:62"
+    },
+    {
+      "key": [
+        "united states",
+        "president"
+      ],
+      "cutoff": 1997.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:64",
+      "prefix_cid": "rp:64"
+    },
+    {
+      "key": [
+        "united states",
+        "president"
+      ],
+      "cutoff": 2005.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:65",
+      "prefix_cid": "rp:65"
+    },
+    {
+      "key": [
+        "united states",
+        "president"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:66",
+      "prefix_cid": "rp:66"
+    },
+    {
+      "key": [
+        "united states",
+        "president"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:67",
+      "prefix_cid": "rp:67"
+    },
+    {
+      "key": [
+        "united states",
+        "president"
+      ],
+      "cutoff": 2023.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:68",
+      "prefix_cid": "rp:68"
+    },
+    {
+      "key": [
+        "france",
+        "president"
+      ],
+      "cutoff": 2001.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:70",
+      "prefix_cid": "rp:70"
+    },
+    {
+      "key": [
+        "france",
+        "president"
+      ],
+      "cutoff": 2009.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:71",
+      "prefix_cid": "rp:71"
+    },
+    {
+      "key": [
+        "france",
+        "president"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:71",
+      "prefix_cid": "rp:71"
+    },
+    {
+      "key": [
+        "brazil",
+        "president"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:74",
+      "prefix_cid": "rp:74"
+    },
+    {
+      "key": [
+        "brazil",
+        "president"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:75",
+      "prefix_cid": "rp:75"
+    },
+    {
+      "key": [
+        "brazil",
+        "president"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:76",
+      "prefix_cid": "rp:76"
+    },
+    {
+      "key": [
+        "brazil",
+        "president"
+      ],
+      "cutoff": 2021.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:77",
+      "prefix_cid": "rp:77"
+    },
+    {
+      "key": [
+        "mexico",
+        "president"
+      ],
+      "cutoff": 2003.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:79",
+      "prefix_cid": "rp:79"
+    },
+    {
+      "key": [
+        "mexico",
+        "president"
+      ],
+      "cutoff": 2009.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:80",
+      "prefix_cid": "rp:80"
+    },
+    {
+      "key": [
+        "mexico",
+        "president"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:81",
+      "prefix_cid": "rp:81"
+    },
+    {
+      "key": [
+        "mexico",
+        "president"
+      ],
+      "cutoff": 2021.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:82",
+      "prefix_cid": "rp:82"
+    },
+    {
+      "key": [
+        "manchester united",
+        "manager"
+      ],
+      "cutoff": 1999.5,
+      "full_hit": 0,
+      "prefix_hit": 1,
+      "full_cid": "rp:64",
+      "prefix_cid": "rp:84"
+    },
+    {
+      "key": [
+        "manchester united",
+        "manager"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:85",
+      "prefix_cid": "rp:85"
+    },
+    {
+      "key": [
+        "manchester united",
+        "manager"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:85",
+      "prefix_cid": "rp:98"
+    },
+    {
+      "key": [
+        "manchester united",
+        "manager"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:85",
+      "prefix_cid": "rp:67"
+    },
+    {
+      "key": [
+        "manchester united",
+        "manager"
+      ],
+      "cutoff": 2020.0,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:93",
+      "prefix_cid": "rp:93"
+    },
+    {
+      "key": [
+        "manchester united",
+        "manager"
+      ],
+      "cutoff": 2023.0,
+      "full_hit": 0,
+      "prefix_hit": 1,
+      "full_cid": "rp:93",
+      "prefix_cid": "rp:89"
+    },
+    {
+      "key": [
+        "arsenal",
+        "manager"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:94",
+      "prefix_cid": "rp:94"
+    },
+    {
+      "key": [
+        "arsenal",
+        "manager"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:92",
+      "prefix_cid": "rp:92"
+    },
+    {
+      "key": [
+        "liverpool",
+        "manager"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:94",
+      "prefix_cid": "rp:94"
+    },
+    {
+      "key": [
+        "liverpool",
+        "manager"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:95",
+      "prefix_cid": "rp:95"
+    },
+    {
+      "key": [
+        "liverpool",
+        "manager"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:96",
+      "prefix_cid": "rp:96"
+    },
+    {
+      "key": [
+        "liverpool",
+        "manager"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:85",
+      "prefix_cid": "rp:85"
+    },
+    {
+      "key": [
+        "liverpool",
+        "manager"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:93",
+      "prefix_cid": "rp:93"
+    },
+    {
+      "key": [
+        "manchester city",
+        "manager"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:115",
+      "prefix_cid": "rp:115"
+    },
+    {
+      "key": [
+        "manchester city",
+        "manager"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:116",
+      "prefix_cid": "rp:116"
+    },
+    {
+      "key": [
+        "united nations",
+        "secretary-general"
+      ],
+      "cutoff": 1994.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:103",
+      "prefix_cid": "rp:103"
+    },
+    {
+      "key": [
+        "united nations",
+        "secretary-general"
+      ],
+      "cutoff": 2002.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:104",
+      "prefix_cid": "rp:104"
+    },
+    {
+      "key": [
+        "united nations",
+        "secretary-general"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:105",
+      "prefix_cid": "rp:105"
+    },
+    {
+      "key": [
+        "federal reserve",
+        "chair"
+      ],
+      "cutoff": 1996.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:107",
+      "prefix_cid": "rp:107"
+    },
+    {
+      "key": [
+        "federal reserve",
+        "chair"
+      ],
+      "cutoff": 2010.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:108",
+      "prefix_cid": "rp:108"
+    },
+    {
+      "key": [
+        "federal reserve",
+        "chair"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:109",
+      "prefix_cid": "rp:109"
+    },
+    {
+      "key": [
+        "fifa",
+        "president"
+      ],
+      "cutoff": 1986.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:111",
+      "prefix_cid": "rp:111"
+    },
+    {
+      "key": [
+        "fifa",
+        "president"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:112",
+      "prefix_cid": "rp:112"
+    },
+    {
+      "key": [
+        "catholic church",
+        "pope"
+      ],
+      "cutoff": 1991.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:114",
+      "prefix_cid": "rp:114"
+    },
+    {
+      "key": [
+        "catholic church",
+        "pope"
+      ],
+      "cutoff": 2009.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:115",
+      "prefix_cid": "rp:115"
+    },
+    {
+      "key": [
+        "catholic church",
+        "pope"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:116",
+      "prefix_cid": "rp:116"
+    },
+    {
+      "key": [
+        "european central bank",
+        "president"
+      ],
+      "cutoff": 2000.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:118",
+      "prefix_cid": "rp:118"
+    },
+    {
+      "key": [
+        "european central bank",
+        "president"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:119",
+      "prefix_cid": "rp:119"
+    },
+    {
+      "key": [
+        "european central bank",
+        "president"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:120",
+      "prefix_cid": "rp:120"
+    },
+    {
+      "key": [
+        "world bank",
+        "president"
+      ],
+      "cutoff": 2000.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:122",
+      "prefix_cid": "rp:122"
+    },
+    {
+      "key": [
+        "world bank",
+        "president"
+      ],
+      "cutoff": 2006.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:123",
+      "prefix_cid": "rp:123"
+    },
+    {
+      "key": [
+        "world bank",
+        "president"
+      ],
+      "cutoff": 2009.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:123",
+      "prefix_cid": "rp:123"
+    },
+    {
+      "key": [
+        "world bank",
+        "president"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:123",
+      "prefix_cid": "rp:123"
+    },
+    {
+      "key": [
+        "world bank",
+        "president"
+      ],
+      "cutoff": 2021.0,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rp:123",
+      "prefix_cid": "rp:123"
+    },
+    {
+      "key": [
+        "international olympic committee",
+        "president"
+      ],
+      "cutoff": 1990.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:128",
+      "prefix_cid": "rp:128"
+    },
+    {
+      "key": [
+        "international olympic committee",
+        "president"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:129",
+      "prefix_cid": "rp:129"
+    },
+    {
+      "key": [
+        "international olympic committee",
+        "president"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rp:130",
+      "prefix_cid": "rp:130"
+    }
+  ]
+}

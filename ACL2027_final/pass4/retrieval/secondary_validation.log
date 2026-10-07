@@ -1,0 +1,237 @@
+processed 250
+processed 500
+processed 750
+processed 1000
+processed 1250
+processed 1500
+processed 1750
+processed 2000
+processed 2250
+{
+  "analysis": "Declared post-confirmation ranking portability; no answer labels read.",
+  "queries": 2348,
+  "parsed_queries": 2296,
+  "unparsed_queries": 52,
+  "full_mask_checks_per_query": 1584,
+  "source_units": 33433,
+  "modeled_claims": 792,
+  "fixed_main_modeled_cohort": 417,
+  "fixed_union_modeled_cohort": 860,
+  "variants": {
+    "bm25": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2179,
+        "modeled_contexts": 530,
+        "mean_examined_candidates": 5.161149825783972,
+        "mean_support_checks": 0.7726480836236934,
+        "max_examined_candidates": 10
+      },
+      "own_modeled_contexts": {
+        "queries": 530,
+        "stable": 413,
+        "modeled_contexts": 530,
+        "mean_examined_candidates": 5.258490566037736,
+        "mean_support_checks": 2.9075471698113207,
+        "max_examined_candidates": 10
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 417,
+        "stable": 315,
+        "modeled_contexts": 397,
+        "mean_examined_candidates": 5.2829736211031175,
+        "mean_support_checks": 2.9112709832134294,
+        "max_examined_candidates": 10
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 860,
+        "stable": 743,
+        "modeled_contexts": 530,
+        "mean_examined_candidates": 5.2081395348837205,
+        "mean_support_checks": 1.8406976744186045,
+        "max_examined_candidates": 10
+      }
+    },
+    "bm25_latestyear": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2156,
+        "modeled_contexts": 810,
+        "mean_examined_candidates": 5.119337979094077,
+        "mean_support_checks": 1.1245644599303135,
+        "max_examined_candidates": 10
+      },
+      "own_modeled_contexts": {
+        "queries": 810,
+        "stable": 670,
+        "modeled_contexts": 810,
+        "mean_examined_candidates": 5.153086419753087,
+        "mean_support_checks": 3.0024691358024693,
+        "max_examined_candidates": 10
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 417,
+        "stable": 317,
+        "modeled_contexts": 396,
+        "mean_examined_candidates": 5.242206235011991,
+        "mean_support_checks": 3.2206235011990407,
+        "max_examined_candidates": 10
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 860,
+        "stable": 720,
+        "modeled_contexts": 810,
+        "mean_examined_candidates": 5.145348837209302,
+        "mean_support_checks": 2.8290697674418603,
+        "max_examined_candidates": 10
+      }
+    },
+    "title_bm25": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2194,
+        "modeled_contexts": 465,
+        "mean_examined_candidates": 5.1624564459930316,
+        "mean_support_checks": 0.6990418118466899,
+        "max_examined_candidates": 10
+      },
+      "own_modeled_contexts": {
+        "queries": 465,
+        "stable": 363,
+        "modeled_contexts": 465,
+        "mean_examined_candidates": 5.288172043010753,
+        "mean_support_checks": 2.9376344086021504,
+        "max_examined_candidates": 10
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 417,
+        "stable": 316,
+        "modeled_contexts": 397,
+        "mean_examined_candidates": 5.299760191846523,
+        "mean_support_checks": 2.908872901678657,
+        "max_examined_candidates": 10
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 860,
+        "stable": 758,
+        "modeled_contexts": 465,
+        "mean_examined_candidates": 5.217441860465116,
+        "mean_support_checks": 1.65,
+        "max_examined_candidates": 10
+      }
+    },
+    "title_residual": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2192,
+        "modeled_contexts": 417,
+        "mean_examined_candidates": 5.119337979094077,
+        "mean_support_checks": 0.6027874564459931,
+        "max_examined_candidates": 12
+      },
+      "own_modeled_contexts": {
+        "queries": 417,
+        "stable": 313,
+        "modeled_contexts": 417,
+        "mean_examined_candidates": 5.261390887290168,
+        "mean_support_checks": 2.92326139088729,
+        "max_examined_candidates": 11
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 417,
+        "stable": 313,
+        "modeled_contexts": 417,
+        "mean_examined_candidates": 5.261390887290168,
+        "mean_support_checks": 2.92326139088729,
+        "max_examined_candidates": 11
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 860,
+        "stable": 756,
+        "modeled_contexts": 417,
+        "mean_examined_candidates": 5.167441860465116,
+        "mean_support_checks": 1.458139534883721,
+        "max_examined_candidates": 12
+      }
+    },
+    "title_bm25_latestyear": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2179,
+        "modeled_contexts": 646,
+        "mean_examined_candidates": 5.118031358885017,
+        "mean_support_checks": 0.8985191637630662,
+        "max_examined_candidates": 10
+      },
+      "own_modeled_contexts": {
+        "queries": 646,
+        "stable": 529,
+        "modeled_contexts": 646,
+        "mean_examined_candidates": 5.178018575851393,
+        "mean_support_checks": 2.9520123839009287,
+        "max_examined_candidates": 10
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 417,
+        "stable": 316,
+        "modeled_contexts": 399,
+        "mean_examined_candidates": 5.244604316546763,
+        "mean_support_checks": 3.1079136690647484,
+        "max_examined_candidates": 10
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 860,
+        "stable": 743,
+        "modeled_contexts": 646,
+        "mean_examined_candidates": 5.148837209302326,
+        "mean_support_checks": 2.2325581395348837,
+        "max_examined_candidates": 10
+      }
+    },
+    "title_residual_latestyear": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2190,
+        "modeled_contexts": 569,
+        "mean_examined_candidates": 5.060540069686411,
+        "mean_support_checks": 0.7286585365853658,
+        "max_examined_candidates": 8
+      },
+      "own_modeled_contexts": {
+        "queries": 569,
+        "stable": 463,
+        "modeled_contexts": 569,
+        "mean_examined_candidates": 5.077328646748682,
+        "mean_support_checks": 2.773286467486819,
+        "max_examined_candidates": 8
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 417,
+        "stable": 330,
+        "modeled_contexts": 381,
+        "mean_examined_candidates": 5.09832134292566,
+        "mean_support_checks": 2.6402877697841727,
+        "max_examined_candidates": 8
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 860,
+        "stable": 754,
+        "modeled_contexts": 569,
+        "mean_examined_candidates": 5.067441860465117,
+        "mean_support_checks": 1.8511627906976744,
+        "max_examined_candidates": 8
+      }
+    }
+  },
+  "elapsed_seconds": 318.84184217453003,
+  "input_sha256": {
+    "pass4/pipeline/validation/units.jsonl": "c5bb8085ff8b8a8fb329abdcd928ee8fa5d0983389d5897c04c3e0e34328e4ab",
+    "pass4/pipeline/validation/claims.jsonl": "9bf8aab587ed13334d15860f7d286253c5353ed06e4b8e6f3eb1eb2bf4fca143",
+    "pass4/protocol/dev_validation_queries.jsonl": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/secondary_rankings.py": "666d072fe32c0184044f6b999a035a836c755b4885ace750240dd0b9629232dd",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/ranking.py": "bd898547382a12903b34656c4d06d518c63390efb68aec0fdbd46722066205dd",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/lazy_certificate.py": "6264334ccc46694b27ce99ce6b5795a59983b3dda7fefc2f6b1e2fc3e53fdc24",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/SECONDARY_RANKING_PROTOCOL.json": "399128bc485661e264a6e4a165cd0b3816a6378b8f0a8de9c0910da23c2b1d30",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/secondary_rank_equivalence.json": "ee901112f5c6034bec0eac755cc112f54bb05f48ce2f52b9e46e35941c7e38af"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "all_parsed": {
+    "queries": 2296,
+    "budgets": {
+      "1": {
+        "stable": 2267,
+        "rate": 0.9873693379790941
+      },
+      "3": {
+        "stable": 2241,
+        "rate": 0.9760452961672473
+      },
+      "5": {
+        "stable": 2227,
+        "rate": 0.9699477351916377
+      },
+      "10": {
+        "stable": 2213,
+        "rate": 0.9638501742160279
+      },
+      "20": {
+        "stable": 2155,
+        "rate": 0.938588850174216
+      }
+    }
+  },
+  "fixed_modeled_top5_cohort": {
+    "queries": 375,
+    "budgets": {
+      "1": {
+        "stable": 346,
+        "rate": 0.9226666666666666
+      },
+      "3": {
+        "stable": 320,
+        "rate": 0.8533333333333334
+      },
+      "5": {
+        "stable": 306,
+        "rate": 0.816
+      },
+      "10": {
+        "stable": 304,
+        "rate": 0.8106666666666666
+      },
+      "20": {
+        "stable": 299,
+        "rate": 0.7973333333333333
+      }
+    }
+  },
+  "frozen_cohort_definition": "Parsed validation queries with at least one modeled excerpt in the original rendered possible-support context at k=5.",
+  "scope": "Complete frozen BM25 ranking and independent modeled dates, with fixed fallback. Vary the source-unit budget without the 768-token clipping step.",
+  "decision": "Let r be the first unresolved item in possible-filtered order. All k<r are stable. All k>=r are unstable. If no such item exists, every budget is stable.",
+  "direct_context_equality_checks": 11480,
+  "matched_original_k5_certificates": 2296,
+  "gold_label_reads": 0,
+  "model_calls": 0,
+  "elapsed_seconds": 19.132355036999797,
+  "input_sha256": {
+    "pass3/pipeline/validation/units.jsonl": "2052380ea816cbedb86bbc25241eda2c9590076b7374bd8c33d1021a70f9a49d",
+    "pass3/pipeline/validation/claims.jsonl": "d6e002a48d770272a74e698afe0ebcad7fd533e7057d194944aa924552ca1986",
+    "pass3/pipeline/validation/mechanism_questions.jsonl": "ced2a0591074ff1459548a9d9178ea36cb68b0216250fe81cf09446d56559a60",
+    "pass3/protocol/dev_validation_queries.jsonl": "940b69da0e25df86d69f209df7e34602ab1e56e6c4b8eba666d94afab63446fe",
+    "/workspace/scratch/956c06247f78/pass3/pipeline/stable_budget.py": "73035cd4521aa21e3985d106591ceb2f59719edf8285c6ecbbc31f767f020f01",
+    "/workspace/scratch/956c06247f78/pass3/pipeline/run_matched.py": "a0a109aa4eab810686e372a57c3d4a5bc3663b9b9d31e49a97a9ab31ec200a39"
+  }
+}

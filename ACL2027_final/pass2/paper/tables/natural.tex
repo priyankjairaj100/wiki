@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrrr}
+\toprule
+& \multicolumn{2}{c}{Human} & \multicolumn{2}{c}{Templates} \\
+Policy & H@5 & R@5 & H@5 & R@5 \\
+\midrule
+BM25 & 45.66 & 45.04 & 32.49 & 31.75 \\
+Latest year & 54.70 & 54.02 & 51.86 & 50.89 \\
+Year envelope & 49.16 & 48.33 & 34.44 & 33.67 \\
+Explicit range & 44.10 & 43.53 & 32.11 & 31.39 \\
+Range support & 44.58 & 44.00 & 38.50 & 37.63 \\
+\bottomrule
+\end{tabular}
+\caption{TimeQA paragraph retrieval percentages. H@5 measures annotated-passage coverage; R@5 measures annotated-span recall. The tracks contain 830 human questions and 2,613 template questions.}
+\label{tab:natural}
+\end{table}

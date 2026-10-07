@@ -1,0 +1,66 @@
+\section{Evaluation Protocol}
+\label{sec:protocol}
+
+We evaluate compiler correctness and the evidence conditions that temporal retrieval must handle.
+The corpus experiments compare temporal baselines on annual records and natural paragraphs.
+An independent enumeration tests the new uncertainty compiler against its possible-world definition.
+
+\paragraph{Complete annual answer sets.}
+We use all 34,963 original TempLAMA test records across 4,057 subject--relation keys~\citep{dhingra2022templama}.
+Rendering every listed answer produces 45,866 positive observations.
+Each observation contains its source sentence, an opaque identifier, and its answer year.
+This year specifies the benchmark target time, rather than document publication or arrival.
+We evaluate only years with an original answer set.
+Multiple annual answers can describe concurrent facts or succession within one year.
+A missing answer creates no retirement event.
+
+We freeze a key-disjoint split before evaluating the new conditions.
+The 300 keys used in earlier development remain excluded from test.
+A fixed hash assigns 764 additional keys to development and 2,993 keys to test.
+The resulting test contains 25,752 annual questions.
+All methods search the same complete pool.
+The nine public question templates define text-only subject, relation, and value parsers.
+Source entity identifiers and answer identifiers enter scoring only.
+Six textual slots merge distinct source entities with identical question wording.
+We retain these cases and publish their identifiers.
+
+\paragraph{Natural paragraphs.}
+TimeQA supplies 33,493 original paragraphs from 749 Wikipedia articles~\citep{chen2021timeqa}.
+The index includes each visible article title.
+Our primary track contains 830 human questions with nonempty annotated answer spans.
+A diagnostic track uses 2,613 questions generated from official templates over the same articles.
+These tracks exclude 159 and 384 empty-span placeholders, respectively.
+We identify these placeholders before inspecting retrieval outcomes.
+Every retained span matches its original paragraph substring exactly.
+Human questions form a query variant of this corpus.
+
+\paragraph{Temporal baselines.}
+We use BM25 with $k_1=1.5$ and $b=0.75$~\citep{robertson1995bm25}.
+The common context budget is five observations.
+The annual experiment includes recent-date tie breaking, date-first ranking, and exponential age weighting.
+Development selects the age half-life from $\{0.5,1,2,5,10,\infty\}$ years using mean key-level Hit@1.
+The selected half-life is two years.
+The original lexical predicate closes an observation at its earliest matched different-value observation.
+A matched Graphiti condition executes verified upstream temporal code with text-parsed slots and values~\citep{graphiti2026source}.
+This condition evaluates the temporal policy kernel.
+Query latest-value returns one observation from the latest matching year.
+Query latest-batch retains every observation tied at that year.
+
+Natural-paragraph policies extract year mentions and explicit year ranges from text.
+Latest-year reranks twenty BM25 candidates by the latest mentioned year not after the question's upper bound.
+Year-envelope filtering retains paragraphs whose mentioned-year span overlaps the requested period.
+Range filtering requires overlap with an explicit range when one is present.
+Range-support reranking promotes overlapping ranges within twenty candidates.
+Both filters retain paragraphs without their required temporal feature.
+We freeze these rules before execution.
+
+\paragraph{Measurements.}
+Annual Hit@1 requires the correct source key and an accepted answer identifier.
+Answer Recall@5 measures the fraction of distinct accepted answers represented in five observations.
+Stale@5 records a retrieved target-key value absent from that year's answer set.
+Candidate suppression measures accepted values removed before the final context selection.
+TimeQA Hit@5 measures whether five retrieved paragraphs contain an annotated answer span.
+Span Recall@5 measures the fraction of annotated spans covered.
+These metrics assess evidence selection.
+Confidence intervals resample complete keys for TempLAMA and complete articles for TimeQA.
+We use 5,000 and 2,000 resamples, respectively, with seed 20261006.

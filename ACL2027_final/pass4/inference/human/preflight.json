@@ -1,0 +1,22 @@
+{
+  "start_preflight_utc": "2026-10-06T12:23:28.765235+00:00",
+  "questions": 60,
+  "logical_conditions": 600,
+  "distinct_jobs": 193,
+  "methods": {
+    "no_temporal_filter": 60,
+    "earliest_completion": 60,
+    "midpoint_completion": 60,
+    "latest_completion": 60,
+    "interval_outer_control": 60,
+    "possible_support": 60,
+    "guaranteed_support": 60,
+    "latest_mentioned_year_top20": 60,
+    "original_bm25": 60,
+    "original_bm25_latestyear": 60
+  },
+  "freeze": "pass4/inference/provenance/primary_reader_freeze_v2.json",
+  "exact_prompt_checks": 193,
+  "input_manifest_verified": true,
+  "membership_preserved": true
+}

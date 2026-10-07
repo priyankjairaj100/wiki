@@ -1,0 +1,246 @@
+{
+  "n_files": 60,
+  "all_verified": true,
+  "checks": [
+    {
+      "path": "data/freshrag/claims.jsonl",
+      "ok": true
+    },
+    {
+      "path": "data/multihop_asof/claims.jsonl",
+      "ok": true
+    },
+    {
+      "path": "data/multihop_real/claims.jsonl",
+      "ok": true
+    },
+    {
+      "path": "data/realprose/claims.jsonl",
+      "ok": true
+    },
+    {
+      "path": "data/realwiki/claims.jsonl",
+      "ok": true
+    },
+    {
+      "path": "data/realworld/claims.jsonl",
+      "ok": true
+    },
+    {
+      "path": "data/templama/claims.jsonl",
+      "ok": true
+    },
+    {
+      "path": "data/wikidata/claims.jsonl",
+      "ok": true
+    },
+    {
+      "path": "data/wikidata_prose/claims.jsonl",
+      "ok": true
+    },
+    {
+      "path": "data/wikidata_prose_normalized/claims.jsonl",
+      "ok": true
+    },
+    {
+      "path": "results/ablation_freshrag.json",
+      "ok": true
+    },
+    {
+      "path": "results/ablation_realworld.json",
+      "ok": true
+    },
+    {
+      "path": "results/ablation_templama.json",
+      "ok": true
+    },
+    {
+      "path": "results/ablation_wikidata.json",
+      "ok": true
+    },
+    {
+      "path": "results/ablation_wikidata_prose.json",
+      "ok": true
+    },
+    {
+      "path": "results/asof_realworld.json",
+      "ok": true
+    },
+    {
+      "path": "results/asof_templama.json",
+      "ok": true
+    },
+    {
+      "path": "results/asof_wikidata.json",
+      "ok": true
+    },
+    {
+      "path": "results/asof_wikidata_prose.json",
+      "ok": true
+    },
+    {
+      "path": "results/calibration_realworld.json",
+      "ok": true
+    },
+    {
+      "path": "results/calibration_templama.json",
+      "ok": true
+    },
+    {
+      "path": "results/detection_freshrag.json",
+      "ok": true
+    },
+    {
+      "path": "results/detection_realprose.json",
+      "ok": true
+    },
+    {
+      "path": "results/detection_realwiki.json",
+      "ok": true
+    },
+    {
+      "path": "results/detection_realworld.json",
+      "ok": true
+    },
+    {
+      "path": "results/detection_templama.json",
+      "ok": true
+    },
+    {
+      "path": "results/detection_wikidata.json",
+      "ok": true
+    },
+    {
+      "path": "results/detection_wikidata_prose.json",
+      "ok": true
+    },
+    {
+      "path": "results/history_sweep.json",
+      "ok": true
+    },
+    {
+      "path": "results/history_templama_extractive.json",
+      "ok": true
+    },
+    {
+      "path": "results/history_templama_qwen.json",
+      "ok": true
+    },
+    {
+      "path": "results/hybrid.json",
+      "ok": true
+    },
+    {
+      "path": "results/judge_wikidata.json",
+      "ok": true
+    },
+    {
+      "path": "results/judge_wikidata_gpt-4.1-mini.json",
+      "ok": true
+    },
+    {
+      "path": "results/judge_wikidata_gpt-4o-mini.json",
+      "ok": true
+    },
+    {
+      "path": "results/multihop.json",
+      "ok": true
+    },
+    {
+      "path": "results/multihop_asof.json",
+      "ok": true
+    },
+    {
+      "path": "results/multihop_full.json",
+      "ok": true
+    },
+    {
+      "path": "results/multihop_real.json",
+      "ok": true
+    },
+    {
+      "path": "results/pooled_wikidata_freshrag_realworld.json",
+      "ok": true
+    },
+    {
+      "path": "results/pooled_wikidata_freshrag_realworld_templama.json",
+      "ok": true
+    },
+    {
+      "path": "results/positional_compare.json",
+      "ok": true
+    },
+    {
+      "path": "results/qa_realprose_extractive.json",
+      "ok": true
+    },
+    {
+      "path": "results/qa_realprose_qwen.json",
+      "ok": true
+    },
+    {
+      "path": "results/qa_templama_extractive.json",
+      "ok": true
+    },
+    {
+      "path": "results/qa_templama_qwen.json",
+      "ok": true
+    },
+    {
+      "path": "results/qa_wikidata_extractive.json",
+      "ok": true
+    },
+    {
+      "path": "results/qa_wikidata_gpt-4o-mini.json",
+      "ok": true
+    },
+    {
+      "path": "results/qa_wikidata_qwen.json",
+      "ok": true
+    },
+    {
+      "path": "results/ragtime_heldout_tuning.json",
+      "ok": true
+    },
+    {
+      "path": "results/retrieval_freshrag.json",
+      "ok": true
+    },
+    {
+      "path": "results/retrieval_templama.json",
+      "ok": true
+    },
+    {
+      "path": "results/retrieval_wikidata.json",
+      "ok": true
+    },
+    {
+      "path": "results/scaling.json",
+      "ok": true
+    },
+    {
+      "path": "results/temporal_rag_baselines_extractive.json",
+      "ok": true
+    },
+    {
+      "path": "results/temporal_rag_baselines_qwen.json",
+      "ok": true
+    },
+    {
+      "path": "results/tempralm_topicality_audit.json",
+      "ok": true
+    },
+    {
+      "path": "results/timestamp_noise_freshrag.json",
+      "ok": true
+    },
+    {
+      "path": "results/timestamp_noise_templama.json",
+      "ok": true
+    },
+    {
+      "path": "results/timestamp_noise_wikidata.json",
+      "ok": true
+    }
+  ]
+}

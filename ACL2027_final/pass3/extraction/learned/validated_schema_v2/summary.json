@@ -1,0 +1,23 @@
+{
+  "jobs": 6,
+  "states_returned": 29,
+  "successions_returned": 17,
+  "literal_grounded_states": 0,
+  "literal_grounded_successions": 1,
+  "grounding_failures": 45,
+  "failure_reasons": {
+    "date_not_in_quote_or_partial_season": 1,
+    "quote_not_literal": 40,
+    "holder_not_literal": 2,
+    "next_not_literal": 1,
+    "previous_not_literal": 1
+  },
+  "compiler_candidates": 1,
+  "pair_candidates": 0,
+  "pair_failures": {
+    "unknown_or_ambiguous_occurrence": 1
+  },
+  "source_sha256": "15538757a6c6a52dbf8a4fba96f9177f5665bea36c6553459c40bd6a067ee11a",
+  "raw_outputs_sha256": "1844aa5c4158ae88cd728b4931949fb73cb399685dbe3b5dc2e45362f17ef612",
+  "scope": "Exploratory source-only DEV extraction. Literal grounding is not semantic correctness. All compiler and pair candidates require a separate source audit. No QA performance claim."
+}

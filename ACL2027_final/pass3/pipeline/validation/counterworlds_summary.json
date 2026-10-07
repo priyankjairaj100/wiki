@@ -1,0 +1,28 @@
+{
+  "queries": 2348,
+  "ambiguous_queries": 69,
+  "constructed_pairs": 69,
+  "replayed_worlds": 138,
+  "claim_contexts_differ": 69,
+  "rendered_contexts_differ": 69,
+  "frontier_sizes": {
+    "1": 67,
+    "2": 2
+  },
+  "exclusion_reasons": {
+    "retired_by_query_start": 47,
+    "start_after_query": 22
+  },
+  "modeled_source_claims": 481,
+  "events_per_world": 702,
+  "status": "passed",
+  "scope": "Actual source bounds with independent event dates and fixed fallback; world assignments are constructed audit examples, not measured event dates.",
+  "input_sha256": {
+    "pass3/pipeline/validation/predictions.jsonl": "ec79411675b5c6a6afd1ed654aae542bbb17c37573508a0ba478b2788625c18a",
+    "pass3/pipeline/validation/claims.jsonl": "d6e002a48d770272a74e698afe0ebcad7fd533e7057d194944aa924552ca1986",
+    "pass3/pipeline/validation/units.jsonl": "2052380ea816cbedb86bbc25241eda2c9590076b7374bd8c33d1021a70f9a49d",
+    "/workspace/scratch/956c06247f78/pass3/theory/refinement.py": "f8afbfce035a47d7875584d28b925f88bc7a02e347977c0303ee6cb39f518c55",
+    "/workspace/scratch/956c06247f78/pass3/pipeline/build_counterworlds.py": "0769e606185c0da570931f0dd39088cfd50256bb71d7a491c744f3569c1e07c2"
+  },
+  "counterworlds_sha256": "a7e26c3aff3e5964524c860e503a69dd654081820b3bbfe87a11aa90feff52d6"
+}

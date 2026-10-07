@@ -1,0 +1,274 @@
+{
+  "tie_batches": [
+    {
+      "key": [
+        "australia",
+        "head of government"
+      ],
+      "time": 2013.0,
+      "values": [
+        "kevin rudd",
+        "tony abbott"
+      ]
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "time": 2019.0,
+      "values": [
+        "brigitte bierlein",
+        "hartwig löger"
+      ]
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "time": 2021.0,
+      "values": [
+        "alexander schallenberg",
+        "karl nehammer"
+      ]
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "time": 2025.0,
+      "values": [
+        "alexander schallenberg",
+        "christian stocker"
+      ]
+    },
+    {
+      "key": [
+        "boeing",
+        "chief executive officer"
+      ],
+      "time": 2005.0,
+      "values": [
+        "james a. bell",
+        "james mcnerney"
+      ]
+    },
+    {
+      "key": [
+        "finland",
+        "head of government"
+      ],
+      "time": 2019.0,
+      "values": [
+        "antti rinne",
+        "sanna marin"
+      ]
+    },
+    {
+      "key": [
+        "france",
+        "head of government"
+      ],
+      "time": 2024.0,
+      "values": [
+        "françois bayrou",
+        "gabriel attal",
+        "michel barnier"
+      ]
+    },
+    {
+      "key": [
+        "israel",
+        "head of government"
+      ],
+      "time": 2022.0,
+      "values": [
+        "benjamin netanyahu",
+        "yair lapid"
+      ]
+    },
+    {
+      "key": [
+        "the united kingdom",
+        "head of government"
+      ],
+      "time": 2022.0,
+      "values": [
+        "liz truss",
+        "rishi sunak"
+      ]
+    }
+  ],
+  "recurring_keys": [
+    {
+      "key": [
+        "australia",
+        "head of government"
+      ],
+      "values": [
+        "kevin rudd",
+        "julia gillard",
+        "kevin rudd",
+        "tony abbott",
+        "malcolm turnbull",
+        "scott morrison",
+        "anthony albanese"
+      ]
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "values": [
+        "wolfgang schüssel",
+        "alfred gusenbauer",
+        "werner faymann",
+        "christian kern",
+        "sebastian kurz",
+        "hartwig löger",
+        "brigitte bierlein",
+        "sebastian kurz",
+        "alexander schallenberg",
+        "karl nehammer",
+        "alexander schallenberg",
+        "christian stocker"
+      ]
+    },
+    {
+      "key": [
+        "denmark",
+        "head of government"
+      ],
+      "values": [
+        "anders fogh rasmussen",
+        "lars løkke rasmussen",
+        "helle thorning-schmidt",
+        "lars løkke rasmussen",
+        "mette frederiksen"
+      ]
+    },
+    {
+      "key": [
+        "disney",
+        "chief executive officer"
+      ],
+      "values": [
+        "bob iger",
+        "bob chapek",
+        "bob iger",
+        "josh d'amaro"
+      ]
+    },
+    {
+      "key": [
+        "ireland",
+        "head of government"
+      ],
+      "values": [
+        "micheál martin",
+        "leo varadkar",
+        "simon harris",
+        "micheál martin"
+      ]
+    },
+    {
+      "key": [
+        "israel",
+        "head of government"
+      ],
+      "values": [
+        "ariel sharon",
+        "ehud olmert",
+        "benjamin netanyahu",
+        "naftali bennett",
+        "yair lapid",
+        "benjamin netanyahu"
+      ]
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "values": [
+        "giuliano amato",
+        "silvio berlusconi",
+        "romano prodi",
+        "silvio berlusconi",
+        "mario monti",
+        "enrico letta",
+        "matteo renzi",
+        "paolo gentiloni",
+        "giuseppe conte",
+        "mario draghi",
+        "giorgia meloni"
+      ]
+    },
+    {
+      "key": [
+        "norway",
+        "head of government"
+      ],
+      "values": [
+        "q57665",
+        "kjell magne bondevik",
+        "q57665",
+        "erna solberg",
+        "jonas gahr støre"
+      ]
+    },
+    {
+      "key": [
+        "poland",
+        "head of government"
+      ],
+      "values": [
+        "leszek miller",
+        "marek belka",
+        "kazimierz marcinkiewicz",
+        "jarosław kaczyński",
+        "donald tusk",
+        "ewa kopacz",
+        "beata szydło",
+        "mateusz morawiecki",
+        "donald tusk"
+      ]
+    },
+    {
+      "key": [
+        "turkey",
+        "head of government"
+      ],
+      "values": [
+        "abdullah gül",
+        "recep tayyip erdoğan",
+        "ahmet davutoğlu",
+        "binali yıldırım",
+        "recep tayyip erdoğan"
+      ]
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "values": [
+        "q32777",
+        "stanislav gross",
+        "jiří paroubek",
+        "mirek topolánek",
+        "jan fischer",
+        "petr nečas",
+        "jiří rusnok",
+        "bohuslav sobotka",
+        "andrej babiš",
+        "petr fiala",
+        "andrej babiš"
+      ]
+    }
+  ],
+  "cross_key_pairs": []
+}

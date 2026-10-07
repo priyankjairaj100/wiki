@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "api_tests": 7,
+  "configurations": 180,
+  "worlds": 3658,
+  "support_predicates": 39600,
+  "stability_conditions": 29700,
+  "scope": "Constructed finite-world correctness checks, not benchmark examples."
+}

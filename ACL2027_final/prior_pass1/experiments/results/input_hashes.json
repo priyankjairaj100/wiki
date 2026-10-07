@@ -1,0 +1,13 @@
+{
+  "data/freshrag/claims.jsonl": "c0a860047d5a24985e46bce5718b44a9ba231bf6e47446d2238e5e21ede8e653",
+  "data/multihop_asof/claims.jsonl": "bf0def9d63619950fcc2177ebdfd3f5d6ddff5e9901c8f2349789cdec8534559",
+  "data/multihop_real/claims.jsonl": "0ebfa56437cb8b92f3fec5f4de6c97f322ad048fb015d5e3fee749ec634facb6",
+  "data/realprose/claims.jsonl": "ca2c4a932036da2db9f0b9ee6098a751e7cb61f54484278e11e9af08c39e3205",
+  "data/realwiki/claims.jsonl": "92ef9c187f38b84b6e0cdede12018f9596caa7933dcf27508bafbe9a906b7945",
+  "data/realworld/claims.jsonl": "4ff20069843877de238bdbad76d1073477001fc48f83566ff77c45fae0fdfd4b",
+  "data/templama/claims.jsonl": "6489bce610ae2677a454a06a1af1a07c0d376d638a1ce1ac6ca5eccc6c5ef354",
+  "data/wikidata/claims.jsonl": "0e48204aa6cfc6a00e800c07d8c498c12ccd099e8a8507dc10d13767e2b341c4",
+  "data/wikidata_prose/claims.jsonl": "d87e64f18fb59c00ecc31e21ce91f7865e96227c787644a076fd76303e1275d4",
+  "data/wikidata_prose_normalized/claims.jsonl": "61aa83fdf4d8d781b4046843bd39ec1a89249c7c0f3ae6d2f174b1eedddd5761",
+  "run_evidence.py": "9479829079b1a6acc9fbbe59b378d88afccc78d79de10a400fe90e1c58551d2d"
+}

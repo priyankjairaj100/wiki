@@ -1,0 +1,27 @@
+{
+  "dev_disjoint_nonempty": {
+    "annotations": 2651,
+    "histories": 731,
+    "removed_article_paths": [
+      "/wiki/Attaphol_Buspakom",
+      "/wiki/Carl_August_Ehrensv\u00e4rd_(1858\u20131944)",
+      "/wiki/Don_Cazayoux",
+      "/wiki/Jaap_Stam",
+      "/wiki/Lotte_Reiniger",
+      "/wiki/Lucy_Wills",
+      "/wiki/Rock_Crystal_(Faberg\u00e9_egg)",
+      "/wiki/The_Fifer"
+    ],
+    "rule": "Remove all dev histories whose article occurs in test; then exclude questions without a nonempty gold span. Do not tune on test."
+  },
+  "human_test": {
+    "histories": 257,
+    "questions": 989,
+    "source": "Published human-authored subset of test; not a separate independent split.",
+    "all_paragraphs_and_answer_annotations_match_parent_test": true,
+    "multi_answer_questions": 49,
+    "zero_length_empty_answer_questions": 159,
+    "questions_with_nonempty_gold_spans": 830
+  }
+}
+examples 5

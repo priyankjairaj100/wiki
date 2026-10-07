@@ -1,0 +1,11 @@
+{
+  "phase": "Calibration, pre-freeze",
+  "review_type": "Independent model-assisted source audit",
+  "new_records_reviewed": 76,
+  "status_counts": {
+    "accept": 71,
+    "reject": 5
+  },
+  "answer_label_reads": 0,
+  "scope": "All new extracted spans inspected. Full paragraphs inspected for six ambiguous cases. This is development feedback, not confirmation precision."
+}

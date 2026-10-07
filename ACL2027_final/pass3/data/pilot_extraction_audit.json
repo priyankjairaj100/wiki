@@ -1,0 +1,832 @@
+{
+  "audit_type": "Independent model-assisted qualitative review. Calibration only. Not a human annotation or test precision claim.",
+  "input_file": "pass3/extraction/pilot_results/blind_audit_records.jsonl",
+  "input_sha256": "f62ec314168f9625aaef49f2b54d4a8719193ce0f8907ee8051ec8f43da60bea",
+  "selection": "First ten records from the frozen pilot audit.",
+  "records": [
+    {
+      "audit_id": "E001",
+      "article_path": "/wiki/Asa_Biggs",
+      "source_text": "He was a member of the North Carolina Senate from 1844 to 1845 .",
+      "extraction": {
+        "claim_id": "6993c36476e98dbc7c35f9fc",
+        "passage_id": "59cf563c778b159bb97b22c6",
+        "article_path": "/wiki/Asa_Biggs",
+        "source_span": {
+          "start": 486,
+          "end": 550,
+          "text": "He was a member of the North Carolina Senate from 1844 to 1845 ."
+        },
+        "subject": {
+          "surface": "He",
+          "canonical": "Asa Biggs",
+          "source_span": {
+            "start": 486,
+            "end": 488,
+            "text": "He"
+          },
+          "resolution": "article_title_pronoun",
+          "article_title": "Asa Biggs"
+        },
+        "slot": "position",
+        "value": "a member of the North Carolina Senate",
+        "value_span": {
+          "start": 493,
+          "end": 530,
+          "text": "a member of the North Carolina Senate"
+        },
+        "predicate_span": {
+          "start": 489,
+          "end": 492,
+          "text": "was"
+        },
+        "temporal_kind": "validity_duration",
+        "start": {
+          "lower": 673142,
+          "upper": 673507,
+          "lower_iso": "1844-01-01",
+          "upper_iso": "1844-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 536,
+            "end": 540,
+            "text": "1844"
+          }
+        },
+        "end": {
+          "lower": 673508,
+          "upper": 673872,
+          "lower_iso": "1845-01-01",
+          "upper_iso": "1845-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 544,
+            "end": 548,
+            "text": "1845"
+          }
+        },
+        "rule": "explicit_tenure",
+        "replacement_policy": "explicit_succession_only",
+        "compiler_eligible": true,
+        "state_text": "Asa Biggs: position = a member of the North Carolina Senate.",
+        "exclusion_assertion": null,
+        "adapter_version": "source-occurrence-v1",
+        "atomic_span": {
+          "start": 486,
+          "end": 548,
+          "text": "He was a member of the North Carolina Senate from 1844 to 1845"
+        },
+        "coverage_scope": "atomic_clause_only",
+        "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+      },
+      "audit": {
+        "subject_correct": true,
+        "slot_correct": true,
+        "value_correct": true,
+        "event_date_correct": true,
+        "temporal_kind_correct": true,
+        "replacement_supported": false,
+        "notes": "Correct Senate tenure. Birth and other roles remain distinct."
+      },
+      "full_source_text": "Born on February 4 , 1811 , in Williamston , Martin County , North Carolina , Biggs attended the common schools and pursued classical studies , then read law in 1831 . He was admitted to the bar and entered private practice in Williamston from 1831 to 1845 , and from 1847 to 1854 . He was a delegate to the North Carolina constitutional convention in 1835 . He was a member of the North Carolina House of Commons ( now the North Carolina House of Representatives ) from 1840 to 1842 . He was a member of the North Carolina Senate from 1844 to 1845 ."
+    },
+    {
+      "audit_id": "E002",
+      "article_path": "/wiki/Saiyid_Nurul_Hasan",
+      "source_text": "From 1977 to 1980 he was Vice President of the Council of Scientific and Industrial Research ( CSIR ) , New Delhi .",
+      "extraction": {
+        "claim_id": "f67504c141216f4c910b2e3a",
+        "passage_id": "e962c8f047049d390d275ecf",
+        "article_path": "/wiki/Saiyid_Nurul_Hasan",
+        "source_span": {
+          "start": 767,
+          "end": 882,
+          "text": "From 1977 to 1980 he was Vice President of the Council of Scientific and Industrial Research ( CSIR ) , New Delhi ."
+        },
+        "subject": {
+          "surface": "he",
+          "canonical": "Saiyid Nurul Hasan",
+          "source_span": {
+            "start": 785,
+            "end": 787,
+            "text": "he"
+          },
+          "resolution": "article_title_pronoun",
+          "article_title": "Saiyid Nurul Hasan"
+        },
+        "slot": "position",
+        "value": "Vice President of the Council of Scientific and Industrial Research ( CSIR )",
+        "value_span": {
+          "start": 792,
+          "end": 868,
+          "text": "Vice President of the Council of Scientific and Industrial Research ( CSIR )"
+        },
+        "predicate_span": {
+          "start": 788,
+          "end": 791,
+          "text": "was"
+        },
+        "temporal_kind": "validity_duration",
+        "start": {
+          "lower": 721720,
+          "upper": 722084,
+          "lower_iso": "1977-01-01",
+          "upper_iso": "1977-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 772,
+            "end": 776,
+            "text": "1977"
+          }
+        },
+        "end": {
+          "lower": 722815,
+          "upper": 723180,
+          "lower_iso": "1980-01-01",
+          "upper_iso": "1980-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 780,
+            "end": 784,
+            "text": "1980"
+          }
+        },
+        "rule": "explicit_tenure",
+        "replacement_policy": "explicit_succession_only",
+        "compiler_eligible": true,
+        "state_text": "Saiyid Nurul Hasan: position = Vice President of the Council of Scientific and Industrial Research ( CSIR ).",
+        "exclusion_assertion": null,
+        "adapter_version": "source-occurrence-v1",
+        "atomic_span": {
+          "start": 767,
+          "end": 868,
+          "text": "From 1977 to 1980 he was Vice President of the Council of Scientific and Industrial Research ( CSIR )"
+        },
+        "coverage_scope": "atomic_clause_only",
+        "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+      },
+      "audit": {
+        "subject_correct": true,
+        "slot_correct": true,
+        "value_correct": true,
+        "event_date_correct": true,
+        "temporal_kind_correct": true,
+        "replacement_supported": false,
+        "notes": "Correct vice-president tenure. New Delhi is a place qualifier outside the value."
+      },
+      "full_source_text": "A secularist with an abiding faith in leftism , Hasan was a member of the Rajya Sabha from 1969 to 1978 . From 1971 to 1977 , he was the Union Minister of State ( with independent charge ) for Education , Social Welfare & Culture in the Government of India . As Indias education minister , he founded the Indian Council of Historical Research , New Delhi . He was also the architect behind the setting up of 27 social science research institutes in India under the aegis of the Indian Council of Social Science Research ( ICSSR ) , New Delhi , such as the Centre for Studies in Social Sciences , Calcutta ( 1973 ) . When he was a minister , under an act of the parliament , the funding and management of the Rampur Raza Library was given to the Government of India . From 1977 to 1980 he was Vice President of the Council of Scientific and Industrial Research ( CSIR ) , New Delhi ."
+    },
+    {
+      "audit_id": "E003",
+      "article_path": "/wiki/Max_Dehn",
+      "source_text": "From 1900 to 1911 he was an employee and researcher at the University of Münster .",
+      "extraction": {
+        "claim_id": "1ae89c98abf5184de7c3477f",
+        "passage_id": "93a30327bb6fe7b0db34722c",
+        "article_path": "/wiki/Max_Dehn",
+        "source_span": {
+          "start": 0,
+          "end": 82,
+          "text": "From 1900 to 1911 he was an employee and researcher at the University of Münster ."
+        },
+        "subject": {
+          "surface": "he",
+          "canonical": "Max Dehn",
+          "source_span": {
+            "start": 18,
+            "end": 20,
+            "text": "he"
+          },
+          "resolution": "article_title_pronoun",
+          "article_title": "Max Dehn"
+        },
+        "slot": "position",
+        "value": "an employee and researcher at the University of Münster",
+        "value_span": {
+          "start": 25,
+          "end": 80,
+          "text": "an employee and researcher at the University of Münster"
+        },
+        "predicate_span": {
+          "start": 21,
+          "end": 24,
+          "text": "was"
+        },
+        "temporal_kind": "validity_duration",
+        "start": {
+          "lower": 693596,
+          "upper": 693960,
+          "lower_iso": "1900-01-01",
+          "upper_iso": "1900-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 5,
+            "end": 9,
+            "text": "1900"
+          }
+        },
+        "end": {
+          "lower": 697613,
+          "upper": 697977,
+          "lower_iso": "1911-01-01",
+          "upper_iso": "1911-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 13,
+            "end": 17,
+            "text": "1911"
+          }
+        },
+        "rule": "explicit_tenure",
+        "replacement_policy": "explicit_succession_only",
+        "compiler_eligible": true,
+        "state_text": "Max Dehn: position = an employee and researcher at the University of Münster.",
+        "exclusion_assertion": null,
+        "adapter_version": "source-occurrence-v1",
+        "atomic_span": {
+          "start": 0,
+          "end": 80,
+          "text": "From 1900 to 1911 he was an employee and researcher at the University of Münster"
+        },
+        "coverage_scope": "atomic_clause_only",
+        "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+      },
+      "audit": {
+        "subject_correct": true,
+        "slot_correct": true,
+        "value_correct": true,
+        "event_date_correct": true,
+        "temporal_kind_correct": true,
+        "replacement_supported": false,
+        "notes": "Correct employment duration. The role phrase includes the employer."
+      },
+      "full_source_text": "From 1900 to 1911 he was an employee and researcher at the University of Münster . In his habilitation at the University of Münster in 1900 he resolved Hilberts third problem , by introducing what was afterwards called the Dehn invariant . This was the first resolution of one of the Hilbert Problems ."
+    },
+    {
+      "audit_id": "E004",
+      "article_path": "/wiki/Asa_Biggs",
+      "source_text": "He was a member of the North Carolina House of Commons ( now the North Carolina House of Representatives ) from 1840 to 1842 .",
+      "extraction": {
+        "claim_id": "0a8579e65a967aa210d6411d",
+        "passage_id": "59cf563c778b159bb97b22c6",
+        "article_path": "/wiki/Asa_Biggs",
+        "source_span": {
+          "start": 359,
+          "end": 485,
+          "text": "He was a member of the North Carolina House of Commons ( now the North Carolina House of Representatives ) from 1840 to 1842 ."
+        },
+        "subject": {
+          "surface": "He",
+          "canonical": "Asa Biggs",
+          "source_span": {
+            "start": 359,
+            "end": 361,
+            "text": "He"
+          },
+          "resolution": "article_title_pronoun",
+          "article_title": "Asa Biggs"
+        },
+        "slot": "position",
+        "value": "a member of the North Carolina House of Commons ( now the North Carolina House of Representatives )",
+        "value_span": {
+          "start": 366,
+          "end": 465,
+          "text": "a member of the North Carolina House of Commons ( now the North Carolina House of Representatives )"
+        },
+        "predicate_span": {
+          "start": 362,
+          "end": 365,
+          "text": "was"
+        },
+        "temporal_kind": "validity_duration",
+        "start": {
+          "lower": 671681,
+          "upper": 672046,
+          "lower_iso": "1840-01-01",
+          "upper_iso": "1840-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 471,
+            "end": 475,
+            "text": "1840"
+          }
+        },
+        "end": {
+          "lower": 672412,
+          "upper": 672776,
+          "lower_iso": "1842-01-01",
+          "upper_iso": "1842-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 479,
+            "end": 483,
+            "text": "1842"
+          }
+        },
+        "rule": "explicit_tenure",
+        "replacement_policy": "explicit_succession_only",
+        "compiler_eligible": true,
+        "state_text": "Asa Biggs: position = a member of the North Carolina House of Commons ( now the North Carolina House of Representatives ).",
+        "exclusion_assertion": null,
+        "adapter_version": "source-occurrence-v1",
+        "atomic_span": {
+          "start": 359,
+          "end": 483,
+          "text": "He was a member of the North Carolina House of Commons ( now the North Carolina House of Representatives ) from 1840 to 1842"
+        },
+        "coverage_scope": "atomic_clause_only",
+        "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+      },
+      "audit": {
+        "subject_correct": true,
+        "slot_correct": true,
+        "value_correct": true,
+        "event_date_correct": true,
+        "temporal_kind_correct": true,
+        "replacement_supported": false,
+        "notes": "Correct House tenure. The institutional alias remains within the same role phrase."
+      },
+      "full_source_text": "Born on February 4 , 1811 , in Williamston , Martin County , North Carolina , Biggs attended the common schools and pursued classical studies , then read law in 1831 . He was admitted to the bar and entered private practice in Williamston from 1831 to 1845 , and from 1847 to 1854 . He was a delegate to the North Carolina constitutional convention in 1835 . He was a member of the North Carolina House of Commons ( now the North Carolina House of Representatives ) from 1840 to 1842 . He was a member of the North Carolina Senate from 1844 to 1845 ."
+    },
+    {
+      "audit_id": "E005",
+      "article_path": "/wiki/Simon_Lappin",
+      "source_text": "Lappin played for National League club York City from 2016 to 2017 .",
+      "extraction": {
+        "claim_id": "09717320ff1f778ffac3a50d",
+        "passage_id": "ef6276c52feab8dda36ffc66",
+        "article_path": "/wiki/Simon_Lappin",
+        "source_span": {
+          "start": 278,
+          "end": 346,
+          "text": "Lappin played for National League club York City from 2016 to 2017 ."
+        },
+        "subject": {
+          "surface": "Lappin",
+          "canonical": "Simon Lappin",
+          "source_span": {
+            "start": 278,
+            "end": 284,
+            "text": "Lappin"
+          },
+          "resolution": "article_title_alias",
+          "article_title": "Simon Lappin"
+        },
+        "slot": "membership",
+        "value": "National League club York City",
+        "value_span": {
+          "start": 296,
+          "end": 326,
+          "text": "National League club York City"
+        },
+        "predicate_span": {
+          "start": 285,
+          "end": 295,
+          "text": "played for"
+        },
+        "temporal_kind": "validity_duration",
+        "start": {
+          "lower": 735964,
+          "upper": 736329,
+          "lower_iso": "2016-01-01",
+          "upper_iso": "2016-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 332,
+            "end": 336,
+            "text": "2016"
+          }
+        },
+        "end": {
+          "lower": 736330,
+          "upper": 736694,
+          "lower_iso": "2017-01-01",
+          "upper_iso": "2017-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 340,
+            "end": 344,
+            "text": "2017"
+          }
+        },
+        "rule": "explicit_tenure",
+        "replacement_policy": "explicit_succession_only",
+        "compiler_eligible": true,
+        "state_text": "Simon Lappin: membership = National League club York City.",
+        "exclusion_assertion": null,
+        "adapter_version": "source-occurrence-v1",
+        "atomic_span": {
+          "start": 278,
+          "end": 344,
+          "text": "Lappin played for National League club York City from 2016 to 2017"
+        },
+        "coverage_scope": "atomic_clause_only",
+        "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+      },
+      "audit": {
+        "subject_correct": true,
+        "slot_correct": true,
+        "value_correct": true,
+        "event_date_correct": true,
+        "temporal_kind_correct": true,
+        "replacement_supported": false,
+        "notes": "Correct membership duration. Separate source elsewhere supplies a more precise joining day."
+      },
+      "full_source_text": "Lappin began his career with St Mirren before moving to Norwich City in 2007 . He had short loan spells at Motherwell and Cardiff City before moving to Cardiff permanently in 2013 . He had a loan spell with Sheffield United , before playing for St Johnstone from 2014 to 2016 . Lappin played for National League club York City from 2016 to 2017 . He was capped 10 times by the Scotland national under-21 team ."
+    },
+    {
+      "audit_id": "E006",
+      "article_path": "/wiki/Haris_Bukva",
+      "source_text": "In 2006 he moved to SV Pasching in the Austrian Football Bundesliga .",
+      "extraction": {
+        "claim_id": "b892caaf283a10afbfe05bf9",
+        "passage_id": "5381a56c9bb0d772a02c6ac7",
+        "article_path": "/wiki/Haris_Bukva",
+        "source_span": {
+          "start": 164,
+          "end": 233,
+          "text": "In 2006 he moved to SV Pasching in the Austrian Football Bundesliga ."
+        },
+        "subject": {
+          "surface": "he",
+          "canonical": "Haris Bukva",
+          "source_span": {
+            "start": 172,
+            "end": 174,
+            "text": "he"
+          },
+          "resolution": "article_title_pronoun",
+          "article_title": "Haris Bukva"
+        },
+        "slot": "destination",
+        "value": "SV Pasching in the Austrian Football Bundesliga",
+        "value_span": {
+          "start": 184,
+          "end": 231,
+          "text": "SV Pasching in the Austrian Football Bundesliga"
+        },
+        "predicate_span": {
+          "start": 175,
+          "end": 183,
+          "text": "moved to"
+        },
+        "temporal_kind": "occurrence_start",
+        "start": {
+          "lower": 732312,
+          "upper": 732676,
+          "lower_iso": "2006-01-01",
+          "upper_iso": "2006-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 167,
+            "end": 171,
+            "text": "2006"
+          }
+        },
+        "end": null,
+        "rule": "date_led_occurrence",
+        "replacement_policy": "explicit_succession_only",
+        "compiler_eligible": true,
+        "state_text": "Haris Bukva: destination = SV Pasching in the Austrian Football Bundesliga.",
+        "exclusion_assertion": null,
+        "adapter_version": "source-occurrence-v1",
+        "atomic_span": {
+          "start": 164,
+          "end": 231,
+          "text": "In 2006 he moved to SV Pasching in the Austrian Football Bundesliga"
+        },
+        "coverage_scope": "atomic_clause_only",
+        "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+      },
+      "audit": {
+        "subject_correct": true,
+        "slot_correct": true,
+        "value_correct": true,
+        "event_date_correct": true,
+        "temporal_kind_correct": true,
+        "replacement_supported": false,
+        "notes": "Correct move event and year. A league description modifies the club."
+      },
+      "full_source_text": "Bukva has both Austrian and Bosnian-Herzegovinian citizenship . He began his career in the youth of LASK Linz . In 2005 he was promoted into the first team squad . In 2006 he moved to SV Pasching in the Austrian Football Bundesliga . In the same year he also made his debut with the Pasching team . Bukva was the loaned for one year to FC Wels in the Regionalliga Mitte ."
+    },
+    {
+      "audit_id": "E007",
+      "article_path": "/wiki/Jonathan_Biabiany",
+      "source_text": "On 13 August 2020 he joined third-tier Spanish club San Fernando .",
+      "extraction": {
+        "claim_id": "c0b8e1350f91a34c4e7483de",
+        "passage_id": "7d724fdd6b19c46c5e0d79f9",
+        "article_path": "/wiki/Jonathan_Biabiany",
+        "source_span": {
+          "start": 0,
+          "end": 66,
+          "text": "On 13 August 2020 he joined third-tier Spanish club San Fernando ."
+        },
+        "subject": {
+          "surface": "he",
+          "canonical": "Jonathan Biabiany",
+          "source_span": {
+            "start": 18,
+            "end": 20,
+            "text": "he"
+          },
+          "resolution": "article_title_pronoun",
+          "article_title": "Jonathan Biabiany"
+        },
+        "slot": "membership",
+        "value": "third-tier Spanish club San Fernando",
+        "value_span": {
+          "start": 28,
+          "end": 64,
+          "text": "third-tier Spanish club San Fernando"
+        },
+        "predicate_span": {
+          "start": 21,
+          "end": 27,
+          "text": "joined"
+        },
+        "temporal_kind": "occurrence_start",
+        "start": {
+          "lower": 737650,
+          "upper": 737650,
+          "lower_iso": "2020-08-13",
+          "upper_iso": "2020-08-13",
+          "precision": "day",
+          "source_span": {
+            "start": 3,
+            "end": 17,
+            "text": "13 August 2020"
+          }
+        },
+        "end": null,
+        "rule": "date_led_occurrence",
+        "replacement_policy": "explicit_succession_only",
+        "compiler_eligible": true,
+        "state_text": "Jonathan Biabiany: membership = third-tier Spanish club San Fernando.",
+        "exclusion_assertion": null,
+        "adapter_version": "source-occurrence-v1",
+        "atomic_span": {
+          "start": 0,
+          "end": 64,
+          "text": "On 13 August 2020 he joined third-tier Spanish club San Fernando"
+        },
+        "coverage_scope": "atomic_clause_only",
+        "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+      },
+      "audit": {
+        "subject_correct": true,
+        "slot_correct": true,
+        "value_correct": true,
+        "event_date_correct": true,
+        "temporal_kind_correct": true,
+        "replacement_supported": false,
+        "notes": "Correct joining event and day. The team descriptor remains attached to its value."
+      },
+      "full_source_text": "On 13 August 2020 he joined third-tier Spanish club San Fernando ."
+    },
+    {
+      "audit_id": "E008",
+      "article_path": "/wiki/Bob_Filner",
+      "source_text": "He was chair of the House Committee on Veterans Affairs from 2007 to 2011 .",
+      "extraction": {
+        "claim_id": "df0fc43c4d39970e8673ec0d",
+        "passage_id": "c57322eab5324b7879cc7716",
+        "article_path": "/wiki/Bob_Filner",
+        "source_span": {
+          "start": 96,
+          "end": 171,
+          "text": "He was chair of the House Committee on Veterans Affairs from 2007 to 2011 ."
+        },
+        "subject": {
+          "surface": "He",
+          "canonical": "Bob Filner",
+          "source_span": {
+            "start": 96,
+            "end": 98,
+            "text": "He"
+          },
+          "resolution": "article_title_pronoun",
+          "article_title": "Bob Filner"
+        },
+        "slot": "position",
+        "value": "chair of the House Committee on Veterans Affairs",
+        "value_span": {
+          "start": 103,
+          "end": 151,
+          "text": "chair of the House Committee on Veterans Affairs"
+        },
+        "predicate_span": {
+          "start": 99,
+          "end": 102,
+          "text": "was"
+        },
+        "temporal_kind": "validity_duration",
+        "start": {
+          "lower": 732677,
+          "upper": 733041,
+          "lower_iso": "2007-01-01",
+          "upper_iso": "2007-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 157,
+            "end": 161,
+            "text": "2007"
+          }
+        },
+        "end": {
+          "lower": 734138,
+          "upper": 734502,
+          "lower_iso": "2011-01-01",
+          "upper_iso": "2011-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 165,
+            "end": 169,
+            "text": "2011"
+          }
+        },
+        "rule": "explicit_tenure",
+        "replacement_policy": "explicit_succession_only",
+        "compiler_eligible": true,
+        "state_text": "Bob Filner: position = chair of the House Committee on Veterans Affairs.",
+        "exclusion_assertion": null,
+        "adapter_version": "source-occurrence-v1",
+        "atomic_span": {
+          "start": 96,
+          "end": 169,
+          "text": "He was chair of the House Committee on Veterans Affairs from 2007 to 2011"
+        },
+        "coverage_scope": "atomic_clause_only",
+        "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+      },
+      "audit": {
+        "subject_correct": true,
+        "slot_correct": true,
+        "value_correct": true,
+        "event_date_correct": true,
+        "temporal_kind_correct": true,
+        "replacement_supported": false,
+        "notes": "Correct committee chair tenure. A different representative tenure remains separate."
+      },
+      "full_source_text": "Filner was previously the U.S . Representative for , and the 50th , serving from 1993 to 2012 . He was chair of the House Committee on Veterans Affairs from 2007 to 2011 ."
+    },
+    {
+      "audit_id": "E009",
+      "article_path": "/wiki/Godfried_Danneels",
+      "source_text": "On 4 November 1977 , Danneels was named Bishop of Antwerp by Pope Paul VI .",
+      "extraction": {
+        "claim_id": "c199192604050811fa2f1b56",
+        "passage_id": "b79ac424e4ef0a4f4ba270a6",
+        "article_path": "/wiki/Godfried_Danneels",
+        "source_span": {
+          "start": 0,
+          "end": 75,
+          "text": "On 4 November 1977 , Danneels was named Bishop of Antwerp by Pope Paul VI ."
+        },
+        "subject": {
+          "surface": "Danneels",
+          "canonical": "Godfried Danneels",
+          "source_span": {
+            "start": 21,
+            "end": 29,
+            "text": "Danneels"
+          },
+          "resolution": "article_title_alias",
+          "article_title": "Godfried Danneels"
+        },
+        "slot": "position",
+        "value": "Bishop of Antwerp",
+        "value_span": {
+          "start": 40,
+          "end": 57,
+          "text": "Bishop of Antwerp"
+        },
+        "predicate_span": {
+          "start": 30,
+          "end": 39,
+          "text": "was named"
+        },
+        "temporal_kind": "occurrence_start",
+        "start": {
+          "lower": 722027,
+          "upper": 722027,
+          "lower_iso": "1977-11-04",
+          "upper_iso": "1977-11-04",
+          "precision": "day",
+          "source_span": {
+            "start": 3,
+            "end": 18,
+            "text": "4 November 1977"
+          }
+        },
+        "end": null,
+        "rule": "date_led_occurrence",
+        "replacement_policy": "explicit_succession_only",
+        "compiler_eligible": true,
+        "state_text": "Godfried Danneels: position = Bishop of Antwerp.",
+        "exclusion_assertion": null,
+        "adapter_version": "source-occurrence-v1",
+        "atomic_span": {
+          "start": 0,
+          "end": 57,
+          "text": "On 4 November 1977 , Danneels was named Bishop of Antwerp"
+        },
+        "coverage_scope": "atomic_clause_only",
+        "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+      },
+      "audit": {
+        "subject_correct": true,
+        "slot_correct": true,
+        "value_correct": true,
+        "event_date_correct": true,
+        "temporal_kind_correct": true,
+        "replacement_supported": false,
+        "notes": "The date describes appointment as bishop. Consecration follows in December. Preserve this event distinction."
+      },
+      "full_source_text": "On 4 November 1977 , Danneels was named Bishop of Antwerp by Pope Paul VI . He received his episcopal consecration on the following 18 December from Cardinal Leo Joseph Suenens ; co-consecrators were his predecessor Jules Victor Daem and his Bruges bishop De Smedt . The consecration , in a Dutch-language rite in whose development Danneels himself had been involved as a liturgist , took place in St . James , as the Antwerp cathedral was being restored at the time ."
+    },
+    {
+      "audit_id": "E010",
+      "article_path": "/wiki/Fani_Stipković",
+      "source_text": "In 1996 , Stipković joined the jazz dance group Tihana Škrinjarić and met Sandra Vranješ ,",
+      "extraction": {
+        "claim_id": "e25d26dc07cb4a134bdcfb1c",
+        "passage_id": "7e9002f29c410b241f980fce",
+        "article_path": "/wiki/Fani_Stipković",
+        "source_span": {
+          "start": 0,
+          "end": 90,
+          "text": "In 1996 , Stipković joined the jazz dance group Tihana Škrinjarić and met Sandra Vranješ ,"
+        },
+        "subject": {
+          "surface": "Stipković",
+          "canonical": "Fani Stipković",
+          "source_span": {
+            "start": 10,
+            "end": 19,
+            "text": "Stipković"
+          },
+          "resolution": "article_title_alias",
+          "article_title": "Fani Stipković"
+        },
+        "slot": "membership",
+        "value": "the jazz dance group Tihana Škrinjarić",
+        "value_span": {
+          "start": 27,
+          "end": 65,
+          "text": "the jazz dance group Tihana Škrinjarić"
+        },
+        "predicate_span": {
+          "start": 20,
+          "end": 26,
+          "text": "joined"
+        },
+        "temporal_kind": "occurrence_start",
+        "start": {
+          "lower": 728659,
+          "upper": 729024,
+          "lower_iso": "1996-01-01",
+          "upper_iso": "1996-12-31",
+          "precision": "year",
+          "source_span": {
+            "start": 3,
+            "end": 7,
+            "text": "1996"
+          }
+        },
+        "end": null,
+        "rule": "date_led_occurrence",
+        "replacement_policy": "explicit_succession_only",
+        "compiler_eligible": true,
+        "state_text": "Fani Stipković: membership = the jazz dance group Tihana Škrinjarić.",
+        "exclusion_assertion": null,
+        "adapter_version": "source-occurrence-v1",
+        "atomic_span": {
+          "start": 0,
+          "end": 65,
+          "text": "In 1996 , Stipković joined the jazz dance group Tihana Škrinjarić"
+        },
+        "coverage_scope": "atomic_clause_only",
+        "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+      },
+      "audit": {
+        "subject_correct": true,
+        "slot_correct": true,
+        "value_correct": true,
+        "event_date_correct": true,
+        "temporal_kind_correct": true,
+        "replacement_supported": false,
+        "notes": "Correct joining event and year. The following met clause must remain outside the atomic span."
+      },
+      "full_source_text": "In 1996 , Stipković joined the jazz dance group Tihana Škrinjarić and met Sandra Vranješ ,"
+    }
+  ],
+  "summary": {
+    "records": 10,
+    "subjects_supported": 10,
+    "start_dates_supported": 10,
+    "value_spans_without_attached_event_clause": 10,
+    "explicit_replacement_pairs": 0,
+    "interpretation": "The reviewed clauses preserve source events and dates. This review does not measure full-source extraction coverage."
+  }
+}

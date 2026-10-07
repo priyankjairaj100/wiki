@@ -1,0 +1,442 @@
+{
+  "dataset": "realwiki",
+  "event_cutoffs": {
+    "n_cutoffs": 19,
+    "direct_mismatch_cutoffs": 0,
+    "component_mismatch_cutoffs": 0,
+    "component_membership_differences": 0,
+    "component_max_differences": 0
+  },
+  "all_cutoffs": {
+    "n_cutoffs": 29,
+    "direct_mismatch_cutoffs": 0,
+    "component_mismatch_cutoffs": 0,
+    "component_membership_differences": 0,
+    "component_max_differences": 0
+  },
+  "historical_queries": {
+    "n": 14,
+    "full_hits": 13,
+    "prefix_hits": 13,
+    "changed_top1": 0
+  },
+  "cutoffs": [
+    {
+      "cutoff": 1975.0,
+      "is_event": true,
+      "n_observed": 1,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1984.0,
+      "is_event": true,
+      "n_observed": 2,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1986.0,
+      "is_event": true,
+      "n_observed": 3,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1987.5,
+      "is_event": false,
+      "n_observed": 3,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1994.0,
+      "is_event": true,
+      "n_observed": 4,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1994.5,
+      "is_event": false,
+      "n_observed": 4,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1997.0,
+      "is_event": true,
+      "n_observed": 5,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2000.0,
+      "is_event": true,
+      "n_observed": 7,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2001.5,
+      "is_event": false,
+      "n_observed": 7,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2004.0,
+      "is_event": false,
+      "n_observed": 7,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2005.0,
+      "is_event": true,
+      "n_observed": 8,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2006.0,
+      "is_event": true,
+      "n_observed": 9,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2007.0,
+      "is_event": false,
+      "n_observed": 9,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2007.5,
+      "is_event": false,
+      "n_observed": 9,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2010.0,
+      "is_event": true,
+      "n_observed": 10,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2011.0,
+      "is_event": true,
+      "n_observed": 12,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2012.0,
+      "is_event": true,
+      "n_observed": 13,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2012.5,
+      "is_event": false,
+      "n_observed": 13,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2013.0,
+      "is_event": true,
+      "n_observed": 14,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2013.5,
+      "is_event": false,
+      "n_observed": 14,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2014.0,
+      "is_event": true,
+      "n_observed": 16,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2015.0,
+      "is_event": true,
+      "n_observed": 17,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2016.0,
+      "is_event": false,
+      "n_observed": 17,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2017.0,
+      "is_event": true,
+      "n_observed": 19,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2018.0,
+      "is_event": true,
+      "n_observed": 20,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2020.0,
+      "is_event": true,
+      "n_observed": 22,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2021.0,
+      "is_event": true,
+      "n_observed": 25,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.0,
+      "is_event": false,
+      "n_observed": 25,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2023.0,
+      "is_event": true,
+      "n_observed": 26,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    }
+  ],
+  "queries": [
+    {
+      "key": [
+        "microsoft",
+        "chief executive officer"
+      ],
+      "cutoff": 1987.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "rw:18",
+      "prefix_cid": "rw:18"
+    },
+    {
+      "key": [
+        "microsoft",
+        "chief executive officer"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:1",
+      "prefix_cid": "rw:1"
+    },
+    {
+      "key": [
+        "apple",
+        "chief executive officer"
+      ],
+      "cutoff": 2004.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:3",
+      "prefix_cid": "rw:3"
+    },
+    {
+      "key": [
+        "amazon",
+        "chief executive officer"
+      ],
+      "cutoff": 2007.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:5",
+      "prefix_cid": "rw:5"
+    },
+    {
+      "key": [
+        "google",
+        "chief executive officer"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:7",
+      "prefix_cid": "rw:7"
+    },
+    {
+      "key": [
+        "disney",
+        "chief executive officer"
+      ],
+      "cutoff": 1994.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:9",
+      "prefix_cid": "rw:9"
+    },
+    {
+      "key": [
+        "disney",
+        "chief executive officer"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:10",
+      "prefix_cid": "rw:10"
+    },
+    {
+      "key": [
+        "ibm",
+        "chief executive officer"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:12",
+      "prefix_cid": "rw:12"
+    },
+    {
+      "key": [
+        "pepsico",
+        "chief executive officer"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:14",
+      "prefix_cid": "rw:14"
+    },
+    {
+      "key": [
+        "intel",
+        "chief executive officer"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:16",
+      "prefix_cid": "rw:16"
+    },
+    {
+      "key": [
+        "starbucks",
+        "chief executive officer"
+      ],
+      "cutoff": 2001.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:18",
+      "prefix_cid": "rw:18"
+    },
+    {
+      "key": [
+        "twitter",
+        "chief executive officer"
+      ],
+      "cutoff": 2022.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:20",
+      "prefix_cid": "rw:20"
+    },
+    {
+      "key": [
+        "general motors",
+        "chief executive officer"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:23",
+      "prefix_cid": "rw:23"
+    },
+    {
+      "key": [
+        "uber",
+        "chief executive officer"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:25",
+      "prefix_cid": "rw:25"
+    }
+  ]
+}

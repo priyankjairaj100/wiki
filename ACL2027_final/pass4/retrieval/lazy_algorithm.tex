@@ -1,0 +1,8 @@
+% Optional manuscript insertion. Existing theorem establishes correctness.
+\paragraph{Lazy query execution.}
+We scan the fixed ranking until $k$ possible claims and fallback excerpts enter the context.
+We test guaranteed support only for selected modeled claims.
+The selected unresolved claims form the refinement frontier $U$.
+An empty $U$ certifies a stable context.
+The scan takes $O(j)$ time for $j$ examined candidates and stores $O(k)$ selected identifiers.
+It avoids full support masks at query time.

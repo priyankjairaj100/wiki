@@ -1,0 +1,10 @@
+{
+  "checked_date": "2026-10-07",
+  "sources": [
+    {"url":"https://2027.aclweb.org/calls/main/","facts":{"main_pages_long":8,"arr_deadline":"2027-01-04 AoE","commitment_date":"TBD"}},
+    {"url":"https://acl-org.github.io/ACLPUB/formatting.html","facts":{"body_font_pt":11,"paper_size":"A4","abstract_words_max":200,"limitations":"After conclusion, before references, without page breaks","review_acknowledgments":false,"fonts_embedded":true}},
+    {"url":"https://aclrollingreview.org/submissionform","facts":{"software_archive_max_mb":200,"data_archive_max_mb":200,"archives_separate":true}},
+    {"url":"https://aclrollingreview.org/responsibleNLPresearch/","facts":{"AI_assistance":"E1 requires disclosure; details may appear directly in the checklist."}}
+  ],
+  "review_submission_not_performed": true
+}

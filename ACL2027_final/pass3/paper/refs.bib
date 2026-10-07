@@ -1,0 +1,800 @@
+% =====================================================================
+% Bibliography for ASRMB-Nav paper (ARR May 26 / EMNLP 2026).
+% =====================================================================
+
+% ----- Foundational RAG -----
+@inproceedings{lewis2020rag,
+  title={Retrieval-augmented generation for knowledge-intensive {NLP} tasks},
+  author={Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and Petroni,
+          Fabio and Karpukhin, Vladimir and Goyal, Naman and K{\"u}ttler,
+          Heinrich and Lewis, Mike and Yih, Wen-tau and Rockt{\"a}schel, Tim
+          and others},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={9459--9474},
+  year={2020}
+}
+
+@inproceedings{karpukhin2020dpr,
+  title={Dense passage retrieval for open-domain question answering},
+  author={Karpukhin, Vladimir and O{\u{g}}uz, Barlas and Min, Sewon and
+          Lewis, Patrick and Wu, Ledell and Edunov, Sergey and Chen, Danqi
+          and Yih, Wen-tau},
+  booktitle={Proc. {EMNLP}},
+  pages={6769--6781},
+  year={2020}
+}
+
+@article{robertson1995bm25,
+  title={Okapi at {TREC}-3},
+  author={Robertson, Stephen E and Walker, Steve and Jones, Susan and
+          Hancock-Beaulieu, Micheline M and Gatford, Mike},
+  journal={NIST Special Publication},
+  volume={500-225},
+  pages={109--126},
+  year={1995}
+}
+
+@inproceedings{khattab2020colbert,
+  title={{ColBERT}: Efficient and effective passage search via contextualized
+         late interaction over {BERT}},
+  author={Khattab, Omar and Zaharia, Matei},
+  booktitle={Proc. {SIGIR}},
+  pages={39--48},
+  year={2020}
+}
+
+@inproceedings{reimers2019sbert,
+  title={Sentence-{BERT}: Sentence embeddings using {S}iamese {BERT}-networks},
+  author={Reimers, Nils and Gurevych, Iryna},
+  booktitle={Proc. {EMNLP-IJCNLP}},
+  pages={3982--3992},
+  year={2019}
+}
+
+@inproceedings{guu2020realm,
+  title={Retrieval augmented language model pre-training},
+  author={Guu, Kelvin and Lee, Kenton and Tung, Zora and Pasupat, Panupong
+          and Chang, Ming-Wei},
+  booktitle={Proc. {ICML}},
+  pages={3929--3938},
+  year={2020}
+}
+
+@article{izacard2022atlas,
+  title={Few-shot learning with retrieval augmented language models},
+  author={Izacard, Gautier and Lewis, Patrick and Lomeli, Maria and
+          Hosseini, Lucas and Petroni, Fabio and Schick, Timo and
+          Dwivedi-Yu, Jane and Joulin, Armand and Riedel, Sebastian and
+          Grave, Edouard},
+  journal={arXiv preprint arXiv:2208.03299},
+  year={2022}
+}
+
+@article{ram2023incontext,
+  title={In-context retrieval-augmented language models},
+  author={Ram, Ori and Levine, Yoav and Dalmedigos, Itay and Muhlgay, Dor
+          and Shashua, Amnon and Leyton-Brown, Kevin and Shoham, Yoav},
+  journal={arXiv preprint arXiv:2302.00083},
+  year={2023}
+}
+
+% ----- Hierarchical retrieval -----
+@inproceedings{sarthi2024raptor,
+  title={{RAPTOR}: Recursive abstractive processing for tree-organized retrieval},
+  author={Sarthi, Parth and Abdullah, Salman and Tuli, Aditi and Khanna, Shubh
+          and Goldie, Anna and Manning, Christopher D},
+  booktitle={Proc. {ICLR}},
+  year={2024}
+}
+
+@inproceedings{liu2021dhr,
+  title={Dense hierarchical retrieval for open-domain question answering},
+  author={Liu, Ye and Hashimoto, Kazuma and Zhou, Yingbo and Yavuz, Semih and
+          Xiong, Caiming and Yu, Philip},
+  booktitle={Findings of {EMNLP}},
+  pages={188--200},
+  year={2021}
+}
+
+@misc{liu2022llamaindex,
+  title={{LlamaIndex}},
+  author={Liu, Jerry},
+  year={2022},
+  howpublished={\url{https://github.com/jerryjliu/llama_index}}
+}
+
+@inproceedings{tao2025treerag,
+  title={{TreeRAG}: Unleashing the power of hierarchical storage for enhanced
+         knowledge retrieval in long documents},
+  author={Tao, Wenyu and Xing, Xiaofen and Chen, Yirong and Huang, Linyi and
+          Xu, Xiangmin},
+  booktitle={Findings of {ACL}},
+  pages={356--371},
+  year={2025}
+}
+
+@inproceedings{jin2025longrefiner,
+  title={Hierarchical document refinement for long-context retrieval-augmented
+         generation},
+  author={Jin, Jiajie and Li, Xiaoxi and Dong, Guanting and Zhang, Yuyao and
+          Zhu, Yutao and Wu, Yongkang and Li, Zhonghua and Ye, Qi and
+          Dou, Zhicheng},
+  booktitle={Proc. {ACL}},
+  pages={3502--3520},
+  year={2025}
+}
+
+@article{chen2025disretrieval,
+  title={Beyond chunking: Discourse-aware hierarchical retrieval for long
+         document question answering},
+  author={Chen, Huiyao and Yang, Yi and Li, Yinghui and Zhang, Meishan and
+          Hu, Baotian and Zhang, Min},
+  journal={arXiv preprint arXiv:2506.06313},
+  year={2025}
+}
+
+% ----- Recent RAG methods (positioning) -----
+@inproceedings{gutierrez2024hipporag,
+  title={{HippoRAG}: Neurobiologically inspired long-term memory for large
+         language models},
+  author={Guti{\'e}rrez, Bernal Jim{\'e}nez and Shu, Yiheng and Gu, Yu and
+          Yasunaga, Michihiro and Su, Yu},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2024}
+}
+
+@article{edge2024graphrag,
+  title={From local to global: A graph {RAG} approach to query-focused
+         summarization},
+  author={Edge, Darren and Trinh, Ha and Cheng, Newman and Bradley, Joshua
+          and Chao, Alex and Mody, Apurva and Truitt, Steven and Larson,
+          Jonathan},
+  journal={arXiv preprint arXiv:2404.16130},
+  year={2024}
+}
+
+@inproceedings{jiang2024longrag,
+  title={{LongRAG}: Enhancing retrieval-augmented generation with long-context
+         {LLMs}},
+  author={Jiang, Ziyan and Ma, Xueguang and Chen, Wenhu},
+  booktitle={Proc. {NAACL}},
+  year={2024}
+}
+
+@inproceedings{asai2024selfrag,
+  title={Self-{RAG}: Learning to retrieve, generate, and critique through
+         self-reflection},
+  author={Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avirup and
+          Hajishirzi, Hannaneh},
+  booktitle={Proc. {ICLR}},
+  year={2024}
+}
+
+@article{yan2024crag,
+  title={Corrective retrieval augmented generation},
+  author={Yan, Shi-Qi and Gu, Jia-Chen and Zhu, Yun and Ling, Zhen-Hua},
+  journal={arXiv preprint arXiv:2401.15884},
+  year={2024}
+}
+
+@inproceedings{jiang2023flare,
+  title={Active retrieval augmented generation},
+  author={Jiang, Zhengbao and Xu, Frank F and Gao, Luyu and Sun, Zhiqing
+          and Liu, Qian and Dwivedi-Yu, Jane and Yang, Yiming and Callan,
+          Jamie and Neubig, Graham},
+  booktitle={Proc. {EMNLP}},
+  year={2023}
+}
+
+@article{lin2023radit,
+  title={{RA-DIT}: Retrieval-augmented dual instruction tuning},
+  author={Lin, Xi Victoria and Chen, Xilun and Chen, Moya and Shi, Weijia
+          and Lomeli, Maria and James, Rich and Rodriguez, Pedro and Kahn,
+          Jacob and Szilvasy, Gergely and Lewis, Mike and others},
+  journal={arXiv preprint arXiv:2310.01352},
+  year={2023}
+}
+
+% ----- Cross-encoder rerank -----
+@article{nogueira2019monobert,
+  title={Passage re-ranking with {BERT}},
+  author={Nogueira, Rodrigo and Cho, Kyunghyun},
+  journal={arXiv preprint arXiv:1901.04085},
+  year={2019}
+}
+
+@inproceedings{nogueira2020duobert,
+  title={Multi-stage document ranking with {BERT}},
+  author={Nogueira, Rodrigo and Yang, Wei and Cho, Kyunghyun and Lin,
+          Jimmy},
+  booktitle={arXiv preprint arXiv:1910.14424},
+  year={2019}
+}
+
+% ----- Long-context models (RAPTOR Table 5 comparisons) -----
+@inproceedings{guo2022longt5,
+  title={{LongT5}: Efficient text-to-text transformer for long sequences},
+  author={Guo, Mandy and Ainslie, Joshua and Uthus, David and Ontanon, Santiago
+          and Ni, Jianmo and Sung, Yun-Hsuan and Yang, Yinfei},
+  booktitle={Findings of {NAACL}},
+  year={2022}
+}
+
+@article{ainslie2023colt5,
+  title={{CoLT5}: Faster long-range transformers with conditional computation},
+  author={Ainslie, Joshua and Lei, Tao and de Jong, Michiel and Onta{\~n}{\'o}n,
+          Santiago and Brahma, Siddhartha and Zemlyanskiy, Yury and Uthus, David
+          and Guo, Mandy and Lee-Thorp, James and Tay, Yi and others},
+  journal={arXiv preprint arXiv:2303.09752},
+  year={2023}
+}
+
+@article{beltagy2020longformer,
+  title={{Longformer}: The long-document transformer},
+  author={Beltagy, Iz and Peters, Matthew E and Cohan, Arman},
+  journal={arXiv preprint arXiv:2004.05150},
+  year={2020}
+}
+
+% ----- Position bias & retrieval-utility analysis -----
+@article{liu2023lostmiddle,
+  title={Lost in the middle: How language models use long contexts},
+  author={Liu, Nelson F and Lin, Kevin and Hewitt, John and Paranjape, Ashwin
+          and Bevilacqua, Michele and Petroni, Fabio and Liang, Percy},
+  journal={arXiv preprint arXiv:2307.03172},
+  year={2023}
+}
+
+% ----- Context compression -----
+@inproceedings{jiang2023llmlingua,
+  title={{LLMLingua}: Compressing prompts for accelerated inference of large
+         language models},
+  author={Jiang, Huiqiang and Wu, Qianhui and Lin, Chin-Yew and Yang, Yuqing
+          and Qiu, Lili},
+  booktitle={Proc. {EMNLP}},
+  year={2023}
+}
+
+@inproceedings{xu2024recomp,
+  title={{RECOMP}: Improving retrieval-augmented {LMs} with compression and
+         selective augmentation},
+  author={Xu, Fangyuan and Shi, Weijia and Choi, Eunsol},
+  booktitle={Proc. {ICLR}},
+  year={2024}
+}
+
+% ----- Budget-aware retrieval -----
+@article{peng2025adagres,
+  title={{AdaGReS}: Adaptive greedy context selection via redundancy-aware
+         scoring for token-budgeted {RAG}},
+  author={Peng, Chao and Wang, Bin and Long, Zhilei and Sheng, Jinfang},
+  journal={arXiv preprint arXiv:2512.25052},
+  year={2025}
+}
+
+@article{wang2024corag,
+  title={{CORAG}: A cost-constrained retrieval optimization system for
+         retrieval-augmented generation},
+  author={Wang, Ziting and Yuan, Haitao and Dong, Wei and Cong, Gao and
+          Li, Feifei},
+  journal={arXiv preprint arXiv:2411.00744},
+  year={2024}
+}
+
+% ----- Datasets -----
+@inproceedings{pang2022quality,
+  title={{QuALITY}: Question answering with long input texts, yes!},
+  author={Pang, Richard Yuanzhe and Parrish, Alicia and Joshi, Nitish and
+          Nangia, Nikita and Phang, Jason and Chen, Angelica and
+          Padmakumar, Vishakh and Ma, Johnny and Thompson, Jana and
+          He, He and Bowman, Samuel R},
+  booktitle={Proc. {NAACL}},
+  pages={5336--5358},
+  year={2022}
+}
+
+@inproceedings{dasigi2021qasper,
+  title={A dataset of information-seeking questions and answers anchored in
+         research papers},
+  author={Dasigi, Pradeep and Lo, Kyle and Beltagy, Iz and Cohan, Arman and
+          Smith, Noah A and Gardner, Matt},
+  booktitle={Proc. {NAACL}},
+  pages={4599--4610},
+  year={2021}
+}
+
+@article{kociskỳ2018narrativeqa,
+  title={The {NarrativeQA} reading comprehension challenge},
+  author={Ko{\v{c}}isk{\'y}, Tom{\'a}{\v{s}} and Schwarz, Jonathan and
+          Blunsom, Phil and Dyer, Chris and Hermann, Karl Moritz and
+          Melis, G{\'a}bor and Grefenstette, Edward},
+  journal={Transactions of the {ACL}},
+  volume={6},
+  pages={317--328},
+  year={2018}
+}
+
+@inproceedings{bai2024longbench,
+  title={{LongBench}: A bilingual, multitask benchmark for long context
+         understanding},
+  author={Bai, Yushi and Lv, Xin and Zhang, Jiajie and Lyu, Hongchang and
+          Tang, Jiankai and Huang, Zhidian and Du, Zhengxiao and Liu, Xiao
+          and Zeng, Aohan and Hou, Lei and Dong, Yuxiao and Tang, Jie and
+          Li, Juanzi},
+  booktitle={Proc. {ACL}},
+  pages={3119--3137},
+  year={2024}
+}
+
+@inproceedings{khashabi2020unifiedqa,
+  title={{UnifiedQA}: Crossing format boundaries with a single {QA} system},
+  author={Khashabi, Daniel and Min, Sewon and Khot, Tushar and Sabharwal,
+          Ashish and Tafjord, Oyvind and Clark, Peter and Hajishirzi,
+          Hannaneh},
+  booktitle={Findings of {EMNLP}},
+  pages={1896--1907},
+  year={2020}
+}
+
+% ----- Other -----
+@article{johnson2021faiss,
+  title={Billion-scale similarity search with {GPU}s},
+  author={Johnson, Jeff and Douze, Matthijs and J{\'e}gou, Herv{\'e}},
+  journal={IEEE Transactions on Big Data},
+  volume={7},
+  number={3},
+  pages={535--547},
+  year={2021}
+}
+
+@inproceedings{pati1993omp,
+  title={Orthogonal matching pursuit: Recursive function approximation with
+         applications to wavelet decomposition},
+  author={Pati, Yagyensh Chandra and Rezaiifar, Ramin and Krishnaprasad, P S},
+  booktitle={Proc. Asilomar Conf.},
+  pages={40--44},
+  year={1993}
+}
+
+% ----- QuALITY SOTA-context comparators (used in Sarthi et al. Table 7) -----
+@inproceedings{dong2023colisa,
+  title={{CoLISA}: Inner-interaction context-document attention for
+         multiple-choice reading comprehension},
+  author={Dong, Mengxing and Zhang, Bowei and Zhang, Yanyan and others},
+  booktitle={Proc. {ACL}},
+  year={2023}
+}
+
+% ----- Additional recent references (added per reviewer-style audit) -----
+
+@inproceedings{kim2024toc,
+  title={Tree of Clarifications: Answering ambiguous questions with
+         retrieval-augmented large language models},
+  author={Kim, Gangwoo and Kim, Sungdong and Jeon, Byeongguk and Park,
+          Joonsuk and Kang, Jaewoo},
+  booktitle={Proc. {EMNLP}},
+  year={2024}
+}
+
+@inproceedings{yoran2024making,
+  title={Making retrieval-augmented language models robust to irrelevant
+         context},
+  author={Yoran, Ori and Wolfson, Tomer and Ram, Ori and Berant, Jonathan},
+  booktitle={Proc. {ICLR}},
+  year={2024}
+}
+
+@inproceedings{gao2022hyde,
+  title={Precise zero-shot dense retrieval without relevance labels},
+  author={Gao, Luyu and Ma, Xueguang and Lin, Jimmy and Callan, Jamie},
+  booktitle={Proc. {ACL}},
+  year={2023}
+}
+
+@inproceedings{santhanam2022colbertv2,
+  title={{ColBERTv2}: Effective and efficient retrieval via lightweight
+         late interaction},
+  author={Santhanam, Keshav and Khattab, Omar and Saad-Falcon, Jon
+          and Potts, Christopher and Zaharia, Matei},
+  booktitle={Proc. {NAACL}},
+  year={2022}
+}
+
+@article{shi2023replug,
+  title={{REPLUG}: Retrieval-augmented black-box language models},
+  author={Shi, Weijia and Min, Sewon and Yasunaga, Michihiro and Seo,
+          Minjoon and James, Rich and Lewis, Mike and Zettlemoyer, Luke
+          and Yih, Wen-tau},
+  journal={arXiv:2301.12652},
+  year={2023}
+}
+
+@inproceedings{jeong2024adaptiverag,
+  title={Adaptive-{RAG}: Learning to adapt retrieval-augmented large
+         language models through question complexity},
+  author={Jeong, Soyeong and Baek, Jinheon and Cho, Sukmin and Hwang,
+          Sung Ju and Park, Jong},
+  booktitle={Proc. {NAACL}},
+  year={2024}
+}
+
+@inproceedings{leng2024longalign,
+  title={{LongAlign}: A recipe for long context alignment of large language
+         models},
+  author={Leng, Yinxiu and Sun, Tianyu and Du, Zhengxiao and Cao, Yuxiao
+          and Bai, Yushi and Yang, Hongli and Yuan, Wei and Tang, Jie},
+  booktitle={Findings of {EMNLP}},
+  year={2024}
+}
+
+@inproceedings{li2024navrag,
+  title={Retrieval head mechanistically explains long-context factuality},
+  author={Wu, Wenhao and Wang, Yizhong and Xiao, Guangxuan and Peng, Haotian
+          and Fu, Yao},
+  journal={arXiv preprint arXiv:2404.15574},
+  year={2024}
+}
+
+@inproceedings{su2024dragin,
+  title={{DRAGIN}: Dynamic retrieval augmented generation based on the
+         information needs of large language models},
+  author={Su, Weihang and Tang, Yichen and Ai, Qingyao and Wu, Zhijing
+          and Liu, Yiqun},
+  booktitle={Proc. {ACL}},
+  year={2024}
+}
+
+% ----- Multi-hop QA benchmarks -----
+@inproceedings{yang2018hotpotqa,
+  title={{HotpotQA}: A Dataset for Diverse, Explainable Multi-hop Question Answering},
+  author={Yang, Zhilin and Qi, Peng and Zhang, Saizheng and Bengio, Yoshua
+          and Cohen, William W. and Salakhutdinov, Ruslan and Manning,
+          Christopher D.},
+  booktitle={Proc. {EMNLP}},
+  year={2018}
+}
+
+@inproceedings{ho2020twowikimultihopqa,
+  title={Constructing A Multi-hop {QA} Dataset for Comprehensive Evaluation
+         of Reasoning Steps},
+  author={Ho, Xanh and Duong Nguyen, Anh-Khoa and Sugawara, Saku and
+          Aizawa, Akiko},
+  booktitle={Proc. {COLING}},
+  pages={6609--6625},
+  year={2020}
+}
+
+@article{trivedi2022musique,
+  title={{MuSiQue}: Multihop Questions via Single-hop Question Composition},
+  author={Trivedi, Harsh and Balasubramanian, Niranjan and Khot, Tushar and
+          Sabharwal, Ashish},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={10},
+  pages={539--554},
+  year={2022}
+}
+
+% ===== WikiGraphRAG-specific additions =====
+@article{dhingra2022templama,
+  title={Time-Aware Language Models as Temporal Knowledge Bases},
+  author={Dhingra, Bhuwan and Cole, Jeremy R. and Eisenschlos, Julian Martin and Gillick, Daniel and Eisenstein, Jacob and Cohen, William W.},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={10},
+  pages={257--273},
+  year={2022}
+}
+
+@inproceedings{kasai2023realtimeqa,
+  title={{RealTime QA}: What's the Answer Right Now?},
+  author={Kasai, Jungo and Sakaguchi, Keisuke and Takahashi, Yoichi and Le Bras, Ronan and Asai, Akari and Yu, Xinyan and Radev, Dragomir and Smith, Noah A. and Choi, Yejin and Inui, Kentaro},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track},
+  year={2023}
+}
+
+@inproceedings{vu2024freshllms,
+  title={{FreshLLMs}: Refreshing Large Language Models with Search Engine Augmentation},
+  author={Vu, Tu and Iyyer, Mohit and Wang, Xuezhi and Constant, Noah and Wei, Jerry and Wei, Jason and Tar, Chris and Sung, Yun-Hsuan and Zhou, Denny and Le, Quoc and Luong, Thang},
+  booktitle={Findings of the Association for Computational Linguistics (ACL)},
+  year={2024}
+}
+
+@inproceedings{chen2021timeqa,
+  title={A Dataset for Answering Time-Sensitive Questions},
+  author={Chen, Wenhu and Wang, Xinyi and Wang, William Yang},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track},
+  year={2021}
+}
+
+@inproceedings{liska2022streamingqa,
+  title={{StreamingQA}: A Benchmark for Adaptation to New Knowledge over Time in Question Answering Models},
+  author={Li{\v{s}}ka, Adam and Ko{\v{c}}isk{\'y}, Tom{\'a}{\v{s}} and Gribovskaya, Elena and Terzi, Tayfun and Sezener, Eren and Agrawal, Devang and de Masson d'Autume, Cyprien and Scholtes, Tim and Zaheer, Manzil and Young, Susannah and Gilsenan-McMahon, Ellen and Austin, Sophia and Blunsom, Phil and Lazaridou, Angeliki},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2022}
+}
+
+@article{gade2024tempralm,
+  title={It's About Time: Incorporating Temporality in Retrieval Augmented Language Models},
+  author={Gade, Anoushka and Jetcheva, Jorjeta},
+  journal={arXiv preprint arXiv:2401.13222},
+  year={2024}
+}
+
+@article{grofsky2025ragtime,
+  title={Freshness and the Limits of Heuristic Trend Detection in Temporal {RAG}},
+  author={Grofsky, Matthew},
+  journal={arXiv preprint arXiv:2509.19376},
+  year={2025}
+}
+
+@article{lau2025tarag,
+  title={Reading Between the Timelines: {RAG} for Answering Diachronic Questions},
+  author={Lau, Kwun Hang and Zhang, Ruiyuan and Shi, Weijie and Zhou, Xiaofang and Cheng, Xiaojun},
+  journal={arXiv preprint arXiv:2507.22917},
+  year={2025}
+}
+
+@article{an2026fresco,
+  title={{FRESCO}: Benchmarking and Optimizing Re-rankers for Evolving Semantic Conflict in Retrieval-Augmented Generation},
+  author={An, Sohyun and Lee, Hayeon and Yuan, Shuibenyang and Chen, Chun-cheng Jason and Hsieh, Cho-Jui and Mohan, Vijai and Min, Alexander},
+  journal={arXiv preprint arXiv:2604.14227},
+  year={2026}
+}
+
+@article{wang2026iarag,
+  title={{IA-RAG}: Interval-Algebra-Driven Temporal Reasoning for Dynamic Knowledge Retrieval},
+  author={Wang, Xiaoman and Zhang, Yaoze and Fan, Wenzhuo and Zhang, Hongwei and Wang, Ding and Yan, Guohang and Mao, Song and Shi, Botian and Lan, Yunshi and Cai, Pinlong},
+  journal={arXiv preprint arXiv:2606.06044},
+  year={2026}
+}
+
+@inproceedings{longpre2021conflicts,
+  title={Entity-Based Knowledge Conflicts in Question Answering},
+  author={Longpre, Shayne and Perisetla, Kartik and Chen, Anthony and Ramesh, Nikhil and DuBois, Chris and Singh, Sameer},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year={2021}
+}
+
+@inproceedings{xie2024conflict,
+  title={Adaptive Chameleon or Stubborn Sloth: Revealing the Behavior of Large Language Models in Knowledge Conflicts},
+  author={Xie, Jian and Zhang, Kai and Chen, Jiangjie and Lou, Renze and Su, Yu},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2024}
+}
+
+@inproceedings{meng2022rome,
+  title={Locating and Editing Factual Associations in {GPT}},
+  author={Meng, Kevin and Bau, David and Andonian, Alex and Belinkov, Yonatan},
+  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  year={2022}
+}
+
+@inproceedings{decao2021editing,
+  title={Editing Factual Knowledge in Language Models},
+  author={De Cao, Nicola and Aziz, Wilker and Titov, Ivan},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  year={2021}
+}
+
+@article{vrandecic2014wikidata,
+  title={{Wikidata}: A Free Collaborative Knowledgebase},
+  author={Vrande{\v{c}}i{\'c}, Denny and Kr{\"o}tzsch, Markus},
+  journal={Communications of the ACM},
+  volume={57},
+  number={10},
+  pages={78--85},
+  year={2014}
+}
+
+@inproceedings{haveliwala2002topic,
+  title={Topic-Sensitive {PageRank}},
+  author={Haveliwala, Taher H.},
+  booktitle={Proceedings of the 11th International Conference on World Wide Web (WWW)},
+  pages={517--526},
+  year={2002}
+}
+
+% ----- temporal knowledge graphs -----
+@inproceedings{trivedi2017knowevolve,
+  title={Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs},
+  author={Trivedi, Rakshit and Dai, Hanjun and Wang, Yichen and Song, Le},
+  booktitle={Proceedings of the 34th International Conference on Machine
+             Learning (ICML)},
+  year={2017}
+}
+
+@inproceedings{lacroix2020tensor,
+  title={Tensor Decompositions for Temporal Knowledge Base Completion},
+  author={Lacroix, Timoth{\'e}e and Obozinski, Guillaume and Usunier, Nicolas},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2020}
+}
+
+@article{rasmussen2025zep,
+  title={Zep: A Temporal Knowledge Graph Architecture for Agent Memory},
+  author={Rasmussen, Preston and Paliychuk, Pavlo and Beauvais, Travis and Ryan, Jack and Chalef, Daniel},
+  journal={arXiv preprint arXiv:2501.13956},
+  year={2025},
+  url={https://arxiv.org/abs/2501.13956}
+}
+
+@article{yadav2026memstrata,
+  title={Temporal Validity in Retrieval Memory: Eliminating Stale-Fact Errors for {AI} Agents over Evolving Knowledge},
+  author={Yadav, Neeraj},
+  journal={arXiv preprint arXiv:2606.26511},
+  year={2026},
+  url={https://arxiv.org/abs/2606.26511}
+}
+
+@article{reddy2026assembly,
+  title={Reliable Post-Retrieval Assembly for Agent Memory: Separating Evidence Extraction from Policy Execution},
+  author={Reddy, Vikas and Challaram, Sumanth Reddy},
+  journal={arXiv preprint arXiv:2606.01435},
+  year={2026},
+  url={https://arxiv.org/abs/2606.01435}
+}
+
+@inproceedings{cao2026re3,
+  title={{Re}$^3$: Relevance \& Recency Retrieval for Mitigating Temporal Hallucination},
+  author={Cao, Jiawei and Ouyang, Jie and Cheng, Mingyue and Zhou, Zhaomeng and Liu, Chunli and Li, Yupeng and Liu, Zirui and Wang, Shijin},
+  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={25735--25760},
+  year={2026},
+  publisher={Association for Computational Linguistics},
+  doi={10.18653/v1/2026.acl-long.1180},
+  url={https://aclanthology.org/2026.acl-long.1180/}
+}
+
+@inproceedings{zhang2025mrag,
+  title={{MRAG}: A Modular Retrieval Framework for Time-Sensitive Question Answering},
+  author={Zhang, Siyue and Xue, Yuxiang and Zhang, Yiming and Wu, Xiaobao and Luu, Anh Tuan and Zhao, Chen},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2025},
+  pages={3080--3118},
+  year={2025},
+  publisher={Association for Computational Linguistics},
+  doi={10.18653/v1/2025.findings-emnlp.167},
+  url={https://aclanthology.org/2025.findings-emnlp.167/}
+}
+
+@inproceedings{abdallah2026tempretriever,
+  title={{TempRetriever}: Fusion-based Temporal Dense Passage Retrieval for Time-Sensitive Questions},
+  author={Abdallah, Abdelrahman and Piryani, Bhawna and Wallat, Jonas and Anand, Avishek and Jatowt, Adam},
+  booktitle={Proceedings of the 19th ACM International Conference on Web Search and Data Mining},
+  pages={5--15},
+  year={2026},
+  doi={10.1145/3773966.3777938},
+  publisher={Association for Computing Machinery}
+}
+
+@inproceedings{gade2025tempralm,
+  title={It's About Time: Incorporating Temporality in Retrieval Augmented Language Models},
+  author={Gade, Anoushka and Jetcheva, Jorjeta G. and Trivedi, Hardi},
+  booktitle={2025 IEEE Conference on Artificial Intelligence (CAI)},
+  pages={75--82},
+  year={2025},
+  doi={10.1109/CAI64502.2025.00019}
+}
+
+@article{jensen1999temporal,
+  title={Temporal Data Management},
+  author={Jensen, Christian S. and Snodgrass, Richard T.},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={11},
+  number={1},
+  pages={36--44},
+  year={1999},
+  doi={10.1109/69.755615}
+}
+
+@inproceedings{snodgrass1985taxonomy,
+  title={A Taxonomy of Time in Databases},
+  author={Snodgrass, Richard and Ahn, Ilsoo},
+  booktitle={Proceedings of the ACM SIGMOD International Conference on Management of Data},
+  pages={236--246},
+  year={1985},
+  doi={10.1145/318898.318921}
+}
+
+@misc{graphiti2026source,
+  author={{Graphiti contributors}},
+  title={{Graphiti}: Edge Maintenance Implementation},
+  year={2026},
+  howpublished={\url{https://github.com/getzep/graphiti/blob/main/graphiti_core/utils/maintenance/edge_operations.py}},
+  note={Source snapshot accessed October 6, 2026}
+}
+@inproceedings{chen2026defuzzrag,
+  title={{DeFuzzRAG}: Handling Fuzzy Time Expressions for Temporal Robustness in Retrieval-Augmented Generation},
+  author={Chen, Ling-Chun and Chen, Hsi-Wen and Chen, Ming-Syan},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40}, number={36}, pages={30252--30260}, year={2026},
+  doi={10.1609/aaai.v40i36.40276},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/40276}
+}
+@inproceedings{zerhoudi2026nuggetindex,
+  title={{NuggetIndex}: Governed Atomic Retrieval for Maintainable {RAG}},
+  author={Zerhoudi, Saber and Granitzer, Michael and Mitrovi{\'c}, Jelena},
+  booktitle={Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year={2026}, doi={10.1145/3805712.3809687},
+  url={https://arxiv.org/abs/2604.27306}
+}
+@article{anselma2013indeterminacy,
+  title={Valid-Time Indeterminacy in Temporal Relational Databases: Semantics and Representations},
+  author={Anselma, Luca and Terenziani, Paolo and Snodgrass, Richard T.},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={25}, number={12}, pages={2880--2894}, year={2013},
+  doi={10.1109/TKDE.2012.199}
+}
+@article{fan2012currency,
+  title={Determining the Currency of Data},
+  author={Fan, Wenfei and Geerts, Floris and Wijsen, Jef},
+  journal={ACM Transactions on Database Systems},
+  volume={37}, number={4}, articleno={25}, numpages={46}, year={2012},
+  doi={10.1145/2389241.2389244}
+}
+@inproceedings{amarilli2017order,
+  title={Possible and Certain Answers for Queries over Order-Incomplete Data},
+  author={Amarilli, Antoine and Ba, Mouhamadou Lamine and Deutch, Daniel and Senellart, Pierre},
+  booktitle={24th International Symposium on Temporal Representation and Reasoning (TIME 2017)},
+  series={Leibniz International Proceedings in Informatics}, volume={90}, pages={4:1--4:19},
+  year={2017}, doi={10.4230/LIPIcs.TIME.2017.4},
+  url={https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TIME.2017.4}
+}
+@article{nam2026timelyrag,
+  title={{TimelyRAG}: Semantic-Temporal Hybrid Retrieval for Time-Critical Question Answering in Overlapping-Evolving Documents},
+  author={Nam, Youngeun and Kim, Joeun and Song, Hwanjun and Yoon, Susik and Lee, Jae-Gil and Lee, Byung Suk},
+  journal={arXiv preprint arXiv:2609.11572}, year={2026},
+  url={https://arxiv.org/abs/2609.11572}
+}
+@inproceedings{li2025erase,
+  title={Language Modeling with Editable External Knowledge},
+  author={Li, Belinda Z. and Liu, Emmy and Ross, Alexis and Zeitoun, Abbas and Neubig, Graham and Andreas, Jacob},
+  booktitle={Findings of the Association for Computational Linguistics: NAACL 2025},
+  pages={3070--3090}, year={2025}, publisher={Association for Computational Linguistics},
+  doi={10.18653/v1/2025.findings-naacl.168},
+  url={https://aclanthology.org/2025.findings-naacl.168/}
+}
+@inproceedings{chen2023patecon,
+  title={{PaTeCon}: A Pattern-Based Temporal Constraint Mining Method for Conflict Detection on Knowledge Graphs},
+  author={Chen, Jianhao and Ren, Junyang and Ding, Wentao and Qu, Yuzhong},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37}, number={4}, pages={4166--4172}, year={2023},
+  doi={10.1609/aaai.v37i4.25533},
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/25533}
+}
+@article{yao2023matqa,
+  title={Beyond top-k: knowledge reasoning for multi-answer temporal questions based on revalidation framework},
+  author={Yao, Junping and Yuan, Cong and Li, Xiaojun and Wang, Yijing and Su, Yi},
+  journal={PeerJ Computer Science}, volume={9}, pages={e1725}, year={2023},
+  doi={10.7717/peerj-cs.1725}, url={https://peerj.com/articles/cs-1725/}
+}
+@article{darari2020completeness,
+  title={Completeness and soundness guarantees for conjunctive {SPARQL} queries over {RDF} data sources with completeness statements},
+  author={Darari, Fariz and Nutt, Werner and Razniewski, Simon and Rudolph, Sebastian},
+  journal={Semantic Web}, volume={11}, number={1}, pages={441--482}, year={2020},
+  doi={10.3233/SW-190344}
+}
+
+@inproceedings{hua2008ranking,
+ author={Hua, Ming and Pei, Jian and Zhang, Wenjie and Lin, Xuemin},
+ title={Ranking Queries on Uncertain Data: A Probabilistic Threshold Approach},
+ booktitle={Proceedings of the ACM SIGMOD International Conference on Management of Data},
+ year={2008}, pages={673--686}, doi={10.1145/1376616.1376685}
+}
+@inproceedings{amarilli2017topk,
+ author={Amarilli, Antoine and Amsterdamer, Yael and Milo, Tova and Senellart, Pierre},
+ title={Top-k Querying of Unknown Values under Order Constraints},
+ booktitle={20th International Conference on Database Theory},
+ year={2017}, pages={5:1--5:18}, doi={10.4230/LIPIcs.ICDT.2017.5}
+}
+@incollection{karp1972reducibility,
+ author={Karp, Richard M.},
+ title={Reducibility Among Combinatorial Problems},
+ booktitle={Complexity of Computer Computations},
+ editor={Miller, Raymond E. and Thatcher, James W.},
+ publisher={Plenum Press}, year={1972}, pages={85--103},
+ doi={10.1007/978-1-4684-2001-2_9}
+}
+@misc{qwen2024model,
+ author={{Qwen Team}}, title={{Qwen2.5}: A Party of Foundation Models},
+ year={2024}, month=sep, url={https://qwenlm.github.io/blog/qwen2.5/}
+}

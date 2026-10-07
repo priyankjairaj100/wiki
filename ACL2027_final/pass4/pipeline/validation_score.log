@@ -1,0 +1,106 @@
+{
+  "n_questions": 2348,
+  "n_articles": 644,
+  "metrics": {
+    "earliest_completion": {
+      "all_annotated_spans_covered_at_5": 0.6575809199318569,
+      "all_annotated_strings_covered_at_5": 0.6575809199318569,
+      "annotated_span_recall_at_5": 0.6683702441794435,
+      "annotated_string_recall_at_5": 0.6683702441794435,
+      "parent_passage_hit_at_5": 0.6971890971039182,
+      "passages_used": 4.866695059625213,
+      "tokens_used": 349.69463373083477,
+      "units_used": 4.994889267461669
+    },
+    "guaranteed_support": {
+      "all_annotated_spans_covered_at_5": 0.65587734241908,
+      "all_annotated_strings_covered_at_5": 0.65587734241908,
+      "annotated_span_recall_at_5": 0.6662407722884724,
+      "annotated_string_recall_at_5": 0.6662407722884724,
+      "parent_passage_hit_at_5": 0.694633730834753,
+      "passages_used": 4.875212947189097,
+      "tokens_used": 350.5826235093697,
+      "units_used": 4.994889267461669
+    },
+    "interval_outer_control": {
+      "all_annotated_spans_covered_at_5": 0.6563032367972743,
+      "all_annotated_strings_covered_at_5": 0.6563032367972743,
+      "annotated_span_recall_at_5": 0.667305508233958,
+      "annotated_string_recall_at_5": 0.667305508233958,
+      "parent_passage_hit_at_5": 0.696763202725724,
+      "passages_used": 4.849659284497444,
+      "tokens_used": 347.8032367972743,
+      "units_used": 4.994889267461669
+    },
+    "latest_completion": {
+      "all_annotated_spans_covered_at_5": 0.6541737649063032,
+      "all_annotated_strings_covered_at_5": 0.6541737649063032,
+      "annotated_span_recall_at_5": 0.6647501419647927,
+      "annotated_string_recall_at_5": 0.6647501419647927,
+      "parent_passage_hit_at_5": 0.6937819420783645,
+      "passages_used": 4.857751277683135,
+      "tokens_used": 348.58475298126064,
+      "units_used": 4.994889267461669
+    },
+    "latest_mentioned_year_top20": {
+      "all_annotated_spans_covered_at_5": 0.6422487223168655,
+      "all_annotated_strings_covered_at_5": 0.6422487223168655,
+      "annotated_span_recall_at_5": 0.6532509937535491,
+      "annotated_string_recall_at_5": 0.6532509937535491,
+      "parent_passage_hit_at_5": 0.6839863713798978,
+      "passages_used": 4.8283645655877345,
+      "tokens_used": 332.5498296422487,
+      "units_used": 4.994463373083475
+    },
+    "midpoint_completion": {
+      "all_annotated_spans_covered_at_5": 0.6545996592844975,
+      "all_annotated_strings_covered_at_5": 0.6545996592844975,
+      "annotated_span_recall_at_5": 0.6656019307211811,
+      "annotated_string_recall_at_5": 0.6656019307211811,
+      "parent_passage_hit_at_5": 0.6954855195911414,
+      "passages_used": 4.858603066439523,
+      "tokens_used": 348.53364565587736,
+      "units_used": 4.994889267461669
+    },
+    "no_temporal_filter": {
+      "all_annotated_spans_covered_at_5": 0.6511925042589438,
+      "all_annotated_strings_covered_at_5": 0.6511925042589438,
+      "annotated_span_recall_at_5": 0.6630465644520158,
+      "annotated_string_recall_at_5": 0.6630465644520158,
+      "parent_passage_hit_at_5": 0.694633730834753,
+      "passages_used": 4.8189948892674614,
+      "tokens_used": 342.5711243611584,
+      "units_used": 4.9957410562180575
+    },
+    "original_bm25": {
+      "all_annotated_spans_covered_at_5": 0.36754684838160134,
+      "all_annotated_strings_covered_at_5": 0.36754684838160134,
+      "annotated_span_recall_at_5": 0.37840715502555367,
+      "annotated_string_recall_at_5": 0.37840715502555367,
+      "parent_passage_hit_at_5": 0.42035775127768316,
+      "passages_used": 4.8807495741056215,
+      "tokens_used": 99.47316865417376,
+      "units_used": 5.0
+    },
+    "original_bm25_latestyear": {
+      "all_annotated_spans_covered_at_5": 0.5191652470187393,
+      "all_annotated_strings_covered_at_5": 0.5191652470187393,
+      "annotated_span_recall_at_5": 0.5298126064735945,
+      "annotated_string_recall_at_5": 0.5298126064735945,
+      "parent_passage_hit_at_5": 0.5617546848381602,
+      "passages_used": 4.826660988074957,
+      "tokens_used": 187.20315161839864,
+      "units_used": 5.0
+    },
+    "possible_support": {
+      "all_annotated_spans_covered_at_5": 0.6563032367972743,
+      "all_annotated_strings_covered_at_5": 0.6563032367972743,
+      "annotated_span_recall_at_5": 0.667305508233958,
+      "annotated_string_recall_at_5": 0.667305508233958,
+      "parent_passage_hit_at_5": 0.696763202725724,
+      "passages_used": 4.849659284497444,
+      "tokens_used": 347.8032367972743,
+      "units_used": 4.994889267461669
+    }
+  }
+}

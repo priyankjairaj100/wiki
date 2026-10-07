@@ -1,0 +1,48 @@
+{
+  "frontend_contrasts": {
+    "validation": {
+      "no_temporal_filter__original_bm25_latestyear": {
+        "delta": 0.13323395797842133,
+        "ci95": [
+          0.10799716914366596,
+          0.15802052579783496
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "latest_mentioned_year_top20__original_bm25_latestyear": {
+        "delta": 0.12343838727995457,
+        "ci95": [
+          0.10164329225102706,
+          0.14580751755472945
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    },
+    "human": {
+      "no_temporal_filter__original_bm25_latestyear": {
+        "delta": 0.05,
+        "ci95": [
+          0.0059382422802850355,
+          0.09212121212121212
+        ],
+        "article_clusters": 251,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "latest_mentioned_year_top20__original_bm25_latestyear": {
+        "delta": 0.11204819277108434,
+        "ci95": [
+          0.07523696682464455,
+          0.15193704600484262
+        ],
+        "article_clusters": 251,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    }
+  }
+}

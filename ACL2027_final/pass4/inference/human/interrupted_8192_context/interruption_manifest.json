@@ -1,0 +1,23 @@
+{
+  "interrupted_utc": "2026-10-06T12:31:00.342970+00:00",
+  "planned_requests": 193,
+  "completed_responses": 0,
+  "interrupted_request_index": 1,
+  "reason": "The first request had not completed after more than seven minutes. Concurrent jobs approached the 8 GiB cgroup memory limit. The pre-output resource amendment reduces context and prompt batches.",
+  "server_faults_observed": {
+    "minor": 472278,
+    "major": 18
+  },
+  "cgroup_memory_limit_bytes": 8589934592,
+  "excluded_response": "The interrupted request produced no completed response and enters no benchmark result. It will be rerun with the same request.",
+  "unchanged": [
+    "model",
+    "quantization",
+    "prompt",
+    "seed",
+    "temperature",
+    "output_token_limit",
+    "parser",
+    "QA denominator"
+  ]
+}

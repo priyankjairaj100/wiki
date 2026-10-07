@@ -1,0 +1,13 @@
+{
+  "phase": "Calibration, pre-freeze",
+  "review_type": "Independent model-assisted source audit",
+  "added_or_rekeyed_records_reviewed": 8,
+  "accepted": 8,
+  "succession_records_reviewed": 5,
+  "pairs_reviewed": 3,
+  "pairs_accepted": 3,
+  "earlier_rejected_claims_removed": true,
+  "answer_label_reads": 0,
+  "input_claim_sha256": "f470a7815ba17d85dc7a6a7b8d58c3d11836130487b8c42ac8a7f44c6354f341",
+  "scope": "Source semantics accepted for rule freeze. Reader rendering must preserve grounded roles when atomic spans omit prior context."
+}

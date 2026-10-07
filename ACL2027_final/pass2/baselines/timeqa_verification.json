@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "constructed_checks_only": true,
+  "checked": [
+    "abbreviated range",
+    "cross-century range",
+    "undated features",
+    "filters retain unresolved text",
+    "reranker tie semantics",
+    "undated query fallback"
+  ]
+}

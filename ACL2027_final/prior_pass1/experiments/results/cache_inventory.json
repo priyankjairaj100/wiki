@@ -1,0 +1,20 @@
+[
+  {
+    "path": "data/cache/openai_generations.jsonl",
+    "n_rows": 1828,
+    "fields": [
+      "key",
+      "out"
+    ],
+    "sha256": "6c04c08c32896f95f20b14181016eed0f4531cfcfe1a70b2493dbcd4723bc4bb"
+  },
+  {
+    "path": "data/cache/qwen_generations.jsonl",
+    "n_rows": 4995,
+    "fields": [
+      "key",
+      "out"
+    ],
+    "sha256": "8dc9b8fa39013cb80c3213ee38492c4e21ff783f475abba69e8f14258c54c275"
+  }
+]

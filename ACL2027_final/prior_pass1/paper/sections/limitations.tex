@@ -1,0 +1,25 @@
+\section*{Limitations}
+
+The certificates are exact relative to supplied pair decisions and timestamps.
+They do not verify source truth or infer effective dates from publication metadata.
+Concurrent values require replacement decisions that distinguish coexistence from retirement.
+Our current matcher does not solve that general extraction problem.
+
+The new experiments use small English collections and a fixed lexical ranking.
+Wikidata and TempLAMA claims are rendered from structured records.
+RealProse contains genuine extracts but curated tenure dates.
+Its 35 subjects provide limited coverage of open-domain prose.
+The complete TempLAMA answer-set analysis is a development evaluation with frozen rankings and no subsequent parameter tuning.
+Its retrieval pool still contains only the previously rendered selected answers.
+It therefore does not evaluate exhaustive retrieval of every valid concurrent answer.
+
+Direct invalidation is an existing temporal-memory operation.
+Our comparison formalizes its behavior under shared pair decisions.
+The experiments compare matched compilation rules, rather than complete Graphiti, MemStrata, or Re$^3$ pipelines.
+The archived reader runs evaluate an unchanged current-answer path.
+New historical results measure retrieved evidence rather than generated answers.
+
+The stability theorem fixes relevance scores and timestamps.
+One document edit can change several pair decisions or alter the ranking.
+One changed evidence item can also change a generated answer.
+The certificate guarantee bounds structural propagation, rather than downstream answer sensitivity.

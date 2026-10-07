@@ -1,0 +1,116 @@
+[
+  {
+    "type": "file",
+    "oid": "f36270ea2a9259aec8f73761380451db973efa06",
+    "size": 2651,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "88f850613767ecf8c5ccbd5bdb47ea32caf882f5",
+    "size": 329,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "424fec31c8a624748d9a8b613e75d8efc83a685e",
+    "size": 656365,
+    "path": "test_l1.json"
+  },
+  {
+    "type": "file",
+    "oid": "c8590a3edd7469fa9f8c5662befb600927e96c85",
+    "size": 327018,
+    "path": "test_l1_future.json"
+  },
+  {
+    "type": "file",
+    "oid": "c032736eda12e900b09bce9a0fa9610f58ceae69",
+    "size": 67471020,
+    "lfs": {
+      "oid": "9292d14519e34441c43efda9a0739a27a498665039f0e2c354c3dcde709c9021",
+      "size": 67471020,
+      "pointerSize": 133
+    },
+    "xetHash": "da55945984571c91f3279f33f62c3e29855ce3757ebf5028fdc16a786fb163f3",
+    "path": "test_l2.json"
+  },
+  {
+    "type": "file",
+    "oid": "61b9abb9defd414768cbe5aefd8e1a132410ba81",
+    "size": 62183180,
+    "lfs": {
+      "oid": "b6fb4468d5accab156b2d2481c27d0860ea54f8604045a172f42c5e36978d7dd",
+      "size": 62183180,
+      "pointerSize": 133
+    },
+    "xetHash": "ce29e73db03e82e37d727538a45e5d388bad0cb4f9cbc84bfe566976d9f520a9",
+    "path": "test_l3.json"
+  },
+  {
+    "type": "file",
+    "oid": "5982e197caef4d5e9beb24c8cf45aa7af5ff634d",
+    "size": 66390749,
+    "lfs": {
+      "oid": "f347ea5d3d6fe47eba6d6ac3a58ceb730505ea19a3641a512167adebe1343b9d",
+      "size": 66390749,
+      "pointerSize": 133
+    },
+    "xetHash": "9e00a82887b29b821e80e71e2ef500dd6ebade19055dabfe22a611c2ba8e8bbf",
+    "path": "train_l1.json"
+  },
+  {
+    "type": "file",
+    "oid": "cf5f52ed3ac8c2d9fc893d0b9cb59ac4bcf3f3aa",
+    "size": 165556775,
+    "lfs": {
+      "oid": "0a069791179f7b111039415e0e766f0c1ea40150fd96aea3bae0ecdb484be962",
+      "size": 165556775,
+      "pointerSize": 134
+    },
+    "xetHash": "5e8fa8902025bdedb0badc44d2a4b2615de9df12751572d5f46904590033513c",
+    "path": "train_l2.json"
+  },
+  {
+    "type": "file",
+    "oid": "bce5780d1d9aa235a67f69e5e28d5f4e79137ef0",
+    "size": 146983357,
+    "lfs": {
+      "oid": "0179e86c7bbd5fe2f6ba80ba0323584c06482837d57a6f313c98c7b26b9dee25",
+      "size": 146983357,
+      "pointerSize": 134
+    },
+    "xetHash": "51ea48a030c4c622b555ee8afc6d13d5e2e3a4e287637934707c59562c97ba21",
+    "path": "train_l3.json"
+  },
+  {
+    "type": "file",
+    "oid": "34974c575985da117d55ab562400e462d29706c8",
+    "size": 656231,
+    "path": "val_l1.json"
+  },
+  {
+    "type": "file",
+    "oid": "1b3e657479096a089742f73d52745ca7ec9f4306",
+    "size": 58620501,
+    "lfs": {
+      "oid": "8363b6d74bbe57e05f22f4eccd045c366c647a205edf31cc0fccf4d234a72282",
+      "size": 58620501,
+      "pointerSize": 133
+    },
+    "xetHash": "9f734a73d760b02c4f652537e28e9c64b9c5bc1780479097fbdc3c23eff69ca5",
+    "path": "val_l2.json"
+  },
+  {
+    "type": "file",
+    "oid": "2aaae9a79effae9e217a12b2a13b83ae9559fe2f",
+    "size": 53538625,
+    "lfs": {
+      "oid": "f7fca6d76093bd555ab118f734c2532be70c0d9e18ca232301c5b3f1b09728b6",
+      "size": 53538625,
+      "pointerSize": 133
+    },
+    "xetHash": "59862b7faccc691244b72c63af68f52d0fd75bda8423b70b976c20ded8b78bcb",
+    "path": "val_l3.json"
+  }
+]

@@ -1,0 +1,59 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Changing answers do not define replacement events}
+
+Table~\ref{tab:sourceaudit} characterizes the untouched TempLAMA test keys.
+A changed first-listed answer often leaves the previous answer accepted in the same annual label set.
+Most changes to the complete answer set also retain at least one answer.
+These observations establish the need to preserve alternatives before selecting a retirement rule.
+They also separate annual answer membership from event timing.
+The released audit includes every transition, its complete answer sets, and its source identifier.
+\input{tables/sourceaudit}
+
+\subsection{Strong date policies recover annual answer sets}
+
+Table~\ref{tab:fullsource} compares the fixed baseline policies on all held-out annual questions.
+Date-first ranking nearly saturates this source-derived task.
+Query latest-batch also preserves multiple accepted answers within the returned context.
+Returning only one latest value instead suppresses 13.63\% of accepted answers before context selection.
+The key-cluster confidence interval is $[13.06,14.21]$ percentage points.
+This loss concerns answer coverage even when the first returned answer is correct.
+\input{tables/fullsource}
+
+The age policy shows a different effect.
+Its first-result accuracy remains high while older unsupported values still enter the five-observation context.
+Thus first-result accuracy does not measure the temporal composition of a retrieval context.
+
+The Graphiti policy and exact direct-first compilation produce identical endpoints on all 45,866 observations.
+Their equivalence uses identical text-parsed candidate decisions.
+The original lexical predicate uses a different matcher and remains a separate condition.
+These comparisons establish the deterministic reference behavior for the uncertainty compiler.
+We assess uncertain event times through the independent verification below.
+
+\subsection{Natural paragraphs reward ranking and expose deletion costs}
+
+Table~\ref{tab:natural} reports retrieval from the complete TimeQA paragraph pool.
+Latest-year reranking improves human-question Hit@5 by 9.04 percentage points over BM25.
+Its article-cluster confidence interval is $[5.54,12.69]$.
+The template diagnostic gains 19.36 points, with interval $[16.95,21.78]$.
+The comparison provides a strong lexical baseline for subsequent temporal evidence selection.
+\input{tables/natural}
+
+Hard filtering can remove annotated support even when its aggregate retrieval score improves.
+Year-envelope filtering removes 284 of 2,840 template-track spans and 107 of 887 human-track spans.
+Explicit-range filtering removes 170 and 63 spans, respectively.
+Paragraphs can describe several events or omit a relevant date from the answer sentence.
+A paragraph's mentioned-year range therefore needs a separate semantic check before it justifies evidence removal.
+The compiler isolates this evidence decision from its temporal guarantees.
+
+\subsection{Independent verification of the uncertainty compiler}
+
+An independent implementation enumerates possible worlds and compares their memberships with the compiled bounds.
+Across 253,050 predicate checks, the implementation finds no disagreement.
+The checks include equal times, uncertain order, and interval-valued event dates.
+These are exhaustive correctness checks on finite instances, rather than corpus accuracy measurements.
+A separate oracle checks context invariance across 65,809 nonempty mask families.
+All 328,747 budget-specific decisions agree with the theorem.
+Interface tests also compare 6,912 contexts from finite event-date assignments.
+The release contains the enumeration code, test logs, and complete corpus predictions.

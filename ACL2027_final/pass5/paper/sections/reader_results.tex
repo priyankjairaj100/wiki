@@ -1,0 +1,12 @@
+\subsection{Answer generation under matched contexts}
+Table~\ref{tab:reader_main} compares generated answers under the same evidence budgets.
+The selected ranking reaches 21.67\% strict F1, versus 18.33\% for original BM25 with recency.
+The paired difference is 3.33 points, with interval $[-4.84,11.67]$.
+Possible and guaranteed support produce identical answer sets on the primary sample.
+\input{tables/reader_main}
+
+Their answer sets differ on four diagnostic questions, including three with valid responses under both policies.
+Earliest and latest date completion yield the same change counts.
+One valid change recovers the annotated answer.
+The diagnostic connects context sensitivity to observed answer changes.
+Appendix~\ref{app:reader} reports exact match, paired intervals, and response-format failures.

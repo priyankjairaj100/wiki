@@ -1,0 +1,123 @@
+{
+  "notes": [
+    "All original answer IDs are retained.",
+    "Removal denotes absence from a later benchmark label; it is not an observed retirement event.",
+    "A recurrence denotes present, then absent, then present in observed source labels."
+  ],
+  "counts": {
+    "all": {
+      "rows": 34963,
+      "keys": 4057,
+      "answer_observations": 45866,
+      "multi_answer_rows": 8723,
+      "keys_ever_multi_answer": 3410,
+      "max_answers": 7,
+      "adjacent_observed_transitions": 30906,
+      "label_set_changed": 9483,
+      "addition_only": 3649,
+      "removal_only": 3678,
+      "add_and_remove": 2156,
+      "changed_with_retained_value": 8254,
+      "first_answer_changed": 5456,
+      "first_changed_previous_remains": 1980,
+      "recurrence_events": 129,
+      "recurrence_keys": 121,
+      "gapped_transitions": 460
+    },
+    "legacy_dev": {
+      "rows": 2677,
+      "keys": 300,
+      "answer_observations": 3425,
+      "multi_answer_rows": 613,
+      "keys_ever_multi_answer": 245,
+      "max_answers": 6,
+      "adjacent_observed_transitions": 2377,
+      "label_set_changed": 735,
+      "addition_only": 278,
+      "removal_only": 287,
+      "add_and_remove": 170,
+      "changed_with_retained_value": 646,
+      "first_answer_changed": 447,
+      "first_changed_previous_remains": 153,
+      "recurrence_events": 8,
+      "recurrence_keys": 7,
+      "gapped_transitions": 35
+    },
+    "development": {
+      "rows": 6534,
+      "keys": 764,
+      "answer_observations": 8533,
+      "multi_answer_rows": 1612,
+      "keys_ever_multi_answer": 658,
+      "max_answers": 6,
+      "adjacent_observed_transitions": 5770,
+      "label_set_changed": 1787,
+      "addition_only": 681,
+      "removal_only": 710,
+      "add_and_remove": 396,
+      "changed_with_retained_value": 1558,
+      "first_answer_changed": 1029,
+      "first_changed_previous_remains": 371,
+      "recurrence_events": 27,
+      "recurrence_keys": 26,
+      "gapped_transitions": 92
+    },
+    "test": {
+      "rows": 25752,
+      "keys": 2993,
+      "answer_observations": 33908,
+      "multi_answer_rows": 6498,
+      "keys_ever_multi_answer": 2507,
+      "max_answers": 7,
+      "adjacent_observed_transitions": 22759,
+      "label_set_changed": 6961,
+      "addition_only": 2690,
+      "removal_only": 2681,
+      "add_and_remove": 1590,
+      "changed_with_retained_value": 6050,
+      "first_answer_changed": 3980,
+      "first_changed_previous_remains": 1456,
+      "recurrence_events": 94,
+      "recurrence_keys": 88,
+      "gapped_transitions": 333
+    }
+  },
+  "relations": {
+    "P102": {
+      "rows": 5275,
+      "multi_answer_rows": 633
+    },
+    "P108": {
+      "rows": 6066,
+      "multi_answer_rows": 1199
+    },
+    "P127": {
+      "rows": 1759,
+      "multi_answer_rows": 312
+    },
+    "P286": {
+      "rows": 3644,
+      "multi_answer_rows": 985
+    },
+    "P39": {
+      "rows": 5126,
+      "multi_answer_rows": 1571
+    },
+    "P488": {
+      "rows": 2920,
+      "multi_answer_rows": 448
+    },
+    "P54": {
+      "rows": 6268,
+      "multi_answer_rows": 2953
+    },
+    "P6": {
+      "rows": 2739,
+      "multi_answer_rows": 371
+    },
+    "P69": {
+      "rows": 1166,
+      "multi_answer_rows": 251
+    }
+  }
+}

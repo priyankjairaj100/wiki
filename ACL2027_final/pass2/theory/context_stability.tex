@@ -1,0 +1,30 @@
+\paragraph{When date uncertainty cannot change the context.}
+A reader uses a ranked context with a fixed budget $k$.
+The complete ranking fixes all score ties.
+Let $P(Q)$ and $H(Q)$ denote possible and guaranteed support.
+Write $\operatorname{Top}_k(S)$ for the first $k$ ranked claims in $S$.
+
+\begin{theorem}[Exact context stability]
+\label{thm:context-stability}
+Every allowed date assignment returns the same context exactly when
+\begin{equation}
+ \operatorname{Top}_k(P(Q))=\operatorname{Top}_k(H(Q)).
+\label{eq:context-stability}
+\end{equation}
+Equivalently, every claim in $\operatorname{Top}_k(P(Q))$ belongs to $H(Q)$.
+\end{theorem}
+\begin{proof}
+Let $C=\operatorname{Top}_k(P(Q))$.
+If $C\subseteq H(Q)$, every world retains $C$ and selects the same ranked context.
+Conversely, take $c\in C\setminus H(Q)$.
+Some world supports $c$, while another does not.
+At most $k-1$ possible claims outrank $c$.
+Thus every world supporting $c$ must select it.
+The two worlds return different contexts.
+For $k=0$, all contexts are empty.
+\end{proof}
+
+This test identifies uncertainty that affects the returned context.
+Lower-ranked claims can remain uncertain without changing retrieval.
+The test needs two filtered rankings and no enumeration of date assignments.
+Its guarantee concerns retrieved evidence, rather than generated answers.

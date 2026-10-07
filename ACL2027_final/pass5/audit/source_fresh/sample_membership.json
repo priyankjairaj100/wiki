@@ -1,0 +1,365 @@
+{
+  "seed": "pass5-restored-independent-source-audit-v1",
+  "claims": [
+    {
+      "split": "dev",
+      "claim_id": "41a1bcbdad8107051fb3ba4c",
+      "article_path": "/wiki/Sean_Bowers",
+      "selection_hash": "0105711d628f22993ff2f80d67c17894b451a261ab8d21fb8752cf1d3e0b07b5"
+    },
+    {
+      "split": "dev",
+      "claim_id": "415fcb16b4e02ecda93bd1d5",
+      "article_path": "/wiki/Lawrence_Gonzi",
+      "selection_hash": "02285afd9fb8d796f0532de16a9a781060464fbbd7db66f32d2810b3180dd9b5"
+    },
+    {
+      "split": "dev",
+      "claim_id": "de68548fa07aee027af4faf7",
+      "article_path": "/wiki/Theo-Ben_Gurirab",
+      "selection_hash": "027e21ac8cb10309ce3895afa83db1c556cb1bca8e722b0eaff2098a7b7c269e"
+    },
+    {
+      "split": "dev",
+      "claim_id": "35e07f01416cfec270f2bfa6",
+      "article_path": "/wiki/Chen_Chien-jen",
+      "selection_hash": "02b572e3b09502260cc0148a8d721d6ee66eb21bdad94324a85cd40d04a2e703"
+    },
+    {
+      "split": "dev",
+      "claim_id": "b868527beb4cad7c5ccaeaec",
+      "article_path": "/wiki/Alan_Maybury",
+      "selection_hash": "02cd5bba1e1c909a97efd4f8180f41e822a439b86dda17b0607b15789fde5be6"
+    },
+    {
+      "split": "dev",
+      "claim_id": "0f1c544c232bc6023d7325c4",
+      "article_path": "/wiki/James_Dawes_(British_politician)",
+      "selection_hash": "034d740c043750588f3ba66f162cdc22433be98f8413de8a7418e2a963473dfc"
+    },
+    {
+      "split": "dev",
+      "claim_id": "9095164a21b780ca54e487c5",
+      "article_path": "/wiki/Brad_Davis_(soccer)",
+      "selection_hash": "05683fdb466daa9cf7535c4a5f9ca600fc71e5ace68ca1b3a5a3317a61a22dd4"
+    },
+    {
+      "split": "dev",
+      "claim_id": "a66b9003c693d01d9e996276",
+      "article_path": "/wiki/Anthony_Allen_(rugby_union)",
+      "selection_hash": "0589824829222a7540caa855afc24993b728b6b79c9b9875e1c3acb91b7e6cfe"
+    },
+    {
+      "split": "dev",
+      "claim_id": "713f6e12a32324721665133c",
+      "article_path": "/wiki/Gretchen_Whitmer",
+      "selection_hash": "06baaf52049ed954efe30c3159654d532c0f317e81adba7cbc500499923d35f2"
+    },
+    {
+      "split": "dev",
+      "claim_id": "aa180a2ceddaba5151253f68",
+      "article_path": "/wiki/Peter_Tauber",
+      "selection_hash": "08682edf0858393f9fe98c40e8f6010f97c6cf01a16aeed8d1d52bc4fcc43e5e"
+    },
+    {
+      "split": "dev",
+      "claim_id": "fb199c3e8f97536f8021b858",
+      "article_path": "/wiki/Annalena_Baerbock",
+      "selection_hash": "0903a354717c26ce1cfb97c94b315afb256a68c4e05448d04dafd0beab3bc4f6"
+    },
+    {
+      "split": "dev",
+      "claim_id": "3b571aaff25ec36881bd035d",
+      "article_path": "/wiki/Lawrence_Gonzi",
+      "selection_hash": "090f694dc2c5adb72c4579ba0a226101ffc7c102582ff4cccb2165c4a6c97f26"
+    },
+    {
+      "split": "dev",
+      "claim_id": "85e6a8712ff86f3a2154a840",
+      "article_path": "/wiki/Roseli_Ocampo-Friedmann",
+      "selection_hash": "09e07ee3a6d17665662e30804142e982bdab4ce65856f2f006854ff2d4d07efa"
+    },
+    {
+      "split": "dev",
+      "claim_id": "3902533a3147d506c51fcaf0",
+      "article_path": "/wiki/George_A._White",
+      "selection_hash": "0b7f6b83e61758115660074ff685d75cddd987945b27370f8e4be34df707c081"
+    },
+    {
+      "split": "dev",
+      "claim_id": "85a2b17a078ac44d94f7627b",
+      "article_path": "/wiki/John_Fugh",
+      "selection_hash": "0d716b1098f19cef25d3ef835e7a9677f551f25134fa039474d7fa543fcf65fe"
+    },
+    {
+      "split": "dev",
+      "claim_id": "35b5748892366d24325f6326",
+      "article_path": "/wiki/Bill_Laimbeer",
+      "selection_hash": "0ddd2d2e518d266c23e3511318eddfbf4cc9ca4e19cae6234457b5b67aaeda28"
+    },
+    {
+      "split": "dev",
+      "claim_id": "d1072e462c411390c18db8dc",
+      "article_path": "/wiki/Mark_Schwarzer",
+      "selection_hash": "0e30fa42c6e83e3138280f4075a9f64ff85a0ba683f89eb6464bc9875474ada0"
+    },
+    {
+      "split": "dev",
+      "claim_id": "39955e196c74b5fd9e5ea696",
+      "article_path": "/wiki/Michael_Shersby",
+      "selection_hash": "0f0b36ce4412935e024345c1facd8b4b4723142506c6bb33259a7a9fdfc83fcb"
+    },
+    {
+      "split": "dev",
+      "claim_id": "34fe11abcf03f65b0f89ba83",
+      "article_path": "/wiki/Gediminas_Kirkilas",
+      "selection_hash": "0f3dc2a169b632f8c7df6f90ec51b65eb470ceefc04b936f12ed61411e30cbd3"
+    },
+    {
+      "split": "dev",
+      "claim_id": "6efe8af0f08a7d20c13841c8",
+      "article_path": "/wiki/John_Buttigieg_(footballer)",
+      "selection_hash": "0fd74ae57f5466132ab87f0b439126d4db44b882846023ab5b6e334c9495f5b8"
+    },
+    {
+      "split": "test",
+      "claim_id": "43b8f01501e72a61fe5a473f",
+      "article_path": "/wiki/Matt_Glennon",
+      "selection_hash": "003542254595d0b84fbde2fdd5595fe4fb13139265650c4d48590374aefe4ba9"
+    },
+    {
+      "split": "test",
+      "claim_id": "93cdaa137e6a65effeb1c09b",
+      "article_path": "/wiki/Mark_Bridge",
+      "selection_hash": "011e19414e5bb3f0fa6b66a8465ec6ee41edd43a809060fb92bace741526fe46"
+    },
+    {
+      "split": "test",
+      "claim_id": "72c860822148986af84e70e9",
+      "article_path": "/wiki/Hugh_Scott",
+      "selection_hash": "01a16e4aa56cd3bc60ebb1c18525a7dd62b9417ce7f6fbf9cc5c62eae2daeded"
+    },
+    {
+      "split": "test",
+      "claim_id": "409d1da4fee7da9e756cf7eb",
+      "article_path": "/wiki/Annette_King",
+      "selection_hash": "0296bf7e7c03eeafe2b15b1cef17c0864ac83dd620cd9d2e639e7cfd484c624e"
+    },
+    {
+      "split": "test",
+      "claim_id": "74799230eeb7032190a9cdf5",
+      "article_path": "/wiki/Annette_King",
+      "selection_hash": "029820976a0e65a8e0adb9f5a485f140aa34d6febb8b7f50e2edf6f246efa66a"
+    },
+    {
+      "split": "test",
+      "claim_id": "a9e6a9da13f96e3426d89a70",
+      "article_path": "/wiki/Lee_Nogan",
+      "selection_hash": "02dd4f2996c08153aa8cf1fb2e719483ffa6af160326835c9693c8cdb6f9a75e"
+    },
+    {
+      "split": "test",
+      "claim_id": "6fd57ea9c1c79d72e7a6e6c2",
+      "article_path": "/wiki/Zuleyma_Tang-Martínez",
+      "selection_hash": "02e99c22b7e484dadcf4d6e341287b274bb6a7918cf4c9435c1d06c7bc4594a7"
+    },
+    {
+      "split": "test",
+      "claim_id": "1c0dca0dc1ea174cd1f9d2cf",
+      "article_path": "/wiki/Schelto_Patijn",
+      "selection_hash": "03237e2dc677fa5ae9fb602ad55b3d1424db25368e5e48d83277548c56474450"
+    },
+    {
+      "split": "test",
+      "claim_id": "4baa3ffe20850178ed902e2f",
+      "article_path": "/wiki/Zuleyma_Tang-Martínez",
+      "selection_hash": "04ae16058c99e44bc5457c6b09a938f08fd07d76e602c1f1b8a093a934e08d0f"
+    },
+    {
+      "split": "test",
+      "claim_id": "d2340eb01fa70dabaa9d82c6",
+      "article_path": "/wiki/Seth_Nana_Twumasi",
+      "selection_hash": "04b55f6bc083178f233a3243aca94cd1ded256f8d2beabe9281523304e435897"
+    },
+    {
+      "split": "test",
+      "claim_id": "26cc911afe0a28645449628c",
+      "article_path": "/wiki/Fraser_Anning",
+      "selection_hash": "05493ff96db44ba618e60c0d1eca8de68baf3b04ada5680d483c2c52786a1a9f"
+    },
+    {
+      "split": "test",
+      "claim_id": "3dcba66c69196cb7ae6e1365",
+      "article_path": "/wiki/Elliott_Ward",
+      "selection_hash": "059c39a37de14f7086f6ce455464b8bb54acc44ebe810c662267035d7e3d6083"
+    },
+    {
+      "split": "test",
+      "claim_id": "2b65d889384bc14262a43db4",
+      "article_path": "/wiki/Gabby_Giffords",
+      "selection_hash": "069112a14ae0b0e95f5c4ef7bbdc3aaa15ed9e392eda1b2bb3449639c25e1d26"
+    },
+    {
+      "split": "test",
+      "claim_id": "aea875be903a8b5292d9a0a0",
+      "article_path": "/wiki/Harry_Dunn",
+      "selection_hash": "06f5b902d77a93f064484556a7040cc12890abe79ffe8ecee73b1505bb51aac2"
+    },
+    {
+      "split": "test",
+      "claim_id": "b614681cde6906eab13d806b",
+      "article_path": "/wiki/Lee_Cattermole",
+      "selection_hash": "07389d423e9472f25268c49ea6861e148f6031fb4ea5881cb57705347a707908"
+    },
+    {
+      "split": "test",
+      "claim_id": "4bc9547980e8f193d94b4944",
+      "article_path": "/wiki/Steve_Harkness",
+      "selection_hash": "078892d1c82b7edb25f6ce9d0ccb6687f435781f736a00e2379bfa73e6c84734"
+    },
+    {
+      "split": "test",
+      "claim_id": "cf4d0967b9abbe9f10c6b911",
+      "article_path": "/wiki/Helen_Clark",
+      "selection_hash": "093ea254b67d1f68a0050096131cdf22ad6b9d6320c2164106e250d1f8a102e4"
+    },
+    {
+      "split": "test",
+      "claim_id": "0a5ecbf84c793841ce3b7aa4",
+      "article_path": "/wiki/Chris_Jones_(footballer,_born_1989)",
+      "selection_hash": "0b7dbad7af5a7abb9f3961456449a16e188c68fb9db2a9a8ae96c0d113f1bd02"
+    },
+    {
+      "split": "test",
+      "claim_id": "3f123903e597389298fca07d",
+      "article_path": "/wiki/Per_Rudberg",
+      "selection_hash": "0b9edeaeb799b3a458665b413dc84d006aa8347cc5b7951f092458854e920e61"
+    },
+    {
+      "split": "test",
+      "claim_id": "14e5995603df7698041620ed",
+      "article_path": "/wiki/William_Crolly",
+      "selection_hash": "0bf94a50186df04cf68d8d48710ce2da9d200132caeafd55e65b83e05bda8a03"
+    },
+    {
+      "split": "test",
+      "claim_id": "63f2196c5e0c6d647e366a53",
+      "article_path": "/wiki/Aaron_Taylor-Sinclair",
+      "selection_hash": "0c94754a4693a862e497885bc9bcd4e39da3b81b4d664ec6b39d1a9335b70893"
+    },
+    {
+      "split": "test",
+      "claim_id": "83d86df7fd7df25c6a10ae3c",
+      "article_path": "/wiki/Pat_Duncan",
+      "selection_hash": "0cb5135a1f5c50a38283b74bbd4cfc43d8196c906de02b0e3bf4ac0085d682fa"
+    },
+    {
+      "split": "test",
+      "claim_id": "067de8bf2d8abaeca66a6be9",
+      "article_path": "/wiki/Simon_Mensing",
+      "selection_hash": "0d352ac51497f32c8841e821a7eb721360359746f5b26efeffdb69d891a4f080"
+    },
+    {
+      "split": "test",
+      "claim_id": "d1d5353b034119e27a06542e",
+      "article_path": "/wiki/Dean_Holdsworth",
+      "selection_hash": "0f57ab1aa417c17262022284ad13bf30d5aef3e0da2971c34fb4d89e89ff1f91"
+    },
+    {
+      "split": "test",
+      "claim_id": "9d99eaf044968b92321a824b",
+      "article_path": "/wiki/Carl_August_Ehrensvärd_(1858–1944)",
+      "selection_hash": "1091b58a09f0d3af00ebf7c2a5f748808ef9e896a69ad0bc804fa42134b6028b"
+    },
+    {
+      "split": "test",
+      "claim_id": "a6019971878aba406a6a3694",
+      "article_path": "/wiki/Charles_Henry_Thompson",
+      "selection_hash": "10a8b869cc3f7c546000cc6157e019aa9b17eee00b2b0558c201630cd095c445"
+    },
+    {
+      "split": "test",
+      "claim_id": "7d2209e4645f2c87a9bcd52e",
+      "article_path": "/wiki/Gary_Mills_(footballer,_born_1961)",
+      "selection_hash": "118fc1a523e872682f09f77efabd1fc665293d5a9b7024a966dd8f4b737f65ea"
+    },
+    {
+      "split": "test",
+      "claim_id": "cd2f5be854106f9fc254409d",
+      "article_path": "/wiki/Dan_Coats",
+      "selection_hash": "121cc21b6217b79e1d35f010cdf2f061514fe6964fd2f7a23c273fc4b520574f"
+    },
+    {
+      "split": "test",
+      "claim_id": "0cf66715790cac010b7d2d55",
+      "article_path": "/wiki/Brian_Dutton",
+      "selection_hash": "128aa7ecf0fb53de116defd27265e645242b479a5f1665c64557e13785d16bd9"
+    },
+    {
+      "split": "test",
+      "claim_id": "679c98d14da2e61f5e0aac32",
+      "article_path": "/wiki/Giovanni_Spadolini",
+      "selection_hash": "12a8ec17c24b5a17e2d652ef512ee9e94ff273a0a696ed9e085efcee5a83ee02"
+    },
+    {
+      "split": "test",
+      "claim_id": "d4907fa964963e440a2b9850",
+      "article_path": "/wiki/Mbaye-Jacques_Diop",
+      "selection_hash": "13ecf8fe5cc75248f709c4d2f37a756a6a5744c23272c036a44295265543e00d"
+    },
+    {
+      "split": "test",
+      "claim_id": "1d2e00c655b0e84224f13006",
+      "article_path": "/wiki/Lee_Ashcroft",
+      "selection_hash": "13ef43e4c1fd12491f42aa430104fe498c67837edc9199e8123ddab91b787701"
+    },
+    {
+      "split": "test",
+      "claim_id": "be3b69a453b3aec1a9879fbc",
+      "article_path": "/wiki/Alfred_Gusenbauer",
+      "selection_hash": "14864a01787f218d907983880618cf3d73a565cf9b5991743cabeee8aee96288"
+    },
+    {
+      "split": "test",
+      "claim_id": "0d3ddf9dab57f05dfb391192",
+      "article_path": "/wiki/Catherine_McKenna",
+      "selection_hash": "14e7d4f65946d1633c31679ceb94e058ed338698d86400692489b79e0512a5cd"
+    },
+    {
+      "split": "test",
+      "claim_id": "834a6015ac70a24dfc5a1dbf",
+      "article_path": "/wiki/Ty_Detmer",
+      "selection_hash": "15a8a28280902c63cb3d22a29bcc982320e5d4db39c578ddc53e3826c2ca9db9"
+    },
+    {
+      "split": "test",
+      "claim_id": "fe50d3784c646e25094a0e5b",
+      "article_path": "/wiki/Ross_Rizley",
+      "selection_hash": "15ff50649a792286e10123276cbe12b408fadc4d18b10bf552fdafa97841d3b1"
+    },
+    {
+      "split": "test",
+      "claim_id": "c0959cc0a6430291d1644533",
+      "article_path": "/wiki/Ross_Rizley",
+      "selection_hash": "16199bd39c4e909f06d37376141e55937770c0367c1970e508b2a898b17a4729"
+    },
+    {
+      "split": "test",
+      "claim_id": "5f465bb395a62f51a681eaa0",
+      "article_path": "/wiki/Albert_Scanlon",
+      "selection_hash": "162abb1e4029ba7eb0dd5f75266cbecb55e66c7d70712493396a1b561b1671fd"
+    },
+    {
+      "split": "test",
+      "claim_id": "4c2b66913a8170a07b917002",
+      "article_path": "/wiki/Charles_Henry_Thompson",
+      "selection_hash": "169201b4dacb859c67f1406bf91258b61bf4eb00c95c153bebdfaf4fb5fb890b"
+    },
+    {
+      "split": "test",
+      "claim_id": "ae8a419a4c50afec66c7adfa",
+      "article_path": "/wiki/Nenad_Milijaš",
+      "selection_hash": "185182164bb2b50ff15659c22108c5db77abee3da6461b69f2c8e071ecd562c8"
+    }
+  ]
+}

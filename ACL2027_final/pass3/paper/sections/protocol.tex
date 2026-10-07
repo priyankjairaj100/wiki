@@ -1,0 +1,55 @@
+\section{Evaluation Protocol}
+\label{sec:protocol}
+
+We evaluate three outputs: exact support decisions, context certificates, and evidence supplied to an answer reader.
+All new corpus inputs come from original TimeQA text~\citep{chen2021timeqa}.
+The source adapter receives article titles, paragraph text, identifiers, and paragraph order.
+The query adapter receives the visible question.
+Answer strings and annotated spans enter scoring only.
+Published annotation dates construct the official-template questions; inference reads only the resulting visible question.
+
+\paragraph{Natural-source split.}
+The development source pool contains 32,332 paragraphs from 740 articles.
+A fixed hash selects 50 eligible articles and 176 questions for the pilot.
+We freeze the adapter after source audits and correctness fixes.
+Removing additional calibration articles leaves 644 validation articles and 2,348 questions.
+This split precedes validation outcomes.
+The appendix records every exclusion and the original split.
+Both tracks search the complete development source pool.
+
+\paragraph{Matched temporal controls.}
+We build one BM25 ranking with $k_1=1.5$ and $b=0.75$~\citep{robertson1995bm25}.
+Every policy shares the extracted claims, explicit ends, replacement pairs, source excerpts, and tie breaks.
+The context holds five excerpts and at most 768 source-text words.
+Words are separated by whitespace; title and date metadata are additional prompt text.
+Unmodeled text follows the same fallback policy.
+We compare no filtering, earliest-date completion, midpoint completion, latest-date completion, possible support, and guaranteed support.
+An interval control tests start and explicit-end overlap while ignoring cross-claim replacement pairs.
+A separate latest-year baseline reranks the same twenty lexical candidates by source-mentioned years.
+This comparator changes ranking; the other policies preserve it.
+
+\paragraph{Measurements.}
+Exact span recall measures annotated offsets fully contained in the shown excerpts.
+Complete string coverage requires every annotated answer string.
+A parent paragraph match alone does not earn source-span credit.
+We report certificates over parsed questions and over contexts containing modeled evidence.
+All-fallback contexts receive a separate denominator.
+For each unstable validation context, we save two full date assignments and replay their selected source identifiers.
+Paired confidence intervals use 2,000 article-cluster resamples with seed 20261006.
+
+\paragraph{Answer reader.}
+We run Qwen2.5-1.5B-Instruct with official Q4\_K\_M weights and a pinned CPU runtime~\citep{qwen2024model}.
+Temperature is zero, with seed 1729 and a maximum of 96 generated tokens.
+The prompt requests all source-supported answers and cited excerpt numbers in JSON.
+A hash selects 24 pilot questions before inference.
+Identical question--context prompts share one generation across methods.
+A separate diagnostic covers every pilot question whose date completions select different contexts.
+We freeze JSON parsing before inspecting responses.
+Full request hashes, raw responses, timing, and parsing failures accompany every score.
+
+\paragraph{Annual answer controls.}
+We retain the complete TempLAMA source arrays~\citep{dhingra2022templama}.
+The held-out split contains 25,752 questions across 2,993 keys.
+These controls distinguish preserving accepted alternatives from choosing transition dates.
+They compare date-first ranking, latest-value selection, latest-batch selection, and a matched Graphiti policy kernel.
+Appendix~\ref{app:source-audit} gives all policies, source reconstruction, and unchanged baseline runs.

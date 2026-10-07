@@ -1,0 +1,199 @@
+\section{Compilation and Retrieval}
+\label{sec:method}
+
+\subsection{A shared scan for both certificates}
+
+The compiler receives claims, date bounds, and accepted directed replacement pairs.
+It initializes both boundaries to infinity.
+Each accepted pair updates at most two minima.
+Figure~\ref{fig:compiler} gives the complete boundary update.
+The same witness can supply both boundaries.
+If several witnesses tie, their identifiers determine a stable choice.
+
+\begin{figure}[t]
+\centering
+\fbox{\begin{minipage}{.92\columnwidth}
+\small
+\textbf{Input:} claims and accepted pairs $(d,c)$.\\
+\textbf{Output:} $(p_c,r_c)$ and their source witnesses.
+\begin{enumerate}
+\item Set $p_c=r_c=\infty$ for every claim.
+\item For each accepted pair with $d\ne c$:
+\item\hspace{.4em} If $\ell_d>u_c$, minimize $p_c$ using $u_d$.
+\item\hspace{.4em} If $u_d>\ell_c$, minimize $r_c$ using $\ell_d$.
+\item Store the supplying witness for each minimum.
+\item Break boundary ties by source identifier.
+\end{enumerate}
+Steps 3--4 execute inside the pair scan.
+\end{minipage}}
+\caption{Two-boundary compilation. Every accepted pair is examined once. The stored minima answer every query window.}
+\label{fig:compiler}
+\end{figure}
+
+Let $n$ count claims and $m$ count supplied accepted pairs.
+Boundary compilation takes $O(n+m)$ time and stores $O(n)$ records.
+A decision for one claim takes $O(1)$ time.
+A complete support mask takes $O(n)$ time.
+The reference gate interface can discover pairs through a complete directed scan.
+This scan makes $n(n-1)$ gate calls.
+The certificate representation does not require storing those calls or their rejected pairs.
+
+Candidate discovery and boundary compilation serve different purposes.
+An inverted index can reduce gate calls when its postings cover every accepted pair.
+Incomplete blocking can omit a replacement and change a boundary.
+Our implementation provides a complete scan as its executable specification.
+The pair-stream interface supports an existing extractor or a complete index.
+Both interfaces return the same certificate format.
+
+\subsection{Filtering a fixed ranking}
+
+Let $\pi_q$ be a complete relevance ranking for question $q$.
+Let $M(q)$ contain claims with the chosen support status.
+Retrieval returns
+\begin{equation}
+ R(q)=\operatorname{Top}_k\langle c\in\pi_q:c\in M(q)\rangle.
+\label{eq:context}
+\end{equation}
+The filter preserves the relative order of retained claims.
+It runs before the context budget.
+Possible-support retrieval uses the union of guaranteed and unresolved claims.
+Guaranteed-support retrieval uses only guaranteed claims.
+The compiler supplies both masks without changing relevance scores.
+
+These policies serve different evidence needs.
+Possible support is the smallest pool that preserves every admissible supporting claim.
+Its complement identifies evidence that can be excluded across all permitted timelines.
+Guaranteed support contains claims whose temporal support survives every permitted date assignment.
+Unresolved claims retain their source text and bounds for downstream reasoning.
+Neither policy turns temporal support into a relevance score.
+
+
+\subsection{Certifying an unchanged context}
+A reader uses a ranked context with a fixed budget $k$.
+The complete ranking fixes all score ties.
+Let $P(Q)$ and $H(Q)$ denote possible and guaranteed support.
+Write $\operatorname{Top}_k(S)$ for the first $k$ ranked claims in $S$.
+
+\begin{theorem}[Exact context stability]
+\label{thm:context-stability}
+Every allowed date assignment returns the same context exactly when
+\begin{equation}
+ \operatorname{Top}_k(P(Q))=\operatorname{Top}_k(H(Q)).
+\label{eq:context-stability}
+\end{equation}
+Equivalently, every claim in $\operatorname{Top}_k(P(Q))$ belongs to $H(Q)$.
+\end{theorem}
+\begin{proof}
+Let $C=\operatorname{Top}_k(P(Q))$.
+If $C\subseteq H(Q)$, every world retains $C$ and selects the same ranked context.
+Conversely, take $c\in C\setminus H(Q)$.
+Some world supports $c$, while another does not.
+At most $k-1$ possible claims outrank $c$.
+Thus every world supporting $c$ must select it.
+The two worlds return different contexts.
+For $k=0$, all contexts are empty.
+\end{proof}
+
+This test identifies uncertainty that affects the returned context.
+Lower-ranked claims can remain uncertain without changing retrieval.
+The test needs two filtered rankings and no enumeration of date assignments.
+Its guarantee concerns retrieved evidence, rather than generated answers.
+
+\subsection{A worked certificate}
+
+Consider three claims with occurrence bounds $c=[0,2]$, $d=[1,4]$, and $e=[3,5]$.
+Accept the directed replacements $d\to c$ and $e\to c$.
+Claim $d$ can occur after $c$, but it need not do so.
+Its earliest allowed start supplies $r_c=1$.
+Claim $e$ must occur after $c$.
+By time 5 it has occurred under every assignment, so it supplies $p_c=5$.
+Table~\ref{tab:worked} shows the resulting decisions.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+Query $Q$ & Possible & Guaranteed & Status\\
+\midrule
+$[0,0]$ & Yes & No & Unresolved\\
+$[0,2]$ & Yes & Yes & Guaranteed\\
+$[1,2]$ & Yes & No & Unresolved\\
+$[2,4]$ & Yes & No & Unresolved\\
+$[5,5]$ & No & No & Unsupported\\
+\bottomrule
+\end{tabular}
+\caption{Illustrative decisions for $c=[0,2]$, $p_c=5$, and $r_c=1$. A larger query window can have guaranteed support even when its final point does not.}
+\label{tab:worked}
+\end{table}
+
+The two witnesses preserve different decisions.
+If we retain only $d$, time 5 incorrectly becomes possible for $c$.
+If we retain only $e$, time 2 incorrectly becomes certain.
+Thus neither one-witness subset reproduces all outputs.
+This construction establishes the worst-case two-witness requirement.
+The lower bound concerns retained source witnesses, rather than an unrestricted numerical encoding.
+
+The example also separates date ambiguity from retrieval ambiguity.
+For $Q=[0,2]$, rank $c$ before $d$ and set $k=1$.
+Claim $c$ is guaranteed, so every timeline returns the same context.
+Claim $d$ remains unresolved below the budget.
+Increasing the budget to two makes the context depend on whether $d$ has started.
+The stability test detects that change without enumerating timelines.
+
+Now suppose later evidence narrows the same dates to $x_c=2$, $x_d=1$, and $x_e=5$.
+Every refined date remains within its original bounds.
+Claim $d$ can no longer replace $c$, since it occurs earlier.
+Both certificates now identify $e$, and $c$ is active on $[2,5)$.
+The window $[2,4]$ becomes guaranteed.
+The point $[0,0]$ becomes unsupported.
+The refinement removes possible support and resolves uncertainty into guaranteed support, as predicted by the corollary.
+
+\subsection{Why the query tests are exact}
+
+The possible-support boundary follows from a worst-case ordering test.
+A witness whose earliest start exceeds $c$'s latest start must follow $c$.
+Once that witness's latest date passes, it has retired $c$ in every timeline.
+Before the first such boundary, each accepted witness can occur before $c$ or after the queried time.
+Independent occurrence bounds permit these choices together.
+This gives the possible point set $[\ell_c,p_c)$.
+
+For guaranteed window support, first ensure that $c$ starts by the window's end in every timeline.
+This is the condition $u_c\leq b$.
+Any start inside the window immediately supplies support.
+Failure therefore requires an earlier start followed by replacement before the window opens.
+A witness can produce that failure exactly when $a>\ell_c$ and $r_c\leq a$.
+Negating this condition gives the guaranteed-support test.
+
+This argument explains why simply intersecting two intervals is insufficient.
+Possible support has an ordinary pointwise interval.
+Guaranteed window support instead depends on whether an entire timeline can avoid support throughout the query.
+The compiler answers that question directly.
+
+\subsection{Stable updates and inspectable decisions}
+
+A certificate contains the target identifier, its date bounds, both minima, and their witness identifiers.
+A retirement-based exclusion traces to its replacement witness.
+A date-based exclusion traces to the target bounds.
+Changing that decision updates only the target's two minima.
+This is the dependency underlying Corollary~\ref{cor:uncertain-refinement}.
+Transitive grouping creates a different dependency: one edge can merge entire histories.
+Direct compilation avoids that propagation.
+
+The error bound concerns eligibility and fixed-ranked contexts.
+For $h$ changed directed pairs, at most $h$ target masks can change.
+The selected sets differ by at most $2\min(k,h)$ items.
+A removal can cause one new item to enter the context.
+It can shift several positions within the returned list.
+The bound concerns selected sets, rather than ordered positions.
+
+Fix the existing date bounds and replacement decisions.
+Adding claims whose lower date bounds exceed the query end preserves earlier support decisions.
+Such a claim cannot start within that window or retire another claim by its end.
+This follows from the same direct support definition.
+If an added source instead reveals an earlier event, the historical mask can change.
+The date bound determines the effect, rather than the ingestion order.
+
+Finally, exact dates recover a familiar special case.
+Possible and guaranteed support coincide.
+One earliest direct replacement determines each claim's expiry.
+The uncertain-date compiler extends this policy while preserving all permitted occurrence orders.

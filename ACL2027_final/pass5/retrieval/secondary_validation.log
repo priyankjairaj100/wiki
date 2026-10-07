@@ -1,0 +1,214 @@
+validation 250
+validation 500
+validation 750
+validation 1000
+validation 1250
+validation 1500
+validation 1750
+validation 2000
+validation 2250
+{
+  "analysis": "Source-audit revision of all six previously declared ranking variants; no labels or answer outputs read.",
+  "queries": 2348,
+  "parsed_queries": 2296,
+  "unparsed_queries": 52,
+  "fixed_main_modeled_cohort": 243,
+  "fixed_union_modeled_cohort": 573,
+  "modeled_claims": 493,
+  "full_mask_checks_per_query": 986,
+  "ranking_equivalence_checks": 36,
+  "direct_mask_equivalence_checks": 13776,
+  "variants": {
+    "bm25": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2227,
+        "modeled_contexts": 354,
+        "mean_examined_candidates": 5.147212543554007,
+        "mean_support_checks": 0.519163763066202
+      },
+      "own_modeled_contexts": {
+        "queries": 354,
+        "stable": 285,
+        "modeled_contexts": 354,
+        "mean_examined_candidates": 5.231638418079096,
+        "mean_support_checks": 2.6440677966101696
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 243,
+        "stable": 189,
+        "modeled_contexts": 240,
+        "mean_examined_candidates": 5.234567901234568,
+        "mean_support_checks": 2.720164609053498
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 573,
+        "stable": 504,
+        "modeled_contexts": 354,
+        "mean_examined_candidates": 5.207678883071553,
+        "mean_support_checks": 1.6980802792321117
+      }
+    },
+    "bm25_latestyear": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2205,
+        "modeled_contexts": 534,
+        "mean_examined_candidates": 5.099738675958188,
+        "mean_support_checks": 0.7042682926829268
+      },
+      "own_modeled_contexts": {
+        "queries": 534,
+        "stable": 443,
+        "modeled_contexts": 534,
+        "mean_examined_candidates": 5.121722846441948,
+        "mean_support_checks": 2.7209737827715355
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 243,
+        "stable": 189,
+        "modeled_contexts": 230,
+        "mean_examined_candidates": 5.205761316872428,
+        "mean_support_checks": 2.814814814814815
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 573,
+        "stable": 482,
+        "modeled_contexts": 534,
+        "mean_examined_candidates": 5.12216404886562,
+        "mean_support_checks": 2.5445026178010473
+      }
+    },
+    "title_bm25": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2239,
+        "modeled_contexts": 298,
+        "mean_examined_candidates": 5.147648083623693,
+        "mean_support_checks": 0.4612369337979094
+      },
+      "own_modeled_contexts": {
+        "queries": 298,
+        "stable": 241,
+        "modeled_contexts": 298,
+        "mean_examined_candidates": 5.248322147651007,
+        "mean_support_checks": 2.664429530201342
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 243,
+        "stable": 189,
+        "modeled_contexts": 240,
+        "mean_examined_candidates": 5.238683127572016,
+        "mean_support_checks": 2.707818930041152
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 573,
+        "stable": 516,
+        "modeled_contexts": 298,
+        "mean_examined_candidates": 5.212914485165794,
+        "mean_support_checks": 1.469458987783595
+      }
+    },
+    "title_residual": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2242,
+        "modeled_contexts": 243,
+        "mean_examined_candidates": 5.0823170731707314,
+        "mean_support_checks": 0.3384146341463415
+      },
+      "own_modeled_contexts": {
+        "queries": 243,
+        "stable": 189,
+        "modeled_contexts": 243,
+        "mean_examined_candidates": 5.209876543209877,
+        "mean_support_checks": 2.6296296296296298
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 243,
+        "stable": 189,
+        "modeled_contexts": 243,
+        "mean_examined_candidates": 5.209876543209877,
+        "mean_support_checks": 2.6296296296296298
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 573,
+        "stable": 519,
+        "modeled_contexts": 243,
+        "mean_examined_candidates": 5.137870855148342,
+        "mean_support_checks": 1.1640488656195462
+      }
+    },
+    "title_bm25_latestyear": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2227,
+        "modeled_contexts": 396,
+        "mean_examined_candidates": 5.1067073170731705,
+        "mean_support_checks": 0.5396341463414634
+      },
+      "own_modeled_contexts": {
+        "queries": 396,
+        "stable": 327,
+        "modeled_contexts": 396,
+        "mean_examined_candidates": 5.156565656565657,
+        "mean_support_checks": 2.6666666666666665
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 243,
+        "stable": 189,
+        "modeled_contexts": 230,
+        "mean_examined_candidates": 5.226337448559671,
+        "mean_support_checks": 2.7448559670781894
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 573,
+        "stable": 504,
+        "modeled_contexts": 396,
+        "mean_examined_candidates": 5.141361256544503,
+        "mean_support_checks": 1.8760907504363002
+      }
+    },
+    "title_residual_latestyear": {
+      "all_parsed": {
+        "queries": 2296,
+        "stable": 2234,
+        "modeled_contexts": 343,
+        "mean_examined_candidates": 5.045296167247387,
+        "mean_support_checks": 0.4181184668989547
+      },
+      "own_modeled_contexts": {
+        "queries": 343,
+        "stable": 281,
+        "modeled_contexts": 343,
+        "mean_examined_candidates": 5.061224489795919,
+        "mean_support_checks": 2.556851311953353
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 243,
+        "stable": 198,
+        "modeled_contexts": 216,
+        "mean_examined_candidates": 5.090534979423868,
+        "mean_support_checks": 2.3292181069958846
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 573,
+        "stable": 511,
+        "modeled_contexts": 343,
+        "mean_examined_candidates": 5.057591623036649,
+        "mean_support_checks": 1.5514834205933683
+      }
+    }
+  },
+  "input_sha256": {
+    "pass5/retrieval/secondary_rankings.py": "d965558d8e41a6aeeafa1099d23243f0985942d37611782f4110e64dabfb179f",
+    "pass5/retrieval/SECONDARY_RANKING_PROTOCOL.json": "2c1360cfed498124ce7f3ae07f0c392a4a91a9022e35367e7bb64f6c738879cf",
+    "pass4/retrieval/secondary_rankings.py": "666d072fe32c0184044f6b999a035a836c755b4885ace750240dd0b9629232dd",
+    "pass4/retrieval/ranking.py": "bd898547382a12903b34656c4d06d518c63390efb68aec0fdbd46722066205dd",
+    "pass4/retrieval/lazy_certificate.py": "6264334ccc46694b27ce99ce6b5795a59983b3dda7fefc2f6b1e2fc3e53fdc24",
+    "pass4/retrieval/profile_lazy.py": "443190332ff85fe7b9f760e1a6049e48b17cd19fc5e018c2f3543faf36f0d97a",
+    "pass5/pipeline/validation/claims.jsonl": "01f55e346f4147458e3fa8b83e4c977cf76e3c4aab986428db0264627c759f98",
+    "pass5/pipeline/validation/units.jsonl": "b25b172c95d2228afce97b75d2b58678a70737544896a924010c88f77ca60047",
+    "pass5/protocol/dev_validation_queries.jsonl": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7"
+  }
+}

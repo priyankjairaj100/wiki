@@ -1,0 +1,31 @@
+{
+  "source_sha256": "bf3b424a2b5061300a4889439af14ec0c0c025c235c9ba799c34ddd3796020ba",
+  "rows": 34963,
+  "duplicate_source_row_ids": 0,
+  "rows_with_duplicate_answer_ids": 0,
+  "rows_without_answers": 0,
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "relations": [
+    "P102",
+    "P108",
+    "P127",
+    "P286",
+    "P39",
+    "P488",
+    "P54",
+    "P6",
+    "P69"
+  ]
+}

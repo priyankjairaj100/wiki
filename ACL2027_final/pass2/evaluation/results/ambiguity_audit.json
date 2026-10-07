@@ -1,0 +1,1320 @@
+{
+  "summary": {
+    "indistinguishable_query_date_groups": 50,
+    "source_rows_in_groups": 105,
+    "source_keys": 13,
+    "test_source_rows_in_groups": 61,
+    "test_source_keys": 9,
+    "notes": [
+      "The query text and year are identical for multiple source entities.",
+      "Inference does not receive the hidden entity ID.",
+      "We retain these items in the main evaluation and publish their identities."
+    ]
+  },
+  "groups": [
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2010",
+      "source_ids": [
+        "Q506591_P488_2010",
+        "Q493685_P488_2010"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q105068",
+          "Q182043"
+        ],
+        [
+          "Q291655"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2011",
+      "source_ids": [
+        "Q506591_P488_2011",
+        "Q493685_P488_2011"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q105068"
+        ],
+        [
+          "Q291655"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2012",
+      "source_ids": [
+        "Q506591_P488_2012",
+        "Q493685_P488_2012"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q1711532",
+          "Q105068"
+        ],
+        [
+          "Q291655"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2013",
+      "source_ids": [
+        "Q506591_P488_2013",
+        "Q493685_P488_2013"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q1711532"
+        ],
+        [
+          "Q291655"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2014",
+      "source_ids": [
+        "Q506591_P488_2014",
+        "Q493685_P488_2014"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q1711532"
+        ],
+        [
+          "Q548001",
+          "Q291655"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2015",
+      "source_ids": [
+        "Q506591_P488_2015",
+        "Q493685_P488_2015"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q1711532"
+        ],
+        [
+          "Q548001"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2016",
+      "source_ids": [
+        "Q506591_P488_2016",
+        "Q493685_P488_2016"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q1711532"
+        ],
+        [
+          "Q548001"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2017",
+      "source_ids": [
+        "Q506591_P488_2017",
+        "Q493685_P488_2017"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q1711532"
+        ],
+        [
+          "Q548001"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2018",
+      "source_ids": [
+        "Q506591_P488_2018",
+        "Q493685_P488_2018"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q1711532"
+        ],
+        [
+          "Q548001"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2019",
+      "source_ids": [
+        "Q506591_P488_2019",
+        "Q493685_P488_2019"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q1711532",
+          "Q20253947"
+        ],
+        [
+          "Q548001"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Centre Party.",
+      "date": "2020",
+      "source_ids": [
+        "Q506591_P488_2020",
+        "Q493685_P488_2020"
+      ],
+      "source_keys": [
+        "Q493685_P488",
+        "Q506591_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q7045446",
+          "Q20253947"
+        ],
+        [
+          "Q548001"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of People's Party.",
+      "date": "2016",
+      "source_ids": [
+        "Q185088_P488_2016",
+        "Q22262466_P488_2016"
+      ],
+      "source_keys": [
+        "Q185088_P488",
+        "Q22262466_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q10819"
+        ],
+        [
+          "Q12618957",
+          "Q20995"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of People's Party.",
+      "date": "2017",
+      "source_ids": [
+        "Q185088_P488_2017",
+        "Q22262466_P488_2017"
+      ],
+      "source_keys": [
+        "Q185088_P488",
+        "Q22262466_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q10819"
+        ],
+        [
+          "Q12618957",
+          "Q20995"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of People's Party.",
+      "date": "2018",
+      "source_ids": [
+        "Q185088_P488_2018",
+        "Q22262466_P488_2018"
+      ],
+      "source_keys": [
+        "Q185088_P488",
+        "Q22262466_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q6055866",
+          "Q10819"
+        ],
+        [
+          "Q12618957",
+          "Q20995"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of People's Party.",
+      "date": "2019",
+      "source_ids": [
+        "Q185088_P488_2019",
+        "Q22262466_P488_2019"
+      ],
+      "source_keys": [
+        "Q185088_P488",
+        "Q22262466_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q6055866"
+        ],
+        [
+          "Q12618957",
+          "Q20995"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of People's Party.",
+      "date": "2020",
+      "source_ids": [
+        "Q185088_P488_2020",
+        "Q22262466_P488_2020"
+      ],
+      "source_keys": [
+        "Q185088_P488",
+        "Q22262466_P488"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q6055866"
+        ],
+        [
+          "Q12618957",
+          "Q20995"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2016",
+      "source_ids": [
+        "Q23055252_P488_2016",
+        "Q1029792_P488_2016",
+        "Q1186234_P488_2016"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488",
+        "Q23055252_P488"
+      ],
+      "splits": [
+        "test",
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q465290",
+          "Q513317"
+        ],
+        [
+          "Q15629005"
+        ],
+        [
+          "Q81065"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2017",
+      "source_ids": [
+        "Q23055252_P488_2017",
+        "Q1029792_P488_2017",
+        "Q1186234_P488_2017"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488",
+        "Q23055252_P488"
+      ],
+      "splits": [
+        "test",
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q132280",
+          "Q6425965",
+          "Q465290"
+        ],
+        [
+          "Q15629005"
+        ],
+        [
+          "Q81065"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2018",
+      "source_ids": [
+        "Q23055252_P488_2018",
+        "Q1029792_P488_2018",
+        "Q1186234_P488_2018"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488",
+        "Q23055252_P488"
+      ],
+      "splits": [
+        "test",
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q6425965"
+        ],
+        [
+          "Q15629005"
+        ],
+        [
+          "Q81065"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2019",
+      "source_ids": [
+        "Q23055252_P488_2019",
+        "Q1029792_P488_2019",
+        "Q1186234_P488_2019"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488",
+        "Q23055252_P488"
+      ],
+      "splits": [
+        "test",
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q6425965"
+        ],
+        [
+          "Q15629005"
+        ],
+        [
+          "Q81065"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2020",
+      "source_ids": [
+        "Q23055252_P488_2020",
+        "Q1029792_P488_2020",
+        "Q1186234_P488_2020"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488",
+        "Q23055252_P488"
+      ],
+      "splits": [
+        "test",
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q6425965"
+        ],
+        [
+          "Q15629005"
+        ],
+        [
+          "Q81065"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2010",
+      "source_ids": [
+        "Q1029792_P488_2010",
+        "Q1186234_P488_2010"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488"
+      ],
+      "splits": [
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q2977816"
+        ],
+        [
+          "Q57888"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2011",
+      "source_ids": [
+        "Q1029792_P488_2011",
+        "Q1186234_P488_2011"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488"
+      ],
+      "splits": [
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q2977816"
+        ],
+        [
+          "Q57888"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2012",
+      "source_ids": [
+        "Q1029792_P488_2012",
+        "Q1186234_P488_2012"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488"
+      ],
+      "splits": [
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q2977816"
+        ],
+        [
+          "Q57888"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2013",
+      "source_ids": [
+        "Q1029792_P488_2013",
+        "Q1186234_P488_2013"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488"
+      ],
+      "splits": [
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q561213",
+          "Q2977816"
+        ],
+        [
+          "Q57888"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2014",
+      "source_ids": [
+        "Q1029792_P488_2014",
+        "Q1186234_P488_2014"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488"
+      ],
+      "splits": [
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q561213"
+        ],
+        [
+          "Q57888",
+          "Q81065"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Democratic Party.",
+      "date": "2015",
+      "source_ids": [
+        "Q1029792_P488_2015",
+        "Q1186234_P488_2015"
+      ],
+      "source_keys": [
+        "Q1029792_P488",
+        "Q1186234_P488"
+      ],
+      "splits": [
+        "legacy_dev",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q561213",
+          "Q15629005"
+        ],
+        [
+          "Q81065"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2010",
+      "source_ids": [
+        "Q1789199_P488_2010",
+        "Q1138982_P488_2010"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q12337207"
+        ],
+        [
+          "Q438819"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2011",
+      "source_ids": [
+        "Q1789199_P488_2011",
+        "Q1138982_P488_2011"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q12337207"
+        ],
+        [
+          "Q438819"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2012",
+      "source_ids": [
+        "Q1789199_P488_2012",
+        "Q1138982_P488_2012"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q12337207"
+        ],
+        [
+          "Q438819"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2013",
+      "source_ids": [
+        "Q1789199_P488_2013",
+        "Q1138982_P488_2013"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q12337207"
+        ],
+        [
+          "Q438819"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2014",
+      "source_ids": [
+        "Q1789199_P488_2014",
+        "Q1138982_P488_2014"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q12337207"
+        ],
+        [
+          "Q438819"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2015",
+      "source_ids": [
+        "Q1789199_P488_2015",
+        "Q1138982_P488_2015"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q12337207"
+        ],
+        [
+          "Q438819",
+          "Q241563"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2016",
+      "source_ids": [
+        "Q1789199_P488_2016",
+        "Q1138982_P488_2016"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q12337207"
+        ],
+        [
+          "Q241563"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2017",
+      "source_ids": [
+        "Q1789199_P488_2017",
+        "Q1138982_P488_2017"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q12337207"
+        ],
+        [
+          "Q241563"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2018",
+      "source_ids": [
+        "Q1789199_P488_2018",
+        "Q1138982_P488_2018"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q12337207"
+        ],
+        [
+          "Q241563"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2019",
+      "source_ids": [
+        "Q1789199_P488_2019",
+        "Q1138982_P488_2019"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q20033296",
+          "Q12337207"
+        ],
+        [
+          "Q241563"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the chair of Christian Democrats.",
+      "date": "2020",
+      "source_ids": [
+        "Q1789199_P488_2020",
+        "Q1138982_P488_2020"
+      ],
+      "source_keys": [
+        "Q1138982_P488",
+        "Q1789199_P488"
+      ],
+      "splits": [
+        "development",
+        "legacy_dev"
+      ],
+      "answers": [
+        [
+          "Q20033296"
+        ],
+        [
+          "Q241563"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2010",
+      "source_ids": [
+        "Q174_P6_2010",
+        "Q175_P6_2010"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q2546210"
+        ],
+        [
+          "Q379563",
+          "Q4712051"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2011",
+      "source_ids": [
+        "Q174_P6_2011",
+        "Q175_P6_2011"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q2546210"
+        ],
+        [
+          "Q964493",
+          "Q4712051"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2012",
+      "source_ids": [
+        "Q174_P6_2012",
+        "Q175_P6_2012"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q2546210"
+        ],
+        [
+          "Q964493"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2013",
+      "source_ids": [
+        "Q174_P6_2013",
+        "Q175_P6_2013"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q3069485"
+        ],
+        [
+          "Q964493"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2014",
+      "source_ids": [
+        "Q174_P6_2014",
+        "Q175_P6_2014"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q3069485"
+        ],
+        [
+          "Q964493"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2015",
+      "source_ids": [
+        "Q174_P6_2015",
+        "Q175_P6_2015"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q3069485"
+        ],
+        [
+          "Q964493"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2016",
+      "source_ids": [
+        "Q174_P6_2016",
+        "Q175_P6_2016"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q3069485"
+        ],
+        [
+          "Q964493"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2017",
+      "source_ids": [
+        "Q174_P6_2017",
+        "Q175_P6_2017"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q10311413"
+        ],
+        [
+          "Q964493"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2018",
+      "source_ids": [
+        "Q174_P6_2018",
+        "Q175_P6_2018"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q10311413",
+          "Q9667541"
+        ],
+        [
+          "Q964493",
+          "Q10334305"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2019",
+      "source_ids": [
+        "Q174_P6_2019",
+        "Q175_P6_2019"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q9667541"
+        ],
+        [
+          "Q10311413",
+          "Q10334305"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head of the government of São Paulo.",
+      "date": "2020",
+      "source_ids": [
+        "Q174_P6_2020",
+        "Q175_P6_2020"
+      ],
+      "source_keys": [
+        "Q174_P6",
+        "Q175_P6"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q9667541"
+        ],
+        [
+          "Q10311413"
+        ]
+      ],
+      "single_answer_max_correct": 1
+    },
+    {
+      "query": "_X_ is the head coach of FC Cincinnati.",
+      "date": "2018",
+      "source_ids": [
+        "Q59313306_P286_2018",
+        "Q20855983_P286_2018"
+      ],
+      "source_keys": [
+        "Q20855983_P286",
+        "Q59313306_P286"
+      ],
+      "splits": [
+        "test",
+        "test"
+      ],
+      "answers": [
+        [
+          "Q4707086"
+        ],
+        [
+          "Q4707086"
+        ]
+      ],
+      "single_answer_max_correct": 2
+    }
+  ]
+}

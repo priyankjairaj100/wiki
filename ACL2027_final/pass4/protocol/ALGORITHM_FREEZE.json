@@ -1,0 +1,119 @@
+{
+  "run_id": "acl2027-pass4-confirmation-v1",
+  "recorded_utc": "2026-10-06T12:20:01.316766+00:00",
+  "status": "Local pre-execution freeze; not an external preregistration.",
+  "note": "Algorithm selected from calibration before this confirmation run.",
+  "inputs_and_code": {
+    "pass4/protocol/config.json": {
+      "sha256": "989724a081d536c81d7aedeb128bd67deba6734bc6c983ef3eb740e2e375de8b",
+      "bytes": 10268
+    },
+    "pass4/pipeline/run_matched.py": {
+      "sha256": "1fcff9dbb162f74ea9d8a558315480ac6ba30afd3e996235c429ca11d6aa8fb1",
+      "bytes": 18814
+    },
+    "pass4/retrieval/ranking.py": {
+      "sha256": "bd898547382a12903b34656c4d06d518c63390efb68aec0fdbd46722066205dd",
+      "bytes": 2956
+    },
+    "pass3/pipeline/run_matched.py": {
+      "sha256": "a0a109aa4eab810686e372a57c3d4a5bc3663b9b9d31e49a97a9ab31ec200a39",
+      "bytes": 16104
+    },
+    "pass3/extraction/source_adapter.py": {
+      "sha256": "2424a76fdcfe08330fddc45853969406f1784bb2f1aad00d90499d79d2a8d185",
+      "bytes": 17341
+    },
+    "pass3/theory/lifecycle.py": {
+      "sha256": "4a765c40233ee33b2f1230a59df952acea8c93f8b2142c5e72cd73f6607ab81c",
+      "bytes": 10419
+    },
+    "pass3/theory/refinement.py": {
+      "sha256": "a5ff01561725a879c876952f8e86c4b16c702e54aee7418c056292b08ff43670",
+      "bytes": 7834
+    },
+    "pass2/theory/uncertain_time.py": {
+      "sha256": "0b91608941cdb292c68e2301db2233946a361724397be85006b54db667263833",
+      "bytes": 7559
+    },
+    "pass3/protocol/parse_reader.py": {
+      "sha256": "fe0d8ffedafcd1fa62bb2e6f3cd4ee86624c529e5eea68e7d8958e0b0fa23eff",
+      "bytes": 1491
+    },
+    "pass3/protocol/score_predictions.py": {
+      "sha256": "d947af316ffcf0f716fca86051e4b0ba9867dc591cabf79c323e96b4bd09575f",
+      "bytes": 9460
+    },
+    "pass4/extraction/source_adapter.py": {
+      "sha256": "e55a2981bc5e04f84e1534be37669f79860d54fe975f6df0921f0eca618cc74f",
+      "bytes": 16695
+    },
+    "pass4/extraction/freeze_manifest.json": {
+      "sha256": "05df055ecfa05ee6608388cdb3404d9a89cd98a4e8d3cb497d943c58ada47793",
+      "bytes": 1527
+    },
+    "pass4/retrieval/FREEZE.json": {
+      "sha256": "dd45f25316d2a8becf2c0445a124f4d66f57107dc617dfdb9fa9ee6d0c655f8b",
+      "bytes": 2985
+    },
+    "pass4/protocol/score_reader.py": {
+      "sha256": "5542da2fdd32d72c2b0f27f48a0a533c204cdaed5e903fbb02516c9d19ccc6e7",
+      "bytes": 10851
+    },
+    "pass4/inference/run_jsonl.py": {
+      "sha256": "22ae9abb8114314ea69864efdb3f657cd3d00f437965a1e63ab70de56a692ab6",
+      "bytes": 8991
+    },
+    "pass4/inference/adapt_jobs.py": {
+      "sha256": "fa756821b6cdd2713d19051bb13c4a1f66741cf1bbd6146de915133f45e76126",
+      "bytes": 2064
+    },
+    "pass4/inference/provenance/primary_reader_freeze_v2.json": {
+      "sha256": "87574d867f82274a099ff78a76c712915e659d79d1118e19859a78b2eb4dc01a",
+      "bytes": 2521
+    },
+    "pass4/inference/provenance/frozen_prompt_for_v2.py.txt": {
+      "sha256": "da63152deb689cc1c8f22f19f52346854fc6351a914415e3f008c856aa934080",
+      "bytes": 1228
+    },
+    "pass3/protocol/dev_source_passages.jsonl": {
+      "sha256": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4",
+      "bytes": 11456783
+    },
+    "pass3/protocol/test_source_passages.jsonl": {
+      "sha256": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a",
+      "bytes": 11620179
+    },
+    "pass4/extraction/dev_frozen/claims.jsonl": {
+      "sha256": "9bf8aab587ed13334d15860f7d286253c5353ed06e4b8e6f3eb1eb2bf4fca143",
+      "bytes": 1243138
+    },
+    "pass4/extraction/test_frozen/claims.jsonl": {
+      "sha256": "e6b255a03a0fd8662dca5f6d917d0fe474b96f9fa520fed544a52c986a9fab7a",
+      "bytes": 1151942
+    },
+    "pass4/protocol/dev_pilot_queries.jsonl": {
+      "sha256": "7bd9eed58c8e989fcc5db9ce8af52e157ca6303a4f2f998135f637477d024a19",
+      "bytes": 24087
+    },
+    "pass4/protocol/dev_additional_calibration_queries.jsonl": {
+      "sha256": "2edacaebf336815678017266f9c1d94350f9b0d1d613985f1c11378c58f75e02",
+      "bytes": 18163
+    },
+    "pass4/protocol/dev_validation_queries.jsonl": {
+      "sha256": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7",
+      "bytes": 328188
+    },
+    "pass4/protocol/human_test_confirmation_queries.jsonl": {
+      "sha256": "e946ae3e7d494663cf56e0c1462f271f6abd78e12b422e464166d1e8d34d872d",
+      "bytes": 128570
+    },
+    "pass4/protocol/reader_primary_queries.jsonl": {
+      "sha256": "ac16d6a63bed55d2cbf10c65d747e943b3c1b364fcd89ce5158e0216f79f8ded",
+      "bytes": 9144
+    }
+  },
+  "reader_sample_sha256": "ac16d6a63bed55d2cbf10c65d747e943b3c1b364fcd89ce5158e0216f79f8ded",
+  "input_policy": "Visible question only. Join identifiers are uninterpreted. Full declared source pool.",
+  "confirmation_status": "Earlier pass outcomes were inspected. No untouched-test claim."
+}

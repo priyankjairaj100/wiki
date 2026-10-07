@@ -1,0 +1,27 @@
+{
+  "cohort": "All completion-sensitive pilot queries",
+  "queries": 9,
+  "question_ids": [
+    "/wiki/Amsterdam#P6#annotation2",
+    "/wiki/Amsterdam#P6#annotation3",
+    "/wiki/Amsterdam#P6#annotation4",
+    "/wiki/Asa_Biggs#P39#annotation2",
+    "/wiki/Ben_Gummer#P39#annotation3",
+    "/wiki/Elizabeth_Montgomery#P26#annotation1",
+    "/wiki/Pekka_Haavisto#P39#annotation2",
+    "/wiki/Saiyid_Nurul_Hasan#P39#annotation0",
+    "/wiki/William_Wyatt_Bibb#P39#annotation3"
+  ],
+  "new_jobs": 22,
+  "reused_jobs": 6,
+  "method_conditions": 72,
+  "selection_uses_gold": false,
+  "primary_qa_benchmark": false,
+  "files": {
+    "reader_mechanism_jobs.jsonl": "5410c03d2653c83bc77b0c4bf2a83c55ddea921e6096ceb49e770145a77e001a",
+    "reader_mechanism_membership.jsonl": "98ec66efd89bd97acd3b8b13cc9080e1f0c4368096149e003b175372f357a38c",
+    "reader_jobs.jsonl": "c7deec63393aa7742f07ed7477c5d4f78a86b9c2954e90793008fadc6a485c35",
+    "mechanism_questions.jsonl": "2a536747ad520f0e5ddc35014a48dcc2cf19e5303696ec2eacc7ac7ae550f437",
+    "predictions.jsonl": "36e6aa3448528729cbe5ceeffe386266d54f74169654ea1c305af94a8163716a"
+  }
+}

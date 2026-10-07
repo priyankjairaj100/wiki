@@ -1,0 +1,44 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Temporal memory.}
+Graphiti identifies contradictions and closes a fact's interval using a later contradictory fact~\citep{rasmussen2025zep}.
+Its implementation includes earliest-time direct invalidation~\citep{graphiti2026source}.
+MemStrata applies deterministic supersession to structured keys with one mutable value~\citep{yadav2026memstrata}.
+These systems establish direct invalidation and retained history as existing mechanisms.
+We analyze their underlying compilation problem when pair decisions need not define consistent groups.
+Our results concern all-cutoff equivalence, temporal prefix consistency, and the influence of changed pair decisions.
+
+Re$^3$ extracts and groups facts from retrieved documents~\citep{cao2026re3}.
+Its recency filter suppresses conflicting values using publication dates.
+It also learns temporal relevance.
+Our study holds extraction and relevance fixed while comparing ways to compile replacement decisions.
+Reddy and Challaram similarly separate evidence extraction from policy execution~\citep{reddy2026assembly}.
+Their analysis motivates comparisons that do not attribute better extraction to a different temporal executor.
+
+\paragraph{Temporal retrieval and reasoning.}
+TempRALM combines semantic scores with query--document time distance~\citep{gade2025tempralm}.
+Half-life scoring combines semantic relevance with a recency prior~\citep{grofsky2025ragtime}.
+These methods select evidence through scores rather than explicit replacement witnesses.
+TA-RAG retrieves evidence for diachronic questions~\citep{lau2025tarag}.
+IA-RAG represents interval events and uses interval relations for temporal reasoning~\citep{wang2026iarag}.
+Its scope includes interval extraction and refinement.
+Our certificates instead compile endpoints from supplied pair decisions.
+Temporal knowledge graphs also model dated relational evidence~\citep{trivedi2017knowevolve,lacroix2020tensor}.
+The relevant distinction here is between direct decisions and closure over inferred claim groups.
+
+\paragraph{Temporal evaluation.}
+TimeQA, TempLAMA, and StreamingQA study knowledge that changes over time~\citep{chen2021timeqa,dhingra2022templama,liska2022streamingqa}.
+RealTime QA evaluates current questions, while FreshLLMs refreshes evidence through web search~\citep{kasai2023realtimeqa,vu2024freshllms}.
+FRESCO includes obsolete passages and current but insufficient passages~\citep{an2026fresco}.
+It tests temporal evidence selection beyond global newest-document ranking.
+Our experiments add two structural measurements: historical prefix disagreement and the effect of one changed pair decision.
+We report retrieval metrics separately from archived reader outputs.
+
+\paragraph{Structured retrieval and conflicting context.}
+GraphRAG and HippoRAG use graph structure for evidence organization and retrieval~\citep{edge2024graphrag,gutierrez2024hipporag}.
+Their graph structures serve broader retrieval goals than the compiler studied here.
+Studies of conflicting context show that answer generation depends on the evidence presented to the reader~\citep{longpre2021conflicts,xie2024conflict}.
+Context position also affects language-model behavior~\citep{liu2023lostmiddle}.
+These findings support measuring the selected evidence itself.
+Our stability bound applies before generation and requires no assumption about reader behavior.

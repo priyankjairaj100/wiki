@@ -1,0 +1,20 @@
+parse {'observation_parse_success': 45866, 'query_parse_success': 4057, 'observations': 45866, 'keys': 4057, 'source_keys_split_by_parser': 0, 'parser_slots_merging_source_keys': 6}
+old predicate compiled {'unique_texts': 11540, 'candidate_pairs': 43616, 'positive_text_pairs': 39040, 'lossless_index': 'Shared proper phrase or fallback shared content token; all original predicate matches retained.'}
+BM25 ready
+keys 250 / 4057 seconds 39
+keys 500 / 4057 seconds 71
+keys 750 / 4057 seconds 100
+keys 1000 / 4057 seconds 134
+keys 1250 / 4057 seconds 164
+keys 1500 / 4057 seconds 186
+keys 1750 / 4057 seconds 231
+keys 2000 / 4057 seconds 277
+keys 2250 / 4057 seconds 325
+keys 2500 / 4057 seconds 365
+keys 2750 / 4057 seconds 400
+keys 3000 / 4057 seconds 435
+keys 3250 / 4057 seconds 493
+keys 3500 / 4057 seconds 544
+keys 3750 / 4057 seconds 589
+keys 4000 / 4057 seconds 631
+completed 34963 queries 672 seconds

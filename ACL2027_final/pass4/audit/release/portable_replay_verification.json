@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "project_folder_renamed": true,
+  "copied_files": 42,
+  "frozen_manifests_changed": false,
+  "root": "/workspace/scratch/956c06247f78/ACL2027_pass3/reproduced_pass4/renamed_portable_project_53olb8_d",
+  "elapsed_seconds": 430.47707231000095,
+  "results": {
+    "human": {
+      "matches_saved": true,
+      "counts": {
+        "method_contexts_checked": 8300,
+        "queries": 830,
+        "parsed": 813,
+        "parsed_all_fallback": 723,
+        "parsed_all_fallback_stable": 723,
+        "budget_equalities_checked": 4065,
+        "unparsed": 17,
+        "parsed_modeled": 90,
+        "parsed_modeled_stable": 79,
+        "parsed_modeled_unstable": 11,
+        "worlds_checked": 22,
+        "event_assignments_checked": 24816
+      },
+      "counterworld_pairs": 11
+    },
+    "validation": {
+      "matches_saved": true,
+      "counts": {
+        "method_contexts_checked": 23480,
+        "queries": 2348,
+        "parsed": 2296,
+        "parsed_all_fallback": 1879,
+        "parsed_all_fallback_stable": 1879,
+        "budget_equalities_checked": 11480,
+        "parsed_modeled": 417,
+        "parsed_modeled_stable": 313,
+        "parsed_modeled_unstable": 104,
+        "worlds_checked": 208,
+        "event_assignments_checked": 257296,
+        "unparsed": 52
+      },
+      "counterworld_pairs": 104
+    }
+  },
+  "source_sha256": {
+    "pass4/audit/release/replay_confirmation_portable.py": "2b13aabe785d5b5b02887d322bd94101fdb2e67a1fb10f0da9aef8a657f0dd4f",
+    "pass4/protocol/audit_confirmation.py": "e4f18a0822ae89fd7056070a72f0767a8e69272e4875b93c22c480f2a3cc9a21"
+  }
+}

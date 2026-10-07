@@ -1,0 +1,28 @@
+\section*{Limitations}
+The exactness results assume independent occurrence-date bounds and fixed directed replacement decisions.
+Correlated dates can make the product of bounds include impossible timelines.
+The resulting masks remain conservative, but need not be sharp.
+Incorrect extraction can supply incorrect bounds or replacement decisions.
+The compiler guarantees execution of those inputs, rather than their semantic correctness.
+It handles questions asking for support somewhere within a period.
+Universal coverage throughout a period requires a different query predicate.
+
+The independent oracle validates the compiler on exhaustive finite configurations and selected fractional endpoint cases.
+The mathematical proofs establish the general result.
+The corpus experiments measure full-answer snapshot selection and natural-passage retrieval.
+They do not yet measure the new uncertainty compiler inside a learned claim-extraction and answer-generation pipeline.
+The TimeQA baselines are source-only executor diagnostics.
+They are not reproductions of complete DeFuzzRAG, IA-RAG, or NuggetIndex systems.
+
+TempLAMA is a structured diagnostic benchmark with template-rendered claims.
+Its annual answer sets can include successive values within one year.
+TimeQA supplies natural passages, but some answer anchors are aliases or mentions outside the relevant event description.
+Annotated-span retrieval differs from temporal entailment and generated-answer correctness.
+The human questions overlap the larger TimeQA test collection.
+Our source audit removes empty positive labels and separates development articles from test articles.
+
+Archived reader outputs use the original selected-answer task.
+No new reader run supports the claims in this revision.
+The older RealProse excerpts contain source-support problems documented in the appendix.
+The release keeps those results as historical records.
+They do not serve as primary natural-language evidence for the new compiler.

@@ -1,0 +1,55 @@
+{
+  "version": "source-occurrence-v1",
+  "status": "frozen before evaluation outcome inspection",
+  "code_sha256": "2424a76fdcfe08330fddc45853969406f1784bb2f1aad00d90499d79d2a8d185",
+  "tests": 11,
+  "pilot_summary": {
+    "adapter_version": "source-occurrence-v1",
+    "source_split": "article-disjoint TimeQA development only",
+    "input_passages": 2174,
+    "input_articles": 50,
+    "claims": 29,
+    "covered_passages": 25,
+    "covered_articles": 19,
+    "temporal_kinds": {
+      "validity_duration": 20,
+      "occurrence_start": 9
+    },
+    "start_precision": {
+      "year": 23,
+      "day": 3,
+      "month": 3
+    },
+    "slots": {
+      "position": 19,
+      "membership": 5,
+      "destination": 4,
+      "spouse": 1
+    },
+    "rules": {
+      "explicit_tenure": 20,
+      "date_suffix_occurrence": 1,
+      "date_led_occurrence": 8
+    },
+    "coreference": {
+      "article_title_pronoun": 18,
+      "article_title_alias": 11
+    },
+    "compiler_eligible": 29,
+    "directed_replacement_pairs": 0,
+    "input_features": [
+      "source text",
+      "source article title",
+      "opaque passage identifier"
+    ],
+    "answer_annotation_reads": 0,
+    "scope": "Extraction counts are not accuracy estimates. Exact source offsets do not prove correct entity resolution or entailment."
+  },
+  "files": {
+    "source_adapter.py": "2424a76fdcfe08330fddc45853969406f1784bb2f1aad00d90499d79d2a8d185",
+    "test_source_adapter.py": "351be30684d7f0a2bf87cac08878eaa7d7108e1566b71bd7b6e6b8f3c974a1e4",
+    "MODEL_EXTRACTION_PROMPT.txt": "96348824d9577f75c2a62bc4f723397a66535314ad9b7467d9709d8f2f551a43",
+    "model_schema.json": "62dc5ee6677f22f899deff22b0b9725db22f647202ee4f60ebdc34cc03e748e1",
+    "model_adapter.py": "ea4f8f4231647fcda8723be8b92a39a2f7d8bba1a4e7f5bda63bde746be75c3c"
+  }
+}

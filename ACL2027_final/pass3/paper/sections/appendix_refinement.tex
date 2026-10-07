@@ -1,0 +1,122 @@
+\section{Constructive Context Uncertainty}
+\label{app:refinement}
+
+Fix a query $Q=[a,b]$, a complete strict ranking, and a budget $k$.
+Let $P$ and $H$ be the exact possible and guaranteed support sets.
+Let $F$ contain any source items retained under a fixed fallback policy.
+Fallback items have unknown temporal support.
+They enter every operational retrieval mask.
+Define
+\[
+ U=\operatorname{Top}_k(P\cup F)\setminus(H\cup F).
+\]
+The exact context theorem makes $U$ empty precisely when the context is stable.
+
+\paragraph{Construct two witnessing timelines.}
+Choose $c\in U$.
+Fewer than $k$ items in $P\cup F$ outrank $c$.
+Every world supporting $c$ must therefore select it.
+Set $t=\max(a,\ell_c)$ and $x_c=\min(u_c,t)$.
+Possible support gives $t\le b$ and $t<p_c$.
+For every nonpivot event $d$, assign
+\[
+ x_d=\begin{cases}
+ \ell_d,&\ell_d\le x_c,\\
+ u_d,&\ell_d>x_c.
+ \end{cases}
+\]
+The first case places $d$ no later than $c$.
+The second places $d$ after $t$.
+Indeed, if $x_c=t$, then $u_d\ge \ell_d>t$.
+Otherwise, $x_c=u_c<t$ and $\ell_d>u_c$.
+The definition of $p_c$ then gives $u_d\ge p_c>t$.
+This rule also makes valid choices for all events outside the incoming witness set.
+Those choices cannot affect whether $c$ is active.
+The assignments respect all independent date intervals.
+Claim $c$ is active at $t$, so this world selects it.
+
+For a second world, first consider $u_c>b$.
+Set $x_c=u_c$ and every other date to its lower bound.
+The claim starts after the query and cannot enter its context.
+Otherwise, failed guaranteed support gives $a>\ell_c$ and $r_c\le a$.
+Choose the stored witness $d$ for $r_c$.
+Set $x_c=\ell_c$ and $x_d=\min(u_d,a)$.
+The witness conditions give $\ell_d\le x_d\le u_d$ and $\ell_c<x_d\le a$.
+Thus $d$ retires $c$ by the query start.
+Set every remaining date to its lower bound.
+This world cannot select $c$.
+The two contexts differ.
+
+Let $n$ count modeled events and fixed fallback items.
+The construction scans the event bounds and pivot certificate in $O(n)$ time.
+It returns $O(n)$ date values and needs no retained pair list.
+The pivot's rank condition already proves that these assignments yield different contexts.
+Optional replay scans the accepted pairs and ranking in $O(n+m)$ time.
+Explicit end events enter the same construction but remain hidden from the context.
+Direct context replay retains the accepted pairs and uses $O(n+m)$ audit state.
+The compact $O(n)$ certificate output stores support boundaries, rather than the full graph.
+
+\paragraph{Every current pivot must be resolved.}
+Narrow the date intervals without emptying any interval.
+Keep all other inputs fixed.
+Let $P'$ and $H'$ denote the refined support sets.
+Then $P'\subseteq P$ and $H\subseteq H'$.
+Take $c\in U$ that remains in $P'$.
+It still has fewer than $k$ possible items above it.
+Thus $c\in\operatorname{Top}_k(P'\cup F)$.
+If the refined context is stable, the exact context theorem requires $c\in H'\cup F$.
+Since $c\notin F$, it must belong to $H'$.
+Therefore, each current pivot becomes guaranteed or impossible.
+
+This condition is necessary but not sufficient.
+For example, rank two claims $c,d$ with independent start bounds $[0,2]$.
+Use no replacement pairs, point query $1$, and budget $1$.
+Initially, the frontier is $\{c\}$.
+Refining $c$ to start $2$ resolves that pivot but exposes frontier $\{d\}$.
+The result therefore gives no minimum number of date refinements.
+
+\paragraph{Hardness of the full possible context envelope.}
+We reduce Set Cover~\citep{karp1972reducibility} to possible top-$k$ membership.
+The context budget $k$ is part of the decision input.
+Take a universe $E$, sets $S_1,\ldots,S_s$, and budget $1\le K\le s$.
+Create variable claim $v_j$ with date interval $[1,3]$ for every set.
+Create $K+1$ copies of each element claim, all dated exactly $0$.
+Create candidate $c$ dated exactly $0$.
+Accept $v_j\to e$ for every copy of each $e\in S_j$.
+There are no other accepted pairs.
+The gate is bipartite, with one edge layer from variables to element copies.
+
+Rank all variables and element copies above $c$.
+Set query time $2$ and budget $k=K+1$.
+Candidate $c$ has guaranteed support.
+A variable is active exactly when its date is at most $2$.
+Every active variable retires its associated element copies by the query time.
+An inactive variable starts after the query and cannot retire any copy by that time.
+
+Given a cover of size at most $K$, assign its variables date $1$ and others date $3$.
+Every element copy is retired.
+At most $K$ higher-ranked variables remain active, so the context includes $c$.
+Conversely, suppose a world includes $c$.
+At most $K$ higher-ranked claims are active.
+The variables dated at most $2$ form a collection of at most $K$ sets.
+If they miss an element, its $K+1$ active copies exclude $c$.
+They must therefore cover $E$.
+The construction has polynomial size and proves NP-hardness.
+It does not establish hardness for a fixed budget such as $k=5$.
+
+The result also holds when every start occurs by the query time.
+For this variant, use variable bounds $[0,2]$, element dates $1$, and candidate date $2$.
+Add a clock at date $1$, ranked below the candidate, with a pair targeting each variable.
+Use the same variable-to-element pairs and query time $2$.
+Variables before $1$ retire under the clock.
+Variables at or after $1$ remain active, but only those after $1$ retire element copies.
+A cover assigns its variables $2$ and all others $0$.
+Conversely, a selected candidate permits at most $K$ active variables.
+Those after $1$ must cover every element, or $K+1$ active copies exclude the candidate.
+Variables exactly at $1$ add cost without covering an element.
+This variant has an acyclic gate with two edge layers.
+
+This hardness concerns arbitrary possible context membership.
+It does not contradict the linear exact stability test.
+An unstable possible context already supplies a pivot with fewer than $k$ possible items above it.
+That rank condition makes its supporting world sufficient to demonstrate a context change.

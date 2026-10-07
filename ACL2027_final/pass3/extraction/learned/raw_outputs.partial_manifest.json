@@ -1,0 +1,24 @@
+{
+  "status": "stopped_after_source_only_interface_check",
+  "planned_rows": 30,
+  "completed_rows": 6,
+  "interrupted_in_flight_request": 7,
+  "reason": "Required quote fields were absent from all 41 records in the first six completed outputs. Root stopped this development calibration run to enforce the already required output schema. No benchmark performance comparison informed this change.",
+  "input_sha256": "d89169b3f705f7ad9986d918f037a3dc956d03a37a64b78a4e4c6aa8da2fe5f8",
+  "output_sha256": "261cf5368cbbb1b49754e86c36d09b0bcc8bcd6931c3736d3441d684399710ba",
+  "temperature": 0,
+  "seed": 1729,
+  "threads": 8,
+  "context_tokens": 8192,
+  "per_job_max_tokens": 1400,
+  "response_format": {
+    "type": "json_object"
+  },
+  "model_repository": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+  "model_revision": "91cad51170dc346986eccefdc2dd33a9da36ead9",
+  "model_sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+  "runtime_release": "b11435",
+  "interpretation": "Engineering interface calibration only; not benchmark evidence",
+  "next_run": "jobs_schema_v2.jsonl on the same planned 30 passages",
+  "utc": "2026-10-06T10:17:14.075284+00:00"
+}

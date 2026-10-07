@@ -1,0 +1,88 @@
+{
+  "dataset": "TimeQA",
+  "normalization": "Preserve original questions, original date strings, source paragraphs, and exact gold answer spans. No generated prose.",
+  "splits": {
+    "dev": {
+      "histories": 750,
+      "unique_articles": 748,
+      "relations": 52,
+      "annotations": 3021,
+      "source_paragraphs_before_deduplication": 32724,
+      "unique_passages": 32678,
+      "gold_spans": 3274,
+      "exact_gold_span_matches": 3274,
+      "answer_cardinality": {
+        "1": 2797,
+        "2": 197,
+        "3": 27
+      },
+      "multi_answer_annotations": 224,
+      "date_range_equal_endpoints": 169,
+      "adjacent_annotation_audit": {
+        "adjacent_annotation_pairs": 2271,
+        "retained_answer_pairs": 280,
+        "answer_removed_pairs": 2062,
+        "answer_added_pairs": 2078,
+        "partial_answer_removal_pairs": 71,
+        "matching_boundary_pairs": 1533,
+        "matching_boundary_retained_pairs": 154,
+        "matching_boundary_partial_removal_pairs": 60
+      }
+    },
+    "test": {
+      "histories": 750,
+      "unique_articles": 749,
+      "relations": 50,
+      "annotations": 2997,
+      "source_paragraphs_before_deduplication": 33522,
+      "unique_passages": 33493,
+      "gold_spans": 3224,
+      "exact_gold_span_matches": 3224,
+      "answer_cardinality": {
+        "1": 2806,
+        "2": 157,
+        "3": 33,
+        "4": 1
+      },
+      "multi_answer_annotations": 191,
+      "date_range_equal_endpoints": 174,
+      "adjacent_annotation_audit": {
+        "adjacent_annotation_pairs": 2247,
+        "retained_answer_pairs": 226,
+        "answer_removed_pairs": 2075,
+        "answer_added_pairs": 2085,
+        "partial_answer_removal_pairs": 54,
+        "matching_boundary_pairs": 1429,
+        "matching_boundary_retained_pairs": 100,
+        "matching_boundary_partial_removal_pairs": 50
+      }
+    }
+  },
+  "scope": "Dates are published annotation ranges, not document publication dates or arrival times. Use question-level gold spans. Do not invalidate whole paragraphs from one retired fact.",
+  "human_test": {
+    "histories": 257,
+    "questions": 989,
+    "source": "Published human-authored subset of test; not a separate independent split.",
+    "all_paragraphs_and_answer_annotations_match_parent_test": true,
+    "multi_answer_questions": 49
+  },
+  "split_overlap": {
+    "dev_test_history_ids": 1,
+    "dev_test_article_paths": 8,
+    "dev_test_identical_paragraphs_min_100_characters": 152,
+    "overlap_article_paths": [
+      "/wiki/Attaphol_Buspakom",
+      "/wiki/Carl_August_Ehrensv\u00e4rd_(1858\u20131944)",
+      "/wiki/Don_Cazayoux",
+      "/wiki/Jaap_Stam",
+      "/wiki/Lotte_Reiniger",
+      "/wiki/Lucy_Wills",
+      "/wiki/Rock_Crystal_(Faberg\u00e9_egg)",
+      "/wiki/The_Fifer"
+    ],
+    "overlap_history_ids": [
+      "/wiki/Attaphol_Buspakom#P54"
+    ],
+    "test_human_history_overlap": 257
+  }
+}

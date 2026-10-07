@@ -1,0 +1,8 @@
+{
+  "url": "https://huggingface.co/datasets/tonytan48/TempReason/resolve/main/test_l2.json",
+  "sha256": "9292d14519e34441c43efda9a0739a27a498665039f0e2c354c3dcde709c9021",
+  "bytes": 67471020,
+  "records": 5397,
+  "observed_revision": "1646dea364ac667dd6098646da7d6638de00cc71",
+  "immutable_url": "https://huggingface.co/datasets/tonytan48/TempReason/resolve/1646dea364ac667dd6098646da7d6638de00cc71/test_l2.json"
+}

@@ -1,0 +1,80 @@
+\section{Dates as Constraints}
+\label{sec:theory}
+
+\paragraph{Occurrence dates and replacement.}
+Each claim $c$ has text and an unknown occurrence date $x_c$.
+Its source bounds this date by two inclusive dates, $\ell_c\leq x_c\leq u_c$.
+Dates use a common real-valued time axis.
+These bounds describe uncertainty about an occurrence, rather than its duration.
+The allowed assignments form the product
+$\Omega=\prod_c[\ell_c,u_c]$.
+A fixed text gate $G(d,c)$ accepts a direct replacement when $d$ occurs strictly after $c$.
+The gate need not be transitive.
+It excludes self-pairs: $G(c,c)=0$.
+It must distinguish replacement from coexistence.
+The compiler preserves its decisions across date assignments.
+
+For assignment $x$, claim $c$ is active at date $t$ when
+\begin{equation}
+\begin{split}
+ A_x(c,t)=\mathbf{1}[&x_c\leq t\ \land\\
+ &\nexists d:G(d,c),\ x_c<x_d\leq t].
+\end{split}
+\label{eq:uncertain-active}
+\end{equation}
+Equal dates do not establish replacement order.
+A question specifies an inclusive date window $Q=[a,b]$.
+Point questions set $a=b$.
+A claim supports the window when it is active somewhere inside it:
+\begin{equation}
+ S_x(c,Q)=\mathbf{1}[\exists t\in Q:A_x(c,t)=1].
+\end{equation}
+Possible support requires one allowed assignment with $S_x(c,Q)=1$.
+Guaranteed support requires this condition in every allowed assignment.
+Write $P_Q(c)$ and $H_Q(c)$ for these two Boolean support decisions.
+
+\paragraph{Two direct witnesses.}
+One witness can force retirement despite date uncertainty.
+Another can permit retirement under a particular assignment.
+Their boundaries are
+\begin{align}
+ p_c&=\min\{u_d:G(d,c),\ \ell_d>u_c\},\label{eq:possible-boundary}\\
+ r_c&=\min\{\ell_d:G(d,c),\ u_d>\ell_c\}.\label{eq:certain-boundary}
+\end{align}
+An empty minimum is $+\infty$.
+We store one witness for each finite boundary.
+These compiled certificates require a complete candidate scan.
+The compiler evaluates candidate gates and updates these two minima.
+It uses at most two witness records per claim.
+Two records are necessary in the worst case among direct witness subsets.
+
+\begin{theorem}[Exact window support]
+\label{thm:window-support}
+For every claim and inclusive query window,
+\begin{align}
+ P_Q(c) &\iff \ell_c\leq b\ \land\ a<p_c,
+ \label{eq:possible-window}\\
+ H_Q(c) &\iff u_c\leq b\ \land\bigl(a\leq\ell_c\ \lor\ a<r_c\bigr).
+ \label{eq:guaranteed-window}
+\end{align}
+\end{theorem}
+The first condition gives the smallest filter that never removes potentially supported evidence.
+The second gives the largest filter whose retained claims always have support.
+Each decision takes constant time after compilation.
+Appendix~\ref{app:uncertain-proofs} gives the proofs.
+
+Guaranteed support allows its supporting time to differ across timelines.
+For example, let $x_c\in[0,10]$ and let a replacement start at time 5.
+Claim $c$ always contributes somewhere in $[0,10]$, either before the replacement or after its own later start.
+Yet no single point supports $c$ across all timelines.
+A certainly active interval therefore cannot replace the window test.
+
+\begin{corollary}[Refinement and local influence]
+\label{cor:uncertain-refinement}
+Narrowing date bounds can only shrink possible support and expand guaranteed support.
+If two gates differ on $h$ directed pairs, either support mask changes for at most $h$ claims.
+With fixed rankings, their filtered top-$k$ contexts differ in at most $2\min(k,h)$ items.
+\end{corollary}
+Each directed pair affects only its target claim's certificates.
+When all date bounds are exact, both filters recover earliest direct replacement.
+The formulas therefore extend the same policy without choosing arbitrary dates.

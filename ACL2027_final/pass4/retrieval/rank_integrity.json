@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "queries": 176,
+  "units": 32976,
+  "counts": {
+    "full_permutations": 1056,
+    "pilot_choice_matches": 1056,
+    "default_api_matches": 176,
+    "metadata_counterfactuals": 176,
+    "opaque_source_identifier_counterfactuals": 176,
+    "file_access_blocked_calls": 176,
+    "deterministic_repeats": 176,
+    "stable_tie_checks": 6,
+    "title_priority_checks": 176
+  },
+  "features_read": "Visible question string, public source titles, source text, and source grouping identifiers only.",
+  "gold_label_files_opened": 0,
+  "file_access_guard": "builtins.open patched to fail during each selected rank call after index construction; ranking succeeded.",
+  "source_identifier_control": "Every source unit and article group received an opaque replacement identifier; complete rankings stayed unchanged.",
+  "question_metadata_control": "Question IDs, source article labels, relation labels, dates, and answer fields changed while the visible question stayed fixed; complete rankings stayed unchanged.",
+  "elapsed_seconds": 59.07723593711853,
+  "input_sha256": {
+    "pass3/pipeline/pilot_final/units.jsonl": "2052380ea816cbedb86bbc25241eda2c9590076b7374bd8c33d1021a70f9a49d",
+    "pass3/protocol/dev_pilot_queries.jsonl": "f3b40b6dd32de9bd1780897690c67e2428249d7dafb70f685ef0f9703df36226",
+    "pass4/retrieval/pilot/predictions.jsonl": "aa770de775df9b6f68fb8706a275e1fcc3bd32f943dbddc35bd99926c3e6b4cf",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/audit_rank_integrity.py": "c0464986335d41547792170c1cdfe85d343daf794a0543d35de34cb2dbe5e1e8",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/ranking.py": "bd898547382a12903b34656c4d06d518c63390efb68aec0fdbd46722066205dd"
+  }
+}

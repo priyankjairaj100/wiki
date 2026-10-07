@@ -1,0 +1,68 @@
+{
+  "study": "Post-audit source revision on unchanged questions; historical and new actual outputs are distinguished.",
+  "execution_identity": {
+    "model_repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+    "model_revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+    "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+    "runtime_release": "b11435",
+    "runtime_commit": "43fe9c64281ef735046adc025e9e7559a1f659a5",
+    "max_tokens": 96,
+    "temperature": 0,
+    "seed": 1729,
+    "cache_prompt": false,
+    "json_grammar": false,
+    "threads": 4,
+    "batch_threads": 4,
+    "context_tokens": 2048,
+    "parallel_slots": 1,
+    "gpu_layers": 0,
+    "batch_tokens": 512,
+    "ubatch_tokens": 512,
+    "poll": 0,
+    "poll_batch": 0
+  },
+  "historical_sources": {
+    "pass4/inference/human/reader_output.jsonl": "2ae23748fc863e8d1a66f6ca5ba5a816a9cdd6cc0008a606a80b4d05b2ef58ab",
+    "pass4/inference/human_diagnostic/reader_output.jsonl": "433a8d5b455fe295d92de054816624ad2af8d53ad553efb031337bd912ff0088"
+  },
+  "historical_completed_requests": 238,
+  "current_unique_requests": 234,
+  "reused_exact": 166,
+  "new_delta": 68,
+  "cohorts": {
+    "human": {
+      "questions": 60,
+      "conditions": 600,
+      "unique_requests": 194,
+      "query_sha256": "ac16d6a63bed55d2cbf10c65d747e943b3c1b364fcd89ce5158e0216f79f8ded",
+      "inputs": {
+        "pass5/inference/human/reader_jobs.jsonl": "387c21a2ebb5ded67c2adbda977796c30bf90aafe3547c3b6418b78956146c70",
+        "pass5/inference/human/reader_memberships.jsonl": "7079bc5dbbe4a58cdd09d8305d017fef42e8bbae389fd1231bcb7023a7b94f34",
+        "pass5/inference/human/reader_input.jsonl": "352a9f1100e0c1eccc279bfe123f144c9754d5eee6ec003593a3d894518a763c",
+        "pass5/inference/human/queries.jsonl": "ac16d6a63bed55d2cbf10c65d747e943b3c1b364fcd89ce5158e0216f79f8ded"
+      },
+      "reused_exact": 146,
+      "new_delta": 48
+    },
+    "human_diagnostic": {
+      "questions": 11,
+      "conditions": 110,
+      "unique_requests": 40,
+      "query_sha256": "b1d2f20e919ef90e8aa6a46dbbd7aa75e49f0c5145992898ed8956727aadd0a0",
+      "inputs": {
+        "pass5/inference/human_diagnostic/reader_jobs.jsonl": "3ae0a9f52478fdee3f4b13e9ac3d4cbc449686287e6af30a11568d803b9621f8",
+        "pass5/inference/human_diagnostic/reader_memberships.jsonl": "aea27b5a28ba2582bec42fb8e0791b3eaedd456e9005c42bd53556de1f834d7d",
+        "pass5/inference/human_diagnostic/reader_input.jsonl": "0338abea78e905f373fffb68c8f96887a714818fad20023552417474cf275e36",
+        "pass5/inference/human_diagnostic/queries.jsonl": "b1d2f20e919ef90e8aa6a46dbbd7aa75e49f0c5145992898ed8956727aadd0a0"
+      },
+      "reused_exact": 20,
+      "new_delta": 20
+    }
+  },
+  "files": {
+    "pass5/inference/delta_input.jsonl": "2e2ada3357b77b63b8366a34810533f2e49d7c9da3df1c56d61511d243db4b9c",
+    "pass5/inference/delta_jobs.jsonl": "eb5144668f6882edf0d55bd1d8be96a18cbd2653f5621049ee7ffad51d5b6832",
+    "pass5/inference/reader_lineage.jsonl": "9b56c8541eab01433339960932e07040f2b4487a15139cfa88246adc231a75a4",
+    "pass5/protocol/prepare_reader.py": "161324fe5e3e53ddaab77f2190483291e3ac84469f7e6d7635816922f27b8301"
+  }
+}

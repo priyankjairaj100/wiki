@@ -1,0 +1,208 @@
+{
+  "protocol_id": "acl2027-pass5-source-revision-v1",
+  "frozen_date": "2026-10-06",
+  "selection_seed": "acl2027-pass4-reader-confirmation-20261006-v1",
+  "inputs": {
+    "passages": "Article title, passage text, passage ID, and paragraph order only.",
+    "queries": "Visible question text only. question_id is an uninterpreted join key.",
+    "excluded_features": [
+      "gold answer strings",
+      "gold spans",
+      "annotation relation IDs",
+      "annotation date ranges",
+      "source gold histories",
+      "query article_path",
+      "article and relation components embedded in question_id"
+    ]
+  },
+  "tracks": {
+    "dev_pilot": {
+      "articles": 50,
+      "questions": 176,
+      "use": "Calibration and variant selection only."
+    },
+    "dev_validation": {
+      "articles": 644,
+      "questions": 2348,
+      "use": "Confirmation. Earlier pass-3 outcomes were inspected."
+    },
+    "human_test_confirmation": {
+      "articles": 251,
+      "questions": 830,
+      "use": "Confirmation. Earlier baseline outcomes were inspected."
+    },
+    "dev_additional_calibration": {
+      "articles": 35,
+      "questions": 127,
+      "use": "Additional calibration and variant selection only."
+    }
+  },
+  "ranking": {
+    "method": "title_residual",
+    "k1": 1.5,
+    "b": 0.75,
+    "idf": "log(1+(N-df+0.5)/(df+0.5))",
+    "tie_break": "passage_id, then source offset, then claim_id",
+    "freeze_before_temporal_policies": true,
+    "article_title_in_index": true,
+    "fixed_order_exception": "The prespecified latest-mentioned-year comparator reorders the common top20 lexical units.",
+    "selection": "Use only the 176 pilot and 127 additional calibration questions. Keep all variant outcomes.",
+    "selection_metric": "annotated_span_recall_at_5; ties favor simpler features, then variant name",
+    "confirmation_tuning": false,
+    "description": "Longest exact title-token match from the public source title inventory. Linked article units precede all other units. BM25 ranks linked units using visible query terms after removal of matched title-token types. Preserve the complete corpus order.",
+    "calibration_selection_evidence": "Selected among six pilot variants on existing pass3 units; final comparison uses identical new units for every method."
+  },
+  "contexts": {
+    "word_limit": 768,
+    "word_definition": "Unicode whitespace-separated tokens",
+    "overflow": "Take common fixed source prefixes for atomic units; stop at the shared word budget.",
+    "deduplicate_passages": false,
+    "claim_certificate_before_paragraph_aggregation": true,
+    "reader_input": "Same original source text, source title, source-derived subject/relation, temporal status, and date bounds in every condition. No extracted answer value is added.",
+    "unit_limit": 5,
+    "unit_definition": "Atomic source excerpt with exact source character offsets. Uncovered source text remains fallback units. Never reject a whole passage solely because one extracted event fails.",
+    "deduplicate_units": true,
+    "metadata_budget": "Source-derived subject/relation and title/date metadata are outside the common 768 source-text word budget."
+  },
+  "methods": {
+    "no_temporal_filter": "Keep the fixed lexical ranking.",
+    "earliest_completion": "Set every occurrence bound and accepted endpoint to its lower bound, then use exact direct replacement.",
+    "midpoint_completion": "Set every occurrence bound and accepted endpoint to its interval midpoint, then use exact direct replacement.",
+    "latest_completion": "Set every occurrence bound and accepted endpoint to its upper bound, then use exact direct replacement.",
+    "interval_outer_control": "Keep a claim when its start lower bound is at most query end, and query start is strictly below explicit end upper bound. Ignore replacement pairs.",
+    "possible_support": "Use the exact possible-support mask under the fixed product model and fixed replacement pairs.",
+    "guaranteed_support": "Use the exact guaranteed-support mask under the same model and pairs. Keep unparsed text under the common fallback policy, but never label it guaranteed.",
+    "latest_mentioned_year_top20": "Within the same top20 lexical source units, prefer the latest source-mentioned year at most the query last year. Preserve lexical ties.",
+    "original_bm25": "No temporal filter. Original BM25 relevance ranking on the identical new source units.",
+    "original_bm25_latestyear": "No temporal filter. Latest-mentioned-year reranking within the original BM25 top20, on the identical new source units."
+  },
+  "time_semantics": {
+    "scale": "Proleptic Gregorian day ordinals",
+    "query": "Closed window read from visible question. A year means January 1 through December 31; a month means its first through last day.",
+    "occurrence_start": "An unknown event start constrained to one stated year, month, day, or explicit start bound.",
+    "validity_duration": "A stated validity period. Never reinterpret its two endpoints as uncertain event start bounds.",
+    "end": "Half-open retirement boundary [start,end); shift through-date endpoints only under an explicit source parser rule.",
+    "unbounded_or_approximate": "Retain as unresolved. Do not assign a made-up finite uncertainty width.",
+    "gate": "Use identical source-supported directed replacement pairs for all methods. Generic different values do not establish replacement.",
+    "fallback": "Unparsed questions use the common lexical order. Undated, unresolved, and rejected claims remain common fallback text."
+  },
+  "primary_metrics": [
+    "annotated_span_recall_at_5",
+    "all_annotated_strings_covered_at_5",
+    "annotated_string_recall_at_5",
+    "exact_annotated_answer_set",
+    "annotated_answer_set_precision",
+    "annotated_answer_set_recall",
+    "annotated_answer_set_f1"
+  ],
+  "mechanism_metrics": [
+    "query_time_parse_rate",
+    "bounded_claim_fraction",
+    "accepted_directed_pairs",
+    "topk_claim_context_certificate_rate",
+    "all_three_completion_context_agreement",
+    "completion_contexts_differ_from_possible",
+    "annotated_support_removed",
+    "reader_answer_change_rate",
+    "unknown_fallback_fraction",
+    "tokens_used"
+  ],
+  "slices": {
+    "all_questions": "Every retained question in the frozen track.",
+    "temporal_extraction_active": "At least one bounded extracted claim occurs in the fixed top20 lexical passages.",
+    "uncertain_start_active": "At least one bounded non-singleton occurrence start occurs in those passages.",
+    "replacement_active": "At least one accepted directed pair targets one of those claims.",
+    "completion_sensitive": "At least two completion methods return different claim contexts. Post hoc descriptive mechanism slice, not a separately selected benchmark."
+  },
+  "inference_policy": "Only common source evidence, fixed ranking, visible question, and declared temporal policy. Labels and evaluation groups are scoring-only.",
+  "statistics": {
+    "unit": "question",
+    "cluster": "article",
+    "paired_resamples": 2000,
+    "seed": 20261006,
+    "interval": "Percentile 95% paired article bootstrap",
+    "primary_comparator": "interval_outer_control",
+    "report_zero_coverage": true,
+    "prespecified_compiler_contrasts": [
+      [
+        "possible_support",
+        "interval_outer_control"
+      ],
+      [
+        "guaranteed_support",
+        "interval_outer_control"
+      ]
+    ],
+    "prespecified_frontend_contrasts": [
+      [
+        "no_temporal_filter",
+        "original_bm25"
+      ],
+      [
+        "no_temporal_filter",
+        "original_bm25_latestyear"
+      ],
+      [
+        "latest_mentioned_year_top20",
+        "original_bm25_latestyear"
+      ]
+    ],
+    "strongest_comparator_rule": "Report the best prespecified latest-year result without selecting a new ranking after confirmation."
+  },
+  "audit_policy": "Independent source audit sees source spans and extraction only; it does not see method names, outcomes, or benchmark answers. Call it model audit unless actual human annotators supply labels.",
+  "interpretation": "Benchmark anchors measure annotated source coverage. They do not establish semantic entailment. Annotation strings may be aliases, concurrent values, or sequential values.",
+  "freeze_policy": "Before validation inference, save code and config hashes. Record any later changes as protocol amendments. Do not tune after validation or test outcomes.",
+  "secondary_metrics": [
+    "parent_passage_hit_at_5"
+  ],
+  "configuration_status": "Source-audit revision. Same fixed questions and ranking. Earlier benchmark outcomes were inspected.",
+  "reader": {
+    "primary_queries": "pass5/protocol/reader_primary_queries.jsonl",
+    "n_questions": 60,
+    "n_articles": 55,
+    "sample_sha256": "ac16d6a63bed55d2cbf10c65d747e943b3c1b364fcd89ce5158e0216f79f8ded",
+    "methods": [
+      "no_temporal_filter",
+      "earliest_completion",
+      "midpoint_completion",
+      "latest_completion",
+      "interval_outer_control",
+      "possible_support",
+      "guaranteed_support",
+      "latest_mentioned_year_top20",
+      "original_bm25",
+      "original_bm25_latestyear"
+    ],
+    "parser": "pass3/protocol/parse_reader.py",
+    "scorer": "pass3/protocol/score_predictions.py",
+    "diagnostic_max_questions": 24,
+    "diagnostic_selection": "Reuse all 11 frozen pass-4 diagnostic questions. Do not select from revised contexts.",
+    "temperature": 0,
+    "seed": 1729,
+    "model": {
+      "model_repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+      "model_revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+      "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+      "runtime_release": "b11435",
+      "runtime_commit": "43fe9c64281ef735046adc025e9e7559a1f659a5"
+    },
+    "n_logical_conditions": 600,
+    "generation": {
+      "max_tokens": 96,
+      "temperature": 0,
+      "seed": 1729,
+      "cache_prompt": false,
+      "json_grammar": false,
+      "threads": 4,
+      "batch_threads": 4,
+      "context_tokens": 2048,
+      "parallel_slots": 1,
+      "gpu_layers": 0,
+      "batch_tokens": 512,
+      "ubatch_tokens": 512,
+      "poll": 0,
+      "poll_batch": 0
+    },
+    "provenance": "pass4/inference/provenance/primary_reader_freeze_final.json"
+  }
+}

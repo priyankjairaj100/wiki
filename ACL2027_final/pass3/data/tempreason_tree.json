@@ -1,0 +1,1022 @@
+{
+  "sha": "67bfd396f84e6a268ebd237d04f6dc2538d715df",
+  "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/67bfd396f84e6a268ebd237d04f6dc2538d715df",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02f989e17ec02a19301041cfbd56828901ff94e4",
+      "size": 1113,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/02f989e17ec02a19301041cfbd56828901ff94e4"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c7ba0c297475a1fa63fad2cbfe337371b48e636",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/0c7ba0c297475a1fa63fad2cbfe337371b48e636"
+    },
+    {
+      "path": "data/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d3bbe54cdf296ed14034d121a0692293752729a",
+      "size": 194,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/2d3bbe54cdf296ed14034d121a0692293752729a"
+    },
+    {
+      "path": "run_seq2seq_qa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ac1e0a2e2a6003206293db1f5f0064664187255",
+      "size": 35820,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/4ac1e0a2e2a6003206293db1f5f0064664187255"
+    },
+    {
+      "path": "tempreason_train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10b74720fcb95940a50b8c72d53eb9e3dd1ea1c0",
+      "size": 694,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/10b74720fcb95940a50b8c72d53eb9e3dd1ea1c0"
+    },
+    {
+      "path": "trainer_seq2seq_qa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cabf01e4a40028328f7a30fa245ab4ecc483e7a",
+      "size": 22383,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/3cabf01e4a40028328f7a30fa245ab4ecc483e7a"
+    },
+    {
+      "path": "trlx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf56f52be42040f15453bc58c9c9ae033f5b57be",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/cf56f52be42040f15453bc58c9c9ae033f5b57be"
+    },
+    {
+      "path": "trlx/CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "113240273b6e7bdf91597304be4a062c168a99b3",
+      "size": 5222,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/113240273b6e7bdf91597304be4a062c168a99b3"
+    },
+    {
+      "path": "trlx/CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c5169ed55bd0aafc1c11c77886e3951c93d6105",
+      "size": 4286,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/0c5169ed55bd0aafc1c11c77886e3951c93d6105"
+    },
+    {
+      "path": "trlx/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb73c1d7ed705a2c7b061860ea0524a98fa682e3",
+      "size": 1065,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/bb73c1d7ed705a2c7b061860ea0524a98fa682e3"
+    },
+    {
+      "path": "trlx/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e96b2e6673bd869dbc38cb670b9d365d61e92f1",
+      "size": 6779,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/6e96b2e6673bd869dbc38cb670b9d365d61e92f1"
+    },
+    {
+      "path": "trlx/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01f95cbaca7ceb897f713f5694469d618771ab2a",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/01f95cbaca7ceb897f713f5694469d618771ab2a"
+    },
+    {
+      "path": "trlx/configs/accelerate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ecb88e17cf1479cc35580b0184d02c723572b87",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/3ecb88e17cf1479cc35580b0184d02c723572b87"
+    },
+    {
+      "path": "trlx/configs/accelerate/ddp.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ff51a747a27d76782a5c3b864f5ce98b8ec880f",
+      "size": 327,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/7ff51a747a27d76782a5c3b864f5ce98b8ec880f"
+    },
+    {
+      "path": "trlx/configs/accelerate/zero2-bf16.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10902e7027a971214fb9fd29ea803f2d58a489e8",
+      "size": 513,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/10902e7027a971214fb9fd29ea803f2d58a489e8"
+    },
+    {
+      "path": "trlx/configs/accelerate/zero2-fp16.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fbdcb45ae7538eaa72f7edca3dfc1e2c45a2b75",
+      "size": 513,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/8fbdcb45ae7538eaa72f7edca3dfc1e2c45a2b75"
+    },
+    {
+      "path": "trlx/configs/accelerate/zero3.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9525aad12d3cb8c3d04986b1d314d5c260c79cde",
+      "size": 543,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/9525aad12d3cb8c3d04986b1d314d5c260c79cde"
+    },
+    {
+      "path": "trlx/configs/nemo_configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "788210494ec23aa482f52085b48166e564124fb9",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/788210494ec23aa482f52085b48166e564124fb9"
+    },
+    {
+      "path": "trlx/configs/nemo_configs/megatron_20b.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6092b77aa871a90fa94b1c46a80a95f0254b2714",
+      "size": 5716,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/6092b77aa871a90fa94b1c46a80a95f0254b2714"
+    },
+    {
+      "path": "trlx/configs/nemo_configs/megatron_65b.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0282be016eb669d53809e8b8c7acbb0d13d11b3a",
+      "size": 5899,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/0282be016eb669d53809e8b8c7acbb0d13d11b3a"
+    },
+    {
+      "path": "trlx/configs/nemo_configs/sft_megatron_20b.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a770a9f5aa9656696b28d70aeeeaea6187a0b23d",
+      "size": 5780,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/a770a9f5aa9656696b28d70aeeeaea6187a0b23d"
+    },
+    {
+      "path": "trlx/configs/sweeps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "370c40e36ee1f8037126410a3975c020c9e0bc4b",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/370c40e36ee1f8037126410a3975c020c9e0bc4b"
+    },
+    {
+      "path": "trlx/configs/sweeps/ilql_sweep.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6331996161eee72e9f63a5725e7b56ef6075202",
+      "size": 633,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/b6331996161eee72e9f63a5725e7b56ef6075202"
+    },
+    {
+      "path": "trlx/configs/sweeps/ppo_sweep.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fc0b07b5a0358bbc6e59a793860666bada4c387",
+      "size": 697,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/3fc0b07b5a0358bbc6e59a793860666bada4c387"
+    },
+    {
+      "path": "trlx/configs/test_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19adb4f6f474ed5c1d77b365368a862d66dc7918",
+      "size": 1916,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/19adb4f6f474ed5c1d77b365368a862d66dc7918"
+    },
+    {
+      "path": "trlx/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcbdf24f0d000a3119315e0bf203c66962f3cd58",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/dcbdf24f0d000a3119315e0bf203c66962f3cd58"
+    },
+    {
+      "path": "trlx/docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0c3cbf1020d5c292abdedf27627c6abe25e2293",
+      "size": 638,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/d0c3cbf1020d5c292abdedf27627c6abe25e2293"
+    },
+    {
+      "path": "trlx/docs/make.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061f32f91b96f05f8fa2b52b2edcdcc19aa33d50",
+      "size": 769,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/061f32f91b96f05f8fa2b52b2edcdcc19aa33d50"
+    },
+    {
+      "path": "trlx/docs/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a33f300efb887047f8cf2311539fd1620207229",
+      "size": 171,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/7a33f300efb887047f8cf2311539fd1620207229"
+    },
+    {
+      "path": "trlx/docs/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b5ff07e610f28becfec11f533d00bb7b535c7f34",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/b5ff07e610f28becfec11f533d00bb7b535c7f34"
+    },
+    {
+      "path": "trlx/docs/source/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a9a11c86e2d92675ed57e2d6ba5718d8a159148",
+      "size": 1981,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/0a9a11c86e2d92675ed57e2d6ba5718d8a159148"
+    },
+    {
+      "path": "trlx/docs/source/configs.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da5e1f2e60ea59f1c4c0d847c24f5fbf4c586c9d",
+      "size": 782,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/da5e1f2e60ea59f1c4c0d847c24f5fbf4c586c9d"
+    },
+    {
+      "path": "trlx/docs/source/data.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412e442ba9b40bd9ec8c29f996b5a106a2b9afb8",
+      "size": 1112,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/412e442ba9b40bd9ec8c29f996b5a106a2b9afb8"
+    },
+    {
+      "path": "trlx/docs/source/examples.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f5db49d110c50d19894daf46baa610ce9efcdd4",
+      "size": 1022,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/6f5db49d110c50d19894daf46baa610ce9efcdd4"
+    },
+    {
+      "path": "trlx/docs/source/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b294759358e73df9e5edecce3cb8c52858f14fd",
+      "size": 656,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/1b294759358e73df9e5edecce3cb8c52858f14fd"
+    },
+    {
+      "path": "trlx/docs/source/pipeline.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68279d889e9a10569662d9adbbe614356d881c42",
+      "size": 624,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/68279d889e9a10569662d9adbbe614356d881c42"
+    },
+    {
+      "path": "trlx/docs/source/trainer.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6259c8b219d8aba47f013f325099047516980d3b",
+      "size": 566,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/6259c8b219d8aba47f013f325099047516980d3b"
+    },
+    {
+      "path": "trlx/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4083d83850f4361c198901c0602c904642428f78",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/4083d83850f4361c198901c0602c904642428f78"
+    },
+    {
+      "path": "trlx/examples/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "trlx/examples/tsqa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "336ca1e200e425d8b5045e19618b62847321f963",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/336ca1e200e425d8b5045e19618b62847321f963"
+    },
+    {
+      "path": "trlx/examples/tsqa/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "trlx/examples/tsqa/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd517f1d172d247a431c37198482ede9c3bdff15",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/fd517f1d172d247a431c37198482ede9c3bdff15"
+    },
+    {
+      "path": "trlx/examples/tsqa/configs/ppo_config_qa.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "863b6ac3b77168290fd9044d80967e1769abcbb3",
+      "size": 1341,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/863b6ac3b77168290fd9044d80967e1769abcbb3"
+    },
+    {
+      "path": "trlx/examples/tsqa/eval_t5_qa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "273a61a0a9c66cc7af7f22e8a32e7e4d73bf02cf",
+      "size": 5545,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/273a61a0a9c66cc7af7f22e8a32e7e4d73bf02cf"
+    },
+    {
+      "path": "trlx/examples/tsqa/run_t5_qa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5759b4d5026e92f65df018bee0083c5c211ca8db",
+      "size": 5429,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/5759b4d5026e92f65df018bee0083c5c211ca8db"
+    },
+    {
+      "path": "trlx/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6ec87f55397ea6e2e51697c0f10efb883efe543",
+      "size": 167,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/f6ec87f55397ea6e2e51697c0f10efb883efe543"
+    },
+    {
+      "path": "trlx/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b220c4d9f8b1e6a4852c5db7b07b5c862795905",
+      "size": 1453,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/7b220c4d9f8b1e6a4852c5db7b07b5c862795905"
+    },
+    {
+      "path": "trlx/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57b2693d18e5cb700ad009ebd30c70b535214ca8",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/57b2693d18e5cb700ad009ebd30c70b535214ca8"
+    },
+    {
+      "path": "trlx/scripts/accelerate_train_example.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96a3f85d94286b857e717bdf46628f6c0cf87a59",
+      "size": 1010,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/96a3f85d94286b857e717bdf46628f6c0cf87a59"
+    },
+    {
+      "path": "trlx/scripts/benchmark.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "638d73432bd02d5ed85fd4b8b3e067b70c8f2aee",
+      "size": 2495,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/638d73432bd02d5ed85fd4b8b3e067b70c8f2aee"
+    },
+    {
+      "path": "trlx/scripts/slurm_train.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd013116022c308a30be23266628c6676da442aa",
+      "size": 1523,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/fd013116022c308a30be23266628c6676da442aa"
+    },
+    {
+      "path": "trlx/scripts/sweep-cw.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e573a839295a4850a05bdb7a6dddab2a319b0c2",
+      "size": 1292,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/5e573a839295a4850a05bdb7a6dddab2a319b0c2"
+    },
+    {
+      "path": "trlx/setup.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "591f98ffec71bdc37ec97959c1fc72636f36863a",
+      "size": 1497,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/591f98ffec71bdc37ec97959c1fc72636f36863a"
+    },
+    {
+      "path": "trlx/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "606849326a4002007fd42060b51e69a19c18675c",
+      "size": 38,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/606849326a4002007fd42060b51e69a19c18675c"
+    },
+    {
+      "path": "trlx/trlx.egg-info",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4fef362f446dbf243994a857be78150f57c2ff7",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/f4fef362f446dbf243994a857be78150f57c2ff7"
+    },
+    {
+      "path": "trlx/trlx.egg-info/PKG-INFO",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd36c523534bcc1dc9662be7fc072f20cd0826ca",
+      "size": 7123,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/cd36c523534bcc1dc9662be7fc072f20cd0826ca"
+    },
+    {
+      "path": "trlx/trlx.egg-info/SOURCES.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4685c7e7512ade8af173538c738e163bdf666a1e",
+      "size": 1794,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/4685c7e7512ade8af173538c738e163bdf666a1e"
+    },
+    {
+      "path": "trlx/trlx.egg-info/dependency_links.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "trlx/trlx.egg-info/requires.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47b7245c67200ee9a1dc47d815e5915003564bf3",
+      "size": 294,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/47b7245c67200ee9a1dc47d815e5915003564bf3"
+    },
+    {
+      "path": "trlx/trlx.egg-info/top_level.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e7b7969cf5fe2aa06df47b8156df5056f078168",
+      "size": 14,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/1e7b7969cf5fe2aa06df47b8156df5056f078168"
+    },
+    {
+      "path": "trlx/trlx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7017567919090e5e75d1736f9c12e2ad3878964f",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/7017567919090e5e75d1736f9c12e2ad3878964f"
+    },
+    {
+      "path": "trlx/trlx/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5a10057c0386358c87d6abff69e6033c5a47b01",
+      "size": 61,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/a5a10057c0386358c87d6abff69e6033c5a47b01"
+    },
+    {
+      "path": "trlx/trlx/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11ef7b53e3465607d71a65ad4e0ebb8d6bcb9046",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/11ef7b53e3465607d71a65ad4e0ebb8d6bcb9046"
+    },
+    {
+      "path": "trlx/trlx/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bf804271b7536119448beb9a7b7f43f3fd473f4",
+      "size": 215,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/6bf804271b7536119448beb9a7b7f43f3fd473f4"
+    },
+    {
+      "path": "trlx/trlx/__pycache__/trlx.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b494052e619dee5cc3fc7e5e1638a611c8e0396",
+      "size": 4853,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/6b494052e619dee5cc3fc7e5e1638a611c8e0396"
+    },
+    {
+      "path": "trlx/trlx/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ee419e32cfd6464e9179d75d7ac519233806634",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/2ee419e32cfd6464e9179d75d7ac519233806634"
+    },
+    {
+      "path": "trlx/trlx/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96d46750e2991dc500fffda32b35baf1e86bb635",
+      "size": 687,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/96d46750e2991dc500fffda32b35baf1e86bb635"
+    },
+    {
+      "path": "trlx/trlx/data/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a03d2991e5c258680b110a68f9e43db41f19fd0",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/3a03d2991e5c258680b110a68f9e43db41f19fd0"
+    },
+    {
+      "path": "trlx/trlx/data/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0227c4e34c1ddc170ebbd8761cb144fab7145a7",
+      "size": 1143,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/a0227c4e34c1ddc170ebbd8761cb144fab7145a7"
+    },
+    {
+      "path": "trlx/trlx/data/__pycache__/accelerate_base_datatypes.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c5b723c8edf775666299b7e8a1f5aa0183a34a7",
+      "size": 2218,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/9c5b723c8edf775666299b7e8a1f5aa0183a34a7"
+    },
+    {
+      "path": "trlx/trlx/data/__pycache__/configs.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e74841e28ccf7ef636a206937de627151cc9c7",
+      "size": 10655,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/84e74841e28ccf7ef636a206937de627151cc9c7"
+    },
+    {
+      "path": "trlx/trlx/data/__pycache__/default_configs.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf09d4cda7a002dbb11632552f17b4efc2b18a4",
+      "size": 2867,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/ddf09d4cda7a002dbb11632552f17b4efc2b18a4"
+    },
+    {
+      "path": "trlx/trlx/data/__pycache__/ilql_types.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "043afe2711b7daedd5518eb915e36da655c15dd0",
+      "size": 3395,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/043afe2711b7daedd5518eb915e36da655c15dd0"
+    },
+    {
+      "path": "trlx/trlx/data/__pycache__/method_configs.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "270f841abb64e1085334e388c0057d1203201e84",
+      "size": 1774,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/270f841abb64e1085334e388c0057d1203201e84"
+    },
+    {
+      "path": "trlx/trlx/data/__pycache__/ppo_types.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e043cf467d79dd7721919ba5b4de36945c906f4",
+      "size": 2440,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/3e043cf467d79dd7721919ba5b4de36945c906f4"
+    },
+    {
+      "path": "trlx/trlx/data/accelerate_base_datatypes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "838567e0e2eace2a16ed1cd1678a8318c67d27e2",
+      "size": 1604,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/838567e0e2eace2a16ed1cd1678a8318c67d27e2"
+    },
+    {
+      "path": "trlx/trlx/data/configs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b2af9ccb0563d8590c48f54e711ad076379f3a3",
+      "size": 9914,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/8b2af9ccb0563d8590c48f54e711ad076379f3a3"
+    },
+    {
+      "path": "trlx/trlx/data/default_configs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8ab22c875dacde89a4956389f69be74020f9fb9",
+      "size": 3816,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/b8ab22c875dacde89a4956389f69be74020f9fb9"
+    },
+    {
+      "path": "trlx/trlx/data/ilql_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb83309d31b1d6f8fdea812ee67c215bd84a2ea3",
+      "size": 3308,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/cb83309d31b1d6f8fdea812ee67c215bd84a2ea3"
+    },
+    {
+      "path": "trlx/trlx/data/method_configs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "435ce13cf6184e03e3d3f97a9ec80159d5e613f9",
+      "size": 1182,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/435ce13cf6184e03e3d3f97a9ec80159d5e613f9"
+    },
+    {
+      "path": "trlx/trlx/data/ppo_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "375d7d3ab7a587656f61f82ed36396233f282391",
+      "size": 2207,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/375d7d3ab7a587656f61f82ed36396233f282391"
+    },
+    {
+      "path": "trlx/trlx/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "efbea280947b3833bd2ae3405c29a53f76574be9",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/efbea280947b3833bd2ae3405c29a53f76574be9"
+    },
+    {
+      "path": "trlx/trlx/models/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdcb44597eb25071daae992d15aba4353d78732f",
+      "size": 8854,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/fdcb44597eb25071daae992d15aba4353d78732f"
+    },
+    {
+      "path": "trlx/trlx/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "trlx/trlx/models/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d57af32257ce795f9c53de690f12523f78ac36a9",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/d57af32257ce795f9c53de690f12523f78ac36a9"
+    },
+    {
+      "path": "trlx/trlx/models/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e33e46c13d30a63597b3e09f26b09582a445312b",
+      "size": 151,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/e33e46c13d30a63597b3e09f26b09582a445312b"
+    },
+    {
+      "path": "trlx/trlx/models/__pycache__/modeling_base.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce71bd91a8690765d3cd6b6a1d3dd3d8f8e8a961",
+      "size": 7892,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/ce71bd91a8690765d3cd6b6a1d3dd3d8f8e8a961"
+    },
+    {
+      "path": "trlx/trlx/models/__pycache__/modeling_ilql.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b7c8097f7c0c9fc8593b50ec1e9e679704c8512",
+      "size": 14493,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/3b7c8097f7c0c9fc8593b50ec1e9e679704c8512"
+    },
+    {
+      "path": "trlx/trlx/models/__pycache__/modeling_ppo.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f9d471a1c869e0a8352f5ac9be26a8be2741c42",
+      "size": 31048,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/4f9d471a1c869e0a8352f5ac9be26a8be2741c42"
+    },
+    {
+      "path": "trlx/trlx/models/modeling_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fa8dfb3eaa7038ebead53293caf0369bf177037",
+      "size": 10585,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/7fa8dfb3eaa7038ebead53293caf0369bf177037"
+    },
+    {
+      "path": "trlx/trlx/models/modeling_ilql.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7d0ec6a4756b68af4f81fdd9ed0ee040e85195e",
+      "size": 18165,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/e7d0ec6a4756b68af4f81fdd9ed0ee040e85195e"
+    },
+    {
+      "path": "trlx/trlx/models/modeling_nemo_ilql.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31ac49a8ab716517a897ee8219c92772ccc1a9f2",
+      "size": 31706,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/31ac49a8ab716517a897ee8219c92772ccc1a9f2"
+    },
+    {
+      "path": "trlx/trlx/models/modeling_nemo_sft.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac697baf64d0687f226b8a0979e6eabd4f647f3e",
+      "size": 21959,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/ac697baf64d0687f226b8a0979e6eabd4f647f3e"
+    },
+    {
+      "path": "trlx/trlx/models/modeling_ppo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3334f10b1194763c49d90df35d1f59b8e71e3a1",
+      "size": 52775,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/e3334f10b1194763c49d90df35d1f59b8e71e3a1"
+    },
+    {
+      "path": "trlx/trlx/pipeline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da5ef3371c0d3152a2924e4d5021e4bebccf2d52",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/da5ef3371c0d3152a2924e4d5021e4bebccf2d52"
+    },
+    {
+      "path": "trlx/trlx/pipeline/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7dba9e973cb99e17880289ebca3d96f981db035",
+      "size": 5201,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/c7dba9e973cb99e17880289ebca3d96f981db035"
+    },
+    {
+      "path": "trlx/trlx/pipeline/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73a91c10369c9699347f20fbf6e02b479f830fbf",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/73a91c10369c9699347f20fbf6e02b479f830fbf"
+    },
+    {
+      "path": "trlx/trlx/pipeline/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0d225bf72365177f2bd076b24f0cfe667e4dcc",
+      "size": 5846,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/dd0d225bf72365177f2bd076b24f0cfe667e4dcc"
+    },
+    {
+      "path": "trlx/trlx/pipeline/__pycache__/offline_pipeline.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75bb312329a0ad977317eaeca1908c6286423654",
+      "size": 12760,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/75bb312329a0ad977317eaeca1908c6286423654"
+    },
+    {
+      "path": "trlx/trlx/pipeline/__pycache__/ppo_pipeline.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d608d577011ee31a2c77f3e592f5bd3411e6e597",
+      "size": 4022,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/d608d577011ee31a2c77f3e592f5bd3411e6e597"
+    },
+    {
+      "path": "trlx/trlx/pipeline/offline_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3da39e2116099b761b32194136a1919d1cb279f7",
+      "size": 9951,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/3da39e2116099b761b32194136a1919d1cb279f7"
+    },
+    {
+      "path": "trlx/trlx/pipeline/ppo_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "762679d235672a552b4c30a9fb0d2100dd52b3ba",
+      "size": 2962,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/762679d235672a552b4c30a9fb0d2100dd52b3ba"
+    },
+    {
+      "path": "trlx/trlx/reference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dab6b6d97c8dc2ad0610ff5dc0ba8ef69a06bc0b",
+      "size": 3884,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/dab6b6d97c8dc2ad0610ff5dc0ba8ef69a06bc0b"
+    },
+    {
+      "path": "trlx/trlx/sweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "615cb73610405f6fa8166b460faea7481a85ab9a",
+      "size": 12983,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/615cb73610405f6fa8166b460faea7481a85ab9a"
+    },
+    {
+      "path": "trlx/trlx/trainer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eec1a627b72000b1327cfa2939f1092bbb4f4151",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/eec1a627b72000b1327cfa2939f1092bbb4f4151"
+    },
+    {
+      "path": "trlx/trlx/trainer/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e0d239df60fca50c0d2a15f83154ccb1237af51",
+      "size": 2902,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/8e0d239df60fca50c0d2a15f83154ccb1237af51"
+    },
+    {
+      "path": "trlx/trlx/trainer/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac6280d771ab52f30aa28546ec30fb9023e33b9a",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/ac6280d771ab52f30aa28546ec30fb9023e33b9a"
+    },
+    {
+      "path": "trlx/trlx/trainer/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "932e74752ec6819e936785d2216ba0091023375d",
+      "size": 3648,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/932e74752ec6819e936785d2216ba0091023375d"
+    },
+    {
+      "path": "trlx/trlx/trainer/__pycache__/accelerate_base_trainer.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5db517ec67e98ab3ffe3027c5fcc8738966bdaa1",
+      "size": 17653,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/5db517ec67e98ab3ffe3027c5fcc8738966bdaa1"
+    },
+    {
+      "path": "trlx/trlx/trainer/__pycache__/accelerate_ilql_trainer.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5fdcd3c2ac0f196450b965530796e11b9b5db83",
+      "size": 8200,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/a5fdcd3c2ac0f196450b965530796e11b9b5db83"
+    },
+    {
+      "path": "trlx/trlx/trainer/__pycache__/accelerate_ppo_trainer.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d461317db972d5494401e5e867cdae15b6118f8b",
+      "size": 12981,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/d461317db972d5494401e5e867cdae15b6118f8b"
+    },
+    {
+      "path": "trlx/trlx/trainer/__pycache__/accelerate_sft_trainer.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2099882cdeeba9065b25e75facd515f176bb8142",
+      "size": 2977,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/2099882cdeeba9065b25e75facd515f176bb8142"
+    },
+    {
+      "path": "trlx/trlx/trainer/__pycache__/nemo_ilql_trainer.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "248b0edb918a528b25811cce566a792f99a73c54",
+      "size": 7536,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/248b0edb918a528b25811cce566a792f99a73c54"
+    },
+    {
+      "path": "trlx/trlx/trainer/accelerate_base_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d784ae72cafe2621ce025da615abb2e33f8f7ac",
+      "size": 35448,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/2d784ae72cafe2621ce025da615abb2e33f8f7ac"
+    },
+    {
+      "path": "trlx/trlx/trainer/accelerate_ilql_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e41d1f923dc392b2fb89f536a569809a02ad78a7",
+      "size": 10199,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/e41d1f923dc392b2fb89f536a569809a02ad78a7"
+    },
+    {
+      "path": "trlx/trlx/trainer/accelerate_ppo_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f3ab80229c5f53e010f2510ebab299ef9c02bd2",
+      "size": 22214,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/2f3ab80229c5f53e010f2510ebab299ef9c02bd2"
+    },
+    {
+      "path": "trlx/trlx/trainer/accelerate_sft_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb471ca6184dcbafebda63dfc5f51a1af2bc0f00",
+      "size": 2433,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/cb471ca6184dcbafebda63dfc5f51a1af2bc0f00"
+    },
+    {
+      "path": "trlx/trlx/trainer/nemo_ilql_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "099c976be8293ee02cd0570d08395344ab93b9d1",
+      "size": 8065,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/099c976be8293ee02cd0570d08395344ab93b9d1"
+    },
+    {
+      "path": "trlx/trlx/trainer/nemo_sft_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fa327c611c4a65e9cb1e661d76ece72eff63ef1",
+      "size": 5749,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/8fa327c611c4a65e9cb1e661d76ece72eff63ef1"
+    },
+    {
+      "path": "trlx/trlx/trlx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f24fee1ff7d231a68ea847f0110fdb248b0f5013",
+      "size": 11520,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/f24fee1ff7d231a68ea847f0110fdb248b0f5013"
+    },
+    {
+      "path": "trlx/trlx/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a48c934e29a4c82827208a776fa7e8bfe0ea2b3",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/5a48c934e29a4c82827208a776fa7e8bfe0ea2b3"
+    },
+    {
+      "path": "trlx/trlx/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abc4d5458129b04ecdbad4fd5fef12e71975196f",
+      "size": 6582,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/abc4d5458129b04ecdbad4fd5fef12e71975196f"
+    },
+    {
+      "path": "trlx/trlx/utils/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a44a5de4a1b5ae5aa9c35154abc05bf40bbde885",
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/trees/a44a5de4a1b5ae5aa9c35154abc05bf40bbde885"
+    },
+    {
+      "path": "trlx/trlx/utils/__pycache__/__init__.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adc20bfe42b70b8ea77da25315b063326b11ecb3",
+      "size": 7688,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/adc20bfe42b70b8ea77da25315b063326b11ecb3"
+    },
+    {
+      "path": "trlx/trlx/utils/__pycache__/loading.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9bfccdab39e0252da67128ec8f63a2ec8088f7d",
+      "size": 1856,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/b9bfccdab39e0252da67128ec8f63a2ec8088f7d"
+    },
+    {
+      "path": "trlx/trlx/utils/__pycache__/logging.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af15edf2a0152631d723fab6aebe65c78b1f07d7",
+      "size": 9938,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/af15edf2a0152631d723fab6aebe65c78b1f07d7"
+    },
+    {
+      "path": "trlx/trlx/utils/__pycache__/modeling.cpython-38.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6109bb17f6d9eded679c6fcf788f6bb574e1165c",
+      "size": 16120,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/6109bb17f6d9eded679c6fcf788f6bb574e1165c"
+    },
+    {
+      "path": "trlx/trlx/utils/loading.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f1722aed273d70aa2883c1deb73065c3bbb6692",
+      "size": 1624,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/8f1722aed273d70aa2883c1deb73065c3bbb6692"
+    },
+    {
+      "path": "trlx/trlx/utils/logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79badb4a3a789daa5bc07d6d7109679c9729c532",
+      "size": 9844,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/79badb4a3a789daa5bc07d6d7109679c9729c532"
+    },
+    {
+      "path": "trlx/trlx/utils/modeling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00528d22ee133798d94c26631c97c89645e49b5c",
+      "size": 19329,
+      "url": "https://api.github.com/repos/DAMO-NLP-SG/TempReason/git/blobs/00528d22ee133798d94c26631c97c89645e49b5c"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,60 @@
+{
+  "audit_kind": "Independent source-free-label replay; direct event scans replace compiler calls.",
+  "all_checks_passed": true,
+  "counts": {
+    "method_contexts_checked": 23480,
+    "queries": 2348,
+    "parsed": 2296,
+    "parsed_all_fallback": 1879,
+    "parsed_all_fallback_stable": 1879,
+    "budget_equalities_checked": 11480,
+    "parsed_modeled": 417,
+    "parsed_modeled_stable": 313,
+    "parsed_modeled_unstable": 104,
+    "worlds_checked": 208,
+    "event_assignments_checked": 257296,
+    "unparsed": 52
+  },
+  "stable_at_budgets_fixed_modeled_cohort": {
+    "1": {
+      "stable": 375,
+      "denominator": 417
+    },
+    "3": {
+      "stable": 322,
+      "denominator": 417
+    },
+    "5": {
+      "stable": 313,
+      "denominator": 417
+    },
+    "10": {
+      "stable": 309,
+      "denominator": 417
+    },
+    "20": {
+      "stable": 305,
+      "denominator": 417
+    }
+  },
+  "counterworld_pairs": 104,
+  "pairs_with_different_rendered_sources": 104,
+  "counterworld_exclusion_reasons": {
+    "retired_by_query_start": 66,
+    "start_after_query": 38
+  },
+  "reader_questions": 0,
+  "reader_logical_conditions": 0,
+  "reader_unique_jobs": 0,
+  "config_unchanged": true,
+  "source_partition_words_preserved": true,
+  "source_partition_nonoverlapping": true,
+  "files": {
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/reproduced_pass4/renamed_portable_project_53olb8_d/pass4/protocol/audit_confirmation.py": "e4f18a0822ae89fd7056070a72f0767a8e69272e4875b93c22c480f2a3cc9a21",
+    "pass3/protocol/dev_source_passages.jsonl": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4",
+    "pass4/protocol/dev_validation_queries.jsonl": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7",
+    "pass4/pipeline/validation/manifest.json": "99eac7448153f8966fb167c1af482dccab876e14b0d728fb4115fe3707c5d925",
+    "pass4/pipeline/validation/predictions.jsonl": "2b1fc200cf6ee8ccf48adcd26499870a140dc9c275b3ca175b135794276f8c7d",
+    "pass4/pipeline/validation/counterworlds.jsonl": "98f1dc225a25bc96a1bfdfb60cbbf14a7d0a6b7faafd3824035f3d9f237c26ed"
+  }
+}

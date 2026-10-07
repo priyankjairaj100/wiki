@@ -1,0 +1,63 @@
+{
+  "scope": "Independent model-assisted semantic review of all literal-grounded outputs from the first six DEV paragraphs. No QA labels or outcomes.",
+  "source_file": "pass3/extraction/learned/validated_schema_v2/grounded_successions.jsonl",
+  "source_sha256": "735a257b8f5b1c78ddbfed7c2712dbb1554e8d4884207ffb9943538f173a4c32",
+  "decisions": [
+    {
+      "record_id": "d9b3eeac9a3a3d94bbfac652",
+      "kind": "succession",
+      "approved": false,
+      "field_checks": {
+        "previous_holder": false,
+        "next_holder": false,
+        "role": true,
+        "organization": true,
+        "event_date": false
+      },
+      "reason": "The quote establishes Saxl to Henri Frankfort in 1949. The fields instead assign Gertrud Bing to Ernst Gombrich in 1949. Their succession occurs in 1959 elsewhere in this paragraph.",
+      "reject_derived_claim_ids": [
+        "dea0ec63e001709218319361"
+      ],
+      "source_span": {
+        "start": 0,
+        "end": 50,
+        "text": "Henri Frankfort succeeded Saxl as director in 1949"
+      }
+    }
+  ],
+  "pending": false,
+  "validation_summary": {
+    "jobs": 6,
+    "states_returned": 29,
+    "successions_returned": 17,
+    "literal_grounded_states": 0,
+    "literal_grounded_successions": 1,
+    "grounding_failures": 45,
+    "failure_reasons": {
+      "date_not_in_quote_or_partial_season": 1,
+      "quote_not_literal": 40,
+      "holder_not_literal": 2,
+      "next_not_literal": 1,
+      "previous_not_literal": 1
+    },
+    "compiler_candidates": 1,
+    "pair_candidates": 0,
+    "pair_failures": {
+      "unknown_or_ambiguous_occurrence": 1
+    },
+    "source_sha256": "15538757a6c6a52dbf8a4fba96f9177f5665bea36c6553459c40bd6a067ee11a",
+    "raw_outputs_sha256": "1844aa5c4158ae88cd728b4931949fb73cb399685dbe3b5dc2e45362f17ef612",
+    "scope": "Exploratory source-only DEV extraction. Literal grounding is not semantic correctness. All compiler and pair candidates require a separate source audit. No QA performance claim."
+  },
+  "raw_outputs_sha256": "1844aa5c4158ae88cd728b4931949fb73cb399685dbe3b5dc2e45362f17ef612",
+  "summary": {
+    "source_paragraphs": 6,
+    "records_returned": 46,
+    "literal_grounding_failures": 45,
+    "semantic_records_reviewed": 1,
+    "semantic_records_approved": 0,
+    "semantic_records_rejected": 1,
+    "approved_compiler_claims": 0,
+    "approved_pairs": 0
+  }
+}

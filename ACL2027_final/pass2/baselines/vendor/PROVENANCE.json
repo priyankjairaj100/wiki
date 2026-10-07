@@ -1,0 +1,21 @@
+{
+  "source_url": "https://raw.githubusercontent.com/getzep/graphiti/main/graphiti_core/utils/maintenance/edge_operations.py",
+  "retrieved": "2026-10-06",
+  "source_sha256": "b773ff4489968af2a996d5074e679cab9806cc0904a7ff9f2aecc74382325abe",
+  "scope": "Only official temporal invalidation blocks. No Graphiti LLM, graph store, extraction, search, deduplication or full-system evaluation.",
+  "extraction": "Exact ast.get_source_segment substrings; no source line edits.",
+  "segments": [
+    {
+      "file": "resolve_edge_contradictions.py",
+      "start_line": 538,
+      "end_line": 573,
+      "sha256": "79ba2aa895505a2fb8cc8c2a01faa8f85d95bef19564270d34e928813ba5e3a4"
+    },
+    {
+      "file": "resolve_extracted_edge_temporal_block.py",
+      "start_line": 826,
+      "end_line": 839,
+      "sha256": "af4b50cea1dbac228fb517472a5bd9a709e3f0c9105e6cfe4a8ce3291cd9bfd7"
+    }
+  ]
+}

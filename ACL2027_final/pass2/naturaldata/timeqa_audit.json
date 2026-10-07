@@ -1,0 +1,115 @@
+{
+  "dataset": "TimeQA",
+  "normalization": "Preserve original questions, original date strings, source paragraphs, and exact gold answer spans. No generated prose.",
+  "splits": {
+    "dev": {
+      "histories": 750,
+      "unique_articles": 748,
+      "relations": 52,
+      "annotations": 3021,
+      "source_paragraphs_before_deduplication": 32724,
+      "unique_passages": 32678,
+      "gold_spans": 3274,
+      "exact_gold_span_matches": 3274,
+      "answer_cardinality": {
+        "1": 2797,
+        "2": 197,
+        "3": 27
+      },
+      "multi_answer_annotations": 224,
+      "date_range_equal_endpoints": 169,
+      "adjacent_annotation_audit": {
+        "adjacent_annotation_pairs": 2271,
+        "retained_answer_pairs": 280,
+        "answer_removed_pairs": 2062,
+        "answer_added_pairs": 2078,
+        "partial_answer_removal_pairs": 71,
+        "matching_boundary_pairs": 1533,
+        "matching_boundary_retained_pairs": 154,
+        "matching_boundary_partial_removal_pairs": 60
+      },
+      "zero_length_empty_answer_annotations": 347,
+      "annotations_with_nonempty_gold_spans": 2674,
+      "gold_span_semantics": "Exact string anchors supplied by the benchmark. They are not verified temporal entailment labels.",
+      "multi_answer_count_semantics": "Distinct literal answer strings. These can be aliases, concurrent values, or sequential answers to a range question.",
+      "annotations_with_only_short_gold_paragraphs_under_50_characters": 368
+    },
+    "test": {
+      "histories": 750,
+      "unique_articles": 749,
+      "relations": 50,
+      "annotations": 2997,
+      "source_paragraphs_before_deduplication": 33522,
+      "unique_passages": 33493,
+      "gold_spans": 3224,
+      "exact_gold_span_matches": 3224,
+      "answer_cardinality": {
+        "1": 2806,
+        "2": 157,
+        "3": 33,
+        "4": 1
+      },
+      "multi_answer_annotations": 191,
+      "date_range_equal_endpoints": 174,
+      "adjacent_annotation_audit": {
+        "adjacent_annotation_pairs": 2247,
+        "retained_answer_pairs": 226,
+        "answer_removed_pairs": 2075,
+        "answer_added_pairs": 2085,
+        "partial_answer_removal_pairs": 54,
+        "matching_boundary_pairs": 1429,
+        "matching_boundary_retained_pairs": 100,
+        "matching_boundary_partial_removal_pairs": 50
+      },
+      "zero_length_empty_answer_annotations": 384,
+      "annotations_with_nonempty_gold_spans": 2613,
+      "gold_span_semantics": "Exact string anchors supplied by the benchmark. They are not verified temporal entailment labels.",
+      "multi_answer_count_semantics": "Distinct literal answer strings. These can be aliases, concurrent values, or sequential answers to a range question.",
+      "annotations_with_only_short_gold_paragraphs_under_50_characters": 351
+    }
+  },
+  "scope": "Dates are published annotation ranges, not document publication dates or arrival times. Use question-level gold spans. Do not invalidate whole paragraphs from one retired fact. Answer sets include aliases and answers occurring at different points inside a queried range. Adjacency statistics describe labels, not independently verified retirement events.",
+  "human_test": {
+    "histories": 257,
+    "questions": 989,
+    "source": "Published human-authored subset of test; not a separate independent split.",
+    "all_paragraphs_and_answer_annotations_match_parent_test": true,
+    "multi_answer_questions": 49,
+    "zero_length_empty_answer_questions": 159,
+    "questions_with_nonempty_gold_spans": 830
+  },
+  "split_overlap": {
+    "dev_test_history_ids": 1,
+    "dev_test_article_paths": 8,
+    "dev_test_identical_paragraphs_min_100_characters": 152,
+    "overlap_article_paths": [
+      "/wiki/Attaphol_Buspakom",
+      "/wiki/Carl_August_Ehrensvärd_(1858–1944)",
+      "/wiki/Don_Cazayoux",
+      "/wiki/Jaap_Stam",
+      "/wiki/Lotte_Reiniger",
+      "/wiki/Lucy_Wills",
+      "/wiki/Rock_Crystal_(Fabergé_egg)",
+      "/wiki/The_Fifer"
+    ],
+    "overlap_history_ids": [
+      "/wiki/Attaphol_Buspakom#P54"
+    ],
+    "test_human_history_overlap": 257
+  },
+  "dev_disjoint_nonempty": {
+    "annotations": 2651,
+    "histories": 731,
+    "removed_article_paths": [
+      "/wiki/Attaphol_Buspakom",
+      "/wiki/Carl_August_Ehrensvärd_(1858–1944)",
+      "/wiki/Don_Cazayoux",
+      "/wiki/Jaap_Stam",
+      "/wiki/Lotte_Reiniger",
+      "/wiki/Lucy_Wills",
+      "/wiki/Rock_Crystal_(Fabergé_egg)",
+      "/wiki/The_Fifer"
+    ],
+    "rule": "Remove all dev histories whose article occurs in test; then exclude questions without a nonempty gold span. Do not tune on test."
+  }
+}

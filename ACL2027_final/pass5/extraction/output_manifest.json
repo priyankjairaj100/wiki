@@ -1,0 +1,17 @@
+{
+  "source_freeze_sha256": "7340825a041a5279fabf60807f210de201b1c8654ef99a49d7e0ec1610ca013c",
+  "files": {
+    "pass5/extraction/dev_frozen/claims.jsonl": "01f55e346f4147458e3fa8b83e4c977cf76e3c4aab986428db0264627c759f98",
+    "pass5/extraction/dev_frozen/old_to_new.jsonl": "8e82d877d7493f616b6466a3e770d180b84612d5543797fe7a66e452bfc1d86d",
+    "pass5/extraction/dev_frozen/partition_audit.json": "b463bce3a20db7fd837f5e44973eb8fd890c82ff0fb31a6049ed4d599955e799",
+    "pass5/extraction/dev_frozen/repair_decisions.jsonl": "8e82d877d7493f616b6466a3e770d180b84612d5543797fe7a66e452bfc1d86d",
+    "pass5/extraction/dev_frozen/repair_summary.json": "56ef4dd60d564388fd9ce538fd1eef282b6696c54d36b3ab430f410ad2d6f687",
+    "pass5/extraction/dev_frozen/summary.json": "7b9453a2ea8b88c0b7da78a63161808bcb547f27abe3c524769d8079ff244e38",
+    "pass5/extraction/test_frozen/claims.jsonl": "4cc7567b13973a5f3633d5e2d8d68e95d2ea624a38402051a2707e1331cdcf08",
+    "pass5/extraction/test_frozen/old_to_new.jsonl": "f8650faa8c8f9bef0d101874699586bdab02acbba96fe8ef087553377ec3f5d9",
+    "pass5/extraction/test_frozen/partition_audit.json": "acc87a51dc2ec957cbf236fd5f8b69130c88ff5093b82e5f1a472281f4c7fdd1",
+    "pass5/extraction/test_frozen/repair_decisions.jsonl": "f8650faa8c8f9bef0d101874699586bdab02acbba96fe8ef087553377ec3f5d9",
+    "pass5/extraction/test_frozen/repair_summary.json": "df72f4466b3024d40afaa5eafa33e07468d3843b8c9d985dfeb602d342040a53",
+    "pass5/extraction/test_frozen/summary.json": "cf7c9cf483dcd89f24cd6932bb2fdbad858908cd79b0e3b236646ada64e101c0"
+  }
+}

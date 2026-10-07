@@ -1,0 +1,7 @@
+{
+  "interrupted_utc": "2026-10-06T12:38:02.331843+00:00",
+  "planned_requests": 193,
+  "completed_responses": 0,
+  "purpose": "Infrastructure pilot; no QA output or score inspected. No response contributes to the final homogeneous benchmark.",
+  "reason": "First prompt processing required134seconds for768tokens. Root authorized generic-only throughput calibration, then a homogeneous rerun with fixed final resource settings."
+}

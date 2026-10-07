@@ -1,0 +1,583 @@
+{
+  "n_questions": 2348,
+  "n_articles": 644,
+  "metrics": {
+    "earliest_completion": {
+      "all_annotated_spans_covered_at_5": 0.6575809199318569,
+      "all_annotated_strings_covered_at_5": 0.6575809199318569,
+      "annotated_span_recall_at_5": 0.6683702441794435,
+      "annotated_string_recall_at_5": 0.6683702441794435,
+      "parent_passage_hit_at_5": 0.6971890971039182,
+      "passages_used": 4.866695059625213,
+      "tokens_used": 349.69463373083477,
+      "units_used": 4.994889267461669
+    },
+    "guaranteed_support": {
+      "all_annotated_spans_covered_at_5": 0.65587734241908,
+      "all_annotated_strings_covered_at_5": 0.65587734241908,
+      "annotated_span_recall_at_5": 0.6662407722884724,
+      "annotated_string_recall_at_5": 0.6662407722884724,
+      "parent_passage_hit_at_5": 0.694633730834753,
+      "passages_used": 4.875212947189097,
+      "tokens_used": 350.5826235093697,
+      "units_used": 4.994889267461669
+    },
+    "interval_outer_control": {
+      "all_annotated_spans_covered_at_5": 0.6563032367972743,
+      "all_annotated_strings_covered_at_5": 0.6563032367972743,
+      "annotated_span_recall_at_5": 0.667305508233958,
+      "annotated_string_recall_at_5": 0.667305508233958,
+      "parent_passage_hit_at_5": 0.696763202725724,
+      "passages_used": 4.849659284497444,
+      "tokens_used": 347.8032367972743,
+      "units_used": 4.994889267461669
+    },
+    "latest_completion": {
+      "all_annotated_spans_covered_at_5": 0.6541737649063032,
+      "all_annotated_strings_covered_at_5": 0.6541737649063032,
+      "annotated_span_recall_at_5": 0.6647501419647927,
+      "annotated_string_recall_at_5": 0.6647501419647927,
+      "parent_passage_hit_at_5": 0.6937819420783645,
+      "passages_used": 4.857751277683135,
+      "tokens_used": 348.58475298126064,
+      "units_used": 4.994889267461669
+    },
+    "latest_mentioned_year_top20": {
+      "all_annotated_spans_covered_at_5": 0.6422487223168655,
+      "all_annotated_strings_covered_at_5": 0.6422487223168655,
+      "annotated_span_recall_at_5": 0.6532509937535491,
+      "annotated_string_recall_at_5": 0.6532509937535491,
+      "parent_passage_hit_at_5": 0.6839863713798978,
+      "passages_used": 4.8283645655877345,
+      "tokens_used": 332.5498296422487,
+      "units_used": 4.994463373083475
+    },
+    "midpoint_completion": {
+      "all_annotated_spans_covered_at_5": 0.6545996592844975,
+      "all_annotated_strings_covered_at_5": 0.6545996592844975,
+      "annotated_span_recall_at_5": 0.6656019307211811,
+      "annotated_string_recall_at_5": 0.6656019307211811,
+      "parent_passage_hit_at_5": 0.6954855195911414,
+      "passages_used": 4.858603066439523,
+      "tokens_used": 348.53364565587736,
+      "units_used": 4.994889267461669
+    },
+    "no_temporal_filter": {
+      "all_annotated_spans_covered_at_5": 0.6511925042589438,
+      "all_annotated_strings_covered_at_5": 0.6511925042589438,
+      "annotated_span_recall_at_5": 0.6630465644520158,
+      "annotated_string_recall_at_5": 0.6630465644520158,
+      "parent_passage_hit_at_5": 0.694633730834753,
+      "passages_used": 4.8189948892674614,
+      "tokens_used": 342.5711243611584,
+      "units_used": 4.9957410562180575
+    },
+    "original_bm25": {
+      "all_annotated_spans_covered_at_5": 0.36754684838160134,
+      "all_annotated_strings_covered_at_5": 0.36754684838160134,
+      "annotated_span_recall_at_5": 0.37840715502555367,
+      "annotated_string_recall_at_5": 0.37840715502555367,
+      "parent_passage_hit_at_5": 0.42035775127768316,
+      "passages_used": 4.8807495741056215,
+      "tokens_used": 99.47316865417376,
+      "units_used": 5.0
+    },
+    "original_bm25_latestyear": {
+      "all_annotated_spans_covered_at_5": 0.5191652470187393,
+      "all_annotated_strings_covered_at_5": 0.5191652470187393,
+      "annotated_span_recall_at_5": 0.5298126064735945,
+      "annotated_string_recall_at_5": 0.5298126064735945,
+      "parent_passage_hit_at_5": 0.5617546848381602,
+      "passages_used": 4.826660988074957,
+      "tokens_used": 187.20315161839864,
+      "units_used": 5.0
+    },
+    "possible_support": {
+      "all_annotated_spans_covered_at_5": 0.6563032367972743,
+      "all_annotated_strings_covered_at_5": 0.6563032367972743,
+      "annotated_span_recall_at_5": 0.667305508233958,
+      "annotated_string_recall_at_5": 0.667305508233958,
+      "parent_passage_hit_at_5": 0.696763202725724,
+      "passages_used": 4.849659284497444,
+      "tokens_used": 347.8032367972743,
+      "units_used": 4.994889267461669
+    }
+  },
+  "paired_intervals": {
+    "earliest_completion": {
+      "all_annotated_spans_covered_at_5": {
+        "delta": 0.0012776831345826234,
+        "ci95": [
+          -0.0004297378599054577,
+          0.0033826638477801266
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "all_annotated_strings_covered_at_5": {
+        "delta": 0.0012776831345826234,
+        "ci95": [
+          -0.0004297378599054577,
+          0.0033826638477801266
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_span_recall_at_5": {
+        "delta": 0.0010647359454855196,
+        "ci95": [
+          -0.00043591979075850045,
+          0.0029711375212224107
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_string_recall_at_5": {
+        "delta": 0.0010647359454855196,
+        "ci95": [
+          -0.00043591979075850045,
+          0.0029711375212224107
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "parent_passage_hit_at_5": {
+        "delta": 0.00042589437819420784,
+        "ci95": [
+          -0.001293103448275862,
+          0.002209456473707468
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    },
+    "guaranteed_support": {
+      "all_annotated_spans_covered_at_5": {
+        "delta": -0.00042589437819420784,
+        "ci95": [
+          -0.0033783783783783786,
+          0.0024559967253376994
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "all_annotated_strings_covered_at_5": {
+        "delta": -0.00042589437819420784,
+        "ci95": [
+          -0.0033783783783783786,
+          0.0024559967253376994
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_span_recall_at_5": {
+        "delta": -0.0010647359454855196,
+        "ci95": [
+          -0.004030547305897327,
+          0.0017398869073510222
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_string_recall_at_5": {
+        "delta": -0.0010647359454855196,
+        "ci95": [
+          -0.004030547305897327,
+          0.0017398869073510222
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "parent_passage_hit_at_5": {
+        "delta": -0.002129471890971039,
+        "ci95": [
+          -0.005391953546246371,
+          0.0008417508417508417
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    },
+    "latest_completion": {
+      "all_annotated_spans_covered_at_5": {
+        "delta": -0.002129471890971039,
+        "ci95": [
+          -0.004249893752656183,
+          -0.00043047783039173483
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "all_annotated_strings_covered_at_5": {
+        "delta": -0.002129471890971039,
+        "ci95": [
+          -0.004249893752656183,
+          -0.00043047783039173483
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_span_recall_at_5": {
+        "delta": -0.002555366269165247,
+        "ci95": [
+          -0.004935622317596567,
+          -0.0006541648495420846
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_string_recall_at_5": {
+        "delta": -0.002555366269165247,
+        "ci95": [
+          -0.004935622317596567,
+          -0.0006541648495420846
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "parent_passage_hit_at_5": {
+        "delta": -0.002981260647359455,
+        "ci95": [
+          -0.005897219882055603,
+          -0.0008442380751371887
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    },
+    "latest_mentioned_year_top20": {
+      "all_annotated_spans_covered_at_5": {
+        "delta": -0.014054514480408859,
+        "ci95": [
+          -0.032448377581120944,
+          0.005206073752711497
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "all_annotated_strings_covered_at_5": {
+        "delta": -0.014054514480408859,
+        "ci95": [
+          -0.032448377581120944,
+          0.005206073752711497
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_span_recall_at_5": {
+        "delta": -0.014054514480408859,
+        "ci95": [
+          -0.03236316246741963,
+          0.005088526418513872
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_string_recall_at_5": {
+        "delta": -0.014054514480408859,
+        "ci95": [
+          -0.03236316246741963,
+          0.005088526418513872
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "parent_passage_hit_at_5": {
+        "delta": -0.012776831345826235,
+        "ci95": [
+          -0.030927835051546393,
+          0.006084311169056932
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    },
+    "midpoint_completion": {
+      "all_annotated_spans_covered_at_5": {
+        "delta": -0.0017035775127768314,
+        "ci95": [
+          -0.003869303525365434,
+          0.0004182350480970305
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "all_annotated_strings_covered_at_5": {
+        "delta": -0.0017035775127768314,
+        "ci95": [
+          -0.003869303525365434,
+          0.0004182350480970305
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_span_recall_at_5": {
+        "delta": -0.0017035775127768314,
+        "ci95": [
+          -0.003869303525365434,
+          0.0004182350480970305
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_string_recall_at_5": {
+        "delta": -0.0017035775127768314,
+        "ci95": [
+          -0.003869303525365434,
+          0.0004182350480970305
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "parent_passage_hit_at_5": {
+        "delta": -0.0012776831345826234,
+        "ci95": [
+          -0.003304419661296985,
+          0.000429000429000429
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    },
+    "no_temporal_filter": {
+      "all_annotated_spans_covered_at_5": {
+        "delta": -0.005110732538330494,
+        "ci95": [
+          -0.008985879332477536,
+          -0.0017414018284719198
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "all_annotated_strings_covered_at_5": {
+        "delta": -0.005110732538330494,
+        "ci95": [
+          -0.008985879332477536,
+          -0.0017414018284719198
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_span_recall_at_5": {
+        "delta": -0.004258943781942078,
+        "ci95": [
+          -0.007743825868564253,
+          -0.0014792899408284023
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_string_recall_at_5": {
+        "delta": -0.004258943781942078,
+        "ci95": [
+          -0.007743825868564253,
+          -0.0014792899408284023
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "parent_passage_hit_at_5": {
+        "delta": -0.002129471890971039,
+        "ci95": [
+          -0.005510809665112336,
+          0.0004361098996947231
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    },
+    "original_bm25": {
+      "all_annotated_spans_covered_at_5": {
+        "delta": -0.2887563884156729,
+        "ci95": [
+          -0.3194029850746269,
+          -0.25911625911625913
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "all_annotated_strings_covered_at_5": {
+        "delta": -0.2887563884156729,
+        "ci95": [
+          -0.3194029850746269,
+          -0.25911625911625913
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_span_recall_at_5": {
+        "delta": -0.28889835320840435,
+        "ci95": [
+          -0.31918373151308305,
+          -0.25925925925925924
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_string_recall_at_5": {
+        "delta": -0.28889835320840435,
+        "ci95": [
+          -0.31918373151308305,
+          -0.25925925925925924
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "parent_passage_hit_at_5": {
+        "delta": -0.2764054514480409,
+        "ci95": [
+          -0.30692640692640694,
+          -0.24721508140531276
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    },
+    "original_bm25_latestyear": {
+      "all_annotated_spans_covered_at_5": {
+        "delta": -0.13713798977853492,
+        "ci95": [
+          -0.16238217652099401,
+          -0.11195928753180662
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "all_annotated_strings_covered_at_5": {
+        "delta": -0.13713798977853492,
+        "ci95": [
+          -0.16238217652099401,
+          -0.11195928753180662
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_span_recall_at_5": {
+        "delta": -0.1374929017603634,
+        "ci95": [
+          -0.1625380269448066,
+          -0.11245405711054567
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_string_recall_at_5": {
+        "delta": -0.1374929017603634,
+        "ci95": [
+          -0.1625380269448066,
+          -0.11245405711054567
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "parent_passage_hit_at_5": {
+        "delta": -0.13500851788756388,
+        "ci95": [
+          -0.15946413137424373,
+          -0.11018363939899833
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    },
+    "possible_support": {
+      "all_annotated_spans_covered_at_5": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "all_annotated_strings_covered_at_5": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_span_recall_at_5": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "annotated_string_recall_at_5": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "parent_passage_hit_at_5": {
+        "delta": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    }
+  },
+  "input_sha256": {
+    "pass3/protocol/dev_validation_labels.jsonl": "9230b9ce0aefd7ba5924b6cf674ad5f1723c5a688cec23bdb856e335315ecfc3",
+    "pass4/pipeline/validation/predictions.jsonl": "2b1fc200cf6ee8ccf48adcd26499870a140dc9c275b3ca175b135794276f8c7d",
+    "pass3/protocol/dev_source_passages.jsonl": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4",
+    "pass4/protocol/config.json": "989724a081d536c81d7aedeb128bd67deba6734bc6c983ef3eb740e2e375de8b",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass3/protocol/score_predictions.py": "d947af316ffcf0f716fca86051e4b0ba9867dc591cabf79c323e96b4bd09575f"
+  }
+}

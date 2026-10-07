@@ -1,0 +1,50 @@
+{
+  "selection_basis": "Two completed generic4thread requests versus slower8thread generic prefill. No QA responses inspected.",
+  "selected_threads": 4,
+  "context_tokens": 2048,
+  "batch_tokens": 512,
+  "ubatch_tokens": 512,
+  "poll": 0,
+  "poll_batch": 0,
+  "four_thread_requests": [
+    {
+      "id": "long_source_1",
+      "wall_seconds": 40.21138882399828,
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 1028,
+        "prompt_ms": 36042.45,
+        "prompt_per_token_ms": 35.06074902723735,
+        "prompt_per_second": 28.521923454149206,
+        "predicted_n": 24,
+        "predicted_ms": 4149.9,
+        "predicted_per_token_ms": 180.43043478260867,
+        "predicted_per_second": 5.54230222414998
+      }
+    },
+    {
+      "id": "long_source_2",
+      "wall_seconds": 47.986461616997985,
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 1028,
+        "prompt_ms": 43225.342,
+        "prompt_per_token_ms": 42.047998054474704,
+        "prompt_per_second": 23.782345088212374,
+        "predicted_n": 24,
+        "predicted_ms": 4717.498,
+        "predicted_per_token_ms": 205.10860869565215,
+        "predicted_per_second": 4.875465765963229
+      }
+    }
+  ],
+  "four_thread_median_wall_seconds": 44.09892522049813,
+  "eight_thread_completed_requests": 0,
+  "eight_thread_prefill_observation": {
+    "prompt_tokens": 1024,
+    "prompt_seconds": 50.39,
+    "prompt_tokens_per_second": 20.32
+  },
+  "token_preflight_previous_max_input": 1311,
+  "token_preflight_previous_max_reserved": 1423
+}

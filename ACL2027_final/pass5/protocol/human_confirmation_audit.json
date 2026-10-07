@@ -1,0 +1,60 @@
+{
+  "audit_kind": "Independent source-free-label replay; direct event scans replace compiler calls.",
+  "all_checks_passed": true,
+  "counts": {
+    "method_contexts_checked": 8300,
+    "queries": 830,
+    "parsed": 813,
+    "parsed_all_fallback": 747,
+    "parsed_all_fallback_stable": 747,
+    "budget_equalities_checked": 4065,
+    "unparsed": 17,
+    "parsed_modeled": 66,
+    "parsed_modeled_stable": 56,
+    "parsed_modeled_unstable": 10,
+    "worlds_checked": 20,
+    "event_assignments_checked": 14040
+  },
+  "stable_at_budgets_fixed_modeled_cohort": {
+    "1": {
+      "stable": 64,
+      "denominator": 66
+    },
+    "3": {
+      "stable": 60,
+      "denominator": 66
+    },
+    "5": {
+      "stable": 56,
+      "denominator": 66
+    },
+    "10": {
+      "stable": 55,
+      "denominator": 66
+    },
+    "20": {
+      "stable": 52,
+      "denominator": 66
+    }
+  },
+  "counterworld_pairs": 10,
+  "pairs_with_different_rendered_sources": 10,
+  "counterworld_exclusion_reasons": {
+    "start_after_query": 2,
+    "retired_by_query_start": 8
+  },
+  "reader_questions": 60,
+  "reader_logical_conditions": 600,
+  "reader_unique_jobs": 194,
+  "config_unchanged": true,
+  "source_partition_words_preserved": true,
+  "source_partition_nonoverlapping": true,
+  "files": {
+    "/workspace/scratch/956c06247f78/ACL2027_pass4/pass5/protocol/audit_confirmation.py": "b0a9cdd6ec2dc581d0d7a6cb5cf4621c1df3de5c13f41dfaf2f52d3e95216fa5",
+    "pass3/protocol/test_source_passages.jsonl": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a",
+    "pass5/protocol/human_test_confirmation_queries.jsonl": "e946ae3e7d494663cf56e0c1462f271f6abd78e12b422e464166d1e8d34d872d",
+    "pass5/pipeline/human/manifest.json": "8faaae08502f2ba1d41745288b673f3785d34a880c13d03a84aa1d5ea6bea708",
+    "pass5/pipeline/human/predictions.jsonl": "466fa61f804e75ed1f18d5f8077f0df6364ac63a249ceb16e4d80eadfeb93ba0",
+    "pass5/pipeline/human/counterworlds.jsonl": "dbebe8b2ea5849654cb80f5dd25b625ac428ad85aeacd2aea766d073b0bb2436"
+  }
+}

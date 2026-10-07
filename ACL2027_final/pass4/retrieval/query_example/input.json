@@ -1,0 +1,18 @@
+{
+  "question_id_for_verification_only": "/wiki/Helen_Clark#P39#annotation0",
+  "command_argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "pass4/retrieval/query.py",
+    "--units",
+    "pass4/pipeline/human/units.jsonl",
+    "--claims",
+    "pass4/pipeline/human/claims.jsonl",
+    "--question",
+    "What governmental role did Helen Elizabeth Clark assume from 1989 to Aug 1989?",
+    "--ranking",
+    "title_residual",
+    "--k",
+    "5",
+    "--explain"
+  ]
+}

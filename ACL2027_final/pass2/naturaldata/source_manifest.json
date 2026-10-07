@@ -1,0 +1,65 @@
+{
+  "dataset": "TimeQA",
+  "paper": "A Dataset for Answering Time-Sensitive Questions",
+  "paper_url": "https://arxiv.org/abs/2108.06314",
+  "official_repository": "https://github.com/wenhuchen/Time-Sensitive-QA",
+  "commit": "38b05989070c1168b2bef3d5a2656afeeba763dc",
+  "retrieved_utc": "2026-10-06T08:52:24.917340+00:00",
+  "license_path": "raw/TimeQA_LICENSE",
+  "license_statement": "Authors release data and code under BSD 3-Clause. Wikipedia text remains third-party source content. Preserve attribution and applicable Wikipedia terms.",
+  "files": [
+    {
+      "path": "raw/TimeQA_README.md",
+      "source_url": "https://raw.githubusercontent.com/wenhuchen/Time-Sensitive-QA/38b05989070c1168b2bef3d5a2656afeeba763dc/README.md",
+      "github_blob_sha1": "97025b455d87125cc1e7a0706e7e2be48fcc3c7d",
+      "sha256": "13ad51c35476ddd9378f191266d168cb8d69bec623abe1f5ca2de061bbd4db35",
+      "bytes": 3589,
+      "source_split": null
+    },
+    {
+      "path": "raw/TimeQA_LICENSE",
+      "source_url": "https://raw.githubusercontent.com/wenhuchen/Time-Sensitive-QA/38b05989070c1168b2bef3d5a2656afeeba763dc/LICENSE",
+      "github_blob_sha1": "16f5014dd27dd16d6a224653729d8f111fd0139b",
+      "sha256": "ba5d7b48847d18655a1a552dc6ec6b44bd7f5782b1a775e293f65250f3dd7440",
+      "bytes": 1518,
+      "source_split": null
+    },
+    {
+      "path": "raw/TimeQA_relations.json",
+      "source_url": "https://raw.githubusercontent.com/wenhuchen/Time-Sensitive-QA/38b05989070c1168b2bef3d5a2656afeeba763dc/relations.json",
+      "github_blob_sha1": "3767b6b4e51630ea50715a3137aa9d1dfccc0797",
+      "sha256": "37471b7ef67e7606b4867a0c89f0f1e12acd29e9d5c6984008b76e2e6ee5bd17",
+      "bytes": 15881,
+      "source_split": null
+    },
+    {
+      "path": "raw/TimeQA_annotated_test.json",
+      "source_url": "https://raw.githubusercontent.com/wenhuchen/Time-Sensitive-QA/38b05989070c1168b2bef3d5a2656afeeba763dc/dataset/annotated_test.json",
+      "github_blob_sha1": "2249050deab3abd3445f7a54ba6f956102e15e45",
+      "sha256": "848226a51b31ca71f888e48ee799f48e7490161fad551822285257bb8cc884dc",
+      "bytes": 8849256,
+      "source_split": "test"
+    },
+    {
+      "path": "raw/TimeQA_annotated_dev.json",
+      "source_url": "https://raw.githubusercontent.com/wenhuchen/Time-Sensitive-QA/38b05989070c1168b2bef3d5a2656afeeba763dc/dataset/annotated_dev.json",
+      "github_blob_sha1": "36072625ef9f5c39385f5ea45bcd45189f8f1841",
+      "sha256": "7d851056974c2af85abc2167a4416a8b376a3f4e84541af488b6197edd76a4f7",
+      "bytes": 8889195,
+      "source_split": "dev"
+    },
+    {
+      "path": "raw/TimeQA_human_annotated_test.json",
+      "source_url": "https://raw.githubusercontent.com/wenhuchen/Time-Sensitive-QA/38b05989070c1168b2bef3d5a2656afeeba763dc/dataset/human_annotated_test.json",
+      "github_blob_sha1": "022b5bd480add30065c6c89a589e6810557fb3ba",
+      "sha256": "70d61fcac05fa41689ac3c0d2b52563f9c2d6892e80d881be4b78910614d5fdc",
+      "bytes": 3542514,
+      "source_split": "test"
+    }
+  ],
+  "source_tree": {
+    "path": "raw/timeqa_tree.json",
+    "source_url": "https://api.github.com/repos/wenhuchen/Time-Sensitive-QA/git/trees/38b05989070c1168b2bef3d5a2656afeeba763dc?recursive=1",
+    "sha256": "b89dc7494ceb2ee77affcdbfb43064b94dcb5e44c8802fdab59c684ec2a306ed"
+  }
+}

@@ -1,0 +1,920 @@
+{
+  "qa_wikidata_extractive": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/qa_wikidata_extractive.json",
+    "data": {
+      "dataset": "wikidata",
+      "reader": "extractive",
+      "k": 5,
+      "n_questions": 33,
+      "current_answer_em": {
+        "flat": 0.1818,
+        "date_prompt": 0.1818,
+        "date_rerank": 0.1212,
+        "tempralm": 0.1212,
+        "ragtime_default": 0.1212,
+        "ragtime_tuned": 0.697,
+        "lifecycle": 0.9697,
+        "gold": 0.9697
+      },
+      "current_answer_em_strict": {
+        "flat": 0.1818,
+        "date_prompt": 0.1818,
+        "date_rerank": 0.1212,
+        "tempralm": 0.1212,
+        "ragtime_default": 0.1212,
+        "ragtime_tuned": 0.697,
+        "lifecycle": 0.9697,
+        "gold": 0.9697
+      },
+      "paired_tests": {
+        "lifecycle_vs_flat": {
+          "mean_diff": 0.7879,
+          "ci95_low": 0.6364,
+          "ci95_high": 0.9091,
+          "p_value": 0.0,
+          "n": 33
+        },
+        "lifecycle_vs_date_prompt": {
+          "mean_diff": 0.7879,
+          "ci95_low": 0.6364,
+          "ci95_high": 0.9091,
+          "p_value": 0.0,
+          "n": 33
+        },
+        "lifecycle_vs_date_rerank": {
+          "mean_diff": 0.8485,
+          "ci95_low": 0.7273,
+          "ci95_high": 0.9697,
+          "p_value": 0.0,
+          "n": 33
+        },
+        "lifecycle_vs_tempralm": {
+          "mean_diff": 0.8485,
+          "ci95_low": 0.7273,
+          "ci95_high": 0.9697,
+          "p_value": 0.0,
+          "n": 33
+        },
+        "lifecycle_vs_ragtime_default": {
+          "mean_diff": 0.8485,
+          "ci95_low": 0.7273,
+          "ci95_high": 0.9697,
+          "p_value": 0.0,
+          "n": 33
+        },
+        "lifecycle_vs_ragtime_tuned": {
+          "mean_diff": 0.2727,
+          "ci95_low": 0.1212,
+          "ci95_high": 0.4242,
+          "p_value": 0.0,
+          "n": 33
+        }
+      }
+    }
+  },
+  "qa_wikidata_qwen": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/qa_wikidata_qwen.json",
+    "data": {
+      "dataset": "wikidata",
+      "reader": "qwen",
+      "k": 5,
+      "n_questions": 33,
+      "current_answer_em": {
+        "flat": 0.4242,
+        "date_prompt": 0.5152,
+        "date_rerank": 0.3636,
+        "tempralm": 0.1515,
+        "ragtime_default": 0.303,
+        "ragtime_tuned": 0.5455,
+        "lifecycle": 0.9697,
+        "gold": 0.9697
+      },
+      "current_answer_em_strict": {
+        "flat": 0.4242,
+        "date_prompt": 0.5152,
+        "date_rerank": 0.3636,
+        "tempralm": 0.1515,
+        "ragtime_default": 0.303,
+        "ragtime_tuned": 0.5455,
+        "lifecycle": 0.9697,
+        "gold": 0.9697
+      },
+      "paired_tests": {
+        "lifecycle_vs_flat": {
+          "mean_diff": 0.5455,
+          "ci95_low": 0.3636,
+          "ci95_high": 0.697,
+          "p_value": 0.0,
+          "n": 33
+        },
+        "lifecycle_vs_date_prompt": {
+          "mean_diff": 0.4545,
+          "ci95_low": 0.303,
+          "ci95_high": 0.6364,
+          "p_value": 0.0,
+          "n": 33
+        },
+        "lifecycle_vs_date_rerank": {
+          "mean_diff": 0.6061,
+          "ci95_low": 0.4242,
+          "ci95_high": 0.7879,
+          "p_value": 0.0,
+          "n": 33
+        },
+        "lifecycle_vs_tempralm": {
+          "mean_diff": 0.8182,
+          "ci95_low": 0.6667,
+          "ci95_high": 0.9394,
+          "p_value": 0.0,
+          "n": 33
+        },
+        "lifecycle_vs_ragtime_default": {
+          "mean_diff": 0.6667,
+          "ci95_low": 0.4848,
+          "ci95_high": 0.8182,
+          "p_value": 0.0,
+          "n": 33
+        },
+        "lifecycle_vs_ragtime_tuned": {
+          "mean_diff": 0.4242,
+          "ci95_low": 0.2424,
+          "ci95_high": 0.6061,
+          "p_value": 0.0,
+          "n": 33
+        }
+      }
+    }
+  },
+  "qa_templama_extractive": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/qa_templama_extractive.json",
+    "data": {
+      "dataset": "templama",
+      "reader": "extractive",
+      "k": 5,
+      "n_questions": 300,
+      "current_answer_em": {
+        "flat": 0.4533,
+        "date_prompt": 0.4533,
+        "date_rerank": 0.1267,
+        "tempralm": 0.2133,
+        "ragtime_default": 0.14,
+        "ragtime_tuned": 0.6567,
+        "lifecycle": 0.9533,
+        "gold": 0.9967
+      },
+      "current_answer_em_strict": {
+        "flat": 0.4533,
+        "date_prompt": 0.4533,
+        "date_rerank": 0.1267,
+        "tempralm": 0.21,
+        "ragtime_default": 0.14,
+        "ragtime_tuned": 0.6567,
+        "lifecycle": 0.9533,
+        "gold": 0.9967
+      },
+      "paired_tests": {
+        "lifecycle_vs_flat": {
+          "mean_diff": 0.5,
+          "ci95_low": 0.44,
+          "ci95_high": 0.5567,
+          "p_value": 0.0,
+          "n": 300
+        },
+        "lifecycle_vs_date_prompt": {
+          "mean_diff": 0.5,
+          "ci95_low": 0.44,
+          "ci95_high": 0.5567,
+          "p_value": 0.0,
+          "n": 300
+        },
+        "lifecycle_vs_date_rerank": {
+          "mean_diff": 0.8267,
+          "ci95_low": 0.7833,
+          "ci95_high": 0.8667,
+          "p_value": 0.0,
+          "n": 300
+        },
+        "lifecycle_vs_tempralm": {
+          "mean_diff": 0.74,
+          "ci95_low": 0.69,
+          "ci95_high": 0.79,
+          "p_value": 0.0,
+          "n": 300
+        },
+        "lifecycle_vs_ragtime_default": {
+          "mean_diff": 0.8133,
+          "ci95_low": 0.7667,
+          "ci95_high": 0.8567,
+          "p_value": 0.0,
+          "n": 300
+        },
+        "lifecycle_vs_ragtime_tuned": {
+          "mean_diff": 0.2967,
+          "ci95_low": 0.2367,
+          "ci95_high": 0.3567,
+          "p_value": 0.0,
+          "n": 300
+        }
+      }
+    }
+  },
+  "qa_templama_qwen": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/qa_templama_qwen.json",
+    "data": {
+      "dataset": "templama",
+      "reader": "qwen",
+      "k": 5,
+      "n_questions": 300,
+      "current_answer_em": {
+        "flat": 0.5667,
+        "date_prompt": 0.6233,
+        "date_rerank": 0.13,
+        "tempralm": 0.26,
+        "ragtime_default": 0.1633,
+        "ragtime_tuned": 0.4733,
+        "lifecycle": 0.9367,
+        "gold": 0.97
+      },
+      "current_answer_em_strict": {
+        "flat": 0.5633,
+        "date_prompt": 0.62,
+        "date_rerank": 0.13,
+        "tempralm": 0.26,
+        "ragtime_default": 0.1633,
+        "ragtime_tuned": 0.4667,
+        "lifecycle": 0.9367,
+        "gold": 0.97
+      },
+      "paired_tests": {
+        "lifecycle_vs_flat": {
+          "mean_diff": 0.37,
+          "ci95_low": 0.3067,
+          "ci95_high": 0.43,
+          "p_value": 0.0,
+          "n": 300
+        },
+        "lifecycle_vs_date_prompt": {
+          "mean_diff": 0.3133,
+          "ci95_low": 0.2533,
+          "ci95_high": 0.3733,
+          "p_value": 0.0,
+          "n": 300
+        },
+        "lifecycle_vs_date_rerank": {
+          "mean_diff": 0.8067,
+          "ci95_low": 0.7633,
+          "ci95_high": 0.85,
+          "p_value": 0.0,
+          "n": 300
+        },
+        "lifecycle_vs_tempralm": {
+          "mean_diff": 0.6767,
+          "ci95_low": 0.6233,
+          "ci95_high": 0.7333,
+          "p_value": 0.0,
+          "n": 300
+        },
+        "lifecycle_vs_ragtime_default": {
+          "mean_diff": 0.7733,
+          "ci95_low": 0.7267,
+          "ci95_high": 0.82,
+          "p_value": 0.0,
+          "n": 300
+        },
+        "lifecycle_vs_ragtime_tuned": {
+          "mean_diff": 0.4633,
+          "ci95_low": 0.4067,
+          "ci95_high": 0.52,
+          "p_value": 0.0,
+          "n": 300
+        }
+      }
+    }
+  },
+  "qa_realprose_extractive": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/qa_realprose_extractive.json",
+    "data": {
+      "dataset": "realprose",
+      "reader": "extractive",
+      "k": 5,
+      "n_questions": 35,
+      "note": "current-value QA on genuine Wikipedia leads with natural recency cues; realistic (non-value-agnostic) end-to-end regime",
+      "current_answer_em": {
+        "flat": 0.5429,
+        "date_prompt": 0.5429,
+        "date_rerank": 0.1429,
+        "lifecycle": 0.8857,
+        "gold": 0.9143
+      },
+      "clean_em": {
+        "flat": 0.5429,
+        "date_prompt": 0.5429,
+        "date_rerank": 0.1429,
+        "lifecycle": 0.8857,
+        "gold": 0.9143
+      },
+      "ser": {
+        "flat": 0.9714,
+        "lifecycle": 0.2286
+      },
+      "aep": {
+        "flat": 0.3191,
+        "lifecycle": 0.8586
+      },
+      "lifecycle_vs_flat": {
+        "mean_diff": 0.3429,
+        "ci95_low": 0.1714,
+        "ci95_high": 0.5429,
+        "p_value": 0.0,
+        "n": 35
+      },
+      "lifecycle_vs_date_rerank": {
+        "mean_diff": 0.7429,
+        "ci95_low": 0.6,
+        "ci95_high": 0.8857,
+        "p_value": 0.0,
+        "n": 35
+      }
+    }
+  },
+  "qa_realprose_qwen": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/qa_realprose_qwen.json",
+    "data": {
+      "dataset": "realprose",
+      "reader": "qwen",
+      "k": 5,
+      "n_questions": 35,
+      "note": "current-value QA on genuine Wikipedia leads with natural recency cues; realistic (non-value-agnostic) end-to-end regime",
+      "current_answer_em": {
+        "flat": 0.7143,
+        "date_prompt": 0.6857,
+        "date_rerank": 0.1429,
+        "lifecycle": 0.8571,
+        "gold": 0.9143
+      },
+      "clean_em": {
+        "flat": 0.7143,
+        "date_prompt": 0.6857,
+        "date_rerank": 0.1429,
+        "lifecycle": 0.8571,
+        "gold": 0.9143
+      },
+      "ser": {
+        "flat": 0.9714,
+        "lifecycle": 0.2286
+      },
+      "aep": {
+        "flat": 0.3191,
+        "lifecycle": 0.8586
+      },
+      "lifecycle_vs_flat": {
+        "mean_diff": 0.1429,
+        "ci95_low": 0.0,
+        "ci95_high": 0.2857,
+        "p_value": 0.076,
+        "n": 35
+      },
+      "lifecycle_vs_date_rerank": {
+        "mean_diff": 0.7143,
+        "ci95_low": 0.5714,
+        "ci95_high": 0.8571,
+        "p_value": 0.0,
+        "n": 35
+      }
+    }
+  },
+  "detection_realprose": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/detection_realprose.json",
+    "data": {
+      "dataset": "realprose",
+      "n_claims": 132,
+      "n_subjects": 35,
+      "n_categories": 5,
+      "claims_per_category": {
+        "club_manager": 19,
+        "company_ceo": 26,
+        "national_head_of_gov": 38,
+        "national_head_of_state": 20,
+        "org_leader": 29
+      },
+      "n_gold_superseded": 97,
+      "precision": 0.9778,
+      "recall": 0.9072,
+      "f1": 0.9412,
+      "tp": 88,
+      "fp": 2,
+      "fn": 9,
+      "per_category": {
+        "club_manager": {
+          "precision": 0.8824,
+          "recall": 1.0,
+          "f1": 0.9375,
+          "tp": 15,
+          "fp": 2,
+          "fn": 0
+        },
+        "company_ceo": {
+          "precision": 1.0,
+          "recall": 0.7857,
+          "f1": 0.88,
+          "tp": 11,
+          "fp": 0,
+          "fn": 3
+        },
+        "national_head_of_gov": {
+          "precision": 1.0,
+          "recall": 0.9333,
+          "f1": 0.9655,
+          "tp": 28,
+          "fp": 0,
+          "fn": 2
+        },
+        "national_head_of_state": {
+          "precision": 1.0,
+          "recall": 0.9375,
+          "f1": 0.9677,
+          "tp": 15,
+          "fp": 0,
+          "fn": 1
+        },
+        "org_leader": {
+          "precision": 1.0,
+          "recall": 0.8636,
+          "f1": 0.9268,
+          "tp": 19,
+          "fp": 0,
+          "fn": 3
+        }
+      },
+      "false_positives": [
+        "rp:102",
+        "rp:93"
+      ],
+      "false_negatives": [
+        "rp:111",
+        "rp:123",
+        "rp:126",
+        "rp:18",
+        "rp:20",
+        "rp:3",
+        "rp:32",
+        "rp:58",
+        "rp:72"
+      ],
+      "note": "genuine English Wikipedia leads across 5 relation families; gold from known chronology order; single pooled index (same-relation different-subject pairs are hard negatives)"
+    }
+  },
+  "detection_realwiki": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/detection_realwiki.json",
+    "data": {
+      "precision": 1.0,
+      "recall": 0.7857,
+      "f1": 0.88,
+      "tp": 11,
+      "fp": 0,
+      "fn": 3,
+      "n_claims": 26,
+      "n_gold_superseded": 14,
+      "n_detected": 11,
+      "false_positives": [],
+      "false_negatives": [
+        "rw:18",
+        "rw:20",
+        "rw:3"
+      ],
+      "n_edges": 11,
+      "f1_ci95": {
+        "f1": 0.88,
+        "ci95_low": 0.6667,
+        "ci95_high": 1.0,
+        "n_cases": 12
+      },
+      "false_positive_spans": [],
+      "false_negative_spans": [
+        "Howard D. Schultz is an American businessman and author who was the chairman and chief executive officer of Starbucks from 1986 to 2000, from 2008 to 2017, and interim CEO from 2022 to 2023.",
+        "Parag Agrawal is an Indian-American software engineer and businessman who was the CEO of Twitter, Inc. from November 2021 to October 2022.",
+        "Steven Paul Jobs was an American businessman, inventor, and investor. Jobs returned to Apple in 1997 as CEO, where he was closely involved with the creation and promotion of many of the company's most influential products until his resignation in 2011."
+      ]
+    }
+  },
+  "detection_templama": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/detection_templama.json",
+    "data": {
+      "precision": 0.9819,
+      "recall": 0.9709,
+      "f1": 0.9764,
+      "tp": 434,
+      "fp": 8,
+      "fn": 13,
+      "n_claims": 747,
+      "n_gold_superseded": 447,
+      "n_detected": 442,
+      "false_positives": [
+        "tl:Q1029527_P39:2011:Q13218630",
+        "tl:Q11112119_P39:2015:Q13218630",
+        "tl:Q1135774_P39:2015:Q4416090",
+        "tl:Q11669_P39:2013:Q13218630",
+        "tl:Q11860_P102:2014:Q14924303",
+        "tl:Q1186234_P488:2015:Q81065",
+        "tl:Q1240224_P39:2013:Q13218630",
+        "tl:Q1282411_P39:2013:Q4416090"
+      ],
+      "false_negatives": [
+        "tl:Q10403942_P127:2010:Q1543093",
+        "tl:Q10543612_P39:2010:Q140686",
+        "tl:Q10552391_P54:2011:Q1671357",
+        "tl:Q107124_P39:2010:Q1162163",
+        "tl:Q10931647_P127:2010:Q7021083",
+        "tl:Q11080923_P127:2010:Q721162",
+        "tl:Q1150936_P127:2010:Q486633",
+        "tl:Q11705283_P127:2010:Q2036076",
+        "tl:Q11705283_P127:2015:Q18378979",
+        "tl:Q12149_P39:2010:Q852152",
+        "tl:Q1280872_P39:2014:Q140686",
+        "tl:Q13306_P54:2010:Q1344163",
+        "tl:Q13306_P54:2011:Q1277549"
+      ],
+      "n_edges": 442,
+      "f1_ci95": {
+        "f1": 0.9764,
+        "ci95_low": 0.9637,
+        "ci95_high": 0.9864,
+        "n_cases": 300
+      },
+      "false_positive_spans": [
+        "Steve Womack holds the position of United States representative.",
+        "Mia Love holds the position of United States representative.",
+        "Cory Gardner holds the position of United States senator.",
+        "Mark Sanford holds the position of United States representative.",
+        "Silvio Berlusconi is a member of the Forza Italia (2013).",
+        "Zandaakh\u00fc\u00fcgiin Enkhbold is the chair of Democratic Party.",
+        "Donald Payne, Jr. holds the position of United States representative.",
+        "Ed Markey holds the position of United States senator."
+      ],
+      "false_negative_spans": [
+        "The Academic Bookstore is owned by Stockmann.",
+        "Kari Turunen holds the position of chairperson.",
+        "Julie Ertz plays for United States women's national under-20 soccer team.",
+        "Johann-Dietrich W\u00f6rner holds the position of director.",
+        "Next TV is owned by Next Digital.",
+        "Sun Mobile Limited is owned by Telstra.",
+        "Turner Field is owned by Fulton County.",
+        "Westfield Montgomery is owned by Westfield Group.",
+        "Westfield Montgomery is owned by Westfield Corporation.",
+        "Thein Sein holds the position of Prime Minister of Myanmar.",
+        "Patrick Sensburg holds the position of chairperson.",
+        "Alexandre Lacazette plays for France national under-20 football team.",
+        "Alexandre Lacazette plays for France national under-21 football team."
+      ]
+    }
+  },
+  "detection_wikidata": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/detection_wikidata.json",
+    "data": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 133,
+      "fp": 0,
+      "fn": 0,
+      "n_claims": 208,
+      "n_gold_superseded": 133,
+      "n_detected": 133,
+      "false_positives": [],
+      "false_negatives": [],
+      "n_edges": 133,
+      "f1_ci95": {
+        "f1": 1.0,
+        "ci95_low": 1.0,
+        "ci95_high": 1.0,
+        "n_cases": 73
+      },
+      "false_positive_spans": [],
+      "false_negative_spans": []
+    }
+  },
+  "retrieval_wikidata": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/retrieval_wikidata.json",
+    "data": {
+      "dataset": "wikidata",
+      "k": 5,
+      "n_queries": 33,
+      "conditions": {
+        "flat": {
+          "SER": 1.0,
+          "AEP": 0.297
+        },
+        "lifecycle": {
+          "SER": 0.0,
+          "AEP": 1.0
+        },
+        "gold": {
+          "SER": 0.0,
+          "AEP": 1.0
+        }
+      }
+    }
+  },
+  "retrieval_templama": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/retrieval_templama.json",
+    "data": {
+      "dataset": "templama",
+      "k": 5,
+      "n_queries": 300,
+      "conditions": {
+        "flat": {
+          "SER": 1.0,
+          "AEP": 0.438
+        },
+        "lifecycle": {
+          "SER": 0.06,
+          "AEP": 0.988
+        },
+        "gold": {
+          "SER": 0.0,
+          "AEP": 1.0
+        }
+      }
+    }
+  },
+  "asof_wikidata": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/asof_wikidata.json",
+    "data": {
+      "dataset": "wikidata",
+      "n_historical_probes": 134,
+      "n_current_probes": 33,
+      "historical_accuracy": {
+        "as_of": 0.9403,
+        "exact_key": 0.9254,
+        "current_only": 0.0373
+      },
+      "current_accuracy": {
+        "as_of": 0.9394,
+        "exact_key": 1.0,
+        "current_only": 1.0
+      }
+    }
+  },
+  "asof_templama": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/asof_templama.json",
+    "data": {
+      "dataset": "templama",
+      "n_historical_probes": 447,
+      "n_current_probes": 300,
+      "historical_accuracy": {
+        "as_of": 0.9732,
+        "exact_key": 0.9329,
+        "current_only": 0.0067
+      },
+      "current_accuracy": {
+        "as_of": 0.95,
+        "exact_key": 0.7733,
+        "current_only": 1.0
+      }
+    }
+  },
+  "asof_realworld": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/asof_realworld.json",
+    "data": {
+      "dataset": "realworld",
+      "n_historical_probes": 36,
+      "n_current_probes": 20,
+      "historical_accuracy": {
+        "as_of": 1.0,
+        "exact_key": 1.0,
+        "current_only": 0.0556
+      },
+      "current_accuracy": {
+        "as_of": 1.0,
+        "exact_key": 1.0,
+        "current_only": 1.0
+      }
+    }
+  },
+  "judge_wikidata_gpt-4o-mini": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/judge_wikidata_gpt-4o-mini.json",
+    "data": {
+      "dataset": "wikidata",
+      "judge_model": "gpt-4o-mini",
+      "n_pairs": 240,
+      "n_positive": 120,
+      "heuristic": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm_judge": {
+        "precision": 0.9231,
+        "recall": 1.0,
+        "f1": 0.96
+      }
+    }
+  },
+  "judge_wikidata_gpt-4.1-mini": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/judge_wikidata_gpt-4.1-mini.json",
+    "data": {
+      "dataset": "wikidata",
+      "judge_model": "gpt-4.1-mini",
+      "n_pairs": 240,
+      "n_positive": 120,
+      "heuristic": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "llm_judge": {
+        "precision": 1.0,
+        "recall": 0.9833,
+        "f1": 0.9916
+      }
+    }
+  },
+  "multihop_real": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/multihop_real.json",
+    "data": {
+      "dataset": "multihop_real",
+      "n_queries": 10,
+      "composition_accuracy": {
+        "as_of": 1.0,
+        "exact_key": 1.0,
+        "current_only": 0.2,
+        "gold": 1.0
+      },
+      "flat_retrieval_recall_at5": null
+    }
+  },
+  "multihop_asof": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/multihop_asof.json",
+    "data": {
+      "dataset": "multihop_asof",
+      "n_queries": 40,
+      "composition_accuracy": {
+        "as_of": 1.0,
+        "exact_key": 1.0,
+        "current_only": 0.0,
+        "gold": 1.0
+      },
+      "flat_retrieval_recall_at5": null
+    }
+  },
+  "multihop_full": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/multihop_full.json",
+    "data": {
+      "n_per_dataset": 50,
+      "by_dataset": {
+        "hotpotqa": {
+          "flat": 0.38,
+          "typed_ppr": 0.22
+        },
+        "2wikimqa": {
+          "flat": 0.36,
+          "typed_ppr": 0.12
+        },
+        "musique": {
+          "flat": 0.14,
+          "typed_ppr": 0.1
+        }
+      },
+      "macro": {
+        "flat": 0.2933,
+        "typed_ppr": 0.1467
+      }
+    }
+  },
+  "pooled_wikidata_freshrag_realworld_templama": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/pooled_wikidata_freshrag_realworld_templama.json",
+    "data": {
+      "datasets": [
+        "wikidata",
+        "freshrag",
+        "realworld",
+        "templama"
+      ],
+      "n_claims": 1315,
+      "n_gold_superseded": 797,
+      "results": {
+        "heuristic": {
+          "isolated": {
+            "precision": 1.0,
+            "recall": 0.9812,
+            "f1": 0.9905
+          },
+          "pooled": {
+            "precision": 0.9862,
+            "recall": 0.9837,
+            "f1": 0.9849
+          }
+        },
+        "newest_doc_wins": {
+          "isolated": {
+            "precision": 0.9708,
+            "recall": 1.0,
+            "f1": 0.9852
+          },
+          "pooled": {
+            "precision": 0.6079,
+            "recall": 1.0,
+            "f1": 0.7562
+          }
+        }
+      }
+    }
+  },
+  "history_templama_qwen": {
+    "source": "inputs/supplement/wikigraphrag-code-and-data/results/history_templama_qwen.json",
+    "data": {
+      "dataset": "templama",
+      "source": "Yova/templama (Dhingra et al. 2022)",
+      "reader": "qwen",
+      "long_threshold_m": 4,
+      "long_history_pooled": {
+        "n_keys": 31,
+        "mean_m": 4.74,
+        "mean_flat_aep": 0.2183,
+        "em": {
+          "flat": 0.7097,
+          "date_prompt": 0.6452,
+          "date_rerank": 0.2903,
+          "lifecycle": 1.0
+        },
+        "clean_em": {
+          "flat": 0.7097,
+          "date_prompt": 0.6452,
+          "date_rerank": 0.2903,
+          "lifecycle": 1.0
+        },
+        "lifecycle_vs_flat": {
+          "mean_diff": 0.2903,
+          "ci95_low": 0.129,
+          "ci95_high": 0.4516,
+          "p_value": 0.0,
+          "n": 31
+        },
+        "lifecycle_vs_date_rerank": {
+          "mean_diff": 0.7097,
+          "ci95_low": 0.5484,
+          "ci95_high": 0.871,
+          "p_value": 0.0,
+          "n": 31
+        },
+        "lifecycle_vs_date_prompt": {
+          "mean_diff": 0.3548,
+          "ci95_low": 0.1935,
+          "ci95_high": 0.5161,
+          "p_value": 0.0,
+          "n": 31
+        },
+        "relations": {
+          "P286": 8,
+          "P102": 1,
+          "P54": 19,
+          "P39": 1,
+          "P488": 1,
+          "P108": 1
+        }
+      },
+      "by_m": {
+        "2": {
+          "n_keys": 40,
+          "flat_aep": 0.5,
+          "em": {
+            "flat": 0.975,
+            "date_prompt": 0.975,
+            "date_rerank": 0.525,
+            "lifecycle": 1.0
+          }
+        },
+        "3": {
+          "n_keys": 40,
+          "flat_aep": 0.3333,
+          "em": {
+            "flat": 0.85,
+            "date_prompt": 0.6,
+            "date_rerank": 0.5,
+            "lifecycle": 1.0
+          }
+        },
+        "4": {
+          "n_keys": 31,
+          "flat_aep": 0.25,
+          "em": {
+            "flat": 0.7742,
+            "date_prompt": 0.6774,
+            "date_rerank": 0.3226,
+            "lifecycle": 1.0
+          }
+        },
+        "5": {
+          "n_keys": 15,
+          "flat_aep": 0.2,
+          "em": {
+            "flat": 0.8,
+            "date_prompt": 0.6,
+            "date_rerank": 0.3333,
+            "lifecycle": 1.0
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Context diagnostic & Pilot & Validation\\
+\midrule
+All questions & 176 & 2,348 \\
+Parsed windows & 173 & 2,296 \\
+Modeled context, parsed & 32 & 375 \\
+Certified within this group & 23 & 306 \\
+Unstable within this group & 9 & 69 \\
+Parsed all-fallback context & 141 & 1,921 \\
+\bottomrule
+\end{tabular}
+\caption{Exact context decisions under the fixed fallback policy. Modeled-context rows require at least one modeled claim in the possible top-five context.}
+\label{tab:mechanism}
+\end{table}

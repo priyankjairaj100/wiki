@@ -1,0 +1,15 @@
+{
+  "source_passages": 32332,
+  "source_units": 32976,
+  "queries": 2348,
+  "method_contexts": 18784,
+  "checks": [
+    "Exact source offsets",
+    "Disjoint source units",
+    "All substantive source characters retained",
+    "Maximum five shown units",
+    "Maximum 768 whitespace tokens",
+    "Fallback never marked guaranteed"
+  ],
+  "status": "passed"
+}

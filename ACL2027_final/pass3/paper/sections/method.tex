@@ -1,0 +1,127 @@
+\section{Certifying the Reader's Context}
+\label{sec:method}
+
+\subsection{Compile once, query each claim in constant time}
+
+The compiler receives claims, occurrence bounds, and accepted directed replacement pairs.
+It initializes both boundaries to infinity.
+Each supplied pair updates at most two minima.
+Figure~\ref{fig:compiler} gives the complete scan.
+A stable source identifier breaks ties between witnesses.
+
+\begin{figure}[t]
+\centering
+\fbox{\begin{minipage}{.92\columnwidth}
+\small
+\textbf{Input:} claims and accepted pairs $(d,c)$.\\
+\textbf{Output:} boundaries and their source witnesses.
+\begin{enumerate}
+\item Set $p_c=r_c=\infty$ for every claim.
+\item For each accepted pair with $d\ne c$:
+\item\hspace{.4em} If $\ell_d>u_c$, minimize $p_c$ using $u_d$.
+\item\hspace{.4em} If $u_d>\ell_c$, minimize $r_c$ using $\ell_d$.
+\item Retain one supplying witness for each minimum.
+\end{enumerate}
+Steps 3--4 execute inside the pair scan.
+\end{minipage}}
+\caption{Linear compilation of the two support boundaries. The resulting records answer every query window.}
+\label{fig:compiler}
+\end{figure}
+
+Let $n$ count claims and $m$ count accepted pairs.
+Compilation takes $O(n+m)$ time and stores $O(n)$ certificate records.
+A support decision takes $O(1)$ time per claim.
+A complete mask takes $O(n)$ time.
+Pair discovery remains the source adapter's responsibility.
+The reference complete scan makes $n(n-1)$ gate calls.
+An index can replace this scan when it preserves every accepted pair.
+
+\subsection{An exact stability test}
+
+Let $\pi_q$ be a complete relevance ranking for question $q$, including all tie breaks.
+For a set $S$, write $\operatorname{Top}_k(S)$ for its first $k$ ranked claims.
+The query's possible and guaranteed sets are $P(Q)$ and $H(Q)$.
+A realized timeline $x$ supplies a support set $S_x(Q)$.
+The reader's selected claim context is
+\begin{equation}
+ R_x(q)=\operatorname{Top}_k(S_x(Q)).
+\label{eq:context}
+\end{equation}
+Filtering preserves the ranking and occurs before the budget.
+
+\begin{theorem}[Exact context stability]
+\label{thm:context-stability}
+Every allowed timeline returns the same context exactly when
+\begin{equation}
+ \operatorname{Top}_k(P(Q))=\operatorname{Top}_k(H(Q)).
+\label{eq:context-stability}
+\end{equation}
+Equivalently, every selected possible claim has guaranteed support.
+\end{theorem}
+\begin{proof}
+Set $C=\operatorname{Top}_k(P(Q))$.
+If $C\subseteq H(Q)$, every world retains $C$ and selects the same context.
+Otherwise, choose $c\in C\setminus H(Q)$.
+Some world supports $c$, while another does not.
+At most $k-1$ possible claims outrank $c$.
+Every world supporting $c$ therefore selects it.
+The two worlds return different contexts.
+For $k=0$, every context is empty.
+\end{proof}
+
+The test uses two filtered rankings without enumerating timelines.
+Unknown excerpts can participate through the fixed fallback mask.
+Their inclusion remains constant while modeled dates vary.
+Claim selection precedes source rendering and any word-budget truncation.
+We report rendered-context agreement separately.
+
+\paragraph{Choose a stable context budget.}
+The same scan finds the largest stable prefix.
+Let $r$ be the position of the first unresolved claim in the possible-support ranking.
+Every budget $k<r$ returns a fixed context, while every $k\ge r$ permits a context change.
+If no unresolved claim exists, every budget is stable.
+This follows because the first $r-1$ possible claims are guaranteed.
+The claim at position $r$ supplies a counterexample for every larger budget.
+The system can therefore report a stable prefix alongside the unresolved evidence requiring date refinement.
+This decision preserves the supplied relevance order.
+
+\subsection{A source-grounded example}
+
+TimeQA's Warburg Institute passage names three successive directors~\citep{chen2021timeqa}.
+Henri Frankfort started in 1949, Gertrud Bing in 1955, and Ernst Gombrich in 1959.
+A deterministic clause adapter recovers these three starts and their two direct succession links from the paragraph.
+The passage separately dates Bing's earlier organizational membership to 1922.
+That membership date does not start her directorship.
+
+Consider the illustrative period January 1954 through June 1955.
+Frankfort has guaranteed support somewhere within that period.
+Bing has possible support because her appointment might precede July.
+Gombrich has no support within the period.
+Rank Frankfort first and Bing second.
+A one-item context always contains Frankfort.
+A two-item context changes when Bing's start moves from January to December 1955.
+Both assignments satisfy the source's year-level precision.
+The same possible pool thus yields different stability decisions at different budgets.
+The source is natural; the query, ranking, and assignments illustrate the theorem.
+
+\input{sections/refinement}
+
+\subsection{What the witnesses explain}
+
+Each certificate stores a target's bounds, both minima, and their supplying source identifiers.
+An exclusion caused by retirement points to its direct replacement witness.
+An exclusion caused by a late start points to the target's own date bounds.
+This makes the temporal decision inspectable without reconstructing a cluster history.
+
+The two boundaries answer different questions.
+For $c=[0,2]$, take accepted witnesses $d=[1,4]$ and $e=[3,5]$.
+Witness $d$ supplies $r_c=1$ because it can follow an early start of $c$.
+Witness $e$ supplies $p_c=5$ because it must follow every start of $c$.
+Keeping only $d$ incorrectly allows $c$ at time 5.
+Keeping only $e$ incorrectly guarantees $c$ at time 2.
+Neither one-witness subset reproduces every query decision.
+
+The same direct structure limits update propagation.
+Adding events whose earliest dates exceed the query end preserves that query's earlier support decisions.
+Later ingestion can still correct a historical date when its event bounds reach the queried period.
+These properties depend on direct temporal support, rather than document arrival order.

@@ -1,0 +1,130 @@
+{
+  "scope": "Natural source, manually interpreted calibration case. Query window, relevance order, and two admissible timelines are illustrative. No benchmark result or measured ranking is claimed.",
+  "source_case": "natural_context_case.json",
+  "constructor": "pass3.theory.refinement.context_counterworlds",
+  "query_window": [
+    "1954-01-01",
+    "1955-06-30"
+  ],
+  "results": [
+    {
+      "ranking": [
+        "c",
+        "d",
+        "e"
+      ],
+      "budget": 1,
+      "frontier": [],
+      "result": null
+    },
+    {
+      "ranking": [
+        "c",
+        "d",
+        "e"
+      ],
+      "budget": 2,
+      "frontier": [
+        "d"
+      ],
+      "result": {
+        "pivot_id": "d",
+        "support_world": {
+          "event_dates": {
+            "c": 711493,
+            "d": 713684,
+            "e": 715509
+          },
+          "supported_claims": [
+            "c",
+            "d"
+          ],
+          "selected_context": [
+            "c",
+            "d"
+          ],
+          "event_dates_iso": {
+            "c": "1949-01-01",
+            "d": "1955-01-01",
+            "e": "1959-12-31"
+          }
+        },
+        "exclusion_world": {
+          "event_dates": {
+            "c": 711493,
+            "d": 714048,
+            "e": 715145
+          },
+          "supported_claims": [
+            "c"
+          ],
+          "selected_context": [
+            "c"
+          ],
+          "event_dates_iso": {
+            "c": "1949-01-01",
+            "d": "1955-12-31",
+            "e": "1959-01-01"
+          }
+        },
+        "exclusion_reason": "start_after_query",
+        "exclusion_witness": null,
+        "scope": "modeled independent event dates with fixed unknown fallback"
+      }
+    },
+    {
+      "ranking": [
+        "d",
+        "c",
+        "e"
+      ],
+      "budget": 1,
+      "frontier": [
+        "d"
+      ],
+      "result": {
+        "pivot_id": "d",
+        "support_world": {
+          "event_dates": {
+            "c": 711493,
+            "d": 713684,
+            "e": 715509
+          },
+          "supported_claims": [
+            "c",
+            "d"
+          ],
+          "selected_context": [
+            "d"
+          ],
+          "event_dates_iso": {
+            "c": "1949-01-01",
+            "d": "1955-01-01",
+            "e": "1959-12-31"
+          }
+        },
+        "exclusion_world": {
+          "event_dates": {
+            "c": 711493,
+            "d": 714048,
+            "e": 715145
+          },
+          "supported_claims": [
+            "c"
+          ],
+          "selected_context": [
+            "c"
+          ],
+          "event_dates_iso": {
+            "c": "1949-01-01",
+            "d": "1955-12-31",
+            "e": "1959-01-01"
+          }
+        },
+        "exclusion_reason": "start_after_query",
+        "exclusion_witness": null,
+        "scope": "modeled independent event dates with fixed unknown fallback"
+      }
+    }
+  ]
+}

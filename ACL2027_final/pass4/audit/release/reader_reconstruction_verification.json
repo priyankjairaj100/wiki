@@ -1,0 +1,44 @@
+{
+  "status": "reader_checks_only",
+  "full_retrieval_replay": false,
+  "model_inference_started": false,
+  "checks": {
+    "reader_reconstruction": {
+      "human": {
+        "questions": 60,
+        "unique_generations": 193,
+        "logical_conditions": 600,
+        "parse_failures_unique": 75,
+        "execution_audit_matches": true,
+        "reader_scores_match": true
+      },
+      "human_diagnostic": {
+        "questions": 11,
+        "unique_generations": 45,
+        "logical_conditions": 110,
+        "parse_failures_unique": 13,
+        "execution_audit_matches": true,
+        "reader_scores_match": true
+      }
+    },
+    "answer_change_reconstruction": {
+      "primary": {
+        "questions": 60,
+        "methods": 10,
+        "contrasts": 45,
+        "all_match": true
+      },
+      "diagnostic": {
+        "questions": 11,
+        "methods": 10,
+        "contrasts": 45,
+        "all_match": true
+      }
+    }
+  },
+  "not_run": [
+    "final release manifest",
+    "retrieval rescoring",
+    "paper reconstruction"
+  ]
+}

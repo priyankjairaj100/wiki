@@ -1,0 +1,25 @@
+{
+  "interval_configurations": 3615,
+  "worlds": 44135,
+  "point_comparisons": 50610,
+  "range_comparisons": 202440,
+  "implementation_comparisons": 253050,
+  "quantifier_counterexample": {
+    "claim": [
+      0,
+      10
+    ],
+    "witness": [
+      5,
+      5
+    ],
+    "query": [
+      0,
+      10
+    ],
+    "all_worlds_have_some_support": true,
+    "some_point_is_active_in_all_worlds": false
+  },
+  "continuous_boundary_assertions": 11,
+  "status": "passed"
+}

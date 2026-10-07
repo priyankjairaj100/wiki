@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "claim_id": "a6f36b28342c256ac4a2f4e0",
+      "article_path": "/wiki/Gergely_Rudolf",
+      "check": "bounded_fallback",
+      "passed": true
+    },
+    {
+      "claim_id": "6f13d375cbf6278ba1ce3a90",
+      "article_path": "/wiki/Alexander_Milo\u0161evi\u0107",
+      "check": "bounded_fallback",
+      "passed": true
+    },
+    {
+      "claim_id": "caa48f1d38c4dcf29c4c6d71",
+      "article_path": "/wiki/Joe_Thompson_(footballer)",
+      "check": "bounded_fallback",
+      "passed": true
+    },
+    {
+      "claim_id": "8d3c848cf36af48685b2bad3",
+      "article_path": "/wiki/Bernard_A._Maguire",
+      "check": "calendar_end",
+      "passed": true
+    },
+    {
+      "claim_id": "b84b4a0a2544246edbc24d83",
+      "article_path": "/wiki/Sir_Anthony_Meyer,_3rd_Baronet",
+      "check": "calendar_end",
+      "passed": true
+    },
+    {
+      "claim_id": "b6d32a4e60a508215fa7f436",
+      "article_path": "/wiki/Leonard_Hayflick",
+      "check": "calendar_end",
+      "passed": true
+    },
+    {
+      "claim_id": "ef89771d4e62d0918d004264",
+      "article_path": "/wiki/Willie_Fernie_(footballer)",
+      "check": "calendar_end",
+      "passed": true
+    },
+    {
+      "claim_id": "d4db9148c3df77f8eead595d",
+      "article_path": "/wiki/Ferenc_J\u00f3zsef_Nagy",
+      "check": "calendar_end",
+      "passed": true
+    },
+    {
+      "claim_id": "703acc3bfcabb2ef2ae65092",
+      "article_path": "/wiki/Segenet_Kelemu",
+      "check": "bounded_fallback",
+      "passed": true
+    },
+    {
+      "claim_id": "d4383d6eeda5c48c049d7a03",
+      "article_path": "/wiki/Jim_Towers",
+      "check": "bounded_fallback",
+      "passed": true
+    },
+    {
+      "claim_id": "68fb0050c5ceb14da1720948",
+      "article_path": "/wiki/Niels_Annen",
+      "check": "bounded_fallback",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Known calibration examples; not new source accuracy."
+}

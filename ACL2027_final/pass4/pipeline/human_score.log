@@ -1,0 +1,106 @@
+{
+  "n_questions": 830,
+  "n_articles": 251,
+  "metrics": {
+    "earliest_completion": {
+      "all_annotated_spans_covered_at_5": 0.572289156626506,
+      "all_annotated_strings_covered_at_5": 0.572289156626506,
+      "annotated_span_recall_at_5": 0.578714859437751,
+      "annotated_string_recall_at_5": 0.578714859437751,
+      "parent_passage_hit_at_5": 0.5951807228915663,
+      "passages_used": 4.945783132530121,
+      "tokens_used": 351.50963855421685,
+      "units_used": 4.991566265060241
+    },
+    "guaranteed_support": {
+      "all_annotated_spans_covered_at_5": 0.572289156626506,
+      "all_annotated_strings_covered_at_5": 0.572289156626506,
+      "annotated_span_recall_at_5": 0.578714859437751,
+      "annotated_string_recall_at_5": 0.578714859437751,
+      "parent_passage_hit_at_5": 0.5951807228915663,
+      "passages_used": 4.945783132530121,
+      "tokens_used": 351.5433734939759,
+      "units_used": 4.991566265060241
+    },
+    "interval_outer_control": {
+      "all_annotated_spans_covered_at_5": 0.5710843373493976,
+      "all_annotated_strings_covered_at_5": 0.5710843373493976,
+      "annotated_span_recall_at_5": 0.5775100401606426,
+      "annotated_string_recall_at_5": 0.5775100401606426,
+      "parent_passage_hit_at_5": 0.5951807228915663,
+      "passages_used": 4.943373493975904,
+      "tokens_used": 350.5457831325301,
+      "units_used": 4.991566265060241
+    },
+    "latest_completion": {
+      "all_annotated_spans_covered_at_5": 0.5710843373493976,
+      "all_annotated_strings_covered_at_5": 0.5710843373493976,
+      "annotated_span_recall_at_5": 0.5775100401606426,
+      "annotated_string_recall_at_5": 0.5775100401606426,
+      "parent_passage_hit_at_5": 0.5951807228915663,
+      "passages_used": 4.943373493975904,
+      "tokens_used": 350.57951807228915,
+      "units_used": 4.991566265060241
+    },
+    "latest_mentioned_year_top20": {
+      "all_annotated_spans_covered_at_5": 0.6301204819277109,
+      "all_annotated_strings_covered_at_5": 0.6301204819277109,
+      "annotated_span_recall_at_5": 0.6359437751004017,
+      "annotated_string_recall_at_5": 0.6359437751004017,
+      "parent_passage_hit_at_5": 0.6518072289156627,
+      "passages_used": 4.918072289156626,
+      "tokens_used": 358.6879518072289,
+      "units_used": 4.985542168674699
+    },
+    "midpoint_completion": {
+      "all_annotated_spans_covered_at_5": 0.5710843373493976,
+      "all_annotated_strings_covered_at_5": 0.5710843373493976,
+      "annotated_span_recall_at_5": 0.5775100401606426,
+      "annotated_string_recall_at_5": 0.5775100401606426,
+      "parent_passage_hit_at_5": 0.5939759036144578,
+      "passages_used": 4.943373493975904,
+      "tokens_used": 350.6963855421687,
+      "units_used": 4.991566265060241
+    },
+    "no_temporal_filter": {
+      "all_annotated_spans_covered_at_5": 0.5674698795180723,
+      "all_annotated_strings_covered_at_5": 0.5674698795180723,
+      "annotated_span_recall_at_5": 0.5738955823293173,
+      "annotated_string_recall_at_5": 0.5738955823293173,
+      "parent_passage_hit_at_5": 0.5963855421686747,
+      "passages_used": 4.927710843373494,
+      "tokens_used": 346.9746987951807,
+      "units_used": 4.991566265060241
+    },
+    "original_bm25": {
+      "all_annotated_spans_covered_at_5": 0.43253012048192774,
+      "all_annotated_strings_covered_at_5": 0.43253012048192774,
+      "annotated_span_recall_at_5": 0.4389558232931727,
+      "annotated_string_recall_at_5": 0.4389558232931727,
+      "parent_passage_hit_at_5": 0.4674698795180723,
+      "passages_used": 4.949397590361446,
+      "tokens_used": 185.9879518072289,
+      "units_used": 4.998795180722891
+    },
+    "original_bm25_latestyear": {
+      "all_annotated_spans_covered_at_5": 0.516867469879518,
+      "all_annotated_strings_covered_at_5": 0.516867469879518,
+      "annotated_span_recall_at_5": 0.5238955823293172,
+      "annotated_string_recall_at_5": 0.5238955823293172,
+      "parent_passage_hit_at_5": 0.5457831325301205,
+      "passages_used": 4.936144578313253,
+      "tokens_used": 241.74096385542168,
+      "units_used": 4.998795180722891
+    },
+    "possible_support": {
+      "all_annotated_spans_covered_at_5": 0.5710843373493976,
+      "all_annotated_strings_covered_at_5": 0.5710843373493976,
+      "annotated_span_recall_at_5": 0.5775100401606426,
+      "annotated_string_recall_at_5": 0.5775100401606426,
+      "parent_passage_hit_at_5": 0.5951807228915663,
+      "passages_used": 4.943373493975904,
+      "tokens_used": 350.5457831325301,
+      "units_used": 4.991566265060241
+    }
+  }
+}

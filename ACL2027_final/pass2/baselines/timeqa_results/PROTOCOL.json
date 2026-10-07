@@ -1,0 +1,36 @@
+{
+  "protocol": "timeqa-natural-paragraph-evidence-v1",
+  "methods_frozen_before_first_execution": true,
+  "protocol_correction": "A pre-result run stopped after the source audit identified zero-length answer placeholders. Exclude these placeholders from positive retrieval scoring. No method or parameter changed.",
+  "inputs": {
+    "/workspace/scratch/956c06247f78/pass2/naturaldata/normalized/test_passages.jsonl": "c714909ba16e19fc32ec36fc99605d5935c92bc925d7bdb08045388aea4081ba",
+    "/workspace/scratch/956c06247f78/pass2/naturaldata/normalized/test_histories.jsonl": "f7db9928d9871f6a3b8afcde1b7924043998899cb99c1a5bf9845947f682adb5",
+    "/workspace/scratch/956c06247f78/pass2/naturaldata/normalized/test_annotations.jsonl": "d99488b71fdb00a47bb6bcf2edc922046f94c992f81c56a5ce3083be0872930a",
+    "/workspace/scratch/956c06247f78/pass2/naturaldata/normalized/human_test_questions.jsonl": "2c69ff7abfc629765499637b2057cd3a5074cc4ae9d5306e4679a33d03f7ea4e",
+    "/workspace/scratch/956c06247f78/pass2/naturaldata/raw/TimeQA_relations.json": "37471b7ef67e7606b4867a0c89f0f1e12acd29e9d5c6984008b76e2e6ee5bd17"
+  },
+  "script_sha256": "f38c2dc21ff12b4a66485fa546d6b7f3cf5e6c3882012e4b5d636974a6bc7ae8",
+  "methods": [
+    "bm25",
+    "latest_mentioned_year_top20",
+    "year_envelope_filter",
+    "explicit_range_filter",
+    "range_support_top20"
+  ],
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "idf": "log(1+(N-df+.5)/(df+.5))"
+  },
+  "candidate_pool": "All official test paragraphs, with visible article title appended once",
+  "rank_ties": "passage_id ascending",
+  "rerank_pool": 20,
+  "context_k": 5,
+  "temporal_features": "Regex year mentions and explicit year ranges from paragraph text only",
+  "template": "First official relation template, subject from visible article title, published time constraint",
+  "fit_or_tuning": "None. No development data or test labels fit any parameter.",
+  "gold_use": "Verify source spans and score labeled paragraph/span coverage only",
+  "interpretation": "Annotated-span retrieval. No generated answers, entailment scores, or inferred source dates.",
+  "human_overlap": "Human questions are a subset of the same official test source; not an independent corpus.",
+  "query_renderer_note": "Before result output, official pointwise $2 placeholders were fixed to use in DATE, or raw DATE following since. All 124 pointwise test annotations have identical endpoints. This did not change retrieval methods or parameters."
+}

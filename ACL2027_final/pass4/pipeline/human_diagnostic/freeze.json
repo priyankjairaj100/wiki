@@ -1,0 +1,23 @@
+{
+  "recorded_utc": "2026-10-06T12:26:31.521431+00:00",
+  "selection": "Predeclared rendered possible/guaranteed context disagreement, hash order, maximum24. No answer labels or outputs read.",
+  "eligible_queries": 11,
+  "selected_queries": 11,
+  "conditions": 110,
+  "unique_jobs": 45,
+  "additional_jobs": 45,
+  "reused_jobs": 0,
+  "inputs": {
+    "pass4/pipeline/human/predictions.jsonl": "cbd2867dc0fed4d5d83caaf4e405c37e4273284fa404a06a2c702913dca34912",
+    "pass4/pipeline/human/mechanism_questions.jsonl": "698266d4c1700ae48078a0d7d10bed35a8084d592c74e5e34c6d176b9cec2dc9",
+    "pass4/pipeline/human/reader_jobs.jsonl": "330c581f5642477a4a2ad6a09a2f752a5b41ab0b1f510f31bd414bf33a495750",
+    "pass4/protocol/config.json": "989724a081d536c81d7aedeb128bd67deba6734bc6c983ef3eb740e2e375de8b",
+    "pass4/pipeline/build_diagnostic.py": "11e1f25a86fbeda124b543c876e6a166ded8c1366f57098b0f69466c393ad69a"
+  },
+  "outputs": {
+    "queries.jsonl": "b1d2f20e919ef90e8aa6a46dbbd7aa75e49f0c5145992898ed8956727aadd0a0",
+    "reader_additional_jobs.jsonl": "18b03b1dbc8adfcdf091d132f0ee7aab7d74ccb1009be913a26c2d81c2e5da59",
+    "reader_memberships.jsonl": "96a27bdafb513f88d46113ed98bb26d7db6d6cfcfa1b7b7e72136f58e5bdc403",
+    "reader_jobs.jsonl": "18b03b1dbc8adfcdf091d132f0ee7aab7d74ccb1009be913a26c2d81c2e5da59"
+  }
+}

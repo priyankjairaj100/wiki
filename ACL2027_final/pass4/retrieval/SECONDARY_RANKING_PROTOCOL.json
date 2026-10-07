@@ -1,0 +1,18 @@
+{
+  "analysis_id": "pass4-ranking-portability-secondary-v1",
+  "declared_date": "2026-10-06",
+  "status": "Declared before running this secondary analysis.",
+  "timing": "After human confirmation retrieval scores were observed. This is a post-confirmation mechanism analysis.",
+  "purpose": "Measure certificate behavior and prefix work under every already-prespecified ranking variant.",
+  "selection": "All six pilot ranking variants. No ranking is selected from confirmation outcomes.",
+  "variants": ["bm25", "bm25_latestyear", "title_bm25", "title_residual", "title_bm25_latestyear", "title_residual_latestyear"],
+  "tracks": ["human confirmation, 830 questions", "development confirmation, 2348 questions"],
+  "inputs": ["Frozen source units", "Frozen extracted claims and their explicit succession pairs", "Visible question text"],
+  "excluded_inputs": ["Answer strings", "Gold source spans", "Annotation relation IDs", "Question source article IDs", "Annotation date fields"],
+  "cohort": "Every query whose visible date window parses, identically across all six rankings.",
+  "budgets": {"units": 5, "measurement_stage": "Unit selection before source-word truncation"},
+  "metrics": ["Possible contexts containing modeled claims", "Stable contexts among all parsed queries", "Stable contexts among each ranking's modeled contexts", "Stability on the fixed title_residual modeled-context cohort", "Stability on the fixed union of modeled-context cohorts", "Examined ranking candidates", "Possible and guaranteed certificate checks"],
+  "efficiency": "Support-check counts and examined candidates only; this analysis does not estimate end-to-end latency.",
+  "control": "An optimized shared-order implementation must match all six frozen ranking APIs exactly on all 176 pilot questions before confirmation analysis.",
+  "main_experiment": "The selected title_residual ranking and primary reader protocol stay frozen. This analysis does not change any main result."
+}

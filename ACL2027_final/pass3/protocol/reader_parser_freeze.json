@@ -1,0 +1,10 @@
+{
+  "parser_sha256": "fe0d8ffedafcd1fa62bb2e6f3cd4ee86624c529e5eea68e7d8958e0b0fa23eff",
+  "frozen_before_reader_response_inspection": true,
+  "accepted": "One whole JSON object, or one whole JSON code fence; answers list of nonempty strings; evidence list of valid integer excerpt indices.",
+  "rejected": "Narrative repair, JSON substring extraction, malformed output, wrong types, invalid citations, and non-stop generation.",
+  "failure_scoring": "Empty predicted answer list plus parse-failure flag. No excluded questions or gold-aware repairs.",
+  "tests": 7,
+  "all_tests_passed": true,
+  "reader_output_path": "pass3/inference/pilot_reader/reader_output.jsonl"
+}

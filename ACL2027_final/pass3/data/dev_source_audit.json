@@ -1,0 +1,334 @@
+{
+  "scope": "Manual qualitative source audit. No test examples. No benchmark accuracy claim.",
+  "selection": "Materialize a fixed ten-item development audit of source date semantics.\n\nThis audit is descriptive. It supplies neither model inputs nor test labels.\nSelection: first ten distinct development histories with a gold anchor paragraph\ncontaining two year strings and 51--1799 characters. The paragraph criterion\nselects readable source examples, not successful method predictions.\n",
+  "source_manifest": "pass2/naturaldata/source_manifest.json",
+  "examples": [
+    {
+      "question_id": "/wiki/Ian_Gibson_(politician)#P39#annotation0",
+      "article_path": "/wiki/Ian_Gibson_(politician)",
+      "source_url": "https://en.wikipedia.org/wiki/Ian_Gibson_(politician)",
+      "passage_id": "d776723c62d9610b425c0dfc",
+      "source_text": "Ian Gibson ( 26 September 1938 – 9 April 2021 ) was a British scientist and Labour politician who served as Member of Parliament ( MP ) for Norwich North from 1997 to 2009 .",
+      "source_text_sha256": "1c07138f1b692bb2722731755495de89bec8ce048b915dc50b5d17ee2008b0f4",
+      "gold_question_range_for_audit_only": [
+        {
+          "raw": "May 1997",
+          "year": 1997,
+          "month": 5,
+          "precision": "month"
+        },
+        {
+          "raw": "May 2001",
+          "year": 2001,
+          "month": 5,
+          "precision": "month"
+        }
+      ],
+      "audit": {
+        "source_event": "Served as Member of Parliament for Norwich North from 1997 to 2009.",
+        "start_expression": "1997",
+        "start_precision": "year",
+        "bounded_start_supported": true,
+        "source_interval": [
+          "1997",
+          "2009"
+        ],
+        "pitfall": "The paragraph also gives birth and death dates. These do not date the office.",
+        "replacement_supported": false
+      }
+    },
+    {
+      "question_id": "/wiki/Esperanza_Aguirre#P39#annotation0",
+      "article_path": "/wiki/Esperanza_Aguirre",
+      "source_url": "https://en.wikipedia.org/wiki/Esperanza_Aguirre",
+      "passage_id": "21f49d5bcc7155578e5688d0",
+      "source_text": "In 1987 she left the Liberal Party and joined Popular Alliance , which later , in 1989 , was refounded as the Peoples Party ( PP ) . She was subsequently re-elected to the city council and continued in opposition until 1989 , when a successful vote of no confidence ousted the PSOE mayor Juan Barranco , which allowed the PP and Democratic and Social Centre ( CDS ) to govern Madrid for the first time since the restoration of competitive municipal elections in 1979 , under the Mayorship of Agustín Rodríguez Sahagún ( CDS ) . In the new local executive , she was designated head of the Department of the Environment .",
+      "source_text_sha256": "73431741394568b0d65fd0143f717b189269ec32f7992852a0829969b21df781",
+      "gold_question_range_for_audit_only": [
+        {
+          "raw": "May 1983",
+          "year": 1983,
+          "month": 5,
+          "precision": "month"
+        },
+        {
+          "raw": "May 1996",
+          "year": 1996,
+          "month": 5,
+          "precision": "month"
+        }
+      ],
+      "audit": {
+        "source_event": "Left the Liberal Party and joined Popular Alliance in 1987.",
+        "start_expression": "1987",
+        "start_precision": "year",
+        "bounded_start_supported": true,
+        "source_interval": null,
+        "pitfall": "The annotated city-council role lacks its initial election date in this anchor. A party rename is not a new role.",
+        "replacement_supported": true,
+        "replacement_scope": "The explicit left/joined construction concerns party affiliation, not the annotated P39 office."
+      }
+    },
+    {
+      "question_id": "/wiki/Gerhard_Hirschfeld#P108#annotation0",
+      "article_path": "/wiki/Gerhard_Hirschfeld",
+      "source_url": "https://en.wikipedia.org/wiki/Gerhard_Hirschfeld",
+      "passage_id": "25b24422b230e59bf3a8430b",
+      "source_text": "Hirschfeld studied History , German Literature ( Germanistik ) and Political Science ( Staatsexamen 1974 ) at the Ruhr University Bochum and the University of Cologne . He was a lecturer at University College Dublin from 1974-1975 . Hirschfeld received his Ph.D . from Heinrich Heine Universität Düsseldorf , 1981 . He was assistant to Professor Wolfgang Mommsen at Düsseldorf University , 1977-1978 . From 1978-1989 , Hirschfeld was a Fellow with the German Historical Institute London .",
+      "source_text_sha256": "9d713a8cdcd7bc199749b3876889f838d80ad18d51a9cfdeed05741da1ec3117",
+      "gold_question_range_for_audit_only": [
+        {
+          "raw": "1978",
+          "year": 1978,
+          "month": null,
+          "precision": "year"
+        },
+        {
+          "raw": "1989",
+          "year": 1989,
+          "month": null,
+          "precision": "year"
+        }
+      ],
+      "audit": {
+        "source_event": "Fellow with the German Historical Institute London from 1978 to 1989.",
+        "start_expression": "1978",
+        "start_precision": "year",
+        "bounded_start_supported": true,
+        "source_interval": [
+          "1978",
+          "1989"
+        ],
+        "pitfall": "The paragraph also dates education, a doctorate, and two earlier positions. Each date needs its own event.",
+        "replacement_supported": false
+      }
+    },
+    {
+      "question_id": "/wiki/Evelyn_Berezin#P108#annotation1",
+      "article_path": "/wiki/Evelyn_Berezin",
+      "source_url": "https://en.wikipedia.org/wiki/Evelyn_Berezin",
+      "passage_id": "6bd3ac5c3de407c7e7b001ab",
+      "source_text": "In 1968 , Berezin had the idea for a word processor to simplify the work of secretaries , and in 1969 she founded Redactron Corporation , which became a public company and delivered thousands of systems to customers throughout its international marketing organization . The companys main product was called the Data Secretary and it was the size of a small refrigerator , had no screen , and the keyboard and printer was an IBM Selectric typewriter .",
+      "source_text_sha256": "29e1774820f5acdad1acf292a944d007fe42a7133e99f04438199f856a8d1f1e",
+      "gold_question_range_for_audit_only": [
+        {
+          "raw": "1969",
+          "year": 1969,
+          "month": null,
+          "precision": "year"
+        },
+        {
+          "raw": "1976",
+          "year": 1976,
+          "month": null,
+          "precision": "year"
+        }
+      ],
+      "audit": {
+        "source_event": "Founded Redactron Corporation in 1969.",
+        "start_expression": "1969",
+        "start_precision": "year",
+        "bounded_start_supported": true,
+        "source_interval": null,
+        "pitfall": "Founding supports a founder event. It does not establish the annotated employment interval through 1976.",
+        "replacement_supported": false
+      }
+    },
+    {
+      "question_id": "/wiki/Henry_Dundas,_1st_Viscount_Melville#P39#annotation0",
+      "article_path": "/wiki/Henry_Dundas,_1st_Viscount_Melville",
+      "source_url": "https://en.wikipedia.org/wiki/Henry_Dundas,_1st_Viscount_Melville",
+      "passage_id": "6958c3336a3dbe1c8374f5fd",
+      "source_text": "Becoming a member of the Faculty of Advocates in 1763 , he soon acquired a leading position in the Scottish legal system . He became Solicitor General for Scotland in 1766 ; but after his appointment as Lord Advocate in 1775 , he gradually relinquished his legal practice to devote his attention more exclusively to public affairs .",
+      "source_text_sha256": "dfd4a2ceeb893df686fe9b57f1ebb9ba75e0c0ad77afac49b6f0d254995b9513",
+      "gold_question_range_for_audit_only": [
+        {
+          "raw": "May 1775",
+          "year": 1775,
+          "month": 5,
+          "precision": "month"
+        },
+        {
+          "raw": "Aug 1783",
+          "year": 1783,
+          "month": 8,
+          "precision": "month"
+        }
+      ],
+      "audit": {
+        "source_event": "Appointed Lord Advocate in 1775.",
+        "start_expression": "1775",
+        "start_precision": "year",
+        "bounded_start_supported": true,
+        "source_interval": null,
+        "pitfall": "The source gives year precision. The gold annotation gives month precision. Extraction must retain source precision.",
+        "replacement_supported": false
+      }
+    },
+    {
+      "question_id": "/wiki/Steny_Hoyer#P69#annotation1",
+      "article_path": "/wiki/Steny_Hoyer",
+      "source_url": "https://en.wikipedia.org/wiki/Steny_Hoyer",
+      "passage_id": "6741c72bd050e667214cc952",
+      "source_text": "In his early years at the University of Maryland College Park , Hoyer held a 1.9 grade point average . His attitude towards school and politics changed after hearing a speech from then Senator John F . Kennedy before his election in 1960 . In 1963 , Hoyer received his B.A . degree magna cum laude and graduated Omicron Delta Kappa from the University of Maryland , College Park . He was also a member of the Sigma Chi fraternity . He earned his J.D . degree from Georgetown University Law Center in Washington , D.C. , in 1966 .",
+      "source_text_sha256": "cac7f8a8d028bc4d8ab4bb3eecd5f31d546f81c87193837afb9cbe47c0ec6d8f",
+      "gold_question_range_for_audit_only": [
+        {
+          "raw": "1963",
+          "year": 1963,
+          "month": null,
+          "precision": "year"
+        },
+        {
+          "raw": "1966",
+          "year": 1966,
+          "month": null,
+          "precision": "year"
+        }
+      ],
+      "audit": {
+        "source_event": "Earned his J.D. from Georgetown University Law Center in 1966.",
+        "start_expression": null,
+        "start_precision": null,
+        "bounded_start_supported": false,
+        "source_interval": null,
+        "pitfall": "Graduation dates mark completion. The paragraph does not state the 1963 enrollment start.",
+        "replacement_supported": false
+      }
+    },
+    {
+      "question_id": "/wiki/Friedrich_Guggenberger#P241#annotation0",
+      "article_path": "/wiki/Friedrich_Guggenberger",
+      "source_url": "https://en.wikipedia.org/wiki/Friedrich_Guggenberger",
+      "passage_id": "8c23c768ec6e1ea031ee463c",
+      "source_text": "Guggenberger was born in Munich on 6 March 1915 . He had entered the navy by 1934 , transferring to the U-boat arm in October 1939 , shortly after the outbreak of the Second World War . After the usual training pattern he was assigned to , where he served under the command of Knights Cross holder Günther Kuhnke . Guggenberger then briefly took over from Kuhnke and commanded U-28 for a few months whilst she was part of a school flotilla . He was awarded the Iron Cross 2nd Class on 23 March 1940 .",
+      "source_text_sha256": "6638d0efede819bb5ecc42f861c073487f7cdddbdfec6440eb10582364e829a8",
+      "gold_question_range_for_audit_only": [
+        {
+          "raw": "Apr 1934",
+          "year": 1934,
+          "month": 4,
+          "precision": "month"
+        },
+        {
+          "raw": "May 1935",
+          "year": 1935,
+          "month": 5,
+          "precision": "month"
+        }
+      ],
+      "audit": {
+        "source_event": "Had entered the navy by 1934; transferred to the U-boat arm in October 1939.",
+        "start_expression": "by 1934",
+        "start_precision": "upper bound only",
+        "bounded_start_supported": false,
+        "source_interval": null,
+        "pitfall": "The word 'by' permits earlier years. A bounded interval covering only 1934 would add unsupported information.",
+        "replacement_supported": false
+      }
+    },
+    {
+      "question_id": "/wiki/Beatrix_Tugendhut_Gardner#P69#annotation0",
+      "article_path": "/wiki/Beatrix_Tugendhut_Gardner",
+      "source_url": "https://en.wikipedia.org/wiki/Beatrix_Tugendhut_Gardner",
+      "passage_id": "197a05b6a752896a4dbb39c9",
+      "source_text": "Beatrix , often spelled Beatrice , attended Radcliffe College in Massachusetts and received her bachelors degree in 1954 . In 1956 , she earned her masters degree from Brown University , working with Carl Pfaffman . She completed her PhD in zoology at Oxford University in 1959 where she studied under the mentorship of Niko Tinbergen . Her focus was studying food deprivation and feeding response in stickleback fish .",
+      "source_text_sha256": "1cf6e6842ddb0fa789d8ad357dd784e86539084962cd73a465490609cd9c09b7",
+      "gold_question_range_for_audit_only": [
+        {
+          "raw": "1953",
+          "year": 1953,
+          "month": null,
+          "precision": "year"
+        },
+        {
+          "raw": "1954",
+          "year": 1954,
+          "month": null,
+          "precision": "year"
+        }
+      ],
+      "audit": {
+        "source_event": "Attended Radcliffe College and received her bachelor's degree in 1954.",
+        "start_expression": null,
+        "start_precision": null,
+        "bounded_start_supported": false,
+        "source_interval": null,
+        "pitfall": "The degree date supplies no enrollment start. Later degree dates also mark completion.",
+        "replacement_supported": false
+      }
+    },
+    {
+      "question_id": "/wiki/Richard_Court#P39#annotation0",
+      "article_path": "/wiki/Richard_Court",
+      "source_url": "https://en.wikipedia.org/wiki/Richard_Court",
+      "passage_id": "61e01202886aa9c81217f63e",
+      "source_text": "In March 1982 , at a by-election upon the retirement of his father from politics , Court was elected to represent his fathers seat of Nedlands , located in Perths wealthy beachside suburbs , in the state legislature . His time as a government backbencher was short-lived , however , as the opposition Labor Party and its charismatic leader , Brian Burke , won the 1983 state election . Court was elevated to the shadow frontbench in 1984 , serving as the opposition spokesman for Resources and Industrial Development , Mines and Aboriginal Affairs . He became deputy leader of the Liberal Party in September 1987 , serving under Barry MacKinnon , and became leader in 1992 .",
+      "source_text_sha256": "67350809503f7125570357754a1153c0dafb5f7eb224ce4bce6ad4cdfe31598e",
+      "gold_question_range_for_audit_only": [
+        {
+          "raw": "Mar 1982",
+          "year": 1982,
+          "month": 3,
+          "precision": "month"
+        },
+        {
+          "raw": "Feb 1993",
+          "year": 1993,
+          "month": 2,
+          "precision": "month"
+        }
+      ],
+      "audit": {
+        "source_event": "Elected to represent Nedlands in March 1982.",
+        "start_expression": "March 1982",
+        "start_precision": "month",
+        "bounded_start_supported": true,
+        "source_interval": null,
+        "pitfall": "The source dates several roles separately. Election, spokesperson, deputy leader, and leader require separate slots.",
+        "replacement_supported": false
+      }
+    },
+    {
+      "question_id": "/wiki/Shelley_Sekula-Gibbs#P39#annotation0",
+      "article_path": "/wiki/Shelley_Sekula-Gibbs",
+      "source_url": "https://en.wikipedia.org/wiki/Shelley_Sekula-Gibbs",
+      "passage_id": "4a511100b5c3fdf70e6f2df0",
+      "source_text": "Shelley Sekula-Gibbs ( born June 22 , 1953 ) is an American physician and politician , who serves as a director of The Woodlands , Texas Township board of directors . She served as a member of the United States House of Representatives , representing in 2006 . A Republican , she won the special election to fill the seat for the last few weeks of the 109th United States Congress . She previously served as a city councilwoman in Houston , Texas from 2002 to 2006 .",
+      "source_text_sha256": "e7b6017e31c8fbdb900fb296f96586fa045743679886df8037ece745adb222d5",
+      "gold_question_range_for_audit_only": [
+        {
+          "raw": "2002",
+          "year": 2002,
+          "month": null,
+          "precision": "year"
+        },
+        {
+          "raw": "2006",
+          "year": 2006,
+          "month": null,
+          "precision": "year"
+        }
+      ],
+      "audit": {
+        "source_event": "Served as a Houston city councilwoman from 2002 to 2006.",
+        "start_expression": "2002",
+        "start_precision": "year",
+        "bounded_start_supported": true,
+        "source_interval": [
+          "2002",
+          "2006"
+        ],
+        "pitfall": "The paragraph also dates birth and a congressional role. A whole-paragraph date mask would combine distinct events.",
+        "replacement_supported": false
+      }
+    }
+  ],
+  "summary": {
+    "examples": 10,
+    "examples_with_bounded_source_start_for_some_event": 7,
+    "examples_with_no_bounded_start": 3,
+    "explicit_replacement_same_annotated_relation": 0,
+    "interpretation": "Source start precision can differ from the gold question range. Date mentions require event attachment."
+  }
+}

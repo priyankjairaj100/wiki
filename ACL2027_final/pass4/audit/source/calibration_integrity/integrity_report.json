@@ -1,0 +1,21 @@
+{
+  "kind": "Independent deterministic source integrity check",
+  "input_hashes": {
+    "sources": "c5e3c36391a01997bf2b9185ab4c8724ba92caad7fc95b00437885afb1848a77",
+    "claims": "f470a7815ba17d85dc7a6a7b8d58c3d11836130487b8c42ac8a7f44c6354f341"
+  },
+  "source_passages": 4030,
+  "claims": 114,
+  "spans_checked": 768,
+  "literal_issues": [],
+  "partition_check": {
+    "units": 4182,
+    "passages_checked": 4030,
+    "issues": []
+  },
+  "confirmation_population": 0,
+  "confirmation_sample_size": 0,
+  "calibration_articles_excluded": 86,
+  "answer_label_reads": 0,
+  "scope": "Literal and partition checks do not establish semantic entailment."
+}

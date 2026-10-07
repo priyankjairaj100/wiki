@@ -1,0 +1,31 @@
+{
+  "input": "pass4/inference/human/reader_input.jsonl",
+  "output": "pass4/inference/human/reader_output.jsonl",
+  "input_sha256": "a4b4711bdfaba077176d3479397d32d41107e5c35de0e18d628d1005968b40ee",
+  "output_sha256": "2ae23748fc863e8d1a66f6ca5ba5a816a9cdd6cc0008a606a80b4d05b2ef58ab",
+  "planned_requests": 193,
+  "completed_requests": 193,
+  "request_integrity_checks": 193,
+  "finish_reasons": {
+    "stop": 179,
+    "length": 14
+  },
+  "parse_ok": 118,
+  "parse_failures": {
+    "invalid_complete_json": 55,
+    "invalid_evidence_index": 6,
+    "non_stop_finish": 14
+  },
+  "total_wall_seconds": 4866.593801316023,
+  "median_wall_seconds": 22.773755311995046,
+  "min_wall_seconds": 8.029302816001291,
+  "max_wall_seconds": 146.72965714199745,
+  "prompt_tokens": 127872,
+  "completion_tokens": 9311,
+  "label_access": false,
+  "parser": "pass3/protocol/parse_reader.py",
+  "parser_sha256": "fe0d8ffedafcd1fa62bb2e6f3cd4ee86624c529e5eea68e7d8958e0b0fa23eff",
+  "model_repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "model_revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+  "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d"
+}

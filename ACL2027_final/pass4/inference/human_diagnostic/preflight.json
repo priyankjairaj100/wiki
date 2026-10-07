@@ -1,0 +1,11 @@
+{
+  "verified_utc": "2026-10-06T13:05:22.070940+00:00",
+  "distinct_jobs": 45,
+  "logical_conditions": 110,
+  "questions": 11,
+  "primary_overlap_questions": 0,
+  "all_pass4_reader_questions": 71,
+  "exact_prompt_checks": 45,
+  "selection_manifest_sha256": "4fa6f490b0c65fbc6be9257c78a9e226b7402e2be9266454a7250e2897d427ab",
+  "selection": "Predeclared rendered possible/guaranteed context disagreement. No answer labels or outputs read."
+}

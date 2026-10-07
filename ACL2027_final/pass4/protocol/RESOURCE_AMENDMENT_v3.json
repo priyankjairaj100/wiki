@@ -1,0 +1,27 @@
+{
+  "kind": "Pre-output reader resource amendment",
+  "authority": "pass4/inference/provenance/primary_reader_freeze_v3.json",
+  "supersedes_reader_resource_fields_only": true,
+  "retrieval_config_unchanged": true,
+  "original_algorithm_freeze": "pass4/protocol/ALGORITHM_FREEZE.json",
+  "completed_responses_before_amendment": 0,
+  "context_tokens": 4096,
+  "batch_tokens": 128,
+  "ubatch_tokens": 64,
+  "unchanged": [
+    "model",
+    "weights",
+    "prompt",
+    "parser",
+    "temperature",
+    "seed",
+    "output token limit",
+    "question-method memberships"
+  ],
+  "hashes": {
+    "pass4/inference/provenance/primary_reader_freeze_v3.json": "dc734aff962fe201331a60a1453351d0ab915520ea9b0c7a55027baa8e31c1b1",
+    "pass4/inference/run_jsonl_resource.py": "077d5071f4dedf47a6c891850b0bd29f32b158666b6814a4b938b0632f816941",
+    "pass4/inference/human/interrupted_8192_context/interruption_manifest.json": "a50f214b2f1eb4d3717d9a1db28f9e20459d86568d255e71cdb4140f300741ec",
+    "pass4/protocol/ALGORITHM_FREEZE.json": "3c9604e1040a3e51dbbda5787760b9fed734780d0214e9681710a52fd528d6c7"
+  }
+}

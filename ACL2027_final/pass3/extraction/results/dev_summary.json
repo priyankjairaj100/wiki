@@ -1,0 +1,42 @@
+{
+  "adapter_version": "source-occurrence-v1",
+  "source_split": "article-disjoint TimeQA development only",
+  "input_passages": 32332,
+  "input_articles": 740,
+  "claims": 721,
+  "covered_passages": 646,
+  "covered_articles": 351,
+  "temporal_kinds": {
+    "validity_duration": 261,
+    "occurrence_start": 460
+  },
+  "start_precision": {
+    "year": 394,
+    "day": 211,
+    "month": 116
+  },
+  "slots": {
+    "position": 371,
+    "membership": 278,
+    "destination": 67,
+    "employer": 5
+  },
+  "rules": {
+    "explicit_tenure": 261,
+    "date_suffix_occurrence": 126,
+    "date_led_occurrence": 334
+  },
+  "coreference": {
+    "article_title_pronoun": 359,
+    "article_title_alias": 362
+  },
+  "compiler_eligible": 721,
+  "directed_replacement_pairs": 0,
+  "input_features": [
+    "source text",
+    "source article title",
+    "opaque passage identifier"
+  ],
+  "answer_annotation_reads": 0,
+  "scope": "Extraction counts are not accuracy estimates. Exact source offsets do not prove correct entity resolution or entailment."
+}

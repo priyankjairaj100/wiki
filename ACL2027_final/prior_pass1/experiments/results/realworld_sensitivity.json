@@ -1,0 +1,783 @@
+{
+  "dataset": "realworld",
+  "n_cutoffs": 41,
+  "summary": {
+    "all_pairs": {
+      "n": 58,
+      "direct_max_affected": 1,
+      "component_max_affected": 2,
+      "component_more_than_one": 11,
+      "direct_total_flips": 465,
+      "component_total_flips": 493
+    },
+    "false_pairs": {
+      "n": 0,
+      "direct_max_affected": 0,
+      "component_max_affected": 0,
+      "component_more_than_one": 0,
+      "direct_total_flips": 0,
+      "component_total_flips": 0
+    },
+    "cross_key_pairs": {
+      "n": 0,
+      "direct_max_affected": 0,
+      "component_max_affected": 0,
+      "component_more_than_one": 0,
+      "direct_total_flips": 0,
+      "component_total_flips": 0
+    }
+  },
+  "interventions": [
+    {
+      "dataset": "realworld",
+      "older": "rw:Croatia:official_currency:0",
+      "newer": "rw:Croatia:official_currency:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 8,
+      "component_membership_flips": 8,
+      "component_affected_ids": [
+        "rw:Croatia:official_currency:0"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Estonia:official_currency:0",
+      "newer": "rw:Estonia:official_currency:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 30,
+      "component_membership_flips": 30,
+      "component_affected_ids": [
+        "rw:Estonia:official_currency:0"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Germany:official_currency:0",
+      "newer": "rw:Germany:official_currency:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 36,
+      "component_membership_flips": 36,
+      "component_affected_ids": [
+        "rw:Germany:official_currency:0"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Google:holding_company:0",
+      "newer": "rw:Google:holding_company:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 25,
+      "component_membership_flips": 25,
+      "component_affected_ids": [
+        "rw:Google:holding_company:0"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Instagram:parent_company:0",
+      "newer": "rw:Instagram:parent_company:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 15,
+      "component_membership_flips": 15,
+      "component_affected_ids": [
+        "rw:Instagram:parent_company:0"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Japan:prime_minister:0",
+      "newer": "rw:Japan:prime_minister:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 3,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Japan:prime_minister:0",
+      "newer": "rw:Japan:prime_minister:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Japan:prime_minister:0",
+      "newer": "rw:Japan:prime_minister:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Japan:prime_minister:1",
+      "newer": "rw:Japan:prime_minister:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 10,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Japan:prime_minister:1",
+      "newer": "rw:Japan:prime_minister:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Japan:prime_minister:2",
+      "newer": "rw:Japan:prime_minister:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 4,
+      "component_membership_flips": 14,
+      "component_affected_ids": [
+        "rw:Japan:prime_minister:1",
+        "rw:Japan:prime_minister:2"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Kazakhstan:capital_city:0",
+      "newer": "rw:Kazakhstan:capital_city:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 19,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Kazakhstan:capital_city:0",
+      "newer": "rw:Kazakhstan:capital_city:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Kazakhstan:capital_city:0",
+      "newer": "rw:Kazakhstan:capital_city:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Kazakhstan:capital_city:1",
+      "newer": "rw:Kazakhstan:capital_city:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 19,
+      "component_membership_flips": 38,
+      "component_affected_ids": [
+        "rw:Kazakhstan:capital_city:0",
+        "rw:Kazakhstan:capital_city:1"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Kazakhstan:capital_city:2",
+      "newer": "rw:Kazakhstan:capital_city:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 10,
+      "component_membership_flips": 38,
+      "component_affected_ids": [
+        "rw:Kazakhstan:capital_city:0",
+        "rw:Kazakhstan:capital_city:2"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Microsoft:flagship_operating_system:0",
+      "newer": "rw:Microsoft:flagship_operating_system:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 15,
+      "component_membership_flips": 15,
+      "component_affected_ids": [
+        "rw:Microsoft:flagship_operating_system:0"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Myanmar:capital_city:0",
+      "newer": "rw:Myanmar:capital_city:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 34,
+      "component_membership_flips": 34,
+      "component_affected_ids": [
+        "rw:Myanmar:capital_city:0"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Nigeria:capital_city:0",
+      "newer": "rw:Nigeria:capital_city:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 40,
+      "component_membership_flips": 40,
+      "component_affected_ids": [
+        "rw:Nigeria:capital_city:0"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Ubuntu:latest_long_term_support_release:0",
+      "newer": "rw:Ubuntu:latest_long_term_support_release:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 7,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Ubuntu:latest_long_term_support_release:0",
+      "newer": "rw:Ubuntu:latest_long_term_support_release:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:Ubuntu:latest_long_term_support_release:1",
+      "newer": "rw:Ubuntu:latest_long_term_support_release:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 5,
+      "component_membership_flips": 12,
+      "component_affected_ids": [
+        "rw:Ubuntu:latest_long_term_support_release:0",
+        "rw:Ubuntu:latest_long_term_support_release:1"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_Catholic_Church:head:0",
+      "newer": "rw:the_Catholic_Church:head:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 26,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_Catholic_Church:head:0",
+      "newer": "rw:the_Catholic_Church:head:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_Catholic_Church:head:1",
+      "newer": "rw:the_Catholic_Church:head:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 2,
+      "component_membership_flips": 28,
+      "component_affected_ids": [
+        "rw:the_Catholic_Church:head:0",
+        "rw:the_Catholic_Church:head:1"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_FIFA_World_Cup:reigning_champion:0",
+      "newer": "rw:the_FIFA_World_Cup:reigning_champion:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 11,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_FIFA_World_Cup:reigning_champion:0",
+      "newer": "rw:the_FIFA_World_Cup:reigning_champion:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_FIFA_World_Cup:reigning_champion:1",
+      "newer": "rw:the_FIFA_World_Cup:reigning_champion:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 11,
+      "component_membership_flips": 22,
+      "component_affected_ids": [
+        "rw:the_FIFA_World_Cup:reigning_champion:0",
+        "rw:the_FIFA_World_Cup:reigning_champion:1"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_Python_programming_language:latest_stable_version:0",
+      "newer": "rw:the_Python_programming_language:latest_stable_version:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 5,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_Python_programming_language:latest_stable_version:0",
+      "newer": "rw:the_Python_programming_language:latest_stable_version:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_Python_programming_language:latest_stable_version:0",
+      "newer": "rw:the_Python_programming_language:latest_stable_version:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_Python_programming_language:latest_stable_version:1",
+      "newer": "rw:the_Python_programming_language:latest_stable_version:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 3,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_Python_programming_language:latest_stable_version:1",
+      "newer": "rw:the_Python_programming_language:latest_stable_version:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_Python_programming_language:latest_stable_version:2",
+      "newer": "rw:the_Python_programming_language:latest_stable_version:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 4,
+      "component_membership_flips": 7,
+      "component_affected_ids": [
+        "rw:the_Python_programming_language:latest_stable_version:1",
+        "rw:the_Python_programming_language:latest_stable_version:2"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_Twitter_platform:official_name:0",
+      "newer": "rw:the_Twitter_platform:official_name:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 8,
+      "component_membership_flips": 8,
+      "component_affected_ids": [
+        "rw:the_Twitter_platform:official_name:0"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Kingdom:head_of_government:0",
+      "newer": "rw:the_United_Kingdom:head_of_government:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 9,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Kingdom:head_of_government:0",
+      "newer": "rw:the_United_Kingdom:head_of_government:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Kingdom:head_of_government:0",
+      "newer": "rw:the_United_Kingdom:head_of_government:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Kingdom:head_of_government:0",
+      "newer": "rw:the_United_Kingdom:head_of_government:4",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Kingdom:head_of_government:1",
+      "newer": "rw:the_United_Kingdom:head_of_government:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 2,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Kingdom:head_of_government:1",
+      "newer": "rw:the_United_Kingdom:head_of_government:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Kingdom:head_of_government:1",
+      "newer": "rw:the_United_Kingdom:head_of_government:4",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Kingdom:head_of_government:2",
+      "newer": "rw:the_United_Kingdom:head_of_government:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 6,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Kingdom:head_of_government:2",
+      "newer": "rw:the_United_Kingdom:head_of_government:4",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Kingdom:head_of_government:3",
+      "newer": "rw:the_United_Kingdom:head_of_government:4",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 3,
+      "component_membership_flips": 9,
+      "component_affected_ids": [
+        "rw:the_United_Kingdom:head_of_government:2",
+        "rw:the_United_Kingdom:head_of_government:3"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_Nations:secretary_general:0",
+      "newer": "rw:the_United_Nations:secretary_general:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 24,
+      "component_membership_flips": 24,
+      "component_affected_ids": [
+        "rw:the_United_Nations:secretary_general:0"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_States:president:0",
+      "newer": "rw:the_United_States:president:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 10,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_States:president:0",
+      "newer": "rw:the_United_States:president:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_States:president:0",
+      "newer": "rw:the_United_States:president:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_States:president:1",
+      "newer": "rw:the_United_States:president:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 14,
+      "component_membership_flips": 24,
+      "component_affected_ids": [
+        "rw:the_United_States:president:0",
+        "rw:the_United_States:president:1"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_United_States:president:2",
+      "newer": "rw:the_United_States:president:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 1,
+      "component_membership_flips": 24,
+      "component_affected_ids": [
+        "rw:the_United_States:president:0",
+        "rw:the_United_States:president:2"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_company_X_Corp:chief_executive_officer:0",
+      "newer": "rw:the_company_X_Corp:chief_executive_officer:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 4,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_company_X_Corp:chief_executive_officer:0",
+      "newer": "rw:the_company_X_Corp:chief_executive_officer:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_company_X_Corp:chief_executive_officer:0",
+      "newer": "rw:the_company_X_Corp:chief_executive_officer:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_company_X_Corp:chief_executive_officer:1",
+      "newer": "rw:the_company_X_Corp:chief_executive_officer:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 5,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_company_X_Corp:chief_executive_officer:1",
+      "newer": "rw:the_company_X_Corp:chief_executive_officer:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_company_X_Corp:chief_executive_officer:2",
+      "newer": "rw:the_company_X_Corp:chief_executive_officer:3",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 6,
+      "component_membership_flips": 11,
+      "component_affected_ids": [
+        "rw:the_company_X_Corp:chief_executive_officer:1",
+        "rw:the_company_X_Corp:chief_executive_officer:2"
+      ]
+    },
+    {
+      "dataset": "realworld",
+      "older": "rw:the_world:tallest_building:0",
+      "newer": "rw:the_world:tallest_building:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 31,
+      "component_membership_flips": 31,
+      "component_affected_ids": [
+        "rw:the_world:tallest_building:0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "datasets": [
+      "wikidata",
+      "freshrag",
+      "realworld"
+    ],
+    "n_claims": 568,
+    "results": {
+      "heuristic": {
+        "isolated": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "pooled": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "newest_doc_wins": {
+        "isolated": {
+          "precision": 0.9358,
+          "recall": 1.0,
+          "f1": 0.9669
+        },
+        "pooled": {
+          "precision": 0.6206,
+          "recall": 1.0,
+          "f1": 0.7659
+        }
+      }
+    },
+    "cached_results_match": true
+  },
+  {
+    "datasets": [
+      "wikidata",
+      "freshrag",
+      "realworld",
+      "templama"
+    ],
+    "n_claims": 1315,
+    "results": {
+      "heuristic": {
+        "isolated": {
+          "precision": 1.0,
+          "recall": 0.9812,
+          "f1": 0.9905
+        },
+        "pooled": {
+          "precision": 0.9862,
+          "recall": 0.9837,
+          "f1": 0.9849
+        }
+      },
+      "newest_doc_wins": {
+        "isolated": {
+          "precision": 0.9708,
+          "recall": 1.0,
+          "f1": 0.9852
+        },
+        "pooled": {
+          "precision": 0.6079,
+          "recall": 1.0,
+          "f1": 0.7562
+        }
+      }
+    },
+    "cached_results_match": true
+  }
+]

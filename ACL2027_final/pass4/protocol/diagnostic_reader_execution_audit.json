@@ -1,0 +1,39 @@
+{
+  "all_checks_passed": true,
+  "unique_generations": 45,
+  "model_repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "model_revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+  "runtime_release": "b11435",
+  "actual_server_flags": {
+    "-c": 2048,
+    "-t": 4,
+    "-tb": 4,
+    "-b": 512,
+    "-ub": 512,
+    "--poll": 0,
+    "--poll-batch": 0,
+    "--parallel": 1,
+    "--n-gpu-layers": 0,
+    "--seed": 1729,
+    "--temp": 0
+  },
+  "actual_server_log_matches": true,
+  "all_prompts_fit_without_truncation": true,
+  "max_reserved_tokens": 1323,
+  "unchanged_decoder": {
+    "temperature": 0,
+    "seed": 1729,
+    "max_tokens": 96,
+    "cache_prompt": false
+  },
+  "hashes": {
+    "pass4/inference/human_diagnostic/reader_output.jsonl": "433a8d5b455fe295d92de054816624ad2af8d53ad553efb031337bd912ff0088",
+    "pass4/pipeline/human_diagnostic/reader_jobs.jsonl": "18b03b1dbc8adfcdf091d132f0ee7aab7d74ccb1009be913a26c2d81c2e5da59",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/inference/provenance/primary_reader_freeze_final.json": "55cd054b2c4f87688c6016451846a7bf8ede77fb2b9f995bb20a9d870668b1b8",
+    "pass4/inference/human_diagnostic/reader_output.manifest.json": "46fe1fd7d8ced7a0cabbdfd4199655889631696336b54d70be5278457fe07993",
+    "pass4/inference/human_diagnostic/reader_input.jsonl": "de1b3b9a2b727df87694fb9143263d77eaa5cda954bfabcf45aaa80da280449e",
+    "pass4/inference/human_diagnostic/reader_output.server.log": "63be6b8f5b225dc36a8ef80ec305c428f46c0e1e20d81453b4b5489c3d8828e2",
+    "pass4/inference/human_diagnostic/reader_output.token_preflight.json": "5c54dabd91b337e08bb72a0b72baa1bfe441f8bdec8ab9470b21768288378779",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/protocol/audit_reader_run.py": "184d3c836b87e7646b5a6748b0ab6e7951903c9dacc0797d04e0a94d5d185dd1"
+  }
+}

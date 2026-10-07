@@ -1,0 +1,154 @@
+\section{Source Pipeline and Run Provenance}
+\label{app:pipeline}
+
+\subsection{Calibration, confirmation, and source interpretation}
+Removing eight development--test article overlaps leaves 2,651 eligible development questions.
+A hash selects 176 questions from 50 articles for the ranking pilot.
+The initial remainder contains 2,475 questions from 679 articles.
+Earlier source inspections identify 35 further articles for exclusion before their first validation outcomes.
+Removing their 127 questions gives the 2,348-question confirmation track.
+The original split and exclusion records remain in the release.
+The human track retains 830 positive questions from the published test collection.
+Both tracks had earlier inspected results before the current revision.
+The new adapter and selected ranking remain fixed throughout confirmation.
+
+Current source calibration covers 86 articles, including 85 with eligible development questions.
+It combines 50 pilot articles with 39 previously identified source paths, with three overlaps.
+Ranking selection uses only the 176-question pilot.
+An independent feature audit changes query metadata and remaps source identifiers without changing selections.
+Ranking accepts the question string alone.
+The title inventory comes from the source corpus.
+Every ranking retains every corpus unit exactly once.
+
+A year maps to January 1 through December 31 on the Gregorian ordinal axis.
+A month maps to its actual first and last dates.
+A fully stated day gives a singleton.
+Tenures keep separate uncertain start and end events.
+The adapter uses explicit clauses, coordinated tenures, biography constructions, and source-supported succession.
+Unmatched or rejected text remains in the shared fallback partition.
+All source words survive that partition.
+Independent checks find no overlapping units and no rejected pair endpoints.
+The development and test pools contain 33,433 and 34,480 units, respectively.
+
+The independent calibration audit guides corrections before the adapter freeze.
+Its final set contains 114 claims, including five succession starts and three directed pairs.
+The full development corpus contains seven succession starts and those same three pairs.
+The test corpus contains two succession starts and no pairs.
+No rule invents a start date for an undated predecessor.
+The Warburg example uses automatic extraction; its question period and ranking are illustrative.
+
+A separate frozen audit samples 60 claims from 678 development claims outside calibration.
+Selection uses a fixed identifier hash.
+An independent model-assisted reviewer inspects full source paragraphs without benchmark questions or answers.
+The reviewer accepts 52 events, rejects five, and marks three uncertain.
+Eleven accepted starts omit a termination stated elsewhere in their paragraphs.
+Of 29 sampled explicit-end records, 27 have accepted event grounding.
+Rejected records contain reference errors, truncated names, or merged predicates.
+The three uncertain records concern date attachment or combined roles.
+These judgments do not change the frozen experiment.
+They distinguish literal traceability, event interpretation, and lifecycle completeness.
+They are model-assisted judgments, not human annotations or extraction-recall estimates.
+
+\subsection{Reader protocol}
+\label{app:reader}
+The current model is Qwen2.5-3B-Instruct, Q4\_K\_M, at revision \texttt{7dabda4d}.
+The release records the full revision and weight checksum.
+The runtime is llama.cpp b11435 at commit \texttt{43fe9c6}.
+The model uses the Qwen Research License; the runtime uses MIT.
+Generation weights are excluded from the archive.
+Pinned download scripts restore the official artifacts.
+
+Prompts contain the visible question, original excerpts, source titles, date bounds, and temporal status.
+Modeled excerpts also carry source-derived subject and relation labels.
+Those labels preserve role context for short succession clauses.
+No extracted answer-value field is added to the prompt metadata.
+Temperature is zero, seed is 1729, and the output limit is 96 tokens.
+Prompt caching and JSON grammar enforcement are disabled.
+A tokenizer check verifies that every request fits the configured context.
+Resource-only amendments precede completed question-answer outputs and preserve the original freezes and logs.
+The final runtime uses four threads, a 2,048-token context, and polling disabled.
+Its batch and microbatch sizes are both 512.
+
+The parser accepts a complete JSON object or a single JSON code fence.
+It rejects narrative repair, invalid field types, invalid excerpt indices, and truncated outputs.
+Failures receive empty answer lists and remain in every denominator.
+Normalization applies Unicode NFKC, case folding, and word-token extraction.
+It preserves articles and compares deduplicated complete answer sets.
+Strict set precision, recall, F1, and exact set accuracy use those normalized sets.
+Token overlap remains a secondary measure.
+
+The primary sample contains 60 questions from 55 articles.
+Its 600 method conditions reduce to 193 distinct prompts.
+The predeclared diagnostic selects every human query with different possible and guaranteed rendered contexts, up to twenty-four questions.
+All eleven eligible questions enter that diagnostic, yielding 110 conditions and 45 distinct prompts.
+They come from nine articles, four shared with the primary sample.
+The cohorts have no question overlap and no shared requests.
+Selection reads no answer labels or generated answers.
+Full request hashes, raw responses, timing, and memberships support independent verification.
+\input{tables/reader}
+
+\paragraph{Complete reader outcomes.}
+Table~\ref{tab:reader} reports both cohorts separately.
+The diagnostic guaranteed-minus-possible F1 difference is 18.18 points, with article-cluster interval $[0.00,40.00]$.
+All 45 paired method contrasts remain in each cohort's saved summary.
+The primary temporal contrasts change no answer sets, including all 38 pairs with valid responses on both sides.
+The diagnostic possible--guaranteed contrast changes three answer sets among six pairs with two valid responses.
+Three further changes involve a response-format failure.
+Earliest--latest completion gives the same counts and changed questions.
+This selected diagnostic measures sensitivity among contexts already known to differ.
+
+Across 238 distinct generations, 88 responses fail the frozen parser.
+These comprise 60 JSON-format failures, six invalid citation lists, and 22 length-limit responses.
+Every failed response remains scored with an empty answer set.
+The primary ranking comparison changes 16 answer sets against original BM25 with recency.
+Four changes occur among 23 pairs with two valid responses; twelve involve a parsing failure.
+Separate descriptive audits report this breakdown for every method pair without changing the frozen scores.
+
+\subsection{Ranking portability and selection cost}
+A secondary analysis applies the certificate to all six ranking variants considered during calibration.
+Its protocol is recorded after confirmation retrieval but before its own mechanism analysis.
+It reads no answer labels and does not replace the selected main ranking.
+Each variant has its own modeled-context denominator.
+The release also reports fixed main and union cohorts for direct comparisons.
+\input{tables/ranking_portability}
+The lazy selector agrees with full-mask evaluation for every parsed query.
+Temporal-test counts include possible and guaranteed predicate calls.
+Fallback excerpts require no predicate call.
+The timing microbenchmarks exclude extraction, compilation, relevance ranking, rendering, and answer generation.
+Concurrent CPU workloads affect their absolute timings.
+The main text therefore reports operation counts.
+
+\subsection{Earlier reader and extraction calibration}
+Earlier Qwen2.5-1.5B-Instruct runs remain available under their original frozen settings.
+A 24-question pilot requires 52 generations for 192 conditions.
+A nine-question diagnostic adds 22 generations and reuses six.
+The cohorts overlap on two questions, giving 31 distinct questions and 74 actual generations.
+All methods reach 31.94\% strict set F1 on the pilot.
+The earlier diagnostic changes four answer sets between earliest and latest completion, without improving aggregate strict F1.
+
+Two exploratory learned extractors each process six calibration paragraphs before stopping.
+The first returns 41 records, all missing required source quotes.
+A schema-constrained variant returns 46 records; 45 fail literal grounding.
+The remaining record has an incorrect holder--date association.
+Neither extractor supplies claims to the reported confirmation runs.
+Partial manifests retain all completed outputs, settings, and stopping decisions.
+
+An earlier deterministic reproduction correction sorts BM25 token accumulation and stops after five accepted units.
+Every one of 20,192 archived method contexts remains unchanged.
+The original runner and equivalence records are preserved.
+
+\subsection{Complete annual controls}
+\input{tables/sourceaudit}
+\input{tables/fullsource}
+The annual split and complete-source labels match the archived experiment.
+Latest-value selection retains 99.89\% first-result accuracy but achieves 86.37\% complete answer recall.
+Latest-batch selection reaches 99.98\% recall.
+The suppression difference is 13.63 points, with key-cluster interval $[13.06,14.21]$.
+Graphiti's matched policy kernel and direct-first invalidation produce identical endpoints across 45,866 observations.
+These retained results require no repeated model inference.
+
+\subsection{Earlier natural paragraph controls}
+\input{tables/natural}
+These paragraph runs use the published test passages and positive annotations.
+Their human-question results were inspected before the source-unit experiments.
+Paragraph and source-unit runs have different retrieval units and denominators.

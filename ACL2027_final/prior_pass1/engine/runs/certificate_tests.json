@@ -1,0 +1,181 @@
+{
+  "provenance": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "source_sha256": {
+      "engine.py": "ea84e2e55e8e9cd2f08b93fcbc943fa10d5a85c1866715d4cc14849bd422c8ee",
+      "run_certificate_tests.py": "dd7b55d06a2c2f0cf916c80ee397020eae9054c22b5e8fa70039c668bf077965",
+      "tests/test_engine.py": "3e2fb480ec2c75ce7de60e2f440ed0b657b7178adeb56346fcb54f1b19887549"
+    }
+  },
+  "constructed_tests": {
+    "tests_run": 13,
+    "failures": 0,
+    "errors": 0,
+    "random_seeds": 100,
+    "label": "Correctness tests, not benchmark observations"
+  },
+  "packaged_data_equivalence": [
+    {
+      "dataset": "freshrag",
+      "claims": 304,
+      "cutoffs": 181,
+      "source_sha256": "c0a860047d5a24985e46bce5718b44a9ba231bf6e47446d2238e5e21ede8e653",
+      "endpoint_witness_cutoff_mismatches": [],
+      "original_current_mask_difference": 0,
+      "compiler_stats": {
+        "claims": 304,
+        "dated_claims": 304,
+        "undated_claims": 0,
+        "posting_visits": 7345,
+        "pair_tests": 3909,
+        "witnesses": 181
+      }
+    },
+    {
+      "dataset": "multihop_asof",
+      "claims": 277,
+      "cutoffs": 49,
+      "source_sha256": "bf0def9d63619950fcc2177ebdfd3f5d6ddff5e9901c8f2349789cdec8534559",
+      "endpoint_witness_cutoff_mismatches": [],
+      "original_current_mask_difference": 0,
+      "compiler_stats": {
+        "claims": 277,
+        "dated_claims": 277,
+        "undated_claims": 0,
+        "posting_visits": 28122,
+        "pair_tests": 10065,
+        "witnesses": 172
+      }
+    },
+    {
+      "dataset": "multihop_real",
+      "claims": 67,
+      "cutoffs": 67,
+      "source_sha256": "0ebfa56437cb8b92f3fec5f4de6c97f322ad048fb015d5e3fee749ec634facb6",
+      "endpoint_witness_cutoff_mismatches": [],
+      "original_current_mask_difference": 0,
+      "compiler_stats": {
+        "claims": 67,
+        "dated_claims": 67,
+        "undated_claims": 0,
+        "posting_visits": 1038,
+        "pair_tests": 372,
+        "witnesses": 44
+      }
+    },
+    {
+      "dataset": "realprose",
+      "claims": 132,
+      "cutoffs": 85,
+      "source_sha256": "ca2c4a932036da2db9f0b9ee6098a751e7cb61f54484278e11e9af08c39e3205",
+      "endpoint_witness_cutoff_mismatches": [],
+      "original_current_mask_difference": 0,
+      "compiler_stats": {
+        "claims": 132,
+        "dated_claims": 132,
+        "undated_claims": 0,
+        "posting_visits": 6749,
+        "pair_tests": 2876,
+        "witnesses": 90
+      }
+    },
+    {
+      "dataset": "realwiki",
+      "claims": 26,
+      "cutoffs": 39,
+      "source_sha256": "92ef9c187f38b84b6e0cdede12018f9596caa7933dcf27508bafbe9a906b7945",
+      "endpoint_witness_cutoff_mismatches": [],
+      "original_current_mask_difference": 0,
+      "compiler_stats": {
+        "claims": 26,
+        "dated_claims": 26,
+        "undated_claims": 0,
+        "posting_visits": 899,
+        "pair_tests": 219,
+        "witnesses": 11
+      }
+    },
+    {
+      "dataset": "realworld",
+      "claims": 56,
+      "cutoffs": 83,
+      "source_sha256": "4ff20069843877de238bdbad76d1073477001fc48f83566ff77c45fae0fdfd4b",
+      "endpoint_witness_cutoff_mismatches": [],
+      "original_current_mask_difference": 0,
+      "compiler_stats": {
+        "claims": 56,
+        "dated_claims": 56,
+        "undated_claims": 0,
+        "posting_visits": 149,
+        "pair_tests": 78,
+        "witnesses": 36
+      }
+    },
+    {
+      "dataset": "templama",
+      "claims": 747,
+      "cutoffs": 23,
+      "source_sha256": "6489bce610ae2677a454a06a1af1a07c0d376d638a1ce1ac6ca5eccc6c5ef354",
+      "endpoint_witness_cutoff_mismatches": [],
+      "original_current_mask_difference": 0,
+      "compiler_stats": {
+        "claims": 747,
+        "dated_claims": 747,
+        "undated_claims": 0,
+        "posting_visits": 36195,
+        "pair_tests": 26538,
+        "witnesses": 442
+      }
+    },
+    {
+      "dataset": "wikidata",
+      "claims": 208,
+      "cutoffs": 55,
+      "source_sha256": "0e48204aa6cfc6a00e800c07d8c498c12ccd099e8a8507dc10d13767e2b341c4",
+      "endpoint_witness_cutoff_mismatches": [],
+      "original_current_mask_difference": 0,
+      "compiler_stats": {
+        "claims": 208,
+        "dated_claims": 208,
+        "undated_claims": 0,
+        "posting_visits": 5708,
+        "pair_tests": 2738,
+        "witnesses": 133
+      }
+    },
+    {
+      "dataset": "wikidata_prose",
+      "claims": 208,
+      "cutoffs": 55,
+      "source_sha256": "d87e64f18fb59c00ecc31e21ce91f7865e96227c787644a076fd76303e1275d4",
+      "endpoint_witness_cutoff_mismatches": [],
+      "original_current_mask_difference": 0,
+      "compiler_stats": {
+        "claims": 208,
+        "dated_claims": 208,
+        "undated_claims": 0,
+        "posting_visits": 5708,
+        "pair_tests": 2738,
+        "witnesses": 133
+      }
+    },
+    {
+      "dataset": "wikidata_prose_normalized",
+      "claims": 208,
+      "cutoffs": 55,
+      "source_sha256": "61aa83fdf4d8d781b4046843bd39ec1a89249c7c0f3ae6d2f174b1eedddd5761",
+      "endpoint_witness_cutoff_mismatches": [],
+      "original_current_mask_difference": 0,
+      "compiler_stats": {
+        "claims": 208,
+        "dated_claims": 208,
+        "undated_claims": 0,
+        "posting_visits": 12872,
+        "pair_tests": 6362,
+        "witnesses": 40
+      }
+    }
+  ],
+  "elapsed_seconds": 1.2753743369994481,
+  "passed": true
+}

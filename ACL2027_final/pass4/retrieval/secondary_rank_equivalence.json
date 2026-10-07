@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "queries": 176,
+  "full_ranking_equivalence_checks": 1056,
+  "input_sha256": {
+    "pass3/pipeline/pilot_final/units.jsonl": "2052380ea816cbedb86bbc25241eda2c9590076b7374bd8c33d1021a70f9a49d",
+    "pass4/protocol/dev_pilot_queries.jsonl": "7bd9eed58c8e989fcc5db9ce8af52e157ca6303a4f2f998135f637477d024a19",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/secondary_rankings.py": "666d072fe32c0184044f6b999a035a836c755b4885ace750240dd0b9629232dd",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/ranking.py": "bd898547382a12903b34656c4d06d518c63390efb68aec0fdbd46722066205dd"
+  }
+}

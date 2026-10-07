@@ -1,0 +1,24 @@
+% Generated only from complete frozen-scoring outputs.
+\begin{table}[t]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{Primary} & \multicolumn{2}{c}{Diagnostic}\\
+Method & EM & F1 & EM & F1\\
+\midrule
+Original BM25 & 16.67 & 16.67 & 9.09 & 9.09\\
+Original BM25 + year & 18.33 & 18.33 & 9.09 & 9.09\\
+Title-aware ranking & 21.67 & 21.67 & 9.09 & 9.09\\
+\quad + earliest completion & 20.00 & 20.00 & 18.18 & 18.18\\
+\quad + midpoint completion & 20.00 & 20.00 & 9.09 & 9.09\\
+\quad + latest completion & 20.00 & 20.00 & 9.09 & 9.09\\
+\quad + interval control & 20.00 & 20.00 & 9.09 & 9.09\\
+\quad + possible support & 20.00 & 20.00 & 9.09 & 9.09\\
+\quad + guaranteed support & 20.00 & 20.00 & 18.18 & 18.18\\
+Title-aware + year & 21.67 & 21.67 & 9.09 & 15.15\\
+\bottomrule
+\end{tabular}
+\caption{Reader exact match (EM) and strict answer-set F1 (\%). Primary: 60 questions and 600 conditions. Diagnostic: 11 questions and 110 conditions. Unique generation parse failures: 69/194 and 11/40, respectively. Failures remain in both denominators.}
+\label{tab:reader}
+\end{table}

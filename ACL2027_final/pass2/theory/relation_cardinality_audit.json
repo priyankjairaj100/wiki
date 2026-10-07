@@ -1,0 +1,65 @@
+{
+  "P54": {
+    "rows": 6268,
+    "multi_rows": 2953,
+    "keys": 691,
+    "multi_keys": 621,
+    "max_answers": 7
+  },
+  "P39": {
+    "rows": 5126,
+    "multi_rows": 1571,
+    "keys": 700,
+    "multi_keys": 560,
+    "max_answers": 6
+  },
+  "P69": {
+    "rows": 1166,
+    "multi_rows": 251,
+    "keys": 154,
+    "multi_keys": 142,
+    "max_answers": 3
+  },
+  "P488": {
+    "rows": 2920,
+    "multi_rows": 448,
+    "keys": 312,
+    "multi_keys": 267,
+    "max_answers": 4
+  },
+  "P102": {
+    "rows": 5275,
+    "multi_rows": 633,
+    "keys": 519,
+    "multi_keys": 441,
+    "max_answers": 4
+  },
+  "P108": {
+    "rows": 6066,
+    "multi_rows": 1199,
+    "keys": 628,
+    "multi_keys": 535,
+    "max_answers": 6
+  },
+  "P6": {
+    "rows": 2739,
+    "multi_rows": 371,
+    "keys": 288,
+    "multi_keys": 257,
+    "max_answers": 5
+  },
+  "P286": {
+    "rows": 3644,
+    "multi_rows": 985,
+    "keys": 595,
+    "multi_keys": 440,
+    "max_answers": 6
+  },
+  "P127": {
+    "rows": 1759,
+    "multi_rows": 312,
+    "keys": 170,
+    "multi_keys": 147,
+    "max_answers": 6
+  }
+}

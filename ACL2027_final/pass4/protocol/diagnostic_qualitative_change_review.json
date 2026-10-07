@@ -1,0 +1,83 @@
+{
+  "scope": "Post-run model-assisted interpretation of three jointly parsed answer changes. No predictions or scores modified.",
+  "source_prediction_sha256": "bd2b449606769ee8d8ad3e4e2ac6f03af25a24d557f7171e3e59b4fd60b16574",
+  "records": [
+    {
+      "question_id": "/wiki/Atlético_Madrid#P286#annotation5",
+      "question": "Who was football team Atletico Madrid's coach from Feb 2009 to Oct 2009?",
+      "review": "Possible output names a coach unsupported by its cited Colorado Rapids excerpt. Guaranteed output abstains. Both strict scores are zero.",
+      "methods": {
+        "possible_support": {
+          "answers": [
+            "Åge Hareide"
+          ],
+          "parse_ok": true,
+          "strict_set_f1": 0.0,
+          "cited_excerpts": [
+            "He was assistant coach at the Colorado Rapids for three years , from 2009 to 2012"
+          ]
+        },
+        "guaranteed_support": {
+          "answers": [],
+          "parse_ok": true,
+          "strict_set_f1": 0.0,
+          "cited_excerpts": []
+        }
+      }
+    },
+    {
+      "question_id": "/wiki/Katherine_Maher#P108#annotation3",
+      "question": "Katherine Maher had a role at which workplace from Apr 2014 to Apr 2015?",
+      "review": "Possible output returns a role phrase containing the employer. Guaranteed output returns the requested employer name. The latter gains exact annotated-set credit. Both cite the same source sentence.",
+      "methods": {
+        "possible_support": {
+          "answers": [
+            "chief communications officer of the Wikimedia Foundation"
+          ],
+          "parse_ok": true,
+          "strict_set_f1": 0.0,
+          "cited_excerpts": [
+            "Maher was chief communications officer of the Wikimedia Foundation from April 2014 to March 2016"
+          ]
+        },
+        "guaranteed_support": {
+          "answers": [
+            "Wikimedia Foundation"
+          ],
+          "parse_ok": true,
+          "strict_set_f1": 1.0,
+          "cited_excerpts": [
+            "Maher was chief communications officer of the Wikimedia Foundation from April 2014 to March 2016"
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "/wiki/Helen_Clark#P39#annotation0",
+      "question": "What governmental role did Helen Elizabeth Clark assume from 1989 to Aug 1989?",
+      "review": "The outputs name different governmental roles supported by their respective excerpts. Neither equals the annotated answer set. This is an answer change, not a scored correction.",
+      "methods": {
+        "possible_support": {
+          "answers": [
+            "Minister of Conservation"
+          ],
+          "parse_ok": true,
+          "strict_set_f1": 0.0,
+          "cited_excerpts": [
+            "She served as Minister of Conservation from August 1987 until January 1989"
+          ]
+        },
+        "guaranteed_support": {
+          "answers": [
+            "Minister of Housing"
+          ],
+          "parse_ok": true,
+          "strict_set_f1": 0.0,
+          "cited_excerpts": [
+            "and as Minister of Housing from August 1987 until August 1989"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "review_type": "Independent model-assisted source semantics review",
+  "not_human_annotations": true,
+  "phase": "Post-freeze confirmation; no rule tuning",
+  "sample": {
+    "size": 60,
+    "population": 678,
+    "excluded_calibration_articles": 86,
+    "selection": "Lowest SHA256(pass4-independent-source-audit-v1 + NUL + claim_id)",
+    "source_split": "TimeQA development, outside pass-4 calibration articles",
+    "source_context": "Full paragraph for every sampled claim"
+  },
+  "event_grounding_counts": {
+    "uncertain": 3,
+    "accept": 52,
+    "reject": 5
+  },
+  "lifecycle_counts": {
+    "unsettled_grounding": 3,
+    "omitted_termination": 11,
+    "matches_reviewed_source": 41,
+    "rejected_grounding": 5
+  },
+  "event_issues": {
+    "adjacent_event_date": 2,
+    "wrong_pronoun_holder": 2,
+    "truncated_named_entity": 2,
+    "compound_role_duration": 1,
+    "multiple_predicates_in_value": 1
+  },
+  "missed_termination_issues": {
+    "observed_later_end": 7,
+    "temporary_trial_ended": 1,
+    "organization_disbanded": 1,
+    "explicit_relative_duration": 2
+  },
+  "explicit_end_sample_records": 29,
+  "explicit_end_accepted_grounding": 27,
+  "source_word_and_span_integrity": "All 792 claims and 32332 source paragraphs pass independent literal and partition checks. See integrity_report.json.",
+  "direct_pairs": "All three DEV pairs were reviewed in calibration. No direct pair falls outside calibration.",
+  "no_tuning_after_audit": true,
+  "answer_label_reads": 0,
+  "claims_sha256": "9bf8aab587ed13334d15860f7d286253c5353ed06e4b8e6f3eb1eb2bf4fca143",
+  "adapter_sha256_at_review": "e55a2981bc5e04f84e1534be37669f79860d54fe975f6df0921f0eca618cc74f",
+  "interpretation": "These are model-assisted judgments on a small deterministic sample. Literal grounding is distinct from semantic grounding and lifecycle completeness. The certificate remains exact only for the declared extracted model."
+}

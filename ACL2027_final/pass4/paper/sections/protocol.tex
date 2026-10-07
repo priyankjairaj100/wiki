@@ -1,0 +1,53 @@
+\section{Evaluation Protocol}
+\label{sec:protocol}
+
+We evaluate support decisions, context certificates, retrieved evidence, and generated answers.
+The natural-source experiments use original TimeQA paragraphs~\citep{chen2021timeqa}.
+Source extraction receives article titles, paragraph text, identifiers, and paragraph order.
+Retrieval receives only the visible question.
+Question identifiers serve as opaque scoring keys.
+Answers and annotated spans enter scoring only.
+
+\paragraph{Calibration and confirmation.}
+A fixed hash selects 176 development questions from 50 articles for ranking calibration.
+Separate source inspections guide extraction rules and their semantic audit.
+The source adapter then remains fixed throughout confirmation.
+We evaluate 2,348 template questions from 644 articles and 830 human-written questions from 251 articles.
+Both tracks search their complete source pools.
+These contain 32,332 and 33,493 paragraphs, respectively.
+The appendix records earlier inspected outcomes, calibration exclusions, and all input hashes.
+
+\paragraph{Fixed ranking and matched controls.}
+The selected ranking links the longest public article title appearing in the question.
+It removes matched title words before BM25 scoring, using $k_1=1.5$ and $b=0.75$~\citep{robertson1995bm25}.
+Linked excerpts receive priority; all other corpus excerpts remain in the complete ranking.
+Six ranking variants compete on the pilot before confirmation.
+Every temporal policy shares source units, bounds, replacement pairs, ranking, and tie breaks.
+We compare earliest, midpoint, and latest date completion against possible and guaranteed support.
+The interval control tests start and explicit-end overlap, ignoring cross-claim replacement.
+The no-filter control retains all excerpts.
+Separate ranking controls use original BM25 and latest-year reranking within twenty lexical candidates.
+We also apply that recency rule to the selected title-aware ranking.
+
+\paragraph{Evidence budgets and measurements.}
+Each context holds five source excerpts and at most 768 source-text words.
+Words are separated by whitespace; source titles and temporal metadata add prompt text.
+Every method retains unmodeled text under the same fallback policy.
+We average each question's fraction of annotated spans fully contained in its shown excerpts.
+A parent paragraph match alone earns no span credit.
+We report stability separately for contexts with modeled claims and contexts containing only fallback text.
+Every unstable context receives two complete date assignments with different selections.
+An independent evaluator replays those assignments.
+Confidence intervals use 2,000 paired article-cluster resamples, with seed 20261006.
+
+\paragraph{Answer generation.}
+We run Qwen2.5-3B-Instruct with official Q4\_K\_M weights and a pinned CPU runtime~\citep{qwen2024model}.
+A fixed hash selects 60 human questions from 55 articles before generation.
+Ten methods yield 600 logical conditions.
+Identical prompts share one generation, with every question--method membership retained.
+Temperature is zero, seed is 1729, and the output limit is 96 tokens.
+The prompt requests all supported answers and cited excerpt numbers in JSON.
+Parsing follows the earlier frozen protocol.
+Invalid responses contribute empty answers and remain in every denominator.
+We score exact annotated answer sets and strict set F1.
+The release contains complete prompts, raw outputs, timing, and request hashes.

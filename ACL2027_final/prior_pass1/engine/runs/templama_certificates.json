@@ -1,0 +1,5864 @@
+{
+  "schema": "direct-witness-certificates-v1",
+  "semantics": {
+    "boundary": "earliest strictly later accepted direct witness",
+    "interval": "[start,end)",
+    "null_end": "positive infinity",
+    "tie_policy": "lexicographically smallest cid at earliest witness time",
+    "undated_policy": "excluded as-of; retained current",
+    "time_axis": "input source timestamp; no inferred event time",
+    "guarantee": "eligibility relative to the supplied pair predicate"
+  },
+  "provenance": {
+    "visible_input_sha256": "8a5a867bef9c326ce4ccafdc83550cbcd34abc5029a45544bca18eaecdda4d45",
+    "engine_sha256": "ea84e2e55e8e9cd2f08b93fcbc943fa10d5a85c1866715d4cc14849bd422c8ee",
+    "gate": {
+      "name": "SupersessionDetector unchanged pair gates",
+      "config": {
+        "frame_threshold": 0.5,
+        "token_threshold": 0.5,
+        "use_subject": true,
+        "use_value": true,
+        "positional": false,
+        "role_aware": false
+      },
+      "source_sha256": {
+        "features.py": "bdefbc372fd5dc337503384c5100f7aee44af2466c6e6b86c6dce5c73df19ac2",
+        "signals.py": "b61ac9093328e374d14a9748ae133560f13f283a3ed28cd0c2bfd91131cb4eb8",
+        "parse/text.py": "1a6b4c54e8630d25c52c265b488c53fde7e2a761387637025f3e410f4eb2b729"
+      }
+    },
+    "blocking": "complete candidate keys",
+    "input_file_sha256": "6489bce610ae2677a454a06a1af1a07c0d376d638a1ce1ac6ca5eccc6c5ef354"
+  },
+  "stats": {
+    "claims": 747,
+    "dated_claims": 747,
+    "undated_claims": 0,
+    "posting_visits": 36195,
+    "pair_tests": 26538,
+    "witnesses": 442
+  },
+  "certificates": [
+    {
+      "cid": "tl:Q10002_P6:2010:Q2156366",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q10002_P6:2015:Q1452565",
+      "doc_id": "tl:Q10002_P6:2010"
+    },
+    {
+      "cid": "tl:Q10002_P6:2015:Q1452565",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10002_P6:2015"
+    },
+    {
+      "cid": "tl:Q1000_P6:2016:Q5373253",
+      "start": 2016.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1000_P6:2020:Q60594089",
+      "doc_id": "tl:Q1000_P6:2016"
+    },
+    {
+      "cid": "tl:Q1000_P6:2020:Q60594089",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1000_P6:2020"
+    },
+    {
+      "cid": "tl:Q100188_P6:2010:Q567934",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q100188_P6:2012:Q267857",
+      "doc_id": "tl:Q100188_P6:2010"
+    },
+    {
+      "cid": "tl:Q100188_P6:2012:Q267857",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q100188_P6:2012"
+    },
+    {
+      "cid": "tl:Q1002010_P488:2010:Q6539250",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1002010_P488:2011:Q8292013",
+      "doc_id": "tl:Q1002010_P488:2010"
+    },
+    {
+      "cid": "tl:Q1002010_P488:2011:Q8292013",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1002010_P488:2011"
+    },
+    {
+      "cid": "tl:Q1002295_P102:2010:Q200599",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1002295_P102:2013:Q15246541",
+      "doc_id": "tl:Q1002295_P102:2010"
+    },
+    {
+      "cid": "tl:Q1002295_P102:2013:Q15246541",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1002295_P102:2013"
+    },
+    {
+      "cid": "tl:Q1003357_P286:2010:Q3351136",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1003357_P286:2014:Q1275560",
+      "doc_id": "tl:Q1003357_P286:2010"
+    },
+    {
+      "cid": "tl:Q1003357_P286:2014:Q1275560",
+      "start": 2014.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1003357_P286:2016:Q3351136",
+      "doc_id": "tl:Q1003357_P286:2014"
+    },
+    {
+      "cid": "tl:Q1003357_P286:2016:Q3351136",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1003357_P286:2016"
+    },
+    {
+      "cid": "tl:Q100560206_P69:2010:Q4924484",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q100560206_P69:2016:Q21578",
+      "doc_id": "tl:Q100560206_P69:2010"
+    },
+    {
+      "cid": "tl:Q100560206_P69:2016:Q21578",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q100560206_P69:2016"
+    },
+    {
+      "cid": "tl:Q1005_P6:2010:Q57356",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1005_P6:2018:Q27917049",
+      "doc_id": "tl:Q1005_P6:2010"
+    },
+    {
+      "cid": "tl:Q1005_P6:2018:Q27917049",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1005_P6:2018"
+    },
+    {
+      "cid": "tl:Q1006_P6:2010:Q21855433",
+      "start": 2010.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1006_P6:2019:Q5984807",
+      "doc_id": "tl:Q1006_P6:2010"
+    },
+    {
+      "cid": "tl:Q1006_P6:2019:Q5984807",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1006_P6:2019"
+    },
+    {
+      "cid": "tl:Q100749_P108:2013:Q317070",
+      "start": 2013.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q100749_P108:2016:Q55044",
+      "doc_id": "tl:Q100749_P108:2013"
+    },
+    {
+      "cid": "tl:Q100749_P108:2016:Q55044",
+      "start": 2016.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q100749_P108:2017:Q314073",
+      "doc_id": "tl:Q100749_P108:2016"
+    },
+    {
+      "cid": "tl:Q100749_P108:2017:Q314073",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q100749_P108:2017"
+    },
+    {
+      "cid": "tl:Q100_P6:2010:Q941404",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q100_P6:2015:Q15126384",
+      "doc_id": "tl:Q100_P6:2010"
+    },
+    {
+      "cid": "tl:Q100_P6:2015:Q15126384",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q100_P6:2015"
+    },
+    {
+      "cid": "tl:Q10132_P286:2010:Q2118577",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q10132_P286:2018:Q193361",
+      "doc_id": "tl:Q10132_P286:2010"
+    },
+    {
+      "cid": "tl:Q10132_P286:2018:Q193361",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10132_P286:2018"
+    },
+    {
+      "cid": "tl:Q101410_P102:2010:Q173152",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q101410_P102:2015:Q20012759",
+      "doc_id": "tl:Q101410_P102:2010"
+    },
+    {
+      "cid": "tl:Q101410_P102:2015:Q20012759",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q101410_P102:2015"
+    },
+    {
+      "cid": "tl:Q101959_P286:2017:Q73135",
+      "start": 2017.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q101959_P286:2019:Q542990",
+      "doc_id": "tl:Q101959_P286:2017"
+    },
+    {
+      "cid": "tl:Q101959_P286:2019:Q542990",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q101959_P286:2019"
+    },
+    {
+      "cid": "tl:Q1021708_P39:2010:Q5199072",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1021708_P39:2014:Q27169",
+      "doc_id": "tl:Q1021708_P39:2010"
+    },
+    {
+      "cid": "tl:Q1021708_P39:2014:Q27169",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1021708_P39:2014"
+    },
+    {
+      "cid": "tl:Q102178_P488:2010:Q313594",
+      "start": 2010.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q102178_P488:2019:Q1430324",
+      "doc_id": "tl:Q102178_P488:2010"
+    },
+    {
+      "cid": "tl:Q102178_P488:2019:Q1430324",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q102178_P488:2019"
+    },
+    {
+      "cid": "tl:Q10225_P488:2010:Q10218",
+      "start": 2010.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q10225_P488:2019:Q163225",
+      "doc_id": "tl:Q10225_P488:2010"
+    },
+    {
+      "cid": "tl:Q10225_P488:2019:Q163225",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10225_P488:2019"
+    },
+    {
+      "cid": "tl:Q1023028_P286:2013:Q1357668",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1023028_P286:2015:Q1357846",
+      "doc_id": "tl:Q1023028_P286:2013"
+    },
+    {
+      "cid": "tl:Q1023028_P286:2015:Q1357846",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1023028_P286:2015"
+    },
+    {
+      "cid": "tl:Q1023227_P286:2015:Q2718715",
+      "start": 2015.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1023227_P286:2019:Q11929086",
+      "doc_id": "tl:Q1023227_P286:2015"
+    },
+    {
+      "cid": "tl:Q1023227_P286:2019:Q11929086",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1023227_P286:2019"
+    },
+    {
+      "cid": "tl:Q1024463_P286:2010:Q10459412",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1024463_P286:2013:Q12731015",
+      "doc_id": "tl:Q1024463_P286:2010"
+    },
+    {
+      "cid": "tl:Q1024463_P286:2013:Q12731015",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1024463_P286:2015:Q1133257",
+      "doc_id": "tl:Q1024463_P286:2013"
+    },
+    {
+      "cid": "tl:Q1024463_P286:2015:Q1133257",
+      "start": 2015.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1024463_P286:2016:Q1336950",
+      "doc_id": "tl:Q1024463_P286:2015"
+    },
+    {
+      "cid": "tl:Q1024463_P286:2016:Q1336950",
+      "start": 2016.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1024463_P286:2017:Q1158981",
+      "doc_id": "tl:Q1024463_P286:2016"
+    },
+    {
+      "cid": "tl:Q1024463_P286:2017:Q1158981",
+      "start": 2017.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1024463_P286:2018:Q10447891",
+      "doc_id": "tl:Q1024463_P286:2017"
+    },
+    {
+      "cid": "tl:Q1024463_P286:2018:Q10447891",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1024463_P286:2019:Q6501332",
+      "doc_id": "tl:Q1024463_P286:2018"
+    },
+    {
+      "cid": "tl:Q1024463_P286:2019:Q6501332",
+      "start": 2019.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1024463_P286:2020:Q558873",
+      "doc_id": "tl:Q1024463_P286:2019"
+    },
+    {
+      "cid": "tl:Q1024463_P286:2020:Q558873",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1024463_P286:2020"
+    },
+    {
+      "cid": "tl:Q102720_P286:2015:Q742429",
+      "start": 2015.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q102720_P286:2019:Q57079",
+      "doc_id": "tl:Q102720_P286:2015"
+    },
+    {
+      "cid": "tl:Q102720_P286:2019:Q57079",
+      "start": 2019.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q102720_P286:2020:Q2642761",
+      "doc_id": "tl:Q102720_P286:2019"
+    },
+    {
+      "cid": "tl:Q102720_P286:2020:Q2642761",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q102720_P286:2020"
+    },
+    {
+      "cid": "tl:Q1029527_P39:2010:Q30185",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1029527_P39:2011:Q13218630",
+      "doc_id": "tl:Q1029527_P39:2010"
+    },
+    {
+      "cid": "tl:Q1029527_P39:2011:Q13218630",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q11669_P39:2013:Q13218630",
+      "doc_id": "tl:Q1029527_P39:2011"
+    },
+    {
+      "cid": "tl:Q1029792_P488:2010:Q2977816",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1029792_P488:2013:Q561213",
+      "doc_id": "tl:Q1029792_P488:2010"
+    },
+    {
+      "cid": "tl:Q1029792_P488:2013:Q561213",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1186234_P488:2015:Q81065",
+      "doc_id": "tl:Q1029792_P488:2013"
+    },
+    {
+      "cid": "tl:Q1029792_P488:2016:Q15629005",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1029792_P488:2016"
+    },
+    {
+      "cid": "tl:Q10300_P286:2017:Q2637295",
+      "start": 2017.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q10300_P286:2020:Q2311040",
+      "doc_id": "tl:Q10300_P286:2017"
+    },
+    {
+      "cid": "tl:Q10300_P286:2020:Q2311040",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10300_P286:2020"
+    },
+    {
+      "cid": "tl:Q10304982_P102:2010:Q732852",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q10304982_P102:2016:Q2626213",
+      "doc_id": "tl:Q10304982_P102:2010"
+    },
+    {
+      "cid": "tl:Q10304982_P102:2016:Q2626213",
+      "start": 2016.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q10304982_P102:2019:Q2366265",
+      "doc_id": "tl:Q10304982_P102:2016"
+    },
+    {
+      "cid": "tl:Q10304982_P102:2019:Q2366265",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10304982_P102:2019"
+    },
+    {
+      "cid": "tl:Q10308_P286:2018:Q775389",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q10308_P286:2019:Q470994",
+      "doc_id": "tl:Q10308_P286:2018"
+    },
+    {
+      "cid": "tl:Q10308_P286:2019:Q470994",
+      "start": 2019.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q10308_P286:2020:Q299488",
+      "doc_id": "tl:Q10308_P286:2019"
+    },
+    {
+      "cid": "tl:Q10308_P286:2020:Q299488",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10308_P286:2020"
+    },
+    {
+      "cid": "tl:Q1031200_P286:2013:Q5019280",
+      "start": 2013.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1031200_P286:2018:Q3768101",
+      "doc_id": "tl:Q1031200_P286:2013"
+    },
+    {
+      "cid": "tl:Q1031200_P286:2018:Q3768101",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1031200_P286:2018"
+    },
+    {
+      "cid": "tl:Q10325468_P108:2010:Q2060678",
+      "start": 2010.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q10325468_P108:2019:Q7894395",
+      "doc_id": "tl:Q10325468_P108:2010"
+    },
+    {
+      "cid": "tl:Q10325468_P108:2019:Q7894395",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10325468_P108:2019"
+    },
+    {
+      "cid": "tl:Q1032587_P102:2010:Q2055003",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1032587_P102:2012:Q5846148",
+      "doc_id": "tl:Q1032587_P102:2010"
+    },
+    {
+      "cid": "tl:Q1032587_P102:2012:Q5846148",
+      "start": 2012.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1032587_P102:2015:Q20103988",
+      "doc_id": "tl:Q1032587_P102:2012"
+    },
+    {
+      "cid": "tl:Q1032587_P102:2015:Q20103988",
+      "start": 2015.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1032587_P102:2018:Q150068",
+      "doc_id": "tl:Q1032587_P102:2015"
+    },
+    {
+      "cid": "tl:Q1032587_P102:2018:Q150068",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1032587_P102:2018"
+    },
+    {
+      "cid": "tl:Q10329_P286:2013:Q295610",
+      "start": 2013.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q10329_P286:2017:Q297768",
+      "doc_id": "tl:Q10329_P286:2013"
+    },
+    {
+      "cid": "tl:Q10329_P286:2017:Q297768",
+      "start": 2017.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q10329_P286:2019:Q11697229",
+      "doc_id": "tl:Q10329_P286:2017"
+    },
+    {
+      "cid": "tl:Q10329_P286:2019:Q11697229",
+      "start": 2019.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q10329_P286:2020:Q115119",
+      "doc_id": "tl:Q10329_P286:2019"
+    },
+    {
+      "cid": "tl:Q10329_P286:2020:Q115119",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10329_P286:2020"
+    },
+    {
+      "cid": "tl:Q10333_P286:2012:Q359118",
+      "start": 2012.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q10333_P286:2017:Q1339589",
+      "doc_id": "tl:Q10333_P286:2012"
+    },
+    {
+      "cid": "tl:Q10333_P286:2017:Q1339589",
+      "start": 2017.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q10333_P286:2020:Q4886441",
+      "doc_id": "tl:Q10333_P286:2017"
+    },
+    {
+      "cid": "tl:Q10333_P286:2020:Q4886441",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10333_P286:2020"
+    },
+    {
+      "cid": "tl:Q10340805_P102:2010:Q429972",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q10340805_P102:2012:Q2054750",
+      "doc_id": "tl:Q10340805_P102:2010"
+    },
+    {
+      "cid": "tl:Q10340805_P102:2012:Q2054750",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10340805_P102:2012"
+    },
+    {
+      "cid": "tl:Q10357316_P127:2010:Q1411661",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q10357316_P127:2016:Q20730106",
+      "doc_id": "tl:Q10357316_P127:2010"
+    },
+    {
+      "cid": "tl:Q10357316_P127:2016:Q20730106",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10357316_P127:2016"
+    },
+    {
+      "cid": "tl:Q1037_P6:2014:Q17417622",
+      "start": 2014.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1037_P6:2017:Q38188115",
+      "doc_id": "tl:Q1037_P6:2014"
+    },
+    {
+      "cid": "tl:Q1037_P6:2017:Q38188115",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1037_P6:2017"
+    },
+    {
+      "cid": "tl:Q10380008_P54:2010:Q48843",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q10380008_P54:2011:Q19568",
+      "doc_id": "tl:Q10380008_P54:2010"
+    },
+    {
+      "cid": "tl:Q10380008_P54:2011:Q19568",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q10380008_P54:2012:Q48949",
+      "doc_id": "tl:Q10380008_P54:2011"
+    },
+    {
+      "cid": "tl:Q10380008_P54:2012:Q48949",
+      "start": 2012.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q10380008_P54:2013:Q48929",
+      "doc_id": "tl:Q10380008_P54:2012"
+    },
+    {
+      "cid": "tl:Q10380008_P54:2013:Q48929",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q10380008_P54:2015:Q18525",
+      "doc_id": "tl:Q10380008_P54:2013"
+    },
+    {
+      "cid": "tl:Q10380008_P54:2015:Q18525",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10380008_P54:2015"
+    },
+    {
+      "cid": "tl:Q10382139_P54:2010:Q19592",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q10382139_P54:2014:Q48945",
+      "doc_id": "tl:Q10382139_P54:2010"
+    },
+    {
+      "cid": "tl:Q10382139_P54:2014:Q48945",
+      "start": 2014.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q10382139_P54:2016:Q18515",
+      "doc_id": "tl:Q10382139_P54:2014"
+    },
+    {
+      "cid": "tl:Q10382139_P54:2016:Q18515",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10382139_P54:2016"
+    },
+    {
+      "cid": "tl:Q10403942_P127:2010:Q1543093",
+      "start": 2010.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10403942_P127:2010"
+    },
+    {
+      "cid": "tl:Q10403942_P127:2015:Q892825",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10403942_P127:2015"
+    },
+    {
+      "cid": "tl:Q1040719_P286:2011:Q3817556",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1040719_P286:2013:Q61634988",
+      "doc_id": "tl:Q1040719_P286:2011"
+    },
+    {
+      "cid": "tl:Q1040719_P286:2013:Q61634988",
+      "start": 2013.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1040719_P286:2014:Q16214008",
+      "doc_id": "tl:Q1040719_P286:2013"
+    },
+    {
+      "cid": "tl:Q1040719_P286:2014:Q16214008",
+      "start": 2014.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1040719_P286:2017:Q3824776",
+      "doc_id": "tl:Q1040719_P286:2014"
+    },
+    {
+      "cid": "tl:Q1040719_P286:2017:Q3824776",
+      "start": 2017.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1040719_P286:2019:Q6896737",
+      "doc_id": "tl:Q1040719_P286:2017"
+    },
+    {
+      "cid": "tl:Q1040719_P286:2019:Q6896737",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1040719_P286:2019"
+    },
+    {
+      "cid": "tl:Q10413488_P54:2010:Q18528",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q10413488_P54:2011:Q19575",
+      "doc_id": "tl:Q10413488_P54:2010"
+    },
+    {
+      "cid": "tl:Q10413488_P54:2011:Q19575",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q10413488_P54:2012:Q19568",
+      "doc_id": "tl:Q10413488_P54:2011"
+    },
+    {
+      "cid": "tl:Q10413488_P54:2012:Q19568",
+      "start": 2012.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q10413488_P54:2015:Q163547",
+      "doc_id": "tl:Q10413488_P54:2012"
+    },
+    {
+      "cid": "tl:Q10413488_P54:2015:Q163547",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10413488_P54:2015"
+    },
+    {
+      "cid": "tl:Q1041_P6:2014:Q17320405",
+      "start": 2014.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1041_P6:2019:Q57438",
+      "doc_id": "tl:Q1041_P6:2014"
+    },
+    {
+      "cid": "tl:Q1041_P6:2019:Q57438",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1041_P6:2019"
+    },
+    {
+      "cid": "tl:Q1042470_P108:2010:Q180438",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1042470_P108:2012:Q2302586",
+      "doc_id": "tl:Q1042470_P108:2010"
+    },
+    {
+      "cid": "tl:Q1042470_P108:2012:Q2302586",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1042470_P108:2012"
+    },
+    {
+      "cid": "tl:Q1042743_P54:2010:Q692417",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1042743_P54:2012:Q504309",
+      "doc_id": "tl:Q1042743_P54:2010"
+    },
+    {
+      "cid": "tl:Q1042743_P54:2012:Q504309",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1042743_P54:2012"
+    },
+    {
+      "cid": "tl:Q1042829_P286:2011:Q358718",
+      "start": 2011.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1042829_P286:2017:Q16185621",
+      "doc_id": "tl:Q1042829_P286:2011"
+    },
+    {
+      "cid": "tl:Q1042829_P286:2017:Q16185621",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1042829_P286:2017"
+    },
+    {
+      "cid": "tl:Q1045461_P54:2010:Q223511",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1045461_P54:2011:Q324523",
+      "doc_id": "tl:Q1045461_P54:2010"
+    },
+    {
+      "cid": "tl:Q1045461_P54:2011:Q324523",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1045461_P54:2013:Q224164",
+      "doc_id": "tl:Q1045461_P54:2011"
+    },
+    {
+      "cid": "tl:Q1045461_P54:2013:Q224164",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1045461_P54:2013"
+    },
+    {
+      "cid": "tl:Q1045_P6:2017:Q28824125",
+      "start": 2017.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1045_P6:2020:Q97703983",
+      "doc_id": "tl:Q1045_P6:2017"
+    },
+    {
+      "cid": "tl:Q1045_P6:2020:Q97703983",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1045_P6:2020"
+    },
+    {
+      "cid": "tl:Q1046445_P286:2010:Q7169974",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1046445_P286:2011:Q10379449",
+      "doc_id": "tl:Q1046445_P286:2010"
+    },
+    {
+      "cid": "tl:Q1046445_P286:2011:Q10379449",
+      "start": 2011.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1046445_P286:2015:Q5414497",
+      "doc_id": "tl:Q1046445_P286:2011"
+    },
+    {
+      "cid": "tl:Q1046445_P286:2015:Q5414497",
+      "start": 2015.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1046445_P286:2016:Q4251102",
+      "doc_id": "tl:Q1046445_P286:2015"
+    },
+    {
+      "cid": "tl:Q1046445_P286:2016:Q4251102",
+      "start": 2016.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1046445_P286:2018:Q1365656",
+      "doc_id": "tl:Q1046445_P286:2016"
+    },
+    {
+      "cid": "tl:Q1046445_P286:2018:Q1365656",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1046445_P286:2018"
+    },
+    {
+      "cid": "tl:Q1046939_P286:2012:Q3775763",
+      "start": 2012.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1046939_P286:2018:Q3412138",
+      "doc_id": "tl:Q1046939_P286:2012"
+    },
+    {
+      "cid": "tl:Q1046939_P286:2018:Q3412138",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1046939_P286:2018"
+    },
+    {
+      "cid": "tl:Q104746_P6:2016:Q4753774",
+      "start": 2016.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q104746_P6:2018:Q4941267",
+      "doc_id": "tl:Q104746_P6:2016"
+    },
+    {
+      "cid": "tl:Q104746_P6:2018:Q4941267",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q104746_P6:2018"
+    },
+    {
+      "cid": "tl:Q1047535_P286:2011:Q3303125",
+      "start": 2011.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1047535_P286:2014:Q3246328",
+      "doc_id": "tl:Q1047535_P286:2011"
+    },
+    {
+      "cid": "tl:Q1047535_P286:2014:Q3246328",
+      "start": 2014.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1047535_P286:2015:Q248231",
+      "doc_id": "tl:Q1047535_P286:2014"
+    },
+    {
+      "cid": "tl:Q1047535_P286:2015:Q248231",
+      "start": 2015.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1047535_P286:2016:Q1389828",
+      "doc_id": "tl:Q1047535_P286:2015"
+    },
+    {
+      "cid": "tl:Q1047535_P286:2016:Q1389828",
+      "start": 2016.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1047535_P286:2017:Q1524487",
+      "doc_id": "tl:Q1047535_P286:2016"
+    },
+    {
+      "cid": "tl:Q1047535_P286:2017:Q1524487",
+      "start": 2017.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1047535_P286:2018:Q1290372",
+      "doc_id": "tl:Q1047535_P286:2017"
+    },
+    {
+      "cid": "tl:Q1047535_P286:2018:Q1290372",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1047535_P286:2019:Q1256025",
+      "doc_id": "tl:Q1047535_P286:2018"
+    },
+    {
+      "cid": "tl:Q1047535_P286:2019:Q1256025",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1047535_P286:2019"
+    },
+    {
+      "cid": "tl:Q104761_P286:2010:Q152107",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q104761_P286:2017:Q677546",
+      "doc_id": "tl:Q104761_P286:2010"
+    },
+    {
+      "cid": "tl:Q104761_P286:2017:Q677546",
+      "start": 2017.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q104761_P286:2018:Q1029982",
+      "doc_id": "tl:Q104761_P286:2017"
+    },
+    {
+      "cid": "tl:Q104761_P286:2018:Q1029982",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q104761_P286:2018"
+    },
+    {
+      "cid": "tl:Q104770_P286:2018:Q1568284",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q104770_P286:2019:Q19257969",
+      "doc_id": "tl:Q104770_P286:2018"
+    },
+    {
+      "cid": "tl:Q104770_P286:2019:Q19257969",
+      "start": 2019.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q104770_P286:2020:Q9318057",
+      "doc_id": "tl:Q104770_P286:2019"
+    },
+    {
+      "cid": "tl:Q104770_P286:2020:Q9318057",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q104770_P286:2020"
+    },
+    {
+      "cid": "tl:Q1048192_P488:2014:Q505965",
+      "start": 2014.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1048192_P488:2018:Q3606816",
+      "doc_id": "tl:Q1048192_P488:2014"
+    },
+    {
+      "cid": "tl:Q1048192_P488:2018:Q3606816",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1048192_P488:2018"
+    },
+    {
+      "cid": "tl:Q1049059_P54:2010:Q19490",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1049059_P54:2011:Q19495",
+      "doc_id": "tl:Q1049059_P54:2010"
+    },
+    {
+      "cid": "tl:Q1049059_P54:2011:Q19495",
+      "start": 2011.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1049059_P54:2014:Q19458",
+      "doc_id": "tl:Q1049059_P54:2011"
+    },
+    {
+      "cid": "tl:Q1049059_P54:2014:Q19458",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1049059_P54:2014"
+    },
+    {
+      "cid": "tl:Q1049470_P488:2010:Q41564",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1049470_P488:2011:Q5444313",
+      "doc_id": "tl:Q1049470_P488:2010"
+    },
+    {
+      "cid": "tl:Q1049470_P488:2011:Q5444313",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1049470_P488:2011"
+    },
+    {
+      "cid": "tl:Q105112_P488:2010:Q231413",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q105112_P488:2011:Q714508",
+      "doc_id": "tl:Q105112_P488:2010"
+    },
+    {
+      "cid": "tl:Q105112_P488:2011:Q714508",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q105112_P488:2013:Q2740012",
+      "doc_id": "tl:Q105112_P488:2011"
+    },
+    {
+      "cid": "tl:Q105112_P488:2013:Q2740012",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q105112_P488:2013"
+    },
+    {
+      "cid": "tl:Q10512_P286:2018:Q1704254",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q10512_P286:2020:Q6277636",
+      "doc_id": "tl:Q10512_P286:2018"
+    },
+    {
+      "cid": "tl:Q10512_P286:2020:Q6277636",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10512_P286:2020"
+    },
+    {
+      "cid": "tl:Q10514_P54:2010:Q169898",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q10514_P54:2015:Q172030",
+      "doc_id": "tl:Q10514_P54:2010"
+    },
+    {
+      "cid": "tl:Q10514_P54:2015:Q172030",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10514_P54:2015"
+    },
+    {
+      "cid": "tl:Q1051514_P286:2016:Q711859",
+      "start": 2016.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1051514_P286:2019:Q2407770",
+      "doc_id": "tl:Q1051514_P286:2016"
+    },
+    {
+      "cid": "tl:Q1051514_P286:2019:Q2407770",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1051514_P286:2019"
+    },
+    {
+      "cid": "tl:Q10516040_P54:2011:Q6837797",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q10516040_P54:2013:Q170649",
+      "doc_id": "tl:Q10516040_P54:2011"
+    },
+    {
+      "cid": "tl:Q10516040_P54:2013:Q170649",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10516040_P54:2013"
+    },
+    {
+      "cid": "tl:Q10520_P54:2010:Q204357",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q10520_P54:2013:Q483020",
+      "doc_id": "tl:Q10520_P54:2010"
+    },
+    {
+      "cid": "tl:Q10520_P54:2013:Q483020",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10520_P54:2013"
+    },
+    {
+      "cid": "tl:Q105254_P286:2010:Q702233",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q105254_P286:2015:Q17352998",
+      "doc_id": "tl:Q105254_P286:2010"
+    },
+    {
+      "cid": "tl:Q105254_P286:2015:Q17352998",
+      "start": 2015.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q105254_P286:2018:Q1582732",
+      "doc_id": "tl:Q105254_P286:2015"
+    },
+    {
+      "cid": "tl:Q105254_P286:2018:Q1582732",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q105254_P286:2019:Q19257969",
+      "doc_id": "tl:Q105254_P286:2018"
+    },
+    {
+      "cid": "tl:Q105254_P286:2019:Q19257969",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q105254_P286:2019"
+    },
+    {
+      "cid": "tl:Q1054342_P54:2010:Q1059757",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1054342_P54:2011:Q1140533",
+      "doc_id": "tl:Q1054342_P54:2010"
+    },
+    {
+      "cid": "tl:Q1054342_P54:2011:Q1140533",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1054342_P54:2012:Q137747",
+      "doc_id": "tl:Q1054342_P54:2011"
+    },
+    {
+      "cid": "tl:Q1054342_P54:2012:Q137747",
+      "start": 2012.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1054342_P54:2013:Q141045",
+      "doc_id": "tl:Q1054342_P54:2012"
+    },
+    {
+      "cid": "tl:Q1054342_P54:2013:Q141045",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1054342_P54:2015:Q1278130",
+      "doc_id": "tl:Q1054342_P54:2013"
+    },
+    {
+      "cid": "tl:Q1054342_P54:2015:Q1278130",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1054342_P54:2015"
+    },
+    {
+      "cid": "tl:Q10543612_P39:2010:Q140686",
+      "start": 2010.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10543612_P39:2010"
+    },
+    {
+      "cid": "tl:Q10543612_P39:2019:Q4801269",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10543612_P39:2019"
+    },
+    {
+      "cid": "tl:Q10552391_P54:2010:Q7419312",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q10552391_P54:2011:Q1671357",
+      "doc_id": "tl:Q10552391_P54:2010"
+    },
+    {
+      "cid": "tl:Q10552391_P54:2011:Q1671357",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10552391_P54:2011"
+    },
+    {
+      "cid": "tl:Q10552391_P54:2013:Q334526",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10552391_P54:2013"
+    },
+    {
+      "cid": "tl:Q10553748_P54:2011:Q248188",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q10553748_P54:2012:Q2752922",
+      "doc_id": "tl:Q10553748_P54:2011"
+    },
+    {
+      "cid": "tl:Q10553748_P54:2012:Q2752922",
+      "start": 2012.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q10553748_P54:2015:Q248188",
+      "doc_id": "tl:Q10553748_P54:2012"
+    },
+    {
+      "cid": "tl:Q10553748_P54:2014:Q2358861",
+      "start": 2014.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q10553748_P54:2015:Q248188",
+      "doc_id": "tl:Q10553748_P54:2014"
+    },
+    {
+      "cid": "tl:Q10553748_P54:2015:Q248188",
+      "start": 2015.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q10553748_P54:2016:Q204238",
+      "doc_id": "tl:Q10553748_P54:2015"
+    },
+    {
+      "cid": "tl:Q10553748_P54:2016:Q204238",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10553748_P54:2016"
+    },
+    {
+      "cid": "tl:Q1055449_P39:2010:Q27169",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1055449_P39:2012:Q1553195",
+      "doc_id": "tl:Q1055449_P39:2010"
+    },
+    {
+      "cid": "tl:Q1055449_P39:2012:Q1553195",
+      "start": 2012.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1055449_P39:2016:Q27169",
+      "doc_id": "tl:Q1055449_P39:2012"
+    },
+    {
+      "cid": "tl:Q1055449_P39:2016:Q27169",
+      "start": 2016.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1055449_P39:2018:Q4011164",
+      "doc_id": "tl:Q1055449_P39:2016"
+    },
+    {
+      "cid": "tl:Q1055449_P39:2018:Q4011164",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1055449_P39:2018"
+    },
+    {
+      "cid": "tl:Q105564_P102:2013:Q6721203",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q105564_P102:2015:Q20681849",
+      "doc_id": "tl:Q105564_P102:2013"
+    },
+    {
+      "cid": "tl:Q105564_P102:2015:Q20681849",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q105564_P102:2015"
+    },
+    {
+      "cid": "tl:Q1055_P6:2010:Q60426",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1055_P6:2011:Q61053",
+      "doc_id": "tl:Q1055_P6:2010"
+    },
+    {
+      "cid": "tl:Q1055_P6:2011:Q61053",
+      "start": 2011.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1055_P6:2019:Q971774",
+      "doc_id": "tl:Q1055_P6:2011"
+    },
+    {
+      "cid": "tl:Q1055_P6:2019:Q971774",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1055_P6:2019"
+    },
+    {
+      "cid": "tl:Q10560_P54:2010:Q308683",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q10560_P54:2011:Q823384",
+      "doc_id": "tl:Q10560_P54:2010"
+    },
+    {
+      "cid": "tl:Q10560_P54:2011:Q823384",
+      "start": 2011.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q10560_P54:2014:Q16845355",
+      "doc_id": "tl:Q10560_P54:2011"
+    },
+    {
+      "cid": "tl:Q10560_P54:2014:Q16845355",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10560_P54:2014"
+    },
+    {
+      "cid": "tl:Q10577_P54:2010:Q2714",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q10577_P54:2011:Q204238",
+      "doc_id": "tl:Q10577_P54:2010"
+    },
+    {
+      "cid": "tl:Q10577_P54:2011:Q204238",
+      "start": 2011.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q10577_P54:2014:Q18711",
+      "doc_id": "tl:Q10577_P54:2011"
+    },
+    {
+      "cid": "tl:Q10577_P54:2012:Q47762",
+      "start": 2012.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q10577_P54:2014:Q18711",
+      "doc_id": "tl:Q10577_P54:2012"
+    },
+    {
+      "cid": "tl:Q10577_P54:2014:Q18711",
+      "start": 2014.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q10577_P54:2015:Q5794",
+      "doc_id": "tl:Q10577_P54:2014"
+    },
+    {
+      "cid": "tl:Q10577_P54:2015:Q5794",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10577_P54:2015"
+    },
+    {
+      "cid": "tl:Q10585_P54:2010:Q19444",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q10585_P54:2013:Q18744",
+      "doc_id": "tl:Q10585_P54:2010"
+    },
+    {
+      "cid": "tl:Q10585_P54:2013:Q18744",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10585_P54:2013"
+    },
+    {
+      "cid": "tl:Q1058_P39:2010:Q3526627",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1058_P39:2014:Q4294428",
+      "doc_id": "tl:Q1058_P39:2010"
+    },
+    {
+      "cid": "tl:Q1058_P39:2014:Q4294428",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1058_P39:2014"
+    },
+    {
+      "cid": "tl:Q10590_P54:2010:Q18723",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q10590_P54:2011:Q19598",
+      "doc_id": "tl:Q10590_P54:2010"
+    },
+    {
+      "cid": "tl:Q10590_P54:2011:Q19598",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q10590_P54:2013:Q9426",
+      "doc_id": "tl:Q10590_P54:2011"
+    },
+    {
+      "cid": "tl:Q10590_P54:2013:Q9426",
+      "start": 2013.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q10590_P54:2014:Q18527",
+      "doc_id": "tl:Q10590_P54:2013"
+    },
+    {
+      "cid": "tl:Q10590_P54:2014:Q18527",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10590_P54:2014"
+    },
+    {
+      "cid": "tl:Q1059186_P286:2018:Q4172923",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1059186_P286:2019:Q2655477",
+      "doc_id": "tl:Q1059186_P286:2018"
+    },
+    {
+      "cid": "tl:Q1059186_P286:2019:Q2655477",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1059186_P286:2019"
+    },
+    {
+      "cid": "tl:Q10602_P54:2010:Q18711",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q10602_P54:2012:Q47762",
+      "doc_id": "tl:Q10602_P54:2010"
+    },
+    {
+      "cid": "tl:Q10602_P54:2012:Q47762",
+      "start": 2012.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q10602_P54:2014:Q18656",
+      "doc_id": "tl:Q10602_P54:2012"
+    },
+    {
+      "cid": "tl:Q10602_P54:2014:Q18656",
+      "start": 2014.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q10602_P54:2020:Q631",
+      "doc_id": "tl:Q10602_P54:2014"
+    },
+    {
+      "cid": "tl:Q10602_P54:2020:Q631",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10602_P54:2020"
+    },
+    {
+      "cid": "tl:Q10603_P54:2010:Q2714",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q10603_P54:2013:Q204238",
+      "doc_id": "tl:Q10603_P54:2010"
+    },
+    {
+      "cid": "tl:Q10603_P54:2013:Q204238",
+      "start": 2013.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q10603_P54:2014:Q19458",
+      "doc_id": "tl:Q10603_P54:2013"
+    },
+    {
+      "cid": "tl:Q10603_P54:2014:Q19458",
+      "start": 2014.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q10603_P54:2016:Q19578",
+      "doc_id": "tl:Q10603_P54:2014"
+    },
+    {
+      "cid": "tl:Q10603_P54:2016:Q19578",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10603_P54:2016"
+    },
+    {
+      "cid": "tl:Q1060949_P102:2010:Q1668154",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1060949_P102:2016:Q26871088",
+      "doc_id": "tl:Q1060949_P102:2010"
+    },
+    {
+      "cid": "tl:Q1060949_P102:2016:Q26871088",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1060949_P102:2016"
+    },
+    {
+      "cid": "tl:Q1061627_P286:2012:Q5972505",
+      "start": 2012.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1061627_P286:2016:Q20972402",
+      "doc_id": "tl:Q1061627_P286:2012"
+    },
+    {
+      "cid": "tl:Q1061627_P286:2016:Q20972402",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1061627_P286:2016"
+    },
+    {
+      "cid": "tl:Q1061904_P54:2010:Q1812121",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1061904_P54:2013:Q19446",
+      "doc_id": "tl:Q1061904_P54:2010"
+    },
+    {
+      "cid": "tl:Q1061904_P54:2013:Q19446",
+      "start": 2013.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1061904_P54:2016:Q18708",
+      "doc_id": "tl:Q1061904_P54:2013"
+    },
+    {
+      "cid": "tl:Q1061904_P54:2016:Q18708",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1061904_P54:2016"
+    },
+    {
+      "cid": "tl:Q106394_P286:2010:Q664521",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q106394_P286:2011:Q129121",
+      "doc_id": "tl:Q106394_P286:2010"
+    },
+    {
+      "cid": "tl:Q106394_P286:2011:Q129121",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q106394_P286:2011"
+    },
+    {
+      "cid": "tl:Q10658_P488:2010:Q10652",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q10658_P488:2015:Q467112",
+      "doc_id": "tl:Q10658_P488:2010"
+    },
+    {
+      "cid": "tl:Q10658_P488:2015:Q467112",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10658_P488:2015"
+    },
+    {
+      "cid": "tl:Q1066032_P39:2012:Q75178",
+      "start": 2012.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1066032_P39:2016:Q611644",
+      "doc_id": "tl:Q1066032_P39:2012"
+    },
+    {
+      "cid": "tl:Q1066032_P39:2016:Q611644",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1066032_P39:2016"
+    },
+    {
+      "cid": "tl:Q1066501_P54:2010:Q213837",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1066501_P54:2014:Q324523",
+      "doc_id": "tl:Q1066501_P54:2010"
+    },
+    {
+      "cid": "tl:Q1066501_P54:2014:Q324523",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1066501_P54:2014"
+    },
+    {
+      "cid": "tl:Q10691_P488:2012:Q10694",
+      "start": 2012.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q10691_P488:2018:Q3405033",
+      "doc_id": "tl:Q10691_P488:2012"
+    },
+    {
+      "cid": "tl:Q10691_P488:2018:Q3405033",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10691_P488:2018"
+    },
+    {
+      "cid": "tl:Q1070388_P488:2010:Q2987224",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1070388_P488:2011:Q1711587",
+      "doc_id": "tl:Q1070388_P488:2010"
+    },
+    {
+      "cid": "tl:Q1070388_P488:2011:Q1711587",
+      "start": 2011.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1070388_P488:2014:Q2589861",
+      "doc_id": "tl:Q1070388_P488:2011"
+    },
+    {
+      "cid": "tl:Q1070388_P488:2014:Q2589861",
+      "start": 2014.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1070388_P488:2019:Q16716966",
+      "doc_id": "tl:Q1070388_P488:2014"
+    },
+    {
+      "cid": "tl:Q1070388_P488:2019:Q16716966",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1070388_P488:2019"
+    },
+    {
+      "cid": "tl:Q107051_P54:2010:Q101859",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q107051_P54:2011:Q1422",
+      "doc_id": "tl:Q107051_P54:2010"
+    },
+    {
+      "cid": "tl:Q107051_P54:2011:Q1422",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q107051_P54:2011"
+    },
+    {
+      "cid": "tl:Q107124_P39:2010:Q1162163",
+      "start": 2010.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q107124_P39:2010"
+    },
+    {
+      "cid": "tl:Q107124_P39:2016:Q484876",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q107124_P39:2016"
+    },
+    {
+      "cid": "tl:Q1073219_P488:2010:Q1109829",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1073219_P488:2012:Q7488353",
+      "doc_id": "tl:Q1073219_P488:2010"
+    },
+    {
+      "cid": "tl:Q1073219_P488:2012:Q7488353",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1073219_P488:2012"
+    },
+    {
+      "cid": "tl:Q107365_P54:2010:Q32494",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q107365_P54:2011:Q15789",
+      "doc_id": "tl:Q107365_P54:2010"
+    },
+    {
+      "cid": "tl:Q107365_P54:2011:Q15789",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q107365_P54:2011"
+    },
+    {
+      "cid": "tl:Q1076494_P488:2010:Q630738",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1076494_P488:2014:Q3497963",
+      "doc_id": "tl:Q1076494_P488:2010"
+    },
+    {
+      "cid": "tl:Q1076494_P488:2014:Q3497963",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1076494_P488:2014"
+    },
+    {
+      "cid": "tl:Q1077389_P54:2010:Q320484",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1077389_P54:2015:Q224164",
+      "doc_id": "tl:Q1077389_P54:2010"
+    },
+    {
+      "cid": "tl:Q1077389_P54:2015:Q224164",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1077389_P54:2015"
+    },
+    {
+      "cid": "tl:Q1079331_P108:2010:Q152171",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1079331_P108:2018:Q162684",
+      "doc_id": "tl:Q1079331_P108:2010"
+    },
+    {
+      "cid": "tl:Q1079331_P108:2018:Q162684",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1079331_P108:2018"
+    },
+    {
+      "cid": "tl:Q10819_P39:2010:Q6508563",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q10819_P39:2011:Q844587",
+      "doc_id": "tl:Q10819_P39:2010"
+    },
+    {
+      "cid": "tl:Q10819_P39:2011:Q844587",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10819_P39:2011"
+    },
+    {
+      "cid": "tl:Q1084303_P108:2010:Q161562",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1084303_P108:2011:Q4731705",
+      "doc_id": "tl:Q1084303_P108:2010"
+    },
+    {
+      "cid": "tl:Q1084303_P108:2011:Q4731705",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1084303_P108:2011"
+    },
+    {
+      "cid": "tl:Q108447_P39:2010:Q928764",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q108447_P39:2018:Q568605",
+      "doc_id": "tl:Q108447_P39:2010"
+    },
+    {
+      "cid": "tl:Q108447_P39:2018:Q568605",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q108447_P39:2018"
+    },
+    {
+      "cid": "tl:Q108451_P108:2010:Q273263",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q108451_P108:2017:Q1024426",
+      "doc_id": "tl:Q108451_P108:2010"
+    },
+    {
+      "cid": "tl:Q108451_P108:2017:Q1024426",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q108451_P108:2017"
+    },
+    {
+      "cid": "tl:Q10853588_P39:2011:Q3406489",
+      "start": 2011.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q10853588_P39:2018:Q4416090",
+      "doc_id": "tl:Q10853588_P39:2011"
+    },
+    {
+      "cid": "tl:Q10853588_P39:2018:Q4416090",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10853588_P39:2018"
+    },
+    {
+      "cid": "tl:Q10860995_P54:2011:Q3044339",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q10860995_P54:2013:Q16932",
+      "doc_id": "tl:Q10860995_P54:2011"
+    },
+    {
+      "cid": "tl:Q10860995_P54:2013:Q16932",
+      "start": 2013.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q10860995_P54:2014:Q1683280",
+      "doc_id": "tl:Q10860995_P54:2013"
+    },
+    {
+      "cid": "tl:Q10860995_P54:2014:Q1683280",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10860995_P54:2014"
+    },
+    {
+      "cid": "tl:Q10931647_P127:2010:Q7021083",
+      "start": 2010.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10931647_P127:2010"
+    },
+    {
+      "cid": "tl:Q10931647_P127:2013:Q5384790",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10931647_P127:2013"
+    },
+    {
+      "cid": "tl:Q109362_P69:2010:Q152087",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q109362_P69:2011:Q1352632",
+      "doc_id": "tl:Q109362_P69:2010"
+    },
+    {
+      "cid": "tl:Q109362_P69:2011:Q1352632",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q109362_P69:2011"
+    },
+    {
+      "cid": "tl:Q109397_P54:2010:Q51976",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q109397_P54:2013:Q15789",
+      "doc_id": "tl:Q109397_P54:2010"
+    },
+    {
+      "cid": "tl:Q109397_P54:2013:Q15789",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q109397_P54:2015:Q51976",
+      "doc_id": "tl:Q109397_P54:2013"
+    },
+    {
+      "cid": "tl:Q109397_P54:2015:Q51976",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q109397_P54:2015"
+    },
+    {
+      "cid": "tl:Q109428_P54:2010:Q1422",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q109428_P54:2011:Q8701",
+      "doc_id": "tl:Q109428_P54:2010"
+    },
+    {
+      "cid": "tl:Q109428_P54:2011:Q8701",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q109428_P54:2013:Q101859",
+      "doc_id": "tl:Q109428_P54:2011"
+    },
+    {
+      "cid": "tl:Q109428_P54:2013:Q101859",
+      "start": 2013.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q109428_P54:2014:Q8701",
+      "doc_id": "tl:Q109428_P54:2013"
+    },
+    {
+      "cid": "tl:Q109428_P54:2014:Q8701",
+      "start": 2014.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q109428_P54:2015:Q6601875",
+      "doc_id": "tl:Q109428_P54:2014"
+    },
+    {
+      "cid": "tl:Q109428_P54:2015:Q6601875",
+      "start": 2015.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q109428_P54:2016:Q17479",
+      "doc_id": "tl:Q109428_P54:2015"
+    },
+    {
+      "cid": "tl:Q109428_P54:2016:Q17479",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q109428_P54:2016"
+    },
+    {
+      "cid": "tl:Q1094295_P286:2010:Q5622460",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1094295_P286:2015:Q7356905",
+      "doc_id": "tl:Q1094295_P286:2010"
+    },
+    {
+      "cid": "tl:Q1094295_P286:2015:Q7356905",
+      "start": 2015.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1094295_P286:2017:Q7626471",
+      "doc_id": "tl:Q1094295_P286:2015"
+    },
+    {
+      "cid": "tl:Q1094295_P286:2017:Q7626471",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1094295_P286:2017"
+    },
+    {
+      "cid": "tl:Q10949778_P102:2010:Q1144342",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q10949778_P102:2016:Q1393123",
+      "doc_id": "tl:Q10949778_P102:2010"
+    },
+    {
+      "cid": "tl:Q10949778_P102:2016:Q1393123",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q10949778_P102:2016"
+    },
+    {
+      "cid": "tl:Q1097334_P54:2010:Q18732",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1097334_P54:2013:Q19481",
+      "doc_id": "tl:Q1097334_P54:2010"
+    },
+    {
+      "cid": "tl:Q1097334_P54:2013:Q19481",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1097334_P54:2013"
+    },
+    {
+      "cid": "tl:Q1097511_P54:2010:Q8027119",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1097511_P54:2011:Q223514",
+      "doc_id": "tl:Q1097511_P54:2010"
+    },
+    {
+      "cid": "tl:Q1097511_P54:2011:Q223514",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1097511_P54:2011"
+    },
+    {
+      "cid": "tl:Q11015795_P102:2010:Q669307",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q11015795_P102:2017:Q23774883",
+      "doc_id": "tl:Q11015795_P102:2010"
+    },
+    {
+      "cid": "tl:Q11015795_P102:2017:Q23774883",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11015795_P102:2017"
+    },
+    {
+      "cid": "tl:Q1102044_P102:2010:Q47729",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1102044_P102:2011:Q47781",
+      "doc_id": "tl:Q1102044_P102:2010"
+    },
+    {
+      "cid": "tl:Q1102044_P102:2011:Q47781",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1102044_P102:2011"
+    },
+    {
+      "cid": "tl:Q1107989_P54:2010:Q650840",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1107989_P54:2016:Q329816",
+      "doc_id": "tl:Q1107989_P54:2010"
+    },
+    {
+      "cid": "tl:Q1107989_P54:2016:Q329816",
+      "start": 2016.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1107989_P54:2019:Q246782",
+      "doc_id": "tl:Q1107989_P54:2016"
+    },
+    {
+      "cid": "tl:Q1107989_P54:2019:Q246782",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1107989_P54:2019"
+    },
+    {
+      "cid": "tl:Q11080923_P127:2010:Q721162",
+      "start": 2010.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11080923_P127:2010"
+    },
+    {
+      "cid": "tl:Q11080923_P127:2015:Q5895075",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11080923_P127:2015"
+    },
+    {
+      "cid": "tl:Q110843_P488:2010:Q52920",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q110843_P488:2016:Q4767161",
+      "doc_id": "tl:Q110843_P488:2010"
+    },
+    {
+      "cid": "tl:Q110843_P488:2016:Q4767161",
+      "start": 2016.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q110843_P488:2018:Q1780398",
+      "doc_id": "tl:Q110843_P488:2016"
+    },
+    {
+      "cid": "tl:Q110843_P488:2018:Q1780398",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q110843_P488:2018"
+    },
+    {
+      "cid": "tl:Q110857_P488:2010:Q911372",
+      "start": 2010.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q110857_P488:2020:Q241851",
+      "doc_id": "tl:Q110857_P488:2010"
+    },
+    {
+      "cid": "tl:Q110857_P488:2020:Q241851",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q110857_P488:2020"
+    },
+    {
+      "cid": "tl:Q11112119_P39:2010:Q30185",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q11112119_P39:2015:Q13218630",
+      "doc_id": "tl:Q11112119_P39:2010"
+    },
+    {
+      "cid": "tl:Q11112119_P39:2015:Q13218630",
+      "start": 2015.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q10853588_P39:2018:Q4416090",
+      "doc_id": "tl:Q11112119_P39:2015"
+    },
+    {
+      "cid": "tl:Q1114833_P488:2010:Q1110125",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1114833_P488:2014:Q7002247",
+      "doc_id": "tl:Q1114833_P488:2010"
+    },
+    {
+      "cid": "tl:Q1114833_P488:2014:Q7002247",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1114833_P488:2014"
+    },
+    {
+      "cid": "tl:Q1115878_P488:2010:Q5343985",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1115878_P488:2015:Q7364772",
+      "doc_id": "tl:Q1115878_P488:2010"
+    },
+    {
+      "cid": "tl:Q1115878_P488:2015:Q7364772",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1115878_P488:2015"
+    },
+    {
+      "cid": "tl:Q11163124_P102:2010:Q24665806",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q11163124_P102:2016:Q27108508",
+      "doc_id": "tl:Q11163124_P102:2010"
+    },
+    {
+      "cid": "tl:Q11163124_P102:2016:Q27108508",
+      "start": 2016.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q11163124_P102:2017:Q327591",
+      "doc_id": "tl:Q11163124_P102:2016"
+    },
+    {
+      "cid": "tl:Q11163124_P102:2017:Q327591",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11163124_P102:2017"
+    },
+    {
+      "cid": "tl:Q11171578_P54:2010:Q6783192",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q11171578_P54:2011:Q3489807",
+      "doc_id": "tl:Q11171578_P54:2010"
+    },
+    {
+      "cid": "tl:Q11171578_P54:2011:Q3489807",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q11171578_P54:2012:Q1321565",
+      "doc_id": "tl:Q11171578_P54:2011"
+    },
+    {
+      "cid": "tl:Q11171578_P54:2012:Q1321565",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11171578_P54:2012"
+    },
+    {
+      "cid": "tl:Q11201210_P108:2011:Q618239",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q11201210_P108:2013:Q869662",
+      "doc_id": "tl:Q11201210_P108:2011"
+    },
+    {
+      "cid": "tl:Q11201210_P108:2013:Q869662",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11201210_P108:2013"
+    },
+    {
+      "cid": "tl:Q1120203_P6:2010:Q2856700",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1120203_P6:2011:Q3579995",
+      "doc_id": "tl:Q1120203_P6:2010"
+    },
+    {
+      "cid": "tl:Q1120203_P6:2011:Q3579995",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1120203_P6:2011"
+    },
+    {
+      "cid": "tl:Q11207061_P108:2010:Q1859178",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q11207061_P108:2012:Q487556",
+      "doc_id": "tl:Q11207061_P108:2010"
+    },
+    {
+      "cid": "tl:Q11207061_P108:2012:Q487556",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11207061_P108:2012"
+    },
+    {
+      "cid": "tl:Q1121443_P54:2010:Q19495",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1121443_P54:2011:Q19598",
+      "doc_id": "tl:Q1121443_P54:2010"
+    },
+    {
+      "cid": "tl:Q1121443_P54:2011:Q19598",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1121443_P54:2012:Q9408",
+      "doc_id": "tl:Q1121443_P54:2011"
+    },
+    {
+      "cid": "tl:Q1121443_P54:2012:Q9408",
+      "start": 2012.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1121443_P54:2013:Q47965",
+      "doc_id": "tl:Q1121443_P54:2012"
+    },
+    {
+      "cid": "tl:Q1121443_P54:2013:Q47965",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1121443_P54:2015:Q18522",
+      "doc_id": "tl:Q1121443_P54:2013"
+    },
+    {
+      "cid": "tl:Q1121443_P54:2015:Q18522",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1121443_P54:2015"
+    },
+    {
+      "cid": "tl:Q1124841_P286:2014:Q1985420",
+      "start": 2014.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1124841_P286:2017:Q3048283",
+      "doc_id": "tl:Q1124841_P286:2014"
+    },
+    {
+      "cid": "tl:Q1124841_P286:2017:Q3048283",
+      "start": 2017.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1124841_P286:2018:Q336498",
+      "doc_id": "tl:Q1124841_P286:2017"
+    },
+    {
+      "cid": "tl:Q1124841_P286:2018:Q336498",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1124841_P286:2018"
+    },
+    {
+      "cid": "tl:Q11250530_P286:2015:Q171543",
+      "start": 2015.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q11250530_P286:2017:Q738702",
+      "doc_id": "tl:Q11250530_P286:2015"
+    },
+    {
+      "cid": "tl:Q11250530_P286:2017:Q738702",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11250530_P286:2017"
+    },
+    {
+      "cid": "tl:Q1127218_P488:2010:Q713235",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1127218_P488:2016:Q217070",
+      "doc_id": "tl:Q1127218_P488:2010"
+    },
+    {
+      "cid": "tl:Q1127218_P488:2016:Q217070",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1127218_P488:2016"
+    },
+    {
+      "cid": "tl:Q1128374_P488:2010:Q317400",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1128374_P488:2015:Q8084240",
+      "doc_id": "tl:Q1128374_P488:2010"
+    },
+    {
+      "cid": "tl:Q1128374_P488:2015:Q8084240",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1128374_P488:2015"
+    },
+    {
+      "cid": "tl:Q1130849_P286:2012:Q310623",
+      "start": 2012.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1130849_P286:2015:Q83106",
+      "doc_id": "tl:Q1130849_P286:2012"
+    },
+    {
+      "cid": "tl:Q1130849_P286:2015:Q83106",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1130849_P286:2015"
+    },
+    {
+      "cid": "tl:Q113156_P54:2010:Q18711",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q113156_P54:2014:Q16839398",
+      "doc_id": "tl:Q113156_P54:2010"
+    },
+    {
+      "cid": "tl:Q113156_P54:2014:Q16839398",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q113156_P54:2014"
+    },
+    {
+      "cid": "tl:Q1133513_P54:2010:Q826751",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1133513_P54:2015:Q213417",
+      "doc_id": "tl:Q1133513_P54:2010"
+    },
+    {
+      "cid": "tl:Q1133513_P54:2015:Q213417",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1133513_P54:2015"
+    },
+    {
+      "cid": "tl:Q11336634_P286:2019:Q3993575",
+      "start": 2019.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q11336634_P286:2020:Q7694240",
+      "doc_id": "tl:Q11336634_P286:2019"
+    },
+    {
+      "cid": "tl:Q11336634_P286:2020:Q7694240",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11336634_P286:2020"
+    },
+    {
+      "cid": "tl:Q1135774_P39:2011:Q13218630",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q11669_P39:2013:Q13218630",
+      "doc_id": "tl:Q1135774_P39:2011"
+    },
+    {
+      "cid": "tl:Q1135774_P39:2015:Q4416090",
+      "start": 2015.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q10853588_P39:2018:Q4416090",
+      "doc_id": "tl:Q1135774_P39:2015"
+    },
+    {
+      "cid": "tl:Q1137993_P286:2018:Q6991448",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1137993_P286:2020:Q2158434",
+      "doc_id": "tl:Q1137993_P286:2018"
+    },
+    {
+      "cid": "tl:Q1137993_P286:2020:Q2158434",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1137993_P286:2020"
+    },
+    {
+      "cid": "tl:Q1138191_P286:2018:Q8062153",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1138191_P286:2020:Q12411402",
+      "doc_id": "tl:Q1138191_P286:2018"
+    },
+    {
+      "cid": "tl:Q1138191_P286:2020:Q12411402",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1138191_P286:2020"
+    },
+    {
+      "cid": "tl:Q113841_P54:2010:Q279043",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q113841_P54:2011:Q210170",
+      "doc_id": "tl:Q113841_P54:2010"
+    },
+    {
+      "cid": "tl:Q113841_P54:2011:Q210170",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q113841_P54:2012:Q186262",
+      "doc_id": "tl:Q113841_P54:2011"
+    },
+    {
+      "cid": "tl:Q113841_P54:2012:Q186262",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q113841_P54:2012"
+    },
+    {
+      "cid": "tl:Q1138982_P488:2010:Q438819",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1138982_P488:2016:Q241563",
+      "doc_id": "tl:Q1138982_P488:2010"
+    },
+    {
+      "cid": "tl:Q1138982_P488:2016:Q241563",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1138982_P488:2016"
+    },
+    {
+      "cid": "tl:Q113916_P54:2010:Q18711",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q113916_P54:2011:Q18716",
+      "doc_id": "tl:Q113916_P54:2010"
+    },
+    {
+      "cid": "tl:Q113916_P54:2011:Q18716",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q113916_P54:2012:Q18711",
+      "doc_id": "tl:Q113916_P54:2011"
+    },
+    {
+      "cid": "tl:Q113916_P54:2012:Q18711",
+      "start": 2012.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q113916_P54:2015:Q18736",
+      "doc_id": "tl:Q113916_P54:2012"
+    },
+    {
+      "cid": "tl:Q113916_P54:2015:Q18736",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q113916_P54:2015"
+    },
+    {
+      "cid": "tl:Q1139429_P127:2010:Q1411661",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1139429_P127:2016:Q20730106",
+      "doc_id": "tl:Q1139429_P127:2010"
+    },
+    {
+      "cid": "tl:Q1139429_P127:2016:Q20730106",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1139429_P127:2016"
+    },
+    {
+      "cid": "tl:Q1140538_P286:2011:Q4025462",
+      "start": 2011.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1140538_P286:2019:Q690876",
+      "doc_id": "tl:Q1140538_P286:2011"
+    },
+    {
+      "cid": "tl:Q1140538_P286:2019:Q690876",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1140538_P286:2019"
+    },
+    {
+      "cid": "tl:Q1142687_P488:2010:Q696669",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1142687_P488:2011:Q1373840",
+      "doc_id": "tl:Q1142687_P488:2010"
+    },
+    {
+      "cid": "tl:Q1142687_P488:2011:Q1373840",
+      "start": 2011.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1142687_P488:2020:Q13434626",
+      "doc_id": "tl:Q1142687_P488:2011"
+    },
+    {
+      "cid": "tl:Q1142687_P488:2020:Q13434626",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1142687_P488:2020"
+    },
+    {
+      "cid": "tl:Q11443689_P108:2010:Q847117",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q11443689_P108:2011:Q1191132",
+      "doc_id": "tl:Q11443689_P108:2010"
+    },
+    {
+      "cid": "tl:Q11443689_P108:2011:Q1191132",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11443689_P108:2011"
+    },
+    {
+      "cid": "tl:Q11445_P6:2013:Q17410766",
+      "start": 2013.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q11445_P6:2019:Q56391433",
+      "doc_id": "tl:Q11445_P6:2013"
+    },
+    {
+      "cid": "tl:Q11445_P6:2019:Q56391433",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11445_P6:2019"
+    },
+    {
+      "cid": "tl:Q114859_P54:2010:Q47774",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q114859_P54:2015:Q9616",
+      "doc_id": "tl:Q114859_P54:2010"
+    },
+    {
+      "cid": "tl:Q114859_P54:2015:Q9616",
+      "start": 2015.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q114859_P54:2018:Q8806",
+      "doc_id": "tl:Q114859_P54:2015"
+    },
+    {
+      "cid": "tl:Q114859_P54:2018:Q8806",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q114859_P54:2019:Q19516",
+      "doc_id": "tl:Q114859_P54:2018"
+    },
+    {
+      "cid": "tl:Q114859_P54:2019:Q19516",
+      "start": 2019.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q114859_P54:2020:Q272712",
+      "doc_id": "tl:Q114859_P54:2019"
+    },
+    {
+      "cid": "tl:Q114859_P54:2020:Q272712",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q114859_P54:2020"
+    },
+    {
+      "cid": "tl:Q1148669_P39:2014:Q2363110",
+      "start": 2014.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1148669_P39:2019:Q273884",
+      "doc_id": "tl:Q1148669_P39:2014"
+    },
+    {
+      "cid": "tl:Q1148669_P39:2019:Q273884",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1148669_P39:2019"
+    },
+    {
+      "cid": "tl:Q1150936_P127:2010:Q486633",
+      "start": 2010.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1150936_P127:2010"
+    },
+    {
+      "cid": "tl:Q1150936_P127:2016:Q1509333",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1150936_P127:2016"
+    },
+    {
+      "cid": "tl:Q1151872_P54:2010:Q213959",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1151872_P54:2013:Q334634",
+      "doc_id": "tl:Q1151872_P54:2010"
+    },
+    {
+      "cid": "tl:Q1151872_P54:2013:Q334634",
+      "start": 2013.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1151872_P54:2018:Q692417",
+      "doc_id": "tl:Q1151872_P54:2013"
+    },
+    {
+      "cid": "tl:Q1151872_P54:2018:Q692417",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1151872_P54:2018"
+    },
+    {
+      "cid": "tl:Q1151909_P286:2015:Q3759228",
+      "start": 2015.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1151909_P286:2020:Q1400165",
+      "doc_id": "tl:Q1151909_P286:2015"
+    },
+    {
+      "cid": "tl:Q1151909_P286:2020:Q1400165",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1151909_P286:2020"
+    },
+    {
+      "cid": "tl:Q1152752_P488:2010:Q57530",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1152752_P488:2018:Q4417193",
+      "doc_id": "tl:Q1152752_P488:2010"
+    },
+    {
+      "cid": "tl:Q1152752_P488:2018:Q4417193",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1152752_P488:2018"
+    },
+    {
+      "cid": "tl:Q11540606_P108:2010:Q720503",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q11540606_P108:2016:Q41738",
+      "doc_id": "tl:Q11540606_P108:2010"
+    },
+    {
+      "cid": "tl:Q11540606_P108:2016:Q41738",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11540606_P108:2016"
+    },
+    {
+      "cid": "tl:Q115453_P54:2010:Q2331381",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q115453_P54:2011:Q10329",
+      "doc_id": "tl:Q115453_P54:2010"
+    },
+    {
+      "cid": "tl:Q115453_P54:2011:Q10329",
+      "start": 2011.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q115453_P54:2014:Q7156",
+      "doc_id": "tl:Q115453_P54:2011"
+    },
+    {
+      "cid": "tl:Q115453_P54:2014:Q7156",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q115453_P54:2014"
+    },
+    {
+      "cid": "tl:Q1155636_P108:2010:Q743717",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1155636_P108:2017:Q4052634",
+      "doc_id": "tl:Q1155636_P108:2010"
+    },
+    {
+      "cid": "tl:Q1155636_P108:2017:Q4052634",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1155636_P108:2017"
+    },
+    {
+      "cid": "tl:Q115678_P286:2015:Q433883",
+      "start": 2015.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q115678_P286:2016:Q1386823",
+      "doc_id": "tl:Q115678_P286:2015"
+    },
+    {
+      "cid": "tl:Q115678_P286:2016:Q1386823",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q115678_P286:2016"
+    },
+    {
+      "cid": "tl:Q11571_P54:2010:Q8682",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q11571_P54:2018:Q1422",
+      "doc_id": "tl:Q11571_P54:2010"
+    },
+    {
+      "cid": "tl:Q11571_P54:2018:Q1422",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11571_P54:2018"
+    },
+    {
+      "cid": "tl:Q11576_P54:2010:Q8682",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q11576_P54:2011:Q32494",
+      "doc_id": "tl:Q11576_P54:2010"
+    },
+    {
+      "cid": "tl:Q11576_P54:2011:Q32494",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q11576_P54:2012:Q283545",
+      "doc_id": "tl:Q11576_P54:2011"
+    },
+    {
+      "cid": "tl:Q11576_P54:2012:Q283545",
+      "start": 2012.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q11576_P54:2015:Q646135",
+      "doc_id": "tl:Q11576_P54:2012"
+    },
+    {
+      "cid": "tl:Q11576_P54:2015:Q646135",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11576_P54:2015"
+    },
+    {
+      "cid": "tl:Q1158_P488:2010:Q1639",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1158_P488:2015:Q188502",
+      "doc_id": "tl:Q1158_P488:2010"
+    },
+    {
+      "cid": "tl:Q1158_P488:2015:Q188502",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1158_P488:2015"
+    },
+    {
+      "cid": "tl:Q11594_P108:2010:Q531285",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q11594_P108:2011:Q1064071",
+      "doc_id": "tl:Q11594_P108:2010"
+    },
+    {
+      "cid": "tl:Q11594_P108:2011:Q1064071",
+      "start": 2011.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q11594_P108:2016:Q204457",
+      "doc_id": "tl:Q11594_P108:2011"
+    },
+    {
+      "cid": "tl:Q11594_P108:2016:Q204457",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11594_P108:2016"
+    },
+    {
+      "cid": "tl:Q115_P6:2010:Q161184",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q115_P6:2012:Q381071",
+      "doc_id": "tl:Q115_P6:2010"
+    },
+    {
+      "cid": "tl:Q115_P6:2012:Q381071",
+      "start": 2012.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q115_P6:2019:Q50365049",
+      "doc_id": "tl:Q115_P6:2012"
+    },
+    {
+      "cid": "tl:Q115_P6:2019:Q50365049",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q115_P6:2019"
+    },
+    {
+      "cid": "tl:Q1163431_P488:2012:Q3320815",
+      "start": 2012.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1163431_P488:2017:Q2829824",
+      "doc_id": "tl:Q1163431_P488:2012"
+    },
+    {
+      "cid": "tl:Q1163431_P488:2017:Q2829824",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1163431_P488:2017"
+    },
+    {
+      "cid": "tl:Q1163740_P108:2016:Q827768",
+      "start": 2016.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1163740_P108:2019:Q1050350",
+      "doc_id": "tl:Q1163740_P108:2016"
+    },
+    {
+      "cid": "tl:Q1163740_P108:2019:Q1050350",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1163740_P108:2019"
+    },
+    {
+      "cid": "tl:Q11667656_P488:2010:Q312440",
+      "start": 2010.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q11667656_P488:2020:Q7296702",
+      "doc_id": "tl:Q11667656_P488:2010"
+    },
+    {
+      "cid": "tl:Q11667656_P488:2020:Q7296702",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11667656_P488:2020"
+    },
+    {
+      "cid": "tl:Q11668_P39:2011:Q3773752",
+      "start": 2011.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q11668_P39:2017:Q1785225",
+      "doc_id": "tl:Q11668_P39:2011"
+    },
+    {
+      "cid": "tl:Q11668_P39:2017:Q1785225",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11668_P39:2017"
+    },
+    {
+      "cid": "tl:Q11669_P39:2010:Q3773752",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q11668_P39:2011:Q3773752",
+      "doc_id": "tl:Q11669_P39:2010"
+    },
+    {
+      "cid": "tl:Q11669_P39:2013:Q13218630",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q11112119_P39:2015:Q13218630",
+      "doc_id": "tl:Q11669_P39:2013"
+    },
+    {
+      "cid": "tl:Q11689876_P39:2010:Q43165333",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q10819_P39:2011:Q844587",
+      "doc_id": "tl:Q11689876_P39:2010"
+    },
+    {
+      "cid": "tl:Q11689876_P39:2014:Q6501749",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11689876_P39:2014"
+    },
+    {
+      "cid": "tl:Q116980_P54:2010:Q676899",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q116980_P54:2011:Q1543",
+      "doc_id": "tl:Q116980_P54:2010"
+    },
+    {
+      "cid": "tl:Q116980_P54:2011:Q1543",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q116980_P54:2012:Q321061",
+      "doc_id": "tl:Q116980_P54:2011"
+    },
+    {
+      "cid": "tl:Q116980_P54:2012:Q321061",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q116980_P54:2012"
+    },
+    {
+      "cid": "tl:Q11701393_P39:2010:Q6865784",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q11701393_P39:2011:Q11796924",
+      "doc_id": "tl:Q11701393_P39:2010"
+    },
+    {
+      "cid": "tl:Q11701393_P39:2011:Q11796924",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11701393_P39:2011"
+    },
+    {
+      "cid": "tl:Q11702_P39:2010:Q13218630",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1029527_P39:2011:Q13218630",
+      "doc_id": "tl:Q11702_P39:2010"
+    },
+    {
+      "cid": "tl:Q11702_P39:2011:Q912994",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11702_P39:2011"
+    },
+    {
+      "cid": "tl:Q11703587_P102:2010:Q185088",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q11703587_P102:2014:Q15630787",
+      "doc_id": "tl:Q11703587_P102:2010"
+    },
+    {
+      "cid": "tl:Q11703587_P102:2014:Q15630787",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11703587_P102:2014"
+    },
+    {
+      "cid": "tl:Q11705283_P127:2010:Q2036076",
+      "start": 2010.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11705283_P127:2010"
+    },
+    {
+      "cid": "tl:Q11705283_P127:2015:Q18378979",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11705283_P127:2015"
+    },
+    {
+      "cid": "tl:Q11705283_P127:2018:Q608518",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11705283_P127:2018"
+    },
+    {
+      "cid": "tl:Q11714338_P102:2010:Q837296",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q11714338_P102:2014:Q327591",
+      "doc_id": "tl:Q11714338_P102:2010"
+    },
+    {
+      "cid": "tl:Q11714338_P102:2014:Q327591",
+      "start": 2014.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q11714338_P102:2016:Q904070",
+      "doc_id": "tl:Q11714338_P102:2014"
+    },
+    {
+      "cid": "tl:Q11714338_P102:2016:Q904070",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11714338_P102:2016"
+    },
+    {
+      "cid": "tl:Q11739162_P488:2010:Q4372354",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q11739162_P488:2014:Q4275699",
+      "doc_id": "tl:Q11739162_P488:2010"
+    },
+    {
+      "cid": "tl:Q11739162_P488:2014:Q4275699",
+      "start": 2014.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q11739162_P488:2015:Q31919",
+      "doc_id": "tl:Q11739162_P488:2014"
+    },
+    {
+      "cid": "tl:Q11739162_P488:2015:Q31919",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11739162_P488:2015"
+    },
+    {
+      "cid": "tl:Q11739443_P108:2012:Q248710",
+      "start": 2012.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q11739443_P108:2017:Q872173",
+      "doc_id": "tl:Q11739443_P108:2012"
+    },
+    {
+      "cid": "tl:Q11739443_P108:2017:Q872173",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11739443_P108:2017"
+    },
+    {
+      "cid": "tl:Q117436_P54:2010:Q47774",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q117436_P54:2014:Q704",
+      "doc_id": "tl:Q117436_P54:2010"
+    },
+    {
+      "cid": "tl:Q117436_P54:2014:Q704",
+      "start": 2014.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q117436_P54:2015:Q19509",
+      "doc_id": "tl:Q117436_P54:2014"
+    },
+    {
+      "cid": "tl:Q117436_P54:2015:Q19509",
+      "start": 2015.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q117436_P54:2019:Q503317",
+      "doc_id": "tl:Q117436_P54:2015"
+    },
+    {
+      "cid": "tl:Q117436_P54:2019:Q503317",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q117436_P54:2019"
+    },
+    {
+      "cid": "tl:Q11743_P108:2010:Q1144262",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q11743_P108:2018:Q1049470",
+      "doc_id": "tl:Q11743_P108:2010"
+    },
+    {
+      "cid": "tl:Q11743_P108:2018:Q1049470",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11743_P108:2018"
+    },
+    {
+      "cid": "tl:Q11767660_P108:2013:Q4294646",
+      "start": 2013.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q11767660_P108:2014:Q15265902",
+      "doc_id": "tl:Q11767660_P108:2013"
+    },
+    {
+      "cid": "tl:Q11767660_P108:2014:Q15265902",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11767660_P108:2014"
+    },
+    {
+      "cid": "tl:Q11768297_P108:2010:Q2164678",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q11768297_P108:2013:Q9208102",
+      "doc_id": "tl:Q11768297_P108:2010"
+    },
+    {
+      "cid": "tl:Q11768297_P108:2013:Q9208102",
+      "start": 2013.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q11768297_P108:2016:Q178909",
+      "doc_id": "tl:Q11768297_P108:2013"
+    },
+    {
+      "cid": "tl:Q11768297_P108:2016:Q178909",
+      "start": 2016.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q11768297_P108:2017:Q213624",
+      "doc_id": "tl:Q11768297_P108:2016"
+    },
+    {
+      "cid": "tl:Q11768297_P108:2017:Q213624",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11768297_P108:2017"
+    },
+    {
+      "cid": "tl:Q117743_P54:2010:Q912881",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q117743_P54:2013:Q1518836",
+      "doc_id": "tl:Q117743_P54:2010"
+    },
+    {
+      "cid": "tl:Q117743_P54:2013:Q1518836",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q117743_P54:2015:Q1156897",
+      "doc_id": "tl:Q117743_P54:2013"
+    },
+    {
+      "cid": "tl:Q117743_P54:2015:Q1156897",
+      "start": 2015.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q117743_P54:2017:Q27076773",
+      "doc_id": "tl:Q117743_P54:2015"
+    },
+    {
+      "cid": "tl:Q117743_P54:2017:Q27076773",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q117743_P54:2017"
+    },
+    {
+      "cid": "tl:Q117867_P69:2010:Q7309334",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q117867_P69:2014:Q168756",
+      "doc_id": "tl:Q117867_P69:2010"
+    },
+    {
+      "cid": "tl:Q117867_P69:2014:Q168756",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q117867_P69:2014"
+    },
+    {
+      "cid": "tl:Q117892_P488:2010:Q377263",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q117892_P488:2018:Q16254734",
+      "doc_id": "tl:Q117892_P488:2010"
+    },
+    {
+      "cid": "tl:Q117892_P488:2018:Q16254734",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q117892_P488:2018"
+    },
+    {
+      "cid": "tl:Q1183_P6:2012:Q2832449",
+      "start": 2012.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1183_P6:2017:Q7332181",
+      "doc_id": "tl:Q1183_P6:2012"
+    },
+    {
+      "cid": "tl:Q1183_P6:2017:Q7332181",
+      "start": 2017.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1183_P6:2019:Q56600071",
+      "doc_id": "tl:Q1183_P6:2017"
+    },
+    {
+      "cid": "tl:Q1183_P6:2019:Q56600071",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1183_P6:2019"
+    },
+    {
+      "cid": "tl:Q1185115_P6:2010:Q379122",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1185115_P6:2011:Q445654",
+      "doc_id": "tl:Q1185115_P6:2010"
+    },
+    {
+      "cid": "tl:Q1185115_P6:2011:Q445654",
+      "start": 2011.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1185115_P6:2019:Q379122",
+      "doc_id": "tl:Q1185115_P6:2011"
+    },
+    {
+      "cid": "tl:Q1185115_P6:2019:Q379122",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1185115_P6:2019"
+    },
+    {
+      "cid": "tl:Q11860_P102:2010:Q47720",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q11860_P102:2014:Q14924303",
+      "doc_id": "tl:Q11860_P102:2010"
+    },
+    {
+      "cid": "tl:Q11860_P102:2014:Q14924303",
+      "start": 2014.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q11860_P39:2019:Q27169",
+      "doc_id": "tl:Q11860_P102:2014"
+    },
+    {
+      "cid": "tl:Q11860_P39:2010:Q796897",
+      "start": 2010.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q11860_P39:2019:Q27169",
+      "doc_id": "tl:Q11860_P39:2010"
+    },
+    {
+      "cid": "tl:Q11860_P39:2019:Q27169",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11860_P39:2019"
+    },
+    {
+      "cid": "tl:Q1186190_P488:2013:Q6123122",
+      "start": 2013.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1186190_P488:2017:Q8291839",
+      "doc_id": "tl:Q1186190_P488:2013"
+    },
+    {
+      "cid": "tl:Q1186190_P488:2017:Q8291839",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1186190_P488:2017"
+    },
+    {
+      "cid": "tl:Q1186234_P488:2010:Q57888",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1029792_P488:2013:Q561213",
+      "doc_id": "tl:Q1186234_P488:2010"
+    },
+    {
+      "cid": "tl:Q1186234_P488:2015:Q81065",
+      "start": 2015.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1029792_P488:2016:Q15629005",
+      "doc_id": "tl:Q1186234_P488:2015"
+    },
+    {
+      "cid": "tl:Q1186316_P488:2010:Q57634",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1186316_P488:2017:Q13040485",
+      "doc_id": "tl:Q1186316_P488:2010"
+    },
+    {
+      "cid": "tl:Q1186316_P488:2017:Q13040485",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1186316_P488:2017"
+    },
+    {
+      "cid": "tl:Q11869065_P108:2010:Q3741208",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q11869065_P108:2014:Q8889",
+      "doc_id": "tl:Q11869065_P108:2010"
+    },
+    {
+      "cid": "tl:Q11869065_P108:2014:Q8889",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11869065_P108:2014"
+    },
+    {
+      "cid": "tl:Q11898613_P108:2010:Q578326",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q11898613_P108:2014:Q458393",
+      "doc_id": "tl:Q11898613_P108:2010"
+    },
+    {
+      "cid": "tl:Q11898613_P108:2014:Q458393",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11898613_P108:2014"
+    },
+    {
+      "cid": "tl:Q11922769_P102:2010:Q1129443",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q11922769_P102:2017:Q25713876",
+      "doc_id": "tl:Q11922769_P102:2010"
+    },
+    {
+      "cid": "tl:Q11922769_P102:2017:Q25713876",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11922769_P102:2017"
+    },
+    {
+      "cid": "tl:Q11928385_P102:2010:Q1129443",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q11928385_P102:2017:Q25713876",
+      "doc_id": "tl:Q11928385_P102:2010"
+    },
+    {
+      "cid": "tl:Q11928385_P102:2017:Q25713876",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11928385_P102:2017"
+    },
+    {
+      "cid": "tl:Q11936570_P102:2010:Q1129443",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q11936570_P102:2017:Q25713876",
+      "doc_id": "tl:Q11936570_P102:2010"
+    },
+    {
+      "cid": "tl:Q11936570_P102:2017:Q25713876",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11936570_P102:2017"
+    },
+    {
+      "cid": "tl:Q11938_P286:2013:Q11958",
+      "start": 2013.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q11938_P286:2018:Q151853",
+      "doc_id": "tl:Q11938_P286:2013"
+    },
+    {
+      "cid": "tl:Q11938_P286:2018:Q151853",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q11938_P286:2020:Q1424071",
+      "doc_id": "tl:Q11938_P286:2018"
+    },
+    {
+      "cid": "tl:Q11938_P286:2020:Q1424071",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11938_P286:2020"
+    },
+    {
+      "cid": "tl:Q11945_P286:2018:Q366816",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q11945_P286:2020:Q705601",
+      "doc_id": "tl:Q11945_P286:2018"
+    },
+    {
+      "cid": "tl:Q11945_P286:2020:Q705601",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11945_P286:2020"
+    },
+    {
+      "cid": "tl:Q1194_P6:2010:Q62196",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1194_P6:2012:Q69036",
+      "doc_id": "tl:Q1194_P6:2010"
+    },
+    {
+      "cid": "tl:Q1194_P6:2012:Q69036",
+      "start": 2012.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1194_P6:2017:Q969340",
+      "doc_id": "tl:Q1194_P6:2012"
+    },
+    {
+      "cid": "tl:Q1194_P6:2017:Q969340",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1194_P6:2017"
+    },
+    {
+      "cid": "tl:Q119562_P54:2010:Q8701",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q119562_P54:2012:Q50602",
+      "doc_id": "tl:Q119562_P54:2010"
+    },
+    {
+      "cid": "tl:Q119562_P54:2012:Q50602",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q119562_P54:2012"
+    },
+    {
+      "cid": "tl:Q11958392_P488:2010:Q11978428",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q11958392_P488:2011:Q463689",
+      "doc_id": "tl:Q11958392_P488:2010"
+    },
+    {
+      "cid": "tl:Q11958392_P488:2011:Q463689",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11958392_P488:2011"
+    },
+    {
+      "cid": "tl:Q11959_P6:2010:Q3113861",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q11959_P6:2018:Q51997376",
+      "doc_id": "tl:Q11959_P6:2010"
+    },
+    {
+      "cid": "tl:Q11959_P6:2018:Q51997376",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11959_P6:2018"
+    },
+    {
+      "cid": "tl:Q1196_P6:2010:Q69301",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1196_P6:2018:Q72845",
+      "doc_id": "tl:Q1196_P6:2010"
+    },
+    {
+      "cid": "tl:Q1196_P6:2018:Q72845",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1196_P6:2018"
+    },
+    {
+      "cid": "tl:Q11971_P286:2013:Q3320968",
+      "start": 2013.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q11971_P286:2018:Q3823451",
+      "doc_id": "tl:Q11971_P286:2013"
+    },
+    {
+      "cid": "tl:Q11971_P286:2018:Q3823451",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q11971_P286:2019:Q2637295",
+      "doc_id": "tl:Q11971_P286:2018"
+    },
+    {
+      "cid": "tl:Q11971_P286:2019:Q2637295",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11971_P286:2019"
+    },
+    {
+      "cid": "tl:Q11979_P286:2014:Q3235400",
+      "start": 2014.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q11979_P286:2016:Q723458",
+      "doc_id": "tl:Q11979_P286:2014"
+    },
+    {
+      "cid": "tl:Q11979_P286:2016:Q723458",
+      "start": 2016.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q11979_P286:2017:Q2311040",
+      "doc_id": "tl:Q11979_P286:2016"
+    },
+    {
+      "cid": "tl:Q11979_P286:2017:Q2311040",
+      "start": 2017.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q11979_P286:2018:Q3235400",
+      "doc_id": "tl:Q11979_P286:2017"
+    },
+    {
+      "cid": "tl:Q11979_P286:2018:Q3235400",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q11979_P286:2020:Q2409599",
+      "doc_id": "tl:Q11979_P286:2018"
+    },
+    {
+      "cid": "tl:Q11979_P286:2020:Q2409599",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11979_P286:2020"
+    },
+    {
+      "cid": "tl:Q11989087_P102:2010:Q916161",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q11989087_P102:2011:Q478180",
+      "doc_id": "tl:Q11989087_P102:2010"
+    },
+    {
+      "cid": "tl:Q11989087_P102:2011:Q478180",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q11989087_P102:2011"
+    },
+    {
+      "cid": "tl:Q1198_P6:2010:Q60975",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1198_P6:2011:Q61938",
+      "doc_id": "tl:Q1198_P6:2010"
+    },
+    {
+      "cid": "tl:Q1198_P6:2011:Q61938",
+      "start": 2011.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1198_P6:2018:Q78205",
+      "doc_id": "tl:Q1198_P6:2011"
+    },
+    {
+      "cid": "tl:Q1198_P6:2018:Q78205",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1198_P6:2018"
+    },
+    {
+      "cid": "tl:Q1199255_P286:2010:Q1750005",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1199255_P286:2017:Q4414785",
+      "doc_id": "tl:Q1199255_P286:2010"
+    },
+    {
+      "cid": "tl:Q1199255_P286:2017:Q4414785",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1199255_P286:2017"
+    },
+    {
+      "cid": "tl:Q12001809_P39:2014:Q783943",
+      "start": 2014.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q12001809_P39:2019:Q651703",
+      "doc_id": "tl:Q12001809_P39:2014"
+    },
+    {
+      "cid": "tl:Q12001809_P39:2019:Q651703",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12001809_P39:2019"
+    },
+    {
+      "cid": "tl:Q1200258_P488:2010:Q7151652",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1200258_P488:2018:Q4679029",
+      "doc_id": "tl:Q1200258_P488:2010"
+    },
+    {
+      "cid": "tl:Q1200258_P488:2018:Q4679029",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1200258_P488:2018"
+    },
+    {
+      "cid": "tl:Q120064_P286:2016:Q6885594",
+      "start": 2016.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q120064_P286:2018:Q28051523",
+      "doc_id": "tl:Q120064_P286:2016"
+    },
+    {
+      "cid": "tl:Q120064_P286:2018:Q28051523",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q120064_P286:2018"
+    },
+    {
+      "cid": "tl:Q1200_P6:2010:Q65109",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1200_P6:2013:Q84581",
+      "doc_id": "tl:Q1200_P6:2010"
+    },
+    {
+      "cid": "tl:Q1200_P6:2013:Q84581",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1200_P6:2013"
+    },
+    {
+      "cid": "tl:Q12014326_P108:2010:Q655286",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q12014326_P108:2012:Q483551",
+      "doc_id": "tl:Q12014326_P108:2010"
+    },
+    {
+      "cid": "tl:Q12014326_P108:2012:Q483551",
+      "start": 2012.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q12014326_P108:2017:Q168000",
+      "doc_id": "tl:Q12014326_P108:2012"
+    },
+    {
+      "cid": "tl:Q12014326_P108:2017:Q168000",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12014326_P108:2017"
+    },
+    {
+      "cid": "tl:Q12023896_P39:2010:Q30185",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q12023896_P39:2018:Q3210181",
+      "doc_id": "tl:Q12023896_P39:2010"
+    },
+    {
+      "cid": "tl:Q12023896_P39:2018:Q3210181",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12023896_P39:2018"
+    },
+    {
+      "cid": "tl:Q1202_P6:2010:Q77391",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1202_P6:2018:Q1928299",
+      "doc_id": "tl:Q1202_P6:2010"
+    },
+    {
+      "cid": "tl:Q1202_P6:2018:Q1928299",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1202_P6:2018"
+    },
+    {
+      "cid": "tl:Q12048555_P102:2010:Q828099",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q12048555_P102:2013:Q14923603",
+      "doc_id": "tl:Q12048555_P102:2010"
+    },
+    {
+      "cid": "tl:Q12048555_P102:2013:Q14923603",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12048555_P102:2013"
+    },
+    {
+      "cid": "tl:Q1204_P6:2015:Q15972549",
+      "start": 2015.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1204_P6:2019:Q6103950",
+      "doc_id": "tl:Q1204_P6:2015"
+    },
+    {
+      "cid": "tl:Q1204_P6:2019:Q6103950",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1204_P6:2019"
+    },
+    {
+      "cid": "tl:Q1205_P6:2010:Q77387",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1205_P6:2015:Q104678",
+      "doc_id": "tl:Q1205_P6:2010"
+    },
+    {
+      "cid": "tl:Q1205_P6:2015:Q104678",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1205_P6:2015"
+    },
+    {
+      "cid": "tl:Q1206_P6:2010:Q64299",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1206_P6:2012:Q69355",
+      "doc_id": "tl:Q1206_P6:2010"
+    },
+    {
+      "cid": "tl:Q1206_P6:2012:Q69355",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1206_P6:2012"
+    },
+    {
+      "cid": "tl:Q1207_P6:2010:Q374762",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1207_P6:2011:Q770393",
+      "doc_id": "tl:Q1207_P6:2010"
+    },
+    {
+      "cid": "tl:Q1207_P6:2011:Q770393",
+      "start": 2011.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1207_P6:2016:Q22095395",
+      "doc_id": "tl:Q1207_P6:2011"
+    },
+    {
+      "cid": "tl:Q1207_P6:2016:Q22095395",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1207_P6:2016"
+    },
+    {
+      "cid": "tl:Q1208454_P54:2010:Q744530",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1208454_P54:2011:Q848103",
+      "doc_id": "tl:Q1208454_P54:2010"
+    },
+    {
+      "cid": "tl:Q1208454_P54:2011:Q848103",
+      "start": 2011.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1208454_P54:2012:Q743309",
+      "doc_id": "tl:Q1208454_P54:2011"
+    },
+    {
+      "cid": "tl:Q1208454_P54:2012:Q743309",
+      "start": 2012.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1208454_P54:2013:Q334634",
+      "doc_id": "tl:Q1208454_P54:2012"
+    },
+    {
+      "cid": "tl:Q1208454_P54:2013:Q334634",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1208454_P54:2013"
+    },
+    {
+      "cid": "tl:Q1209_P6:2010:Q61604",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1209_P6:2016:Q1045675",
+      "doc_id": "tl:Q1209_P6:2010"
+    },
+    {
+      "cid": "tl:Q1209_P6:2016:Q1045675",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1209_P6:2016"
+    },
+    {
+      "cid": "tl:Q1210_P6:2010:Q664465",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1210_P6:2013:Q562097",
+      "doc_id": "tl:Q1210_P6:2010"
+    },
+    {
+      "cid": "tl:Q1210_P6:2013:Q562097",
+      "start": 2013.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1210_P6:2019:Q3629240",
+      "doc_id": "tl:Q1210_P6:2013"
+    },
+    {
+      "cid": "tl:Q1210_P6:2019:Q3629240",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1210_P6:2019"
+    },
+    {
+      "cid": "tl:Q121403_P54:2010:Q268208",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q121403_P54:2015:Q134241",
+      "doc_id": "tl:Q121403_P54:2010"
+    },
+    {
+      "cid": "tl:Q121403_P54:2015:Q134241",
+      "start": 2015.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q121403_P54:2016:Q240444",
+      "doc_id": "tl:Q121403_P54:2015"
+    },
+    {
+      "cid": "tl:Q121403_P54:2016:Q240444",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q121403_P54:2016"
+    },
+    {
+      "cid": "tl:Q12149_P39:2010:Q852152",
+      "start": 2010.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12149_P39:2010"
+    },
+    {
+      "cid": "tl:Q12149_P39:2012:Q887124",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12149_P39:2012"
+    },
+    {
+      "cid": "tl:Q1218_P6:2010:Q468394",
+      "start": 2010.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1218_P6:2019:Q12409594",
+      "doc_id": "tl:Q1218_P6:2010"
+    },
+    {
+      "cid": "tl:Q1218_P6:2019:Q12409594",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1218_P6:2019"
+    },
+    {
+      "cid": "tl:Q12191_P6:2012:Q3369813",
+      "start": 2012.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q12191_P6:2015:Q16037012",
+      "doc_id": "tl:Q12191_P6:2012"
+    },
+    {
+      "cid": "tl:Q12191_P6:2015:Q16037012",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12191_P6:2015"
+    },
+    {
+      "cid": "tl:Q1220_P39:2010:Q332711",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1220_P39:2016:Q826589",
+      "doc_id": "tl:Q1220_P39:2010"
+    },
+    {
+      "cid": "tl:Q1220_P39:2016:Q826589",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1220_P39:2016"
+    },
+    {
+      "cid": "tl:Q12236_P286:2018:Q3779635",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q12236_P286:2020:Q2049205",
+      "doc_id": "tl:Q12236_P286:2018"
+    },
+    {
+      "cid": "tl:Q12236_P286:2020:Q2049205",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12236_P286:2020"
+    },
+    {
+      "cid": "tl:Q122465_P39:2012:Q1078482",
+      "start": 2012.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q122465_P39:2020:Q274948",
+      "doc_id": "tl:Q122465_P39:2012"
+    },
+    {
+      "cid": "tl:Q122465_P39:2020:Q274948",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q122465_P39:2020"
+    },
+    {
+      "cid": "tl:Q12269600_P39:2013:Q16156581",
+      "start": 2013.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q12269600_P39:2014:Q42712773",
+      "doc_id": "tl:Q12269600_P39:2013"
+    },
+    {
+      "cid": "tl:Q12269600_P39:2014:Q42712773",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12269600_P39:2014"
+    },
+    {
+      "cid": "tl:Q1227076_P39:2010:Q1501800",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1227076_P39:2012:Q6597955",
+      "doc_id": "tl:Q1227076_P39:2010"
+    },
+    {
+      "cid": "tl:Q1227076_P39:2012:Q6597955",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1227076_P39:2012"
+    },
+    {
+      "cid": "tl:Q12278_P286:2017:Q299488",
+      "start": 2017.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q12278_P286:2019:Q431287",
+      "doc_id": "tl:Q12278_P286:2017"
+    },
+    {
+      "cid": "tl:Q12278_P286:2019:Q431287",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12278_P286:2019"
+    },
+    {
+      "cid": "tl:Q1228264_P286:2018:Q8068677",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1228264_P286:2020:Q560603",
+      "doc_id": "tl:Q1228264_P286:2018"
+    },
+    {
+      "cid": "tl:Q1228264_P286:2020:Q560603",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1228264_P286:2020"
+    },
+    {
+      "cid": "tl:Q12297_P286:2010:Q359118",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q12297_P286:2017:Q1332523",
+      "doc_id": "tl:Q12297_P286:2010"
+    },
+    {
+      "cid": "tl:Q12297_P286:2017:Q1332523",
+      "start": 2017.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q12297_P286:2020:Q295610",
+      "doc_id": "tl:Q12297_P286:2017"
+    },
+    {
+      "cid": "tl:Q12297_P286:2020:Q295610",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12297_P286:2020"
+    },
+    {
+      "cid": "tl:Q12326451_P102:2010:Q615603",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q12326451_P102:2013:Q212101",
+      "doc_id": "tl:Q12326451_P102:2010"
+    },
+    {
+      "cid": "tl:Q12326451_P102:2013:Q212101",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12326451_P102:2013"
+    },
+    {
+      "cid": "tl:Q123517_P102:2010:Q49766",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q123517_P102:2018:Q49762",
+      "doc_id": "tl:Q123517_P102:2010"
+    },
+    {
+      "cid": "tl:Q123517_P102:2018:Q49762",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q123517_P102:2018"
+    },
+    {
+      "cid": "tl:Q1236571_P39:2010:Q6865833",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1236571_P39:2011:Q2390270",
+      "doc_id": "tl:Q1236571_P39:2010"
+    },
+    {
+      "cid": "tl:Q1236571_P39:2011:Q2390270",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1236571_P39:2011"
+    },
+    {
+      "cid": "tl:Q123665_P39:2010:Q1209571",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q123665_P39:2016:Q5261087",
+      "doc_id": "tl:Q123665_P39:2010"
+    },
+    {
+      "cid": "tl:Q123665_P39:2016:Q5261087",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q123665_P39:2016"
+    },
+    {
+      "cid": "tl:Q12377820_P108:2010:Q387634",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q12377820_P108:2016:Q823031",
+      "doc_id": "tl:Q12377820_P108:2010"
+    },
+    {
+      "cid": "tl:Q12377820_P108:2016:Q823031",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12377820_P108:2016"
+    },
+    {
+      "cid": "tl:Q1238152_P102:2010:Q170972",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1238152_P102:2017:Q31400965",
+      "doc_id": "tl:Q1238152_P102:2010"
+    },
+    {
+      "cid": "tl:Q1238152_P102:2017:Q31400965",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1238152_P102:2017"
+    },
+    {
+      "cid": "tl:Q1238709_P108:2010:Q390287",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1238709_P108:2017:Q12815487",
+      "doc_id": "tl:Q1238709_P108:2010"
+    },
+    {
+      "cid": "tl:Q1238709_P108:2017:Q12815487",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1238709_P108:2017"
+    },
+    {
+      "cid": "tl:Q1240224_P39:2010:Q4931391",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1240224_P39:2013:Q13218630",
+      "doc_id": "tl:Q1240224_P39:2010"
+    },
+    {
+      "cid": "tl:Q1240224_P39:2013:Q13218630",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q11112119_P39:2015:Q13218630",
+      "doc_id": "tl:Q1240224_P39:2013"
+    },
+    {
+      "cid": "tl:Q124086_P54:2010:Q631",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q124086_P54:2014:Q495299",
+      "doc_id": "tl:Q124086_P54:2010"
+    },
+    {
+      "cid": "tl:Q124086_P54:2014:Q495299",
+      "start": 2014.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q124086_P54:2017:Q185163",
+      "doc_id": "tl:Q124086_P54:2014"
+    },
+    {
+      "cid": "tl:Q124086_P54:2017:Q185163",
+      "start": 2017.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q124086_P54:2018:Q428211",
+      "doc_id": "tl:Q124086_P54:2017"
+    },
+    {
+      "cid": "tl:Q124086_P54:2018:Q428211",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q124086_P54:2018"
+    },
+    {
+      "cid": "tl:Q1246_P6:2014:Q177851",
+      "start": 2014.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1246_P6:2018:Q316553",
+      "doc_id": "tl:Q1246_P6:2014"
+    },
+    {
+      "cid": "tl:Q1246_P6:2018:Q316553",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1246_P6:2020:Q441633",
+      "doc_id": "tl:Q1246_P6:2018"
+    },
+    {
+      "cid": "tl:Q1246_P6:2020:Q441633",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1246_P6:2020"
+    },
+    {
+      "cid": "tl:Q124784_P108:2010:Q372608",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q124784_P108:2012:Q673354",
+      "doc_id": "tl:Q124784_P108:2010"
+    },
+    {
+      "cid": "tl:Q124784_P108:2012:Q673354",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q124784_P108:2012"
+    },
+    {
+      "cid": "tl:Q12524647_P108:2010:Q5115984",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q12524647_P108:2013:Q13322850",
+      "doc_id": "tl:Q12524647_P108:2010"
+    },
+    {
+      "cid": "tl:Q12524647_P108:2013:Q13322850",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12524647_P108:2013"
+    },
+    {
+      "cid": "tl:Q1255625_P54:2010:Q631",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1255625_P54:2012:Q19353",
+      "doc_id": "tl:Q1255625_P54:2010"
+    },
+    {
+      "cid": "tl:Q1255625_P54:2012:Q19353",
+      "start": 2012.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q1255625_P54:2014:Q5794",
+      "doc_id": "tl:Q1255625_P54:2012"
+    },
+    {
+      "cid": "tl:Q1255625_P54:2014:Q5794",
+      "start": 2014.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1255625_P54:2016:Q43710",
+      "doc_id": "tl:Q1255625_P54:2014"
+    },
+    {
+      "cid": "tl:Q1255625_P54:2016:Q43710",
+      "start": 2016.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1255625_P54:2018:Q513840",
+      "doc_id": "tl:Q1255625_P54:2016"
+    },
+    {
+      "cid": "tl:Q1255625_P54:2018:Q513840",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1255625_P54:2019:Q1051203",
+      "doc_id": "tl:Q1255625_P54:2018"
+    },
+    {
+      "cid": "tl:Q1255625_P54:2019:Q1051203",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1255625_P54:2019"
+    },
+    {
+      "cid": "tl:Q12565_P488:2010:Q12817",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q12565_P488:2014:Q10752792",
+      "doc_id": "tl:Q12565_P488:2010"
+    },
+    {
+      "cid": "tl:Q12565_P488:2014:Q10752792",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12565_P488:2014"
+    },
+    {
+      "cid": "tl:Q12589_P6:2010:Q3165731",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q12589_P6:2015:Q3379308",
+      "doc_id": "tl:Q12589_P6:2010"
+    },
+    {
+      "cid": "tl:Q12589_P6:2015:Q3379308",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12589_P6:2015"
+    },
+    {
+      "cid": "tl:Q12611134_P39:2014:Q12615101",
+      "start": 2014.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q12611134_P39:2017:Q15407843",
+      "doc_id": "tl:Q12611134_P39:2014"
+    },
+    {
+      "cid": "tl:Q12611134_P39:2017:Q15407843",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12611134_P39:2017"
+    },
+    {
+      "cid": "tl:Q1261965_P102:2010:Q830323",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1261965_P102:2013:Q15953679",
+      "doc_id": "tl:Q1261965_P102:2010"
+    },
+    {
+      "cid": "tl:Q1261965_P102:2013:Q15953679",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1261965_P102:2013"
+    },
+    {
+      "cid": "tl:Q12625372_P102:2010:Q20916",
+      "start": 2010.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q12625372_P102:2020:Q34075424",
+      "doc_id": "tl:Q12625372_P102:2010"
+    },
+    {
+      "cid": "tl:Q12625372_P102:2020:Q34075424",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12625372_P102:2020"
+    },
+    {
+      "cid": "tl:Q12625765_P102:2010:Q327591",
+      "start": 2010.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q12625765_P102:2020:Q20916",
+      "doc_id": "tl:Q12625765_P102:2010"
+    },
+    {
+      "cid": "tl:Q12625765_P102:2020:Q20916",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12625765_P102:2020"
+    },
+    {
+      "cid": "tl:Q1262822_P286:2014:Q6526751",
+      "start": 2014.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q1262822_P286:2018:Q5175085",
+      "doc_id": "tl:Q1262822_P286:2014"
+    },
+    {
+      "cid": "tl:Q1262822_P286:2018:Q5175085",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1262822_P286:2019:Q466132",
+      "doc_id": "tl:Q1262822_P286:2018"
+    },
+    {
+      "cid": "tl:Q1262822_P286:2019:Q466132",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1262822_P286:2019"
+    },
+    {
+      "cid": "tl:Q12630865_P286:2018:Q15262168",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q12630865_P286:2020:Q94174474",
+      "doc_id": "tl:Q12630865_P286:2018"
+    },
+    {
+      "cid": "tl:Q12630865_P286:2020:Q94174474",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12630865_P286:2020"
+    },
+    {
+      "cid": "tl:Q126638_P488:2010:Q9126015",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q126638_P488:2013:Q725831",
+      "doc_id": "tl:Q126638_P488:2010"
+    },
+    {
+      "cid": "tl:Q126638_P488:2013:Q725831",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q126638_P488:2013"
+    },
+    {
+      "cid": "tl:Q1266729_P286:2014:Q4538739",
+      "start": 2014.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1266729_P286:2020:Q27922242",
+      "doc_id": "tl:Q1266729_P286:2014"
+    },
+    {
+      "cid": "tl:Q1266729_P286:2020:Q27922242",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1266729_P286:2020"
+    },
+    {
+      "cid": "tl:Q12717119_P127:2010:Q7050520",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q12717119_P127:2018:Q55074926",
+      "doc_id": "tl:Q12717119_P127:2010"
+    },
+    {
+      "cid": "tl:Q12717119_P127:2018:Q55074926",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12717119_P127:2018"
+    },
+    {
+      "cid": "tl:Q12720018_P102:2012:Q852402",
+      "start": 2012.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q12720018_P102:2013:Q15732550",
+      "doc_id": "tl:Q12720018_P102:2012"
+    },
+    {
+      "cid": "tl:Q12720018_P102:2013:Q15732550",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q12720018_P102:2015:Q20647668",
+      "doc_id": "tl:Q12720018_P102:2013"
+    },
+    {
+      "cid": "tl:Q12720018_P102:2015:Q20647668",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12720018_P102:2015"
+    },
+    {
+      "cid": "tl:Q12725946_P102:2010:Q783621",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q12725946_P102:2013:Q962976",
+      "doc_id": "tl:Q12725946_P102:2010"
+    },
+    {
+      "cid": "tl:Q12725946_P102:2013:Q962976",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12725946_P102:2013"
+    },
+    {
+      "cid": "tl:Q12752142_P102:2010:Q3445459",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q12752142_P102:2011:Q16117007",
+      "doc_id": "tl:Q12752142_P102:2010"
+    },
+    {
+      "cid": "tl:Q12752142_P102:2011:Q16117007",
+      "start": 2011.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q12752142_P102:2020:Q79428181",
+      "doc_id": "tl:Q12752142_P102:2011"
+    },
+    {
+      "cid": "tl:Q12752142_P102:2020:Q79428181",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12752142_P102:2020"
+    },
+    {
+      "cid": "tl:Q1279_P6:2010:Q1239122",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1279_P6:2015:Q3838079",
+      "doc_id": "tl:Q1279_P6:2010"
+    },
+    {
+      "cid": "tl:Q1279_P6:2015:Q3838079",
+      "start": 2015.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q1279_P6:2020:Q55281732",
+      "doc_id": "tl:Q1279_P6:2015"
+    },
+    {
+      "cid": "tl:Q1279_P6:2020:Q55281732",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1279_P6:2020"
+    },
+    {
+      "cid": "tl:Q1280872_P39:2014:Q140686",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1280872_P39:2014"
+    },
+    {
+      "cid": "tl:Q1280872_P39:2019:Q30461",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1280872_P39:2019"
+    },
+    {
+      "cid": "tl:Q128114_P6:2010:Q7181654",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q128114_P6:2013:Q6848890",
+      "doc_id": "tl:Q128114_P6:2010"
+    },
+    {
+      "cid": "tl:Q128114_P6:2013:Q6848890",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q128114_P6:2013"
+    },
+    {
+      "cid": "tl:Q128186_P6:2010:Q638431",
+      "start": 2010.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q128186_P6:2020:Q6140287",
+      "doc_id": "tl:Q128186_P6:2010"
+    },
+    {
+      "cid": "tl:Q128186_P6:2020:Q6140287",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q128186_P6:2020"
+    },
+    {
+      "cid": "tl:Q1282411_P39:2010:Q13218630",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q1029527_P39:2011:Q13218630",
+      "doc_id": "tl:Q1282411_P39:2010"
+    },
+    {
+      "cid": "tl:Q1282411_P39:2013:Q4416090",
+      "start": 2013.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q11112119_P39:2015:Q13218630",
+      "doc_id": "tl:Q1282411_P39:2013"
+    },
+    {
+      "cid": "tl:Q128446_P286:2013:Q10346582",
+      "start": 2013.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q128446_P286:2017:Q317298",
+      "doc_id": "tl:Q128446_P286:2013"
+    },
+    {
+      "cid": "tl:Q128446_P286:2017:Q317298",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q128446_P286:2017"
+    },
+    {
+      "cid": "tl:Q1287413_P39:2010:Q6866308",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1287413_P39:2012:Q16868002",
+      "doc_id": "tl:Q1287413_P39:2010"
+    },
+    {
+      "cid": "tl:Q1287413_P39:2012:Q16868002",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1287413_P39:2012"
+    },
+    {
+      "cid": "tl:Q12875947_P102:2010:Q927007",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q12875947_P102:2017:Q24045777",
+      "doc_id": "tl:Q12875947_P102:2010"
+    },
+    {
+      "cid": "tl:Q12875947_P102:2017:Q24045777",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12875947_P102:2017"
+    },
+    {
+      "cid": "tl:Q12877513_P102:2012:Q222897",
+      "start": 2012.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q12877513_P102:2015:Q20855700",
+      "doc_id": "tl:Q12877513_P102:2012"
+    },
+    {
+      "cid": "tl:Q12877513_P102:2015:Q20855700",
+      "start": 2015.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q12877513_P102:2016:Q24204945",
+      "doc_id": "tl:Q12877513_P102:2015"
+    },
+    {
+      "cid": "tl:Q12877513_P102:2016:Q24204945",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12877513_P102:2016"
+    },
+    {
+      "cid": "tl:Q128889_P54:2010:Q1277549",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q128889_P54:2011:Q212269",
+      "doc_id": "tl:Q128889_P54:2010"
+    },
+    {
+      "cid": "tl:Q128889_P54:2011:Q212269",
+      "start": 2011.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q128889_P54:2014:Q19628",
+      "doc_id": "tl:Q128889_P54:2011"
+    },
+    {
+      "cid": "tl:Q128889_P54:2014:Q19628",
+      "start": 2014.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q128889_P54:2015:Q18750",
+      "doc_id": "tl:Q128889_P54:2014"
+    },
+    {
+      "cid": "tl:Q128889_P54:2015:Q18750",
+      "start": 2015.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q128889_P54:2016:Q19453",
+      "doc_id": "tl:Q128889_P54:2015"
+    },
+    {
+      "cid": "tl:Q128889_P54:2016:Q19453",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q128889_P54:2016"
+    },
+    {
+      "cid": "tl:Q128897_P286:2018:Q16508994",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q128897_P286:2020:Q7938955",
+      "doc_id": "tl:Q128897_P286:2018"
+    },
+    {
+      "cid": "tl:Q128897_P286:2020:Q7938955",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q128897_P286:2020"
+    },
+    {
+      "cid": "tl:Q1289901_P108:2010:Q334122",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1289901_P108:2012:Q334204",
+      "doc_id": "tl:Q1289901_P108:2010"
+    },
+    {
+      "cid": "tl:Q1289901_P108:2012:Q334204",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1289901_P108:2012"
+    },
+    {
+      "cid": "tl:Q1290431_P39:2010:Q786242",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1290431_P39:2012:Q732029",
+      "doc_id": "tl:Q1290431_P39:2010"
+    },
+    {
+      "cid": "tl:Q1290431_P39:2012:Q732029",
+      "start": 2012.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1290431_P39:2012"
+    },
+    {
+      "cid": "tl:Q12927_P39:2010:Q27169",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q12927_P39:2018:Q140686",
+      "doc_id": "tl:Q12927_P39:2010"
+    },
+    {
+      "cid": "tl:Q12927_P39:2018:Q140686",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q12927_P39:2018"
+    },
+    {
+      "cid": "tl:Q1297_P6:2010:Q539814",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1297_P6:2012:Q298443",
+      "doc_id": "tl:Q1297_P6:2010"
+    },
+    {
+      "cid": "tl:Q1297_P6:2012:Q298443",
+      "start": 2012.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1297_P6:2019:Q56486914",
+      "doc_id": "tl:Q1297_P6:2012"
+    },
+    {
+      "cid": "tl:Q1297_P6:2019:Q56486914",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1297_P6:2019"
+    },
+    {
+      "cid": "tl:Q130212_P6:2010:Q662892",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q130212_P6:2011:Q871789",
+      "doc_id": "tl:Q130212_P6:2010"
+    },
+    {
+      "cid": "tl:Q130212_P6:2011:Q871789",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q130212_P6:2011"
+    },
+    {
+      "cid": "tl:Q13056788_P69:2010:Q1564297",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q13056788_P69:2015:Q1006950",
+      "doc_id": "tl:Q13056788_P69:2010"
+    },
+    {
+      "cid": "tl:Q13056788_P69:2015:Q1006950",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q13056788_P69:2015"
+    },
+    {
+      "cid": "tl:Q130765_P488:2012:Q1892814",
+      "start": 2012.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q130765_P488:2017:Q6122681",
+      "doc_id": "tl:Q130765_P488:2012"
+    },
+    {
+      "cid": "tl:Q130765_P488:2017:Q6122681",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q130765_P488:2017"
+    },
+    {
+      "cid": "tl:Q130840_P6:2010:Q540922",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q130840_P6:2014:Q22279094",
+      "doc_id": "tl:Q130840_P6:2010"
+    },
+    {
+      "cid": "tl:Q130840_P6:2014:Q22279094",
+      "start": 2014.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q130840_P6:2019:Q64009897",
+      "doc_id": "tl:Q130840_P6:2014"
+    },
+    {
+      "cid": "tl:Q130840_P6:2019:Q64009897",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q130840_P6:2019"
+    },
+    {
+      "cid": "tl:Q130929_P108:2010:Q2383044",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q130929_P108:2011:Q2917463",
+      "doc_id": "tl:Q130929_P108:2010"
+    },
+    {
+      "cid": "tl:Q130929_P108:2011:Q2917463",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q130929_P108:2011"
+    },
+    {
+      "cid": "tl:Q1310_P6:2016:Q1949253",
+      "start": 2016.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q1310_P6:2017:Q401383",
+      "doc_id": "tl:Q1310_P6:2016"
+    },
+    {
+      "cid": "tl:Q1310_P6:2017:Q401383",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1310_P6:2017"
+    },
+    {
+      "cid": "tl:Q131112_P108:2010:Q21578",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q131112_P108:2016:Q1024543",
+      "doc_id": "tl:Q131112_P108:2010"
+    },
+    {
+      "cid": "tl:Q131112_P108:2016:Q1024543",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q131112_P108:2016"
+    },
+    {
+      "cid": "tl:Q131209_P286:2015:Q558041",
+      "start": 2015.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q131209_P286:2018:Q22692810",
+      "doc_id": "tl:Q131209_P286:2015"
+    },
+    {
+      "cid": "tl:Q131209_P286:2018:Q22692810",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q131209_P286:2019:Q32592613",
+      "doc_id": "tl:Q131209_P286:2018"
+    },
+    {
+      "cid": "tl:Q131209_P286:2019:Q32592613",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q131209_P286:2019"
+    },
+    {
+      "cid": "tl:Q131215_P286:2013:Q220490",
+      "start": 2013.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q131215_P286:2016:Q16765990",
+      "doc_id": "tl:Q131215_P286:2013"
+    },
+    {
+      "cid": "tl:Q131215_P286:2016:Q16765990",
+      "start": 2016.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q131215_P286:2018:Q700139",
+      "doc_id": "tl:Q131215_P286:2016"
+    },
+    {
+      "cid": "tl:Q131215_P286:2018:Q700139",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q131215_P286:2018"
+    },
+    {
+      "cid": "tl:Q131234_P54:2010:Q104761",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q131234_P54:2011:Q43310",
+      "doc_id": "tl:Q131234_P54:2010"
+    },
+    {
+      "cid": "tl:Q131234_P54:2011:Q43310",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q131234_P54:2011"
+    },
+    {
+      "cid": "tl:Q13124_P488:2010:Q58284",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q13124_P488:2011:Q57789",
+      "doc_id": "tl:Q13124_P488:2010"
+    },
+    {
+      "cid": "tl:Q13124_P488:2011:Q57789",
+      "start": 2011.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q13124_P488:2013:Q85806",
+      "doc_id": "tl:Q13124_P488:2011"
+    },
+    {
+      "cid": "tl:Q13124_P488:2013:Q85806",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q13124_P488:2013"
+    },
+    {
+      "cid": "tl:Q131378_P286:2018:Q3894541",
+      "start": 2018.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q131378_P286:2020:Q2021758",
+      "doc_id": "tl:Q131378_P286:2018"
+    },
+    {
+      "cid": "tl:Q131378_P286:2020:Q2021758",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q131378_P286:2020"
+    },
+    {
+      "cid": "tl:Q131499_P286:2010:Q527550",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q131499_P286:2015:Q2364249",
+      "doc_id": "tl:Q131499_P286:2010"
+    },
+    {
+      "cid": "tl:Q131499_P286:2015:Q2364249",
+      "start": 2015.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q131499_P286:2019:Q56434101",
+      "doc_id": "tl:Q131499_P286:2015"
+    },
+    {
+      "cid": "tl:Q131499_P286:2019:Q56434101",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q131499_P286:2019"
+    },
+    {
+      "cid": "tl:Q13157830_P102:2015:Q20682633",
+      "start": 2015.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q13157830_P102:2017:Q216517",
+      "doc_id": "tl:Q13157830_P102:2015"
+    },
+    {
+      "cid": "tl:Q13157830_P102:2017:Q216517",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q13157830_P102:2017"
+    },
+    {
+      "cid": "tl:Q131785_P286:2010:Q310103",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q131785_P286:2016:Q270832",
+      "doc_id": "tl:Q131785_P286:2010"
+    },
+    {
+      "cid": "tl:Q131785_P286:2016:Q270832",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q131785_P286:2016"
+    },
+    {
+      "cid": "tl:Q131942_P54:2010:Q131371",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q131942_P54:2011:Q180950",
+      "doc_id": "tl:Q131942_P54:2010"
+    },
+    {
+      "cid": "tl:Q131942_P54:2011:Q180950",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q131942_P54:2011"
+    },
+    {
+      "cid": "tl:Q1320688_P54:2010:Q692417",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q1320688_P54:2013:Q650829",
+      "doc_id": "tl:Q1320688_P54:2010"
+    },
+    {
+      "cid": "tl:Q1320688_P54:2013:Q650829",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1320688_P54:2013"
+    },
+    {
+      "cid": "tl:Q132280_P102:2010:Q23055252",
+      "start": 2010.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q132280_P102:2017:Q327591",
+      "doc_id": "tl:Q132280_P102:2010"
+    },
+    {
+      "cid": "tl:Q132280_P102:2017:Q327591",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q132280_P102:2017"
+    },
+    {
+      "cid": "tl:Q132404_P6:2010:Q3479423",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q132404_P6:2014:Q21172233",
+      "doc_id": "tl:Q132404_P6:2010"
+    },
+    {
+      "cid": "tl:Q132404_P6:2014:Q21172233",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q132404_P6:2014"
+    },
+    {
+      "cid": "tl:Q132410_P6:2010:Q1174142",
+      "start": 2010.0,
+      "end": 2018.0,
+      "witness_cid": "tl:Q132410_P6:2018:Q52707425",
+      "doc_id": "tl:Q132410_P6:2010"
+    },
+    {
+      "cid": "tl:Q132410_P6:2018:Q52707425",
+      "start": 2018.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q132410_P6:2018"
+    },
+    {
+      "cid": "tl:Q132418_P6:2010:Q540878",
+      "start": 2010.0,
+      "end": 2013.0,
+      "witness_cid": "tl:Q132418_P6:2013:Q13393272",
+      "doc_id": "tl:Q132418_P6:2010"
+    },
+    {
+      "cid": "tl:Q132418_P6:2013:Q13393272",
+      "start": 2013.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q132418_P6:2020:Q63248078",
+      "doc_id": "tl:Q132418_P6:2013"
+    },
+    {
+      "cid": "tl:Q132418_P6:2020:Q63248078",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q132418_P6:2020"
+    },
+    {
+      "cid": "tl:Q1324589_P39:2014:Q50586662",
+      "start": 2014.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1324589_P39:2019:Q27169",
+      "doc_id": "tl:Q1324589_P39:2014"
+    },
+    {
+      "cid": "tl:Q1324589_P39:2019:Q27169",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1324589_P39:2019"
+    },
+    {
+      "cid": "tl:Q1325724_P108:2010:Q189022",
+      "start": 2010.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q1325724_P108:2016:Q34433",
+      "doc_id": "tl:Q1325724_P108:2010"
+    },
+    {
+      "cid": "tl:Q1325724_P108:2016:Q34433",
+      "start": 2016.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1325724_P108:2016"
+    },
+    {
+      "cid": "tl:Q132671_P6:2010:Q3295803",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q132671_P6:2015:Q12963",
+      "doc_id": "tl:Q132671_P6:2010"
+    },
+    {
+      "cid": "tl:Q132671_P6:2015:Q12963",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q132671_P6:2015"
+    },
+    {
+      "cid": "tl:Q132738_P54:2010:Q478309",
+      "start": 2010.0,
+      "end": 2011.0,
+      "witness_cid": "tl:Q132738_P54:2011:Q62424",
+      "doc_id": "tl:Q132738_P54:2010"
+    },
+    {
+      "cid": "tl:Q132738_P54:2011:Q62424",
+      "start": 2011.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q132738_P54:2017:Q682460",
+      "doc_id": "tl:Q132738_P54:2011"
+    },
+    {
+      "cid": "tl:Q132738_P54:2017:Q682460",
+      "start": 2017.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q132738_P54:2017"
+    },
+    {
+      "cid": "tl:Q1328702_P54:2010:Q19604",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q1328702_P54:2012:Q1128631",
+      "doc_id": "tl:Q1328702_P54:2010"
+    },
+    {
+      "cid": "tl:Q1328702_P54:2012:Q1128631",
+      "start": 2012.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1328702_P54:2015:Q48948",
+      "doc_id": "tl:Q1328702_P54:2012"
+    },
+    {
+      "cid": "tl:Q1328702_P54:2015:Q48948",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1328702_P54:2015"
+    },
+    {
+      "cid": "tl:Q132885_P286:2010:Q508711",
+      "start": 2010.0,
+      "end": 2012.0,
+      "witness_cid": "tl:Q132885_P286:2012:Q128932",
+      "doc_id": "tl:Q132885_P286:2010"
+    },
+    {
+      "cid": "tl:Q132885_P286:2012:Q128932",
+      "start": 2012.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q132885_P286:2014:Q31575",
+      "doc_id": "tl:Q132885_P286:2012"
+    },
+    {
+      "cid": "tl:Q132885_P286:2014:Q31575",
+      "start": 2014.0,
+      "end": 2016.0,
+      "witness_cid": "tl:Q132885_P286:2016:Q3082242",
+      "doc_id": "tl:Q132885_P286:2014"
+    },
+    {
+      "cid": "tl:Q132885_P286:2016:Q3082242",
+      "start": 2016.0,
+      "end": 2017.0,
+      "witness_cid": "tl:Q132885_P286:2017:Q923131",
+      "doc_id": "tl:Q132885_P286:2016"
+    },
+    {
+      "cid": "tl:Q132885_P286:2017:Q923131",
+      "start": 2017.0,
+      "end": 2020.0,
+      "witness_cid": "tl:Q132885_P286:2020:Q212914",
+      "doc_id": "tl:Q132885_P286:2017"
+    },
+    {
+      "cid": "tl:Q132885_P286:2020:Q212914",
+      "start": 2020.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q132885_P286:2020"
+    },
+    {
+      "cid": "tl:Q13306_P54:2010:Q1344163",
+      "start": 2010.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q13306_P54:2010"
+    },
+    {
+      "cid": "tl:Q13306_P54:2011:Q1277549",
+      "start": 2011.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q13306_P54:2011"
+    },
+    {
+      "cid": "tl:Q13306_P54:2013:Q47774",
+      "start": 2013.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q13306_P54:2013"
+    },
+    {
+      "cid": "tl:Q133083_P6:2010:Q7048706",
+      "start": 2010.0,
+      "end": 2014.0,
+      "witness_cid": "tl:Q133083_P6:2014:Q22279007",
+      "doc_id": "tl:Q133083_P6:2010"
+    },
+    {
+      "cid": "tl:Q133083_P6:2014:Q22279007",
+      "start": 2014.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q133083_P6:2014"
+    },
+    {
+      "cid": "tl:Q1334208_P39:2010:Q27169",
+      "start": 2010.0,
+      "end": 2015.0,
+      "witness_cid": "tl:Q1334208_P39:2015:Q140686",
+      "doc_id": "tl:Q1334208_P39:2010"
+    },
+    {
+      "cid": "tl:Q1334208_P39:2015:Q140686",
+      "start": 2015.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1334208_P39:2015"
+    },
+    {
+      "cid": "tl:Q1334445_P286:2018:Q20641334",
+      "start": 2018.0,
+      "end": 2019.0,
+      "witness_cid": "tl:Q1334445_P286:2019:Q4925837",
+      "doc_id": "tl:Q1334445_P286:2018"
+    },
+    {
+      "cid": "tl:Q1334445_P286:2019:Q4925837",
+      "start": 2019.0,
+      "end": null,
+      "witness_cid": null,
+      "doc_id": "tl:Q1334445_P286:2019"
+    }
+  ],
+  "current_ids": [
+    "tl:Q10002_P6:2015:Q1452565",
+    "tl:Q1000_P6:2020:Q60594089",
+    "tl:Q100188_P6:2012:Q267857",
+    "tl:Q1002010_P488:2011:Q8292013",
+    "tl:Q1002295_P102:2013:Q15246541",
+    "tl:Q1003357_P286:2016:Q3351136",
+    "tl:Q100560206_P69:2016:Q21578",
+    "tl:Q1005_P6:2018:Q27917049",
+    "tl:Q1006_P6:2019:Q5984807",
+    "tl:Q100749_P108:2017:Q314073",
+    "tl:Q100_P6:2015:Q15126384",
+    "tl:Q10132_P286:2018:Q193361",
+    "tl:Q101410_P102:2015:Q20012759",
+    "tl:Q101959_P286:2019:Q542990",
+    "tl:Q1021708_P39:2014:Q27169",
+    "tl:Q102178_P488:2019:Q1430324",
+    "tl:Q10225_P488:2019:Q163225",
+    "tl:Q1023028_P286:2015:Q1357846",
+    "tl:Q1023227_P286:2019:Q11929086",
+    "tl:Q1024463_P286:2020:Q558873",
+    "tl:Q102720_P286:2020:Q2642761",
+    "tl:Q1029792_P488:2016:Q15629005",
+    "tl:Q10300_P286:2020:Q2311040",
+    "tl:Q10304982_P102:2019:Q2366265",
+    "tl:Q10308_P286:2020:Q299488",
+    "tl:Q1031200_P286:2018:Q3768101",
+    "tl:Q10325468_P108:2019:Q7894395",
+    "tl:Q1032587_P102:2018:Q150068",
+    "tl:Q10329_P286:2020:Q115119",
+    "tl:Q10333_P286:2020:Q4886441",
+    "tl:Q10340805_P102:2012:Q2054750",
+    "tl:Q10357316_P127:2016:Q20730106",
+    "tl:Q1037_P6:2017:Q38188115",
+    "tl:Q10380008_P54:2015:Q18525",
+    "tl:Q10382139_P54:2016:Q18515",
+    "tl:Q10403942_P127:2010:Q1543093",
+    "tl:Q10403942_P127:2015:Q892825",
+    "tl:Q1040719_P286:2019:Q6896737",
+    "tl:Q10413488_P54:2015:Q163547",
+    "tl:Q1041_P6:2019:Q57438",
+    "tl:Q1042470_P108:2012:Q2302586",
+    "tl:Q1042743_P54:2012:Q504309",
+    "tl:Q1042829_P286:2017:Q16185621",
+    "tl:Q1045461_P54:2013:Q224164",
+    "tl:Q1045_P6:2020:Q97703983",
+    "tl:Q1046445_P286:2018:Q1365656",
+    "tl:Q1046939_P286:2018:Q3412138",
+    "tl:Q104746_P6:2018:Q4941267",
+    "tl:Q1047535_P286:2019:Q1256025",
+    "tl:Q104761_P286:2018:Q1029982",
+    "tl:Q104770_P286:2020:Q9318057",
+    "tl:Q1048192_P488:2018:Q3606816",
+    "tl:Q1049059_P54:2014:Q19458",
+    "tl:Q1049470_P488:2011:Q5444313",
+    "tl:Q105112_P488:2013:Q2740012",
+    "tl:Q10512_P286:2020:Q6277636",
+    "tl:Q10514_P54:2015:Q172030",
+    "tl:Q1051514_P286:2019:Q2407770",
+    "tl:Q10516040_P54:2013:Q170649",
+    "tl:Q10520_P54:2013:Q483020",
+    "tl:Q105254_P286:2019:Q19257969",
+    "tl:Q1054342_P54:2015:Q1278130",
+    "tl:Q10543612_P39:2010:Q140686",
+    "tl:Q10543612_P39:2019:Q4801269",
+    "tl:Q10552391_P54:2011:Q1671357",
+    "tl:Q10552391_P54:2013:Q334526",
+    "tl:Q10553748_P54:2016:Q204238",
+    "tl:Q1055449_P39:2018:Q4011164",
+    "tl:Q105564_P102:2015:Q20681849",
+    "tl:Q1055_P6:2019:Q971774",
+    "tl:Q10560_P54:2014:Q16845355",
+    "tl:Q10577_P54:2015:Q5794",
+    "tl:Q10585_P54:2013:Q18744",
+    "tl:Q1058_P39:2014:Q4294428",
+    "tl:Q10590_P54:2014:Q18527",
+    "tl:Q1059186_P286:2019:Q2655477",
+    "tl:Q10602_P54:2020:Q631",
+    "tl:Q10603_P54:2016:Q19578",
+    "tl:Q1060949_P102:2016:Q26871088",
+    "tl:Q1061627_P286:2016:Q20972402",
+    "tl:Q1061904_P54:2016:Q18708",
+    "tl:Q106394_P286:2011:Q129121",
+    "tl:Q10658_P488:2015:Q467112",
+    "tl:Q1066032_P39:2016:Q611644",
+    "tl:Q1066501_P54:2014:Q324523",
+    "tl:Q10691_P488:2018:Q3405033",
+    "tl:Q1070388_P488:2019:Q16716966",
+    "tl:Q107051_P54:2011:Q1422",
+    "tl:Q107124_P39:2010:Q1162163",
+    "tl:Q107124_P39:2016:Q484876",
+    "tl:Q1073219_P488:2012:Q7488353",
+    "tl:Q107365_P54:2011:Q15789",
+    "tl:Q1076494_P488:2014:Q3497963",
+    "tl:Q1077389_P54:2015:Q224164",
+    "tl:Q1079331_P108:2018:Q162684",
+    "tl:Q10819_P39:2011:Q844587",
+    "tl:Q1084303_P108:2011:Q4731705",
+    "tl:Q108447_P39:2018:Q568605",
+    "tl:Q108451_P108:2017:Q1024426",
+    "tl:Q10853588_P39:2018:Q4416090",
+    "tl:Q10860995_P54:2014:Q1683280",
+    "tl:Q10931647_P127:2010:Q7021083",
+    "tl:Q10931647_P127:2013:Q5384790",
+    "tl:Q109362_P69:2011:Q1352632",
+    "tl:Q109397_P54:2015:Q51976",
+    "tl:Q109428_P54:2016:Q17479",
+    "tl:Q1094295_P286:2017:Q7626471",
+    "tl:Q10949778_P102:2016:Q1393123",
+    "tl:Q1097334_P54:2013:Q19481",
+    "tl:Q1097511_P54:2011:Q223514",
+    "tl:Q11015795_P102:2017:Q23774883",
+    "tl:Q1102044_P102:2011:Q47781",
+    "tl:Q1107989_P54:2019:Q246782",
+    "tl:Q11080923_P127:2010:Q721162",
+    "tl:Q11080923_P127:2015:Q5895075",
+    "tl:Q110843_P488:2018:Q1780398",
+    "tl:Q110857_P488:2020:Q241851",
+    "tl:Q1114833_P488:2014:Q7002247",
+    "tl:Q1115878_P488:2015:Q7364772",
+    "tl:Q11163124_P102:2017:Q327591",
+    "tl:Q11171578_P54:2012:Q1321565",
+    "tl:Q11201210_P108:2013:Q869662",
+    "tl:Q1120203_P6:2011:Q3579995",
+    "tl:Q11207061_P108:2012:Q487556",
+    "tl:Q1121443_P54:2015:Q18522",
+    "tl:Q1124841_P286:2018:Q336498",
+    "tl:Q11250530_P286:2017:Q738702",
+    "tl:Q1127218_P488:2016:Q217070",
+    "tl:Q1128374_P488:2015:Q8084240",
+    "tl:Q1130849_P286:2015:Q83106",
+    "tl:Q113156_P54:2014:Q16839398",
+    "tl:Q1133513_P54:2015:Q213417",
+    "tl:Q11336634_P286:2020:Q7694240",
+    "tl:Q1137993_P286:2020:Q2158434",
+    "tl:Q1138191_P286:2020:Q12411402",
+    "tl:Q113841_P54:2012:Q186262",
+    "tl:Q1138982_P488:2016:Q241563",
+    "tl:Q113916_P54:2015:Q18736",
+    "tl:Q1139429_P127:2016:Q20730106",
+    "tl:Q1140538_P286:2019:Q690876",
+    "tl:Q1142687_P488:2020:Q13434626",
+    "tl:Q11443689_P108:2011:Q1191132",
+    "tl:Q11445_P6:2019:Q56391433",
+    "tl:Q114859_P54:2020:Q272712",
+    "tl:Q1148669_P39:2019:Q273884",
+    "tl:Q1150936_P127:2010:Q486633",
+    "tl:Q1150936_P127:2016:Q1509333",
+    "tl:Q1151872_P54:2018:Q692417",
+    "tl:Q1151909_P286:2020:Q1400165",
+    "tl:Q1152752_P488:2018:Q4417193",
+    "tl:Q11540606_P108:2016:Q41738",
+    "tl:Q115453_P54:2014:Q7156",
+    "tl:Q1155636_P108:2017:Q4052634",
+    "tl:Q115678_P286:2016:Q1386823",
+    "tl:Q11571_P54:2018:Q1422",
+    "tl:Q11576_P54:2015:Q646135",
+    "tl:Q1158_P488:2015:Q188502",
+    "tl:Q11594_P108:2016:Q204457",
+    "tl:Q115_P6:2019:Q50365049",
+    "tl:Q1163431_P488:2017:Q2829824",
+    "tl:Q1163740_P108:2019:Q1050350",
+    "tl:Q11667656_P488:2020:Q7296702",
+    "tl:Q11668_P39:2017:Q1785225",
+    "tl:Q11689876_P39:2014:Q6501749",
+    "tl:Q116980_P54:2012:Q321061",
+    "tl:Q11701393_P39:2011:Q11796924",
+    "tl:Q11702_P39:2011:Q912994",
+    "tl:Q11703587_P102:2014:Q15630787",
+    "tl:Q11705283_P127:2010:Q2036076",
+    "tl:Q11705283_P127:2015:Q18378979",
+    "tl:Q11705283_P127:2018:Q608518",
+    "tl:Q11714338_P102:2016:Q904070",
+    "tl:Q11739162_P488:2015:Q31919",
+    "tl:Q11739443_P108:2017:Q872173",
+    "tl:Q117436_P54:2019:Q503317",
+    "tl:Q11743_P108:2018:Q1049470",
+    "tl:Q11767660_P108:2014:Q15265902",
+    "tl:Q11768297_P108:2017:Q213624",
+    "tl:Q117743_P54:2017:Q27076773",
+    "tl:Q117867_P69:2014:Q168756",
+    "tl:Q117892_P488:2018:Q16254734",
+    "tl:Q1183_P6:2019:Q56600071",
+    "tl:Q1185115_P6:2019:Q379122",
+    "tl:Q11860_P39:2019:Q27169",
+    "tl:Q1186190_P488:2017:Q8291839",
+    "tl:Q1186316_P488:2017:Q13040485",
+    "tl:Q11869065_P108:2014:Q8889",
+    "tl:Q11898613_P108:2014:Q458393",
+    "tl:Q11922769_P102:2017:Q25713876",
+    "tl:Q11928385_P102:2017:Q25713876",
+    "tl:Q11936570_P102:2017:Q25713876",
+    "tl:Q11938_P286:2020:Q1424071",
+    "tl:Q11945_P286:2020:Q705601",
+    "tl:Q1194_P6:2017:Q969340",
+    "tl:Q119562_P54:2012:Q50602",
+    "tl:Q11958392_P488:2011:Q463689",
+    "tl:Q11959_P6:2018:Q51997376",
+    "tl:Q1196_P6:2018:Q72845",
+    "tl:Q11971_P286:2019:Q2637295",
+    "tl:Q11979_P286:2020:Q2409599",
+    "tl:Q11989087_P102:2011:Q478180",
+    "tl:Q1198_P6:2018:Q78205",
+    "tl:Q1199255_P286:2017:Q4414785",
+    "tl:Q12001809_P39:2019:Q651703",
+    "tl:Q1200258_P488:2018:Q4679029",
+    "tl:Q120064_P286:2018:Q28051523",
+    "tl:Q1200_P6:2013:Q84581",
+    "tl:Q12014326_P108:2017:Q168000",
+    "tl:Q12023896_P39:2018:Q3210181",
+    "tl:Q1202_P6:2018:Q1928299",
+    "tl:Q12048555_P102:2013:Q14923603",
+    "tl:Q1204_P6:2019:Q6103950",
+    "tl:Q1205_P6:2015:Q104678",
+    "tl:Q1206_P6:2012:Q69355",
+    "tl:Q1207_P6:2016:Q22095395",
+    "tl:Q1208454_P54:2013:Q334634",
+    "tl:Q1209_P6:2016:Q1045675",
+    "tl:Q1210_P6:2019:Q3629240",
+    "tl:Q121403_P54:2016:Q240444",
+    "tl:Q12149_P39:2010:Q852152",
+    "tl:Q12149_P39:2012:Q887124",
+    "tl:Q1218_P6:2019:Q12409594",
+    "tl:Q12191_P6:2015:Q16037012",
+    "tl:Q1220_P39:2016:Q826589",
+    "tl:Q12236_P286:2020:Q2049205",
+    "tl:Q122465_P39:2020:Q274948",
+    "tl:Q12269600_P39:2014:Q42712773",
+    "tl:Q1227076_P39:2012:Q6597955",
+    "tl:Q12278_P286:2019:Q431287",
+    "tl:Q1228264_P286:2020:Q560603",
+    "tl:Q12297_P286:2020:Q295610",
+    "tl:Q12326451_P102:2013:Q212101",
+    "tl:Q123517_P102:2018:Q49762",
+    "tl:Q1236571_P39:2011:Q2390270",
+    "tl:Q123665_P39:2016:Q5261087",
+    "tl:Q12377820_P108:2016:Q823031",
+    "tl:Q1238152_P102:2017:Q31400965",
+    "tl:Q1238709_P108:2017:Q12815487",
+    "tl:Q124086_P54:2018:Q428211",
+    "tl:Q1246_P6:2020:Q441633",
+    "tl:Q124784_P108:2012:Q673354",
+    "tl:Q12524647_P108:2013:Q13322850",
+    "tl:Q1255625_P54:2019:Q1051203",
+    "tl:Q12565_P488:2014:Q10752792",
+    "tl:Q12589_P6:2015:Q3379308",
+    "tl:Q12611134_P39:2017:Q15407843",
+    "tl:Q1261965_P102:2013:Q15953679",
+    "tl:Q12625372_P102:2020:Q34075424",
+    "tl:Q12625765_P102:2020:Q20916",
+    "tl:Q1262822_P286:2019:Q466132",
+    "tl:Q12630865_P286:2020:Q94174474",
+    "tl:Q126638_P488:2013:Q725831",
+    "tl:Q1266729_P286:2020:Q27922242",
+    "tl:Q12717119_P127:2018:Q55074926",
+    "tl:Q12720018_P102:2015:Q20647668",
+    "tl:Q12725946_P102:2013:Q962976",
+    "tl:Q12752142_P102:2020:Q79428181",
+    "tl:Q1279_P6:2020:Q55281732",
+    "tl:Q1280872_P39:2014:Q140686",
+    "tl:Q1280872_P39:2019:Q30461",
+    "tl:Q128114_P6:2013:Q6848890",
+    "tl:Q128186_P6:2020:Q6140287",
+    "tl:Q128446_P286:2017:Q317298",
+    "tl:Q1287413_P39:2012:Q16868002",
+    "tl:Q12875947_P102:2017:Q24045777",
+    "tl:Q12877513_P102:2016:Q24204945",
+    "tl:Q128889_P54:2016:Q19453",
+    "tl:Q128897_P286:2020:Q7938955",
+    "tl:Q1289901_P108:2012:Q334204",
+    "tl:Q1290431_P39:2012:Q732029",
+    "tl:Q12927_P39:2018:Q140686",
+    "tl:Q1297_P6:2019:Q56486914",
+    "tl:Q130212_P6:2011:Q871789",
+    "tl:Q13056788_P69:2015:Q1006950",
+    "tl:Q130765_P488:2017:Q6122681",
+    "tl:Q130840_P6:2019:Q64009897",
+    "tl:Q130929_P108:2011:Q2917463",
+    "tl:Q1310_P6:2017:Q401383",
+    "tl:Q131112_P108:2016:Q1024543",
+    "tl:Q131209_P286:2019:Q32592613",
+    "tl:Q131215_P286:2018:Q700139",
+    "tl:Q131234_P54:2011:Q43310",
+    "tl:Q13124_P488:2013:Q85806",
+    "tl:Q131378_P286:2020:Q2021758",
+    "tl:Q131499_P286:2019:Q56434101",
+    "tl:Q13157830_P102:2017:Q216517",
+    "tl:Q131785_P286:2016:Q270832",
+    "tl:Q131942_P54:2011:Q180950",
+    "tl:Q1320688_P54:2013:Q650829",
+    "tl:Q132280_P102:2017:Q327591",
+    "tl:Q132404_P6:2014:Q21172233",
+    "tl:Q132410_P6:2018:Q52707425",
+    "tl:Q132418_P6:2020:Q63248078",
+    "tl:Q1324589_P39:2019:Q27169",
+    "tl:Q1325724_P108:2016:Q34433",
+    "tl:Q132671_P6:2015:Q12963",
+    "tl:Q132738_P54:2017:Q682460",
+    "tl:Q1328702_P54:2015:Q48948",
+    "tl:Q132885_P286:2020:Q212914",
+    "tl:Q13306_P54:2010:Q1344163",
+    "tl:Q13306_P54:2011:Q1277549",
+    "tl:Q13306_P54:2013:Q47774",
+    "tl:Q133083_P6:2014:Q22279007",
+    "tl:Q1334208_P39:2015:Q140686",
+    "tl:Q1334445_P286:2019:Q4925837"
+  ],
+  "as_of": {
+    "cutoff": 2015.0,
+    "eligible_ids": [
+      "tl:Q10002_P6:2015:Q1452565",
+      "tl:Q100188_P6:2012:Q267857",
+      "tl:Q1002010_P488:2011:Q8292013",
+      "tl:Q1002295_P102:2013:Q15246541",
+      "tl:Q1003357_P286:2014:Q1275560",
+      "tl:Q100560206_P69:2010:Q4924484",
+      "tl:Q1005_P6:2010:Q57356",
+      "tl:Q1006_P6:2010:Q21855433",
+      "tl:Q100749_P108:2013:Q317070",
+      "tl:Q100_P6:2015:Q15126384",
+      "tl:Q10132_P286:2010:Q2118577",
+      "tl:Q101410_P102:2015:Q20012759",
+      "tl:Q1021708_P39:2014:Q27169",
+      "tl:Q102178_P488:2010:Q313594",
+      "tl:Q10225_P488:2010:Q10218",
+      "tl:Q1023028_P286:2015:Q1357846",
+      "tl:Q1023227_P286:2015:Q2718715",
+      "tl:Q1024463_P286:2015:Q1133257",
+      "tl:Q102720_P286:2015:Q742429",
+      "tl:Q10304982_P102:2010:Q732852",
+      "tl:Q1031200_P286:2013:Q5019280",
+      "tl:Q10325468_P108:2010:Q2060678",
+      "tl:Q1032587_P102:2015:Q20103988",
+      "tl:Q10329_P286:2013:Q295610",
+      "tl:Q10333_P286:2012:Q359118",
+      "tl:Q10340805_P102:2012:Q2054750",
+      "tl:Q10357316_P127:2010:Q1411661",
+      "tl:Q1037_P6:2014:Q17417622",
+      "tl:Q10380008_P54:2015:Q18525",
+      "tl:Q10382139_P54:2014:Q48945",
+      "tl:Q10403942_P127:2010:Q1543093",
+      "tl:Q10403942_P127:2015:Q892825",
+      "tl:Q1040719_P286:2014:Q16214008",
+      "tl:Q10413488_P54:2015:Q163547",
+      "tl:Q1041_P6:2014:Q17320405",
+      "tl:Q1042470_P108:2012:Q2302586",
+      "tl:Q1042743_P54:2012:Q504309",
+      "tl:Q1042829_P286:2011:Q358718",
+      "tl:Q1045461_P54:2013:Q224164",
+      "tl:Q1046445_P286:2015:Q5414497",
+      "tl:Q1046939_P286:2012:Q3775763",
+      "tl:Q1047535_P286:2015:Q248231",
+      "tl:Q104761_P286:2010:Q152107",
+      "tl:Q1048192_P488:2014:Q505965",
+      "tl:Q1049059_P54:2014:Q19458",
+      "tl:Q1049470_P488:2011:Q5444313",
+      "tl:Q105112_P488:2013:Q2740012",
+      "tl:Q10514_P54:2015:Q172030",
+      "tl:Q10516040_P54:2013:Q170649",
+      "tl:Q10520_P54:2013:Q483020",
+      "tl:Q105254_P286:2015:Q17352998",
+      "tl:Q1054342_P54:2015:Q1278130",
+      "tl:Q10543612_P39:2010:Q140686",
+      "tl:Q10552391_P54:2011:Q1671357",
+      "tl:Q10552391_P54:2013:Q334526",
+      "tl:Q10553748_P54:2015:Q248188",
+      "tl:Q1055449_P39:2012:Q1553195",
+      "tl:Q105564_P102:2015:Q20681849",
+      "tl:Q1055_P6:2011:Q61053",
+      "tl:Q10560_P54:2014:Q16845355",
+      "tl:Q10577_P54:2015:Q5794",
+      "tl:Q10585_P54:2013:Q18744",
+      "tl:Q1058_P39:2014:Q4294428",
+      "tl:Q10590_P54:2014:Q18527",
+      "tl:Q10602_P54:2014:Q18656",
+      "tl:Q10603_P54:2014:Q19458",
+      "tl:Q1060949_P102:2010:Q1668154",
+      "tl:Q1061627_P286:2012:Q5972505",
+      "tl:Q1061904_P54:2013:Q19446",
+      "tl:Q106394_P286:2011:Q129121",
+      "tl:Q10658_P488:2015:Q467112",
+      "tl:Q1066032_P39:2012:Q75178",
+      "tl:Q1066501_P54:2014:Q324523",
+      "tl:Q10691_P488:2012:Q10694",
+      "tl:Q1070388_P488:2014:Q2589861",
+      "tl:Q107051_P54:2011:Q1422",
+      "tl:Q107124_P39:2010:Q1162163",
+      "tl:Q1073219_P488:2012:Q7488353",
+      "tl:Q107365_P54:2011:Q15789",
+      "tl:Q1076494_P488:2014:Q3497963",
+      "tl:Q1077389_P54:2015:Q224164",
+      "tl:Q1079331_P108:2010:Q152171",
+      "tl:Q10819_P39:2011:Q844587",
+      "tl:Q1084303_P108:2011:Q4731705",
+      "tl:Q108447_P39:2010:Q928764",
+      "tl:Q108451_P108:2010:Q273263",
+      "tl:Q10853588_P39:2011:Q3406489",
+      "tl:Q10860995_P54:2014:Q1683280",
+      "tl:Q10931647_P127:2010:Q7021083",
+      "tl:Q10931647_P127:2013:Q5384790",
+      "tl:Q109362_P69:2011:Q1352632",
+      "tl:Q109397_P54:2015:Q51976",
+      "tl:Q109428_P54:2015:Q6601875",
+      "tl:Q1094295_P286:2015:Q7356905",
+      "tl:Q10949778_P102:2010:Q1144342",
+      "tl:Q1097334_P54:2013:Q19481",
+      "tl:Q1097511_P54:2011:Q223514",
+      "tl:Q11015795_P102:2010:Q669307",
+      "tl:Q1102044_P102:2011:Q47781",
+      "tl:Q1107989_P54:2010:Q650840",
+      "tl:Q11080923_P127:2010:Q721162",
+      "tl:Q11080923_P127:2015:Q5895075",
+      "tl:Q110843_P488:2010:Q52920",
+      "tl:Q110857_P488:2010:Q911372",
+      "tl:Q11112119_P39:2015:Q13218630",
+      "tl:Q1114833_P488:2014:Q7002247",
+      "tl:Q1115878_P488:2015:Q7364772",
+      "tl:Q11163124_P102:2010:Q24665806",
+      "tl:Q11171578_P54:2012:Q1321565",
+      "tl:Q11201210_P108:2013:Q869662",
+      "tl:Q1120203_P6:2011:Q3579995",
+      "tl:Q11207061_P108:2012:Q487556",
+      "tl:Q1121443_P54:2015:Q18522",
+      "tl:Q1124841_P286:2014:Q1985420",
+      "tl:Q11250530_P286:2015:Q171543",
+      "tl:Q1127218_P488:2010:Q713235",
+      "tl:Q1128374_P488:2015:Q8084240",
+      "tl:Q1130849_P286:2015:Q83106",
+      "tl:Q113156_P54:2014:Q16839398",
+      "tl:Q1133513_P54:2015:Q213417",
+      "tl:Q1135774_P39:2015:Q4416090",
+      "tl:Q113841_P54:2012:Q186262",
+      "tl:Q1138982_P488:2010:Q438819",
+      "tl:Q113916_P54:2015:Q18736",
+      "tl:Q1139429_P127:2010:Q1411661",
+      "tl:Q1140538_P286:2011:Q4025462",
+      "tl:Q1142687_P488:2011:Q1373840",
+      "tl:Q11443689_P108:2011:Q1191132",
+      "tl:Q11445_P6:2013:Q17410766",
+      "tl:Q114859_P54:2015:Q9616",
+      "tl:Q1148669_P39:2014:Q2363110",
+      "tl:Q1150936_P127:2010:Q486633",
+      "tl:Q1151872_P54:2013:Q334634",
+      "tl:Q1151909_P286:2015:Q3759228",
+      "tl:Q1152752_P488:2010:Q57530",
+      "tl:Q11540606_P108:2010:Q720503",
+      "tl:Q115453_P54:2014:Q7156",
+      "tl:Q1155636_P108:2010:Q743717",
+      "tl:Q115678_P286:2015:Q433883",
+      "tl:Q11571_P54:2010:Q8682",
+      "tl:Q11576_P54:2015:Q646135",
+      "tl:Q1158_P488:2015:Q188502",
+      "tl:Q11594_P108:2011:Q1064071",
+      "tl:Q115_P6:2012:Q381071",
+      "tl:Q1163431_P488:2012:Q3320815",
+      "tl:Q11667656_P488:2010:Q312440",
+      "tl:Q11668_P39:2011:Q3773752",
+      "tl:Q11689876_P39:2014:Q6501749",
+      "tl:Q116980_P54:2012:Q321061",
+      "tl:Q11701393_P39:2011:Q11796924",
+      "tl:Q11702_P39:2011:Q912994",
+      "tl:Q11703587_P102:2014:Q15630787",
+      "tl:Q11705283_P127:2010:Q2036076",
+      "tl:Q11705283_P127:2015:Q18378979",
+      "tl:Q11714338_P102:2014:Q327591",
+      "tl:Q11739162_P488:2015:Q31919",
+      "tl:Q11739443_P108:2012:Q248710",
+      "tl:Q117436_P54:2015:Q19509",
+      "tl:Q11743_P108:2010:Q1144262",
+      "tl:Q11767660_P108:2014:Q15265902",
+      "tl:Q11768297_P108:2013:Q9208102",
+      "tl:Q117743_P54:2015:Q1156897",
+      "tl:Q117867_P69:2014:Q168756",
+      "tl:Q117892_P488:2010:Q377263",
+      "tl:Q1183_P6:2012:Q2832449",
+      "tl:Q1185115_P6:2011:Q445654",
+      "tl:Q11860_P102:2014:Q14924303",
+      "tl:Q11860_P39:2010:Q796897",
+      "tl:Q1186190_P488:2013:Q6123122",
+      "tl:Q1186234_P488:2015:Q81065",
+      "tl:Q1186316_P488:2010:Q57634",
+      "tl:Q11869065_P108:2014:Q8889",
+      "tl:Q11898613_P108:2014:Q458393",
+      "tl:Q11922769_P102:2010:Q1129443",
+      "tl:Q11928385_P102:2010:Q1129443",
+      "tl:Q11936570_P102:2010:Q1129443",
+      "tl:Q11938_P286:2013:Q11958",
+      "tl:Q1194_P6:2012:Q69036",
+      "tl:Q119562_P54:2012:Q50602",
+      "tl:Q11958392_P488:2011:Q463689",
+      "tl:Q11959_P6:2010:Q3113861",
+      "tl:Q1196_P6:2010:Q69301",
+      "tl:Q11971_P286:2013:Q3320968",
+      "tl:Q11979_P286:2014:Q3235400",
+      "tl:Q11989087_P102:2011:Q478180",
+      "tl:Q1198_P6:2011:Q61938",
+      "tl:Q1199255_P286:2010:Q1750005",
+      "tl:Q12001809_P39:2014:Q783943",
+      "tl:Q1200258_P488:2010:Q7151652",
+      "tl:Q1200_P6:2013:Q84581",
+      "tl:Q12014326_P108:2012:Q483551",
+      "tl:Q12023896_P39:2010:Q30185",
+      "tl:Q1202_P6:2010:Q77391",
+      "tl:Q12048555_P102:2013:Q14923603",
+      "tl:Q1204_P6:2015:Q15972549",
+      "tl:Q1205_P6:2015:Q104678",
+      "tl:Q1206_P6:2012:Q69355",
+      "tl:Q1207_P6:2011:Q770393",
+      "tl:Q1208454_P54:2013:Q334634",
+      "tl:Q1209_P6:2010:Q61604",
+      "tl:Q1210_P6:2013:Q562097",
+      "tl:Q121403_P54:2015:Q134241",
+      "tl:Q12149_P39:2010:Q852152",
+      "tl:Q12149_P39:2012:Q887124",
+      "tl:Q1218_P6:2010:Q468394",
+      "tl:Q12191_P6:2015:Q16037012",
+      "tl:Q1220_P39:2010:Q332711",
+      "tl:Q122465_P39:2012:Q1078482",
+      "tl:Q12269600_P39:2014:Q42712773",
+      "tl:Q1227076_P39:2012:Q6597955",
+      "tl:Q12297_P286:2010:Q359118",
+      "tl:Q12326451_P102:2013:Q212101",
+      "tl:Q123517_P102:2010:Q49766",
+      "tl:Q1236571_P39:2011:Q2390270",
+      "tl:Q123665_P39:2010:Q1209571",
+      "tl:Q12377820_P108:2010:Q387634",
+      "tl:Q1238152_P102:2010:Q170972",
+      "tl:Q1238709_P108:2010:Q390287",
+      "tl:Q124086_P54:2014:Q495299",
+      "tl:Q1246_P6:2014:Q177851",
+      "tl:Q124784_P108:2012:Q673354",
+      "tl:Q12524647_P108:2013:Q13322850",
+      "tl:Q1255625_P54:2014:Q5794",
+      "tl:Q12565_P488:2014:Q10752792",
+      "tl:Q12589_P6:2015:Q3379308",
+      "tl:Q12611134_P39:2014:Q12615101",
+      "tl:Q1261965_P102:2013:Q15953679",
+      "tl:Q12625372_P102:2010:Q20916",
+      "tl:Q12625765_P102:2010:Q327591",
+      "tl:Q1262822_P286:2014:Q6526751",
+      "tl:Q126638_P488:2013:Q725831",
+      "tl:Q1266729_P286:2014:Q4538739",
+      "tl:Q12717119_P127:2010:Q7050520",
+      "tl:Q12720018_P102:2015:Q20647668",
+      "tl:Q12725946_P102:2013:Q962976",
+      "tl:Q12752142_P102:2011:Q16117007",
+      "tl:Q1279_P6:2015:Q3838079",
+      "tl:Q1280872_P39:2014:Q140686",
+      "tl:Q128114_P6:2013:Q6848890",
+      "tl:Q128186_P6:2010:Q638431",
+      "tl:Q128446_P286:2013:Q10346582",
+      "tl:Q1287413_P39:2012:Q16868002",
+      "tl:Q12875947_P102:2010:Q927007",
+      "tl:Q12877513_P102:2015:Q20855700",
+      "tl:Q128889_P54:2015:Q18750",
+      "tl:Q1289901_P108:2012:Q334204",
+      "tl:Q1290431_P39:2012:Q732029",
+      "tl:Q12927_P39:2010:Q27169",
+      "tl:Q1297_P6:2012:Q298443",
+      "tl:Q130212_P6:2011:Q871789",
+      "tl:Q13056788_P69:2015:Q1006950",
+      "tl:Q130765_P488:2012:Q1892814",
+      "tl:Q130840_P6:2014:Q22279094",
+      "tl:Q130929_P108:2011:Q2917463",
+      "tl:Q131112_P108:2010:Q21578",
+      "tl:Q131209_P286:2015:Q558041",
+      "tl:Q131215_P286:2013:Q220490",
+      "tl:Q131234_P54:2011:Q43310",
+      "tl:Q13124_P488:2013:Q85806",
+      "tl:Q131499_P286:2015:Q2364249",
+      "tl:Q13157830_P102:2015:Q20682633",
+      "tl:Q131785_P286:2010:Q310103",
+      "tl:Q131942_P54:2011:Q180950",
+      "tl:Q1320688_P54:2013:Q650829",
+      "tl:Q132280_P102:2010:Q23055252",
+      "tl:Q132404_P6:2014:Q21172233",
+      "tl:Q132410_P6:2010:Q1174142",
+      "tl:Q132418_P6:2013:Q13393272",
+      "tl:Q1324589_P39:2014:Q50586662",
+      "tl:Q1325724_P108:2010:Q189022",
+      "tl:Q132671_P6:2015:Q12963",
+      "tl:Q132738_P54:2011:Q62424",
+      "tl:Q1328702_P54:2015:Q48948",
+      "tl:Q132885_P286:2014:Q31575",
+      "tl:Q13306_P54:2010:Q1344163",
+      "tl:Q13306_P54:2011:Q1277549",
+      "tl:Q13306_P54:2013:Q47774",
+      "tl:Q133083_P6:2014:Q22279007",
+      "tl:Q1334208_P39:2015:Q140686"
+    ]
+  }
+}

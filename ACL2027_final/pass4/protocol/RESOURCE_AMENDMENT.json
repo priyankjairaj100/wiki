@@ -1,0 +1,41 @@
+{
+  "kind": "Recorded linkage to final pre-output reader resource amendment",
+  "recorded_utc": "2026-10-06T12:53:28.325865+00:00",
+  "authority": "pass4/inference/provenance/primary_reader_freeze_final.json",
+  "authority_amendment_utc": "2026-10-06T12:42:43.935496+00:00",
+  "supersedes_reader_resource_fields_only": true,
+  "supersedes": "pass4/protocol/RESOURCE_AMENDMENT_v3.json",
+  "retrieval_config_unchanged": true,
+  "original_algorithm_freeze": "pass4/protocol/ALGORITHM_FREEZE.json",
+  "completed_responses_in_abandoned_attempts": [
+    0,
+    0
+  ],
+  "context_tokens": 2048,
+  "threads": 4,
+  "batch_threads": 4,
+  "batch_tokens": 512,
+  "ubatch_tokens": 512,
+  "poll": 0,
+  "poll_batch": 0,
+  "unchanged": [
+    "model",
+    "weights",
+    "prompt",
+    "parser",
+    "temperature",
+    "seed",
+    "output token limit",
+    "question-method memberships"
+  ],
+  "metadata_note": "The final freeze retains an inherited thread_selection sentence mentioning eight threads. Its numeric threads=4, amendment reason, generic calibration, final runner, and executed server command define the final resource setting.",
+  "hashes": {
+    "pass4/inference/provenance/primary_reader_freeze_final.json": "55cd054b2c4f87688c6016451846a7bf8ede77fb2b9f995bb20a9d870668b1b8",
+    "pass4/inference/run_jsonl_final.py": "694eb668af730afa23f0a88f90732159dd56deb082efd09a13d82add61395017",
+    "pass4/inference/resource_calibration_summary.json": "e5a5cec1d1bb24ec0a7996b96d25fb1e3b470083f7bf361d5cdee5f56863579c",
+    "pass4/inference/human/interrupted_8192_context/interruption_manifest.json": "a50f214b2f1eb4d3717d9a1db28f9e20459d86568d255e71cdb4140f300741ec",
+    "pass4/inference/human/interrupted_4096_context/interruption_manifest.json": "60ae5d580fef5919d0af85a726934cb888c21bb48d4e0a0208dcd85745732356",
+    "pass4/protocol/RESOURCE_AMENDMENT_v3.json": "2fc8761f4fac60483f2a5c217b8aa0c7706edf84295c1ffcd01904742dce61db",
+    "pass4/protocol/ALGORITHM_FREEZE.json": "3c9604e1040a3e51dbbda5787760b9fed734780d0214e9681710a52fd528d6c7"
+  }
+}

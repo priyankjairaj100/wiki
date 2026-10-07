@@ -1,0 +1,32 @@
+{
+  "claims": 132,
+  "input_sha256": "ca2c4a932036da2db9f0b9ee6098a751e7cb61f54484278e11e9af08c39e3205",
+  "manually_identified_excerpts_without_assigned_subject_role": 17,
+  "claim_ids_without_assigned_subject_role": [
+    "rp:0",
+    "rp:85",
+    "rp:86",
+    "rp:87",
+    "rp:88",
+    "rp:89",
+    "rp:90",
+    "rp:91",
+    "rp:92",
+    "rp:94",
+    "rp:95",
+    "rp:96",
+    "rp:97",
+    "rp:98",
+    "rp:100",
+    "rp:101",
+    "rp:102"
+  ],
+  "assigned_start_year_absent_from_excerpt": 33,
+  "direct_start_year_conflicts": [
+    "rp:119"
+  ],
+  "source_revision_ids_present": 0,
+  "source_publication_dates_present": 0,
+  "interpretation": "This audit concerns evidence in the provided excerpts, not truth of the corresponding real-world facts. Lexical year presence is not temporal entailment. The 17 omissions are manually identified examples, not a complete semantic audit.",
+  "benchmark_use": "Use as a legacy controlled detection check. Do not describe all 132 records as independently source-supported dated claims."
+}

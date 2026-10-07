@@ -1,0 +1,208 @@
+% =====================================================================
+%   WikiGraphRAG -- Supplementary Material (AAAI 2027, anonymous)
+% =====================================================================
+% Compile:  pdflatex supplementary && bibtex supplementary && pdflatex supplementary && pdflatex supplementary
+% Shares aaai2027.sty/.bst and refs.bib with main.tex.
+% =====================================================================
+\documentclass[letterpaper]{article}
+\usepackage[submission]{aaai2027}
+
+\usepackage[hyphens]{url}
+\usepackage{graphicx}
+\urlstyle{rm}
+\def\UrlFont{\rm}
+\usepackage{natbib}
+\usepackage{caption}
+\frenchspacing
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{amsthm}
+\newtheorem{proposition}{Proposition}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage[capitalize,nameinlink]{cleveref}
+
+\graphicspath{{figures/}}
+\newcommand{\ours}{\textsc{WikiGraphRAG}}
+\newcommand{\eg}{\emph{e.g.}}
+
+\pdfinfo{
+/TemplateVersion (2027.1)
+}
+
+\setcounter{secnumdepth}{2}
+\renewcommand{\thesection}{\Alph{section}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+
+\title{Supplementary Material:\\
+Reading the Latest, Not the Loudest:\\
+Lifecycle-Aware Structured Memory for Retrieval-Augmented Generation}
+
+\author{Anonymous Submission}
+\affiliations{}
+
+\begin{document}
+\maketitle
+
+This supplement collects auxiliary figures and the full reproducibility map for the main paper. All numbers are produced by the released JSONs; figure and table identifiers below carry an ``S'' prefix and do not renumber the main paper.
+
+% =====================================================================
+\section{Quantitative error localization}
+\label{sec:supp_theory}
+% =====================================================================
+Proposition~1 of the main paper is a boundary case: it states that an \emph{exact} matcher yields exact detection. Here we give the quantitative version it is a corollary of, so a partial improvement to the matcher translates into a bounded improvement in detection rather than an all-or-nothing guarantee. We use the main paper's claim notation: $t_c$, $v_c$, and $\kappa(c)$ are the timestamp, value, and key of claim $c$, while $S^\star$ and $\hat S$ are the true and predicted superseded sets. Let $M(a,b)$ denote the symmetric predicate $\textsc{SameSubjectRelation}(a,b)$. For a claim $c$, call a later claim $c'$ a \emph{witness} if $t_{c'}>t_c$ and $v_{c'}\neq v_c$; a witness is \emph{true} if $\kappa(c'){=}\kappa(c)$ and \emph{matched} if $M(c',c)$. Let $\mathrm{FM}$ be the number of claims $c$ that have a matched witness of a \emph{different} true key, and $\mathrm{FS}$ the number of claims $c\in S^\star$ none of whose true witnesses are matched.
+
+\begin{proposition}[Error localization, quantitative]
+\label{prop:supp_quant}
+The detector's superseded set $\hat S$ satisfies $|\hat S\setminus S^\star|\le \mathrm{FM}$ and $|S^\star\setminus \hat S|\le \mathrm{FS}$, so its precision is at least $1-\mathrm{FM}/|\hat S|$ and its recall at least $1-\mathrm{FS}/|S^\star|$. When $\mathrm{FM}{=}\mathrm{FS}{=}0$ this gives $\hat S=S^\star$, recovering Proposition~1.
+\end{proposition}
+\begin{proof}
+The detector marks $c$ iff some later $c'$ satisfies $M(c',c)$ and $v_{c'}\neq v_c$. If $c\in\hat S\setminus S^\star$, its witnessing $c'$ has $\kappa(c')\neq\kappa(c)$ (else $c\in S^\star$ by Eq.~1), so $c$ is counted in $\mathrm{FM}$; distinct such $c$ are distinct, giving $|\hat S\setminus S^\star|\le\mathrm{FM}$. If $c\in S^\star\setminus\hat S$, then no true witness $c^\star$ of $c$ satisfies $M(c^\star,c)$ (otherwise $c$ would be marked), so $c$ is counted in $\mathrm{FS}$, giving $|S^\star\setminus\hat S|\le\mathrm{FS}$. The precision and recall bounds follow by dividing by $|\hat S|$ and $|S^\star|$; comparison and recency are exact by construction, so no other term appears.
+\end{proof}
+
+This is the sense in which \emph{all} detector error localizes to the matcher: every false positive is a matcher false-merge and every false negative a matcher false-split, both restricted to differently-valued later pairs. It also predicts the empirical pattern: detection F1 tracks matcher quality dataset by dataset, and the raw-prose drop consists of identifiable parser and alias-matching failures.
+
+% =====================================================================
+\section{Text-driven temporal-KG baseline (exact key)}
+\label{sec:supp_exactkey}
+% =====================================================================
+The historical as-of comparison in the main paper includes a temporal knowledge-graph baseline built from the same text signal as our detector, differing only in the matcher. It extracts each claim's frame and subject phrases exactly as the detector does, but groups claims into one timeline only when their (frame, phrases) keys are \emph{identical}, then chains each group in timestamp order into validity intervals. With clean verbatim keys it recovers the timeline (Real-world reaches $1.000$), but paraphrase and co-reference split one entity across components: historical top-1 accuracy is $0.925$ on Wikidata and $0.933$ on TempLAMA, versus $0.940$ and $0.973$ for the fuzzy lifecycle matcher. The exact-key baseline uses no labels and is deterministic; it isolates the matcher, rather than the interval construction, as the source of the difference. Full results are in the three released \texttt{results/asof*} cards.
+
+\paragraph{Direct temporal-RAG head-to-head.} We apply TempRALM~\citep{gade2024tempralm} and RAG-Time~\citep{grofsky2025ragtime} directly to the paper's two temporal tasks. For current-answer QA, all methods receive the same Wikidata or TempLAMA corpus, question, five-claim budget, prompt, reader, and exact-match scorer; only the retrieval order changes. For historical as-of retrieval, all methods receive the same interval-midpoint probe, query time, candidate pool, and value scorer. TempRALM adds a distribution-matched reciprocal time-distance score to raw dense cosine similarity. Writing $s$ for dense cosine similarity and $a$ for document age in days, RAG-Time scores a claim as $0.7s+0.3(0.5)^{a/730}$; future claims are masked for historical probes. Both temporal methods score the full pool. The released QA and temporal-baseline cards contain all paired tests and historical probes. No row uses a separate question set, reader, budget, or scoring rule.
+
+% =====================================================================
+\section{Reproducible real-prose benchmarks and parser robustness}
+\label{sec:supp_realprose}
+% =====================================================================
+The main-paper Real-Wikipedia set (F1 $0.880$) is the detector's honest single-relation test on genuine encyclopedic prose. To test whether the zero-LLM detector \emph{generalizes} beyond that relation, we release two in-repo benchmarks of unedited English Wikipedia leads, with gold taken from known chronology \emph{order} rather than any parse of ours.
+
+\paragraph{RealWiki (CEO leads).} $26$ CEO lead extracts, one claim per executive, are chained into $12$ company chronologies. These are genuine leads, with biographical clauses, pronoun coreference, and several competing proper nouns per sentence. Two lightweight, zero-LLM parser rules handle common noise. (1) \emph{Demonym filtering}: nationality adjectives (``American'', ``Indian-American'') are dropped as subject phrases, since a shared ``American'' could otherwise cross-link unrelated companies. (2) \emph{Role-acronym normalization}: ``CEO'' and kin are treated as relation words rather than proper nouns, so ``CEO of Apple'' parses as (relation, subject~Apple). The released card reports F1 $0.880$ at precision $1.000$ and recall $0.786$ (\texttt{results/detection\_realwiki.json}).
+
+\paragraph{RealProse (five relation families).} To probe generalization at scale we release \textsc{RealProse}: $132$ genuine Wikipedia leads over $35$ subjects and five relation families -- company chief executives, national heads of government, national heads of state, football-club managers, and international-organization leaders. All claims share one pooled index, so same-relation pairs with a \emph{different} subject are hard negatives the detector must not cross-link. The same zero-LLM detector reaches F1 $0.941$ at precision $0.978$ and recall $0.907$, with two false positives across the entire pooled index. Spelled-out office titles (``President'', ``Chancellor'', ``Prime Minister'') are treated as relation words rather than subject phrases, keeping the subject representation stable across capitalization variants (\texttt{results/detection\_realprose.json}).
+
+The residual errors are exactly the matcher failures Proposition~1 localizes. Recall misses are biographies that dilute the relation frame below the $0.5$ overlap gate (a FIFA president introduced as ``lawyer, businessman, and athlete''; a World Bank president as ``physician and anthropologist''), a corporate-name variant (``Starbucks'' vs ``Starbucks Coffee Company''), an entity renamed mid-tenure (``Twitter'' vs ``X Corp''), and two leads that append a second office by ``and''. Both false positives are two football managers sharing the competition phrase ``Premier League'' and one lead whose head sentence omits the club. None is a failure of the supersession idea; each is a subject-relation matcher error on messy prose, precisely where Proposition~1 says the only error can live. Much of the raw-prose gap is therefore a fixable parsing problem, not evidence that prose requires an LLM.
+
+\paragraph{How often long histories occur.} The lifecycle gain concentrates on subjects that carry many superseded values, so its practical reach depends on history length (reproducible via \texttt{experiments/history\_length\_stats.py}). Genuine Wikipedia leads average $3.7$ values per subject with $49\%$ holding four or more (RealProse), and the hand-curated real-world set averages $2.8$. TempLAMA's fixed-decade snapshots leave $69\%$ of subjects with two values and $31$ with four to eight; on that complete long-history slice lifecycle reaches $1.000$ EM versus $0.710$ for flat retrieval.
+
+% =====================================================================
+\section{Third-party current-answer benchmark (TempLAMA-QA)}
+\label{sec:supp_templamaqa}
+% =====================================================================
+The third-party current-answer experiment is built from the published TempLAMA test split with no labels of ours. Rows are grouped by subject and relation, consecutive identical answers are collapsed into value transitions, and groups with fewer than two distinct values are dropped, yielding $300$ chronologies over $9$ relations with $447$ gold-superseded claims; the gold supersession labels follow directly from TempLAMA's year annotations. Each transition is rendered as a \emph{plain present-tense} sentence (\eg{} ``Clemens Fuest works for University of Mannheim.''), so recency lives only in document metadata rather than leaking through an in-sentence year. The canonical study asks one current-answer question for every chronology and applies Flat RAG, TempRALM, RAG-Time, lifecycle retrieval, and the gold-edge oracle with the same five-claim budget, prompt, extractive or \texttt{Qwen2.5-3B-Instruct} reader, and EM scoring used for Wikidata. There is no paraphrase pooling or reduced subset: the main-paper table reports all $300$ paired questions per reader, directly from \texttt{results/qa\_templama\_extractive.json} and \texttt{results/qa\_templama\_qwen.json}.
+
+% =====================================================================
+\section{Long histories: a wide margin on third-party data}
+\label{sec:supp_longhist}
+% =====================================================================
+History length provides a mechanism check within the same third-party data: $207$ of the $300$ TempLAMA chronologies hold only two values, whereas $31$ contain four to eight. We therefore repeat the current-answer comparison on that complete long-history slice, dominated by football head-coach successions (P286) and player-club changes (P54), with a few multi-post politicians (P39). Data, questions, and labels remain TempLAMA's.
+
+Each chronology's competing present-tense values are shown to a local \texttt{Qwen2.5-3B-Instruct} reader under four conditions: \emph{flat}, \emph{date-prompt}, \emph{date-rerank}, and \emph{lifecycle}. \Cref{tab:longhist} reports the result: on the full long-history slice lifecycle reaches $1.000$ EM, versus $0.710$ for flat retrieval, $0.645$ for date prompting, and $0.290$ for date reranking. The paired gains are $0.290$, $0.355$, and $0.710$, respectively (all $p<0.001$, $n{=}31$). Date reranking is weakest because newest-first ordering induces a position bias in the small reader; this reinforces that reordering stale evidence is not equivalent to removing it. The deterministic extractive reader scores flat $0.000$ and lifecycle $1.000$ on the identical slice (\texttt{results/history\_templama\_qwen.json}, \texttt{results/history\_templama\_\allowbreak extractive.json}).
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{@{}l@{\hspace{4pt}}c@{\hspace{4pt}}c@{\hspace{4pt}}c@{\hspace{4pt}}c@{\hspace{4pt}}c@{}}
+\toprule
+ & \multicolumn{4}{c}{truncated to $m$} & full \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-6}
+Condition & $m{=}2$ & $m{=}3$ & $m{=}4$ & $m{=}5$ & $m{\ge}4$ \\
+$N$ keys & 40 & 40 & 31 & 15 & 31 \\
+\midrule
+flat        & 0.975 & 0.850 & 0.774 & 0.800 & 0.710 \\
+date-prompt & 0.975 & 0.600 & 0.677 & 0.600 & 0.645 \\
+date-rerank & 0.525 & 0.500 & 0.323 & 0.333 & 0.290 \\
+\textbf{lifecycle} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Long histories, third-party TempLAMA} (\texttt{Qwen2.5-3B} reader, current-value EM). Per-$m$ columns truncate each chronology to its latest $m$ values; the final column is the full long-history slice ($m{\ge}4$, mean $4.74$ values). Source: \texttt{results/history\_templama\_qwen.json}.}
+\label{tab:longhist}
+\end{table}
+
+% =====================================================================
+\section{Realistic prose: how much of the gain survives recency cues}
+\label{sec:supp_realistic}
+% =====================================================================
+The main-paper Wikidata experiment renders claims as plain present-tense statements with recency only in document metadata. A fair question is how much survives when text carries natural recency cues. We answer it end to end on RealProse genuine Wikipedia leads (\cref{sec:supp_realprose}). For each subject with a real change we ask a current-role question ($35$ questions), retrieve over all RealProse claims with the same hybrid retriever, and read with local \texttt{Qwen2.5-3B}; the extractive reader is a cross-check.
+
+Two effects appear (\cref{tab:realistic}). Natural cues lift flat Qwen EM to $0.714$, compared with $0.424$ on Wikidata. Lifecycle still raises RealProse Qwen EM to $0.857$ (gold $0.914$), a gain of $0.143$ ($95\%$ CI $[0.000,0.286]$, $p{=}0.076$); the extractive gain is $0.343$ ($p<0.001$). Retrieval quality improves independently of reader: SER falls from $0.971$ to $0.229$ and AEP rises from $0.319$ to $0.859$. Global date reranking is weakest ($0.143$ EM) because it can surface an unrelated recent appointment. The evidence therefore supports a narrower statement: prose cues help Qwen resolve some conflicts, while lifecycle still removes stale context and moves both readers toward the oracle (\texttt{results/qa\_realprose\_qwen.json}, \texttt{results/qa\_realprose\_extractive.json}).
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabular}{@{}l@{\hspace{5pt}}c@{\hspace{5pt}}c@{}}
+\toprule
+Condition & Qwen EM & extractive EM \\
+\midrule
+flat            & 0.714 & 0.543 \\
+date-prompt     & 0.686 & 0.543 \\
+date-rerank     & 0.143 & 0.143 \\
+\textbf{lifecycle} & \textbf{0.857} & \textbf{0.886} \\
+gold-edge oracle & 0.914 & 0.914 \\
+\midrule
+SER (flat\,$\to$\,lifecycle) & \multicolumn{2}{c}{$0.971 \to 0.229$} \\
+AEP (flat\,$\to$\,lifecycle) & \multicolumn{2}{c}{$0.319 \to 0.859$} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Realistic end-to-end current-answer QA} on $35$ genuine-prose questions (RealProse leads, hybrid retrieval). Source: \texttt{results/qa\_realprose\_*.json}.}
+\label{tab:realistic}
+\end{table}
+
+% =====================================================================
+\section{Open-weights reader and strict scoring}
+\label{sec:supp_openweights}
+% =====================================================================
+Two robustness checks confirm the current-answer gains are neither a closed-model nor a lenient-metric artifact. First, an \emph{open-weights} reader reproduces the effect: with greedy decoding, \texttt{Qwen2.5-3B-Instruct} answers $0.424$ under flat retrieval, $0.515$ with a trust-the-latest-date prompt, and $0.364$ after date reranking on the controlled Wikidata current-fact set, while lifecycle retrieval reaches $0.970$ and matches the gold-edge oracle ($0.970$); the same fifty-point gap over every date-only trick appears with no proprietary reader (\texttt{results/qa\_wikidata\_qwen.json}). Second, we re-score every condition under a stricter \emph{clean} exact match that counts a hit only when the answer contains the gold value \emph{and none} of the key's superseded values, so an answer that hedges by naming an outdated value too is rejected. Clean EM equals the lenient EM for both readers on every condition (\texttt{current\_answer\_em\_strict} in \texttt{results/qa\_wikidata\_extractive.json} and \texttt{results/qa\_wikidata\_qwen.json}): the readers return single-valued answers, so the reported margins do not depend on lenient substring scoring.
+
+% =====================================================================
+\section{Adversarial cheap-baseline audit}
+\label{sec:supp_adversarial}
+% =====================================================================
+Every headline in the paper was re-tested against the strongest \emph{cheap} competitor we could construct, on the principle that a number is only publishable if a trivial trick cannot reproduce it. This section reports all of them, including the ones that tie us.
+
+\paragraph{Detection: newest-document-wins.} The zero-LLM competitor marks every claim outside a case's newest document superseded. Both methods are strong when cases are isolated, but newest-document-wins cannot distinguish stable facts once subjects share an index. \Cref{tab:cheap_detection} therefore reports isolated and pooled evaluation over the same four structured corpora.
+
+\begin{table}[ht]
+\centering
+\scriptsize
+\begin{tabular}{@{}l@{\hspace{3pt}}r@{\hspace{3pt}}r@{\hspace{3pt}}r@{\hspace{3pt}}r@{}}
+\toprule
+Method & Isolated F1 & Pooled P & Pooled R & Pooled F1 \\
+\midrule
+\textbf{Lifecycle heuristic} & 0.991 & 0.986 & 0.984 & \textbf{0.985} \\
+Newest-document-wins & 0.985 & 0.608 & 1.000 & 0.756 \\
+\bottomrule
+\end{tabular}
+\caption{Both methods are strong in isolation, but pooling $1{,}315$ claims exposes false supersessions from newest-document-wins. Source: the released four-corpus pooled card.}
+\label{tab:cheap_detection}
+\end{table}
+
+\paragraph{Detection: a stronger LLM judge.} On the identical $240$ Wikidata span pairs, \texttt{gpt-4o-mini} reaches F1 $0.960$ and \texttt{gpt-4.1-mini} reaches $0.992$, while the zero-LLM structural rule remains exact at $1.000$. The two released \texttt{results/judge\_wikidata*} cards report full precision and recall.
+
+\paragraph{QA: dates in the prompt.} Every packed snippet is date-stamped. Under the canonical five-claim protocol, the extractive reader reaches $0.182$ with an explicit date prompt and $0.121$ with date reranking on Wikidata, versus $0.970$ for lifecycle; Qwen reaches $0.515$, $0.364$, and $0.970$. On TempLAMA, the extractive reader reaches $0.453$ with a date prompt and $0.127$ with date reranking, versus $0.953$ for lifecycle. Every lifecycle gap is significant at $p<0.001$ in the paired result cards (\texttt{results/qa\_wikidata\_extractive.json}, \texttt{results/qa\_wikidata\_qwen.json}, \texttt{results/qa\_templama\_extractive.json}).
+
+\paragraph{QA: history length isolates the mechanism.} The main-paper table truncates Wikidata chronologies to $m\in\{2,3,4,5\}$ values, yielding $33$, $29$, $22$, and $15$ Qwen-evaluated keys. Flat AEP is exactly $1/m$; lifecycle EM remains $1.000$, while flat, date-prompt, and date-rerank EM vary as stale values accumulate. Every displayed value comes from \texttt{results/history\_sweep.json}.
+
+\paragraph{Detection at index scale.} We expand the $1{,}315$-claim pooled corpus with unique-subject distractors to $2{,}630$, $3{,}945$, and $6{,}575$ claims. Precision, recall, and F1 remain $0.986$, $0.984$, and $0.985$ because distractors add no shared key. Blocking comparisons by extracted key returns the identical edge set as all-pairs comparison at every tested size (\texttt{results/scaling.json}); wall-clock time is machine- and load-dependent and is not used as an effectiveness claim.
+
+% =====================================================================
+\section{Grounding scope}
+\label{sec:supp_faithfulness}
+% =====================================================================
+The memory stores claim text as a verbatim span with source provenance rather than generating a new claim string. This property prevents lexical content from being invented during storage, but it does not guarantee that the parser extracted the right proposition, that timestamps are correct, or that lifecycle links are valid. Detection, timestamp-noise, and raw-prose experiments evaluate those distinct failure modes; lifecycle retrieval only reranks the stored source-attributed spans.
+
+% =====================================================================
+\section{Reproducibility and transparency bundle}
+\label{sec:supp_repro}
+% =====================================================================
+We release a single archive with the source code, datasets, result JSONs, paper table generator, and the on-disk Qwen generation cache, so the open-reader results replay without an API key. \texttt{results/MANIFEST.json} records a SHA-256 digest for every dataset and result card plus an at-a-glance map of headline results. Running \texttt{python -m experiments.build\_bundle --verify} re-hashes the archive and must print \texttt{ALL VERIFIED}; \texttt{python scripts/make\_paper\_tables.py} regenerates the paper tables directly from those cards.
+
+\paragraph{Execution environment.} Experiments were run on Microsoft Windows 11 Enterprise (build 10.0.26200) with a 13th-generation Intel Core i7-13800H CPU, $63.8$ GB RAM, and an NVIDIA RTX 2000 Ada Generation Laptop GPU with $8{,}188$ MiB VRAM (driver 591.55). The released environment uses Python 3.11.15, NumPy 2.4.6, PyTorch 2.6.0 with CUDA 12.4, Transformers 5.12.1, Sentence-Transformers 5.6.0, scikit-learn 1.9.0, NetworkX 3.6.1, and rank-bm25 0.2.2; \texttt{requirements.txt} pins the complete environment. Qwen runs locally in fp16 on the single GPU. Detector, retrieval, extractive-reader, and greedy-Qwen conditions are deterministic and run once. Randomized ablations use seeds $0$--$4$; timestamp perturbations use five deterministic seeds per nonzero noise level. Confidence intervals and paired tests use $2{,}000$ bootstrap resamples.
+
+\paragraph{Final settings.} Hybrid retrieval equally weights min--max-normalized MiniLM cosine and BM25 scores ($\alpha{=}0.5$), uses exact matrix--vector cosine scoring, and returns five claims. The detector uses frame-overlap threshold $0.5$ and edge confidence $0.9$ when an update cue is present ($0.7$ otherwise). Qwen uses greedy decoding with at most $24$ new tokens. RAG-Time uses $\alpha{=}0.7$ and a $730$-day half-life; TempRALM uses reciprocal temporal distance normalized to the dense score distribution. All four headline methods share the same corpus, questions, evidence budget, prompt, reader, and scorer.
+
+\bibliography{refs}
+
+\end{document}

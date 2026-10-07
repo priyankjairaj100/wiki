@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "main_pages": 8,
+  "limitations_start_page": 9,
+  "total_pdf_pages": 17,
+  "pdf_sha256": "1383701579187b27f1007ff193d737aa152e80791326e0c57963a1f0c3a6e9f9",
+  "overfull_boxes": 0,
+  "unresolved_references": 0,
+  "rerun_warnings": 0,
+  "main_body_em_dashes": 0,
+  "main_body_placeholders": 0,
+  "main_body_sentence_review": "Independent source review found no prose sentence above twenty words; mathematical expressions count as units.",
+  "visual_review": [
+    "Main pages 1, 2, 3, and 8",
+    "Vector architecture",
+    "Main F1 comparison table",
+    "Appendix EM/F1 table"
+  ],
+  "source_reference_review": "All current cited works checked; Re3 author order corrected against its primary PDF.",
+  "reader_metrics_review": "Both complete cohorts independently rescored and manuscript values checked.",
+  "build": "pdfLaTeX, BibTeX, repeated pdfLaTeX to settled references, using bundled ACL review style."
+}

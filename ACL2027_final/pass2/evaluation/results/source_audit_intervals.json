@@ -1,0 +1,36 @@
+{
+  "split": "test",
+  "n_keys": 2993,
+  "repetitions": 5000,
+  "seed": 20261006,
+  "resampling": "complete source keys",
+  "rates": {
+    "multiple_annual_answers": {
+      "numerator": 6498,
+      "denominator": 25752,
+      "estimate": 0.2523299161230196,
+      "ci95": [
+        0.24214331566226124,
+        0.2624661506135192
+      ]
+    },
+    "changed_first_answer_retains_previous_first": {
+      "numerator": 1456,
+      "denominator": 3980,
+      "estimate": 0.3658291457286432,
+      "ci95": [
+        0.35136394363003814,
+        0.3798565826979614
+      ]
+    },
+    "changed_answer_set_retains_value": {
+      "numerator": 6050,
+      "denominator": 6961,
+      "estimate": 0.8691279988507399,
+      "ci95": [
+        0.8596723460026212,
+        0.8781429470415169
+      ]
+    }
+  }
+}

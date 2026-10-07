@@ -1,0 +1,22 @@
+{
+  "total_pages": 16,
+  "main_pages": 8,
+  "limitations_start_page": 9,
+  "warnings": [],
+  "main_chars": [
+    4136,
+    4275,
+    4508,
+    4398,
+    5012,
+    4818,
+    4602,
+    4707
+  ],
+  "main_body_em_dashes": 0,
+  "portable_verification": "passed",
+  "verified_saved_files_before_receipt": 900,
+  "actual_reader_generations": 74,
+  "partial_extraction_generations": 12,
+  "remaining_authorized_sessions": 2
+}

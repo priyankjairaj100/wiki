@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+& \multicolumn{2}{c}{Historical ($n=447$)} & \multicolumn{2}{c}{Current ($n=300$)} \\ 
+Method & Hit@1 $\uparrow$ & Stale@5 $\downarrow$ & Hit@1 $\uparrow$ & Stale@5 $\downarrow$ \\
+\midrule
+BM25 & 78.08 & 70.92 & 23.33 & 100.00 \\
+Date within top five & 54.36 & 70.92 & 60.67 & 100.00 \\
+Global date & 28.41 & 0.00 & 12.67 & 0.00 \\
+Exact-group latest & 98.43 & 16.55 & 88.33 & 28.33 \\
+Text-CC intervals & 97.54 & 1.79 & 94.67 & 16.33 \\
+Direct certificates & 98.21 & 1.79 & 94.67 & 16.33 \\
+\bottomrule
+\end{tabular}
+\caption{TempLAMA evidence selection, in percent. Complete yearly answer sets define correct and stale values. All methods use the same 747 claims. Direct certificates preserve the fixed BM25 ranking after filtering. These are retrieval results, not generated-answer scores.}
+\label{tab:retrieval}
+\end{table*}

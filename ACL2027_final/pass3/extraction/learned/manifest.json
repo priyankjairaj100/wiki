@@ -1,0 +1,19 @@
+{
+  "source_file": "/workspace/scratch/956c06247f78/pass3/data/dev_succession_candidates.jsonl",
+  "source_sha256": "15538757a6c6a52dbf8a4fba96f9177f5665bea36c6553459c40bd6a067ee11a",
+  "prompt_sha256": "9218a39c15c290aeea9f4787bc7225f02db407acbe1569178827180b354994f2",
+  "jobs_sha256": "d89169b3f705f7ad9986d918f037a3dc956d03a37a64b78a4e4c6aa8da2fe5f8",
+  "jobs": 30,
+  "maximum_output_tokens_per_job": 1400,
+  "source_selection": "30 DEV paragraphs selected through source succession cues only",
+  "input_features": [
+    "article title",
+    "source paragraph"
+  ],
+  "gold_labels_in_prompts": false,
+  "evaluation_outcomes_in_prompts": false,
+  "status": "frozen before model outputs",
+  "postprocessing": "exact source quote/name/date matching; no invented starts; role-centric keys; exact directed source succession only",
+  "validator_sha256": "6a9f476b4285e8a62b8f31f1b49e7fb55d3054edb212f1cf126b4486f70746ec",
+  "validation_tests": 6
+}

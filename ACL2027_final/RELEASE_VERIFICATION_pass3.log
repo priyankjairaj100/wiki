@@ -1,0 +1,9 @@
+Verified 900 saved files.
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python pass3/theory/test_lifecycle.py
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python pass3/theory/test_refinement.py
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python pass3/extraction/test_source_adapter.py
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python pass3/extraction/test_succession_rules.py
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python pass3/extraction/learned/test_validation.py
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python pass3/protocol/test_scoring.py
+/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python pass3/audit/build_paper_tables.py
+PASS. Verification outputs: /workspace/scratch/956c06247f78/pass3/release/project/reproduced_pass3

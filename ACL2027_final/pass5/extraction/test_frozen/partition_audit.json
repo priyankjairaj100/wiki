@@ -1,0 +1,14 @@
+{
+  "input_passages": 33493,
+  "records": 464,
+  "units": 34082,
+  "modeled_units": 464,
+  "fallback_units": 33618,
+  "rejected_records": [],
+  "pairs": 0,
+  "pair_endpoints_survive": true,
+  "all_source_words_preserved": true,
+  "modeled_unit_percent": 1.3614224517340532,
+  "source_sha256": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a",
+  "claims_sha256": "4cc7567b13973a5f3633d5e2d8d68e95d2ea624a38402051a2707e1331cdcf08"
+}

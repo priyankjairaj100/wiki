@@ -1,0 +1,1016 @@
+{
+  "articles": {
+    "/wiki/Adnan_Pachachi": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Ajay_Banga": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Alan_Greenspan": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Alex_Ferguson": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Alexander_Dubček": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Alexander_Milošević": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Alexander_Van_der_Bellen": [
+      "Recovered summary of lost audit",
+      "Recovered summary of lost audit, conservative title match"
+    ],
+    "/wiki/Ali_Ahamada": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Allen_Dulles": [
+      "Recovered summary of lost audit"
+    ],
+    "/wiki/Alma_Rubens": [
+      "Recovered summary of lost audit, conservative title match"
+    ],
+    "/wiki/Amsterdam": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Andrés_Manuel_López_Obrador": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Andy_Jassy": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Angela_Merkel": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Anne_Hidalgo": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Anson_Chan": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Anthony_Albanese": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/António_Guterres": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Arne_Slot": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Arsène_Wenger": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Arvind_Krishna": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Asa_Biggs": [
+      "pass3/data/pilot_extraction_audit.json",
+      "pass3/data/pilot_extraction_audit_pre_freeze.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Atal_Bihari_Vajpayee": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Atlanta_Braves": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Axel_Springer": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Balaklava": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Ban_Ki-moon": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Barack_Obama": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Beatrix_Tugendhut_Gardner": [
+      "pass3/data/dev_source_audit.json",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Ben_Bernanke": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Ben_Gummer": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Bernard_A._Maguire": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Bernhard_Vogel": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Besart_Berisha": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Bill_Clinton": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Bill_Gates": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Billy_Bremner": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Bob_Chapek": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Bob_Filner": [
+      "pass3/data/pilot_extraction_audit.json",
+      "pass4/audit/source/calibration_v5_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Bob_Iger": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Bob_Packwood": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Boris_Johnson": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Boutros_Boutros-Ghali": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Brendan_Rodgers": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Brian_Krzanich": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Carl_Romme": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Chris_Hipkins": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Christine_Lagarde": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Christopher_Luxon": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Claudia_Sheinbaum": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Craig_Emerson": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/calibration_v5_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Crewe_Alexandra_F.C.": [
+      "Recovered summary of lost audit"
+    ],
+    "/wiki/Dale_Kildee": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Dara_Khosrowshahi": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/David_Cameron": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/David_Malpass": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/David_Moyes": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Dean_Keates": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Dilma_Rousseff": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Donald_Trump": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Doug_Dashiell": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Ecgfrith_of_Northumbria": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Ed_van_Thijn": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Eddie_McMorran": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Edward_Douglass_White": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Elizabeth_Montgomery": [
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Emmanuel_Macron": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Enrique_Peña_Nieto": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Erik_ten_Hag": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Esperanza_Aguirre": [
+      "pass3/data/dev_source_audit.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Evan_Jones_(Ieuan_Gwynedd)": [
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Evelyn_Berezin": [
+      "pass3/data/dev_source_audit.json",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/FC_Aarau": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/FC_U_Craiova_1948": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Fani_Stipković": [
+      "pass3/data/pilot_extraction_audit.json",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Fatih_Tekke": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Felipe_Calderón": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Ferenc_József_Nagy": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/First_Spanish_Republic": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Floor_Jansen": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Flughafen_Berlin_Brandenburg_GmbH": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Frank_O'Farrell": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/François_Hollande": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Françoise_Dior": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Friedrich_Guggenberger": [
+      "pass3/data/dev_source_audit.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Friedrich_Merz": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Fumio_Kishida": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/George_O'Leary": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/George_W._Bush": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Gergely_Rudolf": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Gerhard_Hirschfeld": [
+      "pass3/data/dev_source_audit.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Gerhard_Schröder": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/German_submarine_U-101_(1940)": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Gianni_Infantino": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Ginni_Rometty": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Gloria_Vanderbilt": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Godfried_Danneels": [
+      "pass3/data/pilot_extraction_audit.json",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Gordon_Brown": [
+      "pass2/naturaldata/realprose_source_audit.jsonl",
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Gorham_Manufacturing_Company": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Günther_Oettinger": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Haris_Bukva": [
+      "pass3/data/pilot_extraction_audit.json",
+      "pass3/data/pilot_extraction_audit_pre_freeze.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Heinrich_Brandler": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Helmut_Kohl": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Henry_Cohen_(rabbi)": [
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Henry_Dundas,_1st_Viscount_Melville": [
+      "pass3/data/dev_source_audit.json",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Hiram_Mier": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Howard_Schultz": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Hubertine_Heijermans": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Ian_Gibson_(politician)": [
+      "pass3/data/dev_source_audit.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Indra_Nooyi": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Issai_Schur": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass3/extraction/learned/jobs_completed_six.jsonl",
+      "pass3/extraction/learned/jobs_schema_v2_completed_six.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Jacinda_Ardern": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Jacques_Chirac": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Jacques_Rogge": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Jai_Ram_Reddy": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass3/extraction/learned/jobs_completed_six.jsonl",
+      "pass3/extraction/learned/jobs_schema_v2_completed_six.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Jair_Bolsonaro": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/James_Purnell": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/James_Wolfensohn": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Janet_Yellen": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Jason_Roberts_(footballer)": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Jean-Claude_Trichet": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Jean_Chrétien": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Jeff_Bezos": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Jerome_Powell": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Jim_Towers": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Jim_Yong_Kim": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Joe_Biden": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Joe_Thompson_(footballer)": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/John_Bolton": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/John_Foster_Dulles": [
+      "Recovered summary of lost audit",
+      "Recovered summary of lost audit, conservative title match"
+    ],
+    "/wiki/John_Howard": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/John_Pope_(Kentucky_politician)": [
+      "Recovered summary of lost audit, conservative title match"
+    ],
+    "/wiki/Jonathan_Biabiany": [
+      "pass3/data/pilot_extraction_audit.json",
+      "pass3/data/pilot_extraction_audit_pre_freeze.json",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Jonathan_Sexton": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/José_Luis_Rodríguez_Zapatero": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/José_Miguel_Insulza": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/José_Mourinho": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Journal_de_20_heures": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/João_Havelange": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Juan_Antonio_Samaranch": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Jules_Engel": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Julia_Gillard": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Justin_Trudeau": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Jürgen_Klopp": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Kai-Uwe_von_Hassel": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Keir_Starmer": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Keith_Treacy": [
+      "pass3/data/pilot_extraction_audit_pre_freeze.json",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Ken_Salazar": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Kenny_Dalglish": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Kevin_Johnson_(executive)": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Kevin_Rudd": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Kirsty_Coventry": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Klaus_Fuchs": [
+      "Recovered summary of lost audit",
+      "Recovered summary of lost audit, conservative title match"
+    ],
+    "/wiki/Kofi_Annan": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Krasimir_Balakov": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Kyriakos_Mitsotakis": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/LMR_57_Lion": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Larry_Page": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Lee_Boylan": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Leonard_Hayflick": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Linda_Yaccarino": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Liz_Truss": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Louis_van_Gaal": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Luiz_Inácio_Lula_da_Silva": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Maimunah_Mohd_Sharif": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Malcolm_Turnbull": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Manmohan_Singh": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Manuel_Pellegrini": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Mapei_(cycling_team)": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Mariano_Rajoy": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Mario_Draghi": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Mark_Carney": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Martin_Winterkorn": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Mary_Barra": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Maryland_Terrapins": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Matthew_Dunlap": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Max_Dehn": [
+      "pass3/data/pilot_extraction_audit.json",
+      "pass3/data/pilot_extraction_audit_pre_freeze.json",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/May_Edward_Chinn": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Meet_the_Press": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass3/extraction/learned/jobs_completed_six.jsonl",
+      "pass3/extraction/learned/jobs_schema_v2_completed_six.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Michael_Eisner": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Michel_Temer": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Mike_Moore_(New_Zealand_politician)": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Mikel_Arteta": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Miras_Dedeic": [
+      "Recovered summary of lost audit"
+    ],
+    "/wiki/Miraš_Dedeić": [
+      "Recovered summary of lost audit",
+      "Recovered summary of lost audit, conservative title match"
+    ],
+    "/wiki/Narendra_Modi": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/National_Council_of_French_Women": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v5_increment_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Nicolas_Sarkozy": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Niels_Annen": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Nigel_Farage": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Nintendo": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Nomafrench_Mbombo": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Northampton_Town_F.C.": [
+      "Recovered summary of lost audit"
+    ],
+    "/wiki/Olaf_Scholz": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Ole_Gunnar_Solskjær": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Owuraku_Amofah": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Parag_Agrawal": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Parliament_House,_Melbourne": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Pat_Gelsinger": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Paul_Godfrey": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Paul_Martin": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Paul_Painlevé": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Paul_Ribeyre": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Paul_Wolfowitz": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Pedro_Sánchez": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Pekka_Haavisto": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Pennsylvania_State_Capitol": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Pep_Guardiola": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Pertti_Salolainen": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass3/extraction/learned/jobs_completed_six.jsonl",
+      "pass3/extraction/learned/jobs_schema_v2_completed_six.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Pietro_Tacca": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Podolian_Governorate": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Pope_Benedict_XVI": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Pope_Francis": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Pope_John_Paul_II": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Pope_Leo_XIV": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Päivi_Räsänen": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Raf_Simons": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Rafael_Benítez": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Ramon_Laguarta": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Richard_Bancroft": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Richard_Court": [
+      "pass3/data/dev_source_audit.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Rick_Wagoner": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Rishi_Sunak": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Robert_Zoellick": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Roberto_Mancini": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Roger_Wicker": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Rosario_Crocetta": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Roy_Hodgson": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Ruben_Amorim": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Rubens": [
+      "Recovered summary of lost audit"
+    ],
+    "/wiki/Rubens_(footballer)": [
+      "Recovered summary of lost audit"
+    ],
+    "/wiki/Saiyid_Nurul_Hasan": [
+      "pass3/data/pilot_extraction_audit.json",
+      "pass3/data/pilot_extraction_audit_pre_freeze.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Salvador_de_Madariaga": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Sara_Annie_Burstall": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Satya_Nadella": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Scott_Morrison": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Sean_Spicer": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Segenet_Kelemu": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Sepp_Blatter": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Shelley_Sekula-Gibbs": [
+      "pass3/data/dev_source_audit.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Shigeru_Ishiba": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Shinzō_Abe": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Simon_Lappin": [
+      "pass3/data/pilot_extraction_audit.json",
+      "pass3/data/pilot_extraction_audit_pre_freeze.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Sir_Anthony_Meyer,_3rd_Baronet": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Stanislav_Manolev": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Steny_Hoyer": [
+      "pass3/data/dev_source_audit.json",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v5_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Stephen_Harper": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Steve_Ballmer": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Steve_Jobs": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Stéphane_Zubar": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Sundar_Pichai": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Texas_Longhorns_women's_basketball": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass3/extraction/learned/jobs_completed_six.jsonl",
+      "pass3/extraction/learned/jobs_schema_v2_completed_six.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/The_Chris_Gethard_Show": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Theresa_May": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Thomas_Bach": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Thomas_D'Alesandro_Jr.": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Tim_Cook": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Tony_Abbott": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Tony_Blair": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Travis_Kalanick": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Ueli_Maurer": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Unai_Emery": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/VFA-25": [
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Val_Ackerman": [
+      "pass4/audit/source/calibration_v2_increment_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Valerio_Valeri": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Vicente_Fox": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Victor_Goodhew": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Vincent_Astor": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Vladimir_Koman": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Warburg_Institute": [
+      "pass3/data/dev_succession_candidates.jsonl",
+      "pass3/extraction/learned/jobs_completed_six.jsonl",
+      "pass3/extraction/learned/jobs_schema_v2_completed_six.jsonl",
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/calibration_v5_increment_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/White_House_Chief_of_Staff": [
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/William_J._Devlin": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/William_Warder_Cadbury": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/William_Wyatt_Bibb": [
+      "pass4/audit/source/calibration_v1_review.jsonl",
+      "pass4/audit/source/inherited_calibration_review.jsonl",
+      "pass4/extraction/calibration_sources.jsonl"
+    ],
+    "/wiki/Willie_Fernie_(footballer)": [
+      "pass4/audit/source/confirmation/semantic_review.jsonl"
+    ],
+    "/wiki/Wim_Duisenberg": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ],
+    "/wiki/Yoshihide_Suga": [
+      "pass2/naturaldata/realprose_source_audit.jsonl"
+    ]
+  },
+  "files": {
+    "pass4/extraction/calibration_sources.jsonl": "c5e3c36391a01997bf2b9185ab4c8724ba92caad7fc95b00437885afb1848a77",
+    "pass2/naturaldata/realprose_source_audit.jsonl": "6bd101c7239d57f19bc0c655b3e6618068a5d338e2407d78e30cb5982bf00964",
+    "pass4/audit/source/inherited_calibration_review.jsonl": "9e3d44c8658b5842a3f6f2ed068b2cd51bcb17e0eb424cd0b0303f89ed830696",
+    "pass4/audit/source/calibration_v5_increment_review.jsonl": "ac1d7194008b9cee172d7eb795c078babb1effd2309733ffdddc048e9eef8244",
+    "pass4/audit/source/calibration_v5_pair_review.jsonl": "dd5f6a1ab3a8fa9294972b7472ca323a54307e1d81507bff4720088d2c7c2eec",
+    "pass4/audit/source/calibration_v2_increment_review.jsonl": "5edc196103b776ff1e7427db32637c18a5207e1550851f6a67d8d4be7a5c31e5",
+    "pass4/audit/source/calibration_v1_review.jsonl": "1b7f287a8997bea0a83e59d2f8635aee30317c2b3ae2f7868cfba31b42d29d5e",
+    "pass4/audit/source/confirmation/semantic_review.jsonl": "479205c204e37009c327130ea7355acb45bf54633b9ba3d67f2544713b9cd3f3",
+    "pass3/data/pilot_extraction_audit.json": "6997729dc90b129cd3d89b52fa022815f2808b2cf4cd35d5fe67fe488d587a0b",
+    "pass3/data/pilot_extraction_audit_pre_freeze.json": "81aea04913f544977b120d9e8031e2332cbfccf2523f072df5dbcbedbe8122c3",
+    "pass3/data/dev_source_audit.json": "f6f091be447d0dd3b7e7e3ea3a6d8f54a493e35bc19c59db744cc3250adde5ba",
+    "pass3/extraction/learned/jobs_completed_six.jsonl": "a1c88676e8d051e3381e0e52accc3a4f2bfb6412ca2a8b8664a10158251f0958",
+    "pass3/extraction/learned/jobs_schema_v2_completed_six.jsonl": "8bdae0783ccc01fc068aac22bbd11863be035df0b9369c78f666ff7975106648",
+    "pass3/data/dev_succession_candidates.jsonl": "15538757a6c6a52dbf8a4fba96f9177f5665bea36c6553459c40bd6a067ee11a"
+  },
+  "notes": "Union of saved completed reviews, calibration inputs, reviewed source jobs, and identifiable articles from lost review."
+}

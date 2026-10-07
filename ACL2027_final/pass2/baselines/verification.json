@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "exhaustive_ingestion_orders": 442,
+  "future_prefix_checks": 22,
+  "complete_snapshot_ties_preserved": true,
+  "positive_only_ambiguity_demonstrated": true,
+  "constructed_checks_are_benchmarks": false
+}

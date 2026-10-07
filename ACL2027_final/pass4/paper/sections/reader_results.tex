@@ -1,0 +1,11 @@
+\subsection{Answer generation under matched contexts}
+Table~\ref{tab:reader_main} compares generated answers under the same evidence budgets.
+The selected ranking improves over original BM25 with recency by 6.67 strict F1 points.
+Its paired interval is $[1.59,13.56]$.
+Possible and guaranteed support produce identical answer sets on the primary sample.
+\input{tables/reader_main}
+
+Their answer sets differ on six diagnostic questions, including three with two valid responses.
+Earliest and latest date completion yield the same change counts.
+The diagnostic connects context sensitivity to observed answer changes.
+Appendix~\ref{app:reader} reports exact match, paired intervals, and response-format failures.

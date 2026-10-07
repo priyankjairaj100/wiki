@@ -1,0 +1,10 @@
+{
+  "original_path": "pass4/pipeline/human/reader_jobs.jsonl",
+  "original_sha256": "330c581f5642477a4a2ad6a09a2f752a5b41ab0b1f510f31bd414bf33a495750",
+  "adapted_path": "pass4/inference/human/reader_input.jsonl",
+  "adapted_sha256": "a4b4711bdfaba077176d3479397d32d41107e5c35de0e18d628d1005968b40ee",
+  "rows": 193,
+  "prompt_changes": 0,
+  "max_tokens": 96,
+  "metadata_enters_request": false
+}

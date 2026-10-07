@@ -1,0 +1,9 @@
+{
+  "run_id": "acl2027-pass4-confirmation-v1",
+  "freeze_sha256": "3c9604e1040a3e51dbbda5787760b9fed734780d0214e9681710a52fd528d6c7",
+  "resource_amendment_files_checked": 7,
+  "original_hash_exceptions_allowed": 0,
+  "checked_files": 27,
+  "failures": [],
+  "all_files_match": true
+}

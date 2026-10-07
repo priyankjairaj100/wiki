@@ -1,0 +1,5197 @@
+{
+  "dataset": "templama",
+  "event_cutoffs": {
+    "n_cutoffs": 11,
+    "direct_mismatch_cutoffs": 0,
+    "component_mismatch_cutoffs": 8,
+    "component_membership_differences": 21,
+    "component_max_differences": 4
+  },
+  "all_cutoffs": {
+    "n_cutoffs": 21,
+    "direct_mismatch_cutoffs": 0,
+    "component_mismatch_cutoffs": 16,
+    "component_membership_differences": 42,
+    "component_max_differences": 4
+  },
+  "historical_queries": {
+    "n": 447,
+    "full_hits": 435,
+    "prefix_hits": 439,
+    "changed_top1": 6
+  },
+  "cutoffs": [
+    {
+      "cutoff": 2010.0,
+      "is_event": true,
+      "n_observed": 217,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2010.5,
+      "is_event": false,
+      "n_observed": 217,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2011.0,
+      "is_event": true,
+      "n_observed": 282,
+      "direct_differences": 0,
+      "component_differences": 4,
+      "only_full": [
+        "tl:Q10552391_P54:2010:Q7419312",
+        "tl:Q11689876_P39:2010:Q43165333"
+      ],
+      "only_prefix": [
+        "tl:Q11112119_P39:2010:Q30185",
+        "tl:Q1240224_P39:2010:Q4931391"
+      ]
+    },
+    {
+      "cutoff": 2011.5,
+      "is_event": false,
+      "n_observed": 282,
+      "direct_differences": 0,
+      "component_differences": 4,
+      "only_full": [
+        "tl:Q10552391_P54:2010:Q7419312",
+        "tl:Q11689876_P39:2010:Q43165333"
+      ],
+      "only_prefix": [
+        "tl:Q11112119_P39:2010:Q30185",
+        "tl:Q1240224_P39:2010:Q4931391"
+      ]
+    },
+    {
+      "cutoff": 2012.0,
+      "is_event": true,
+      "n_observed": 332,
+      "direct_differences": 0,
+      "component_differences": 4,
+      "only_full": [
+        "tl:Q10552391_P54:2010:Q7419312",
+        "tl:Q11689876_P39:2010:Q43165333"
+      ],
+      "only_prefix": [
+        "tl:Q11112119_P39:2010:Q30185",
+        "tl:Q1240224_P39:2010:Q4931391"
+      ]
+    },
+    {
+      "cutoff": 2012.5,
+      "is_event": false,
+      "n_observed": 332,
+      "direct_differences": 0,
+      "component_differences": 4,
+      "only_full": [
+        "tl:Q10552391_P54:2010:Q7419312",
+        "tl:Q11689876_P39:2010:Q43165333"
+      ],
+      "only_prefix": [
+        "tl:Q11112119_P39:2010:Q30185",
+        "tl:Q1240224_P39:2010:Q4931391"
+      ]
+    },
+    {
+      "cutoff": 2013.0,
+      "is_event": true,
+      "n_observed": 388,
+      "direct_differences": 0,
+      "component_differences": 3,
+      "only_full": [
+        "tl:Q11689876_P39:2010:Q43165333"
+      ],
+      "only_prefix": [
+        "tl:Q10853588_P39:2011:Q3406489",
+        "tl:Q11112119_P39:2010:Q30185"
+      ]
+    },
+    {
+      "cutoff": 2013.5,
+      "is_event": false,
+      "n_observed": 388,
+      "direct_differences": 0,
+      "component_differences": 3,
+      "only_full": [
+        "tl:Q11689876_P39:2010:Q43165333"
+      ],
+      "only_prefix": [
+        "tl:Q10853588_P39:2011:Q3406489",
+        "tl:Q11112119_P39:2010:Q30185"
+      ]
+    },
+    {
+      "cutoff": 2014.0,
+      "is_event": true,
+      "n_observed": 441,
+      "direct_differences": 0,
+      "component_differences": 3,
+      "only_full": [],
+      "only_prefix": [
+        "tl:Q10853588_P39:2011:Q3406489",
+        "tl:Q11112119_P39:2010:Q30185",
+        "tl:Q11860_P39:2010:Q796897"
+      ]
+    },
+    {
+      "cutoff": 2014.5,
+      "is_event": false,
+      "n_observed": 441,
+      "direct_differences": 0,
+      "component_differences": 3,
+      "only_full": [],
+      "only_prefix": [
+        "tl:Q10853588_P39:2011:Q3406489",
+        "tl:Q11112119_P39:2010:Q30185",
+        "tl:Q11860_P39:2010:Q796897"
+      ]
+    },
+    {
+      "cutoff": 2015.0,
+      "is_event": true,
+      "n_observed": 501,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "tl:Q10853588_P39:2011:Q3406489",
+        "tl:Q11860_P39:2010:Q796897"
+      ]
+    },
+    {
+      "cutoff": 2015.5,
+      "is_event": false,
+      "n_observed": 501,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "tl:Q10853588_P39:2011:Q3406489",
+        "tl:Q11860_P39:2010:Q796897"
+      ]
+    },
+    {
+      "cutoff": 2016.0,
+      "is_event": true,
+      "n_observed": 554,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "tl:Q10853588_P39:2011:Q3406489",
+        "tl:Q11860_P39:2010:Q796897"
+      ]
+    },
+    {
+      "cutoff": 2016.5,
+      "is_event": false,
+      "n_observed": 554,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "tl:Q10853588_P39:2011:Q3406489",
+        "tl:Q11860_P39:2010:Q796897"
+      ]
+    },
+    {
+      "cutoff": 2017.0,
+      "is_event": true,
+      "n_observed": 602,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "tl:Q10853588_P39:2011:Q3406489",
+        "tl:Q11860_P39:2010:Q796897"
+      ]
+    },
+    {
+      "cutoff": 2017.5,
+      "is_event": false,
+      "n_observed": 602,
+      "direct_differences": 0,
+      "component_differences": 2,
+      "only_full": [],
+      "only_prefix": [
+        "tl:Q10853588_P39:2011:Q3406489",
+        "tl:Q11860_P39:2010:Q796897"
+      ]
+    },
+    {
+      "cutoff": 2018.0,
+      "is_event": true,
+      "n_observed": 661,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "tl:Q11860_P39:2010:Q796897"
+      ]
+    },
+    {
+      "cutoff": 2018.5,
+      "is_event": false,
+      "n_observed": 661,
+      "direct_differences": 0,
+      "component_differences": 1,
+      "only_full": [],
+      "only_prefix": [
+        "tl:Q11860_P39:2010:Q796897"
+      ]
+    },
+    {
+      "cutoff": 2019.0,
+      "is_event": true,
+      "n_observed": 709,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2019.5,
+      "is_event": false,
+      "n_observed": 709,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2020.0,
+      "is_event": true,
+      "n_observed": 747,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    }
+  ],
+  "queries": [
+    {
+      "key": [
+        "q10002",
+        "p6"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10002_P6:2010:Q2156366",
+      "prefix_cid": "tl:Q10002_P6:2010:Q2156366"
+    },
+    {
+      "key": [
+        "q1000",
+        "p6"
+      ],
+      "cutoff": 2018.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1000_P6:2016:Q5373253",
+      "prefix_cid": "tl:Q1000_P6:2016:Q5373253"
+    },
+    {
+      "key": [
+        "q100188",
+        "p6"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q100188_P6:2010:Q567934",
+      "prefix_cid": "tl:Q100188_P6:2010:Q567934"
+    },
+    {
+      "key": [
+        "q1002010",
+        "p488"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1002010_P488:2010:Q6539250",
+      "prefix_cid": "tl:Q1002010_P488:2010:Q6539250"
+    },
+    {
+      "key": [
+        "q1002295",
+        "p102"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1002295_P102:2010:Q200599",
+      "prefix_cid": "tl:Q1002295_P102:2010:Q200599"
+    },
+    {
+      "key": [
+        "q1003357",
+        "p286"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1003357_P286:2010:Q3351136",
+      "prefix_cid": "tl:Q1003357_P286:2010:Q3351136"
+    },
+    {
+      "key": [
+        "q1003357",
+        "p286"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1003357_P286:2014:Q1275560",
+      "prefix_cid": "tl:Q1003357_P286:2014:Q1275560"
+    },
+    {
+      "key": [
+        "q100560206",
+        "p69"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q100560206_P69:2010:Q4924484",
+      "prefix_cid": "tl:Q100560206_P69:2010:Q4924484"
+    },
+    {
+      "key": [
+        "q1005",
+        "p6"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1005_P6:2010:Q57356",
+      "prefix_cid": "tl:Q1005_P6:2010:Q57356"
+    },
+    {
+      "key": [
+        "q1006",
+        "p6"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1006_P6:2010:Q21855433",
+      "prefix_cid": "tl:Q1006_P6:2010:Q21855433"
+    },
+    {
+      "key": [
+        "q100749",
+        "p108"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q100749_P108:2013:Q317070",
+      "prefix_cid": "tl:Q100749_P108:2013:Q317070"
+    },
+    {
+      "key": [
+        "q100749",
+        "p108"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q100749_P108:2016:Q55044",
+      "prefix_cid": "tl:Q100749_P108:2016:Q55044"
+    },
+    {
+      "key": [
+        "q100",
+        "p6"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q100_P6:2010:Q941404",
+      "prefix_cid": "tl:Q100_P6:2010:Q941404"
+    },
+    {
+      "key": [
+        "q10132",
+        "p286"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10132_P286:2010:Q2118577",
+      "prefix_cid": "tl:Q10132_P286:2010:Q2118577"
+    },
+    {
+      "key": [
+        "q101410",
+        "p102"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q101410_P102:2010:Q173152",
+      "prefix_cid": "tl:Q101410_P102:2010:Q173152"
+    },
+    {
+      "key": [
+        "q101959",
+        "p286"
+      ],
+      "cutoff": 2018.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q101959_P286:2017:Q73135",
+      "prefix_cid": "tl:Q101959_P286:2017:Q73135"
+    },
+    {
+      "key": [
+        "q1021708",
+        "p39"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1021708_P39:2010:Q5199072",
+      "prefix_cid": "tl:Q1021708_P39:2010:Q5199072"
+    },
+    {
+      "key": [
+        "q102178",
+        "p488"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q102178_P488:2010:Q313594",
+      "prefix_cid": "tl:Q102178_P488:2010:Q313594"
+    },
+    {
+      "key": [
+        "q10225",
+        "p488"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10225_P488:2010:Q10218",
+      "prefix_cid": "tl:Q10225_P488:2010:Q10218"
+    },
+    {
+      "key": [
+        "q1023028",
+        "p286"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1023028_P286:2013:Q1357668",
+      "prefix_cid": "tl:Q1023028_P286:2013:Q1357668"
+    },
+    {
+      "key": [
+        "q1023227",
+        "p286"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1023227_P286:2015:Q2718715",
+      "prefix_cid": "tl:Q1023227_P286:2015:Q2718715"
+    },
+    {
+      "key": [
+        "q1024463",
+        "p286"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1024463_P286:2010:Q10459412",
+      "prefix_cid": "tl:Q1024463_P286:2010:Q10459412"
+    },
+    {
+      "key": [
+        "q1024463",
+        "p286"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1024463_P286:2013:Q12731015",
+      "prefix_cid": "tl:Q1024463_P286:2013:Q12731015"
+    },
+    {
+      "key": [
+        "q1024463",
+        "p286"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1024463_P286:2015:Q1133257",
+      "prefix_cid": "tl:Q1024463_P286:2015:Q1133257"
+    },
+    {
+      "key": [
+        "q1024463",
+        "p286"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1024463_P286:2016:Q1336950",
+      "prefix_cid": "tl:Q1024463_P286:2016:Q1336950"
+    },
+    {
+      "key": [
+        "q1024463",
+        "p286"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1024463_P286:2017:Q1158981",
+      "prefix_cid": "tl:Q1024463_P286:2017:Q1158981"
+    },
+    {
+      "key": [
+        "q1024463",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1024463_P286:2018:Q10447891",
+      "prefix_cid": "tl:Q1024463_P286:2018:Q10447891"
+    },
+    {
+      "key": [
+        "q1024463",
+        "p286"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1024463_P286:2019:Q6501332",
+      "prefix_cid": "tl:Q1024463_P286:2019:Q6501332"
+    },
+    {
+      "key": [
+        "q102720",
+        "p286"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q102720_P286:2015:Q742429",
+      "prefix_cid": "tl:Q102720_P286:2015:Q742429"
+    },
+    {
+      "key": [
+        "q102720",
+        "p286"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q102720_P286:2019:Q57079",
+      "prefix_cid": "tl:Q102720_P286:2019:Q57079"
+    },
+    {
+      "key": [
+        "q1029527",
+        "p39"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1029527_P39:2010:Q30185",
+      "prefix_cid": "tl:Q1029527_P39:2010:Q30185"
+    },
+    {
+      "key": [
+        "q1029792",
+        "p488"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1029792_P488:2010:Q2977816",
+      "prefix_cid": "tl:Q1029792_P488:2010:Q2977816"
+    },
+    {
+      "key": [
+        "q1029792",
+        "p488"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1029792_P488:2013:Q561213",
+      "prefix_cid": "tl:Q1029792_P488:2013:Q561213"
+    },
+    {
+      "key": [
+        "q10300",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10300_P286:2017:Q2637295",
+      "prefix_cid": "tl:Q10300_P286:2017:Q2637295"
+    },
+    {
+      "key": [
+        "q10304982",
+        "p102"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10304982_P102:2010:Q732852",
+      "prefix_cid": "tl:Q10304982_P102:2010:Q732852"
+    },
+    {
+      "key": [
+        "q10304982",
+        "p102"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10304982_P102:2016:Q2626213",
+      "prefix_cid": "tl:Q10304982_P102:2016:Q2626213"
+    },
+    {
+      "key": [
+        "q10308",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10308_P286:2018:Q775389",
+      "prefix_cid": "tl:Q10308_P286:2018:Q775389"
+    },
+    {
+      "key": [
+        "q10308",
+        "p286"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10308_P286:2019:Q470994",
+      "prefix_cid": "tl:Q10308_P286:2019:Q470994"
+    },
+    {
+      "key": [
+        "q1031200",
+        "p286"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1031200_P286:2013:Q5019280",
+      "prefix_cid": "tl:Q1031200_P286:2013:Q5019280"
+    },
+    {
+      "key": [
+        "q10325468",
+        "p108"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10325468_P108:2010:Q2060678",
+      "prefix_cid": "tl:Q10325468_P108:2010:Q2060678"
+    },
+    {
+      "key": [
+        "q1032587",
+        "p102"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1032587_P102:2010:Q2055003",
+      "prefix_cid": "tl:Q1032587_P102:2010:Q2055003"
+    },
+    {
+      "key": [
+        "q1032587",
+        "p102"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1032587_P102:2012:Q5846148",
+      "prefix_cid": "tl:Q1032587_P102:2012:Q5846148"
+    },
+    {
+      "key": [
+        "q1032587",
+        "p102"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1032587_P102:2015:Q20103988",
+      "prefix_cid": "tl:Q1032587_P102:2015:Q20103988"
+    },
+    {
+      "key": [
+        "q10329",
+        "p286"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10329_P286:2013:Q295610",
+      "prefix_cid": "tl:Q10329_P286:2013:Q295610"
+    },
+    {
+      "key": [
+        "q10329",
+        "p286"
+      ],
+      "cutoff": 2018.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10329_P286:2017:Q297768",
+      "prefix_cid": "tl:Q10329_P286:2017:Q297768"
+    },
+    {
+      "key": [
+        "q10329",
+        "p286"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10329_P286:2019:Q11697229",
+      "prefix_cid": "tl:Q10329_P286:2019:Q11697229"
+    },
+    {
+      "key": [
+        "q10333",
+        "p286"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10333_P286:2012:Q359118",
+      "prefix_cid": "tl:Q10333_P286:2012:Q359118"
+    },
+    {
+      "key": [
+        "q10333",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10333_P286:2017:Q1339589",
+      "prefix_cid": "tl:Q10333_P286:2017:Q1339589"
+    },
+    {
+      "key": [
+        "q10340805",
+        "p102"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10340805_P102:2010:Q429972",
+      "prefix_cid": "tl:Q10340805_P102:2010:Q429972"
+    },
+    {
+      "key": [
+        "q10357316",
+        "p127"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10357316_P127:2010:Q1411661",
+      "prefix_cid": "tl:Q10357316_P127:2010:Q1411661"
+    },
+    {
+      "key": [
+        "q1037",
+        "p6"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1037_P6:2014:Q17417622",
+      "prefix_cid": "tl:Q1037_P6:2014:Q17417622"
+    },
+    {
+      "key": [
+        "q10380008",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10380008_P54:2010:Q48843",
+      "prefix_cid": "tl:Q10380008_P54:2010:Q48843"
+    },
+    {
+      "key": [
+        "q10380008",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10380008_P54:2011:Q19568",
+      "prefix_cid": "tl:Q10380008_P54:2011:Q19568"
+    },
+    {
+      "key": [
+        "q10380008",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10380008_P54:2012:Q48949",
+      "prefix_cid": "tl:Q10380008_P54:2012:Q48949"
+    },
+    {
+      "key": [
+        "q10380008",
+        "p54"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10380008_P54:2013:Q48929",
+      "prefix_cid": "tl:Q10380008_P54:2013:Q48929"
+    },
+    {
+      "key": [
+        "q10382139",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10382139_P54:2010:Q19592",
+      "prefix_cid": "tl:Q10382139_P54:2010:Q19592"
+    },
+    {
+      "key": [
+        "q10382139",
+        "p54"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10382139_P54:2014:Q48945",
+      "prefix_cid": "tl:Q10382139_P54:2014:Q48945"
+    },
+    {
+      "key": [
+        "q10403942",
+        "p127"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10403942_P127:2010:Q1543093",
+      "prefix_cid": "tl:Q10403942_P127:2010:Q1543093"
+    },
+    {
+      "key": [
+        "q1040719",
+        "p286"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1040719_P286:2011:Q3817556",
+      "prefix_cid": "tl:Q1040719_P286:2011:Q3817556"
+    },
+    {
+      "key": [
+        "q1040719",
+        "p286"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1040719_P286:2013:Q61634988",
+      "prefix_cid": "tl:Q1040719_P286:2013:Q61634988"
+    },
+    {
+      "key": [
+        "q1040719",
+        "p286"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1040719_P286:2014:Q16214008",
+      "prefix_cid": "tl:Q1040719_P286:2014:Q16214008"
+    },
+    {
+      "key": [
+        "q1040719",
+        "p286"
+      ],
+      "cutoff": 2018.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1040719_P286:2017:Q3824776",
+      "prefix_cid": "tl:Q1040719_P286:2017:Q3824776"
+    },
+    {
+      "key": [
+        "q10413488",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10413488_P54:2010:Q18528",
+      "prefix_cid": "tl:Q10413488_P54:2010:Q18528"
+    },
+    {
+      "key": [
+        "q10413488",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10413488_P54:2011:Q19575",
+      "prefix_cid": "tl:Q10413488_P54:2011:Q19575"
+    },
+    {
+      "key": [
+        "q10413488",
+        "p54"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10413488_P54:2012:Q19568",
+      "prefix_cid": "tl:Q10413488_P54:2012:Q19568"
+    },
+    {
+      "key": [
+        "q1041",
+        "p6"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1041_P6:2014:Q17320405",
+      "prefix_cid": "tl:Q1041_P6:2014:Q17320405"
+    },
+    {
+      "key": [
+        "q1042470",
+        "p108"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1042470_P108:2010:Q180438",
+      "prefix_cid": "tl:Q1042470_P108:2010:Q180438"
+    },
+    {
+      "key": [
+        "q1042743",
+        "p54"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1042743_P54:2010:Q692417",
+      "prefix_cid": "tl:Q1042743_P54:2010:Q692417"
+    },
+    {
+      "key": [
+        "q1042829",
+        "p286"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1042829_P286:2011:Q358718",
+      "prefix_cid": "tl:Q1042829_P286:2011:Q358718"
+    },
+    {
+      "key": [
+        "q1045461",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1045461_P54:2010:Q223511",
+      "prefix_cid": "tl:Q1045461_P54:2010:Q223511"
+    },
+    {
+      "key": [
+        "q1045461",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1045461_P54:2011:Q324523",
+      "prefix_cid": "tl:Q1045461_P54:2011:Q324523"
+    },
+    {
+      "key": [
+        "q1045",
+        "p6"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1045_P6:2017:Q28824125",
+      "prefix_cid": "tl:Q1045_P6:2017:Q28824125"
+    },
+    {
+      "key": [
+        "q1046445",
+        "p286"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1046445_P286:2010:Q7169974",
+      "prefix_cid": "tl:Q1046445_P286:2010:Q7169974"
+    },
+    {
+      "key": [
+        "q1046445",
+        "p286"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1046445_P286:2011:Q10379449",
+      "prefix_cid": "tl:Q1046445_P286:2011:Q10379449"
+    },
+    {
+      "key": [
+        "q1046445",
+        "p286"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1046445_P286:2015:Q5414497",
+      "prefix_cid": "tl:Q1046445_P286:2015:Q5414497"
+    },
+    {
+      "key": [
+        "q1046445",
+        "p286"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1046445_P286:2016:Q4251102",
+      "prefix_cid": "tl:Q1046445_P286:2016:Q4251102"
+    },
+    {
+      "key": [
+        "q1046939",
+        "p286"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1046939_P286:2012:Q3775763",
+      "prefix_cid": "tl:Q1046939_P286:2012:Q3775763"
+    },
+    {
+      "key": [
+        "q104746",
+        "p6"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q104746_P6:2016:Q4753774",
+      "prefix_cid": "tl:Q104746_P6:2016:Q4753774"
+    },
+    {
+      "key": [
+        "q1047535",
+        "p286"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1047535_P286:2011:Q3303125",
+      "prefix_cid": "tl:Q1047535_P286:2011:Q3303125"
+    },
+    {
+      "key": [
+        "q1047535",
+        "p286"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1047535_P286:2014:Q3246328",
+      "prefix_cid": "tl:Q1047535_P286:2014:Q3246328"
+    },
+    {
+      "key": [
+        "q1047535",
+        "p286"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1047535_P286:2015:Q248231",
+      "prefix_cid": "tl:Q1047535_P286:2015:Q248231"
+    },
+    {
+      "key": [
+        "q1047535",
+        "p286"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1047535_P286:2016:Q1389828",
+      "prefix_cid": "tl:Q1047535_P286:2016:Q1389828"
+    },
+    {
+      "key": [
+        "q1047535",
+        "p286"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1047535_P286:2017:Q1524487",
+      "prefix_cid": "tl:Q1047535_P286:2017:Q1524487"
+    },
+    {
+      "key": [
+        "q1047535",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1047535_P286:2018:Q1290372",
+      "prefix_cid": "tl:Q1047535_P286:2018:Q1290372"
+    },
+    {
+      "key": [
+        "q104761",
+        "p286"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q104761_P286:2010:Q152107",
+      "prefix_cid": "tl:Q104761_P286:2010:Q152107"
+    },
+    {
+      "key": [
+        "q104761",
+        "p286"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q104761_P286:2017:Q677546",
+      "prefix_cid": "tl:Q104761_P286:2017:Q677546"
+    },
+    {
+      "key": [
+        "q104770",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q104770_P286:2018:Q1568284",
+      "prefix_cid": "tl:Q104770_P286:2018:Q1568284"
+    },
+    {
+      "key": [
+        "q104770",
+        "p286"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q104770_P286:2019:Q19257969",
+      "prefix_cid": "tl:Q104770_P286:2019:Q19257969"
+    },
+    {
+      "key": [
+        "q1048192",
+        "p488"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1048192_P488:2014:Q505965",
+      "prefix_cid": "tl:Q1048192_P488:2014:Q505965"
+    },
+    {
+      "key": [
+        "q1049059",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1049059_P54:2010:Q19490",
+      "prefix_cid": "tl:Q1049059_P54:2010:Q19490"
+    },
+    {
+      "key": [
+        "q1049059",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1049059_P54:2011:Q19495",
+      "prefix_cid": "tl:Q1049059_P54:2011:Q19495"
+    },
+    {
+      "key": [
+        "q1049470",
+        "p488"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1049470_P488:2010:Q41564",
+      "prefix_cid": "tl:Q1049470_P488:2010:Q41564"
+    },
+    {
+      "key": [
+        "q105112",
+        "p488"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q105112_P488:2010:Q231413",
+      "prefix_cid": "tl:Q105112_P488:2010:Q231413"
+    },
+    {
+      "key": [
+        "q105112",
+        "p488"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q105112_P488:2011:Q714508",
+      "prefix_cid": "tl:Q105112_P488:2011:Q714508"
+    },
+    {
+      "key": [
+        "q10512",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10512_P286:2018:Q1704254",
+      "prefix_cid": "tl:Q10512_P286:2018:Q1704254"
+    },
+    {
+      "key": [
+        "q10514",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10514_P54:2010:Q169898",
+      "prefix_cid": "tl:Q10514_P54:2010:Q169898"
+    },
+    {
+      "key": [
+        "q1051514",
+        "p286"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1051514_P286:2016:Q711859",
+      "prefix_cid": "tl:Q1051514_P286:2016:Q711859"
+    },
+    {
+      "key": [
+        "q10516040",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10516040_P54:2011:Q6837797",
+      "prefix_cid": "tl:Q10516040_P54:2011:Q6837797"
+    },
+    {
+      "key": [
+        "q10520",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10520_P54:2010:Q204357",
+      "prefix_cid": "tl:Q10520_P54:2010:Q204357"
+    },
+    {
+      "key": [
+        "q105254",
+        "p286"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q105254_P286:2010:Q702233",
+      "prefix_cid": "tl:Q105254_P286:2010:Q702233"
+    },
+    {
+      "key": [
+        "q105254",
+        "p286"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q105254_P286:2015:Q17352998",
+      "prefix_cid": "tl:Q105254_P286:2015:Q17352998"
+    },
+    {
+      "key": [
+        "q105254",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q105254_P286:2018:Q1582732",
+      "prefix_cid": "tl:Q105254_P286:2018:Q1582732"
+    },
+    {
+      "key": [
+        "q1054342",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1054342_P54:2010:Q1059757",
+      "prefix_cid": "tl:Q1054342_P54:2010:Q1059757"
+    },
+    {
+      "key": [
+        "q1054342",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1054342_P54:2011:Q1140533",
+      "prefix_cid": "tl:Q1054342_P54:2011:Q1140533"
+    },
+    {
+      "key": [
+        "q1054342",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1054342_P54:2012:Q137747",
+      "prefix_cid": "tl:Q1054342_P54:2012:Q137747"
+    },
+    {
+      "key": [
+        "q1054342",
+        "p54"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1054342_P54:2013:Q141045",
+      "prefix_cid": "tl:Q1054342_P54:2013:Q141045"
+    },
+    {
+      "key": [
+        "q10543612",
+        "p39"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10543612_P39:2010:Q140686",
+      "prefix_cid": "tl:Q10543612_P39:2010:Q140686"
+    },
+    {
+      "key": [
+        "q10552391",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10552391_P54:2010:Q7419312",
+      "prefix_cid": "tl:Q10552391_P54:2010:Q7419312"
+    },
+    {
+      "key": [
+        "q10552391",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 0,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10552391_P54:2010:Q7419312",
+      "prefix_cid": "tl:Q10552391_P54:2011:Q1671357"
+    },
+    {
+      "key": [
+        "q10553748",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10553748_P54:2011:Q248188",
+      "prefix_cid": "tl:Q10553748_P54:2011:Q248188"
+    },
+    {
+      "key": [
+        "q10553748",
+        "p54"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10553748_P54:2012:Q2752922",
+      "prefix_cid": "tl:Q10553748_P54:2012:Q2752922"
+    },
+    {
+      "key": [
+        "q10553748",
+        "p54"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "tl:Q10553748_P54:2012:Q2752922",
+      "prefix_cid": "tl:Q10553748_P54:2012:Q2752922"
+    },
+    {
+      "key": [
+        "q10553748",
+        "p54"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10553748_P54:2015:Q248188",
+      "prefix_cid": "tl:Q10553748_P54:2015:Q248188"
+    },
+    {
+      "key": [
+        "q1055449",
+        "p39"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1055449_P39:2010:Q27169",
+      "prefix_cid": "tl:Q1055449_P39:2010:Q27169"
+    },
+    {
+      "key": [
+        "q1055449",
+        "p39"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1055449_P39:2012:Q1553195",
+      "prefix_cid": "tl:Q1055449_P39:2012:Q1553195"
+    },
+    {
+      "key": [
+        "q1055449",
+        "p39"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1055449_P39:2016:Q27169",
+      "prefix_cid": "tl:Q1055449_P39:2016:Q27169"
+    },
+    {
+      "key": [
+        "q105564",
+        "p102"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q105564_P102:2013:Q6721203",
+      "prefix_cid": "tl:Q105564_P102:2013:Q6721203"
+    },
+    {
+      "key": [
+        "q1055",
+        "p6"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1055_P6:2010:Q60426",
+      "prefix_cid": "tl:Q1055_P6:2010:Q60426"
+    },
+    {
+      "key": [
+        "q1055",
+        "p6"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1055_P6:2011:Q61053",
+      "prefix_cid": "tl:Q1055_P6:2011:Q61053"
+    },
+    {
+      "key": [
+        "q10560",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10560_P54:2010:Q308683",
+      "prefix_cid": "tl:Q10560_P54:2010:Q308683"
+    },
+    {
+      "key": [
+        "q10560",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10560_P54:2011:Q823384",
+      "prefix_cid": "tl:Q10560_P54:2011:Q823384"
+    },
+    {
+      "key": [
+        "q10577",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10577_P54:2010:Q2714",
+      "prefix_cid": "tl:Q10577_P54:2010:Q2714"
+    },
+    {
+      "key": [
+        "q10577",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10577_P54:2011:Q204238",
+      "prefix_cid": "tl:Q10577_P54:2011:Q204238"
+    },
+    {
+      "key": [
+        "q10577",
+        "p54"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10577_P54:2012:Q47762",
+      "prefix_cid": "tl:Q10577_P54:2012:Q47762"
+    },
+    {
+      "key": [
+        "q10577",
+        "p54"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10577_P54:2014:Q18711",
+      "prefix_cid": "tl:Q10577_P54:2014:Q18711"
+    },
+    {
+      "key": [
+        "q10585",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10585_P54:2010:Q19444",
+      "prefix_cid": "tl:Q10585_P54:2010:Q19444"
+    },
+    {
+      "key": [
+        "q1058",
+        "p39"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1058_P39:2010:Q3526627",
+      "prefix_cid": "tl:Q1058_P39:2010:Q3526627"
+    },
+    {
+      "key": [
+        "q10590",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10590_P54:2010:Q18723",
+      "prefix_cid": "tl:Q10590_P54:2010:Q18723"
+    },
+    {
+      "key": [
+        "q10590",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10590_P54:2011:Q19598",
+      "prefix_cid": "tl:Q10590_P54:2011:Q19598"
+    },
+    {
+      "key": [
+        "q10590",
+        "p54"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10590_P54:2013:Q9426",
+      "prefix_cid": "tl:Q10590_P54:2013:Q9426"
+    },
+    {
+      "key": [
+        "q1059186",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1059186_P286:2018:Q4172923",
+      "prefix_cid": "tl:Q1059186_P286:2018:Q4172923"
+    },
+    {
+      "key": [
+        "q10602",
+        "p54"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10602_P54:2010:Q18711",
+      "prefix_cid": "tl:Q10602_P54:2010:Q18711"
+    },
+    {
+      "key": [
+        "q10602",
+        "p54"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10602_P54:2012:Q47762",
+      "prefix_cid": "tl:Q10602_P54:2012:Q47762"
+    },
+    {
+      "key": [
+        "q10602",
+        "p54"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10602_P54:2014:Q18656",
+      "prefix_cid": "tl:Q10602_P54:2014:Q18656"
+    },
+    {
+      "key": [
+        "q10603",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10603_P54:2010:Q2714",
+      "prefix_cid": "tl:Q10603_P54:2010:Q2714"
+    },
+    {
+      "key": [
+        "q10603",
+        "p54"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10603_P54:2013:Q204238",
+      "prefix_cid": "tl:Q10603_P54:2013:Q204238"
+    },
+    {
+      "key": [
+        "q10603",
+        "p54"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10603_P54:2014:Q19458",
+      "prefix_cid": "tl:Q10603_P54:2014:Q19458"
+    },
+    {
+      "key": [
+        "q1060949",
+        "p102"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1060949_P102:2010:Q1668154",
+      "prefix_cid": "tl:Q1060949_P102:2010:Q1668154"
+    },
+    {
+      "key": [
+        "q1061627",
+        "p286"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1061627_P286:2012:Q5972505",
+      "prefix_cid": "tl:Q1061627_P286:2012:Q5972505"
+    },
+    {
+      "key": [
+        "q1061904",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1061904_P54:2010:Q1812121",
+      "prefix_cid": "tl:Q1061904_P54:2010:Q1812121"
+    },
+    {
+      "key": [
+        "q1061904",
+        "p54"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1061904_P54:2013:Q19446",
+      "prefix_cid": "tl:Q1061904_P54:2013:Q19446"
+    },
+    {
+      "key": [
+        "q106394",
+        "p286"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q106394_P286:2010:Q664521",
+      "prefix_cid": "tl:Q106394_P286:2010:Q664521"
+    },
+    {
+      "key": [
+        "q10658",
+        "p488"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10658_P488:2010:Q10652",
+      "prefix_cid": "tl:Q10658_P488:2010:Q10652"
+    },
+    {
+      "key": [
+        "q1066032",
+        "p39"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1066032_P39:2012:Q75178",
+      "prefix_cid": "tl:Q1066032_P39:2012:Q75178"
+    },
+    {
+      "key": [
+        "q1066501",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1066501_P54:2010:Q213837",
+      "prefix_cid": "tl:Q1066501_P54:2010:Q213837"
+    },
+    {
+      "key": [
+        "q10691",
+        "p488"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10691_P488:2012:Q10694",
+      "prefix_cid": "tl:Q10691_P488:2012:Q10694"
+    },
+    {
+      "key": [
+        "q1070388",
+        "p488"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1070388_P488:2010:Q2987224",
+      "prefix_cid": "tl:Q1070388_P488:2010:Q2987224"
+    },
+    {
+      "key": [
+        "q1070388",
+        "p488"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1070388_P488:2011:Q1711587",
+      "prefix_cid": "tl:Q1070388_P488:2011:Q1711587"
+    },
+    {
+      "key": [
+        "q1070388",
+        "p488"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1070388_P488:2014:Q2589861",
+      "prefix_cid": "tl:Q1070388_P488:2014:Q2589861"
+    },
+    {
+      "key": [
+        "q107051",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q107051_P54:2010:Q101859",
+      "prefix_cid": "tl:Q107051_P54:2010:Q101859"
+    },
+    {
+      "key": [
+        "q107124",
+        "p39"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q107124_P39:2010:Q1162163",
+      "prefix_cid": "tl:Q107124_P39:2010:Q1162163"
+    },
+    {
+      "key": [
+        "q1073219",
+        "p488"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1073219_P488:2010:Q1109829",
+      "prefix_cid": "tl:Q1073219_P488:2010:Q1109829"
+    },
+    {
+      "key": [
+        "q107365",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q107365_P54:2010:Q32494",
+      "prefix_cid": "tl:Q107365_P54:2010:Q32494"
+    },
+    {
+      "key": [
+        "q1076494",
+        "p488"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1076494_P488:2010:Q630738",
+      "prefix_cid": "tl:Q1076494_P488:2010:Q630738"
+    },
+    {
+      "key": [
+        "q1077389",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1077389_P54:2010:Q320484",
+      "prefix_cid": "tl:Q1077389_P54:2010:Q320484"
+    },
+    {
+      "key": [
+        "q1079331",
+        "p108"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1079331_P108:2010:Q152171",
+      "prefix_cid": "tl:Q1079331_P108:2010:Q152171"
+    },
+    {
+      "key": [
+        "q10819",
+        "p39"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10819_P39:2010:Q6508563",
+      "prefix_cid": "tl:Q10819_P39:2010:Q6508563"
+    },
+    {
+      "key": [
+        "q1084303",
+        "p108"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1084303_P108:2010:Q161562",
+      "prefix_cid": "tl:Q1084303_P108:2010:Q161562"
+    },
+    {
+      "key": [
+        "q108447",
+        "p39"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q108447_P39:2010:Q928764",
+      "prefix_cid": "tl:Q108447_P39:2010:Q928764"
+    },
+    {
+      "key": [
+        "q108451",
+        "p108"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q108451_P108:2010:Q273263",
+      "prefix_cid": "tl:Q108451_P108:2010:Q273263"
+    },
+    {
+      "key": [
+        "q10853588",
+        "p39"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 0,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10543612_P39:2010:Q140686",
+      "prefix_cid": "tl:Q10853588_P39:2011:Q3406489"
+    },
+    {
+      "key": [
+        "q10860995",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10860995_P54:2011:Q3044339",
+      "prefix_cid": "tl:Q10860995_P54:2011:Q3044339"
+    },
+    {
+      "key": [
+        "q10860995",
+        "p54"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10860995_P54:2013:Q16932",
+      "prefix_cid": "tl:Q10860995_P54:2013:Q16932"
+    },
+    {
+      "key": [
+        "q10931647",
+        "p127"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10931647_P127:2010:Q7021083",
+      "prefix_cid": "tl:Q10931647_P127:2010:Q7021083"
+    },
+    {
+      "key": [
+        "q109362",
+        "p69"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q109362_P69:2010:Q152087",
+      "prefix_cid": "tl:Q109362_P69:2010:Q152087"
+    },
+    {
+      "key": [
+        "q109397",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q109397_P54:2010:Q51976",
+      "prefix_cid": "tl:Q109397_P54:2010:Q51976"
+    },
+    {
+      "key": [
+        "q109397",
+        "p54"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q109397_P54:2013:Q15789",
+      "prefix_cid": "tl:Q109397_P54:2013:Q15789"
+    },
+    {
+      "key": [
+        "q109428",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q109428_P54:2010:Q1422",
+      "prefix_cid": "tl:Q109428_P54:2010:Q1422"
+    },
+    {
+      "key": [
+        "q109428",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q109428_P54:2011:Q8701",
+      "prefix_cid": "tl:Q109428_P54:2011:Q8701"
+    },
+    {
+      "key": [
+        "q109428",
+        "p54"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q109428_P54:2013:Q101859",
+      "prefix_cid": "tl:Q109428_P54:2013:Q101859"
+    },
+    {
+      "key": [
+        "q109428",
+        "p54"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q109428_P54:2014:Q8701",
+      "prefix_cid": "tl:Q109428_P54:2014:Q8701"
+    },
+    {
+      "key": [
+        "q109428",
+        "p54"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q109428_P54:2015:Q6601875",
+      "prefix_cid": "tl:Q109428_P54:2015:Q6601875"
+    },
+    {
+      "key": [
+        "q1094295",
+        "p286"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1094295_P286:2010:Q5622460",
+      "prefix_cid": "tl:Q1094295_P286:2010:Q5622460"
+    },
+    {
+      "key": [
+        "q1094295",
+        "p286"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1094295_P286:2015:Q7356905",
+      "prefix_cid": "tl:Q1094295_P286:2015:Q7356905"
+    },
+    {
+      "key": [
+        "q10949778",
+        "p102"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10949778_P102:2010:Q1144342",
+      "prefix_cid": "tl:Q10949778_P102:2010:Q1144342"
+    },
+    {
+      "key": [
+        "q1097334",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1097334_P54:2010:Q18732",
+      "prefix_cid": "tl:Q1097334_P54:2010:Q18732"
+    },
+    {
+      "key": [
+        "q1097511",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1097511_P54:2010:Q8027119",
+      "prefix_cid": "tl:Q1097511_P54:2010:Q8027119"
+    },
+    {
+      "key": [
+        "q11015795",
+        "p102"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11015795_P102:2010:Q669307",
+      "prefix_cid": "tl:Q11015795_P102:2010:Q669307"
+    },
+    {
+      "key": [
+        "q1102044",
+        "p102"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1102044_P102:2010:Q47729",
+      "prefix_cid": "tl:Q1102044_P102:2010:Q47729"
+    },
+    {
+      "key": [
+        "q1107989",
+        "p54"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1107989_P54:2010:Q650840",
+      "prefix_cid": "tl:Q1107989_P54:2010:Q650840"
+    },
+    {
+      "key": [
+        "q1107989",
+        "p54"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1107989_P54:2016:Q329816",
+      "prefix_cid": "tl:Q1107989_P54:2016:Q329816"
+    },
+    {
+      "key": [
+        "q11080923",
+        "p127"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11080923_P127:2010:Q721162",
+      "prefix_cid": "tl:Q11080923_P127:2010:Q721162"
+    },
+    {
+      "key": [
+        "q110843",
+        "p488"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q110843_P488:2010:Q52920",
+      "prefix_cid": "tl:Q110843_P488:2010:Q52920"
+    },
+    {
+      "key": [
+        "q110843",
+        "p488"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q110843_P488:2016:Q4767161",
+      "prefix_cid": "tl:Q110843_P488:2016:Q4767161"
+    },
+    {
+      "key": [
+        "q110857",
+        "p488"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q110857_P488:2010:Q911372",
+      "prefix_cid": "tl:Q110857_P488:2010:Q911372"
+    },
+    {
+      "key": [
+        "q11112119",
+        "p39"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 0,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10543612_P39:2010:Q140686",
+      "prefix_cid": "tl:Q11112119_P39:2010:Q30185"
+    },
+    {
+      "key": [
+        "q1114833",
+        "p488"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1114833_P488:2010:Q1110125",
+      "prefix_cid": "tl:Q1114833_P488:2010:Q1110125"
+    },
+    {
+      "key": [
+        "q1115878",
+        "p488"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1115878_P488:2010:Q5343985",
+      "prefix_cid": "tl:Q1115878_P488:2010:Q5343985"
+    },
+    {
+      "key": [
+        "q11163124",
+        "p102"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11163124_P102:2010:Q24665806",
+      "prefix_cid": "tl:Q11163124_P102:2010:Q24665806"
+    },
+    {
+      "key": [
+        "q11163124",
+        "p102"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11163124_P102:2016:Q27108508",
+      "prefix_cid": "tl:Q11163124_P102:2016:Q27108508"
+    },
+    {
+      "key": [
+        "q11171578",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11171578_P54:2010:Q6783192",
+      "prefix_cid": "tl:Q11171578_P54:2010:Q6783192"
+    },
+    {
+      "key": [
+        "q11171578",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11171578_P54:2011:Q3489807",
+      "prefix_cid": "tl:Q11171578_P54:2011:Q3489807"
+    },
+    {
+      "key": [
+        "q11201210",
+        "p108"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11201210_P108:2011:Q618239",
+      "prefix_cid": "tl:Q11201210_P108:2011:Q618239"
+    },
+    {
+      "key": [
+        "q1120203",
+        "p6"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1120203_P6:2010:Q2856700",
+      "prefix_cid": "tl:Q1120203_P6:2010:Q2856700"
+    },
+    {
+      "key": [
+        "q11207061",
+        "p108"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11207061_P108:2010:Q1859178",
+      "prefix_cid": "tl:Q11207061_P108:2010:Q1859178"
+    },
+    {
+      "key": [
+        "q1121443",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1121443_P54:2010:Q19495",
+      "prefix_cid": "tl:Q1121443_P54:2010:Q19495"
+    },
+    {
+      "key": [
+        "q1121443",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1121443_P54:2011:Q19598",
+      "prefix_cid": "tl:Q1121443_P54:2011:Q19598"
+    },
+    {
+      "key": [
+        "q1121443",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1121443_P54:2012:Q9408",
+      "prefix_cid": "tl:Q1121443_P54:2012:Q9408"
+    },
+    {
+      "key": [
+        "q1121443",
+        "p54"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1121443_P54:2013:Q47965",
+      "prefix_cid": "tl:Q1121443_P54:2013:Q47965"
+    },
+    {
+      "key": [
+        "q1124841",
+        "p286"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1124841_P286:2014:Q1985420",
+      "prefix_cid": "tl:Q1124841_P286:2014:Q1985420"
+    },
+    {
+      "key": [
+        "q1124841",
+        "p286"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1124841_P286:2017:Q3048283",
+      "prefix_cid": "tl:Q1124841_P286:2017:Q3048283"
+    },
+    {
+      "key": [
+        "q11250530",
+        "p286"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11250530_P286:2015:Q171543",
+      "prefix_cid": "tl:Q11250530_P286:2015:Q171543"
+    },
+    {
+      "key": [
+        "q1127218",
+        "p488"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1127218_P488:2010:Q713235",
+      "prefix_cid": "tl:Q1127218_P488:2010:Q713235"
+    },
+    {
+      "key": [
+        "q1128374",
+        "p488"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1128374_P488:2010:Q317400",
+      "prefix_cid": "tl:Q1128374_P488:2010:Q317400"
+    },
+    {
+      "key": [
+        "q1130849",
+        "p286"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1130849_P286:2012:Q310623",
+      "prefix_cid": "tl:Q1130849_P286:2012:Q310623"
+    },
+    {
+      "key": [
+        "q113156",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q113156_P54:2010:Q18711",
+      "prefix_cid": "tl:Q113156_P54:2010:Q18711"
+    },
+    {
+      "key": [
+        "q1133513",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1133513_P54:2010:Q826751",
+      "prefix_cid": "tl:Q1133513_P54:2010:Q826751"
+    },
+    {
+      "key": [
+        "q11336634",
+        "p286"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11336634_P286:2019:Q3993575",
+      "prefix_cid": "tl:Q11336634_P286:2019:Q3993575"
+    },
+    {
+      "key": [
+        "q1135774",
+        "p39"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "tl:Q10543612_P39:2010:Q140686",
+      "prefix_cid": "tl:Q10543612_P39:2010:Q140686"
+    },
+    {
+      "key": [
+        "q1137993",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1137993_P286:2018:Q6991448",
+      "prefix_cid": "tl:Q1137993_P286:2018:Q6991448"
+    },
+    {
+      "key": [
+        "q1138191",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1138191_P286:2018:Q8062153",
+      "prefix_cid": "tl:Q1138191_P286:2018:Q8062153"
+    },
+    {
+      "key": [
+        "q113841",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q113841_P54:2010:Q279043",
+      "prefix_cid": "tl:Q113841_P54:2010:Q279043"
+    },
+    {
+      "key": [
+        "q113841",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q113841_P54:2011:Q210170",
+      "prefix_cid": "tl:Q113841_P54:2011:Q210170"
+    },
+    {
+      "key": [
+        "q1138982",
+        "p488"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1138982_P488:2010:Q438819",
+      "prefix_cid": "tl:Q1138982_P488:2010:Q438819"
+    },
+    {
+      "key": [
+        "q113916",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q113916_P54:2010:Q18711",
+      "prefix_cid": "tl:Q113916_P54:2010:Q18711"
+    },
+    {
+      "key": [
+        "q113916",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q113916_P54:2011:Q18716",
+      "prefix_cid": "tl:Q113916_P54:2011:Q18716"
+    },
+    {
+      "key": [
+        "q113916",
+        "p54"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q113916_P54:2012:Q18711",
+      "prefix_cid": "tl:Q113916_P54:2012:Q18711"
+    },
+    {
+      "key": [
+        "q1139429",
+        "p127"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1139429_P127:2010:Q1411661",
+      "prefix_cid": "tl:Q1139429_P127:2010:Q1411661"
+    },
+    {
+      "key": [
+        "q1140538",
+        "p286"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1140538_P286:2011:Q4025462",
+      "prefix_cid": "tl:Q1140538_P286:2011:Q4025462"
+    },
+    {
+      "key": [
+        "q1142687",
+        "p488"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1142687_P488:2010:Q696669",
+      "prefix_cid": "tl:Q1142687_P488:2010:Q696669"
+    },
+    {
+      "key": [
+        "q1142687",
+        "p488"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1142687_P488:2011:Q1373840",
+      "prefix_cid": "tl:Q1142687_P488:2011:Q1373840"
+    },
+    {
+      "key": [
+        "q11443689",
+        "p108"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11443689_P108:2010:Q847117",
+      "prefix_cid": "tl:Q11443689_P108:2010:Q847117"
+    },
+    {
+      "key": [
+        "q11445",
+        "p6"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11445_P6:2013:Q17410766",
+      "prefix_cid": "tl:Q11445_P6:2013:Q17410766"
+    },
+    {
+      "key": [
+        "q114859",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q114859_P54:2010:Q47774",
+      "prefix_cid": "tl:Q114859_P54:2010:Q47774"
+    },
+    {
+      "key": [
+        "q114859",
+        "p54"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q114859_P54:2015:Q9616",
+      "prefix_cid": "tl:Q114859_P54:2015:Q9616"
+    },
+    {
+      "key": [
+        "q114859",
+        "p54"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q114859_P54:2018:Q8806",
+      "prefix_cid": "tl:Q114859_P54:2018:Q8806"
+    },
+    {
+      "key": [
+        "q114859",
+        "p54"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q114859_P54:2019:Q19516",
+      "prefix_cid": "tl:Q114859_P54:2019:Q19516"
+    },
+    {
+      "key": [
+        "q1148669",
+        "p39"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1148669_P39:2014:Q2363110",
+      "prefix_cid": "tl:Q1148669_P39:2014:Q2363110"
+    },
+    {
+      "key": [
+        "q1150936",
+        "p127"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1150936_P127:2010:Q486633",
+      "prefix_cid": "tl:Q1150936_P127:2010:Q486633"
+    },
+    {
+      "key": [
+        "q1151872",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1151872_P54:2010:Q213959",
+      "prefix_cid": "tl:Q1151872_P54:2010:Q213959"
+    },
+    {
+      "key": [
+        "q1151872",
+        "p54"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1151872_P54:2013:Q334634",
+      "prefix_cid": "tl:Q1151872_P54:2013:Q334634"
+    },
+    {
+      "key": [
+        "q1151909",
+        "p286"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1151909_P286:2015:Q3759228",
+      "prefix_cid": "tl:Q1151909_P286:2015:Q3759228"
+    },
+    {
+      "key": [
+        "q1152752",
+        "p488"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1152752_P488:2010:Q57530",
+      "prefix_cid": "tl:Q1152752_P488:2010:Q57530"
+    },
+    {
+      "key": [
+        "q11540606",
+        "p108"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11540606_P108:2010:Q720503",
+      "prefix_cid": "tl:Q11540606_P108:2010:Q720503"
+    },
+    {
+      "key": [
+        "q115453",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q115453_P54:2010:Q2331381",
+      "prefix_cid": "tl:Q115453_P54:2010:Q2331381"
+    },
+    {
+      "key": [
+        "q115453",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q115453_P54:2011:Q10329",
+      "prefix_cid": "tl:Q115453_P54:2011:Q10329"
+    },
+    {
+      "key": [
+        "q1155636",
+        "p108"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1155636_P108:2010:Q743717",
+      "prefix_cid": "tl:Q1155636_P108:2010:Q743717"
+    },
+    {
+      "key": [
+        "q115678",
+        "p286"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q115678_P286:2015:Q433883",
+      "prefix_cid": "tl:Q115678_P286:2015:Q433883"
+    },
+    {
+      "key": [
+        "q11571",
+        "p54"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11571_P54:2010:Q8682",
+      "prefix_cid": "tl:Q11571_P54:2010:Q8682"
+    },
+    {
+      "key": [
+        "q11576",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11576_P54:2010:Q8682",
+      "prefix_cid": "tl:Q11576_P54:2010:Q8682"
+    },
+    {
+      "key": [
+        "q11576",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11576_P54:2011:Q32494",
+      "prefix_cid": "tl:Q11576_P54:2011:Q32494"
+    },
+    {
+      "key": [
+        "q11576",
+        "p54"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11576_P54:2012:Q283545",
+      "prefix_cid": "tl:Q11576_P54:2012:Q283545"
+    },
+    {
+      "key": [
+        "q1158",
+        "p488"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1158_P488:2010:Q1639",
+      "prefix_cid": "tl:Q1158_P488:2010:Q1639"
+    },
+    {
+      "key": [
+        "q11594",
+        "p108"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11594_P108:2010:Q531285",
+      "prefix_cid": "tl:Q11594_P108:2010:Q531285"
+    },
+    {
+      "key": [
+        "q11594",
+        "p108"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11594_P108:2011:Q1064071",
+      "prefix_cid": "tl:Q11594_P108:2011:Q1064071"
+    },
+    {
+      "key": [
+        "q115",
+        "p6"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q115_P6:2010:Q161184",
+      "prefix_cid": "tl:Q115_P6:2010:Q161184"
+    },
+    {
+      "key": [
+        "q115",
+        "p6"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q115_P6:2012:Q381071",
+      "prefix_cid": "tl:Q115_P6:2012:Q381071"
+    },
+    {
+      "key": [
+        "q1163431",
+        "p488"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1163431_P488:2012:Q3320815",
+      "prefix_cid": "tl:Q1163431_P488:2012:Q3320815"
+    },
+    {
+      "key": [
+        "q1163740",
+        "p108"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1163740_P108:2016:Q827768",
+      "prefix_cid": "tl:Q1163740_P108:2016:Q827768"
+    },
+    {
+      "key": [
+        "q11667656",
+        "p488"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11667656_P488:2010:Q312440",
+      "prefix_cid": "tl:Q11667656_P488:2010:Q312440"
+    },
+    {
+      "key": [
+        "q11668",
+        "p39"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11668_P39:2011:Q3773752",
+      "prefix_cid": "tl:Q11668_P39:2011:Q3773752"
+    },
+    {
+      "key": [
+        "q11669",
+        "p39"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "tl:Q10543612_P39:2010:Q140686",
+      "prefix_cid": "tl:Q10543612_P39:2010:Q140686"
+    },
+    {
+      "key": [
+        "q11689876",
+        "p39"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 0,
+      "full_cid": "tl:Q11689876_P39:2010:Q43165333",
+      "prefix_cid": "tl:Q1021708_P39:2010:Q5199072"
+    },
+    {
+      "key": [
+        "q116980",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q116980_P54:2010:Q676899",
+      "prefix_cid": "tl:Q116980_P54:2010:Q676899"
+    },
+    {
+      "key": [
+        "q116980",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q116980_P54:2011:Q1543",
+      "prefix_cid": "tl:Q116980_P54:2011:Q1543"
+    },
+    {
+      "key": [
+        "q11701393",
+        "p39"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11701393_P39:2010:Q6865784",
+      "prefix_cid": "tl:Q11701393_P39:2010:Q6865784"
+    },
+    {
+      "key": [
+        "q11702",
+        "p39"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11702_P39:2010:Q13218630",
+      "prefix_cid": "tl:Q11702_P39:2010:Q13218630"
+    },
+    {
+      "key": [
+        "q11703587",
+        "p102"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11703587_P102:2010:Q185088",
+      "prefix_cid": "tl:Q11703587_P102:2010:Q185088"
+    },
+    {
+      "key": [
+        "q11705283",
+        "p127"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11705283_P127:2010:Q2036076",
+      "prefix_cid": "tl:Q11705283_P127:2010:Q2036076"
+    },
+    {
+      "key": [
+        "q11705283",
+        "p127"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "tl:Q11705283_P127:2010:Q2036076",
+      "prefix_cid": "tl:Q11705283_P127:2010:Q2036076"
+    },
+    {
+      "key": [
+        "q11714338",
+        "p102"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11714338_P102:2010:Q837296",
+      "prefix_cid": "tl:Q11714338_P102:2010:Q837296"
+    },
+    {
+      "key": [
+        "q11714338",
+        "p102"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11714338_P102:2014:Q327591",
+      "prefix_cid": "tl:Q11714338_P102:2014:Q327591"
+    },
+    {
+      "key": [
+        "q11739162",
+        "p488"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11739162_P488:2010:Q4372354",
+      "prefix_cid": "tl:Q11739162_P488:2010:Q4372354"
+    },
+    {
+      "key": [
+        "q11739162",
+        "p488"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11739162_P488:2014:Q4275699",
+      "prefix_cid": "tl:Q11739162_P488:2014:Q4275699"
+    },
+    {
+      "key": [
+        "q11739443",
+        "p108"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11739443_P108:2012:Q248710",
+      "prefix_cid": "tl:Q11739443_P108:2012:Q248710"
+    },
+    {
+      "key": [
+        "q117436",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q117436_P54:2010:Q47774",
+      "prefix_cid": "tl:Q117436_P54:2010:Q47774"
+    },
+    {
+      "key": [
+        "q117436",
+        "p54"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q117436_P54:2014:Q704",
+      "prefix_cid": "tl:Q117436_P54:2014:Q704"
+    },
+    {
+      "key": [
+        "q117436",
+        "p54"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q117436_P54:2015:Q19509",
+      "prefix_cid": "tl:Q117436_P54:2015:Q19509"
+    },
+    {
+      "key": [
+        "q11743",
+        "p108"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11743_P108:2010:Q1144262",
+      "prefix_cid": "tl:Q11743_P108:2010:Q1144262"
+    },
+    {
+      "key": [
+        "q11767660",
+        "p108"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11767660_P108:2013:Q4294646",
+      "prefix_cid": "tl:Q11767660_P108:2013:Q4294646"
+    },
+    {
+      "key": [
+        "q11768297",
+        "p108"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11768297_P108:2010:Q2164678",
+      "prefix_cid": "tl:Q11768297_P108:2010:Q2164678"
+    },
+    {
+      "key": [
+        "q11768297",
+        "p108"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11768297_P108:2013:Q9208102",
+      "prefix_cid": "tl:Q11768297_P108:2013:Q9208102"
+    },
+    {
+      "key": [
+        "q11768297",
+        "p108"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11768297_P108:2016:Q178909",
+      "prefix_cid": "tl:Q11768297_P108:2016:Q178909"
+    },
+    {
+      "key": [
+        "q117743",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q117743_P54:2010:Q912881",
+      "prefix_cid": "tl:Q117743_P54:2010:Q912881"
+    },
+    {
+      "key": [
+        "q117743",
+        "p54"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q117743_P54:2013:Q1518836",
+      "prefix_cid": "tl:Q117743_P54:2013:Q1518836"
+    },
+    {
+      "key": [
+        "q117743",
+        "p54"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q117743_P54:2015:Q1156897",
+      "prefix_cid": "tl:Q117743_P54:2015:Q1156897"
+    },
+    {
+      "key": [
+        "q117867",
+        "p69"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q117867_P69:2010:Q7309334",
+      "prefix_cid": "tl:Q117867_P69:2010:Q7309334"
+    },
+    {
+      "key": [
+        "q117892",
+        "p488"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q117892_P488:2010:Q377263",
+      "prefix_cid": "tl:Q117892_P488:2010:Q377263"
+    },
+    {
+      "key": [
+        "q1183",
+        "p6"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1183_P6:2012:Q2832449",
+      "prefix_cid": "tl:Q1183_P6:2012:Q2832449"
+    },
+    {
+      "key": [
+        "q1183",
+        "p6"
+      ],
+      "cutoff": 2018.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1183_P6:2017:Q7332181",
+      "prefix_cid": "tl:Q1183_P6:2017:Q7332181"
+    },
+    {
+      "key": [
+        "q1185115",
+        "p6"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1185115_P6:2010:Q379122",
+      "prefix_cid": "tl:Q1185115_P6:2010:Q379122"
+    },
+    {
+      "key": [
+        "q1185115",
+        "p6"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1185115_P6:2011:Q445654",
+      "prefix_cid": "tl:Q1185115_P6:2011:Q445654"
+    },
+    {
+      "key": [
+        "q11860",
+        "p102"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11860_P102:2010:Q47720",
+      "prefix_cid": "tl:Q11860_P102:2010:Q47720"
+    },
+    {
+      "key": [
+        "q11860",
+        "p39"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 0,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11860_P102:2014:Q14924303",
+      "prefix_cid": "tl:Q11860_P39:2010:Q796897"
+    },
+    {
+      "key": [
+        "q1186190",
+        "p488"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1186190_P488:2013:Q6123122",
+      "prefix_cid": "tl:Q1186190_P488:2013:Q6123122"
+    },
+    {
+      "key": [
+        "q1186234",
+        "p488"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "tl:Q1029792_P488:2010:Q2977816",
+      "prefix_cid": "tl:Q1029792_P488:2010:Q2977816"
+    },
+    {
+      "key": [
+        "q1186316",
+        "p488"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1186316_P488:2010:Q57634",
+      "prefix_cid": "tl:Q1186316_P488:2010:Q57634"
+    },
+    {
+      "key": [
+        "q11869065",
+        "p108"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11869065_P108:2010:Q3741208",
+      "prefix_cid": "tl:Q11869065_P108:2010:Q3741208"
+    },
+    {
+      "key": [
+        "q11898613",
+        "p108"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11898613_P108:2010:Q578326",
+      "prefix_cid": "tl:Q11898613_P108:2010:Q578326"
+    },
+    {
+      "key": [
+        "q11922769",
+        "p102"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11922769_P102:2010:Q1129443",
+      "prefix_cid": "tl:Q11922769_P102:2010:Q1129443"
+    },
+    {
+      "key": [
+        "q11928385",
+        "p102"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11928385_P102:2010:Q1129443",
+      "prefix_cid": "tl:Q11928385_P102:2010:Q1129443"
+    },
+    {
+      "key": [
+        "q11936570",
+        "p102"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11936570_P102:2010:Q1129443",
+      "prefix_cid": "tl:Q11936570_P102:2010:Q1129443"
+    },
+    {
+      "key": [
+        "q11938",
+        "p286"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11938_P286:2013:Q11958",
+      "prefix_cid": "tl:Q11938_P286:2013:Q11958"
+    },
+    {
+      "key": [
+        "q11938",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11938_P286:2018:Q151853",
+      "prefix_cid": "tl:Q11938_P286:2018:Q151853"
+    },
+    {
+      "key": [
+        "q11945",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11945_P286:2018:Q366816",
+      "prefix_cid": "tl:Q11945_P286:2018:Q366816"
+    },
+    {
+      "key": [
+        "q1194",
+        "p6"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1194_P6:2010:Q62196",
+      "prefix_cid": "tl:Q1194_P6:2010:Q62196"
+    },
+    {
+      "key": [
+        "q1194",
+        "p6"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1194_P6:2012:Q69036",
+      "prefix_cid": "tl:Q1194_P6:2012:Q69036"
+    },
+    {
+      "key": [
+        "q119562",
+        "p54"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q119562_P54:2010:Q8701",
+      "prefix_cid": "tl:Q119562_P54:2010:Q8701"
+    },
+    {
+      "key": [
+        "q11958392",
+        "p488"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11958392_P488:2010:Q11978428",
+      "prefix_cid": "tl:Q11958392_P488:2010:Q11978428"
+    },
+    {
+      "key": [
+        "q11959",
+        "p6"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11959_P6:2010:Q3113861",
+      "prefix_cid": "tl:Q11959_P6:2010:Q3113861"
+    },
+    {
+      "key": [
+        "q1196",
+        "p6"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1196_P6:2010:Q69301",
+      "prefix_cid": "tl:Q1196_P6:2010:Q69301"
+    },
+    {
+      "key": [
+        "q11971",
+        "p286"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11971_P286:2013:Q3320968",
+      "prefix_cid": "tl:Q11971_P286:2013:Q3320968"
+    },
+    {
+      "key": [
+        "q11971",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11971_P286:2018:Q3823451",
+      "prefix_cid": "tl:Q11971_P286:2018:Q3823451"
+    },
+    {
+      "key": [
+        "q11979",
+        "p286"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11979_P286:2014:Q3235400",
+      "prefix_cid": "tl:Q11979_P286:2014:Q3235400"
+    },
+    {
+      "key": [
+        "q11979",
+        "p286"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11979_P286:2016:Q723458",
+      "prefix_cid": "tl:Q11979_P286:2016:Q723458"
+    },
+    {
+      "key": [
+        "q11979",
+        "p286"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11979_P286:2017:Q2311040",
+      "prefix_cid": "tl:Q11979_P286:2017:Q2311040"
+    },
+    {
+      "key": [
+        "q11979",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11979_P286:2018:Q3235400",
+      "prefix_cid": "tl:Q11979_P286:2018:Q3235400"
+    },
+    {
+      "key": [
+        "q11989087",
+        "p102"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q11989087_P102:2010:Q916161",
+      "prefix_cid": "tl:Q11989087_P102:2010:Q916161"
+    },
+    {
+      "key": [
+        "q1198",
+        "p6"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1198_P6:2010:Q60975",
+      "prefix_cid": "tl:Q1198_P6:2010:Q60975"
+    },
+    {
+      "key": [
+        "q1198",
+        "p6"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1198_P6:2011:Q61938",
+      "prefix_cid": "tl:Q1198_P6:2011:Q61938"
+    },
+    {
+      "key": [
+        "q1199255",
+        "p286"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1199255_P286:2010:Q1750005",
+      "prefix_cid": "tl:Q1199255_P286:2010:Q1750005"
+    },
+    {
+      "key": [
+        "q12001809",
+        "p39"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12001809_P39:2014:Q783943",
+      "prefix_cid": "tl:Q12001809_P39:2014:Q783943"
+    },
+    {
+      "key": [
+        "q1200258",
+        "p488"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1200258_P488:2010:Q7151652",
+      "prefix_cid": "tl:Q1200258_P488:2010:Q7151652"
+    },
+    {
+      "key": [
+        "q120064",
+        "p286"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q120064_P286:2016:Q6885594",
+      "prefix_cid": "tl:Q120064_P286:2016:Q6885594"
+    },
+    {
+      "key": [
+        "q1200",
+        "p6"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1200_P6:2010:Q65109",
+      "prefix_cid": "tl:Q1200_P6:2010:Q65109"
+    },
+    {
+      "key": [
+        "q12014326",
+        "p108"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12014326_P108:2010:Q655286",
+      "prefix_cid": "tl:Q12014326_P108:2010:Q655286"
+    },
+    {
+      "key": [
+        "q12014326",
+        "p108"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12014326_P108:2012:Q483551",
+      "prefix_cid": "tl:Q12014326_P108:2012:Q483551"
+    },
+    {
+      "key": [
+        "q12023896",
+        "p39"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12023896_P39:2010:Q30185",
+      "prefix_cid": "tl:Q12023896_P39:2010:Q30185"
+    },
+    {
+      "key": [
+        "q1202",
+        "p6"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1202_P6:2010:Q77391",
+      "prefix_cid": "tl:Q1202_P6:2010:Q77391"
+    },
+    {
+      "key": [
+        "q12048555",
+        "p102"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12048555_P102:2010:Q828099",
+      "prefix_cid": "tl:Q12048555_P102:2010:Q828099"
+    },
+    {
+      "key": [
+        "q1204",
+        "p6"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1204_P6:2015:Q15972549",
+      "prefix_cid": "tl:Q1204_P6:2015:Q15972549"
+    },
+    {
+      "key": [
+        "q1205",
+        "p6"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1205_P6:2010:Q77387",
+      "prefix_cid": "tl:Q1205_P6:2010:Q77387"
+    },
+    {
+      "key": [
+        "q1206",
+        "p6"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1206_P6:2010:Q64299",
+      "prefix_cid": "tl:Q1206_P6:2010:Q64299"
+    },
+    {
+      "key": [
+        "q1207",
+        "p6"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1207_P6:2010:Q374762",
+      "prefix_cid": "tl:Q1207_P6:2010:Q374762"
+    },
+    {
+      "key": [
+        "q1207",
+        "p6"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1207_P6:2011:Q770393",
+      "prefix_cid": "tl:Q1207_P6:2011:Q770393"
+    },
+    {
+      "key": [
+        "q1208454",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1208454_P54:2010:Q744530",
+      "prefix_cid": "tl:Q1208454_P54:2010:Q744530"
+    },
+    {
+      "key": [
+        "q1208454",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1208454_P54:2011:Q848103",
+      "prefix_cid": "tl:Q1208454_P54:2011:Q848103"
+    },
+    {
+      "key": [
+        "q1208454",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1208454_P54:2012:Q743309",
+      "prefix_cid": "tl:Q1208454_P54:2012:Q743309"
+    },
+    {
+      "key": [
+        "q1209",
+        "p6"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1209_P6:2010:Q61604",
+      "prefix_cid": "tl:Q1209_P6:2010:Q61604"
+    },
+    {
+      "key": [
+        "q1210",
+        "p6"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1210_P6:2010:Q664465",
+      "prefix_cid": "tl:Q1210_P6:2010:Q664465"
+    },
+    {
+      "key": [
+        "q1210",
+        "p6"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1210_P6:2013:Q562097",
+      "prefix_cid": "tl:Q1210_P6:2013:Q562097"
+    },
+    {
+      "key": [
+        "q121403",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q121403_P54:2010:Q268208",
+      "prefix_cid": "tl:Q121403_P54:2010:Q268208"
+    },
+    {
+      "key": [
+        "q121403",
+        "p54"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q121403_P54:2015:Q134241",
+      "prefix_cid": "tl:Q121403_P54:2015:Q134241"
+    },
+    {
+      "key": [
+        "q12149",
+        "p39"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12149_P39:2010:Q852152",
+      "prefix_cid": "tl:Q12149_P39:2010:Q852152"
+    },
+    {
+      "key": [
+        "q1218",
+        "p6"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1218_P6:2010:Q468394",
+      "prefix_cid": "tl:Q1218_P6:2010:Q468394"
+    },
+    {
+      "key": [
+        "q12191",
+        "p6"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12191_P6:2012:Q3369813",
+      "prefix_cid": "tl:Q12191_P6:2012:Q3369813"
+    },
+    {
+      "key": [
+        "q1220",
+        "p39"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1220_P39:2010:Q332711",
+      "prefix_cid": "tl:Q1220_P39:2010:Q332711"
+    },
+    {
+      "key": [
+        "q12236",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12236_P286:2018:Q3779635",
+      "prefix_cid": "tl:Q12236_P286:2018:Q3779635"
+    },
+    {
+      "key": [
+        "q122465",
+        "p39"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q122465_P39:2012:Q1078482",
+      "prefix_cid": "tl:Q122465_P39:2012:Q1078482"
+    },
+    {
+      "key": [
+        "q12269600",
+        "p39"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12269600_P39:2013:Q16156581",
+      "prefix_cid": "tl:Q12269600_P39:2013:Q16156581"
+    },
+    {
+      "key": [
+        "q1227076",
+        "p39"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1227076_P39:2010:Q1501800",
+      "prefix_cid": "tl:Q1227076_P39:2010:Q1501800"
+    },
+    {
+      "key": [
+        "q12278",
+        "p286"
+      ],
+      "cutoff": 2018.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12278_P286:2017:Q299488",
+      "prefix_cid": "tl:Q12278_P286:2017:Q299488"
+    },
+    {
+      "key": [
+        "q1228264",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1228264_P286:2018:Q8068677",
+      "prefix_cid": "tl:Q1228264_P286:2018:Q8068677"
+    },
+    {
+      "key": [
+        "q12297",
+        "p286"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12297_P286:2010:Q359118",
+      "prefix_cid": "tl:Q12297_P286:2010:Q359118"
+    },
+    {
+      "key": [
+        "q12297",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12297_P286:2017:Q1332523",
+      "prefix_cid": "tl:Q12297_P286:2017:Q1332523"
+    },
+    {
+      "key": [
+        "q12326451",
+        "p102"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12326451_P102:2010:Q615603",
+      "prefix_cid": "tl:Q12326451_P102:2010:Q615603"
+    },
+    {
+      "key": [
+        "q123517",
+        "p102"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q123517_P102:2010:Q49766",
+      "prefix_cid": "tl:Q123517_P102:2010:Q49766"
+    },
+    {
+      "key": [
+        "q1236571",
+        "p39"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1236571_P39:2010:Q6865833",
+      "prefix_cid": "tl:Q1236571_P39:2010:Q6865833"
+    },
+    {
+      "key": [
+        "q123665",
+        "p39"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q123665_P39:2010:Q1209571",
+      "prefix_cid": "tl:Q123665_P39:2010:Q1209571"
+    },
+    {
+      "key": [
+        "q12377820",
+        "p108"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12377820_P108:2010:Q387634",
+      "prefix_cid": "tl:Q12377820_P108:2010:Q387634"
+    },
+    {
+      "key": [
+        "q1238152",
+        "p102"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1238152_P102:2010:Q170972",
+      "prefix_cid": "tl:Q1238152_P102:2010:Q170972"
+    },
+    {
+      "key": [
+        "q1238709",
+        "p108"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1238709_P108:2010:Q390287",
+      "prefix_cid": "tl:Q1238709_P108:2010:Q390287"
+    },
+    {
+      "key": [
+        "q1240224",
+        "p39"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 0,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q10543612_P39:2010:Q140686",
+      "prefix_cid": "tl:Q1240224_P39:2010:Q4931391"
+    },
+    {
+      "key": [
+        "q124086",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q124086_P54:2010:Q631",
+      "prefix_cid": "tl:Q124086_P54:2010:Q631"
+    },
+    {
+      "key": [
+        "q124086",
+        "p54"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q124086_P54:2014:Q495299",
+      "prefix_cid": "tl:Q124086_P54:2014:Q495299"
+    },
+    {
+      "key": [
+        "q124086",
+        "p54"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q124086_P54:2017:Q185163",
+      "prefix_cid": "tl:Q124086_P54:2017:Q185163"
+    },
+    {
+      "key": [
+        "q1246",
+        "p6"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1246_P6:2014:Q177851",
+      "prefix_cid": "tl:Q1246_P6:2014:Q177851"
+    },
+    {
+      "key": [
+        "q1246",
+        "p6"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1246_P6:2018:Q316553",
+      "prefix_cid": "tl:Q1246_P6:2018:Q316553"
+    },
+    {
+      "key": [
+        "q124784",
+        "p108"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q124784_P108:2010:Q372608",
+      "prefix_cid": "tl:Q124784_P108:2010:Q372608"
+    },
+    {
+      "key": [
+        "q12524647",
+        "p108"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12524647_P108:2010:Q5115984",
+      "prefix_cid": "tl:Q12524647_P108:2010:Q5115984"
+    },
+    {
+      "key": [
+        "q1255625",
+        "p54"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1255625_P54:2010:Q631",
+      "prefix_cid": "tl:Q1255625_P54:2010:Q631"
+    },
+    {
+      "key": [
+        "q1255625",
+        "p54"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1255625_P54:2012:Q19353",
+      "prefix_cid": "tl:Q1255625_P54:2012:Q19353"
+    },
+    {
+      "key": [
+        "q1255625",
+        "p54"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1255625_P54:2014:Q5794",
+      "prefix_cid": "tl:Q1255625_P54:2014:Q5794"
+    },
+    {
+      "key": [
+        "q1255625",
+        "p54"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1255625_P54:2016:Q43710",
+      "prefix_cid": "tl:Q1255625_P54:2016:Q43710"
+    },
+    {
+      "key": [
+        "q1255625",
+        "p54"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1255625_P54:2018:Q513840",
+      "prefix_cid": "tl:Q1255625_P54:2018:Q513840"
+    },
+    {
+      "key": [
+        "q12565",
+        "p488"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12565_P488:2010:Q12817",
+      "prefix_cid": "tl:Q12565_P488:2010:Q12817"
+    },
+    {
+      "key": [
+        "q12589",
+        "p6"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12589_P6:2010:Q3165731",
+      "prefix_cid": "tl:Q12589_P6:2010:Q3165731"
+    },
+    {
+      "key": [
+        "q12611134",
+        "p39"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12611134_P39:2014:Q12615101",
+      "prefix_cid": "tl:Q12611134_P39:2014:Q12615101"
+    },
+    {
+      "key": [
+        "q1261965",
+        "p102"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1261965_P102:2010:Q830323",
+      "prefix_cid": "tl:Q1261965_P102:2010:Q830323"
+    },
+    {
+      "key": [
+        "q12625372",
+        "p102"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12625372_P102:2010:Q20916",
+      "prefix_cid": "tl:Q12625372_P102:2010:Q20916"
+    },
+    {
+      "key": [
+        "q12625765",
+        "p102"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12625765_P102:2010:Q327591",
+      "prefix_cid": "tl:Q12625765_P102:2010:Q327591"
+    },
+    {
+      "key": [
+        "q1262822",
+        "p286"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1262822_P286:2014:Q6526751",
+      "prefix_cid": "tl:Q1262822_P286:2014:Q6526751"
+    },
+    {
+      "key": [
+        "q1262822",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1262822_P286:2018:Q5175085",
+      "prefix_cid": "tl:Q1262822_P286:2018:Q5175085"
+    },
+    {
+      "key": [
+        "q12630865",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12630865_P286:2018:Q15262168",
+      "prefix_cid": "tl:Q12630865_P286:2018:Q15262168"
+    },
+    {
+      "key": [
+        "q126638",
+        "p488"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q126638_P488:2010:Q9126015",
+      "prefix_cid": "tl:Q126638_P488:2010:Q9126015"
+    },
+    {
+      "key": [
+        "q1266729",
+        "p286"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1266729_P286:2014:Q4538739",
+      "prefix_cid": "tl:Q1266729_P286:2014:Q4538739"
+    },
+    {
+      "key": [
+        "q12717119",
+        "p127"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12717119_P127:2010:Q7050520",
+      "prefix_cid": "tl:Q12717119_P127:2010:Q7050520"
+    },
+    {
+      "key": [
+        "q12720018",
+        "p102"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12720018_P102:2012:Q852402",
+      "prefix_cid": "tl:Q12720018_P102:2012:Q852402"
+    },
+    {
+      "key": [
+        "q12720018",
+        "p102"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12720018_P102:2013:Q15732550",
+      "prefix_cid": "tl:Q12720018_P102:2013:Q15732550"
+    },
+    {
+      "key": [
+        "q12725946",
+        "p102"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12725946_P102:2010:Q783621",
+      "prefix_cid": "tl:Q12725946_P102:2010:Q783621"
+    },
+    {
+      "key": [
+        "q12752142",
+        "p102"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12752142_P102:2010:Q3445459",
+      "prefix_cid": "tl:Q12752142_P102:2010:Q3445459"
+    },
+    {
+      "key": [
+        "q12752142",
+        "p102"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12752142_P102:2011:Q16117007",
+      "prefix_cid": "tl:Q12752142_P102:2011:Q16117007"
+    },
+    {
+      "key": [
+        "q1279",
+        "p6"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1279_P6:2010:Q1239122",
+      "prefix_cid": "tl:Q1279_P6:2010:Q1239122"
+    },
+    {
+      "key": [
+        "q1279",
+        "p6"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1279_P6:2015:Q3838079",
+      "prefix_cid": "tl:Q1279_P6:2015:Q3838079"
+    },
+    {
+      "key": [
+        "q1280872",
+        "p39"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1280872_P39:2014:Q140686",
+      "prefix_cid": "tl:Q1280872_P39:2014:Q140686"
+    },
+    {
+      "key": [
+        "q128114",
+        "p6"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q128114_P6:2010:Q7181654",
+      "prefix_cid": "tl:Q128114_P6:2010:Q7181654"
+    },
+    {
+      "key": [
+        "q128186",
+        "p6"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q128186_P6:2010:Q638431",
+      "prefix_cid": "tl:Q128186_P6:2010:Q638431"
+    },
+    {
+      "key": [
+        "q1282411",
+        "p39"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "tl:Q10543612_P39:2010:Q140686",
+      "prefix_cid": "tl:Q10543612_P39:2010:Q140686"
+    },
+    {
+      "key": [
+        "q128446",
+        "p286"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q128446_P286:2013:Q10346582",
+      "prefix_cid": "tl:Q128446_P286:2013:Q10346582"
+    },
+    {
+      "key": [
+        "q1287413",
+        "p39"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1287413_P39:2010:Q6866308",
+      "prefix_cid": "tl:Q1287413_P39:2010:Q6866308"
+    },
+    {
+      "key": [
+        "q12875947",
+        "p102"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12875947_P102:2010:Q927007",
+      "prefix_cid": "tl:Q12875947_P102:2010:Q927007"
+    },
+    {
+      "key": [
+        "q12877513",
+        "p102"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12877513_P102:2012:Q222897",
+      "prefix_cid": "tl:Q12877513_P102:2012:Q222897"
+    },
+    {
+      "key": [
+        "q12877513",
+        "p102"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12877513_P102:2015:Q20855700",
+      "prefix_cid": "tl:Q12877513_P102:2015:Q20855700"
+    },
+    {
+      "key": [
+        "q128889",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q128889_P54:2010:Q1277549",
+      "prefix_cid": "tl:Q128889_P54:2010:Q1277549"
+    },
+    {
+      "key": [
+        "q128889",
+        "p54"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q128889_P54:2011:Q212269",
+      "prefix_cid": "tl:Q128889_P54:2011:Q212269"
+    },
+    {
+      "key": [
+        "q128889",
+        "p54"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q128889_P54:2014:Q19628",
+      "prefix_cid": "tl:Q128889_P54:2014:Q19628"
+    },
+    {
+      "key": [
+        "q128889",
+        "p54"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q128889_P54:2015:Q18750",
+      "prefix_cid": "tl:Q128889_P54:2015:Q18750"
+    },
+    {
+      "key": [
+        "q128897",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q128897_P286:2018:Q16508994",
+      "prefix_cid": "tl:Q128897_P286:2018:Q16508994"
+    },
+    {
+      "key": [
+        "q1289901",
+        "p108"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1289901_P108:2010:Q334122",
+      "prefix_cid": "tl:Q1289901_P108:2010:Q334122"
+    },
+    {
+      "key": [
+        "q1290431",
+        "p39"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1290431_P39:2010:Q786242",
+      "prefix_cid": "tl:Q1290431_P39:2010:Q786242"
+    },
+    {
+      "key": [
+        "q12927",
+        "p39"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q12927_P39:2010:Q27169",
+      "prefix_cid": "tl:Q12927_P39:2010:Q27169"
+    },
+    {
+      "key": [
+        "q1297",
+        "p6"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1297_P6:2010:Q539814",
+      "prefix_cid": "tl:Q1297_P6:2010:Q539814"
+    },
+    {
+      "key": [
+        "q1297",
+        "p6"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1297_P6:2012:Q298443",
+      "prefix_cid": "tl:Q1297_P6:2012:Q298443"
+    },
+    {
+      "key": [
+        "q130212",
+        "p6"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q130212_P6:2010:Q662892",
+      "prefix_cid": "tl:Q130212_P6:2010:Q662892"
+    },
+    {
+      "key": [
+        "q13056788",
+        "p69"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q13056788_P69:2010:Q1564297",
+      "prefix_cid": "tl:Q13056788_P69:2010:Q1564297"
+    },
+    {
+      "key": [
+        "q130765",
+        "p488"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q130765_P488:2012:Q1892814",
+      "prefix_cid": "tl:Q130765_P488:2012:Q1892814"
+    },
+    {
+      "key": [
+        "q130840",
+        "p6"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q130840_P6:2010:Q540922",
+      "prefix_cid": "tl:Q130840_P6:2010:Q540922"
+    },
+    {
+      "key": [
+        "q130840",
+        "p6"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q130840_P6:2014:Q22279094",
+      "prefix_cid": "tl:Q130840_P6:2014:Q22279094"
+    },
+    {
+      "key": [
+        "q130929",
+        "p108"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q130929_P108:2010:Q2383044",
+      "prefix_cid": "tl:Q130929_P108:2010:Q2383044"
+    },
+    {
+      "key": [
+        "q1310",
+        "p6"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1310_P6:2016:Q1949253",
+      "prefix_cid": "tl:Q1310_P6:2016:Q1949253"
+    },
+    {
+      "key": [
+        "q131112",
+        "p108"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131112_P108:2010:Q21578",
+      "prefix_cid": "tl:Q131112_P108:2010:Q21578"
+    },
+    {
+      "key": [
+        "q131209",
+        "p286"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131209_P286:2015:Q558041",
+      "prefix_cid": "tl:Q131209_P286:2015:Q558041"
+    },
+    {
+      "key": [
+        "q131209",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131209_P286:2018:Q22692810",
+      "prefix_cid": "tl:Q131209_P286:2018:Q22692810"
+    },
+    {
+      "key": [
+        "q131215",
+        "p286"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131215_P286:2013:Q220490",
+      "prefix_cid": "tl:Q131215_P286:2013:Q220490"
+    },
+    {
+      "key": [
+        "q131215",
+        "p286"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131215_P286:2016:Q16765990",
+      "prefix_cid": "tl:Q131215_P286:2016:Q16765990"
+    },
+    {
+      "key": [
+        "q131234",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131234_P54:2010:Q104761",
+      "prefix_cid": "tl:Q131234_P54:2010:Q104761"
+    },
+    {
+      "key": [
+        "q13124",
+        "p488"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q13124_P488:2010:Q58284",
+      "prefix_cid": "tl:Q13124_P488:2010:Q58284"
+    },
+    {
+      "key": [
+        "q13124",
+        "p488"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q13124_P488:2011:Q57789",
+      "prefix_cid": "tl:Q13124_P488:2011:Q57789"
+    },
+    {
+      "key": [
+        "q131378",
+        "p286"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131378_P286:2018:Q3894541",
+      "prefix_cid": "tl:Q131378_P286:2018:Q3894541"
+    },
+    {
+      "key": [
+        "q131499",
+        "p286"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131499_P286:2010:Q527550",
+      "prefix_cid": "tl:Q131499_P286:2010:Q527550"
+    },
+    {
+      "key": [
+        "q131499",
+        "p286"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131499_P286:2015:Q2364249",
+      "prefix_cid": "tl:Q131499_P286:2015:Q2364249"
+    },
+    {
+      "key": [
+        "q13157830",
+        "p102"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q13157830_P102:2015:Q20682633",
+      "prefix_cid": "tl:Q13157830_P102:2015:Q20682633"
+    },
+    {
+      "key": [
+        "q131785",
+        "p286"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131785_P286:2010:Q310103",
+      "prefix_cid": "tl:Q131785_P286:2010:Q310103"
+    },
+    {
+      "key": [
+        "q131942",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q131942_P54:2010:Q131371",
+      "prefix_cid": "tl:Q131942_P54:2010:Q131371"
+    },
+    {
+      "key": [
+        "q1320688",
+        "p54"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1320688_P54:2010:Q692417",
+      "prefix_cid": "tl:Q1320688_P54:2010:Q692417"
+    },
+    {
+      "key": [
+        "q132280",
+        "p102"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132280_P102:2010:Q23055252",
+      "prefix_cid": "tl:Q132280_P102:2010:Q23055252"
+    },
+    {
+      "key": [
+        "q132404",
+        "p6"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132404_P6:2010:Q3479423",
+      "prefix_cid": "tl:Q132404_P6:2010:Q3479423"
+    },
+    {
+      "key": [
+        "q132410",
+        "p6"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132410_P6:2010:Q1174142",
+      "prefix_cid": "tl:Q132410_P6:2010:Q1174142"
+    },
+    {
+      "key": [
+        "q132418",
+        "p6"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132418_P6:2010:Q540878",
+      "prefix_cid": "tl:Q132418_P6:2010:Q540878"
+    },
+    {
+      "key": [
+        "q132418",
+        "p6"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132418_P6:2013:Q13393272",
+      "prefix_cid": "tl:Q132418_P6:2013:Q13393272"
+    },
+    {
+      "key": [
+        "q1324589",
+        "p39"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1324589_P39:2014:Q50586662",
+      "prefix_cid": "tl:Q1324589_P39:2014:Q50586662"
+    },
+    {
+      "key": [
+        "q1325724",
+        "p108"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1325724_P108:2010:Q189022",
+      "prefix_cid": "tl:Q1325724_P108:2010:Q189022"
+    },
+    {
+      "key": [
+        "q132671",
+        "p6"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132671_P6:2010:Q3295803",
+      "prefix_cid": "tl:Q132671_P6:2010:Q3295803"
+    },
+    {
+      "key": [
+        "q132738",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132738_P54:2010:Q478309",
+      "prefix_cid": "tl:Q132738_P54:2010:Q478309"
+    },
+    {
+      "key": [
+        "q132738",
+        "p54"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132738_P54:2011:Q62424",
+      "prefix_cid": "tl:Q132738_P54:2011:Q62424"
+    },
+    {
+      "key": [
+        "q1328702",
+        "p54"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1328702_P54:2010:Q19604",
+      "prefix_cid": "tl:Q1328702_P54:2010:Q19604"
+    },
+    {
+      "key": [
+        "q1328702",
+        "p54"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1328702_P54:2012:Q1128631",
+      "prefix_cid": "tl:Q1328702_P54:2012:Q1128631"
+    },
+    {
+      "key": [
+        "q132885",
+        "p286"
+      ],
+      "cutoff": 2011.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132885_P286:2010:Q508711",
+      "prefix_cid": "tl:Q132885_P286:2010:Q508711"
+    },
+    {
+      "key": [
+        "q132885",
+        "p286"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132885_P286:2012:Q128932",
+      "prefix_cid": "tl:Q132885_P286:2012:Q128932"
+    },
+    {
+      "key": [
+        "q132885",
+        "p286"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132885_P286:2014:Q31575",
+      "prefix_cid": "tl:Q132885_P286:2014:Q31575"
+    },
+    {
+      "key": [
+        "q132885",
+        "p286"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132885_P286:2016:Q3082242",
+      "prefix_cid": "tl:Q132885_P286:2016:Q3082242"
+    },
+    {
+      "key": [
+        "q132885",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q132885_P286:2017:Q923131",
+      "prefix_cid": "tl:Q132885_P286:2017:Q923131"
+    },
+    {
+      "key": [
+        "q13306",
+        "p54"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q13306_P54:2010:Q1344163",
+      "prefix_cid": "tl:Q13306_P54:2010:Q1344163"
+    },
+    {
+      "key": [
+        "q13306",
+        "p54"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 0,
+      "prefix_hit": 0,
+      "full_cid": "tl:Q13306_P54:2010:Q1344163",
+      "prefix_cid": "tl:Q13306_P54:2010:Q1344163"
+    },
+    {
+      "key": [
+        "q133083",
+        "p6"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q133083_P6:2010:Q7048706",
+      "prefix_cid": "tl:Q133083_P6:2010:Q7048706"
+    },
+    {
+      "key": [
+        "q1334208",
+        "p39"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1334208_P39:2010:Q27169",
+      "prefix_cid": "tl:Q1334208_P39:2010:Q27169"
+    },
+    {
+      "key": [
+        "q1334445",
+        "p286"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "tl:Q1334445_P286:2018:Q20641334",
+      "prefix_cid": "tl:Q1334445_P286:2018:Q20641334"
+    }
+  ]
+}

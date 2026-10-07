@@ -1,0 +1,20 @@
+{
+  "official_templates": {
+    "queries": 2613,
+    "methods": 5,
+    "per_query_metric_comparisons": 52260,
+    "all_scores_match": true,
+    "all_answer_substrings_match": true,
+    "all_prediction_ids_present": true,
+    "prediction_sha256": "f5b6bb83b4721ad1468826c2962220911688ae404a4c4d73c7b8cc2dabceb512"
+  },
+  "human_questions": {
+    "queries": 830,
+    "methods": 5,
+    "per_query_metric_comparisons": 16600,
+    "all_scores_match": true,
+    "all_answer_substrings_match": true,
+    "all_prediction_ids_present": true,
+    "prediction_sha256": "35db7bee9706774fcd0dc07849e6eea271877c785536133ea86a6047c9abf7c3"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "n_questions": 2348,
+  "n_articles": 644,
+  "metrics": {
+    "earliest_completion": {
+      "all_annotated_spans_covered_at_5": 0.38245315161839866,
+      "all_annotated_strings_covered_at_5": 0.38245315161839866,
+      "annotated_span_recall_at_5": 0.3919647927314026,
+      "annotated_string_recall_at_5": 0.3919647927314026,
+      "annotated_support_removed": 0.0,
+      "parent_passage_hit_at_5": 0.41567291311754684,
+      "passages_used": 4.9471890971039185,
+      "tokens_used": 105.79897785349233,
+      "units_used": 5.0
+    },
+    "guaranteed_support": {
+      "all_annotated_spans_covered_at_5": 0.3820272572402044,
+      "all_annotated_strings_covered_at_5": 0.3820272572402044,
+      "annotated_span_recall_at_5": 0.39153889835320843,
+      "annotated_string_recall_at_5": 0.39153889835320843,
+      "annotated_support_removed": 0.00042589437819420784,
+      "parent_passage_hit_at_5": 0.41396933560477,
+      "passages_used": 4.949744463373084,
+      "tokens_used": 105.80664395229984,
+      "units_used": 5.0
+    },
+    "interval_outer_control": {
+      "all_annotated_spans_covered_at_5": 0.381175468483816,
+      "all_annotated_strings_covered_at_5": 0.381175468483816,
+      "annotated_span_recall_at_5": 0.39068710959682,
+      "annotated_string_recall_at_5": 0.39068710959682,
+      "annotated_support_removed": 0.0,
+      "parent_passage_hit_at_5": 0.4160988074957411,
+      "passages_used": 4.941226575809199,
+      "tokens_used": 105.54131175468484,
+      "units_used": 5.0
+    },
+    "latest_completion": {
+      "all_annotated_spans_covered_at_5": 0.3807495741056218,
+      "all_annotated_strings_covered_at_5": 0.3807495741056218,
+      "annotated_span_recall_at_5": 0.3902612152186258,
+      "annotated_string_recall_at_5": 0.3902612152186258,
+      "annotated_support_removed": 0.00042589437819420784,
+      "parent_passage_hit_at_5": 0.41439522998296424,
+      "passages_used": 4.943781942078364,
+      "tokens_used": 105.54897785349233,
+      "units_used": 5.0
+    },
+    "latest_mentioned_year_top20": {
+      "all_annotated_spans_covered_at_5": 0.5251277683134583,
+      "all_annotated_strings_covered_at_5": 0.5251277683134583,
+      "annotated_span_recall_at_5": 0.5351362862010222,
+      "annotated_string_recall_at_5": 0.5351362862010222,
+      "annotated_support_removed": 0.0,
+      "parent_passage_hit_at_5": 0.555366269165247,
+      "passages_used": 4.896081771720613,
+      "tokens_used": 199.53321976149914,
+      "units_used": 5.0
+    },
+    "midpoint_completion": {
+      "all_annotated_spans_covered_at_5": 0.381175468483816,
+      "all_annotated_strings_covered_at_5": 0.381175468483816,
+      "annotated_span_recall_at_5": 0.39068710959682,
+      "annotated_string_recall_at_5": 0.39068710959682,
+      "annotated_support_removed": 0.0,
+      "parent_passage_hit_at_5": 0.4148211243611584,
+      "passages_used": 4.942930153321976,
+      "tokens_used": 105.56303236797274,
+      "units_used": 5.0
+    },
+    "no_temporal_filter": {
+      "all_annotated_spans_covered_at_5": 0.3756388415672913,
+      "all_annotated_strings_covered_at_5": 0.3756388415672913,
+      "annotated_span_recall_at_5": 0.3849375354911982,
+      "annotated_string_recall_at_5": 0.3849375354911982,
+      "annotated_support_removed": 0.0,
+      "parent_passage_hit_at_5": 0.4109880749574106,
+      "passages_used": 4.9310051107325386,
+      "tokens_used": 104.40545144804089,
+      "units_used": 5.0
+    },
+    "possible_support": {
+      "all_annotated_spans_covered_at_5": 0.381175468483816,
+      "all_annotated_strings_covered_at_5": 0.381175468483816,
+      "annotated_span_recall_at_5": 0.39068710959682,
+      "annotated_string_recall_at_5": 0.39068710959682,
+      "annotated_support_removed": 0.0,
+      "parent_passage_hit_at_5": 0.4160988074957411,
+      "passages_used": 4.941226575809199,
+      "tokens_used": 105.54131175468484,
+      "units_used": 5.0
+    }
+  }
+}

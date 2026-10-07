@@ -1,0 +1,30 @@
+{
+  "tie_batches": [],
+  "recurring_keys": [
+    {
+      "key": [
+        "kazakhstan",
+        "capital city"
+      ],
+      "values": [
+        "almaty",
+        "astana",
+        "nur-sultan",
+        "astana"
+      ]
+    },
+    {
+      "key": [
+        "the united states",
+        "president"
+      ],
+      "values": [
+        "barack obama",
+        "donald trump",
+        "joe biden",
+        "donald trump"
+      ]
+    }
+  ],
+  "cross_key_pairs": []
+}

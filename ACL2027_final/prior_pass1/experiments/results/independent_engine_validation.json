@@ -1,0 +1,65 @@
+{
+  "all_passed": true,
+  "datasets": [
+    {
+      "dataset": "freshrag",
+      "n_claims": 304,
+      "endpoint_mismatches": [],
+      "passed": true
+    },
+    {
+      "dataset": "multihop_asof",
+      "n_claims": 277,
+      "endpoint_mismatches": [],
+      "passed": true
+    },
+    {
+      "dataset": "multihop_real",
+      "n_claims": 67,
+      "endpoint_mismatches": [],
+      "passed": true
+    },
+    {
+      "dataset": "realprose",
+      "n_claims": 132,
+      "endpoint_mismatches": [],
+      "passed": true
+    },
+    {
+      "dataset": "realwiki",
+      "n_claims": 26,
+      "endpoint_mismatches": [],
+      "passed": true
+    },
+    {
+      "dataset": "realworld",
+      "n_claims": 56,
+      "endpoint_mismatches": [],
+      "passed": true
+    },
+    {
+      "dataset": "templama",
+      "n_claims": 747,
+      "endpoint_mismatches": [],
+      "passed": true
+    },
+    {
+      "dataset": "wikidata",
+      "n_claims": 208,
+      "endpoint_mismatches": [],
+      "passed": true
+    },
+    {
+      "dataset": "wikidata_prose",
+      "n_claims": 208,
+      "endpoint_mismatches": [],
+      "passed": true
+    },
+    {
+      "dataset": "wikidata_prose_normalized",
+      "n_claims": 208,
+      "endpoint_mismatches": [],
+      "passed": true
+    }
+  ]
+}

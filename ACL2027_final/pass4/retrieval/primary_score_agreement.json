@@ -1,0 +1,34 @@
+{
+  "human": {
+    "status": "passed",
+    "matched_methods": [
+      "earliest_completion",
+      "guaranteed_support",
+      "interval_outer_control",
+      "latest_completion",
+      "latest_mentioned_year_top20",
+      "midpoint_completion",
+      "no_temporal_filter",
+      "original_bm25",
+      "original_bm25_latestyear",
+      "possible_support"
+    ],
+    "queries": 830
+  },
+  "validation": {
+    "status": "passed",
+    "matched_methods": [
+      "earliest_completion",
+      "guaranteed_support",
+      "interval_outer_control",
+      "latest_completion",
+      "latest_mentioned_year_top20",
+      "midpoint_completion",
+      "no_temporal_filter",
+      "original_bm25",
+      "original_bm25_latestyear",
+      "possible_support"
+    ],
+    "queries": 2348
+  }
+}

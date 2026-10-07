@@ -1,0 +1,185 @@
+{
+  "protocol": "observed-pair-deletion-v1",
+  "cards": [
+    {
+      "dataset": "wikidata",
+      "n_cutoffs": 27,
+      "summary": {
+        "all_pairs": {
+          "n": 452,
+          "direct_max_affected": 1,
+          "component_max_affected": 4,
+          "component_more_than_one": 31,
+          "direct_total_flips": 503,
+          "component_total_flips": 395
+        },
+        "false_pairs": {
+          "n": 0,
+          "direct_max_affected": 0,
+          "component_max_affected": 0,
+          "component_more_than_one": 0,
+          "direct_total_flips": 0,
+          "component_total_flips": 0
+        },
+        "cross_key_pairs": {
+          "n": 0,
+          "direct_max_affected": 0,
+          "component_max_affected": 0,
+          "component_more_than_one": 0,
+          "direct_total_flips": 0,
+          "component_total_flips": 0
+        }
+      }
+    },
+    {
+      "dataset": "templama",
+      "n_cutoffs": 11,
+      "summary": {
+        "all_pairs": {
+          "n": 698,
+          "direct_max_affected": 1,
+          "component_max_affected": 3,
+          "component_more_than_one": 88,
+          "direct_total_flips": 1746,
+          "component_total_flips": 1679
+        },
+        "false_pairs": {
+          "n": 46,
+          "direct_max_affected": 1,
+          "component_max_affected": 3,
+          "component_more_than_one": 3,
+          "direct_total_flips": 21,
+          "component_total_flips": 28
+        },
+        "cross_key_pairs": {
+          "n": 46,
+          "direct_max_affected": 1,
+          "component_max_affected": 3,
+          "component_more_than_one": 3,
+          "direct_total_flips": 21,
+          "component_total_flips": 28
+        }
+      }
+    },
+    {
+      "dataset": "wikidata_prose",
+      "n_cutoffs": 27,
+      "summary": {
+        "all_pairs": {
+          "n": 452,
+          "direct_max_affected": 1,
+          "component_max_affected": 4,
+          "component_more_than_one": 31,
+          "direct_total_flips": 503,
+          "component_total_flips": 395
+        },
+        "false_pairs": {
+          "n": 0,
+          "direct_max_affected": 0,
+          "component_max_affected": 0,
+          "component_more_than_one": 0,
+          "direct_total_flips": 0,
+          "component_total_flips": 0
+        },
+        "cross_key_pairs": {
+          "n": 0,
+          "direct_max_affected": 0,
+          "component_max_affected": 0,
+          "component_more_than_one": 0,
+          "direct_total_flips": 0,
+          "component_total_flips": 0
+        }
+      }
+    },
+    {
+      "dataset": "realprose",
+      "n_cutoffs": 42,
+      "summary": {
+        "all_pairs": {
+          "n": 273,
+          "direct_max_affected": 1,
+          "component_max_affected": 8,
+          "component_more_than_one": 31,
+          "direct_total_flips": 554,
+          "component_total_flips": 604
+        },
+        "false_pairs": {
+          "n": 96,
+          "direct_max_affected": 1,
+          "component_max_affected": 3,
+          "component_more_than_one": 7,
+          "direct_total_flips": 37,
+          "component_total_flips": 68
+        },
+        "cross_key_pairs": {
+          "n": 96,
+          "direct_max_affected": 1,
+          "component_max_affected": 3,
+          "component_more_than_one": 7,
+          "direct_total_flips": 37,
+          "component_total_flips": 68
+        }
+      }
+    },
+    {
+      "dataset": "realwiki",
+      "n_cutoffs": 19,
+      "summary": {
+        "all_pairs": {
+          "n": 21,
+          "direct_max_affected": 1,
+          "component_max_affected": 2,
+          "component_more_than_one": 1,
+          "direct_total_flips": 50,
+          "component_total_flips": 62
+        },
+        "false_pairs": {
+          "n": 9,
+          "direct_max_affected": 1,
+          "component_max_affected": 1,
+          "component_more_than_one": 0,
+          "direct_total_flips": 1,
+          "component_total_flips": 13
+        },
+        "cross_key_pairs": {
+          "n": 9,
+          "direct_max_affected": 1,
+          "component_max_affected": 1,
+          "component_more_than_one": 0,
+          "direct_total_flips": 1,
+          "component_total_flips": 13
+        }
+      }
+    },
+    {
+      "dataset": "realworld",
+      "n_cutoffs": 41,
+      "summary": {
+        "all_pairs": {
+          "n": 58,
+          "direct_max_affected": 1,
+          "component_max_affected": 2,
+          "component_more_than_one": 11,
+          "direct_total_flips": 465,
+          "component_total_flips": 493
+        },
+        "false_pairs": {
+          "n": 0,
+          "direct_max_affected": 0,
+          "component_max_affected": 0,
+          "component_more_than_one": 0,
+          "direct_total_flips": 0,
+          "component_total_flips": 0
+        },
+        "cross_key_pairs": {
+          "n": 0,
+          "direct_max_affected": 0,
+          "component_max_affected": 0,
+          "component_more_than_one": 0,
+          "direct_total_flips": 0,
+          "component_total_flips": 0
+        }
+      }
+    }
+  ]
+}

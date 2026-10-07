@@ -1,0 +1,170 @@
+{
+  "scope": "Qualitative DEV source examples for extractor calibration. These are not QA gold labels or performance results.",
+  "selection": "Manual reading of the already cue-ranked development paragraphs. No query outcome selection.",
+  "cases": [
+    {
+      "name": "Warburg directors",
+      "passage_ids": [
+        "72daf9756d91f4ce98b12937"
+      ],
+      "article_paths": [
+        "/wiki/Warburg_Institute"
+      ],
+      "role_key": "Warburg Institute / director",
+      "older_value": "Henri Frankfort",
+      "older_start_expression": "1949",
+      "newer_value": "Gertrud Bing",
+      "newer_start_expression": "1955",
+      "note": "The paragraph also states that Ernst Gombrich succeeded Bing in 1959. Joining the organization in 1922 is not her director start.",
+      "source_texts": [
+        "Henri Frankfort succeeded Saxl as director in 1949 , and in 1955 was succeeded by Gertrud Bing , who had joined the organization in 1922 . During her term as director , the institute moved to its current home at the university in 1958 . Bing was succeeded by Ernst Gombrich in 1959 . From 1976 to 1990 , J . B . Trapp was director , and from 1991 to 2001 , Nicholas Mann . In 1994 the Warburg became a founding institute of the University of Londons School of Advanced Study ."
+      ]
+    },
+    {
+      "name": "Finnish party chair",
+      "passage_ids": [
+        "038d51438cfca865c9551758"
+      ],
+      "article_paths": [
+        "/wiki/Pertti_Salolainen"
+      ],
+      "role_key": "National Coalition Party / chairman",
+      "older_value": "Pertti Salolainen",
+      "older_start_expression": "1991",
+      "newer_value": "Sauli Niinistö",
+      "newer_start_expression": "1994",
+      "note": "The explicit successor clause follows the older start in the same paragraph.",
+      "source_texts": [
+        "In 1991 Salolainen was elected as the Chairman of the National Coalition Party after Ilkka Suominen . He was in charged until 1994 when he was succeeded by Sauli Niinistö . Salolainen left the Parliament in October 1996 after he was appointed as the Finlands Ambassador to London . He Ambassador under 2004 . He was replaced in Parliament by Pirjo-Riitta Antvuori ."
+      ]
+    },
+    {
+      "name": "French council presidents",
+      "passage_ids": [
+        "b338e567684de324f9df2638"
+      ],
+      "article_paths": [
+        "/wiki/National_Council_of_French_Women"
+      ],
+      "role_key": "CNFF / president",
+      "older_value": "Avril de Sainte-Croix",
+      "older_start_expression": "1922",
+      "newer_value": "Marguerite Pichon-Landry",
+      "newer_start_expression": "1932",
+      "note": "Both periods and direct replacement appear in one sentence. An earlier predecessor is named without a start.",
+      "source_texts": [
+        "In 1922 Avril de Sainte-Croix succeeded Julie Siegfried as president of the CNFF , holding this position until 1932 when she was replaced by Marguerite Pichon-Landry ."
+      ]
+    },
+    {
+      "name": "French news presenters",
+      "passage_ids": [
+        "278a8308f9db53c640cd3be0"
+      ],
+      "article_paths": [
+        "/wiki/Journal_de_20_heures"
+      ],
+      "role_key": "Journal de 20 heures / presenter",
+      "older_value": "Henri Sannier",
+      "older_start_expression": "September 1987",
+      "newer_value": "Christine Ockrent",
+      "newer_start_expression": "September 1988",
+      "note": "The paragraph includes earlier co-presenters. Do not impose a single holder on its entire history.",
+      "source_texts": [
+        "In 1976 , Jacques Sallebert entrusted the presentation to Patrick Poivre dArvor , who developed the audience for this information event , but who was to share the presentation of this edition with Christine Ockrent in 1983 . Bernard Rapp and Claude Sérillon succeeded them from 1985 to 1987 , then Henri Sannier from September 1987 . In September 1988 , he was replaced by Christine Ockrent ( whose companion , Bernard Kouchner , was then minister ) ."
+      ]
+    },
+    {
+      "name": "Maryland head coach",
+      "passage_ids": [
+        "7733b8ff4b3e1619806fced5"
+      ],
+      "article_paths": [
+        "/wiki/Maryland_Terrapins"
+      ],
+      "role_key": "Maryland football / head coach",
+      "older_value": "Jerry Claiborne",
+      "older_start_expression": "1972",
+      "newer_value": "Bobby Ross",
+      "newer_start_expression": "1982",
+      "note": "A direct replaced clause names Claiborne. Separate football and basketball roles.",
+      "source_texts": [
+        "In 1945 , Paul Bear Bryant began his long and distinguished career as a head football coach at the University of Maryland . The following year , he was replaced by Jim Tatum , a pioneer of the split T . Maryland football achieved its greatest success under Tatum , who compiled a 73–15–4 record without a single losing season , and to date , he remains the winningest Maryland coach of the modern era . NCAA recognized selectors awarded Maryland the national football championship in 1951 and 1953 . During Tatums tenure from 1946 to 1955 , Maryland also secured one Southern Conference championship and two Atlantic Coast Conference championships . In 1962 , Darryl Hill transferred to Maryland from the United States Naval Academy , making the school the first team in the Atlantic Coast Conference with a black player . Jerry Claiborne became head coach in 1972 , and led Maryland to three consecutive ACC championships from 1974 to 1976 . The Terrapins finished the 1976 regular season with an undefeated 11–0 record , but lost to Houston in the Cotton Bowl Classic , which ended national championship speculation . Bobby Ross replaced Claiborne in 1982 , and he repeated the feat of three consecutive ACC championships from 1983 to 1985 . In 1984 , Maryland quarterback Frank Reich led the Terrapins to the then greatest halftime comeback against the defending national champions , Miami . After a long bowl game drought , Ralph Friedgen was hired as head coach in 2001 , and in his first season , led Maryland to the ACC championship and its first Bowl Championship Series game appearance ."
+      ]
+    },
+    {
+      "name": "Berlin airport CEO",
+      "passage_ids": [
+        "9ac378444093f9e83dd1e8e2",
+        "7712173d3839e28beb4c6de7"
+      ],
+      "article_paths": [
+        "/wiki/Flughafen_Berlin_Brandenburg_GmbH"
+      ],
+      "role_key": "FBB / CEO",
+      "older_value": "Hartmut Mehdorn",
+      "older_start_expression": "8 March 2013",
+      "newer_value": "Karsten Mühlenfeld",
+      "newer_start_expression": "March 2015",
+      "note": "Mehdorn quit on 15 December 2014. The source therefore includes a gap before the successor. Mühlenfeld was replaced in March 2017.",
+      "source_texts": [
+        "Due to the construction and opening delays at the new airport , Rainer Schwarz , the CEO of FBB , was dismissed from his post on 16 January 2013 . He was succeeded by Hartmut Mehdorn , the previous CEO of Air Berlin , who took the office on 8 March 2013 . Klaus Wowereit , the Berlin mayor who had served as chairman of the FBB supervisory board since 2001 , also stepped down from his post and was subsequently replaced by Matthias Platzeck , the Minister-President of Brandenburg .",
+        "During his tenure Hartmut Mehdorn appointed Jochen Grossmann as technical head , who was subsequently found guilty of corruption and fraud in June 2014 after demanding payment from potential contractors . Mehdorn announced a new opening date of end of 2016 on 12 December 2014 , only to quit as CEO three days later on 15 December and was replaced by Karsten Mühlenfeld in March 2015 . Mühlenfeld himself was later forced to terminate his contract early after the BER project was hit by delay after delay . One of his last acts as CEO was to announce a new opening date of 2018 for a project that began in 2006 and was initially supposed to open in 2011 . He was replaced in March 2017 by Berlins Secretary for Housing and Construction Engelbert Lütke Daldrup ."
+      ]
+    },
+    {
+      "name": "Manchester school head",
+      "passage_ids": [
+        "d39d97b4b40124570a3d031e"
+      ],
+      "article_paths": [
+        "/wiki/Sara_Annie_Burstall"
+      ],
+      "role_key": "Manchester High School for Girls / headmistress",
+      "older_value": "Elizabeth Day",
+      "older_start_expression": "1874",
+      "newer_value": "Sara Annie Burstall",
+      "newer_start_expression": "1898",
+      "note": "The old start appears in a since clause. The new start appears in the preceding sentence.",
+      "source_texts": [
+        "In 1893 she travelled to the USA where she studied education and wrote her first book , The Education of Girls in the United States . In 1898 she took over as headmistress of Manchester High School for Girls . She was the second head , succeeding Elizabeth Day who had led the school since its founding in 1874 . The building is now occupied by the University of Manchester School of Social Sciences ."
+      ]
+    },
+    {
+      "name": "Texas physical education director",
+      "passage_ids": [
+        "abc7338c9eeb37e0a15751e9"
+      ],
+      "article_paths": [
+        "/wiki/Texas_Longhorns_women's_basketball"
+      ],
+      "role_key": "Texas / physical education director",
+      "older_value": "Eunice Aden",
+      "older_start_expression": "1911",
+      "newer_value": "Anna Hiss",
+      "newer_start_expression": "1921",
+      "note": "Aden also became a coach in 1905. The replaced role is physical education leadership, not automatically basketball coach.",
+      "source_texts": [
+        "Texas would play limited intercollegiate basketball between 1903 and 1921 . Eunice Aden was captain of the basketball team in 1903 , took over coaching duties in 1905 and became director of physical education in 1911 . Opportunities in basketball grew , but only in a limited way . Intercollegiate play existed , but the school did not allow off-campus games . When Aden retired in 1921 , she was replaced by Anna Hiss , who would run the physical education department until 1957 . While she was called a visionary for her role in directing physical education and intramurals , she was dead-set against intercollegiate athletics for women . The limited intercollegiate play under Aden came to an end , with basketball now limited to intramurals and interclass play ."
+      ]
+    },
+    {
+      "name": "International committee representative",
+      "passage_ids": [
+        "f3fd60ccce359af2439b9bd6"
+      ],
+      "article_paths": [
+        "/wiki/Paul_Painlevé"
+      ],
+      "role_key": "France / International Committee on Intellectual Cooperation representative",
+      "older_value": "Paul Painlevé",
+      "older_start_expression": "1925",
+      "newer_value": "Edouard Herriot",
+      "newer_start_expression": "1933",
+      "note": "The range supplies the end. The parenthesis names its successor. New start is inferred from the explicit replacement at the range end; mark this inference.",
+      "source_texts": [
+        "From 1925 to 1933 , Painlevé represented France in the International Committee on Intellectual Cooperation of the League of Nations ( he replaced Henri Bergson and was himself replaced by Edouard Herriot ) ."
+      ]
+    }
+  ]
+}

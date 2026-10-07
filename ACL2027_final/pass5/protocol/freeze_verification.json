@@ -1,0 +1,9 @@
+{
+  "run_id": "acl2027-pass5-source-revision-v1",
+  "freeze_sha256": "60e43df70592982ad6883f6ce042b3431e3b886c90e7bf383427d018acac4243",
+  "resource_amendment_files_checked": 0,
+  "original_hash_exceptions_allowed": 0,
+  "checked_files": 35,
+  "failures": [],
+  "all_files_match": true
+}

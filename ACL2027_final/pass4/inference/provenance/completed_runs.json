@@ -1,0 +1,70 @@
+{
+  "verified_utc": "2026-10-06T14:23:03.330254+00:00",
+  "status": "completed",
+  "final_protocol": "pass4/inference/provenance/primary_reader_freeze_final.json",
+  "final_protocol_sha256": "55cd054b2c4f87688c6016451846a7bf8ede77fb2b9f995bb20a9d870668b1b8",
+  "asset_manifest": "pass4/inference/provenance/assets.json",
+  "asset_manifest_note": "The asset manifest was created during initial smoke setup. This record documents subsequent completed benchmark runs using those pinned artifacts.",
+  "model_repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "model_revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+  "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "runtime_release": "b11435",
+  "cohorts": {
+    "primary": {
+      "questions": 60,
+      "articles": 55,
+      "logical_conditions": 600,
+      "distinct_jobs": 193,
+      "membership_path": "pass4/pipeline/human/reader_memberships.jsonl",
+      "membership_sha256": "65c724f234bb090e2d9790da9b0b7cfe58f71a2388163d382e3784f6f496b7b9"
+    },
+    "diagnostic": {
+      "questions": 11,
+      "articles": 9,
+      "logical_conditions": 110,
+      "distinct_jobs": 45,
+      "membership_path": "pass4/pipeline/human_diagnostic/reader_memberships.jsonl",
+      "membership_sha256": "96a27bdafb513f88d46113ed98bb26d7db6d6cfcfa1b7b7e72136f58e5bdc403"
+    },
+    "overlap": {
+      "questions": 0,
+      "articles": 4
+    },
+    "combined": {
+      "questions": 71,
+      "articles": 60,
+      "logical_conditions": 710,
+      "planned_generations": 238,
+      "completed_generations": 238
+    }
+  },
+  "completed_generations": 238,
+  "request_integrity_checks": 238,
+  "total_generation_wall_seconds": 5856.509176951029,
+  "finish_reasons": {
+    "stop": 216,
+    "length": 22
+  },
+  "parse_ok_distinct_generations": 150,
+  "parse_failures_distinct_generations": {
+    "invalid_complete_json": 60,
+    "invalid_evidence_index": 6,
+    "non_stop_finish": 22
+  },
+  "prompt_tokens": 160360,
+  "completion_tokens": 11401,
+  "run_summaries": {
+    "human": {
+      "path": "pass4/inference/human/run_summary.json",
+      "sha256": "03188f3a19e903b725e823633ffbc6cc2634464be3dd02253c4dac7e91153389",
+      "output_sha256": "2ae23748fc863e8d1a66f6ca5ba5a816a9cdd6cc0008a606a80b4d05b2ef58ab"
+    },
+    "human_diagnostic": {
+      "path": "pass4/inference/human_diagnostic/run_summary.json",
+      "sha256": "041a89d6412fabd911d1763bc87644824839f1b2ffb7400c0916993869b081fa",
+      "output_sha256": "433a8d5b455fe295d92de054816624ad2af8d53ad553efb031337bd912ff0088"
+    }
+  },
+  "weights_redistributed": false,
+  "answer_correctness_scored_here": false
+}

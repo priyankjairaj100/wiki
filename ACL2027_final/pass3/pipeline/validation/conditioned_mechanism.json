@@ -1,0 +1,48 @@
+{
+  "all_questions": {
+    "n_questions": 2348,
+    "n_parsed": 2296,
+    "stable_claim_contexts": 2227,
+    "stable_fraction_of_parsed": 0.9699477351916377,
+    "completion_sensitive": 69,
+    "possible_differs_interval": 0,
+    "possible_differs_no_filter": 218
+  },
+  "possible_context_has_modeled_unit": {
+    "n_questions": 383,
+    "n_parsed": 375,
+    "stable_claim_contexts": 306,
+    "stable_fraction_of_parsed": 0.816,
+    "completion_sensitive": 69,
+    "possible_differs_interval": 0,
+    "possible_differs_no_filter": 50
+  },
+  "lexical_top5_has_modeled_unit": {
+    "n_questions": 551,
+    "n_parsed": 543,
+    "stable_claim_contexts": 474,
+    "stable_fraction_of_parsed": 0.8729281767955801,
+    "completion_sensitive": 69,
+    "possible_differs_interval": 0,
+    "possible_differs_no_filter": 218
+  },
+  "lexical_top20_has_modeled_unit": {
+    "n_questions": 1072,
+    "n_parsed": 1056,
+    "stable_claim_contexts": 987,
+    "stable_fraction_of_parsed": 0.9346590909090909,
+    "completion_sensitive": 69,
+    "possible_differs_interval": 0,
+    "possible_differs_no_filter": 218
+  },
+  "possible_context_all_fallback": {
+    "n_questions": 1965,
+    "n_parsed": 1921,
+    "stable_claim_contexts": 1921,
+    "stable_fraction_of_parsed": 1.0,
+    "completion_sensitive": 0,
+    "possible_differs_interval": 0,
+    "possible_differs_no_filter": 168
+  },
+  "interpretation": "Stability certifies only modeled independent dates. Fallback source text remains fixed and unresolved."
+}

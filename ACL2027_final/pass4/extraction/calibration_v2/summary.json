@@ -1,0 +1,24 @@
+{
+  "adapter_version": "source-clause-v2",
+  "input_passages": 4030,
+  "input_articles": 86,
+  "claims": 110,
+  "new_claims": 94,
+  "explicit_ends": 76,
+  "covered_passages": 89,
+  "rules": {
+    "relative_biography_tenure": 1,
+    "clause_explicit_tenure": 51,
+    "leading_explicit_tenure": 15,
+    "explicit_tenure": 6,
+    "modified_suffix_occurrence": 8,
+    "modified_leading_occurrence": 16,
+    "coordinated_explicit_tenure": 3,
+    "date_led_occurrence": 8,
+    "date_suffix_occurrence": 2
+  },
+  "directed_pairs": 0,
+  "source_sha256": "c5e3c36391a01997bf2b9185ab4c8724ba92caad7fc95b00437885afb1848a77",
+  "adapter_sha256": "a46396a2a57f3a07a6829be048acd7a47143df0e7ed2ed0a0b2c3cb0f65862a3",
+  "answer_annotation_reads": 0
+}

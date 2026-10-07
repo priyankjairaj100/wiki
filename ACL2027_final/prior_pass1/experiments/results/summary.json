@@ -1,0 +1,1633 @@
+{
+  "protocol": "full-pool-lexical-evidence-v1",
+  "seed": 20261006,
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "idf": "log(1+(N-df+.5)/(df+.5))"
+  },
+  "notes": [
+    "Inference sees only cid, text, timestamp.",
+    "Queries use benchmark templates or subject/relation labels, never answer values.",
+    "Oracle uses gold keys and values only as an explicit ceiling.",
+    "Historical cutoffs are midpoints between distinct within-key source dates.",
+    "Current cutoff follows the latest source date in the corpus.",
+    "hit1/hit5 score key-relevant live evidence, not generated answers.",
+    "Confidence intervals resample entire gold-key clusters.",
+    "Date-top5 reorders five BM25 results; date-full-pool sorts all eligible records.",
+    "All exact-key date ties survive. No tie order is treated as factual.",
+    "This is a development evaluation with no parameter tuning.",
+    "The component condition is Text-CC: a gold-free reconstruction using extracted value signatures.",
+    "Use templama_source_set_results.json for the primary source-grounded TempLAMA evaluation."
+  ],
+  "cards": [
+    {
+      "dataset": "wikidata",
+      "n_claims": 208,
+      "n_keys": 73,
+      "n_query_keys": 33,
+      "n_tie_batches": 9,
+      "n_recurring_keys": 11,
+      "original_detection": {
+        "tp": 133,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "current_mask_exactly_reproduced": true,
+      "all_cutoff_direct_equivalence": true,
+      "n_cutoffs_checked": 27,
+      "n_pairs": 452,
+      "n_cross_key_pairs": 0,
+      "n_components": 75,
+      "n_mixed_components": 0,
+      "n_fragmented_gold_keys": 2,
+      "compilation_seconds": 0.05896310400021321,
+      "n_time_ordered_comparisons": 19981,
+      "results": {
+        "historical": {
+          "n": 125,
+          "n_keys": 33,
+          "methods": {
+            "bm25": {
+              "hit1": 0.296,
+              "hit5": 0.84,
+              "value_hit1": 0.32,
+              "stale_exposure5": 0.96,
+              "relevant_precision5": 0.17520000000000002,
+              "wrong_key1": 0.0
+            },
+            "date_top5": {
+              "hit1": 0.6,
+              "hit5": 0.84,
+              "value_hit1": 0.608,
+              "stale_exposure5": 0.96,
+              "relevant_precision5": 0.17520000000000002,
+              "wrong_key1": 0.24
+            },
+            "date_full_pool": {
+              "hit1": 0.224,
+              "hit5": 0.288,
+              "value_hit1": 0.224,
+              "stale_exposure5": 0.064,
+              "relevant_precision5": 0.0632,
+              "wrong_key1": 0.776
+            },
+            "direct_first": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21520000000000003,
+              "wrong_key1": 0.0
+            },
+            "direct_last": {
+              "hit1": 0.296,
+              "hit5": 0.84,
+              "value_hit1": 0.32,
+              "stale_exposure5": 0.96,
+              "relevant_precision5": 0.17520000000000002,
+              "wrong_key1": 0.0
+            },
+            "component": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21520000000000003,
+              "wrong_key1": 0.0
+            },
+            "component_latest": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2136,
+              "wrong_key1": 0.0
+            },
+            "exact_group_latest": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2136,
+              "wrong_key1": 0.0
+            },
+            "oracle": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21520000000000003,
+              "wrong_key1": 0.0
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.704,
+              "ci95": [
+                0.6111111111111112,
+                0.7702702702702703
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.704,
+              "ci95": [
+                0.6111111111111112,
+                0.7702702702702703
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        },
+        "current": {
+          "n": 33,
+          "n_keys": 33,
+          "methods": {
+            "bm25": {
+              "hit1": 0.06060606060606061,
+              "hit5": 0.7272727272727273,
+              "value_hit1": 0.09090909090909091,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.14545454545454548,
+              "wrong_key1": 0.030303030303030304
+            },
+            "date_top5": {
+              "hit1": 0.36363636363636365,
+              "hit5": 0.7272727272727273,
+              "value_hit1": 0.3939393939393939,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.14545454545454548,
+              "wrong_key1": 0.48484848484848486
+            },
+            "date_full_pool": {
+              "hit1": 0.12121212121212122,
+              "hit5": 0.30303030303030304,
+              "value_hit1": 0.12121212121212122,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.06060606060606061,
+              "wrong_key1": 0.8787878787878788
+            },
+            "direct_first": {
+              "hit1": 0.8181818181818182,
+              "hit5": 1.0,
+              "value_hit1": 0.8181818181818182,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.18181818181818182
+            },
+            "direct_last": {
+              "hit1": 0.8181818181818182,
+              "hit5": 1.0,
+              "value_hit1": 0.8181818181818182,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.18181818181818182
+            },
+            "component": {
+              "hit1": 0.8181818181818182,
+              "hit5": 1.0,
+              "value_hit1": 0.8181818181818182,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.18181818181818182
+            },
+            "component_latest": {
+              "hit1": 0.8181818181818182,
+              "hit5": 1.0,
+              "value_hit1": 0.8181818181818182,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.18181818181818182
+            },
+            "exact_group_latest": {
+              "hit1": 0.8181818181818182,
+              "hit5": 1.0,
+              "value_hit1": 0.8181818181818182,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.18181818181818182
+            },
+            "oracle": {
+              "hit1": 0.8181818181818182,
+              "hit5": 1.0,
+              "value_hit1": 0.8181818181818182,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.18181818181818182
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.7575757575757576,
+              "ci95": [
+                0.6060606060606061,
+                0.9090909090909091
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        }
+      }
+    },
+    {
+      "dataset": "templama",
+      "n_claims": 747,
+      "n_keys": 300,
+      "n_query_keys": 300,
+      "n_tie_batches": 0,
+      "n_recurring_keys": 8,
+      "original_detection": {
+        "tp": 434,
+        "fp": 8,
+        "fn": 13,
+        "precision": 0.9819004524886877,
+        "recall": 0.970917225950783,
+        "f1": 0.9763779527559054
+      },
+      "current_mask_exactly_reproduced": true,
+      "all_cutoff_direct_equivalence": true,
+      "n_cutoffs_checked": 11,
+      "n_pairs": 698,
+      "n_cross_key_pairs": 46,
+      "n_components": 305,
+      "n_mixed_components": 3,
+      "n_fragmented_gold_keys": 12,
+      "compilation_seconds": 0.20597879399974772,
+      "n_time_ordered_comparisons": 241154,
+      "results": {
+        "historical": {
+          "n": 447,
+          "n_keys": 300,
+          "methods": {
+            "bm25": {
+              "hit1": 0.738255033557047,
+              "hit5": 0.9932885906040269,
+              "value_hit1": 0.7449664429530202,
+              "stale_exposure5": 0.7829977628635347,
+              "relevant_precision5": 0.1986577181208054,
+              "wrong_key1": 0.0022371364653243847
+            },
+            "date_top5": {
+              "hit1": 0.5413870246085011,
+              "hit5": 0.9932885906040269,
+              "value_hit1": 0.5413870246085011,
+              "stale_exposure5": 0.7829977628635347,
+              "relevant_precision5": 0.1986577181208054,
+              "wrong_key1": 0.4519015659955257
+            },
+            "date_full_pool": {
+              "hit1": 0.2841163310961969,
+              "hit5": 0.2841163310961969,
+              "value_hit1": 0.2841163310961969,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.05682326621923938,
+              "wrong_key1": 0.7158836689038032
+            },
+            "direct_first": {
+              "hit1": 0.9821029082774049,
+              "hit5": 0.9910514541387024,
+              "value_hit1": 0.9821029082774049,
+              "stale_exposure5": 0.024608501118568233,
+              "relevant_precision5": 0.1982102908277405,
+              "wrong_key1": 0.011185682326621925
+            },
+            "direct_last": {
+              "hit1": 0.7449664429530202,
+              "hit5": 0.9932885906040269,
+              "value_hit1": 0.7516778523489933,
+              "stale_exposure5": 0.5234899328859061,
+              "relevant_precision5": 0.1986577181208054,
+              "wrong_key1": 0.0022371364653243847
+            },
+            "component": {
+              "hit1": 0.9731543624161074,
+              "hit5": 0.9843400447427293,
+              "value_hit1": 0.9731543624161074,
+              "stale_exposure5": 0.026845637583892617,
+              "relevant_precision5": 0.19686800894854586,
+              "wrong_key1": 0.017897091722595078
+            },
+            "component_latest": {
+              "hit1": 0.9753914988814317,
+              "hit5": 0.9843400447427293,
+              "value_hit1": 0.9753914988814317,
+              "stale_exposure5": 0.02237136465324385,
+              "relevant_precision5": 0.19686800894854586,
+              "wrong_key1": 0.017897091722595078
+            },
+            "exact_group_latest": {
+              "hit1": 0.9776286353467561,
+              "hit5": 1.0,
+              "value_hit1": 0.9776286353467561,
+              "stale_exposure5": 0.2080536912751678,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.0022371364653243847
+            },
+            "oracle": {
+              "hit1": 0.9977628635346756,
+              "hit5": 1.0,
+              "value_hit1": 0.9977628635346756,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.0022371364653243847
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.24384787472035793,
+              "ci95": [
+                0.19664268585131894,
+                0.29067245119305857
+              ],
+              "n_keys": 300,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.008948545861297539,
+              "ci95": [
+                0.0,
+                0.020134228187919462
+              ],
+              "n_keys": 300,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.0044742729306487695,
+              "ci95": [
+                -0.0117096018735363,
+                0.022123893805309734
+              ],
+              "n_keys": 300,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.2371364653243848,
+              "ci95": [
+                0.18981481481481483,
+                0.2847826086956522
+              ],
+              "n_keys": 300,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        },
+        "current": {
+          "n": 300,
+          "n_keys": 300,
+          "methods": {
+            "bm25": {
+              "hit1": 0.18,
+              "hit5": 0.99,
+              "value_hit1": 0.19,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.198,
+              "wrong_key1": 0.0033333333333333335
+            },
+            "date_top5": {
+              "hit1": 0.6033333333333334,
+              "hit5": 0.99,
+              "value_hit1": 0.6033333333333334,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.198,
+              "wrong_key1": 0.38666666666666666
+            },
+            "date_full_pool": {
+              "hit1": 0.12666666666666668,
+              "hit5": 0.12666666666666668,
+              "value_hit1": 0.12666666666666668,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.025333333333333336,
+              "wrong_key1": 0.8733333333333333
+            },
+            "direct_first": {
+              "hit1": 0.9466666666666667,
+              "hit5": 0.9733333333333334,
+              "value_hit1": 0.9466666666666667,
+              "stale_exposure5": 0.16333333333333333,
+              "relevant_precision5": 0.19466666666666668,
+              "wrong_key1": 0.02666666666666667
+            },
+            "direct_last": {
+              "hit1": 0.9466666666666667,
+              "hit5": 0.9733333333333334,
+              "value_hit1": 0.9466666666666667,
+              "stale_exposure5": 0.16333333333333333,
+              "relevant_precision5": 0.19466666666666668,
+              "wrong_key1": 0.02666666666666667
+            },
+            "component": {
+              "hit1": 0.9466666666666667,
+              "hit5": 0.9733333333333334,
+              "value_hit1": 0.9466666666666667,
+              "stale_exposure5": 0.16333333333333333,
+              "relevant_precision5": 0.19466666666666668,
+              "wrong_key1": 0.02666666666666667
+            },
+            "component_latest": {
+              "hit1": 0.9466666666666667,
+              "hit5": 0.9733333333333334,
+              "value_hit1": 0.9466666666666667,
+              "stale_exposure5": 0.16333333333333333,
+              "relevant_precision5": 0.19466666666666668,
+              "wrong_key1": 0.02666666666666667
+            },
+            "exact_group_latest": {
+              "hit1": 0.8633333333333333,
+              "hit5": 0.9966666666666667,
+              "value_hit1": 0.8633333333333333,
+              "stale_exposure5": 0.4,
+              "relevant_precision5": 0.19933333333333333,
+              "wrong_key1": 0.0033333333333333335
+            },
+            "oracle": {
+              "hit1": 0.9966666666666667,
+              "hit5": 1.0,
+              "value_hit1": 0.9966666666666667,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.0033333333333333335
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.7666666666666667,
+              "ci95": [
+                0.7166666666666667,
+                0.8166666666666667
+              ],
+              "n_keys": 300,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 300,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.08333333333333333,
+              "ci95": [
+                0.05,
+                0.12
+              ],
+              "n_keys": 300,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 300,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        }
+      }
+    },
+    {
+      "dataset": "wikidata_prose",
+      "n_claims": 208,
+      "n_keys": 73,
+      "n_query_keys": 33,
+      "n_tie_batches": 9,
+      "n_recurring_keys": 11,
+      "original_detection": {
+        "tp": 133,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "current_mask_exactly_reproduced": true,
+      "all_cutoff_direct_equivalence": true,
+      "n_cutoffs_checked": 27,
+      "n_pairs": 452,
+      "n_cross_key_pairs": 0,
+      "n_components": 75,
+      "n_mixed_components": 0,
+      "n_fragmented_gold_keys": 2,
+      "compilation_seconds": 0.024859862998710014,
+      "n_time_ordered_comparisons": 19981,
+      "results": {
+        "historical": {
+          "n": 125,
+          "n_keys": 33,
+          "methods": {
+            "bm25": {
+              "hit1": 0.376,
+              "hit5": 0.912,
+              "value_hit1": 0.4,
+              "stale_exposure5": 0.984,
+              "relevant_precision5": 0.1912,
+              "wrong_key1": 0.0
+            },
+            "date_top5": {
+              "hit1": 0.68,
+              "hit5": 0.912,
+              "value_hit1": 0.68,
+              "stale_exposure5": 0.984,
+              "relevant_precision5": 0.1912,
+              "wrong_key1": 0.232
+            },
+            "date_full_pool": {
+              "hit1": 0.224,
+              "hit5": 0.288,
+              "value_hit1": 0.224,
+              "stale_exposure5": 0.064,
+              "relevant_precision5": 0.0632,
+              "wrong_key1": 0.776
+            },
+            "direct_first": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21520000000000003,
+              "wrong_key1": 0.0
+            },
+            "direct_last": {
+              "hit1": 0.384,
+              "hit5": 0.92,
+              "value_hit1": 0.408,
+              "stale_exposure5": 0.984,
+              "relevant_precision5": 0.1928,
+              "wrong_key1": 0.0
+            },
+            "component": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21520000000000003,
+              "wrong_key1": 0.0
+            },
+            "component_latest": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2136,
+              "wrong_key1": 0.0
+            },
+            "exact_group_latest": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2136,
+              "wrong_key1": 0.0
+            },
+            "oracle": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21520000000000003,
+              "wrong_key1": 0.0
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.624,
+              "ci95": [
+                0.5263157894736842,
+                0.7
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.616,
+              "ci95": [
+                0.5157894736842106,
+                0.6938775510204082
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        },
+        "current": {
+          "n": 33,
+          "n_keys": 33,
+          "methods": {
+            "bm25": {
+              "hit1": 0.030303030303030304,
+              "hit5": 0.7878787878787878,
+              "value_hit1": 0.06060606060606061,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.16363636363636364,
+              "wrong_key1": 0.18181818181818182
+            },
+            "date_top5": {
+              "hit1": 0.45454545454545453,
+              "hit5": 0.7878787878787878,
+              "value_hit1": 0.45454545454545453,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.16363636363636364,
+              "wrong_key1": 0.42424242424242425
+            },
+            "date_full_pool": {
+              "hit1": 0.12121212121212122,
+              "hit5": 0.3333333333333333,
+              "value_hit1": 0.12121212121212122,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.06666666666666667,
+              "wrong_key1": 0.8787878787878788
+            },
+            "direct_first": {
+              "hit1": 0.6060606060606061,
+              "hit5": 1.0,
+              "value_hit1": 0.6060606060606061,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.3939393939393939
+            },
+            "direct_last": {
+              "hit1": 0.6060606060606061,
+              "hit5": 1.0,
+              "value_hit1": 0.6060606060606061,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.3939393939393939
+            },
+            "component": {
+              "hit1": 0.6060606060606061,
+              "hit5": 1.0,
+              "value_hit1": 0.6060606060606061,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.3939393939393939
+            },
+            "component_latest": {
+              "hit1": 0.6060606060606061,
+              "hit5": 1.0,
+              "value_hit1": 0.6060606060606061,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.3939393939393939
+            },
+            "exact_group_latest": {
+              "hit1": 0.6060606060606061,
+              "hit5": 1.0,
+              "value_hit1": 0.6060606060606061,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.3939393939393939
+            },
+            "oracle": {
+              "hit1": 0.6060606060606061,
+              "hit5": 1.0,
+              "value_hit1": 0.6060606060606061,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.21212121212121213,
+              "wrong_key1": 0.3939393939393939
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.5757575757575758,
+              "ci95": [
+                0.3939393939393939,
+                0.7272727272727273
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 33,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        }
+      }
+    },
+    {
+      "dataset": "realprose",
+      "n_claims": 132,
+      "n_keys": 35,
+      "n_query_keys": 35,
+      "n_tie_batches": 0,
+      "n_recurring_keys": 2,
+      "original_detection": {
+        "tp": 88,
+        "fp": 2,
+        "fn": 9,
+        "precision": 0.9777777777777777,
+        "recall": 0.9072164948453608,
+        "f1": 0.9411764705882353
+      },
+      "current_mask_exactly_reproduced": true,
+      "all_cutoff_direct_equivalence": true,
+      "n_cutoffs_checked": 42,
+      "n_pairs": 273,
+      "n_cross_key_pairs": 96,
+      "n_components": 42,
+      "n_mixed_components": 4,
+      "n_fragmented_gold_keys": 13,
+      "compilation_seconds": 0.023441605999323656,
+      "n_time_ordered_comparisons": 8432,
+      "results": {
+        "historical": {
+          "n": 97,
+          "n_keys": 35,
+          "methods": {
+            "bm25": {
+              "hit1": 0.5670103092783505,
+              "hit5": 0.9278350515463918,
+              "value_hit1": 0.5670103092783505,
+              "stale_exposure5": 0.7835051546391752,
+              "relevant_precision5": 0.18556701030927836,
+              "wrong_key1": 0.07216494845360824
+            },
+            "date_top5": {
+              "hit1": 0.38144329896907214,
+              "hit5": 0.9278350515463918,
+              "value_hit1": 0.38144329896907214,
+              "stale_exposure5": 0.7835051546391752,
+              "relevant_precision5": 0.18556701030927836,
+              "wrong_key1": 0.5979381443298969
+            },
+            "date_full_pool": {
+              "hit1": 0.09278350515463918,
+              "hit5": 0.21649484536082475,
+              "value_hit1": 0.09278350515463918,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.04329896907216495,
+              "wrong_key1": 0.9072164948453608
+            },
+            "direct_first": {
+              "hit1": 0.8350515463917526,
+              "hit5": 0.9381443298969072,
+              "value_hit1": 0.8350515463917526,
+              "stale_exposure5": 0.4845360824742268,
+              "relevant_precision5": 0.18762886597938144,
+              "wrong_key1": 0.09278350515463918
+            },
+            "direct_last": {
+              "hit1": 0.5670103092783505,
+              "hit5": 0.9278350515463918,
+              "value_hit1": 0.5670103092783505,
+              "stale_exposure5": 0.7835051546391752,
+              "relevant_precision5": 0.18556701030927836,
+              "wrong_key1": 0.07216494845360824
+            },
+            "component": {
+              "hit1": 0.8350515463917526,
+              "hit5": 0.9175257731958762,
+              "value_hit1": 0.8350515463917526,
+              "stale_exposure5": 0.38144329896907214,
+              "relevant_precision5": 0.18350515463917527,
+              "wrong_key1": 0.09278350515463918
+            },
+            "component_latest": {
+              "hit1": 0.8350515463917526,
+              "hit5": 0.9175257731958762,
+              "value_hit1": 0.8350515463917526,
+              "stale_exposure5": 0.38144329896907214,
+              "relevant_precision5": 0.18350515463917527,
+              "wrong_key1": 0.09278350515463918
+            },
+            "exact_group_latest": {
+              "hit1": 0.5670103092783505,
+              "hit5": 0.9278350515463918,
+              "value_hit1": 0.5670103092783505,
+              "stale_exposure5": 0.7835051546391752,
+              "relevant_precision5": 0.18556701030927836,
+              "wrong_key1": 0.07216494845360824
+            },
+            "oracle": {
+              "hit1": 0.8865979381443299,
+              "hit5": 0.9896907216494846,
+              "value_hit1": 0.8865979381443299,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.19793814432989693,
+              "wrong_key1": 0.1134020618556701
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.26804123711340205,
+              "ci95": [
+                0.16091954022988506,
+                0.37815126050420167
+              ],
+              "n_keys": 35,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                -0.08035714285714286,
+                0.06930693069306931
+              ],
+              "n_keys": 35,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.26804123711340205,
+              "ci95": [
+                0.16091954022988506,
+                0.37815126050420167
+              ],
+              "n_keys": 35,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.26804123711340205,
+              "ci95": [
+                0.16091954022988506,
+                0.37815126050420167
+              ],
+              "n_keys": 35,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        },
+        "current": {
+          "n": 35,
+          "n_keys": 35,
+          "methods": {
+            "bm25": {
+              "hit1": 0.42857142857142855,
+              "hit5": 0.8857142857142857,
+              "value_hit1": 0.42857142857142855,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.17714285714285716,
+              "wrong_key1": 0.02857142857142857
+            },
+            "date_top5": {
+              "hit1": 0.5428571428571428,
+              "hit5": 0.8857142857142857,
+              "value_hit1": 0.5428571428571428,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.17714285714285716,
+              "wrong_key1": 0.4
+            },
+            "date_full_pool": {
+              "hit1": 0.14285714285714285,
+              "hit5": 0.14285714285714285,
+              "value_hit1": 0.14285714285714285,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.02857142857142857,
+              "wrong_key1": 0.8571428571428571
+            },
+            "direct_first": {
+              "hit1": 0.8,
+              "hit5": 0.9142857142857143,
+              "value_hit1": 0.8,
+              "stale_exposure5": 0.7428571428571429,
+              "relevant_precision5": 0.18285714285714286,
+              "wrong_key1": 0.08571428571428572
+            },
+            "direct_last": {
+              "hit1": 0.8,
+              "hit5": 0.9142857142857143,
+              "value_hit1": 0.8,
+              "stale_exposure5": 0.7428571428571429,
+              "relevant_precision5": 0.18285714285714286,
+              "wrong_key1": 0.08571428571428572
+            },
+            "component": {
+              "hit1": 0.8,
+              "hit5": 0.9142857142857143,
+              "value_hit1": 0.8,
+              "stale_exposure5": 0.7428571428571429,
+              "relevant_precision5": 0.18285714285714286,
+              "wrong_key1": 0.08571428571428572
+            },
+            "component_latest": {
+              "hit1": 0.8,
+              "hit5": 0.9142857142857143,
+              "value_hit1": 0.8,
+              "stale_exposure5": 0.7428571428571429,
+              "relevant_precision5": 0.18285714285714286,
+              "wrong_key1": 0.08571428571428572
+            },
+            "exact_group_latest": {
+              "hit1": 0.42857142857142855,
+              "hit5": 0.8857142857142857,
+              "value_hit1": 0.42857142857142855,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.17714285714285716,
+              "wrong_key1": 0.02857142857142857
+            },
+            "oracle": {
+              "hit1": 0.9142857142857143,
+              "hit5": 0.9714285714285714,
+              "value_hit1": 0.9142857142857143,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.1942857142857143,
+              "wrong_key1": 0.08571428571428572
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.37142857142857144,
+              "ci95": [
+                0.2,
+                0.5428571428571428
+              ],
+              "n_keys": 35,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 35,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.37142857142857144,
+              "ci95": [
+                0.2,
+                0.5428571428571428
+              ],
+              "n_keys": 35,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 35,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        }
+      }
+    },
+    {
+      "dataset": "realwiki",
+      "n_claims": 26,
+      "n_keys": 12,
+      "n_query_keys": 12,
+      "n_tie_batches": 0,
+      "n_recurring_keys": 0,
+      "original_detection": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.7857142857142857,
+        "f1": 0.88
+      },
+      "current_mask_exactly_reproduced": true,
+      "all_cutoff_direct_equivalence": true,
+      "n_cutoffs_checked": 19,
+      "n_pairs": 21,
+      "n_cross_key_pairs": 9,
+      "n_components": 15,
+      "n_mixed_components": 1,
+      "n_fragmented_gold_keys": 4,
+      "compilation_seconds": 0.004060156999912579,
+      "n_time_ordered_comparisons": 317,
+      "results": {
+        "historical": {
+          "n": 14,
+          "n_keys": 12,
+          "methods": {
+            "bm25": {
+              "hit1": 0.9285714285714286,
+              "hit5": 1.0,
+              "value_hit1": 0.9285714285714286,
+              "stale_exposure5": 0.42857142857142855,
+              "relevant_precision5": 0.2130952380952381,
+              "wrong_key1": 0.07142857142857142
+            },
+            "date_top5": {
+              "hit1": 0.14285714285714285,
+              "hit5": 1.0,
+              "value_hit1": 0.14285714285714285,
+              "stale_exposure5": 0.42857142857142855,
+              "relevant_precision5": 0.2130952380952381,
+              "wrong_key1": 0.8571428571428571
+            },
+            "date_full_pool": {
+              "hit1": 0.07142857142857142,
+              "hit5": 0.7857142857142857,
+              "value_hit1": 0.07142857142857142,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.17023809523809524,
+              "wrong_key1": 0.9285714285714286
+            },
+            "direct_first": {
+              "hit1": 0.9285714285714286,
+              "hit5": 0.9285714285714286,
+              "value_hit1": 0.9285714285714286,
+              "stale_exposure5": 0.42857142857142855,
+              "relevant_precision5": 0.19523809523809524,
+              "wrong_key1": 0.07142857142857142
+            },
+            "direct_last": {
+              "hit1": 0.9285714285714286,
+              "hit5": 1.0,
+              "value_hit1": 0.9285714285714286,
+              "stale_exposure5": 0.42857142857142855,
+              "relevant_precision5": 0.2130952380952381,
+              "wrong_key1": 0.07142857142857142
+            },
+            "component": {
+              "hit1": 0.9285714285714286,
+              "hit5": 0.9285714285714286,
+              "value_hit1": 0.9285714285714286,
+              "stale_exposure5": 0.42857142857142855,
+              "relevant_precision5": 0.19523809523809524,
+              "wrong_key1": 0.07142857142857142
+            },
+            "component_latest": {
+              "hit1": 0.9285714285714286,
+              "hit5": 0.9285714285714286,
+              "value_hit1": 0.9285714285714286,
+              "stale_exposure5": 0.42857142857142855,
+              "relevant_precision5": 0.19523809523809524,
+              "wrong_key1": 0.07142857142857142
+            },
+            "exact_group_latest": {
+              "hit1": 0.9285714285714286,
+              "hit5": 1.0,
+              "value_hit1": 0.9285714285714286,
+              "stale_exposure5": 0.42857142857142855,
+              "relevant_precision5": 0.2130952380952381,
+              "wrong_key1": 0.07142857142857142
+            },
+            "oracle": {
+              "hit1": 0.9285714285714286,
+              "hit5": 1.0,
+              "value_hit1": 0.9285714285714286,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2130952380952381,
+              "wrong_key1": 0.07142857142857142
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 12,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 12,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 12,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 12,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        },
+        "current": {
+          "n": 12,
+          "n_keys": 12,
+          "methods": {
+            "bm25": {
+              "hit1": 0.5833333333333334,
+              "hit5": 0.9166666666666666,
+              "value_hit1": 0.5833333333333334,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.18333333333333335,
+              "wrong_key1": 0.0
+            },
+            "date_top5": {
+              "hit1": 0.25,
+              "hit5": 0.9166666666666666,
+              "value_hit1": 0.25,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.18333333333333335,
+              "wrong_key1": 0.6666666666666666
+            },
+            "date_full_pool": {
+              "hit1": 0.08333333333333333,
+              "hit5": 0.4166666666666667,
+              "value_hit1": 0.08333333333333333,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.08333333333333333,
+              "wrong_key1": 0.9166666666666666
+            },
+            "direct_first": {
+              "hit1": 0.8333333333333334,
+              "hit5": 0.9166666666666666,
+              "value_hit1": 0.8333333333333334,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.18333333333333335,
+              "wrong_key1": 0.0
+            },
+            "direct_last": {
+              "hit1": 0.8333333333333334,
+              "hit5": 0.9166666666666666,
+              "value_hit1": 0.8333333333333334,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.18333333333333335,
+              "wrong_key1": 0.0
+            },
+            "component": {
+              "hit1": 0.8333333333333334,
+              "hit5": 0.9166666666666666,
+              "value_hit1": 0.8333333333333334,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.18333333333333335,
+              "wrong_key1": 0.0
+            },
+            "component_latest": {
+              "hit1": 0.8333333333333334,
+              "hit5": 0.9166666666666666,
+              "value_hit1": 0.8333333333333334,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.18333333333333335,
+              "wrong_key1": 0.0
+            },
+            "exact_group_latest": {
+              "hit1": 0.5833333333333334,
+              "hit5": 0.9166666666666666,
+              "value_hit1": 0.5833333333333334,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.18333333333333335,
+              "wrong_key1": 0.0
+            },
+            "oracle": {
+              "hit1": 0.9166666666666666,
+              "hit5": 0.9166666666666666,
+              "value_hit1": 0.9166666666666666,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.18333333333333335,
+              "wrong_key1": 0.08333333333333333
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.25,
+              "ci95": [
+                0.0,
+                0.5
+              ],
+              "n_keys": 12,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 12,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.25,
+              "ci95": [
+                0.0,
+                0.5
+              ],
+              "n_keys": 12,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 12,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        }
+      }
+    },
+    {
+      "dataset": "realworld",
+      "n_claims": 56,
+      "n_keys": 20,
+      "n_query_keys": 20,
+      "n_tie_batches": 0,
+      "n_recurring_keys": 2,
+      "original_detection": {
+        "tp": 36,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "current_mask_exactly_reproduced": true,
+      "all_cutoff_direct_equivalence": true,
+      "n_cutoffs_checked": 41,
+      "n_pairs": 58,
+      "n_cross_key_pairs": 0,
+      "n_components": 20,
+      "n_mixed_components": 0,
+      "n_fragmented_gold_keys": 0,
+      "compilation_seconds": 0.004141880999668501,
+      "n_time_ordered_comparisons": 1522,
+      "results": {
+        "historical": {
+          "n": 36,
+          "n_keys": 20,
+          "methods": {
+            "bm25": {
+              "hit1": 0.5555555555555556,
+              "hit5": 1.0,
+              "value_hit1": 0.5555555555555556,
+              "stale_exposure5": 0.9722222222222222,
+              "relevant_precision5": 0.22592592592592592,
+              "wrong_key1": 0.0
+            },
+            "date_top5": {
+              "hit1": 0.8055555555555556,
+              "hit5": 1.0,
+              "value_hit1": 0.8055555555555556,
+              "stale_exposure5": 0.9722222222222222,
+              "relevant_precision5": 0.22592592592592592,
+              "wrong_key1": 0.19444444444444445
+            },
+            "date_full_pool": {
+              "hit1": 0.2222222222222222,
+              "hit5": 0.7222222222222222,
+              "value_hit1": 0.2222222222222222,
+              "stale_exposure5": 0.4166666666666667,
+              "relevant_precision5": 0.1703703703703704,
+              "wrong_key1": 0.7777777777777778
+            },
+            "direct_first": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.23703703703703705,
+              "wrong_key1": 0.0
+            },
+            "direct_last": {
+              "hit1": 0.5555555555555556,
+              "hit5": 1.0,
+              "value_hit1": 0.5555555555555556,
+              "stale_exposure5": 0.9444444444444444,
+              "relevant_precision5": 0.23194444444444443,
+              "wrong_key1": 0.0
+            },
+            "component": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.23703703703703705,
+              "wrong_key1": 0.0
+            },
+            "component_latest": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.23703703703703705,
+              "wrong_key1": 0.0
+            },
+            "exact_group_latest": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.23703703703703705,
+              "wrong_key1": 0.0
+            },
+            "oracle": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.23703703703703705,
+              "wrong_key1": 0.0
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.4444444444444444,
+              "ci95": [
+                0.2857142857142857,
+                0.5555555555555556
+              ],
+              "n_keys": 20,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 20,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 20,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.4444444444444444,
+              "ci95": [
+                0.2857142857142857,
+                0.5555555555555556
+              ],
+              "n_keys": 20,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        },
+        "current": {
+          "n": 20,
+          "n_keys": 20,
+          "methods": {
+            "bm25": {
+              "hit1": 0.25,
+              "hit5": 1.0,
+              "value_hit1": 0.25,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.0
+            },
+            "date_top5": {
+              "hit1": 0.6,
+              "hit5": 1.0,
+              "value_hit1": 0.6,
+              "stale_exposure5": 1.0,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.4
+            },
+            "date_full_pool": {
+              "hit1": 0.05,
+              "hit5": 0.25,
+              "value_hit1": 0.05,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.05,
+              "wrong_key1": 0.95
+            },
+            "direct_first": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.0
+            },
+            "direct_last": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.0
+            },
+            "component": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.0
+            },
+            "component_latest": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.0
+            },
+            "exact_group_latest": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.0
+            },
+            "oracle": {
+              "hit1": 1.0,
+              "hit5": 1.0,
+              "value_hit1": 1.0,
+              "stale_exposure5": 0.0,
+              "relevant_precision5": 0.2,
+              "wrong_key1": 0.0
+            }
+          },
+          "comparisons": {
+            "bm25": {
+              "delta": 0.75,
+              "ci95": [
+                0.55,
+                0.9
+              ],
+              "n_keys": 20,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "component": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 20,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "exact_group_latest": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 20,
+              "repetitions": 5000,
+              "seed": 20261006
+            },
+            "direct_last": {
+              "delta": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "n_keys": 20,
+              "repetitions": 5000,
+              "seed": 20261006
+            }
+          }
+        }
+      }
+    }
+  ]
+}

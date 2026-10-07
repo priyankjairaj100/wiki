@@ -1,0 +1,189 @@
+{
+  "scope": "Natural source, manually interpreted calibration case. Query window, relevance order, and two admissible timelines are illustrative. No benchmark result or measured ranking is claimed.",
+  "source": {
+    "passage_id": "72daf9756d91f4ce98b12937",
+    "article_path": "/wiki/Warburg_Institute",
+    "paragraph_index": 15,
+    "text": "Henri Frankfort succeeded Saxl as director in 1949 , and in 1955 was succeeded by Gertrud Bing , who had joined the organization in 1922 . During her term as director , the institute moved to its current home at the university in 1958 . Bing was succeeded by Ernst Gombrich in 1959 . From 1976 to 1990 , J . B . Trapp was director , and from 1991 to 2001 , Nicholas Mann . In 1994 the Warburg became a founding institute of the University of Londons School of Advanced Study .",
+    "selection_rank": 1,
+    "selection_score": 25,
+    "selection_cues": [
+      {
+        "text": "succeeded",
+        "start": 16,
+        "end": 25
+      },
+      {
+        "text": "succeeded",
+        "start": 69,
+        "end": 78
+      },
+      {
+        "text": "succeeded",
+        "start": 246,
+        "end": 255
+      }
+    ],
+    "selection_scope": "Source-only DEV cue calibration. No questions or answer labels inspected."
+  },
+  "source_sha256": "309e06148b8f05ac0e44459d09b062ae6a250bbdbf08764de5d8d14deac53f3a",
+  "supporting_spans": [
+    {
+      "start": 0,
+      "end": 50,
+      "text": "Henri Frankfort succeeded Saxl as director in 1949"
+    },
+    {
+      "start": 57,
+      "end": 94,
+      "text": "in 1955 was succeeded by Gertrud Bing"
+    },
+    {
+      "start": 237,
+      "end": 281,
+      "text": "Bing was succeeded by Ernst Gombrich in 1959"
+    }
+  ],
+  "role_key": [
+    "Warburg Institute",
+    "director"
+  ],
+  "claims": [
+    {
+      "id": "c",
+      "name": "Henri Frankfort",
+      "start_lower": "1949-01-01",
+      "start_upper": "1949-12-31"
+    },
+    {
+      "id": "d",
+      "name": "Gertrud Bing",
+      "start_lower": "1955-01-01",
+      "start_upper": "1955-12-31"
+    },
+    {
+      "id": "e",
+      "name": "Ernst Gombrich",
+      "start_lower": "1959-01-01",
+      "start_upper": "1959-12-31"
+    }
+  ],
+  "direct_pairs": [
+    [
+      "d",
+      "c"
+    ],
+    [
+      "e",
+      "d"
+    ]
+  ],
+  "query_window": [
+    "1954-01-01",
+    "1955-06-30"
+  ],
+  "possible": [
+    "c",
+    "d"
+  ],
+  "guaranteed": [
+    "c"
+  ],
+  "assignments": [
+    {
+      "dates": {
+        "c": "1949-06-01",
+        "d": "1955-01-01",
+        "e": "1959-06-01"
+      },
+      "support": [
+        "c",
+        "d"
+      ]
+    },
+    {
+      "dates": {
+        "c": "1949-06-01",
+        "d": "1955-12-31",
+        "e": "1959-06-01"
+      },
+      "support": [
+        "c"
+      ]
+    }
+  ],
+  "ranking_views": [
+    {
+      "ranking": [
+        "c",
+        "d",
+        "e"
+      ],
+      "budget": 1,
+      "top_possible": [
+        "c"
+      ],
+      "top_guaranteed": [
+        "c"
+      ],
+      "stable": true,
+      "two_replay_contexts": [
+        [
+          "c"
+        ],
+        [
+          "c"
+        ]
+      ]
+    },
+    {
+      "ranking": [
+        "c",
+        "d",
+        "e"
+      ],
+      "budget": 2,
+      "top_possible": [
+        "c",
+        "d"
+      ],
+      "top_guaranteed": [
+        "c"
+      ],
+      "stable": false,
+      "two_replay_contexts": [
+        [
+          "c",
+          "d"
+        ],
+        [
+          "c"
+        ]
+      ]
+    },
+    {
+      "ranking": [
+        "d",
+        "c",
+        "e"
+      ],
+      "budget": 1,
+      "top_possible": [
+        "d"
+      ],
+      "top_guaranteed": [
+        "c"
+      ],
+      "stable": false,
+      "two_replay_contexts": [
+        [
+          "d"
+        ],
+        [
+          "c"
+        ]
+      ]
+    }
+  ],
+  "takeaway": "The same possible evidence pool can produce a stable one-item context and an unstable larger context."
+}

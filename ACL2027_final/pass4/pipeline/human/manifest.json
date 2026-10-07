@@ -1,0 +1,30 @@
+{
+  "inputs": {
+    "pass4/protocol/config.json": "989724a081d536c81d7aedeb128bd67deba6734bc6c983ef3eb740e2e375de8b",
+    "pass3/protocol/test_source_passages.jsonl": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a",
+    "pass4/protocol/human_test_confirmation_queries.jsonl": "e946ae3e7d494663cf56e0c1462f271f6abd78e12b422e464166d1e8d34d872d",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/pipeline/run_matched.py": "1fcff9dbb162f74ea9d8a558315480ac6ba30afd3e996235c429ca11d6aa8fb1",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass3/extraction/source_adapter.py": "2424a76fdcfe08330fddc45853969406f1784bb2f1aad00d90499d79d2a8d185",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass3/theory/lifecycle.py": "4a765c40233ee33b2f1230a59df952acea8c93f8b2142c5e72cd73f6607ab81c",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass2/theory/uncertain_time.py": "0b91608941cdb292c68e2301db2233946a361724397be85006b54db667263833",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/ranking.py": "bd898547382a12903b34656c4d06d518c63390efb68aec0fdbd46722066205dd",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass3/pipeline/run_matched.py": "a0a109aa4eab810686e372a57c3d4a5bc3663b9b9d31e49a97a9ab31ec200a39",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass3/theory/refinement.py": "a5ff01561725a879c876952f8e86c4b16c702e54aee7418c056292b08ff43670",
+    "pass4/extraction/test_frozen/claims.jsonl": "e6b255a03a0fd8662dca5f6d917d0fe474b96f9fa520fed544a52c986a9fab7a"
+  },
+  "artifacts": {
+    "units.jsonl": "ee930d03ece56b1bd57393716e4e5dd7cb38256947246b4f3bcb926a2ba581b4",
+    "reader_selected_queries.jsonl": "2ba29c933fe0fc1d4bf95a767cd3d044c61906dede992d540a5482447a5e34a3",
+    "claims.jsonl": "e6b255a03a0fd8662dca5f6d917d0fe474b96f9fa520fed544a52c986a9fab7a",
+    "mechanism_summary.json": "2d83d2d22d5767172d9bc59c03a65934aac0b25bbdc2fc4439c02b1d0e1cacc8",
+    "input_manifest.json": "246d2ae939fbfc0d904d280655f14da5f26dc4688a1d65bf5dba44f380829e6c",
+    "predictions.jsonl": "cbd2867dc0fed4d5d83caaf4e405c37e4273284fa404a06a2c702913dca34912",
+    "reader_memberships.jsonl": "65c724f234bb090e2d9790da9b0b7cfe58f71a2388163d382e3784f6f496b7b9",
+    "counterworlds.jsonl": "cc7e923a6384c47ea4a9812fad08f48b20ce509784096133998a348b23b5ed06",
+    "rejected_claims.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "config.json": "989724a081d536c81d7aedeb128bd67deba6734bc6c983ef3eb740e2e375de8b",
+    "mechanism_questions.jsonl": "698266d4c1700ae48078a0d7d10bed35a8084d592c74e5e34c6d176b9cec2dc9",
+    "reader_jobs.jsonl": "330c581f5642477a4a2ad6a09a2f752a5b41ab0b1f510f31bd414bf33a495750"
+  },
+  "command": "pass4/pipeline/run_matched.py --passages pass3/protocol/test_source_passages.jsonl --queries pass4/protocol/human_test_confirmation_queries.jsonl --claims pass4/extraction/test_frozen/claims.jsonl --config pass4/protocol/config.json --output pass4/pipeline/human --reader-queries pass4/protocol/reader_primary_queries.jsonl --track HUMAN"
+}

@@ -1,0 +1,14 @@
+\paragraph{From source dates to lifecycles.}
+We extract occurrence bounds from dated source spans.
+An explicit duration supplies separate start and end bounds.
+We never use the full duration as start uncertainty.
+An explicit end becomes a hidden replacement event for its own claim.
+We use this reduction when every allowed end follows every allowed start.
+The same two-witness compiler then handles both explicit ends and source-backed replacement pairs.
+The reader receives original source spans and their support tags.
+
+\paragraph{Unknown dates.}
+We retain unmodeled source items under every retrieval policy.
+Their support tag remains unknown.
+Context stability concerns modeled dates with this fixed fallback policy.
+We test claim identifiers before combining claims from the same paragraph.

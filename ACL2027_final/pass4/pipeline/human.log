@@ -1,0 +1,175 @@
+retrieved 50 / 830
+retrieved 100 / 830
+retrieved 150 / 830
+retrieved 200 / 830
+retrieved 250 / 830
+retrieved 300 / 830
+retrieved 350 / 830
+retrieved 400 / 830
+retrieved 450 / 830
+retrieved 500 / 830
+retrieved 550 / 830
+retrieved 600 / 830
+retrieved 650 / 830
+retrieved 700 / 830
+retrieved 750 / 830
+retrieved 800 / 830
+{
+  "corpus": {
+    "passages": 33493,
+    "articles": 749,
+    "units": 34480,
+    "extracted_claims": 744,
+    "modeled_claims": 744,
+    "rejected_claims": 0,
+    "accepted_pairs": 0,
+    "explicit_end_events": 384,
+    "bounded_claim_fraction": 0.02157772621809745
+  },
+  "all_questions": {
+    "n_queries": 830,
+    "counts": {
+      "query_time_parsed": 813,
+      "temporal_extraction_active": 295,
+      "uncertain_start_active": 287,
+      "replacement_active": 0,
+      "claim_context_certificate": 802,
+      "reader_context_certificate": 802,
+      "all_three_completion_context_agreement": 819,
+      "completion_contexts_differ_from_possible": 11,
+      "completion_sensitive": 11,
+      "possible_differs_interval": 0,
+      "possible_differs_no_filter": 36
+    },
+    "fallback_fraction": {
+      "no_temporal_filter": 0.9621686746987952,
+      "earliest_completion": 0.9744578313253012,
+      "midpoint_completion": 0.9725301204819278,
+      "latest_completion": 0.9727710843373494,
+      "interval_outer_control": 0.9722891566265061,
+      "possible_support": 0.9722891566265061,
+      "guaranteed_support": 0.9749397590361446,
+      "latest_mentioned_year_top20": 0.943855421686747,
+      "original_bm25": 0.9498795180722891,
+      "original_bm25_latestyear": 0.9219277108433735
+    }
+  },
+  "slices": {
+    "temporal_extraction_active": {
+      "n_queries": 295,
+      "counts": {
+        "query_time_parsed": 287,
+        "temporal_extraction_active": 295,
+        "uncertain_start_active": 287,
+        "replacement_active": 0,
+        "claim_context_certificate": 276,
+        "reader_context_certificate": 276,
+        "all_three_completion_context_agreement": 284,
+        "completion_contexts_differ_from_possible": 11,
+        "completion_sensitive": 11,
+        "possible_differs_interval": 0,
+        "possible_differs_no_filter": 36
+      },
+      "fallback_fraction": {
+        "no_temporal_filter": 0.8935593220338984,
+        "earliest_completion": 0.928135593220339,
+        "midpoint_completion": 0.9227118644067797,
+        "latest_completion": 0.9233898305084745,
+        "interval_outer_control": 0.9220338983050848,
+        "possible_support": 0.9220338983050848,
+        "guaranteed_support": 0.9294915254237288,
+        "latest_mentioned_year_top20": 0.8420338983050848,
+        "original_bm25": 0.8698305084745763,
+        "original_bm25_latestyear": 0.8257627118644068
+      }
+    },
+    "uncertain_start_active": {
+      "n_queries": 287,
+      "counts": {
+        "query_time_parsed": 279,
+        "temporal_extraction_active": 287,
+        "uncertain_start_active": 287,
+        "replacement_active": 0,
+        "claim_context_certificate": 268,
+        "reader_context_certificate": 268,
+        "all_three_completion_context_agreement": 276,
+        "completion_contexts_differ_from_possible": 11,
+        "completion_sensitive": 11,
+        "possible_differs_interval": 0,
+        "possible_differs_no_filter": 36
+      },
+      "fallback_fraction": {
+        "no_temporal_filter": 0.89198606271777,
+        "earliest_completion": 0.9275261324041811,
+        "midpoint_completion": 0.9219512195121952,
+        "latest_completion": 0.9226480836236934,
+        "interval_outer_control": 0.9212543554006968,
+        "possible_support": 0.9212543554006968,
+        "guaranteed_support": 0.9289198606271778,
+        "latest_mentioned_year_top20": 0.8397212543554007,
+        "original_bm25": 0.867595818815331,
+        "original_bm25_latestyear": 0.8229965156794425
+      }
+    },
+    "replacement_active": {
+      "n_queries": 0,
+      "counts": {
+        "query_time_parsed": 0,
+        "temporal_extraction_active": 0,
+        "uncertain_start_active": 0,
+        "replacement_active": 0,
+        "claim_context_certificate": 0,
+        "reader_context_certificate": 0,
+        "all_three_completion_context_agreement": 0,
+        "completion_contexts_differ_from_possible": 0,
+        "completion_sensitive": 0,
+        "possible_differs_interval": 0,
+        "possible_differs_no_filter": 0
+      },
+      "fallback_fraction": {
+        "no_temporal_filter": null,
+        "earliest_completion": null,
+        "midpoint_completion": null,
+        "latest_completion": null,
+        "interval_outer_control": null,
+        "possible_support": null,
+        "guaranteed_support": null,
+        "latest_mentioned_year_top20": null,
+        "original_bm25": null,
+        "original_bm25_latestyear": null
+      }
+    },
+    "completion_sensitive": {
+      "n_queries": 11,
+      "counts": {
+        "query_time_parsed": 11,
+        "temporal_extraction_active": 11,
+        "uncertain_start_active": 11,
+        "replacement_active": 0,
+        "claim_context_certificate": 0,
+        "reader_context_certificate": 0,
+        "all_three_completion_context_agreement": 0,
+        "completion_contexts_differ_from_possible": 11,
+        "completion_sensitive": 11,
+        "possible_differs_interval": 0,
+        "possible_differs_no_filter": 2
+      },
+      "fallback_fraction": {
+        "no_temporal_filter": 0.6545454545454545,
+        "earliest_completion": 0.8545454545454546,
+        "midpoint_completion": 0.7090909090909091,
+        "latest_completion": 0.7272727272727273,
+        "interval_outer_control": 0.6909090909090909,
+        "possible_support": 0.6909090909090909,
+        "guaranteed_support": 0.890909090909091,
+        "latest_mentioned_year_top20": 0.7272727272727273,
+        "original_bm25": 0.6545454545454545,
+        "original_bm25_latestyear": 0.6909090909090909
+      }
+    }
+  },
+  "reader_jobs": 193,
+  "reader_queries": 60,
+  "feature_gold_reads": 0,
+  "elapsed_seconds": 132.62271404266357
+}

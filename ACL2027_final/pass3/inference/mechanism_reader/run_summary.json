@@ -1,0 +1,11 @@
+{
+  "rows": 22,
+  "total_generation_wall_seconds": 131.13767505300348,
+  "median_request_seconds": 5.846901072000037,
+  "finish_reason_counts": {
+    "stop": 22
+  },
+  "total_completion_tokens": 624,
+  "total_prompt_tokens": 12010,
+  "timing_context": "Shared CPU environment; not a controlled latency benchmark."
+}

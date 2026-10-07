@@ -1,0 +1,95 @@
+{
+  "phase": "Before paragraph review",
+  "created_utc": "2026-10-07T05:45:17.018513+00:00",
+  "inputs": {
+    "adapter": {
+      "path": "pass5/extraction/source_adapter.py",
+      "sha256": "217a493c0ec3f2f831c4e3ae9824a50a3289a8ff4f0fcc7adff40c8a9ce767f5"
+    },
+    "protocol": {
+      "path": "pass5/audit/source_fresh/PROTOCOL.md",
+      "sha256": "4cdc9569262b037c9686b87ee2ac26bdc0735250e4fbabfd0abde4e35d4b2ec5"
+    },
+    "adapter_freeze": {
+      "path": "pass5/extraction/freeze_manifest.json",
+      "sha256": "7340825a041a5279fabf60807f210de201b1c8654ef99a49d7e0ec1610ca013c"
+    },
+    "dependency:pass5/extraction/source_adapter.py": {
+      "path": "pass5/extraction/source_adapter.py",
+      "sha256": "217a493c0ec3f2f831c4e3ae9824a50a3289a8ff4f0fcc7adff40c8a9ce767f5"
+    },
+    "dependency:pass5/extraction/test_source_adapter.py": {
+      "path": "pass5/extraction/test_source_adapter.py",
+      "sha256": "f82faba844d0eca80c9e04fe001a31f52c00cf7b43d374c9011a97a156422511"
+    },
+    "dependency:pass5/extraction/verify_partitions.py": {
+      "path": "pass5/extraction/verify_partitions.py",
+      "sha256": "9e893000f62098ec6f239dc501e01c17919d739733cc54511eefe68d3974e0f5"
+    },
+    "dependency:pass3/extraction/source_adapter.py": {
+      "path": "pass3/extraction/source_adapter.py",
+      "sha256": "2424a76fdcfe08330fddc45853969406f1784bb2f1aad00d90499d79d2a8d185"
+    },
+    "dependency:pass3/extraction/succession_rules.py": {
+      "path": "pass3/extraction/succession_rules.py",
+      "sha256": "7f43b04487ef223b5114c79df203ed8962ef2963f14b7efcc8051e523c6e8795"
+    },
+    "dependency:pass5/extraction/calibration_sources.jsonl": {
+      "path": "pass5/extraction/calibration_sources.jsonl",
+      "sha256": "fae307dfce1de3572e2b14495f21ea8a78c868f7190d21df345642da1a6bd0b3"
+    },
+    "dependency:pass5/audit/source_repair/calibration_exposure.json": {
+      "path": "pass5/audit/source_repair/calibration_exposure.json",
+      "sha256": "b5c092d739fc99d861370d8f69aa5f3ab1ecb2f09e91e597d35bc29c14f592a8"
+    },
+    "dependency:pass5/audit/source_repair/known_case_checks.json": {
+      "path": "pass5/audit/source_repair/known_case_checks.json",
+      "sha256": "8d74cae03c82fb08401b1c37042992fb97992520c33857a34484031b66086770"
+    },
+    "dev_claims": {
+      "path": "pass5/extraction/dev_frozen/claims.jsonl",
+      "sha256": "01f55e346f4147458e3fa8b83e4c977cf76e3c4aab986428db0264627c759f98"
+    },
+    "dev_sources": {
+      "path": "pass2/naturaldata/normalized/dev_passages.jsonl",
+      "sha256": "7ea775985a3ff2a97795a0ffbf2e831da5829c251d0b832f56dab084226f1d6d"
+    },
+    "test_claims": {
+      "path": "pass5/extraction/test_frozen/claims.jsonl",
+      "sha256": "4cc7567b13973a5f3633d5e2d8d68e95d2ea624a38402051a2707e1331cdcf08"
+    },
+    "test_sources": {
+      "path": "pass2/naturaldata/normalized/test_passages.jsonl",
+      "sha256": "c714909ba16e19fc32ec36fc99605d5935c92bc925d7bdb08045388aea4081ba"
+    },
+    "exposure_registry": {
+      "path": "pass5/audit/source_fresh/exposure_registry.json",
+      "sha256": "e251f03ceef73fb0729fe2995490f582a5213b30b3d10445c568edf6e7eb2b34"
+    },
+    "membership": {
+      "path": "pass5/audit/source_fresh/sample_membership.json",
+      "sha256": "d8024bd6640ba7371cff07b698c33f38ebb8ee8198d1967baf5e425d33d35161"
+    },
+    "sample": {
+      "path": "pass5/audit/source_fresh/sample.jsonl",
+      "sha256": "58f7a4c15b9330a4dbc1f6bda97704e8c124dbf06d3897f754fc14a0f19c7c96"
+    }
+  },
+  "populations": {
+    "dev": {
+      "eligible_claims": 289,
+      "claims": 493,
+      "selected": 20
+    },
+    "test": {
+      "eligible_claims": 450,
+      "claims": 464,
+      "selected": 40
+    }
+  },
+  "excluded_article_count": 277,
+  "sample_articles": 55,
+  "current_question_or_answer_reads": 0,
+  "prior_lost_results_reused": false,
+  "prior_exposure_reconstruction_complete": false
+}

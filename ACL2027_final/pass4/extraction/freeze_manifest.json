@@ -1,0 +1,27 @@
+{
+  "id": "pass4-source-clause-v2-freeze",
+  "created_utc": "2026-10-06T12:17:38.001233+00:00",
+  "status": "frozen before full development/test extraction and before any pass4 QA outcomes",
+  "files": {
+    "pass4/extraction/source_adapter.py": "e55a2981bc5e04f84e1534be37669f79860d54fe975f6df0921f0eca618cc74f",
+    "pass3/extraction/source_adapter.py": "2424a76fdcfe08330fddc45853969406f1784bb2f1aad00d90499d79d2a8d185",
+    "pass3/extraction/succession_rules.py": "7f43b04487ef223b5114c79df203ed8962ef2963f14b7efcc8051e523c6e8795",
+    "pass4/extraction/calibration_sources.jsonl": "c5e3c36391a01997bf2b9185ab4c8724ba92caad7fc95b00437885afb1848a77",
+    "pass4/extraction/calibration_v5/claims.jsonl": "f470a7815ba17d85dc7a6a7b8d58c3d11836130487b8c42ac8a7f44c6354f341"
+  },
+  "calibration_source_articles": 86,
+  "calibration_passages": 4030,
+  "calibration_claims": 114,
+  "calibration_explicit_ends": 78,
+  "calibration_pairs": 3,
+  "calibration_origin": "Union of 50 pilot article paths and39 previously recorded calibration reason paths;3 overlap. One calibration source has no eligible development QA.",
+  "feature_inputs": [
+    "source text",
+    "source article title",
+    "paragraph order",
+    "opaque passage identifier"
+  ],
+  "gold_feature_reads": 0,
+  "audit": "Independent model-assisted semantic source audit; candidate errors corrected on calibration only. Not a human annotation study.",
+  "policy": "Never infer exclusivity from a role name. Accept direct pairs only from explicit source succession."
+}

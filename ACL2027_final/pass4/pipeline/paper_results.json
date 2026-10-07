@@ -1,0 +1,200 @@
+{
+  "span_recall": {
+    "validation": {
+      "earliest_completion": 0.6683702441794435,
+      "guaranteed_support": 0.6662407722884724,
+      "interval_outer_control": 0.667305508233958,
+      "latest_completion": 0.6647501419647927,
+      "latest_mentioned_year_top20": 0.6532509937535491,
+      "midpoint_completion": 0.6656019307211811,
+      "no_temporal_filter": 0.6630465644520158,
+      "original_bm25": 0.37840715502555367,
+      "original_bm25_latestyear": 0.5298126064735945,
+      "possible_support": 0.667305508233958
+    },
+    "human": {
+      "earliest_completion": 0.578714859437751,
+      "guaranteed_support": 0.578714859437751,
+      "interval_outer_control": 0.5775100401606426,
+      "latest_completion": 0.5775100401606426,
+      "latest_mentioned_year_top20": 0.6359437751004017,
+      "midpoint_completion": 0.5775100401606426,
+      "no_temporal_filter": 0.5738955823293173,
+      "original_bm25": 0.4389558232931727,
+      "original_bm25_latestyear": 0.5238955823293172,
+      "possible_support": 0.5775100401606426
+    }
+  },
+  "certificate_audits": {
+    "validation": {
+      "audit_kind": "Independent source-free-label replay; direct event scans replace compiler calls.",
+      "all_checks_passed": true,
+      "counts": {
+        "method_contexts_checked": 23480,
+        "queries": 2348,
+        "parsed": 2296,
+        "parsed_all_fallback": 1879,
+        "parsed_all_fallback_stable": 1879,
+        "budget_equalities_checked": 11480,
+        "parsed_modeled": 417,
+        "parsed_modeled_stable": 313,
+        "parsed_modeled_unstable": 104,
+        "worlds_checked": 208,
+        "event_assignments_checked": 257296,
+        "unparsed": 52
+      },
+      "stable_at_budgets_fixed_modeled_cohort": {
+        "1": {
+          "stable": 375,
+          "denominator": 417
+        },
+        "3": {
+          "stable": 322,
+          "denominator": 417
+        },
+        "5": {
+          "stable": 313,
+          "denominator": 417
+        },
+        "10": {
+          "stable": 309,
+          "denominator": 417
+        },
+        "20": {
+          "stable": 305,
+          "denominator": 417
+        }
+      },
+      "counterworld_pairs": 104,
+      "pairs_with_different_rendered_sources": 104,
+      "counterworld_exclusion_reasons": {
+        "retired_by_query_start": 66,
+        "start_after_query": 38
+      },
+      "reader_questions": 0,
+      "reader_logical_conditions": 0,
+      "reader_unique_jobs": 0,
+      "config_unchanged": true,
+      "source_partition_words_preserved": true,
+      "source_partition_nonoverlapping": true,
+      "files": {
+        "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/protocol/audit_confirmation.py": "e4f18a0822ae89fd7056070a72f0767a8e69272e4875b93c22c480f2a3cc9a21",
+        "pass3/protocol/dev_source_passages.jsonl": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4",
+        "pass4/protocol/dev_validation_queries.jsonl": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7",
+        "pass4/pipeline/validation/manifest.json": "99eac7448153f8966fb167c1af482dccab876e14b0d728fb4115fe3707c5d925",
+        "pass4/pipeline/validation/predictions.jsonl": "2b1fc200cf6ee8ccf48adcd26499870a140dc9c275b3ca175b135794276f8c7d",
+        "pass4/pipeline/validation/counterworlds.jsonl": "98f1dc225a25bc96a1bfdfb60cbbf14a7d0a6b7faafd3824035f3d9f237c26ed"
+      }
+    },
+    "human": {
+      "audit_kind": "Independent source-free-label replay; direct event scans replace compiler calls.",
+      "all_checks_passed": true,
+      "counts": {
+        "method_contexts_checked": 8300,
+        "queries": 830,
+        "parsed": 813,
+        "parsed_all_fallback": 723,
+        "parsed_all_fallback_stable": 723,
+        "budget_equalities_checked": 4065,
+        "unparsed": 17,
+        "parsed_modeled": 90,
+        "parsed_modeled_stable": 79,
+        "parsed_modeled_unstable": 11,
+        "worlds_checked": 22,
+        "event_assignments_checked": 24816
+      },
+      "stable_at_budgets_fixed_modeled_cohort": {
+        "1": {
+          "stable": 87,
+          "denominator": 90
+        },
+        "3": {
+          "stable": 81,
+          "denominator": 90
+        },
+        "5": {
+          "stable": 79,
+          "denominator": 90
+        },
+        "10": {
+          "stable": 74,
+          "denominator": 90
+        },
+        "20": {
+          "stable": 66,
+          "denominator": 90
+        }
+      },
+      "counterworld_pairs": 11,
+      "pairs_with_different_rendered_sources": 11,
+      "counterworld_exclusion_reasons": {
+        "start_after_query": 2,
+        "retired_by_query_start": 9
+      },
+      "reader_questions": 60,
+      "reader_logical_conditions": 600,
+      "reader_unique_jobs": 193,
+      "config_unchanged": true,
+      "source_partition_words_preserved": true,
+      "source_partition_nonoverlapping": true,
+      "files": {
+        "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/protocol/audit_confirmation.py": "e4f18a0822ae89fd7056070a72f0767a8e69272e4875b93c22c480f2a3cc9a21",
+        "pass3/protocol/test_source_passages.jsonl": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a",
+        "pass4/protocol/human_test_confirmation_queries.jsonl": "e946ae3e7d494663cf56e0c1462f271f6abd78e12b422e464166d1e8d34d872d",
+        "pass4/pipeline/human/manifest.json": "195ac83ca31af44ee83373f855815e11b1fcc5f3f1f04fd4e0055fba43a55da5",
+        "pass4/pipeline/human/predictions.jsonl": "cbd2867dc0fed4d5d83caaf4e405c37e4273284fa404a06a2c702913dca34912",
+        "pass4/pipeline/human/counterworlds.jsonl": "cc7e923a6384c47ea4a9812fad08f48b20ce509784096133998a348b23b5ed06"
+      }
+    }
+  },
+  "frontend_contrasts": {
+    "validation": {
+      "no_temporal_filter__original_bm25_latestyear": {
+        "delta": 0.13323395797842133,
+        "ci95": [
+          0.10799716914366596,
+          0.15802052579783496
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "latest_mentioned_year_top20__original_bm25_latestyear": {
+        "delta": 0.12343838727995457,
+        "ci95": [
+          0.10164329225102706,
+          0.14580751755472945
+        ],
+        "article_clusters": 644,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    },
+    "human": {
+      "no_temporal_filter__original_bm25_latestyear": {
+        "delta": 0.05,
+        "ci95": [
+          0.0059382422802850355,
+          0.09212121212121212
+        ],
+        "article_clusters": 251,
+        "repetitions": 2000,
+        "seed": 20261006
+      },
+      "latest_mentioned_year_top20__original_bm25_latestyear": {
+        "delta": 0.11204819277108434,
+        "ci95": [
+          0.07523696682464455,
+          0.15193704600484262
+        ],
+        "article_clusters": 251,
+        "repetitions": 2000,
+        "seed": 20261006
+      }
+    }
+  },
+  "sources": {
+    "pass4/pipeline/validation/scored/summary.json": "f338d4176dc808b22ce02d46a7176e092d56af4fef5f316734b39999bebe6e23",
+    "pass4/pipeline/human/scored/summary.json": "772ec80b86412adba2c133fe5c429b1566b14f612cfa2f7c6fbd492f03f7d043"
+  }
+}

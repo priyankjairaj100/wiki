@@ -1,0 +1,52 @@
+{
+  "source_sha256": "bb70d1a4b591a36bbcc6e3d6373cbbbf108e5fc13823764fdc8a4dbab9178ddc",
+  "n_released_keys": 300,
+  "n_found_keys": 300,
+  "n_source_rows": 2677,
+  "multi_answer_rows": 613,
+  "keys_with_any_multi_answer": 245,
+  "keys_single_answer_every_year": 55,
+  "first_answer_transitions": 447,
+  "first_answer_transitions_where_old_answer_remains": 153,
+  "keys_with_such_transitions": 130,
+  "rendered_claims_exactly_match_rebuild": true,
+  "relations": {
+    "P54": {
+      "rows": 535,
+      "multi_rows": 238
+    },
+    "P39": {
+      "rows": 295,
+      "multi_rows": 79
+    },
+    "P69": {
+      "rows": 33,
+      "multi_rows": 3
+    },
+    "P488": {
+      "rows": 357,
+      "multi_rows": 43
+    },
+    "P102": {
+      "rows": 328,
+      "multi_rows": 34
+    },
+    "P108": {
+      "rows": 261,
+      "multi_rows": 39
+    },
+    "P6": {
+      "rows": 422,
+      "multi_rows": 58
+    },
+    "P286": {
+      "rows": 358,
+      "multi_rows": 93
+    },
+    "P127": {
+      "rows": 88,
+      "multi_rows": 26
+    }
+  },
+  "note": "A first-listed answer change is not a retirement when the old answer remains in the complete source answer set."
+}

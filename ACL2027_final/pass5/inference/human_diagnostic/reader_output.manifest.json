@@ -1,0 +1,31 @@
+{
+  "type": "Complete cohort assembled from verified actual requests",
+  "rows": 40,
+  "output_rows": 40,
+  "output_sha256": "4dec80febba71f13dca88dc19da643b86bef163231ad54f9727ecbc670c18149",
+  "input_sha256": "0338abea78e905f373fffb68c8f96887a714818fad20023552417474cf275e36",
+  "reused_exact": 20,
+  "new_delta": 20,
+  "lineage_sha256": "9b56c8541eab01433339960932e07040f2b4487a15139cfa88246adc231a75a4",
+  "execution_identity": {
+    "model_repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+    "model_revision": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+    "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+    "runtime_release": "b11435",
+    "runtime_commit": "43fe9c64281ef735046adc025e9e7559a1f659a5",
+    "max_tokens": 96,
+    "temperature": 0,
+    "seed": 1729,
+    "cache_prompt": false,
+    "json_grammar": false,
+    "threads": 4,
+    "batch_threads": 4,
+    "context_tokens": 2048,
+    "parallel_slots": 1,
+    "gpu_layers": 0,
+    "batch_tokens": 512,
+    "ubatch_tokens": 512,
+    "poll": 0,
+    "poll_batch": 0
+  }
+}

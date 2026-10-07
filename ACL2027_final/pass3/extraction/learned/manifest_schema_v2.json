@@ -1,0 +1,16 @@
+{
+  "variant": "schema-required-source-quotes-v2",
+  "purpose": "Source-only calibration repair after v1 omitted required quote fields. This is not an untouched test.",
+  "changed_factors": [
+    "Required structured output fields",
+    "One leading instruction to copy quotes first"
+  ],
+  "base_prompt_sha256": "9218a39c15c290aeea9f4787bc7225f02db407acbe1569178827180b354994f2",
+  "jobs_sha256": "4808b04a16cd9496d8afe00ee864190d566518c217da04cdf02c3efa6ab0c8e1",
+  "jobs": 30,
+  "validator": "Unchanged learned/validate_outputs.py",
+  "execution_status": "stopped after six completed jobs following grounding and semantic failures",
+  "completed_jobs": 6,
+  "planned_jobs": 30,
+  "final_validation_path": "validated_schema_v2/summary.json"
+}

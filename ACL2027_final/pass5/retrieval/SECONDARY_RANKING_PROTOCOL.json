@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-10-07T05:41:02.250338+00:00",
+  "design": "Repeat all six prespecified pass-4 rank variants on revised source units. No labels or reader outcomes enter analysis.",
+  "status": "Secondary post-audit source revision; not untouched-test confirmation.",
+  "variants": [
+    "bm25",
+    "title_bm25",
+    "title_residual",
+    "bm25_latestyear",
+    "title_bm25_latestyear",
+    "title_residual_latestyear"
+  ],
+  "checks": "Check direct full-mask equality for every query and variant. Check optimized rank equivalence for first six parsed queries per track.",
+  "hashes": {
+    "pass5/retrieval/secondary_rankings.py": "d965558d8e41a6aeeafa1099d23243f0985942d37611782f4110e64dabfb179f",
+    "pass4/retrieval/secondary_rankings.py": "666d072fe32c0184044f6b999a035a836c755b4885ace750240dd0b9629232dd",
+    "pass4/retrieval/ranking.py": "bd898547382a12903b34656c4d06d518c63390efb68aec0fdbd46722066205dd",
+    "pass4/retrieval/lazy_certificate.py": "6264334ccc46694b27ce99ce6b5795a59983b3dda7fefc2f6b1e2fc3e53fdc24",
+    "pass4/retrieval/profile_lazy.py": "443190332ff85fe7b9f760e1a6049e48b17cd19fc5e018c2f3543faf36f0d97a"
+  }
+}

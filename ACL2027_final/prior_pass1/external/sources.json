@@ -1,0 +1,43 @@
+[
+  {
+    "file": "work/external/TempLAMA_test_with_aliases.json",
+    "url": "https://huggingface.co/datasets/Yova/templama/resolve/main/test_with_aliases.json",
+    "bytes": 17977449,
+    "sha256": "bb70d1a4b591a36bbcc6e3d6373cbbbf108e5fc13823764fdc8a4dbab9178ddc",
+    "accessed": "2026-10-06"
+  },
+  {
+    "file": "TempLAMA_mirror_README.md",
+    "url": "https://huggingface.co/datasets/Yova/templama/raw/main/README.md",
+    "error": "HTTP Error 404: Not Found",
+    "accessed": "2026-10-06"
+  },
+  {
+    "file": "work/external/TempLAMA_official_README.md",
+    "url": "https://raw.githubusercontent.com/google-research/language/master/language/templama/README.md",
+    "bytes": 2286,
+    "sha256": "6a68c92481da62ebc97d73695ec529e3523ba40c797f592f69c31083fceb3fe3",
+    "accessed": "2026-10-06"
+  },
+  {
+    "file": "work/external/graphiti_edge_operations.py",
+    "url": "https://raw.githubusercontent.com/getzep/graphiti/main/graphiti_core/utils/maintenance/edge_operations.py",
+    "bytes": 36703,
+    "sha256": "b773ff4489968af2a996d5074e679cab9806cc0904a7ff9f2aecc74382325abe",
+    "accessed": "2026-10-06"
+  },
+  {
+    "file": "work/external/graphiti_LICENSE",
+    "url": "https://raw.githubusercontent.com/getzep/graphiti/main/LICENSE",
+    "bytes": 11325,
+    "sha256": "2825300b20d7b951209835a4a331f29e24725a39d65168e4b831df53aa372650",
+    "accessed": "2026-10-06"
+  },
+  {
+    "file": "work/external/TempLAMA_official_test.json",
+    "url": "https://storage.googleapis.com/gresearch/templama/test.json",
+    "bytes": 13109340,
+    "sha256": "bf3b424a2b5061300a4889439af14ec0c0c025c235c9ba799c34ddd3796020ba",
+    "accessed": "2026-10-06"
+  }
+]

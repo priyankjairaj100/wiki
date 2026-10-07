@@ -1,0 +1,15 @@
+\begin{abstract}
+Sources often date historical changes only to a month or year.
+Guessing exact dates can change the evidence retrieved to answer a question.
+We ask when more precise dates could change that selection.
+Each claim states a fact whose start date lies within a known range.
+Our method summarizes each claim with at most two events that can replace it.
+These summaries distinguish evidence that could apply from evidence that must apply somewhere in the requested period.
+An exact test decides whether every permitted timeline selects the same evidence.
+When selection changes, we construct two valid timelines with different excerpts.
+These decisions require one scan, while asking whether any chosen claim could enter the context is NP-hard.
+A source-only pipeline retrieves evidence for 3,178 historical questions from TimeQA.
+It certifies 245 of 309 contexts with modeled evidence as stable and verifies alternatives for the remaining 64.
+A lazy selector performs fewer than three temporal tests per modeled context on average.
+The resulting interface directs date verification toward uncertainty that changes the reader's evidence.
+\end{abstract}

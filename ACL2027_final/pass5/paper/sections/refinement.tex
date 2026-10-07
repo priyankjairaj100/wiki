@@ -1,0 +1,64 @@
+\subsection{Constructing and resolving an unstable context}
+Let $U=\operatorname{Top}_k(P(Q)\cup F)\setminus(H(Q)\cup F)$.
+These claims have unresolved support and enter the possible context.
+Their status determines whether date uncertainty can change retrieval.
+
+\begin{theorem}[Constructive instability and refinement]
+\label{thm:refinement}
+If $U\ne\varnothing$, we construct two complete date assignments with different contexts in $O(n)$ time.
+Here, $n$ counts the event dates.
+Every date refinement that stabilizes the context makes each claim in $U$ guaranteed or impossible.
+\end{theorem}
+
+Each $c\in U$ has fewer than $k$ possible claims above it.
+Any timeline supporting $c$ therefore selects it.
+We place each accepted replacement of $c$ no later than $c$ or after a supporting query time.
+A second timeline places $c$ after the query, or a direct witness by the query start.
+Date refinement can only remove possible claims.
+Thus a remaining possible pivot cannot leave the possible context through rank changes.
+It must become guaranteed.
+The assignments use only event bounds and the compact certificate.
+Let $N$ count ranked excerpts, including fallback text.
+Full context replay takes $O(n+m+N)$ time with the accepted pair list.
+Appendix~\ref{app:refinement} gives the construction and proof.
+
+A frontier claim can require a more precise start date or replacement date.
+The source witnesses locate the evidence needed for that decision.
+A system can request this evidence, narrow its date bounds, and compile a new certificate.
+New unresolved claims can enter after current pivots disappear.
+We recompute the frontier after each refinement.
+
+\subsection{A tractability boundary}
+Possible support concerns one claim at a time.
+Possible context membership also depends on which higher-ranked claims coexist.
+We ask whether a given claim enters the context under \emph{any} allowed timeline.
+\begin{theorem}[Possible context membership]
+\label{thm:hardness}
+When $k$ is part of the input, deciding possible context membership is NP-hard.
+\end{theorem}
+This holds even for a point query and a bipartite gate with one edge layer.
+\begin{proof}
+Take a Set Cover instance with elements $E$, sets $S_1,\ldots,S_s$, and budget $1\le B\le s$~\citep{karp1972reducibility}.
+Each set becomes a claim $v_j$ with start bounds $[1,3]$.
+Create $B+1$ copies of each element, all starting at time 0.
+Add a candidate $c$ starting at time 0.
+A pair $v_j\to e$ targets every copy of each element in $S_j$.
+No other pairs are accepted.
+Rank every set claim and element copy above $c$.
+Use point query 2 and context budget $B+1$.
+
+For a cover of at most $B$ sets, start its set claims at time 1.
+Start the others at time 3.
+Every element copy retires before the query.
+At most $B$ higher-ranked set claims remain active, so $c$ enters the context.
+Conversely, a context containing $c$ has at most $B$ active higher-ranked claims.
+Its active set claims must cover every element.
+An uncovered element would leave $B+1$ active copies above $c$ and exclude it.
+Thus these claims define a cover of size at most $B$.
+The construction is polynomial because $B\le s$.
+\end{proof}
+Appendix~\ref{app:refinement} also gives a reduction where every start precedes or equals the query time.
+Our stability test instead needs one unresolved claim inside the possible prefix.
+Its rank guarantees selection whenever it has support.
+The test needs only individual support, even when shared events couple claim eligibility.
+This makes exact stability and its witnessing timelines tractable without computing every attainable context member.

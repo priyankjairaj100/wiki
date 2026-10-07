@@ -1,0 +1,30 @@
+{
+  "n_observations": 45866,
+  "graphiti_equals_exact_direct_first": true,
+  "n_different_endpoints": 0,
+  "graphiti_equals_latest_batch": false,
+  "n_latest_batch_differences": 21912,
+  "endpoints_sha256": "afa709100fec8b6f8c9e9e6179163cc2e9cb36849ea415d09c45bfe59139c4c4",
+  "input_observations_sha256": "142730741a5f9c48e8881230e8ef23f6c5691dfee048773171259c563a7e20ff",
+  "interpretation": [
+    "This comparison supplies both policies with identical parsed slots and values.",
+    "The old lexical predicate has a different matcher and is a separate condition.",
+    "Equality concerns the temporal policy, not the complete Graphiti system."
+  ],
+  "upstream_diagnostics": {
+    "label": "Graphiti policy kernel (matched extraction)",
+    "full_system_run": false,
+    "n_observations": 45866,
+    "n_candidate_visits": 182582,
+    "source_sha256": "b773ff4489968af2a996d5074e679cab9806cc0904a7ff9f2aecc74382325abe",
+    "tie_rule": "strict later date only",
+    "time_encoding": "order-preserving ranks encoded as UTC datetimes",
+    "omitted_subsystems": [
+      "LLM extraction",
+      "duplicate merging",
+      "candidate search",
+      "graph storage",
+      "reader generation"
+    ]
+  }
+}

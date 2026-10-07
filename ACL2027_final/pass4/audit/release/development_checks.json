@@ -1,0 +1,71 @@
+{
+  "status": "development_checks_only",
+  "full_retrieval_replay": false,
+  "model_inference_started": false,
+  "checks": {
+    "algorithm_and_resource_freezes": {
+      "run_id": "acl2027-pass4-confirmation-v1",
+      "freeze_sha256": "3c9604e1040a3e51dbbda5787760b9fed734780d0214e9681710a52fd528d6c7",
+      "resource_amendment_files_checked": 7,
+      "original_hash_exceptions_allowed": 0,
+      "checked_files": 27,
+      "failures": [],
+      "all_files_match": true
+    },
+    "source_regression_tests": {
+      "passed": true,
+      "tests": 11
+    },
+    "retrieval_rescoring": {
+      "human": {
+        "questions": 830,
+        "methods": [
+          "earliest_completion",
+          "guaranteed_support",
+          "interval_outer_control",
+          "latest_completion",
+          "latest_mentioned_year_top20",
+          "midpoint_completion",
+          "no_temporal_filter",
+          "original_bm25",
+          "original_bm25_latestyear",
+          "possible_support"
+        ],
+        "metrics_per_method": 5,
+        "all_agree": true,
+        "context_offsets_verified": 41437
+      },
+      "validation": {
+        "questions": 2348,
+        "methods": [
+          "earliest_completion",
+          "guaranteed_support",
+          "interval_outer_control",
+          "latest_completion",
+          "latest_mentioned_year_top20",
+          "midpoint_completion",
+          "no_temporal_filter",
+          "original_bm25",
+          "original_bm25_latestyear",
+          "possible_support"
+        ],
+        "metrics_per_method": 5,
+        "all_agree": true,
+        "context_offsets_verified": 117305
+      }
+    },
+    "paper_reconstruction": {
+      "byte_identical_tables": [
+        "matched.tex",
+        "mechanism.tex",
+        "budget.tex"
+      ],
+      "paper_results_match": true,
+      "stage_is_separate_copy": true
+    }
+  },
+  "not_run": [
+    "release manifest (still pass3)",
+    "reader audits and scoring (batches incomplete)"
+  ]
+}

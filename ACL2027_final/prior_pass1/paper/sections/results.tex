@@ -1,0 +1,85 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Later records can change earlier component states}
+
+Table~\ref{tab:prefix} tests temporal prefix consistency using observed records.
+Component intervals disagree with prefix-only compilation at 8 of 11 TempLAMA event times.
+They disagree at 27 of 42 RealProse event times.
+Direct certificates have zero disagreements on both collections.
+Wikidata has no disagreement under either compiler.
+These results identify a structural failure that depends on the observed pair graph.
+\input{tables/prefix}
+
+The differences can reach the retrieved evidence.
+Full-corpus versus prefix-only component compilation changes the first result for six TempLAMA historical probes and eight RealProse probes.
+The RealProse versions have equal aggregate Hit@1 despite those different selections.
+Thus aggregate accuracy alone does not detect this instability.
+The certificate guarantee applies at each cutoff and record, rather than only to an average score.
+
+\subsection{One pair can affect several component intervals}
+
+Table~\ref{tab:sensitivity} removes accepted pairs from the observed corpora.
+Direct compilation changes at most one interval in every intervention.
+The corresponding maxima for component compilation are four on Wikidata, three on TempLAMA, and eight on RealProse.
+The intervention set contains both correct and incorrect pairs.
+It measures sensitivity to a changed decision, rather than treating every removed pair as an error correction.
+\input{tables/sensitivity}
+
+Cross-key pairs provide a separate error-focused analysis.
+TempLAMA contains 46 accepted cross-key pairs; RealProse contains 96.
+Removing one such pair changes up to three component intervals in either collection.
+Across RealProse event times, these corrections produce 68 component membership changes and 37 direct membership changes.
+Several pair changes leave direct endpoints unchanged because another witness establishes the same first boundary.
+The measured influence agrees with Theorem~\ref{thm:influence}.
+
+\subsection{Evidence accuracy and stale exposure}
+
+Table~\ref{tab:retrieval} reports full-pool retrieval with matched relevance scores.
+Its main TempLAMA rows use complete original answer sets.
+Direct certificates reach historical Hit@1 of 0.982, compared with 0.781 for BM25.
+Exact-group latest reaches 0.984 and component intervals reach 0.975.
+The direct--component difference is 0.0067, with a 95\% interval of $[-0.0023,0.0167]$.
+The direct--exact-group difference is $-0.0022$, with interval $[-0.0183,0.0153]$.
+These close accuracy results accompany different evidence exposure.
+\input{tables/retrieval}
+
+Historical Stale@5 is 0.709 for BM25, 0.166 for exact grouping, and 0.018 for direct certificates.
+Component intervals also reach 0.018.
+Direct certificates preserve historical Hit@5 of 0.991, while exact grouping reaches 1.000.
+The comparison therefore measures a tradeoff between retaining valid alternatives and excluding obsolete evidence.
+For current TempLAMA queries, direct and component selection reach Hit@1 of 0.947.
+Exact grouping reaches 0.883.
+Their difference is 0.0633, with interval $[0.0333,0.0933]$.
+
+RealProse tests the same operations on genuine prose.
+Historical Hit@1 rises from 0.567 for BM25 and exact grouping to 0.835 for direct and component intervals.
+The direct gain over exact grouping is 0.268, with interval $[0.161,0.378]$.
+Direct Hit@5 is 0.938, compared with 0.918 for component intervals.
+Their Stale@5 values are 0.485 and 0.381, respectively.
+The direct rule preserves some evidence that component closure removes.
+Its bounded influence does not imply lower stale exposure in every corpus.
+
+On the source-defined single-answer subset, direct certificates recover 55 of 57 historical first results.
+Exact grouping recovers all 57; component intervals recover 54.
+Direct and component Stale@5 are both 0.018, compared with 0.193 for exact grouping.
+This subset confirms that stale exposure and first-result accuracy measure different properties.
+
+\subsection{Exact compilation and current-mask preservation}
+
+The compiler matches exhaustive direct evaluation on all packaged corpora.
+The checks cover endpoints, selected witnesses, eligibility cutoffs, timestamp ties, and missing timestamps.
+They also verify exact equality with the archived current mask.
+Table~\ref{tab:compiler} reports the main corpora's comparison counts.
+\input{tables/compiler}
+
+For Wikidata, the indexed compiler tests 2,738 pairs against 19,981 strictly ordered pairs in the exhaustive scan.
+For TempLAMA, the counts are 26,538 and 241,154.
+For RealProse, the indexed compiler tests 2,876 pairs.
+These reductions preserve the full set of earliest boundaries.
+They measure this matcher and these corpora, while Equation~\ref{eq:cost} retains the general worst-case cost.
+
+The preserved current masks also preserve previously generated contexts under the archived ranking.
+Appendix~\ref{app:legacy} records the inherited reader results and their original scoring task.
+Those runs assess the unchanged current-answer path.
+The new results in this section assess compiler behavior and evidence selection.

@@ -1,0 +1,15 @@
+\begin{abstract}
+Sources often date an update only to a month or year.
+Historical questions can also cover entire periods.
+Assigning exact dates can then hide uncertainty and discard useful evidence.
+We introduce a temporal retrieval compiler that preserves the source's date constraints.
+It stores at most two replacement records for each claim.
+These records distinguish evidence that could apply from evidence that must apply somewhere within the requested period.
+We prove that two records suffice and can be necessary.
+We also identify exactly when date uncertainty cannot change the ranked claim context.
+Each mistaken directed replacement decision affects only its target claim.
+Independent oracles match all 253,050 tested support decisions and 328,747 context-stability decisions.
+Experiments preserve complete TempLAMA answer sets and original TimeQA paragraphs.
+A latest-value baseline suppresses 13.63\% of accepted annual answers by keeping only one value.
+The results establish an exact selection interface and a source-grounded protocol for temporal evidence.
+\end{abstract}

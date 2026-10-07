@@ -1,0 +1,4748 @@
+[
+  {
+    "key": "Q10520_P54",
+    "date": "2013",
+    "old_first": "Q204357",
+    "new_first": "Q483020",
+    "old_still_valid": false,
+    "answers": [
+      "Q483020"
+    ]
+  },
+  {
+    "key": "Q11571_P54",
+    "date": "2018",
+    "old_first": "Q8682",
+    "new_first": "Q1422",
+    "old_still_valid": true,
+    "answers": [
+      "Q1422",
+      "Q8682"
+    ]
+  },
+  {
+    "key": "Q132738_P54",
+    "date": "2011",
+    "old_first": "Q478309",
+    "new_first": "Q62424",
+    "old_still_valid": false,
+    "answers": [
+      "Q62424"
+    ]
+  },
+  {
+    "key": "Q132738_P54",
+    "date": "2017",
+    "old_first": "Q62424",
+    "new_first": "Q682460",
+    "old_still_valid": false,
+    "answers": [
+      "Q682460"
+    ]
+  },
+  {
+    "key": "Q1045461_P54",
+    "date": "2011",
+    "old_first": "Q223511",
+    "new_first": "Q324523",
+    "old_still_valid": true,
+    "answers": [
+      "Q223511",
+      "Q324523"
+    ]
+  },
+  {
+    "key": "Q1045461_P54",
+    "date": "2013",
+    "old_first": "Q324523",
+    "new_first": "Q224164",
+    "old_still_valid": false,
+    "answers": [
+      "Q224164"
+    ]
+  },
+  {
+    "key": "Q119562_P54",
+    "date": "2012",
+    "old_first": "Q8701",
+    "new_first": "Q50602",
+    "old_still_valid": false,
+    "answers": [
+      "Q50602"
+    ]
+  },
+  {
+    "key": "Q10516040_P54",
+    "date": "2013",
+    "old_first": "Q6837797",
+    "new_first": "Q170649",
+    "old_still_valid": true,
+    "answers": [
+      "Q170649",
+      "Q6837797"
+    ]
+  },
+  {
+    "key": "Q1049059_P54",
+    "date": "2011",
+    "old_first": "Q19490",
+    "new_first": "Q19495",
+    "old_still_valid": false,
+    "answers": [
+      "Q19495"
+    ]
+  },
+  {
+    "key": "Q1049059_P54",
+    "date": "2014",
+    "old_first": "Q19495",
+    "new_first": "Q19458",
+    "old_still_valid": false,
+    "answers": [
+      "Q19458",
+      "Q19477",
+      "Q34044"
+    ]
+  },
+  {
+    "key": "Q1107989_P54",
+    "date": "2016",
+    "old_first": "Q650840",
+    "new_first": "Q329816",
+    "old_still_valid": false,
+    "answers": [
+      "Q329816"
+    ]
+  },
+  {
+    "key": "Q1107989_P54",
+    "date": "2019",
+    "old_first": "Q329816",
+    "new_first": "Q246782",
+    "old_still_valid": false,
+    "answers": [
+      "Q246782"
+    ]
+  },
+  {
+    "key": "Q10514_P54",
+    "date": "2015",
+    "old_first": "Q169898",
+    "new_first": "Q172030",
+    "old_still_valid": false,
+    "answers": [
+      "Q172030"
+    ]
+  },
+  {
+    "key": "Q1255625_P54",
+    "date": "2012",
+    "old_first": "Q631",
+    "new_first": "Q19353",
+    "old_still_valid": false,
+    "answers": [
+      "Q175309",
+      "Q19353"
+    ]
+  },
+  {
+    "key": "Q1255625_P54",
+    "date": "2014",
+    "old_first": "Q19353",
+    "new_first": "Q5794",
+    "old_still_valid": false,
+    "answers": [
+      "Q175309",
+      "Q5794",
+      "Q9616"
+    ]
+  },
+  {
+    "key": "Q1255625_P54",
+    "date": "2016",
+    "old_first": "Q5794",
+    "new_first": "Q43710",
+    "old_still_valid": false,
+    "answers": [
+      "Q43710"
+    ]
+  },
+  {
+    "key": "Q1255625_P54",
+    "date": "2018",
+    "old_first": "Q43710",
+    "new_first": "Q513840",
+    "old_still_valid": true,
+    "answers": [
+      "Q1051203",
+      "Q43710",
+      "Q513840"
+    ]
+  },
+  {
+    "key": "Q1255625_P54",
+    "date": "2019",
+    "old_first": "Q513840",
+    "new_first": "Q1051203",
+    "old_still_valid": false,
+    "answers": [
+      "Q1051203"
+    ]
+  },
+  {
+    "key": "Q124086_P54",
+    "date": "2014",
+    "old_first": "Q631",
+    "new_first": "Q495299",
+    "old_still_valid": false,
+    "answers": [
+      "Q47050",
+      "Q495299"
+    ]
+  },
+  {
+    "key": "Q124086_P54",
+    "date": "2017",
+    "old_first": "Q495299",
+    "new_first": "Q185163",
+    "old_still_valid": true,
+    "answers": [
+      "Q185163",
+      "Q47050",
+      "Q495299"
+    ]
+  },
+  {
+    "key": "Q124086_P54",
+    "date": "2018",
+    "old_first": "Q185163",
+    "new_first": "Q428211",
+    "old_still_valid": true,
+    "answers": [
+      "Q185163",
+      "Q428211",
+      "Q47050"
+    ]
+  },
+  {
+    "key": "Q1042743_P54",
+    "date": "2012",
+    "old_first": "Q692417",
+    "new_first": "Q504309",
+    "old_still_valid": false,
+    "answers": [
+      "Q504309"
+    ]
+  },
+  {
+    "key": "Q10560_P54",
+    "date": "2011",
+    "old_first": "Q308683",
+    "new_first": "Q823384",
+    "old_still_valid": true,
+    "answers": [
+      "Q19593",
+      "Q308683",
+      "Q823384"
+    ]
+  },
+  {
+    "key": "Q10560_P54",
+    "date": "2014",
+    "old_first": "Q823384",
+    "new_first": "Q16845355",
+    "old_still_valid": false,
+    "answers": [
+      "Q16845355"
+    ]
+  },
+  {
+    "key": "Q117436_P54",
+    "date": "2014",
+    "old_first": "Q47774",
+    "new_first": "Q704",
+    "old_still_valid": false,
+    "answers": [
+      "Q704"
+    ]
+  },
+  {
+    "key": "Q117436_P54",
+    "date": "2015",
+    "old_first": "Q704",
+    "new_first": "Q19509",
+    "old_still_valid": true,
+    "answers": [
+      "Q19509",
+      "Q704"
+    ]
+  },
+  {
+    "key": "Q117436_P54",
+    "date": "2019",
+    "old_first": "Q19509",
+    "new_first": "Q503317",
+    "old_still_valid": false,
+    "answers": [
+      "Q503317"
+    ]
+  },
+  {
+    "key": "Q11576_P54",
+    "date": "2011",
+    "old_first": "Q8682",
+    "new_first": "Q32494",
+    "old_still_valid": false,
+    "answers": [
+      "Q32494"
+    ]
+  },
+  {
+    "key": "Q11576_P54",
+    "date": "2012",
+    "old_first": "Q32494",
+    "new_first": "Q283545",
+    "old_still_valid": true,
+    "answers": [
+      "Q283545",
+      "Q32494"
+    ]
+  },
+  {
+    "key": "Q11576_P54",
+    "date": "2015",
+    "old_first": "Q283545",
+    "new_first": "Q646135",
+    "old_still_valid": false,
+    "answers": [
+      "Q13405481",
+      "Q646135"
+    ]
+  },
+  {
+    "key": "Q107365_P54",
+    "date": "2011",
+    "old_first": "Q32494",
+    "new_first": "Q15789",
+    "old_still_valid": true,
+    "answers": [
+      "Q15789",
+      "Q32494"
+    ]
+  },
+  {
+    "key": "Q115453_P54",
+    "date": "2011",
+    "old_first": "Q2331381",
+    "new_first": "Q10329",
+    "old_still_valid": false,
+    "answers": [
+      "Q10329",
+      "Q32494"
+    ]
+  },
+  {
+    "key": "Q115453_P54",
+    "date": "2014",
+    "old_first": "Q10329",
+    "new_first": "Q7156",
+    "old_still_valid": true,
+    "answers": [
+      "Q10329",
+      "Q7156"
+    ]
+  },
+  {
+    "key": "Q1077389_P54",
+    "date": "2015",
+    "old_first": "Q320484",
+    "new_first": "Q224164",
+    "old_still_valid": false,
+    "answers": [
+      "Q224164"
+    ]
+  },
+  {
+    "key": "Q1066501_P54",
+    "date": "2014",
+    "old_first": "Q213837",
+    "new_first": "Q324523",
+    "old_still_valid": false,
+    "answers": [
+      "Q324523"
+    ]
+  },
+  {
+    "key": "Q117743_P54",
+    "date": "2013",
+    "old_first": "Q912881",
+    "new_first": "Q1518836",
+    "old_still_valid": true,
+    "answers": [
+      "Q1518836",
+      "Q15895905",
+      "Q912881"
+    ]
+  },
+  {
+    "key": "Q117743_P54",
+    "date": "2015",
+    "old_first": "Q1518836",
+    "new_first": "Q1156897",
+    "old_still_valid": false,
+    "answers": [
+      "Q1156897",
+      "Q15895905",
+      "Q5874717"
+    ]
+  },
+  {
+    "key": "Q117743_P54",
+    "date": "2017",
+    "old_first": "Q1156897",
+    "new_first": "Q27076773",
+    "old_still_valid": false,
+    "answers": [
+      "Q15895905",
+      "Q21820715",
+      "Q27076773",
+      "Q5874717"
+    ]
+  },
+  {
+    "key": "Q10602_P54",
+    "date": "2012",
+    "old_first": "Q18711",
+    "new_first": "Q47762",
+    "old_still_valid": false,
+    "answers": [
+      "Q18656",
+      "Q47762"
+    ]
+  },
+  {
+    "key": "Q10602_P54",
+    "date": "2014",
+    "old_first": "Q47762",
+    "new_first": "Q18656",
+    "old_still_valid": false,
+    "answers": [
+      "Q18656"
+    ]
+  },
+  {
+    "key": "Q10602_P54",
+    "date": "2020",
+    "old_first": "Q18656",
+    "new_first": "Q631",
+    "old_still_valid": true,
+    "answers": [
+      "Q18656",
+      "Q631"
+    ]
+  },
+  {
+    "key": "Q1208454_P54",
+    "date": "2011",
+    "old_first": "Q744530",
+    "new_first": "Q848103",
+    "old_still_valid": false,
+    "answers": [
+      "Q848103"
+    ]
+  },
+  {
+    "key": "Q1208454_P54",
+    "date": "2012",
+    "old_first": "Q848103",
+    "new_first": "Q743309",
+    "old_still_valid": true,
+    "answers": [
+      "Q334634",
+      "Q743309",
+      "Q848103"
+    ]
+  },
+  {
+    "key": "Q1208454_P54",
+    "date": "2013",
+    "old_first": "Q743309",
+    "new_first": "Q334634",
+    "old_still_valid": false,
+    "answers": [
+      "Q334634"
+    ]
+  },
+  {
+    "key": "Q109428_P54",
+    "date": "2011",
+    "old_first": "Q1422",
+    "new_first": "Q8701",
+    "old_still_valid": false,
+    "answers": [
+      "Q101859",
+      "Q8701"
+    ]
+  },
+  {
+    "key": "Q109428_P54",
+    "date": "2013",
+    "old_first": "Q8701",
+    "new_first": "Q101859",
+    "old_still_valid": false,
+    "answers": [
+      "Q101859"
+    ]
+  },
+  {
+    "key": "Q109428_P54",
+    "date": "2014",
+    "old_first": "Q101859",
+    "new_first": "Q8701",
+    "old_still_valid": true,
+    "answers": [
+      "Q101859",
+      "Q6601875",
+      "Q8701"
+    ]
+  },
+  {
+    "key": "Q109428_P54",
+    "date": "2015",
+    "old_first": "Q8701",
+    "new_first": "Q6601875",
+    "old_still_valid": false,
+    "answers": [
+      "Q6601875"
+    ]
+  },
+  {
+    "key": "Q109428_P54",
+    "date": "2016",
+    "old_first": "Q6601875",
+    "new_first": "Q17479",
+    "old_still_valid": true,
+    "answers": [
+      "Q17479",
+      "Q6601875"
+    ]
+  },
+  {
+    "key": "Q1097511_P54",
+    "date": "2011",
+    "old_first": "Q8027119",
+    "new_first": "Q223514",
+    "old_still_valid": false,
+    "answers": [
+      "Q223514"
+    ]
+  },
+  {
+    "key": "Q107051_P54",
+    "date": "2011",
+    "old_first": "Q101859",
+    "new_first": "Q1422",
+    "old_still_valid": true,
+    "answers": [
+      "Q101859",
+      "Q1422",
+      "Q676899"
+    ]
+  },
+  {
+    "key": "Q10577_P54",
+    "date": "2011",
+    "old_first": "Q2714",
+    "new_first": "Q204238",
+    "old_still_valid": false,
+    "answers": [
+      "Q18656",
+      "Q18750",
+      "Q204238"
+    ]
+  },
+  {
+    "key": "Q10577_P54",
+    "date": "2012",
+    "old_first": "Q204238",
+    "new_first": "Q47762",
+    "old_still_valid": false,
+    "answers": [
+      "Q18656",
+      "Q47762",
+      "Q877411"
+    ]
+  },
+  {
+    "key": "Q10577_P54",
+    "date": "2014",
+    "old_first": "Q47762",
+    "new_first": "Q18711",
+    "old_still_valid": true,
+    "answers": [
+      "Q18656",
+      "Q18711",
+      "Q47762"
+    ]
+  },
+  {
+    "key": "Q10577_P54",
+    "date": "2015",
+    "old_first": "Q18711",
+    "new_first": "Q5794",
+    "old_still_valid": true,
+    "answers": [
+      "Q18656",
+      "Q18711",
+      "Q47762",
+      "Q5794"
+    ]
+  },
+  {
+    "key": "Q128889_P54",
+    "date": "2011",
+    "old_first": "Q1277549",
+    "new_first": "Q212269",
+    "old_still_valid": false,
+    "answers": [
+      "Q175309",
+      "Q212269"
+    ]
+  },
+  {
+    "key": "Q128889_P54",
+    "date": "2014",
+    "old_first": "Q212269",
+    "new_first": "Q19628",
+    "old_still_valid": false,
+    "answers": [
+      "Q175309",
+      "Q19628"
+    ]
+  },
+  {
+    "key": "Q128889_P54",
+    "date": "2015",
+    "old_first": "Q19628",
+    "new_first": "Q18750",
+    "old_still_valid": true,
+    "answers": [
+      "Q175309",
+      "Q18750",
+      "Q19453",
+      "Q19628"
+    ]
+  },
+  {
+    "key": "Q128889_P54",
+    "date": "2016",
+    "old_first": "Q18750",
+    "new_first": "Q19453",
+    "old_still_valid": false,
+    "answers": [
+      "Q175309",
+      "Q19453"
+    ]
+  },
+  {
+    "key": "Q116980_P54",
+    "date": "2011",
+    "old_first": "Q676899",
+    "new_first": "Q1543",
+    "old_still_valid": false,
+    "answers": [
+      "Q1543"
+    ]
+  },
+  {
+    "key": "Q116980_P54",
+    "date": "2012",
+    "old_first": "Q1543",
+    "new_first": "Q321061",
+    "old_still_valid": true,
+    "answers": [
+      "Q1543",
+      "Q321061"
+    ]
+  },
+  {
+    "key": "Q1320688_P54",
+    "date": "2013",
+    "old_first": "Q692417",
+    "new_first": "Q650829",
+    "old_still_valid": false,
+    "answers": [
+      "Q650829"
+    ]
+  },
+  {
+    "key": "Q1097334_P54",
+    "date": "2013",
+    "old_first": "Q18732",
+    "new_first": "Q19481",
+    "old_still_valid": true,
+    "answers": [
+      "Q18732",
+      "Q19453",
+      "Q19481"
+    ]
+  },
+  {
+    "key": "Q131942_P54",
+    "date": "2011",
+    "old_first": "Q131371",
+    "new_first": "Q180950",
+    "old_still_valid": false,
+    "answers": [
+      "Q180950"
+    ]
+  },
+  {
+    "key": "Q113156_P54",
+    "date": "2014",
+    "old_first": "Q18711",
+    "new_first": "Q16839398",
+    "old_still_valid": false,
+    "answers": [
+      "Q16839398"
+    ]
+  },
+  {
+    "key": "Q131234_P54",
+    "date": "2011",
+    "old_first": "Q104761",
+    "new_first": "Q43310",
+    "old_still_valid": false,
+    "answers": [
+      "Q15789",
+      "Q43310"
+    ]
+  },
+  {
+    "key": "Q1133513_P54",
+    "date": "2015",
+    "old_first": "Q826751",
+    "new_first": "Q213417",
+    "old_still_valid": true,
+    "answers": [
+      "Q213417",
+      "Q826751"
+    ]
+  },
+  {
+    "key": "Q109397_P54",
+    "date": "2013",
+    "old_first": "Q51976",
+    "new_first": "Q15789",
+    "old_still_valid": false,
+    "answers": [
+      "Q15789"
+    ]
+  },
+  {
+    "key": "Q109397_P54",
+    "date": "2015",
+    "old_first": "Q15789",
+    "new_first": "Q51976",
+    "old_still_valid": true,
+    "answers": [
+      "Q15789",
+      "Q51976"
+    ]
+  },
+  {
+    "key": "Q10413488_P54",
+    "date": "2011",
+    "old_first": "Q18528",
+    "new_first": "Q19575",
+    "old_still_valid": false,
+    "answers": [
+      "Q19568",
+      "Q19575"
+    ]
+  },
+  {
+    "key": "Q10413488_P54",
+    "date": "2012",
+    "old_first": "Q19575",
+    "new_first": "Q19568",
+    "old_still_valid": false,
+    "answers": [
+      "Q19568"
+    ]
+  },
+  {
+    "key": "Q10413488_P54",
+    "date": "2015",
+    "old_first": "Q19568",
+    "new_first": "Q163547",
+    "old_still_valid": true,
+    "answers": [
+      "Q163547",
+      "Q19568"
+    ]
+  },
+  {
+    "key": "Q10590_P54",
+    "date": "2011",
+    "old_first": "Q18723",
+    "new_first": "Q19598",
+    "old_still_valid": true,
+    "answers": [
+      "Q18723",
+      "Q19467",
+      "Q19598"
+    ]
+  },
+  {
+    "key": "Q10590_P54",
+    "date": "2013",
+    "old_first": "Q19598",
+    "new_first": "Q9426",
+    "old_still_valid": true,
+    "answers": [
+      "Q18527",
+      "Q19598",
+      "Q19604",
+      "Q9426"
+    ]
+  },
+  {
+    "key": "Q10590_P54",
+    "date": "2014",
+    "old_first": "Q9426",
+    "new_first": "Q18527",
+    "old_still_valid": false,
+    "answers": [
+      "Q18527"
+    ]
+  },
+  {
+    "key": "Q121403_P54",
+    "date": "2015",
+    "old_first": "Q268208",
+    "new_first": "Q134241",
+    "old_still_valid": false,
+    "answers": [
+      "Q134241",
+      "Q240444"
+    ]
+  },
+  {
+    "key": "Q121403_P54",
+    "date": "2016",
+    "old_first": "Q134241",
+    "new_first": "Q240444",
+    "old_still_valid": false,
+    "answers": [
+      "Q240444"
+    ]
+  },
+  {
+    "key": "Q10603_P54",
+    "date": "2013",
+    "old_first": "Q2714",
+    "new_first": "Q204238",
+    "old_still_valid": false,
+    "answers": [
+      "Q19451",
+      "Q19462",
+      "Q204238"
+    ]
+  },
+  {
+    "key": "Q10603_P54",
+    "date": "2014",
+    "old_first": "Q204238",
+    "new_first": "Q19458",
+    "old_still_valid": false,
+    "answers": [
+      "Q19451",
+      "Q19458",
+      "Q19462"
+    ]
+  },
+  {
+    "key": "Q10603_P54",
+    "date": "2016",
+    "old_first": "Q19458",
+    "new_first": "Q19578",
+    "old_still_valid": false,
+    "answers": [
+      "Q19578"
+    ]
+  },
+  {
+    "key": "Q1054342_P54",
+    "date": "2011",
+    "old_first": "Q1059757",
+    "new_first": "Q1140533",
+    "old_still_valid": false,
+    "answers": [
+      "Q1140533"
+    ]
+  },
+  {
+    "key": "Q1054342_P54",
+    "date": "2012",
+    "old_first": "Q1140533",
+    "new_first": "Q137747",
+    "old_still_valid": true,
+    "answers": [
+      "Q1140533",
+      "Q137747"
+    ]
+  },
+  {
+    "key": "Q1054342_P54",
+    "date": "2013",
+    "old_first": "Q137747",
+    "new_first": "Q141045",
+    "old_still_valid": true,
+    "answers": [
+      "Q137747",
+      "Q141045"
+    ]
+  },
+  {
+    "key": "Q1054342_P54",
+    "date": "2015",
+    "old_first": "Q141045",
+    "new_first": "Q1278130",
+    "old_still_valid": true,
+    "answers": [
+      "Q1278130",
+      "Q141045"
+    ]
+  },
+  {
+    "key": "Q1328702_P54",
+    "date": "2012",
+    "old_first": "Q19604",
+    "new_first": "Q1128631",
+    "old_still_valid": false,
+    "answers": [
+      "Q1128631"
+    ]
+  },
+  {
+    "key": "Q1328702_P54",
+    "date": "2015",
+    "old_first": "Q1128631",
+    "new_first": "Q48948",
+    "old_still_valid": false,
+    "answers": [
+      "Q48948"
+    ]
+  },
+  {
+    "key": "Q114859_P54",
+    "date": "2015",
+    "old_first": "Q47774",
+    "new_first": "Q9616",
+    "old_still_valid": false,
+    "answers": [
+      "Q9616"
+    ]
+  },
+  {
+    "key": "Q114859_P54",
+    "date": "2018",
+    "old_first": "Q9616",
+    "new_first": "Q8806",
+    "old_still_valid": false,
+    "answers": [
+      "Q11979",
+      "Q19516",
+      "Q8806"
+    ]
+  },
+  {
+    "key": "Q114859_P54",
+    "date": "2019",
+    "old_first": "Q8806",
+    "new_first": "Q19516",
+    "old_still_valid": false,
+    "answers": [
+      "Q19516"
+    ]
+  },
+  {
+    "key": "Q114859_P54",
+    "date": "2020",
+    "old_first": "Q19516",
+    "new_first": "Q272712",
+    "old_still_valid": true,
+    "answers": [
+      "Q19516",
+      "Q272712"
+    ]
+  },
+  {
+    "key": "Q10552391_P54",
+    "date": "2011",
+    "old_first": "Q7419312",
+    "new_first": "Q1671357",
+    "old_still_valid": true,
+    "answers": [
+      "Q1671357",
+      "Q7419312"
+    ]
+  },
+  {
+    "key": "Q10552391_P54",
+    "date": "2013",
+    "old_first": "Q1671357",
+    "new_first": "Q334526",
+    "old_still_valid": false,
+    "answers": [
+      "Q334526",
+      "Q7419312"
+    ]
+  },
+  {
+    "key": "Q10585_P54",
+    "date": "2013",
+    "old_first": "Q19444",
+    "new_first": "Q18744",
+    "old_still_valid": false,
+    "answers": [
+      "Q18744"
+    ]
+  },
+  {
+    "key": "Q10553748_P54",
+    "date": "2012",
+    "old_first": "Q248188",
+    "new_first": "Q2752922",
+    "old_still_valid": true,
+    "answers": [
+      "Q248188",
+      "Q2752922"
+    ]
+  },
+  {
+    "key": "Q10553748_P54",
+    "date": "2014",
+    "old_first": "Q2752922",
+    "new_first": "Q2358861",
+    "old_still_valid": false,
+    "answers": [
+      "Q1049171",
+      "Q2358861",
+      "Q248188"
+    ]
+  },
+  {
+    "key": "Q10553748_P54",
+    "date": "2015",
+    "old_first": "Q2358861",
+    "new_first": "Q248188",
+    "old_still_valid": true,
+    "answers": [
+      "Q18741",
+      "Q204238",
+      "Q2358861",
+      "Q248188",
+      "Q47762"
+    ]
+  },
+  {
+    "key": "Q10553748_P54",
+    "date": "2016",
+    "old_first": "Q248188",
+    "new_first": "Q204238",
+    "old_still_valid": false,
+    "answers": [
+      "Q18741",
+      "Q204238",
+      "Q47762"
+    ]
+  },
+  {
+    "key": "Q10382139_P54",
+    "date": "2014",
+    "old_first": "Q19592",
+    "new_first": "Q48945",
+    "old_still_valid": false,
+    "answers": [
+      "Q19637",
+      "Q48945"
+    ]
+  },
+  {
+    "key": "Q10382139_P54",
+    "date": "2016",
+    "old_first": "Q48945",
+    "new_first": "Q18515",
+    "old_still_valid": false,
+    "answers": [
+      "Q18515"
+    ]
+  },
+  {
+    "key": "Q1151872_P54",
+    "date": "2013",
+    "old_first": "Q213959",
+    "new_first": "Q334634",
+    "old_still_valid": false,
+    "answers": [
+      "Q334634"
+    ]
+  },
+  {
+    "key": "Q1151872_P54",
+    "date": "2018",
+    "old_first": "Q334634",
+    "new_first": "Q692417",
+    "old_still_valid": false,
+    "answers": [
+      "Q692417"
+    ]
+  },
+  {
+    "key": "Q13306_P54",
+    "date": "2011",
+    "old_first": "Q1344163",
+    "new_first": "Q1277549",
+    "old_still_valid": true,
+    "answers": [
+      "Q1277549",
+      "Q1344163",
+      "Q704"
+    ]
+  },
+  {
+    "key": "Q13306_P54",
+    "date": "2013",
+    "old_first": "Q1277549",
+    "new_first": "Q47774",
+    "old_still_valid": false,
+    "answers": [
+      "Q47774",
+      "Q704"
+    ]
+  },
+  {
+    "key": "Q10860995_P54",
+    "date": "2013",
+    "old_first": "Q3044339",
+    "new_first": "Q16932",
+    "old_still_valid": false,
+    "answers": [
+      "Q16932"
+    ]
+  },
+  {
+    "key": "Q10860995_P54",
+    "date": "2014",
+    "old_first": "Q16932",
+    "new_first": "Q1683280",
+    "old_still_valid": true,
+    "answers": [
+      "Q1683280",
+      "Q16932"
+    ]
+  },
+  {
+    "key": "Q11171578_P54",
+    "date": "2011",
+    "old_first": "Q6783192",
+    "new_first": "Q3489807",
+    "old_still_valid": false,
+    "answers": [
+      "Q3489807"
+    ]
+  },
+  {
+    "key": "Q11171578_P54",
+    "date": "2012",
+    "old_first": "Q3489807",
+    "new_first": "Q1321565",
+    "old_still_valid": true,
+    "answers": [
+      "Q1321565",
+      "Q3489807"
+    ]
+  },
+  {
+    "key": "Q113841_P54",
+    "date": "2011",
+    "old_first": "Q279043",
+    "new_first": "Q210170",
+    "old_still_valid": true,
+    "answers": [
+      "Q210170",
+      "Q279043",
+      "Q641373"
+    ]
+  },
+  {
+    "key": "Q113841_P54",
+    "date": "2012",
+    "old_first": "Q210170",
+    "new_first": "Q186262",
+    "old_still_valid": true,
+    "answers": [
+      "Q186262",
+      "Q193481",
+      "Q210170",
+      "Q279043"
+    ]
+  },
+  {
+    "key": "Q113916_P54",
+    "date": "2011",
+    "old_first": "Q18711",
+    "new_first": "Q18716",
+    "old_still_valid": true,
+    "answers": [
+      "Q18711",
+      "Q18716"
+    ]
+  },
+  {
+    "key": "Q113916_P54",
+    "date": "2012",
+    "old_first": "Q18716",
+    "new_first": "Q18711",
+    "old_still_valid": false,
+    "answers": [
+      "Q18711"
+    ]
+  },
+  {
+    "key": "Q113916_P54",
+    "date": "2015",
+    "old_first": "Q18711",
+    "new_first": "Q18736",
+    "old_still_valid": false,
+    "answers": [
+      "Q18736"
+    ]
+  },
+  {
+    "key": "Q1061904_P54",
+    "date": "2013",
+    "old_first": "Q1812121",
+    "new_first": "Q19446",
+    "old_still_valid": false,
+    "answers": [
+      "Q19446",
+      "Q19477"
+    ]
+  },
+  {
+    "key": "Q1061904_P54",
+    "date": "2016",
+    "old_first": "Q19446",
+    "new_first": "Q18708",
+    "old_still_valid": false,
+    "answers": [
+      "Q18708"
+    ]
+  },
+  {
+    "key": "Q10380008_P54",
+    "date": "2011",
+    "old_first": "Q48843",
+    "new_first": "Q19568",
+    "old_still_valid": false,
+    "answers": [
+      "Q19568"
+    ]
+  },
+  {
+    "key": "Q10380008_P54",
+    "date": "2012",
+    "old_first": "Q19568",
+    "new_first": "Q48949",
+    "old_still_valid": true,
+    "answers": [
+      "Q19568",
+      "Q19595",
+      "Q48949"
+    ]
+  },
+  {
+    "key": "Q10380008_P54",
+    "date": "2013",
+    "old_first": "Q48949",
+    "new_first": "Q48929",
+    "old_still_valid": false,
+    "answers": [
+      "Q19595",
+      "Q48929"
+    ]
+  },
+  {
+    "key": "Q10380008_P54",
+    "date": "2015",
+    "old_first": "Q48929",
+    "new_first": "Q18525",
+    "old_still_valid": false,
+    "answers": [
+      "Q18525"
+    ]
+  },
+  {
+    "key": "Q1121443_P54",
+    "date": "2011",
+    "old_first": "Q19495",
+    "new_first": "Q19598",
+    "old_still_valid": false,
+    "answers": [
+      "Q19598"
+    ]
+  },
+  {
+    "key": "Q1121443_P54",
+    "date": "2012",
+    "old_first": "Q19598",
+    "new_first": "Q9408",
+    "old_still_valid": true,
+    "answers": [
+      "Q19598",
+      "Q9408"
+    ]
+  },
+  {
+    "key": "Q1121443_P54",
+    "date": "2013",
+    "old_first": "Q9408",
+    "new_first": "Q47965",
+    "old_still_valid": false,
+    "answers": [
+      "Q19598",
+      "Q47965"
+    ]
+  },
+  {
+    "key": "Q1121443_P54",
+    "date": "2015",
+    "old_first": "Q47965",
+    "new_first": "Q18522",
+    "old_still_valid": true,
+    "answers": [
+      "Q18522",
+      "Q47965"
+    ]
+  },
+  {
+    "key": "Q11860_P39",
+    "date": "2019",
+    "old_first": "Q796897",
+    "new_first": "Q27169",
+    "old_still_valid": false,
+    "answers": [
+      "Q27169"
+    ]
+  },
+  {
+    "key": "Q10853588_P39",
+    "date": "2018",
+    "old_first": "Q3406489",
+    "new_first": "Q4416090",
+    "old_still_valid": false,
+    "answers": [
+      "Q4416090"
+    ]
+  },
+  {
+    "key": "Q1058_P39",
+    "date": "2014",
+    "old_first": "Q3526627",
+    "new_first": "Q4294428",
+    "old_still_valid": true,
+    "answers": [
+      "Q192711",
+      "Q3526627",
+      "Q4294428"
+    ]
+  },
+  {
+    "key": "Q12927_P39",
+    "date": "2018",
+    "old_first": "Q27169",
+    "new_first": "Q140686",
+    "old_still_valid": false,
+    "answers": [
+      "Q140686"
+    ]
+  },
+  {
+    "key": "Q1282411_P39",
+    "date": "2013",
+    "old_first": "Q13218630",
+    "new_first": "Q4416090",
+    "old_still_valid": true,
+    "answers": [
+      "Q13218630",
+      "Q4416090"
+    ]
+  },
+  {
+    "key": "Q11668_P39",
+    "date": "2017",
+    "old_first": "Q3773752",
+    "new_first": "Q1785225",
+    "old_still_valid": true,
+    "answers": [
+      "Q1785225",
+      "Q3773752"
+    ]
+  },
+  {
+    "key": "Q10819_P39",
+    "date": "2011",
+    "old_first": "Q6508563",
+    "new_first": "Q844587",
+    "old_still_valid": true,
+    "answers": [
+      "Q6508563",
+      "Q844587"
+    ]
+  },
+  {
+    "key": "Q1220_P39",
+    "date": "2016",
+    "old_first": "Q332711",
+    "new_first": "Q826589",
+    "old_still_valid": false,
+    "answers": [
+      "Q826589"
+    ]
+  },
+  {
+    "key": "Q1055449_P39",
+    "date": "2012",
+    "old_first": "Q27169",
+    "new_first": "Q1553195",
+    "old_still_valid": true,
+    "answers": [
+      "Q1553195",
+      "Q27169",
+      "Q708492"
+    ]
+  },
+  {
+    "key": "Q1055449_P39",
+    "date": "2016",
+    "old_first": "Q1553195",
+    "new_first": "Q27169",
+    "old_still_valid": false,
+    "answers": [
+      "Q27169"
+    ]
+  },
+  {
+    "key": "Q1055449_P39",
+    "date": "2018",
+    "old_first": "Q27169",
+    "new_first": "Q4011164",
+    "old_still_valid": true,
+    "answers": [
+      "Q27169",
+      "Q4011164"
+    ]
+  },
+  {
+    "key": "Q11669_P39",
+    "date": "2013",
+    "old_first": "Q3773752",
+    "new_first": "Q13218630",
+    "old_still_valid": false,
+    "answers": [
+      "Q13218630"
+    ]
+  },
+  {
+    "key": "Q123665_P39",
+    "date": "2016",
+    "old_first": "Q1209571",
+    "new_first": "Q5261087",
+    "old_still_valid": false,
+    "answers": [
+      "Q5261087"
+    ]
+  },
+  {
+    "key": "Q1148669_P39",
+    "date": "2019",
+    "old_first": "Q2363110",
+    "new_first": "Q273884",
+    "old_still_valid": false,
+    "answers": [
+      "Q273884"
+    ]
+  },
+  {
+    "key": "Q11702_P39",
+    "date": "2011",
+    "old_first": "Q13218630",
+    "new_first": "Q912994",
+    "old_still_valid": true,
+    "answers": [
+      "Q13218630",
+      "Q912994"
+    ]
+  },
+  {
+    "key": "Q1135774_P39",
+    "date": "2015",
+    "old_first": "Q13218630",
+    "new_first": "Q4416090",
+    "old_still_valid": true,
+    "answers": [
+      "Q13218630",
+      "Q4416090"
+    ]
+  },
+  {
+    "key": "Q11112119_P39",
+    "date": "2015",
+    "old_first": "Q30185",
+    "new_first": "Q13218630",
+    "old_still_valid": false,
+    "answers": [
+      "Q13218630"
+    ]
+  },
+  {
+    "key": "Q108447_P39",
+    "date": "2018",
+    "old_first": "Q928764",
+    "new_first": "Q568605",
+    "old_still_valid": false,
+    "answers": [
+      "Q568605"
+    ]
+  },
+  {
+    "key": "Q1227076_P39",
+    "date": "2012",
+    "old_first": "Q1501800",
+    "new_first": "Q6597955",
+    "old_still_valid": false,
+    "answers": [
+      "Q6597955"
+    ]
+  },
+  {
+    "key": "Q12023896_P39",
+    "date": "2018",
+    "old_first": "Q30185",
+    "new_first": "Q3210181",
+    "old_still_valid": true,
+    "answers": [
+      "Q30185",
+      "Q3210181"
+    ]
+  },
+  {
+    "key": "Q1066032_P39",
+    "date": "2016",
+    "old_first": "Q75178",
+    "new_first": "Q611644",
+    "old_still_valid": false,
+    "answers": [
+      "Q611644"
+    ]
+  },
+  {
+    "key": "Q122465_P39",
+    "date": "2020",
+    "old_first": "Q1078482",
+    "new_first": "Q274948",
+    "old_still_valid": true,
+    "answers": [
+      "Q1078482",
+      "Q274948"
+    ]
+  },
+  {
+    "key": "Q12611134_P39",
+    "date": "2017",
+    "old_first": "Q12615101",
+    "new_first": "Q15407843",
+    "old_still_valid": true,
+    "answers": [
+      "Q12615101",
+      "Q15407843"
+    ]
+  },
+  {
+    "key": "Q1287413_P39",
+    "date": "2012",
+    "old_first": "Q6866308",
+    "new_first": "Q16868002",
+    "old_still_valid": false,
+    "answers": [
+      "Q16868002"
+    ]
+  },
+  {
+    "key": "Q1324589_P39",
+    "date": "2019",
+    "old_first": "Q50586662",
+    "new_first": "Q27169",
+    "old_still_valid": true,
+    "answers": [
+      "Q27169",
+      "Q50586662"
+    ]
+  },
+  {
+    "key": "Q1236571_P39",
+    "date": "2011",
+    "old_first": "Q6865833",
+    "new_first": "Q2390270",
+    "old_still_valid": false,
+    "answers": [
+      "Q2390270",
+      "Q5261065"
+    ]
+  },
+  {
+    "key": "Q12149_P39",
+    "date": "2012",
+    "old_first": "Q852152",
+    "new_first": "Q887124",
+    "old_still_valid": false,
+    "answers": [
+      "Q887124"
+    ]
+  },
+  {
+    "key": "Q1334208_P39",
+    "date": "2015",
+    "old_first": "Q27169",
+    "new_first": "Q140686",
+    "old_still_valid": false,
+    "answers": [
+      "Q140686"
+    ]
+  },
+  {
+    "key": "Q11701393_P39",
+    "date": "2011",
+    "old_first": "Q6865784",
+    "new_first": "Q11796924",
+    "old_still_valid": false,
+    "answers": [
+      "Q11796924",
+      "Q6865883"
+    ]
+  },
+  {
+    "key": "Q12269600_P39",
+    "date": "2014",
+    "old_first": "Q16156581",
+    "new_first": "Q42712773",
+    "old_still_valid": true,
+    "answers": [
+      "Q16156581",
+      "Q42712773"
+    ]
+  },
+  {
+    "key": "Q1240224_P39",
+    "date": "2013",
+    "old_first": "Q4931391",
+    "new_first": "Q13218630",
+    "old_still_valid": false,
+    "answers": [
+      "Q13218630"
+    ]
+  },
+  {
+    "key": "Q1290431_P39",
+    "date": "2012",
+    "old_first": "Q786242",
+    "new_first": "Q732029",
+    "old_still_valid": false,
+    "answers": [
+      "Q732029"
+    ]
+  },
+  {
+    "key": "Q11689876_P39",
+    "date": "2014",
+    "old_first": "Q43165333",
+    "new_first": "Q6501749",
+    "old_still_valid": false,
+    "answers": [
+      "Q6501749"
+    ]
+  },
+  {
+    "key": "Q10543612_P39",
+    "date": "2019",
+    "old_first": "Q140686",
+    "new_first": "Q4801269",
+    "old_still_valid": false,
+    "answers": [
+      "Q4801269"
+    ]
+  },
+  {
+    "key": "Q12001809_P39",
+    "date": "2019",
+    "old_first": "Q783943",
+    "new_first": "Q651703",
+    "old_still_valid": true,
+    "answers": [
+      "Q651703",
+      "Q783943"
+    ]
+  },
+  {
+    "key": "Q1021708_P39",
+    "date": "2014",
+    "old_first": "Q5199072",
+    "new_first": "Q27169",
+    "old_still_valid": true,
+    "answers": [
+      "Q140686",
+      "Q27169",
+      "Q5199072",
+      "Q7925068"
+    ]
+  },
+  {
+    "key": "Q1280872_P39",
+    "date": "2019",
+    "old_first": "Q140686",
+    "new_first": "Q30461",
+    "old_still_valid": false,
+    "answers": [
+      "Q30461"
+    ]
+  },
+  {
+    "key": "Q107124_P39",
+    "date": "2016",
+    "old_first": "Q1162163",
+    "new_first": "Q484876",
+    "old_still_valid": false,
+    "answers": [
+      "Q484876"
+    ]
+  },
+  {
+    "key": "Q1029527_P39",
+    "date": "2011",
+    "old_first": "Q30185",
+    "new_first": "Q13218630",
+    "old_still_valid": false,
+    "answers": [
+      "Q13218630"
+    ]
+  },
+  {
+    "key": "Q117867_P69",
+    "date": "2014",
+    "old_first": "Q7309334",
+    "new_first": "Q168756",
+    "old_still_valid": false,
+    "answers": [
+      "Q168756"
+    ]
+  },
+  {
+    "key": "Q109362_P69",
+    "date": "2011",
+    "old_first": "Q152087",
+    "new_first": "Q1352632",
+    "old_still_valid": false,
+    "answers": [
+      "Q1352632"
+    ]
+  },
+  {
+    "key": "Q100560206_P69",
+    "date": "2016",
+    "old_first": "Q4924484",
+    "new_first": "Q21578",
+    "old_still_valid": true,
+    "answers": [
+      "Q21578",
+      "Q4924484"
+    ]
+  },
+  {
+    "key": "Q13056788_P69",
+    "date": "2015",
+    "old_first": "Q1564297",
+    "new_first": "Q1006950",
+    "old_still_valid": false,
+    "answers": [
+      "Q1006950"
+    ]
+  },
+  {
+    "key": "Q1049470_P488",
+    "date": "2011",
+    "old_first": "Q41564",
+    "new_first": "Q5444313",
+    "old_still_valid": false,
+    "answers": [
+      "Q5444313"
+    ]
+  },
+  {
+    "key": "Q10225_P488",
+    "date": "2019",
+    "old_first": "Q10218",
+    "new_first": "Q163225",
+    "old_still_valid": true,
+    "answers": [
+      "Q10218",
+      "Q163225"
+    ]
+  },
+  {
+    "key": "Q10658_P488",
+    "date": "2015",
+    "old_first": "Q10652",
+    "new_first": "Q467112",
+    "old_still_valid": false,
+    "answers": [
+      "Q467112"
+    ]
+  },
+  {
+    "key": "Q13124_P488",
+    "date": "2011",
+    "old_first": "Q58284",
+    "new_first": "Q57789",
+    "old_still_valid": true,
+    "answers": [
+      "Q57789",
+      "Q58284"
+    ]
+  },
+  {
+    "key": "Q13124_P488",
+    "date": "2013",
+    "old_first": "Q57789",
+    "new_first": "Q85806",
+    "old_still_valid": true,
+    "answers": [
+      "Q57789",
+      "Q85806"
+    ]
+  },
+  {
+    "key": "Q1048192_P488",
+    "date": "2018",
+    "old_first": "Q505965",
+    "new_first": "Q3606816",
+    "old_still_valid": false,
+    "answers": [
+      "Q3606816"
+    ]
+  },
+  {
+    "key": "Q130765_P488",
+    "date": "2017",
+    "old_first": "Q1892814",
+    "new_first": "Q6122681",
+    "old_still_valid": true,
+    "answers": [
+      "Q1892814",
+      "Q6122681"
+    ]
+  },
+  {
+    "key": "Q105112_P488",
+    "date": "2011",
+    "old_first": "Q231413",
+    "new_first": "Q714508",
+    "old_still_valid": true,
+    "answers": [
+      "Q231413",
+      "Q714508"
+    ]
+  },
+  {
+    "key": "Q105112_P488",
+    "date": "2013",
+    "old_first": "Q714508",
+    "new_first": "Q2740012",
+    "old_still_valid": false,
+    "answers": [
+      "Q2740012"
+    ]
+  },
+  {
+    "key": "Q102178_P488",
+    "date": "2019",
+    "old_first": "Q313594",
+    "new_first": "Q1430324",
+    "old_still_valid": false,
+    "answers": [
+      "Q1430324"
+    ]
+  },
+  {
+    "key": "Q110843_P488",
+    "date": "2016",
+    "old_first": "Q52920",
+    "new_first": "Q4767161",
+    "old_still_valid": false,
+    "answers": [
+      "Q4767161"
+    ]
+  },
+  {
+    "key": "Q110843_P488",
+    "date": "2018",
+    "old_first": "Q4767161",
+    "new_first": "Q1780398",
+    "old_still_valid": false,
+    "answers": [
+      "Q1780398"
+    ]
+  },
+  {
+    "key": "Q10691_P488",
+    "date": "2018",
+    "old_first": "Q10694",
+    "new_first": "Q3405033",
+    "old_still_valid": true,
+    "answers": [
+      "Q10694",
+      "Q3405033"
+    ]
+  },
+  {
+    "key": "Q1115878_P488",
+    "date": "2015",
+    "old_first": "Q5343985",
+    "new_first": "Q7364772",
+    "old_still_valid": true,
+    "answers": [
+      "Q5343985",
+      "Q7364772"
+    ]
+  },
+  {
+    "key": "Q117892_P488",
+    "date": "2018",
+    "old_first": "Q377263",
+    "new_first": "Q16254734",
+    "old_still_valid": false,
+    "answers": [
+      "Q16254734"
+    ]
+  },
+  {
+    "key": "Q1127218_P488",
+    "date": "2016",
+    "old_first": "Q713235",
+    "new_first": "Q217070",
+    "old_still_valid": true,
+    "answers": [
+      "Q217070",
+      "Q713235"
+    ]
+  },
+  {
+    "key": "Q12565_P488",
+    "date": "2014",
+    "old_first": "Q12817",
+    "new_first": "Q10752792",
+    "old_still_valid": false,
+    "answers": [
+      "Q10752792"
+    ]
+  },
+  {
+    "key": "Q1158_P488",
+    "date": "2015",
+    "old_first": "Q1639",
+    "new_first": "Q188502",
+    "old_still_valid": true,
+    "answers": [
+      "Q1639",
+      "Q188502"
+    ]
+  },
+  {
+    "key": "Q1163431_P488",
+    "date": "2017",
+    "old_first": "Q3320815",
+    "new_first": "Q2829824",
+    "old_still_valid": false,
+    "answers": [
+      "Q1892733",
+      "Q2829824"
+    ]
+  },
+  {
+    "key": "Q110857_P488",
+    "date": "2020",
+    "old_first": "Q911372",
+    "new_first": "Q241851",
+    "old_still_valid": false,
+    "answers": [
+      "Q241851"
+    ]
+  },
+  {
+    "key": "Q1070388_P488",
+    "date": "2011",
+    "old_first": "Q2987224",
+    "new_first": "Q1711587",
+    "old_still_valid": false,
+    "answers": [
+      "Q1711587"
+    ]
+  },
+  {
+    "key": "Q1070388_P488",
+    "date": "2014",
+    "old_first": "Q1711587",
+    "new_first": "Q2589861",
+    "old_still_valid": false,
+    "answers": [
+      "Q12154591",
+      "Q2589861"
+    ]
+  },
+  {
+    "key": "Q1070388_P488",
+    "date": "2019",
+    "old_first": "Q2589861",
+    "new_first": "Q16716966",
+    "old_still_valid": false,
+    "answers": [
+      "Q16716966"
+    ]
+  },
+  {
+    "key": "Q1029792_P488",
+    "date": "2013",
+    "old_first": "Q2977816",
+    "new_first": "Q561213",
+    "old_still_valid": true,
+    "answers": [
+      "Q2977816",
+      "Q561213"
+    ]
+  },
+  {
+    "key": "Q1029792_P488",
+    "date": "2016",
+    "old_first": "Q561213",
+    "new_first": "Q15629005",
+    "old_still_valid": false,
+    "answers": [
+      "Q15629005"
+    ]
+  },
+  {
+    "key": "Q1142687_P488",
+    "date": "2011",
+    "old_first": "Q696669",
+    "new_first": "Q1373840",
+    "old_still_valid": false,
+    "answers": [
+      "Q1373840"
+    ]
+  },
+  {
+    "key": "Q1142687_P488",
+    "date": "2020",
+    "old_first": "Q1373840",
+    "new_first": "Q13434626",
+    "old_still_valid": false,
+    "answers": [
+      "Q13434626",
+      "Q30184731"
+    ]
+  },
+  {
+    "key": "Q1076494_P488",
+    "date": "2014",
+    "old_first": "Q630738",
+    "new_first": "Q3497963",
+    "old_still_valid": false,
+    "answers": [
+      "Q3497963"
+    ]
+  },
+  {
+    "key": "Q1114833_P488",
+    "date": "2014",
+    "old_first": "Q1110125",
+    "new_first": "Q7002247",
+    "old_still_valid": false,
+    "answers": [
+      "Q7002247"
+    ]
+  },
+  {
+    "key": "Q1186316_P488",
+    "date": "2017",
+    "old_first": "Q57634",
+    "new_first": "Q13040485",
+    "old_still_valid": false,
+    "answers": [
+      "Q13040485"
+    ]
+  },
+  {
+    "key": "Q1186234_P488",
+    "date": "2015",
+    "old_first": "Q57888",
+    "new_first": "Q81065",
+    "old_still_valid": false,
+    "answers": [
+      "Q81065"
+    ]
+  },
+  {
+    "key": "Q11739162_P488",
+    "date": "2014",
+    "old_first": "Q4372354",
+    "new_first": "Q4275699",
+    "old_still_valid": false,
+    "answers": [
+      "Q12096690",
+      "Q31919",
+      "Q4275699",
+      "Q7940558"
+    ]
+  },
+  {
+    "key": "Q11739162_P488",
+    "date": "2015",
+    "old_first": "Q4275699",
+    "new_first": "Q31919",
+    "old_still_valid": false,
+    "answers": [
+      "Q31919"
+    ]
+  },
+  {
+    "key": "Q1138982_P488",
+    "date": "2016",
+    "old_first": "Q438819",
+    "new_first": "Q241563",
+    "old_still_valid": false,
+    "answers": [
+      "Q241563"
+    ]
+  },
+  {
+    "key": "Q126638_P488",
+    "date": "2013",
+    "old_first": "Q9126015",
+    "new_first": "Q725831",
+    "old_still_valid": true,
+    "answers": [
+      "Q725831",
+      "Q9126015"
+    ]
+  },
+  {
+    "key": "Q1200258_P488",
+    "date": "2018",
+    "old_first": "Q7151652",
+    "new_first": "Q4679029",
+    "old_still_valid": false,
+    "answers": [
+      "Q4679029"
+    ]
+  },
+  {
+    "key": "Q1152752_P488",
+    "date": "2018",
+    "old_first": "Q57530",
+    "new_first": "Q4417193",
+    "old_still_valid": false,
+    "answers": [
+      "Q4417193"
+    ]
+  },
+  {
+    "key": "Q1186190_P488",
+    "date": "2017",
+    "old_first": "Q6123122",
+    "new_first": "Q8291839",
+    "old_still_valid": true,
+    "answers": [
+      "Q6123122",
+      "Q8291839"
+    ]
+  },
+  {
+    "key": "Q1128374_P488",
+    "date": "2015",
+    "old_first": "Q317400",
+    "new_first": "Q8084240",
+    "old_still_valid": false,
+    "answers": [
+      "Q8084240"
+    ]
+  },
+  {
+    "key": "Q1002010_P488",
+    "date": "2011",
+    "old_first": "Q6539250",
+    "new_first": "Q8292013",
+    "old_still_valid": false,
+    "answers": [
+      "Q8292013"
+    ]
+  },
+  {
+    "key": "Q1073219_P488",
+    "date": "2012",
+    "old_first": "Q1109829",
+    "new_first": "Q7488353",
+    "old_still_valid": false,
+    "answers": [
+      "Q7488353"
+    ]
+  },
+  {
+    "key": "Q11667656_P488",
+    "date": "2020",
+    "old_first": "Q312440",
+    "new_first": "Q7296702",
+    "old_still_valid": false,
+    "answers": [
+      "Q7296702"
+    ]
+  },
+  {
+    "key": "Q11958392_P488",
+    "date": "2011",
+    "old_first": "Q11978428",
+    "new_first": "Q463689",
+    "old_still_valid": true,
+    "answers": [
+      "Q11978428",
+      "Q463689"
+    ]
+  },
+  {
+    "key": "Q11860_P102",
+    "date": "2014",
+    "old_first": "Q47720",
+    "new_first": "Q14924303",
+    "old_still_valid": false,
+    "answers": [
+      "Q14924303"
+    ]
+  },
+  {
+    "key": "Q10304982_P102",
+    "date": "2016",
+    "old_first": "Q732852",
+    "new_first": "Q2626213",
+    "old_still_valid": true,
+    "answers": [
+      "Q2626213",
+      "Q732852"
+    ]
+  },
+  {
+    "key": "Q10304982_P102",
+    "date": "2019",
+    "old_first": "Q2626213",
+    "new_first": "Q2366265",
+    "old_still_valid": false,
+    "answers": [
+      "Q2366265"
+    ]
+  },
+  {
+    "key": "Q12752142_P102",
+    "date": "2011",
+    "old_first": "Q3445459",
+    "new_first": "Q16117007",
+    "old_still_valid": false,
+    "answers": [
+      "Q16117007"
+    ]
+  },
+  {
+    "key": "Q12752142_P102",
+    "date": "2020",
+    "old_first": "Q16117007",
+    "new_first": "Q79428181",
+    "old_still_valid": false,
+    "answers": [
+      "Q79428181"
+    ]
+  },
+  {
+    "key": "Q1060949_P102",
+    "date": "2016",
+    "old_first": "Q1668154",
+    "new_first": "Q26871088",
+    "old_still_valid": true,
+    "answers": [
+      "Q1668154",
+      "Q26871088"
+    ]
+  },
+  {
+    "key": "Q101410_P102",
+    "date": "2015",
+    "old_first": "Q173152",
+    "new_first": "Q20012759",
+    "old_still_valid": true,
+    "answers": [
+      "Q173152",
+      "Q20012759"
+    ]
+  },
+  {
+    "key": "Q11163124_P102",
+    "date": "2016",
+    "old_first": "Q24665806",
+    "new_first": "Q27108508",
+    "old_still_valid": true,
+    "answers": [
+      "Q24665806",
+      "Q27108508"
+    ]
+  },
+  {
+    "key": "Q11163124_P102",
+    "date": "2017",
+    "old_first": "Q27108508",
+    "new_first": "Q327591",
+    "old_still_valid": true,
+    "answers": [
+      "Q27108508",
+      "Q327591"
+    ]
+  },
+  {
+    "key": "Q12877513_P102",
+    "date": "2015",
+    "old_first": "Q222897",
+    "new_first": "Q20855700",
+    "old_still_valid": true,
+    "answers": [
+      "Q20855700",
+      "Q222897"
+    ]
+  },
+  {
+    "key": "Q12877513_P102",
+    "date": "2016",
+    "old_first": "Q20855700",
+    "new_first": "Q24204945",
+    "old_still_valid": false,
+    "answers": [
+      "Q24204945"
+    ]
+  },
+  {
+    "key": "Q11936570_P102",
+    "date": "2017",
+    "old_first": "Q1129443",
+    "new_first": "Q25713876",
+    "old_still_valid": false,
+    "answers": [
+      "Q25713876"
+    ]
+  },
+  {
+    "key": "Q11714338_P102",
+    "date": "2014",
+    "old_first": "Q837296",
+    "new_first": "Q327591",
+    "old_still_valid": true,
+    "answers": [
+      "Q327591",
+      "Q837296"
+    ]
+  },
+  {
+    "key": "Q11714338_P102",
+    "date": "2016",
+    "old_first": "Q327591",
+    "new_first": "Q904070",
+    "old_still_valid": false,
+    "answers": [
+      "Q904070"
+    ]
+  },
+  {
+    "key": "Q132280_P102",
+    "date": "2017",
+    "old_first": "Q23055252",
+    "new_first": "Q327591",
+    "old_still_valid": true,
+    "answers": [
+      "Q23055252",
+      "Q327591"
+    ]
+  },
+  {
+    "key": "Q12625765_P102",
+    "date": "2020",
+    "old_first": "Q327591",
+    "new_first": "Q20916",
+    "old_still_valid": false,
+    "answers": [
+      "Q20916",
+      "Q85412437"
+    ]
+  },
+  {
+    "key": "Q105564_P102",
+    "date": "2015",
+    "old_first": "Q6721203",
+    "new_first": "Q20681849",
+    "old_still_valid": true,
+    "answers": [
+      "Q20681849",
+      "Q6721203"
+    ]
+  },
+  {
+    "key": "Q1032587_P102",
+    "date": "2012",
+    "old_first": "Q2055003",
+    "new_first": "Q5846148",
+    "old_still_valid": true,
+    "answers": [
+      "Q2055003",
+      "Q5846148"
+    ]
+  },
+  {
+    "key": "Q1032587_P102",
+    "date": "2015",
+    "old_first": "Q5846148",
+    "new_first": "Q20103988",
+    "old_still_valid": false,
+    "answers": [
+      "Q20103988"
+    ]
+  },
+  {
+    "key": "Q1032587_P102",
+    "date": "2018",
+    "old_first": "Q20103988",
+    "new_first": "Q150068",
+    "old_still_valid": true,
+    "answers": [
+      "Q150068",
+      "Q20103988"
+    ]
+  },
+  {
+    "key": "Q12725946_P102",
+    "date": "2013",
+    "old_first": "Q783621",
+    "new_first": "Q962976",
+    "old_still_valid": false,
+    "answers": [
+      "Q962976"
+    ]
+  },
+  {
+    "key": "Q13157830_P102",
+    "date": "2017",
+    "old_first": "Q20682633",
+    "new_first": "Q216517",
+    "old_still_valid": false,
+    "answers": [
+      "Q216517"
+    ]
+  },
+  {
+    "key": "Q10949778_P102",
+    "date": "2016",
+    "old_first": "Q1144342",
+    "new_first": "Q1393123",
+    "old_still_valid": false,
+    "answers": [
+      "Q1393123"
+    ]
+  },
+  {
+    "key": "Q11703587_P102",
+    "date": "2014",
+    "old_first": "Q185088",
+    "new_first": "Q15630787",
+    "old_still_valid": false,
+    "answers": [
+      "Q15630787"
+    ]
+  },
+  {
+    "key": "Q11015795_P102",
+    "date": "2017",
+    "old_first": "Q669307",
+    "new_first": "Q23774883",
+    "old_still_valid": false,
+    "answers": [
+      "Q23774883"
+    ]
+  },
+  {
+    "key": "Q12875947_P102",
+    "date": "2017",
+    "old_first": "Q927007",
+    "new_first": "Q24045777",
+    "old_still_valid": false,
+    "answers": [
+      "Q24045777"
+    ]
+  },
+  {
+    "key": "Q11928385_P102",
+    "date": "2017",
+    "old_first": "Q1129443",
+    "new_first": "Q25713876",
+    "old_still_valid": false,
+    "answers": [
+      "Q25713876"
+    ]
+  },
+  {
+    "key": "Q12720018_P102",
+    "date": "2013",
+    "old_first": "Q852402",
+    "new_first": "Q15732550",
+    "old_still_valid": true,
+    "answers": [
+      "Q15732550",
+      "Q852402"
+    ]
+  },
+  {
+    "key": "Q12720018_P102",
+    "date": "2015",
+    "old_first": "Q15732550",
+    "new_first": "Q20647668",
+    "old_still_valid": false,
+    "answers": [
+      "Q20647668"
+    ]
+  },
+  {
+    "key": "Q12625372_P102",
+    "date": "2020",
+    "old_first": "Q20916",
+    "new_first": "Q34075424",
+    "old_still_valid": false,
+    "answers": [
+      "Q34075424"
+    ]
+  },
+  {
+    "key": "Q1102044_P102",
+    "date": "2011",
+    "old_first": "Q47729",
+    "new_first": "Q47781",
+    "old_still_valid": false,
+    "answers": [
+      "Q47781"
+    ]
+  },
+  {
+    "key": "Q1261965_P102",
+    "date": "2013",
+    "old_first": "Q830323",
+    "new_first": "Q15953679",
+    "old_still_valid": true,
+    "answers": [
+      "Q15953679",
+      "Q830323"
+    ]
+  },
+  {
+    "key": "Q11922769_P102",
+    "date": "2017",
+    "old_first": "Q1129443",
+    "new_first": "Q25713876",
+    "old_still_valid": false,
+    "answers": [
+      "Q25713876"
+    ]
+  },
+  {
+    "key": "Q10340805_P102",
+    "date": "2012",
+    "old_first": "Q429972",
+    "new_first": "Q2054750",
+    "old_still_valid": false,
+    "answers": [
+      "Q2054750"
+    ]
+  },
+  {
+    "key": "Q1002295_P102",
+    "date": "2013",
+    "old_first": "Q200599",
+    "new_first": "Q15246541",
+    "old_still_valid": false,
+    "answers": [
+      "Q15246541"
+    ]
+  },
+  {
+    "key": "Q123517_P102",
+    "date": "2018",
+    "old_first": "Q49766",
+    "new_first": "Q49762",
+    "old_still_valid": false,
+    "answers": [
+      "Q49762"
+    ]
+  },
+  {
+    "key": "Q11989087_P102",
+    "date": "2011",
+    "old_first": "Q916161",
+    "new_first": "Q478180",
+    "old_still_valid": false,
+    "answers": [
+      "Q478180"
+    ]
+  },
+  {
+    "key": "Q12326451_P102",
+    "date": "2013",
+    "old_first": "Q615603",
+    "new_first": "Q212101",
+    "old_still_valid": true,
+    "answers": [
+      "Q212101",
+      "Q615603"
+    ]
+  },
+  {
+    "key": "Q1238152_P102",
+    "date": "2017",
+    "old_first": "Q170972",
+    "new_first": "Q31400965",
+    "old_still_valid": true,
+    "answers": [
+      "Q170972",
+      "Q31400965"
+    ]
+  },
+  {
+    "key": "Q12048555_P102",
+    "date": "2013",
+    "old_first": "Q828099",
+    "new_first": "Q14923603",
+    "old_still_valid": false,
+    "answers": [
+      "Q14923603"
+    ]
+  },
+  {
+    "key": "Q131112_P108",
+    "date": "2016",
+    "old_first": "Q21578",
+    "new_first": "Q1024543",
+    "old_still_valid": false,
+    "answers": [
+      "Q1024543"
+    ]
+  },
+  {
+    "key": "Q1289901_P108",
+    "date": "2012",
+    "old_first": "Q334122",
+    "new_first": "Q334204",
+    "old_still_valid": false,
+    "answers": [
+      "Q334204"
+    ]
+  },
+  {
+    "key": "Q12014326_P108",
+    "date": "2012",
+    "old_first": "Q655286",
+    "new_first": "Q483551",
+    "old_still_valid": false,
+    "answers": [
+      "Q483551"
+    ]
+  },
+  {
+    "key": "Q12014326_P108",
+    "date": "2017",
+    "old_first": "Q483551",
+    "new_first": "Q168000",
+    "old_still_valid": false,
+    "answers": [
+      "Q168000"
+    ]
+  },
+  {
+    "key": "Q1042470_P108",
+    "date": "2012",
+    "old_first": "Q180438",
+    "new_first": "Q2302586",
+    "old_still_valid": false,
+    "answers": [
+      "Q2302586"
+    ]
+  },
+  {
+    "key": "Q11540606_P108",
+    "date": "2016",
+    "old_first": "Q720503",
+    "new_first": "Q41738",
+    "old_still_valid": false,
+    "answers": [
+      "Q41738"
+    ]
+  },
+  {
+    "key": "Q1155636_P108",
+    "date": "2017",
+    "old_first": "Q743717",
+    "new_first": "Q4052634",
+    "old_still_valid": true,
+    "answers": [
+      "Q4052634",
+      "Q743717"
+    ]
+  },
+  {
+    "key": "Q12524647_P108",
+    "date": "2013",
+    "old_first": "Q5115984",
+    "new_first": "Q13322850",
+    "old_still_valid": false,
+    "answers": [
+      "Q13322850"
+    ]
+  },
+  {
+    "key": "Q11739443_P108",
+    "date": "2017",
+    "old_first": "Q248710",
+    "new_first": "Q872173",
+    "old_still_valid": false,
+    "answers": [
+      "Q872173"
+    ]
+  },
+  {
+    "key": "Q1084303_P108",
+    "date": "2011",
+    "old_first": "Q161562",
+    "new_first": "Q4731705",
+    "old_still_valid": true,
+    "answers": [
+      "Q161562",
+      "Q4731705"
+    ]
+  },
+  {
+    "key": "Q124784_P108",
+    "date": "2012",
+    "old_first": "Q372608",
+    "new_first": "Q673354",
+    "old_still_valid": false,
+    "answers": [
+      "Q673354"
+    ]
+  },
+  {
+    "key": "Q1079331_P108",
+    "date": "2018",
+    "old_first": "Q152171",
+    "new_first": "Q162684",
+    "old_still_valid": false,
+    "answers": [
+      "Q162684"
+    ]
+  },
+  {
+    "key": "Q11869065_P108",
+    "date": "2014",
+    "old_first": "Q3741208",
+    "new_first": "Q8889",
+    "old_still_valid": true,
+    "answers": [
+      "Q217799",
+      "Q3741208",
+      "Q8889"
+    ]
+  },
+  {
+    "key": "Q11443689_P108",
+    "date": "2011",
+    "old_first": "Q847117",
+    "new_first": "Q1191132",
+    "old_still_valid": false,
+    "answers": [
+      "Q1191132"
+    ]
+  },
+  {
+    "key": "Q1163740_P108",
+    "date": "2019",
+    "old_first": "Q827768",
+    "new_first": "Q1050350",
+    "old_still_valid": false,
+    "answers": [
+      "Q1050350"
+    ]
+  },
+  {
+    "key": "Q100749_P108",
+    "date": "2016",
+    "old_first": "Q317070",
+    "new_first": "Q55044",
+    "old_still_valid": true,
+    "answers": [
+      "Q191206",
+      "Q314073",
+      "Q317070",
+      "Q55044"
+    ]
+  },
+  {
+    "key": "Q100749_P108",
+    "date": "2017",
+    "old_first": "Q55044",
+    "new_first": "Q314073",
+    "old_still_valid": true,
+    "answers": [
+      "Q314073",
+      "Q55044"
+    ]
+  },
+  {
+    "key": "Q11594_P108",
+    "date": "2011",
+    "old_first": "Q531285",
+    "new_first": "Q1064071",
+    "old_still_valid": false,
+    "answers": [
+      "Q1064071"
+    ]
+  },
+  {
+    "key": "Q11594_P108",
+    "date": "2016",
+    "old_first": "Q1064071",
+    "new_first": "Q204457",
+    "old_still_valid": true,
+    "answers": [
+      "Q1064071",
+      "Q204457"
+    ]
+  },
+  {
+    "key": "Q11207061_P108",
+    "date": "2012",
+    "old_first": "Q1859178",
+    "new_first": "Q487556",
+    "old_still_valid": false,
+    "answers": [
+      "Q487556"
+    ]
+  },
+  {
+    "key": "Q1238709_P108",
+    "date": "2017",
+    "old_first": "Q390287",
+    "new_first": "Q12815487",
+    "old_still_valid": true,
+    "answers": [
+      "Q12815487",
+      "Q390287"
+    ]
+  },
+  {
+    "key": "Q11201210_P108",
+    "date": "2013",
+    "old_first": "Q618239",
+    "new_first": "Q869662",
+    "old_still_valid": false,
+    "answers": [
+      "Q869662"
+    ]
+  },
+  {
+    "key": "Q11767660_P108",
+    "date": "2014",
+    "old_first": "Q4294646",
+    "new_first": "Q15265902",
+    "old_still_valid": false,
+    "answers": [
+      "Q15265902"
+    ]
+  },
+  {
+    "key": "Q11743_P108",
+    "date": "2018",
+    "old_first": "Q1144262",
+    "new_first": "Q1049470",
+    "old_still_valid": false,
+    "answers": [
+      "Q1049470"
+    ]
+  },
+  {
+    "key": "Q1325724_P108",
+    "date": "2016",
+    "old_first": "Q189022",
+    "new_first": "Q34433",
+    "old_still_valid": false,
+    "answers": [
+      "Q34433"
+    ]
+  },
+  {
+    "key": "Q12377820_P108",
+    "date": "2016",
+    "old_first": "Q387634",
+    "new_first": "Q823031",
+    "old_still_valid": false,
+    "answers": [
+      "Q823031"
+    ]
+  },
+  {
+    "key": "Q11768297_P108",
+    "date": "2013",
+    "old_first": "Q2164678",
+    "new_first": "Q9208102",
+    "old_still_valid": false,
+    "answers": [
+      "Q9208102"
+    ]
+  },
+  {
+    "key": "Q11768297_P108",
+    "date": "2016",
+    "old_first": "Q9208102",
+    "new_first": "Q178909",
+    "old_still_valid": false,
+    "answers": [
+      "Q178909"
+    ]
+  },
+  {
+    "key": "Q11768297_P108",
+    "date": "2017",
+    "old_first": "Q178909",
+    "new_first": "Q213624",
+    "old_still_valid": true,
+    "answers": [
+      "Q178909",
+      "Q213624"
+    ]
+  },
+  {
+    "key": "Q10325468_P108",
+    "date": "2019",
+    "old_first": "Q2060678",
+    "new_first": "Q7894395",
+    "old_still_valid": false,
+    "answers": [
+      "Q7894395"
+    ]
+  },
+  {
+    "key": "Q108451_P108",
+    "date": "2017",
+    "old_first": "Q273263",
+    "new_first": "Q1024426",
+    "old_still_valid": true,
+    "answers": [
+      "Q1024426",
+      "Q273263"
+    ]
+  },
+  {
+    "key": "Q11898613_P108",
+    "date": "2014",
+    "old_first": "Q578326",
+    "new_first": "Q458393",
+    "old_still_valid": false,
+    "answers": [
+      "Q458393"
+    ]
+  },
+  {
+    "key": "Q130929_P108",
+    "date": "2011",
+    "old_first": "Q2383044",
+    "new_first": "Q2917463",
+    "old_still_valid": false,
+    "answers": [
+      "Q2917463"
+    ]
+  },
+  {
+    "key": "Q1183_P6",
+    "date": "2017",
+    "old_first": "Q2832449",
+    "new_first": "Q7332181",
+    "old_still_valid": true,
+    "answers": [
+      "Q2832449",
+      "Q7332181"
+    ]
+  },
+  {
+    "key": "Q1183_P6",
+    "date": "2019",
+    "old_first": "Q7332181",
+    "new_first": "Q56600071",
+    "old_still_valid": true,
+    "answers": [
+      "Q56600071",
+      "Q7332181"
+    ]
+  },
+  {
+    "key": "Q132671_P6",
+    "date": "2015",
+    "old_first": "Q3295803",
+    "new_first": "Q12963",
+    "old_still_valid": false,
+    "answers": [
+      "Q12963"
+    ]
+  },
+  {
+    "key": "Q1045_P6",
+    "date": "2020",
+    "old_first": "Q28824125",
+    "new_first": "Q97703983",
+    "old_still_valid": true,
+    "answers": [
+      "Q28824125",
+      "Q97703983",
+      "Q99605101"
+    ]
+  },
+  {
+    "key": "Q1297_P6",
+    "date": "2012",
+    "old_first": "Q539814",
+    "new_first": "Q298443",
+    "old_still_valid": false,
+    "answers": [
+      "Q298443"
+    ]
+  },
+  {
+    "key": "Q1297_P6",
+    "date": "2019",
+    "old_first": "Q298443",
+    "new_first": "Q56486914",
+    "old_still_valid": true,
+    "answers": [
+      "Q298443",
+      "Q56486914"
+    ]
+  },
+  {
+    "key": "Q115_P6",
+    "date": "2012",
+    "old_first": "Q161184",
+    "new_first": "Q381071",
+    "old_still_valid": true,
+    "answers": [
+      "Q161184",
+      "Q381071"
+    ]
+  },
+  {
+    "key": "Q115_P6",
+    "date": "2019",
+    "old_first": "Q381071",
+    "new_first": "Q50365049",
+    "old_still_valid": false,
+    "answers": [
+      "Q50365049"
+    ]
+  },
+  {
+    "key": "Q1218_P6",
+    "date": "2019",
+    "old_first": "Q468394",
+    "new_first": "Q12409594",
+    "old_still_valid": false,
+    "answers": [
+      "Q12409594"
+    ]
+  },
+  {
+    "key": "Q1246_P6",
+    "date": "2018",
+    "old_first": "Q177851",
+    "new_first": "Q316553",
+    "old_still_valid": false,
+    "answers": [
+      "Q316553"
+    ]
+  },
+  {
+    "key": "Q1246_P6",
+    "date": "2020",
+    "old_first": "Q316553",
+    "new_first": "Q441633",
+    "old_still_valid": false,
+    "answers": [
+      "Q30323682",
+      "Q441633"
+    ]
+  },
+  {
+    "key": "Q100188_P6",
+    "date": "2012",
+    "old_first": "Q567934",
+    "new_first": "Q267857",
+    "old_still_valid": false,
+    "answers": [
+      "Q267857"
+    ]
+  },
+  {
+    "key": "Q1204_P6",
+    "date": "2019",
+    "old_first": "Q15972549",
+    "new_first": "Q6103950",
+    "old_still_valid": true,
+    "answers": [
+      "Q15972549",
+      "Q6103950"
+    ]
+  },
+  {
+    "key": "Q12191_P6",
+    "date": "2015",
+    "old_first": "Q3369813",
+    "new_first": "Q16037012",
+    "old_still_valid": false,
+    "answers": [
+      "Q16037012"
+    ]
+  },
+  {
+    "key": "Q100_P6",
+    "date": "2015",
+    "old_first": "Q941404",
+    "new_first": "Q15126384",
+    "old_still_valid": false,
+    "answers": [
+      "Q15126384"
+    ]
+  },
+  {
+    "key": "Q1055_P6",
+    "date": "2011",
+    "old_first": "Q60426",
+    "new_first": "Q61053",
+    "old_still_valid": false,
+    "answers": [
+      "Q61053",
+      "Q77390"
+    ]
+  },
+  {
+    "key": "Q1055_P6",
+    "date": "2019",
+    "old_first": "Q61053",
+    "new_first": "Q971774",
+    "old_still_valid": false,
+    "answers": [
+      "Q971774"
+    ]
+  },
+  {
+    "key": "Q1037_P6",
+    "date": "2017",
+    "old_first": "Q17417622",
+    "new_first": "Q38188115",
+    "old_still_valid": true,
+    "answers": [
+      "Q17417622",
+      "Q38188115"
+    ]
+  },
+  {
+    "key": "Q1207_P6",
+    "date": "2011",
+    "old_first": "Q374762",
+    "new_first": "Q770393",
+    "old_still_valid": false,
+    "answers": [
+      "Q770393"
+    ]
+  },
+  {
+    "key": "Q1207_P6",
+    "date": "2016",
+    "old_first": "Q770393",
+    "new_first": "Q22095395",
+    "old_still_valid": true,
+    "answers": [
+      "Q22095395",
+      "Q770393"
+    ]
+  },
+  {
+    "key": "Q11445_P6",
+    "date": "2019",
+    "old_first": "Q17410766",
+    "new_first": "Q56391433",
+    "old_still_valid": false,
+    "answers": [
+      "Q56391433"
+    ]
+  },
+  {
+    "key": "Q1006_P6",
+    "date": "2019",
+    "old_first": "Q21855433",
+    "new_first": "Q5984807",
+    "old_still_valid": false,
+    "answers": [
+      "Q5984807"
+    ]
+  },
+  {
+    "key": "Q1205_P6",
+    "date": "2015",
+    "old_first": "Q77387",
+    "new_first": "Q104678",
+    "old_still_valid": false,
+    "answers": [
+      "Q104678"
+    ]
+  },
+  {
+    "key": "Q128114_P6",
+    "date": "2013",
+    "old_first": "Q7181654",
+    "new_first": "Q6848890",
+    "old_still_valid": false,
+    "answers": [
+      "Q6848890"
+    ]
+  },
+  {
+    "key": "Q1005_P6",
+    "date": "2018",
+    "old_first": "Q57356",
+    "new_first": "Q27917049",
+    "old_still_valid": false,
+    "answers": [
+      "Q27917049"
+    ]
+  },
+  {
+    "key": "Q1041_P6",
+    "date": "2019",
+    "old_first": "Q17320405",
+    "new_first": "Q57438",
+    "old_still_valid": true,
+    "answers": [
+      "Q17320405",
+      "Q57438"
+    ]
+  },
+  {
+    "key": "Q1202_P6",
+    "date": "2018",
+    "old_first": "Q77391",
+    "new_first": "Q1928299",
+    "old_still_valid": false,
+    "answers": [
+      "Q1928299"
+    ]
+  },
+  {
+    "key": "Q1000_P6",
+    "date": "2020",
+    "old_first": "Q5373253",
+    "new_first": "Q60594089",
+    "old_still_valid": false,
+    "answers": [
+      "Q60594089",
+      "Q65556229"
+    ]
+  },
+  {
+    "key": "Q1210_P6",
+    "date": "2013",
+    "old_first": "Q664465",
+    "new_first": "Q562097",
+    "old_still_valid": true,
+    "answers": [
+      "Q562097",
+      "Q664465"
+    ]
+  },
+  {
+    "key": "Q1210_P6",
+    "date": "2019",
+    "old_first": "Q562097",
+    "new_first": "Q3629240",
+    "old_still_valid": false,
+    "answers": [
+      "Q3629240"
+    ]
+  },
+  {
+    "key": "Q1198_P6",
+    "date": "2011",
+    "old_first": "Q60975",
+    "new_first": "Q61938",
+    "old_still_valid": false,
+    "answers": [
+      "Q61938"
+    ]
+  },
+  {
+    "key": "Q1198_P6",
+    "date": "2018",
+    "old_first": "Q61938",
+    "new_first": "Q78205",
+    "old_still_valid": false,
+    "answers": [
+      "Q78205"
+    ]
+  },
+  {
+    "key": "Q1196_P6",
+    "date": "2018",
+    "old_first": "Q69301",
+    "new_first": "Q72845",
+    "old_still_valid": false,
+    "answers": [
+      "Q72845"
+    ]
+  },
+  {
+    "key": "Q11959_P6",
+    "date": "2018",
+    "old_first": "Q3113861",
+    "new_first": "Q51997376",
+    "old_still_valid": false,
+    "answers": [
+      "Q51997376"
+    ]
+  },
+  {
+    "key": "Q133083_P6",
+    "date": "2014",
+    "old_first": "Q7048706",
+    "new_first": "Q22279007",
+    "old_still_valid": true,
+    "answers": [
+      "Q22279007",
+      "Q7048706"
+    ]
+  },
+  {
+    "key": "Q1194_P6",
+    "date": "2012",
+    "old_first": "Q62196",
+    "new_first": "Q69036",
+    "old_still_valid": true,
+    "answers": [
+      "Q62196",
+      "Q69036"
+    ]
+  },
+  {
+    "key": "Q1194_P6",
+    "date": "2017",
+    "old_first": "Q69036",
+    "new_first": "Q969340",
+    "old_still_valid": true,
+    "answers": [
+      "Q69036",
+      "Q969340"
+    ]
+  },
+  {
+    "key": "Q10002_P6",
+    "date": "2015",
+    "old_first": "Q2156366",
+    "new_first": "Q1452565",
+    "old_still_valid": false,
+    "answers": [
+      "Q1452565"
+    ]
+  },
+  {
+    "key": "Q1200_P6",
+    "date": "2013",
+    "old_first": "Q65109",
+    "new_first": "Q84581",
+    "old_still_valid": true,
+    "answers": [
+      "Q65109",
+      "Q84581"
+    ]
+  },
+  {
+    "key": "Q128186_P6",
+    "date": "2020",
+    "old_first": "Q638431",
+    "new_first": "Q6140287",
+    "old_still_valid": false,
+    "answers": [
+      "Q6140287"
+    ]
+  },
+  {
+    "key": "Q1206_P6",
+    "date": "2012",
+    "old_first": "Q64299",
+    "new_first": "Q69355",
+    "old_still_valid": false,
+    "answers": [
+      "Q69355"
+    ]
+  },
+  {
+    "key": "Q1310_P6",
+    "date": "2017",
+    "old_first": "Q1949253",
+    "new_first": "Q401383",
+    "old_still_valid": true,
+    "answers": [
+      "Q1949253",
+      "Q401383"
+    ]
+  },
+  {
+    "key": "Q130212_P6",
+    "date": "2011",
+    "old_first": "Q662892",
+    "new_first": "Q871789",
+    "old_still_valid": false,
+    "answers": [
+      "Q871789"
+    ]
+  },
+  {
+    "key": "Q132418_P6",
+    "date": "2013",
+    "old_first": "Q540878",
+    "new_first": "Q13393272",
+    "old_still_valid": false,
+    "answers": [
+      "Q13393272"
+    ]
+  },
+  {
+    "key": "Q132418_P6",
+    "date": "2020",
+    "old_first": "Q13393272",
+    "new_first": "Q63248078",
+    "old_still_valid": false,
+    "answers": [
+      "Q63248078"
+    ]
+  },
+  {
+    "key": "Q130840_P6",
+    "date": "2014",
+    "old_first": "Q540922",
+    "new_first": "Q22279094",
+    "old_still_valid": true,
+    "answers": [
+      "Q22279094",
+      "Q540922"
+    ]
+  },
+  {
+    "key": "Q130840_P6",
+    "date": "2019",
+    "old_first": "Q22279094",
+    "new_first": "Q64009897",
+    "old_still_valid": true,
+    "answers": [
+      "Q22279094",
+      "Q64009897"
+    ]
+  },
+  {
+    "key": "Q1279_P6",
+    "date": "2015",
+    "old_first": "Q1239122",
+    "new_first": "Q3838079",
+    "old_still_valid": true,
+    "answers": [
+      "Q1239122",
+      "Q3838079"
+    ]
+  },
+  {
+    "key": "Q1279_P6",
+    "date": "2020",
+    "old_first": "Q3838079",
+    "new_first": "Q55281732",
+    "old_still_valid": true,
+    "answers": [
+      "Q3838079",
+      "Q55281732"
+    ]
+  },
+  {
+    "key": "Q1185115_P6",
+    "date": "2011",
+    "old_first": "Q379122",
+    "new_first": "Q445654",
+    "old_still_valid": true,
+    "answers": [
+      "Q379122",
+      "Q445654"
+    ]
+  },
+  {
+    "key": "Q1185115_P6",
+    "date": "2019",
+    "old_first": "Q445654",
+    "new_first": "Q379122",
+    "old_still_valid": false,
+    "answers": [
+      "Q379122"
+    ]
+  },
+  {
+    "key": "Q1209_P6",
+    "date": "2016",
+    "old_first": "Q61604",
+    "new_first": "Q1045675",
+    "old_still_valid": false,
+    "answers": [
+      "Q1045675"
+    ]
+  },
+  {
+    "key": "Q132410_P6",
+    "date": "2018",
+    "old_first": "Q1174142",
+    "new_first": "Q52707425",
+    "old_still_valid": true,
+    "answers": [
+      "Q1174142",
+      "Q52707425"
+    ]
+  },
+  {
+    "key": "Q132404_P6",
+    "date": "2014",
+    "old_first": "Q3479423",
+    "new_first": "Q21172233",
+    "old_still_valid": true,
+    "answers": [
+      "Q21172233",
+      "Q3479423"
+    ]
+  },
+  {
+    "key": "Q12589_P6",
+    "date": "2015",
+    "old_first": "Q3165731",
+    "new_first": "Q3379308",
+    "old_still_valid": true,
+    "answers": [
+      "Q3165731",
+      "Q3379308"
+    ]
+  },
+  {
+    "key": "Q104746_P6",
+    "date": "2018",
+    "old_first": "Q4753774",
+    "new_first": "Q4941267",
+    "old_still_valid": false,
+    "answers": [
+      "Q4941267"
+    ]
+  },
+  {
+    "key": "Q1120203_P6",
+    "date": "2011",
+    "old_first": "Q2856700",
+    "new_first": "Q3579995",
+    "old_still_valid": false,
+    "answers": [
+      "Q3579995"
+    ]
+  },
+  {
+    "key": "Q10132_P286",
+    "date": "2018",
+    "old_first": "Q2118577",
+    "new_first": "Q193361",
+    "old_still_valid": false,
+    "answers": [
+      "Q193361"
+    ]
+  },
+  {
+    "key": "Q1051514_P286",
+    "date": "2019",
+    "old_first": "Q711859",
+    "new_first": "Q2407770",
+    "old_still_valid": false,
+    "answers": [
+      "Q2407770"
+    ]
+  },
+  {
+    "key": "Q101959_P286",
+    "date": "2019",
+    "old_first": "Q73135",
+    "new_first": "Q542990",
+    "old_still_valid": true,
+    "answers": [
+      "Q542990",
+      "Q73135"
+    ]
+  },
+  {
+    "key": "Q131785_P286",
+    "date": "2016",
+    "old_first": "Q310103",
+    "new_first": "Q270832",
+    "old_still_valid": false,
+    "answers": [
+      "Q270832"
+    ]
+  },
+  {
+    "key": "Q128446_P286",
+    "date": "2017",
+    "old_first": "Q10346582",
+    "new_first": "Q317298",
+    "old_still_valid": false,
+    "answers": [
+      "Q317298"
+    ]
+  },
+  {
+    "key": "Q10329_P286",
+    "date": "2017",
+    "old_first": "Q295610",
+    "new_first": "Q297768",
+    "old_still_valid": false,
+    "answers": [
+      "Q297768"
+    ]
+  },
+  {
+    "key": "Q10329_P286",
+    "date": "2019",
+    "old_first": "Q297768",
+    "new_first": "Q11697229",
+    "old_still_valid": false,
+    "answers": [
+      "Q115119",
+      "Q11697229",
+      "Q358692"
+    ]
+  },
+  {
+    "key": "Q10329_P286",
+    "date": "2020",
+    "old_first": "Q11697229",
+    "new_first": "Q115119",
+    "old_still_valid": false,
+    "answers": [
+      "Q115119"
+    ]
+  },
+  {
+    "key": "Q1124841_P286",
+    "date": "2017",
+    "old_first": "Q1985420",
+    "new_first": "Q3048283",
+    "old_still_valid": false,
+    "answers": [
+      "Q3048283",
+      "Q336498"
+    ]
+  },
+  {
+    "key": "Q1124841_P286",
+    "date": "2018",
+    "old_first": "Q3048283",
+    "new_first": "Q336498",
+    "old_still_valid": false,
+    "answers": [
+      "Q336498"
+    ]
+  },
+  {
+    "key": "Q11938_P286",
+    "date": "2018",
+    "old_first": "Q11958",
+    "new_first": "Q151853",
+    "old_still_valid": true,
+    "answers": [
+      "Q11958",
+      "Q151853"
+    ]
+  },
+  {
+    "key": "Q11938_P286",
+    "date": "2020",
+    "old_first": "Q151853",
+    "new_first": "Q1424071",
+    "old_still_valid": false,
+    "answers": [
+      "Q1356320",
+      "Q1424071"
+    ]
+  },
+  {
+    "key": "Q1130849_P286",
+    "date": "2015",
+    "old_first": "Q310623",
+    "new_first": "Q83106",
+    "old_still_valid": true,
+    "answers": [
+      "Q310623",
+      "Q83106"
+    ]
+  },
+  {
+    "key": "Q10333_P286",
+    "date": "2017",
+    "old_first": "Q359118",
+    "new_first": "Q1339589",
+    "old_still_valid": false,
+    "answers": [
+      "Q1339589"
+    ]
+  },
+  {
+    "key": "Q10333_P286",
+    "date": "2020",
+    "old_first": "Q1339589",
+    "new_first": "Q4886441",
+    "old_still_valid": false,
+    "answers": [
+      "Q459099",
+      "Q460497",
+      "Q4886441"
+    ]
+  },
+  {
+    "key": "Q131499_P286",
+    "date": "2015",
+    "old_first": "Q527550",
+    "new_first": "Q2364249",
+    "old_still_valid": true,
+    "answers": [
+      "Q2364249",
+      "Q527550"
+    ]
+  },
+  {
+    "key": "Q131499_P286",
+    "date": "2019",
+    "old_first": "Q2364249",
+    "new_first": "Q56434101",
+    "old_still_valid": true,
+    "answers": [
+      "Q2364249",
+      "Q56434101"
+    ]
+  },
+  {
+    "key": "Q1031200_P286",
+    "date": "2018",
+    "old_first": "Q5019280",
+    "new_first": "Q3768101",
+    "old_still_valid": false,
+    "answers": [
+      "Q3768101"
+    ]
+  },
+  {
+    "key": "Q132885_P286",
+    "date": "2012",
+    "old_first": "Q508711",
+    "new_first": "Q128932",
+    "old_still_valid": true,
+    "answers": [
+      "Q128932",
+      "Q508711"
+    ]
+  },
+  {
+    "key": "Q132885_P286",
+    "date": "2014",
+    "old_first": "Q128932",
+    "new_first": "Q31575",
+    "old_still_valid": false,
+    "answers": [
+      "Q31575",
+      "Q518454"
+    ]
+  },
+  {
+    "key": "Q132885_P286",
+    "date": "2016",
+    "old_first": "Q31575",
+    "new_first": "Q3082242",
+    "old_still_valid": false,
+    "answers": [
+      "Q3082242",
+      "Q558689",
+      "Q923131"
+    ]
+  },
+  {
+    "key": "Q132885_P286",
+    "date": "2017",
+    "old_first": "Q3082242",
+    "new_first": "Q923131",
+    "old_still_valid": false,
+    "answers": [
+      "Q923131"
+    ]
+  },
+  {
+    "key": "Q132885_P286",
+    "date": "2020",
+    "old_first": "Q923131",
+    "new_first": "Q212914",
+    "old_still_valid": false,
+    "answers": [
+      "Q212914"
+    ]
+  },
+  {
+    "key": "Q131378_P286",
+    "date": "2020",
+    "old_first": "Q3894541",
+    "new_first": "Q2021758",
+    "old_still_valid": false,
+    "answers": [
+      "Q2021758",
+      "Q2711489"
+    ]
+  },
+  {
+    "key": "Q1137993_P286",
+    "date": "2020",
+    "old_first": "Q6991448",
+    "new_first": "Q2158434",
+    "old_still_valid": false,
+    "answers": [
+      "Q2158434"
+    ]
+  },
+  {
+    "key": "Q1094295_P286",
+    "date": "2015",
+    "old_first": "Q5622460",
+    "new_first": "Q7356905",
+    "old_still_valid": false,
+    "answers": [
+      "Q7356905"
+    ]
+  },
+  {
+    "key": "Q1094295_P286",
+    "date": "2017",
+    "old_first": "Q7356905",
+    "new_first": "Q7626471",
+    "old_still_valid": true,
+    "answers": [
+      "Q7356905",
+      "Q7626471"
+    ]
+  },
+  {
+    "key": "Q1046445_P286",
+    "date": "2011",
+    "old_first": "Q7169974",
+    "new_first": "Q10379449",
+    "old_still_valid": true,
+    "answers": [
+      "Q10379449",
+      "Q7169974"
+    ]
+  },
+  {
+    "key": "Q1046445_P286",
+    "date": "2015",
+    "old_first": "Q10379449",
+    "new_first": "Q5414497",
+    "old_still_valid": false,
+    "answers": [
+      "Q4251102",
+      "Q5414497"
+    ]
+  },
+  {
+    "key": "Q1046445_P286",
+    "date": "2016",
+    "old_first": "Q5414497",
+    "new_first": "Q4251102",
+    "old_still_valid": false,
+    "answers": [
+      "Q4251102"
+    ]
+  },
+  {
+    "key": "Q1046445_P286",
+    "date": "2018",
+    "old_first": "Q4251102",
+    "new_first": "Q1365656",
+    "old_still_valid": true,
+    "answers": [
+      "Q1365656",
+      "Q4251102"
+    ]
+  },
+  {
+    "key": "Q1046939_P286",
+    "date": "2018",
+    "old_first": "Q3775763",
+    "new_first": "Q3412138",
+    "old_still_valid": false,
+    "answers": [
+      "Q3412138"
+    ]
+  },
+  {
+    "key": "Q102720_P286",
+    "date": "2019",
+    "old_first": "Q742429",
+    "new_first": "Q57079",
+    "old_still_valid": true,
+    "answers": [
+      "Q57079",
+      "Q571639",
+      "Q742429"
+    ]
+  },
+  {
+    "key": "Q102720_P286",
+    "date": "2020",
+    "old_first": "Q57079",
+    "new_first": "Q2642761",
+    "old_still_valid": true,
+    "answers": [
+      "Q2642761",
+      "Q57079",
+      "Q57548"
+    ]
+  },
+  {
+    "key": "Q12278_P286",
+    "date": "2019",
+    "old_first": "Q299488",
+    "new_first": "Q431287",
+    "old_still_valid": false,
+    "answers": [
+      "Q431287",
+      "Q58839682"
+    ]
+  },
+  {
+    "key": "Q12297_P286",
+    "date": "2017",
+    "old_first": "Q359118",
+    "new_first": "Q1332523",
+    "old_still_valid": false,
+    "answers": [
+      "Q1332523"
+    ]
+  },
+  {
+    "key": "Q12297_P286",
+    "date": "2020",
+    "old_first": "Q1332523",
+    "new_first": "Q295610",
+    "old_still_valid": true,
+    "answers": [
+      "Q1332523",
+      "Q295610"
+    ]
+  },
+  {
+    "key": "Q104770_P286",
+    "date": "2019",
+    "old_first": "Q1568284",
+    "new_first": "Q19257969",
+    "old_still_valid": true,
+    "answers": [
+      "Q1549973",
+      "Q1568284",
+      "Q19257969",
+      "Q9318057"
+    ]
+  },
+  {
+    "key": "Q104770_P286",
+    "date": "2020",
+    "old_first": "Q19257969",
+    "new_first": "Q9318057",
+    "old_still_valid": false,
+    "answers": [
+      "Q9318057"
+    ]
+  },
+  {
+    "key": "Q128897_P286",
+    "date": "2020",
+    "old_first": "Q16508994",
+    "new_first": "Q7938955",
+    "old_still_valid": false,
+    "answers": [
+      "Q7938955"
+    ]
+  },
+  {
+    "key": "Q131209_P286",
+    "date": "2018",
+    "old_first": "Q558041",
+    "new_first": "Q22692810",
+    "old_still_valid": true,
+    "answers": [
+      "Q22692810",
+      "Q558041"
+    ]
+  },
+  {
+    "key": "Q131209_P286",
+    "date": "2019",
+    "old_first": "Q22692810",
+    "new_first": "Q32592613",
+    "old_still_valid": true,
+    "answers": [
+      "Q22692810",
+      "Q32592613",
+      "Q872440"
+    ]
+  },
+  {
+    "key": "Q1023028_P286",
+    "date": "2015",
+    "old_first": "Q1357668",
+    "new_first": "Q1357846",
+    "old_still_valid": true,
+    "answers": [
+      "Q1357668",
+      "Q1357846"
+    ]
+  },
+  {
+    "key": "Q104761_P286",
+    "date": "2017",
+    "old_first": "Q152107",
+    "new_first": "Q677546",
+    "old_still_valid": false,
+    "answers": [
+      "Q677546"
+    ]
+  },
+  {
+    "key": "Q104761_P286",
+    "date": "2018",
+    "old_first": "Q677546",
+    "new_first": "Q1029982",
+    "old_still_valid": true,
+    "answers": [
+      "Q1029982",
+      "Q677546"
+    ]
+  },
+  {
+    "key": "Q106394_P286",
+    "date": "2011",
+    "old_first": "Q664521",
+    "new_first": "Q129121",
+    "old_still_valid": true,
+    "answers": [
+      "Q129121",
+      "Q664521",
+      "Q764179"
+    ]
+  },
+  {
+    "key": "Q131215_P286",
+    "date": "2016",
+    "old_first": "Q220490",
+    "new_first": "Q16765990",
+    "old_still_valid": true,
+    "answers": [
+      "Q16765990",
+      "Q220490"
+    ]
+  },
+  {
+    "key": "Q131215_P286",
+    "date": "2018",
+    "old_first": "Q16765990",
+    "new_first": "Q700139",
+    "old_still_valid": false,
+    "answers": [
+      "Q700139"
+    ]
+  },
+  {
+    "key": "Q1140538_P286",
+    "date": "2019",
+    "old_first": "Q4025462",
+    "new_first": "Q690876",
+    "old_still_valid": false,
+    "answers": [
+      "Q690876"
+    ]
+  },
+  {
+    "key": "Q10512_P286",
+    "date": "2020",
+    "old_first": "Q1704254",
+    "new_first": "Q6277636",
+    "old_still_valid": true,
+    "answers": [
+      "Q1704254",
+      "Q6277636"
+    ]
+  },
+  {
+    "key": "Q10300_P286",
+    "date": "2020",
+    "old_first": "Q2637295",
+    "new_first": "Q2311040",
+    "old_still_valid": false,
+    "answers": [
+      "Q2311040"
+    ]
+  },
+  {
+    "key": "Q12236_P286",
+    "date": "2020",
+    "old_first": "Q3779635",
+    "new_first": "Q2049205",
+    "old_still_valid": false,
+    "answers": [
+      "Q2049205"
+    ]
+  },
+  {
+    "key": "Q105254_P286",
+    "date": "2015",
+    "old_first": "Q702233",
+    "new_first": "Q17352998",
+    "old_still_valid": false,
+    "answers": [
+      "Q17352998"
+    ]
+  },
+  {
+    "key": "Q105254_P286",
+    "date": "2018",
+    "old_first": "Q17352998",
+    "new_first": "Q1582732",
+    "old_still_valid": false,
+    "answers": [
+      "Q1582732"
+    ]
+  },
+  {
+    "key": "Q105254_P286",
+    "date": "2019",
+    "old_first": "Q1582732",
+    "new_first": "Q19257969",
+    "old_still_valid": true,
+    "answers": [
+      "Q1582732",
+      "Q19257969"
+    ]
+  },
+  {
+    "key": "Q10308_P286",
+    "date": "2019",
+    "old_first": "Q775389",
+    "new_first": "Q470994",
+    "old_still_valid": false,
+    "answers": [
+      "Q470994"
+    ]
+  },
+  {
+    "key": "Q10308_P286",
+    "date": "2020",
+    "old_first": "Q470994",
+    "new_first": "Q299488",
+    "old_still_valid": true,
+    "answers": [
+      "Q299488",
+      "Q470994"
+    ]
+  },
+  {
+    "key": "Q1023227_P286",
+    "date": "2019",
+    "old_first": "Q2718715",
+    "new_first": "Q11929086",
+    "old_still_valid": false,
+    "answers": [
+      "Q11929086"
+    ]
+  },
+  {
+    "key": "Q1059186_P286",
+    "date": "2019",
+    "old_first": "Q4172923",
+    "new_first": "Q2655477",
+    "old_still_valid": false,
+    "answers": [
+      "Q2655477"
+    ]
+  },
+  {
+    "key": "Q11979_P286",
+    "date": "2016",
+    "old_first": "Q3235400",
+    "new_first": "Q723458",
+    "old_still_valid": false,
+    "answers": [
+      "Q723458"
+    ]
+  },
+  {
+    "key": "Q11979_P286",
+    "date": "2017",
+    "old_first": "Q723458",
+    "new_first": "Q2311040",
+    "old_still_valid": true,
+    "answers": [
+      "Q2311040",
+      "Q723458"
+    ]
+  },
+  {
+    "key": "Q11979_P286",
+    "date": "2018",
+    "old_first": "Q2311040",
+    "new_first": "Q3235400",
+    "old_still_valid": true,
+    "answers": [
+      "Q2311040",
+      "Q27687",
+      "Q3235400"
+    ]
+  },
+  {
+    "key": "Q11979_P286",
+    "date": "2020",
+    "old_first": "Q3235400",
+    "new_first": "Q2409599",
+    "old_still_valid": false,
+    "answers": [
+      "Q2409599"
+    ]
+  },
+  {
+    "key": "Q1151909_P286",
+    "date": "2020",
+    "old_first": "Q3759228",
+    "new_first": "Q1400165",
+    "old_still_valid": false,
+    "answers": [
+      "Q1400165"
+    ]
+  },
+  {
+    "key": "Q1262822_P286",
+    "date": "2018",
+    "old_first": "Q6526751",
+    "new_first": "Q5175085",
+    "old_still_valid": false,
+    "answers": [
+      "Q5175085",
+      "Q926512"
+    ]
+  },
+  {
+    "key": "Q1262822_P286",
+    "date": "2019",
+    "old_first": "Q5175085",
+    "new_first": "Q466132",
+    "old_still_valid": false,
+    "answers": [
+      "Q466132",
+      "Q926512"
+    ]
+  },
+  {
+    "key": "Q11945_P286",
+    "date": "2020",
+    "old_first": "Q366816",
+    "new_first": "Q705601",
+    "old_still_valid": false,
+    "answers": [
+      "Q705601"
+    ]
+  },
+  {
+    "key": "Q11971_P286",
+    "date": "2018",
+    "old_first": "Q3320968",
+    "new_first": "Q3823451",
+    "old_still_valid": false,
+    "answers": [
+      "Q3823451"
+    ]
+  },
+  {
+    "key": "Q11971_P286",
+    "date": "2019",
+    "old_first": "Q3823451",
+    "new_first": "Q2637295",
+    "old_still_valid": true,
+    "answers": [
+      "Q2637295",
+      "Q3823451"
+    ]
+  },
+  {
+    "key": "Q11336634_P286",
+    "date": "2020",
+    "old_first": "Q3993575",
+    "new_first": "Q7694240",
+    "old_still_valid": true,
+    "answers": [
+      "Q3993575",
+      "Q7694240"
+    ]
+  },
+  {
+    "key": "Q120064_P286",
+    "date": "2018",
+    "old_first": "Q6885594",
+    "new_first": "Q28051523",
+    "old_still_valid": false,
+    "answers": [
+      "Q28051523"
+    ]
+  },
+  {
+    "key": "Q1061627_P286",
+    "date": "2016",
+    "old_first": "Q5972505",
+    "new_first": "Q20972402",
+    "old_still_valid": false,
+    "answers": [
+      "Q20972402"
+    ]
+  },
+  {
+    "key": "Q1334445_P286",
+    "date": "2019",
+    "old_first": "Q20641334",
+    "new_first": "Q4925837",
+    "old_still_valid": false,
+    "answers": [
+      "Q4925837"
+    ]
+  },
+  {
+    "key": "Q1138191_P286",
+    "date": "2020",
+    "old_first": "Q8062153",
+    "new_first": "Q12411402",
+    "old_still_valid": false,
+    "answers": [
+      "Q12411402"
+    ]
+  },
+  {
+    "key": "Q1047535_P286",
+    "date": "2014",
+    "old_first": "Q3303125",
+    "new_first": "Q3246328",
+    "old_still_valid": false,
+    "answers": [
+      "Q1390150",
+      "Q1964371",
+      "Q3246328"
+    ]
+  },
+  {
+    "key": "Q1047535_P286",
+    "date": "2015",
+    "old_first": "Q3246328",
+    "new_first": "Q248231",
+    "old_still_valid": false,
+    "answers": [
+      "Q1389828",
+      "Q248231"
+    ]
+  },
+  {
+    "key": "Q1047535_P286",
+    "date": "2016",
+    "old_first": "Q248231",
+    "new_first": "Q1389828",
+    "old_still_valid": false,
+    "answers": [
+      "Q1389828"
+    ]
+  },
+  {
+    "key": "Q1047535_P286",
+    "date": "2017",
+    "old_first": "Q1389828",
+    "new_first": "Q1524487",
+    "old_still_valid": false,
+    "answers": [
+      "Q1524487"
+    ]
+  },
+  {
+    "key": "Q1047535_P286",
+    "date": "2018",
+    "old_first": "Q1524487",
+    "new_first": "Q1290372",
+    "old_still_valid": true,
+    "answers": [
+      "Q1290372",
+      "Q1524487"
+    ]
+  },
+  {
+    "key": "Q1047535_P286",
+    "date": "2019",
+    "old_first": "Q1290372",
+    "new_first": "Q1256025",
+    "old_still_valid": false,
+    "answers": [
+      "Q1256025"
+    ]
+  },
+  {
+    "key": "Q1199255_P286",
+    "date": "2017",
+    "old_first": "Q1750005",
+    "new_first": "Q4414785",
+    "old_still_valid": false,
+    "answers": [
+      "Q4414785"
+    ]
+  },
+  {
+    "key": "Q1024463_P286",
+    "date": "2013",
+    "old_first": "Q10459412",
+    "new_first": "Q12731015",
+    "old_still_valid": true,
+    "answers": [
+      "Q10459412",
+      "Q12731015"
+    ]
+  },
+  {
+    "key": "Q1024463_P286",
+    "date": "2015",
+    "old_first": "Q12731015",
+    "new_first": "Q1133257",
+    "old_still_valid": false,
+    "answers": [
+      "Q1133257",
+      "Q132287",
+      "Q3293768",
+      "Q704906"
+    ]
+  },
+  {
+    "key": "Q1024463_P286",
+    "date": "2016",
+    "old_first": "Q1133257",
+    "new_first": "Q1336950",
+    "old_still_valid": false,
+    "answers": [
+      "Q1158981",
+      "Q132287",
+      "Q1336950"
+    ]
+  },
+  {
+    "key": "Q1024463_P286",
+    "date": "2017",
+    "old_first": "Q1336950",
+    "new_first": "Q1158981",
+    "old_still_valid": false,
+    "answers": [
+      "Q10459412",
+      "Q1158981"
+    ]
+  },
+  {
+    "key": "Q1024463_P286",
+    "date": "2018",
+    "old_first": "Q1158981",
+    "new_first": "Q10447891",
+    "old_still_valid": false,
+    "answers": [
+      "Q10447891",
+      "Q10459412",
+      "Q433666"
+    ]
+  },
+  {
+    "key": "Q1024463_P286",
+    "date": "2019",
+    "old_first": "Q10447891",
+    "new_first": "Q6501332",
+    "old_still_valid": false,
+    "answers": [
+      "Q132287",
+      "Q1354038",
+      "Q433666",
+      "Q6501332"
+    ]
+  },
+  {
+    "key": "Q1024463_P286",
+    "date": "2020",
+    "old_first": "Q6501332",
+    "new_first": "Q558873",
+    "old_still_valid": false,
+    "answers": [
+      "Q558873"
+    ]
+  },
+  {
+    "key": "Q12630865_P286",
+    "date": "2020",
+    "old_first": "Q15262168",
+    "new_first": "Q94174474",
+    "old_still_valid": false,
+    "answers": [
+      "Q94174474"
+    ]
+  },
+  {
+    "key": "Q1040719_P286",
+    "date": "2013",
+    "old_first": "Q3817556",
+    "new_first": "Q61634988",
+    "old_still_valid": false,
+    "answers": [
+      "Q61634988"
+    ]
+  },
+  {
+    "key": "Q1040719_P286",
+    "date": "2014",
+    "old_first": "Q61634988",
+    "new_first": "Q16214008",
+    "old_still_valid": true,
+    "answers": [
+      "Q16214008",
+      "Q61634988"
+    ]
+  },
+  {
+    "key": "Q1040719_P286",
+    "date": "2017",
+    "old_first": "Q16214008",
+    "new_first": "Q3824776",
+    "old_still_valid": false,
+    "answers": [
+      "Q3824776"
+    ]
+  },
+  {
+    "key": "Q1040719_P286",
+    "date": "2019",
+    "old_first": "Q3824776",
+    "new_first": "Q6896737",
+    "old_still_valid": false,
+    "answers": [
+      "Q3324345",
+      "Q6896737"
+    ]
+  },
+  {
+    "key": "Q1228264_P286",
+    "date": "2020",
+    "old_first": "Q8068677",
+    "new_first": "Q560603",
+    "old_still_valid": false,
+    "answers": [
+      "Q560603"
+    ]
+  },
+  {
+    "key": "Q1003357_P286",
+    "date": "2014",
+    "old_first": "Q3351136",
+    "new_first": "Q1275560",
+    "old_still_valid": false,
+    "answers": [
+      "Q1275560"
+    ]
+  },
+  {
+    "key": "Q1003357_P286",
+    "date": "2016",
+    "old_first": "Q1275560",
+    "new_first": "Q3351136",
+    "old_still_valid": false,
+    "answers": [
+      "Q3351136"
+    ]
+  },
+  {
+    "key": "Q11250530_P286",
+    "date": "2017",
+    "old_first": "Q171543",
+    "new_first": "Q738702",
+    "old_still_valid": true,
+    "answers": [
+      "Q171543",
+      "Q738702"
+    ]
+  },
+  {
+    "key": "Q1042829_P286",
+    "date": "2017",
+    "old_first": "Q358718",
+    "new_first": "Q16185621",
+    "old_still_valid": false,
+    "answers": [
+      "Q16185621"
+    ]
+  },
+  {
+    "key": "Q115678_P286",
+    "date": "2016",
+    "old_first": "Q433883",
+    "new_first": "Q1386823",
+    "old_still_valid": false,
+    "answers": [
+      "Q1386823"
+    ]
+  },
+  {
+    "key": "Q1266729_P286",
+    "date": "2020",
+    "old_first": "Q4538739",
+    "new_first": "Q27922242",
+    "old_still_valid": false,
+    "answers": [
+      "Q27922242"
+    ]
+  },
+  {
+    "key": "Q1150936_P127",
+    "date": "2016",
+    "old_first": "Q486633",
+    "new_first": "Q1509333",
+    "old_still_valid": true,
+    "answers": [
+      "Q1509333",
+      "Q486633"
+    ]
+  },
+  {
+    "key": "Q12717119_P127",
+    "date": "2018",
+    "old_first": "Q7050520",
+    "new_first": "Q55074926",
+    "old_still_valid": false,
+    "answers": [
+      "Q55074926"
+    ]
+  },
+  {
+    "key": "Q11080923_P127",
+    "date": "2015",
+    "old_first": "Q721162",
+    "new_first": "Q5895075",
+    "old_still_valid": false,
+    "answers": [
+      "Q1482052",
+      "Q5895075"
+    ]
+  },
+  {
+    "key": "Q11705283_P127",
+    "date": "2015",
+    "old_first": "Q2036076",
+    "new_first": "Q18378979",
+    "old_still_valid": false,
+    "answers": [
+      "Q18378979"
+    ]
+  },
+  {
+    "key": "Q11705283_P127",
+    "date": "2018",
+    "old_first": "Q18378979",
+    "new_first": "Q608518",
+    "old_still_valid": true,
+    "answers": [
+      "Q18378979",
+      "Q608518"
+    ]
+  },
+  {
+    "key": "Q10403942_P127",
+    "date": "2015",
+    "old_first": "Q1543093",
+    "new_first": "Q892825",
+    "old_still_valid": true,
+    "answers": [
+      "Q1543093",
+      "Q892825"
+    ]
+  },
+  {
+    "key": "Q1139429_P127",
+    "date": "2016",
+    "old_first": "Q1411661",
+    "new_first": "Q20730106",
+    "old_still_valid": false,
+    "answers": [
+      "Q20730106"
+    ]
+  },
+  {
+    "key": "Q10931647_P127",
+    "date": "2013",
+    "old_first": "Q7021083",
+    "new_first": "Q5384790",
+    "old_still_valid": true,
+    "answers": [
+      "Q5384790",
+      "Q7021083"
+    ]
+  },
+  {
+    "key": "Q10357316_P127",
+    "date": "2016",
+    "old_first": "Q1411661",
+    "new_first": "Q20730106",
+    "old_still_valid": false,
+    "answers": [
+      "Q20730106"
+    ]
+  }
+]

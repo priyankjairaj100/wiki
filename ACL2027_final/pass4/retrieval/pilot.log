@@ -1,0 +1,123 @@
+{
+  "n_queries": 176,
+  "metrics": {
+    "bm25": {
+      "parent_passage_hit_at_5": 0.4602272727272727,
+      "annotated_span_recall_at_5": 0.38636363636363635,
+      "all_annotated_spans_covered_at_5": 0.3693181818181818,
+      "annotated_string_recall_at_5": 0.38636363636363635,
+      "all_annotated_strings_covered_at_5": 0.3693181818181818,
+      "tokens_used": 114.39772727272727,
+      "units_used": 5.0,
+      "passages_used": 4.9147727272727275
+    },
+    "bm25_latestyear": {
+      "parent_passage_hit_at_5": 0.5965909090909091,
+      "annotated_span_recall_at_5": 0.5482954545454546,
+      "all_annotated_spans_covered_at_5": 0.5284090909090909,
+      "annotated_string_recall_at_5": 0.5482954545454546,
+      "all_annotated_strings_covered_at_5": 0.5284090909090909,
+      "tokens_used": 219.69886363636363,
+      "units_used": 5.0,
+      "passages_used": 4.857954545454546
+    },
+    "title_bm25": {
+      "parent_passage_hit_at_5": 0.48295454545454547,
+      "annotated_span_recall_at_5": 0.4090909090909091,
+      "all_annotated_spans_covered_at_5": 0.39204545454545453,
+      "annotated_string_recall_at_5": 0.4090909090909091,
+      "all_annotated_strings_covered_at_5": 0.39204545454545453,
+      "tokens_used": 123.5340909090909,
+      "units_used": 5.0,
+      "passages_used": 4.9147727272727275
+    },
+    "title_residual": {
+      "parent_passage_hit_at_5": 0.7045454545454546,
+      "annotated_span_recall_at_5": 0.6723484848484849,
+      "all_annotated_spans_covered_at_5": 0.6590909090909091,
+      "annotated_string_recall_at_5": 0.6723484848484849,
+      "all_annotated_strings_covered_at_5": 0.6590909090909091,
+      "tokens_used": 381.21022727272725,
+      "units_used": 4.954545454545454,
+      "passages_used": 4.755681818181818
+    },
+    "title_bm25_latestyear": {
+      "parent_passage_hit_at_5": 0.6477272727272727,
+      "annotated_span_recall_at_5": 0.5909090909090909,
+      "all_annotated_spans_covered_at_5": 0.5681818181818182,
+      "annotated_string_recall_at_5": 0.5909090909090909,
+      "all_annotated_strings_covered_at_5": 0.5681818181818182,
+      "tokens_used": 244.91477272727272,
+      "units_used": 4.954545454545454,
+      "passages_used": 4.801136363636363
+    },
+    "title_residual_latestyear": {
+      "parent_passage_hit_at_5": 0.6988636363636364,
+      "annotated_span_recall_at_5": 0.6524621212121212,
+      "all_annotated_spans_covered_at_5": 0.6363636363636364,
+      "annotated_string_recall_at_5": 0.6524621212121212,
+      "all_annotated_strings_covered_at_5": 0.6363636363636364,
+      "tokens_used": 371.4261363636364,
+      "units_used": 4.948863636363637,
+      "passages_used": 4.806818181818182
+    }
+  },
+  "paired_span_vs_original_recency": {
+    "bm25": {
+      "delta": -0.16193181818181818,
+      "ci95": [
+        -0.2553763440860215,
+        -0.07446808510638298
+      ],
+      "article_clusters": 50,
+      "repetitions": 2000,
+      "seed": 20261006
+    },
+    "title_bm25": {
+      "delta": -0.13920454545454544,
+      "ci95": [
+        -0.23652694610778444,
+        -0.0449438202247191
+      ],
+      "article_clusters": 50,
+      "repetitions": 2000,
+      "seed": 20261006
+    },
+    "title_residual": {
+      "delta": 0.12405303030303029,
+      "ci95": [
+        0.04857142857142857,
+        0.20679012345679013
+      ],
+      "article_clusters": 50,
+      "repetitions": 2000,
+      "seed": 20261006
+    },
+    "title_bm25_latestyear": {
+      "delta": 0.04261363636363636,
+      "ci95": [
+        0.002857142857142857,
+        0.09696969696969697
+      ],
+      "article_clusters": 50,
+      "repetitions": 2000,
+      "seed": 20261006
+    },
+    "title_residual_latestyear": {
+      "delta": 0.10416666666666666,
+      "ci95": [
+        0.026748971193415638,
+        0.18509212730318259
+      ],
+      "article_clusters": 50,
+      "repetitions": 2000,
+      "seed": 20261006
+    }
+  },
+  "linking": {
+    "linked": 176,
+    "contains_annotated_article": 176,
+    "ambiguous": 0
+  },
+  "elapsed_seconds": 24.118228912353516
+}

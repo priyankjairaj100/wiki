@@ -1,0 +1,231 @@
+processed 250
+processed 500
+processed 750
+{
+  "analysis": "Declared post-confirmation ranking portability; no answer labels read.",
+  "queries": 830,
+  "parsed_queries": 813,
+  "unparsed_queries": 17,
+  "full_mask_checks_per_query": 1488,
+  "source_units": 34480,
+  "modeled_claims": 744,
+  "fixed_main_modeled_cohort": 90,
+  "fixed_union_modeled_cohort": 249,
+  "variants": {
+    "bm25": {
+      "all_parsed": {
+        "queries": 813,
+        "stable": 797,
+        "modeled_contexts": 124,
+        "mean_examined_candidates": 5.075030750307503,
+        "mean_support_checks": 0.4440344403444034,
+        "max_examined_candidates": 9
+      },
+      "own_modeled_contexts": {
+        "queries": 124,
+        "stable": 108,
+        "modeled_contexts": 124,
+        "mean_examined_candidates": 5.129032258064516,
+        "mean_support_checks": 2.5483870967741935,
+        "max_examined_candidates": 9
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 90,
+        "stable": 79,
+        "modeled_contexts": 89,
+        "mean_examined_candidates": 5.177777777777778,
+        "mean_support_checks": 2.688888888888889,
+        "max_examined_candidates": 9
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 249,
+        "stable": 233,
+        "modeled_contexts": 124,
+        "mean_examined_candidates": 5.096385542168675,
+        "mean_support_checks": 1.3012048192771084,
+        "max_examined_candidates": 9
+      }
+    },
+    "bm25_latestyear": {
+      "all_parsed": {
+        "queries": 813,
+        "stable": 780,
+        "modeled_contexts": 224,
+        "mean_examined_candidates": 5.046740467404674,
+        "mean_support_checks": 0.7601476014760148,
+        "max_examined_candidates": 10
+      },
+      "own_modeled_contexts": {
+        "queries": 224,
+        "stable": 191,
+        "modeled_contexts": 224,
+        "mean_examined_candidates": 5.044642857142857,
+        "mean_support_checks": 2.6339285714285716,
+        "max_examined_candidates": 7
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 90,
+        "stable": 80,
+        "modeled_contexts": 82,
+        "mean_examined_candidates": 5.0777777777777775,
+        "mean_support_checks": 2.7666666666666666,
+        "max_examined_candidates": 7
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 249,
+        "stable": 216,
+        "modeled_contexts": 224,
+        "mean_examined_candidates": 5.044176706827309,
+        "mean_support_checks": 2.3734939759036147,
+        "max_examined_candidates": 7
+      }
+    },
+    "title_bm25": {
+      "all_parsed": {
+        "queries": 813,
+        "stable": 801,
+        "modeled_contexts": 110,
+        "mean_examined_candidates": 5.076260762607626,
+        "mean_support_checks": 0.40836408364083643,
+        "max_examined_candidates": 9
+      },
+      "own_modeled_contexts": {
+        "queries": 110,
+        "stable": 98,
+        "modeled_contexts": 110,
+        "mean_examined_candidates": 5.1454545454545455,
+        "mean_support_checks": 2.6,
+        "max_examined_candidates": 9
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 90,
+        "stable": 79,
+        "modeled_contexts": 89,
+        "mean_examined_candidates": 5.177777777777778,
+        "mean_support_checks": 2.688888888888889,
+        "max_examined_candidates": 9
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 249,
+        "stable": 237,
+        "modeled_contexts": 110,
+        "mean_examined_candidates": 5.100401606425703,
+        "mean_support_checks": 1.1847389558232932,
+        "max_examined_candidates": 9
+      }
+    },
+    "title_residual": {
+      "all_parsed": {
+        "queries": 813,
+        "stable": 802,
+        "modeled_contexts": 90,
+        "mean_examined_candidates": 5.056580565805658,
+        "mean_support_checks": 0.3370233702337023,
+        "max_examined_candidates": 9
+      },
+      "own_modeled_contexts": {
+        "queries": 90,
+        "stable": 79,
+        "modeled_contexts": 90,
+        "mean_examined_candidates": 5.166666666666667,
+        "mean_support_checks": 2.7,
+        "max_examined_candidates": 9
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 90,
+        "stable": 79,
+        "modeled_contexts": 90,
+        "mean_examined_candidates": 5.166666666666667,
+        "mean_support_checks": 2.7,
+        "max_examined_candidates": 9
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 249,
+        "stable": 238,
+        "modeled_contexts": 90,
+        "mean_examined_candidates": 5.088353413654619,
+        "mean_support_checks": 1.0040160642570282,
+        "max_examined_candidates": 9
+      }
+    },
+    "title_bm25_latestyear": {
+      "all_parsed": {
+        "queries": 813,
+        "stable": 793,
+        "modeled_contexts": 175,
+        "mean_examined_candidates": 5.047970479704797,
+        "mean_support_checks": 0.6063960639606396,
+        "max_examined_candidates": 10
+      },
+      "own_modeled_contexts": {
+        "queries": 175,
+        "stable": 155,
+        "modeled_contexts": 175,
+        "mean_examined_candidates": 5.051428571428572,
+        "mean_support_checks": 2.645714285714286,
+        "max_examined_candidates": 7
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 90,
+        "stable": 81,
+        "modeled_contexts": 82,
+        "mean_examined_candidates": 5.0777777777777775,
+        "mean_support_checks": 2.6555555555555554,
+        "max_examined_candidates": 7
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 249,
+        "stable": 229,
+        "modeled_contexts": 175,
+        "mean_examined_candidates": 5.040160642570281,
+        "mean_support_checks": 1.8634538152610443,
+        "max_examined_candidates": 7
+      }
+    },
+    "title_residual_latestyear": {
+      "all_parsed": {
+        "queries": 813,
+        "stable": 793,
+        "modeled_contexts": 166,
+        "mean_examined_candidates": 5.02460024600246,
+        "mean_support_checks": 0.5485854858548586,
+        "max_examined_candidates": 8
+      },
+      "own_modeled_contexts": {
+        "queries": 166,
+        "stable": 146,
+        "modeled_contexts": 166,
+        "mean_examined_candidates": 5.030120481927711,
+        "mean_support_checks": 2.5963855421686746,
+        "max_examined_candidates": 7
+      },
+      "fixed_main_modeled_cohort": {
+        "queries": 90,
+        "stable": 82,
+        "modeled_contexts": 79,
+        "mean_examined_candidates": 5.044444444444444,
+        "mean_support_checks": 2.422222222222222,
+        "max_examined_candidates": 7
+      },
+      "fixed_union_modeled_cohort": {
+        "queries": 249,
+        "stable": 229,
+        "modeled_contexts": 166,
+        "mean_examined_candidates": 5.036144578313253,
+        "mean_support_checks": 1.7469879518072289,
+        "max_examined_candidates": 7
+      }
+    }
+  },
+  "elapsed_seconds": 190.47558093070984,
+  "input_sha256": {
+    "pass4/pipeline/human/units.jsonl": "ee930d03ece56b1bd57393716e4e5dd7cb38256947246b4f3bcb926a2ba581b4",
+    "pass4/pipeline/human/claims.jsonl": "e6b255a03a0fd8662dca5f6d917d0fe474b96f9fa520fed544a52c986a9fab7a",
+    "pass4/protocol/human_test_confirmation_queries.jsonl": "e946ae3e7d494663cf56e0c1462f271f6abd78e12b422e464166d1e8d34d872d",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/secondary_rankings.py": "666d072fe32c0184044f6b999a035a836c755b4885ace750240dd0b9629232dd",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/ranking.py": "bd898547382a12903b34656c4d06d518c63390efb68aec0fdbd46722066205dd",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/lazy_certificate.py": "6264334ccc46694b27ce99ce6b5795a59983b3dda7fefc2f6b1e2fc3e53fdc24",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/SECONDARY_RANKING_PROTOCOL.json": "399128bc485661e264a6e4a165cd0b3816a6378b8f0a8de9c0910da23c2b1d30",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/secondary_rank_equivalence.json": "ee901112f5c6034bec0eac755cc112f54bb05f48ce2f52b9e46e35941c7e38af"
+  }
+}

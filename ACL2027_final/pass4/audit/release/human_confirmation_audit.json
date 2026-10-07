@@ -1,0 +1,60 @@
+{
+  "audit_kind": "Independent source-free-label replay; direct event scans replace compiler calls.",
+  "all_checks_passed": true,
+  "counts": {
+    "method_contexts_checked": 8300,
+    "queries": 830,
+    "parsed": 813,
+    "parsed_all_fallback": 723,
+    "parsed_all_fallback_stable": 723,
+    "budget_equalities_checked": 4065,
+    "unparsed": 17,
+    "parsed_modeled": 90,
+    "parsed_modeled_stable": 79,
+    "parsed_modeled_unstable": 11,
+    "worlds_checked": 22,
+    "event_assignments_checked": 24816
+  },
+  "stable_at_budgets_fixed_modeled_cohort": {
+    "1": {
+      "stable": 87,
+      "denominator": 90
+    },
+    "3": {
+      "stable": 81,
+      "denominator": 90
+    },
+    "5": {
+      "stable": 79,
+      "denominator": 90
+    },
+    "10": {
+      "stable": 74,
+      "denominator": 90
+    },
+    "20": {
+      "stable": 66,
+      "denominator": 90
+    }
+  },
+  "counterworld_pairs": 11,
+  "pairs_with_different_rendered_sources": 11,
+  "counterworld_exclusion_reasons": {
+    "start_after_query": 2,
+    "retired_by_query_start": 9
+  },
+  "reader_questions": 60,
+  "reader_logical_conditions": 600,
+  "reader_unique_jobs": 193,
+  "config_unchanged": true,
+  "source_partition_words_preserved": true,
+  "source_partition_nonoverlapping": true,
+  "files": {
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/reproduced_pass4/renamed_portable_project_53olb8_d/pass4/protocol/audit_confirmation.py": "e4f18a0822ae89fd7056070a72f0767a8e69272e4875b93c22c480f2a3cc9a21",
+    "pass3/protocol/test_source_passages.jsonl": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a",
+    "pass4/protocol/human_test_confirmation_queries.jsonl": "e946ae3e7d494663cf56e0c1462f271f6abd78e12b422e464166d1e8d34d872d",
+    "pass4/pipeline/human/manifest.json": "195ac83ca31af44ee83373f855815e11b1fcc5f3f1f04fd4e0055fba43a55da5",
+    "pass4/pipeline/human/predictions.jsonl": "cbd2867dc0fed4d5d83caaf4e405c37e4273284fa404a06a2c702913dca34912",
+    "pass4/pipeline/human/counterworlds.jsonl": "cc7e923a6384c47ea4a9812fad08f48b20ce509784096133998a348b23b5ed06"
+  }
+}

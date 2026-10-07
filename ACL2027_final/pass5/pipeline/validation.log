@@ -1,0 +1,323 @@
+RUN pass5/protocol/verify_freeze.py --output pass5/protocol/freeze_verification.json
+{
+  "run_id": "acl2027-pass5-source-revision-v1",
+  "freeze_sha256": "60e43df70592982ad6883f6ce042b3431e3b886c90e7bf383427d018acac4243",
+  "resource_amendment_files_checked": 0,
+  "original_hash_exceptions_allowed": 0,
+  "checked_files": 35,
+  "failures": [],
+  "all_files_match": true
+}
+RUN pass5/pipeline/run_matched.py --passages pass3/protocol/dev_source_passages.jsonl --queries pass5/protocol/dev_validation_queries.jsonl --claims pass5/extraction/dev_frozen/claims.jsonl --config pass5/protocol/config.json --output pass5/pipeline/validation --track DEV
+retrieved 50 / 2348
+retrieved 100 / 2348
+retrieved 150 / 2348
+retrieved 200 / 2348
+retrieved 250 / 2348
+retrieved 300 / 2348
+retrieved 350 / 2348
+retrieved 400 / 2348
+retrieved 450 / 2348
+retrieved 500 / 2348
+retrieved 550 / 2348
+retrieved 600 / 2348
+retrieved 650 / 2348
+retrieved 700 / 2348
+retrieved 750 / 2348
+retrieved 800 / 2348
+retrieved 850 / 2348
+retrieved 900 / 2348
+retrieved 950 / 2348
+retrieved 1000 / 2348
+retrieved 1050 / 2348
+retrieved 1100 / 2348
+retrieved 1150 / 2348
+retrieved 1200 / 2348
+retrieved 1250 / 2348
+retrieved 1300 / 2348
+retrieved 1350 / 2348
+retrieved 1400 / 2348
+retrieved 1450 / 2348
+retrieved 1500 / 2348
+retrieved 1550 / 2348
+retrieved 1600 / 2348
+retrieved 1650 / 2348
+retrieved 1700 / 2348
+retrieved 1750 / 2348
+retrieved 1800 / 2348
+retrieved 1850 / 2348
+retrieved 1900 / 2348
+retrieved 1950 / 2348
+retrieved 2000 / 2348
+retrieved 2050 / 2348
+retrieved 2100 / 2348
+retrieved 2150 / 2348
+retrieved 2200 / 2348
+retrieved 2250 / 2348
+retrieved 2300 / 2348
+{
+  "corpus": {
+    "passages": 32332,
+    "articles": 740,
+    "units": 33005,
+    "extracted_claims": 493,
+    "modeled_claims": 493,
+    "rejected_claims": 0,
+    "accepted_pairs": 3,
+    "explicit_end_events": 292,
+    "bounded_claim_fraction": 0.014937130737767005
+  },
+  "all_questions": {
+    "n_queries": 2348,
+    "counts": {
+      "query_time_parsed": 2296,
+      "temporal_extraction_active": 761,
+      "uncertain_start_active": 651,
+      "replacement_active": 0,
+      "claim_context_certificate": 2242,
+      "reader_context_certificate": 2242,
+      "all_three_completion_context_agreement": 2294,
+      "completion_contexts_differ_from_possible": 54,
+      "completion_sensitive": 54,
+      "possible_differs_interval": 0,
+      "possible_differs_no_filter": 120
+    },
+    "fallback_fraction": {
+      "no_temporal_filter": 0.9622444633730834,
+      "earliest_completion": 0.9777683134582624,
+      "midpoint_completion": 0.9767461669505962,
+      "latest_completion": 0.9766609880749574,
+      "interval_outer_control": 0.9747870528109029,
+      "possible_support": 0.9747870528109029,
+      "guaranteed_support": 0.9796422487223168,
+      "latest_mentioned_year_top20": 0.9556218057921636,
+      "original_bm25": 0.9385860306643953,
+      "original_bm25_latestyear": 0.9239352640545145
+    }
+  },
+  "slices": {
+    "temporal_extraction_active": {
+      "n_queries": 761,
+      "counts": {
+        "query_time_parsed": 759,
+        "temporal_extraction_active": 761,
+        "uncertain_start_active": 651,
+        "replacement_active": 0,
+        "claim_context_certificate": 705,
+        "reader_context_certificate": 705,
+        "all_three_completion_context_agreement": 707,
+        "completion_contexts_differ_from_possible": 54,
+        "completion_sensitive": 54,
+        "possible_differs_interval": 0,
+        "possible_differs_no_filter": 120
+      },
+      "fallback_fraction": {
+        "no_temporal_filter": 0.8835085413929041,
+        "earliest_completion": 0.9314060446780551,
+        "midpoint_completion": 0.9282522996057818,
+        "latest_completion": 0.9279894875164258,
+        "interval_outer_control": 0.9222076215505912,
+        "possible_support": 0.9222076215505912,
+        "guaranteed_support": 0.9371879106438897,
+        "latest_mentioned_year_top20": 0.8630749014454666,
+        "original_bm25": 0.8296977660972404,
+        "original_bm25_latestyear": 0.8165571616294349
+      }
+    },
+    "uncertain_start_active": {
+      "n_queries": 651,
+      "counts": {
+        "query_time_parsed": 649,
+        "temporal_extraction_active": 651,
+        "uncertain_start_active": 651,
+        "replacement_active": 0,
+        "claim_context_certificate": 595,
+        "reader_context_certificate": 595,
+        "all_three_completion_context_agreement": 597,
+        "completion_contexts_differ_from_possible": 54,
+        "completion_sensitive": 54,
+        "possible_differs_interval": 0,
+        "possible_differs_no_filter": 117
+      },
+      "fallback_fraction": {
+        "no_temporal_filter": 0.8767281105990783,
+        "earliest_completion": 0.9314900153609831,
+        "midpoint_completion": 0.9278033794162827,
+        "latest_completion": 0.9274961597542242,
+        "interval_outer_control": 0.9207373271889401,
+        "possible_support": 0.9207373271889401,
+        "guaranteed_support": 0.9382488479262672,
+        "latest_mentioned_year_top20": 0.8531490015360983,
+        "original_bm25": 0.8298003072196621,
+        "original_bm25_latestyear": 0.8076804915514593
+      }
+    },
+    "replacement_active": {
+      "n_queries": 0,
+      "counts": {
+        "query_time_parsed": 0,
+        "temporal_extraction_active": 0,
+        "uncertain_start_active": 0,
+        "replacement_active": 0,
+        "claim_context_certificate": 0,
+        "reader_context_certificate": 0,
+        "all_three_completion_context_agreement": 0,
+        "completion_contexts_differ_from_possible": 0,
+        "completion_sensitive": 0,
+        "possible_differs_interval": 0,
+        "possible_differs_no_filter": 0
+      },
+      "fallback_fraction": {
+        "no_temporal_filter": null,
+        "earliest_completion": null,
+        "midpoint_completion": null,
+        "latest_completion": null,
+        "interval_outer_control": null,
+        "possible_support": null,
+        "guaranteed_support": null,
+        "latest_mentioned_year_top20": null,
+        "original_bm25": null,
+        "original_bm25_latestyear": null
+      }
+    },
+    "completion_sensitive": {
+      "n_queries": 54,
+      "counts": {
+        "query_time_parsed": 54,
+        "temporal_extraction_active": 54,
+        "uncertain_start_active": 54,
+        "replacement_active": 0,
+        "claim_context_certificate": 0,
+        "reader_context_certificate": 0,
+        "all_three_completion_context_agreement": 0,
+        "completion_contexts_differ_from_possible": 54,
+        "completion_sensitive": 54,
+        "possible_differs_interval": 0,
+        "possible_differs_no_filter": 4
+      },
+      "fallback_fraction": {
+        "no_temporal_filter": 0.7000000000000001,
+        "earliest_completion": 0.8518518518518519,
+        "midpoint_completion": 0.8074074074074075,
+        "latest_completion": 0.8037037037037037,
+        "interval_outer_control": 0.7222222222222222,
+        "possible_support": 0.7222222222222222,
+        "guaranteed_support": 0.9333333333333333,
+        "latest_mentioned_year_top20": 0.7555555555555556,
+        "original_bm25": 0.6777777777777778,
+        "original_bm25_latestyear": 0.6814814814814816
+      }
+    }
+  },
+  "reader_jobs": 0,
+  "reader_queries": 0,
+  "feature_gold_reads": 0,
+  "elapsed_seconds": 127.75222706794739
+}
+RUN pass3/protocol/score_predictions.py --predictions pass5/pipeline/validation/predictions.jsonl --labels pass3/protocol/dev_validation_labels.jsonl --passages pass3/protocol/dev_source_passages.jsonl --config pass5/protocol/config.json --output pass5/pipeline/validation/scored
+{
+  "n_questions": 2348,
+  "n_articles": 644,
+  "metrics": {
+    "earliest_completion": {
+      "all_annotated_spans_covered_at_5": 0.6686541737649063,
+      "all_annotated_strings_covered_at_5": 0.6686541737649063,
+      "annotated_span_recall_at_5": 0.6786626916524702,
+      "annotated_string_recall_at_5": 0.6786626916524702,
+      "parent_passage_hit_at_5": 0.6976149914821125,
+      "passages_used": 4.913543441226576,
+      "tokens_used": 361.8155877342419,
+      "units_used": 4.994889267461669
+    },
+    "guaranteed_support": {
+      "all_annotated_spans_covered_at_5": 0.6678023850085179,
+      "all_annotated_strings_covered_at_5": 0.6678023850085179,
+      "annotated_span_recall_at_5": 0.6775979557069847,
+      "annotated_string_recall_at_5": 0.6775979557069847,
+      "parent_passage_hit_at_5": 0.6959114139693356,
+      "passages_used": 4.917376490630324,
+      "tokens_used": 362.27001703577514,
+      "units_used": 4.994889267461669
+    },
+    "interval_outer_control": {
+      "all_annotated_spans_covered_at_5": 0.6686541737649063,
+      "all_annotated_strings_covered_at_5": 0.6686541737649063,
+      "annotated_span_recall_at_5": 0.6788756388415673,
+      "annotated_string_recall_at_5": 0.6788756388415673,
+      "parent_passage_hit_at_5": 0.6976149914821125,
+      "passages_used": 4.9054514480408855,
+      "tokens_used": 360.7636286201022,
+      "units_used": 4.994889267461669
+    },
+    "latest_completion": {
+      "all_annotated_spans_covered_at_5": 0.6678023850085179,
+      "all_annotated_strings_covered_at_5": 0.6678023850085179,
+      "annotated_span_recall_at_5": 0.6778109028960818,
+      "annotated_string_recall_at_5": 0.6778109028960818,
+      "parent_passage_hit_at_5": 0.6959114139693356,
+      "passages_used": 4.9092844974446335,
+      "tokens_used": 361.1533219761499,
+      "units_used": 4.994889267461669
+    },
+    "latest_mentioned_year_top20": {
+      "all_annotated_spans_covered_at_5": 0.6554514480408858,
+      "all_annotated_strings_covered_at_5": 0.6554514480408858,
+      "annotated_span_recall_at_5": 0.6654599659284497,
+      "annotated_string_recall_at_5": 0.6654599659284497,
+      "parent_passage_hit_at_5": 0.6856899488926746,
+      "passages_used": 4.890119250425895,
+      "tokens_used": 344.9190800681431,
+      "units_used": 4.992759795570699
+    },
+    "midpoint_completion": {
+      "all_annotated_spans_covered_at_5": 0.6673764906303237,
+      "all_annotated_strings_covered_at_5": 0.6673764906303237,
+      "annotated_span_recall_at_5": 0.6775979557069847,
+      "annotated_string_recall_at_5": 0.6775979557069847,
+      "parent_passage_hit_at_5": 0.6963373083475298,
+      "passages_used": 4.9101362862010225,
+      "tokens_used": 361.30281090289606,
+      "units_used": 4.994889267461669
+    },
+    "no_temporal_filter": {
+      "all_annotated_spans_covered_at_5": 0.6652470187393527,
+      "all_annotated_strings_covered_at_5": 0.6652470187393527,
+      "annotated_span_recall_at_5": 0.676107325383305,
+      "annotated_string_recall_at_5": 0.676107325383305,
+      "parent_passage_hit_at_5": 0.696763202725724,
+      "passages_used": 4.883304940374787,
+      "tokens_used": 356.6477853492334,
+      "units_used": 4.9957410562180575
+    },
+    "original_bm25": {
+      "all_annotated_spans_covered_at_5": 0.36626916524701875,
+      "all_annotated_strings_covered_at_5": 0.36626916524701875,
+      "annotated_span_recall_at_5": 0.3762776831345826,
+      "annotated_string_recall_at_5": 0.3762776831345826,
+      "parent_passage_hit_at_5": 0.4067291311754685,
+      "passages_used": 4.9190800681431,
+      "tokens_used": 104.09241908006814,
+      "units_used": 5.0
+    },
+    "original_bm25_latestyear": {
+      "all_annotated_spans_covered_at_5": 0.5221465076660988,
+      "all_annotated_strings_covered_at_5": 0.5221465076660988,
+      "annotated_span_recall_at_5": 0.5327228847245883,
+      "annotated_string_recall_at_5": 0.5327228847245883,
+      "parent_passage_hit_at_5": 0.5540885860306644,
+      "passages_used": 4.883730834752981,
+      "tokens_used": 198.59752981260647,
+      "units_used": 5.0
+    },
+    "possible_support": {
+      "all_annotated_spans_covered_at_5": 0.6686541737649063,
+      "all_annotated_strings_covered_at_5": 0.6686541737649063,
+      "annotated_span_recall_at_5": 0.6788756388415673,
+      "annotated_string_recall_at_5": 0.6788756388415673,
+      "parent_passage_hit_at_5": 0.6976149914821125,
+      "passages_used": 4.9054514480408855,
+      "tokens_used": 360.7636286201022,
+      "units_used": 4.994889267461669
+    }
+  }
+}

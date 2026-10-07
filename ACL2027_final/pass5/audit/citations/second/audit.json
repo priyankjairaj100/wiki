@@ -1,0 +1,300 @@
+{
+  "date": "2026-10-07",
+  "audit_type": "Independent second primary-source check",
+  "status": "passed",
+  "refs_sha256": "b53ec72bf39ac7ed88d93b039011fc68fc417ee71ffdc37237f40e2e0a7c56c7",
+  "reference_count": 24,
+  "citation_command_count": 28,
+  "fabricated_references": [],
+  "wrong_identifiers": [],
+  "unresolved_metadata_errors": [],
+  "unsupported_attributed_claims": [],
+  "entries": [
+    {
+      "key": "lewis2020rag",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+        "https://proceedings.neurips.cc/paper/2020/file/6b493230205f780e1bc26945df7481e5-Bibtex.bib"
+      ],
+      "claim_locator": "Abstract and official BibTeX",
+      "finding": "The publication has 12 authors. The corrected entry includes Riedel and Kiela. Its retrieval and generation sequence supports the revised introductory statement. Volume 33, pages 9459–9474, and 2020 match."
+    },
+    {
+      "key": "robertson1995bm25",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://trec.nist.gov/pubs/trec3/t3_proceedings.html",
+        "https://www.nist.gov/publications/overview-third-text-retrieval-conference-trec-3-0",
+        "https://pages.nist.gov/trec-browser/trec3/proceedings/"
+      ],
+      "claim_locator": "Official paper listing and NIST publication record",
+      "finding": "NIST identifies publication 500-225 and publication year 1995. The older proceedings HTML incorrectly displays 500-226. The paper listing confirms five authors and pages 109–126. The manuscript treats parameter values as this study’s choices."
+    },
+    {
+      "key": "dhingra2022templama",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://aclanthology.org/2022.tacl-1.15/",
+        "https://aclanthology.org/2022.tacl-1.15.pdf"
+      ],
+      "claim_locator": "Methods, pages 258–259",
+      "finding": "Six authors, title, TACL 10, pages 257–273, year, and DOI match. Section 2 explicitly discretizes time into yearly buckets. The manuscript does not treat yearly observations as exact occurrence dates."
+    },
+    {
+      "key": "vu2024freshllms",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://aclanthology.org/2024.findings-acl.813/"
+      ],
+      "claim_locator": "Abstract and publisher bibliography",
+      "finding": "All 11 authors match in order. Findings ACL 2024, pages 13697–13720, and DOI match. Search augmentation supplies changing information. The short related-work statement is supported."
+    },
+    {
+      "key": "chen2021timeqa",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/1f0e3dad99908345f7439f8ffabdffc4-Abstract-round2.html",
+        "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/1f0e3dad99908345f7439f8ffabdffc4-Paper-round2.pdf"
+      ],
+      "claim_locator": "Paper first page; supplied DEV Warburg paragraph 15; supplied TEST Chicago Stadium paragraph 3",
+      "finding": "The PDF lists three authors. The website accidentally repeats William Yang Wang. The corrected three-author entry is right. Original source paragraphs support the examples. Warburg paragraph 15 gives 1955, while paragraph 32 gives 1954. Attribute the example to its selected paragraph. Chicago Stadium paragraph 3 gives concurrent team tenancies."
+    },
+    {
+      "key": "liska2022streamingqa",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://proceedings.mlr.press/v162/liska22a.html"
+      ],
+      "claim_locator": "Abstract and official BibTeX",
+      "finding": "Fourteen authors match in order. PMLR 162, pages 13604–13622, ICML 2022, and title match. The study tests adaptation as dated news enters the search space."
+    },
+    {
+      "key": "lau2025tarag",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://arxiv.org/abs/2507.22917"
+      ],
+      "claim_locator": "Abstract",
+      "finding": "Five authors, title, year, arXiv identifier, and DOI match. The retriever uses query subjects and time windows to collect evidence across a requested period."
+    },
+    {
+      "key": "an2026fresco",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.14227",
+        "https://arxiv.org/html/2604.14227v1"
+      ],
+      "claim_locator": "Section 3.1, Problem Formulation",
+      "finding": "Seven named authors, title, year, identifier, and DOI match. Section 3.1 distinguishes informative obsolete evidence from temporally valid but insufficient evidence. The abstract’s automated author-count sentence is inconsistent; the named author list is authoritative."
+    },
+    {
+      "key": "wang2026iarag",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://arxiv.org/abs/2606.06044"
+      ],
+      "claim_locator": "Abstract",
+      "finding": "Ten named authors, title, year, identifier, and DOI match. Interval Event Units and Sub-graph Time Tightening support the stated interval representation and uncertain-date refinement. The automated author-count sentence differs from the named list."
+    },
+    {
+      "key": "rasmussen2025zep",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://arxiv.org/abs/2501.13956",
+        "https://arxiv.org/html/2501.13956v1"
+      ],
+      "claim_locator": "Section 2.2.3",
+      "finding": "Five authors and all identifiers match. The method compares new edges with existing edges. Temporally overlapping contradictions close affected facts at the invalidating edge’s valid time. Historical relationship records remain available."
+    },
+    {
+      "key": "yadav2026memstrata",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://arxiv.org/abs/2606.26511",
+        "https://arxiv.org/html/2606.26511v1"
+      ],
+      "claim_locator": "Write path: deterministic supersession",
+      "finding": "The single author, title, year, identifier, and DOI match. Structured subject, relation, and object values drive deterministic retirement in a temporal ledger. The manuscript’s description is supported."
+    },
+    {
+      "key": "cao2026re3",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://aclanthology.org/2026.acl-long.1180/",
+        "https://aclanthology.org/2026.acl-long.1180.pdf"
+      ],
+      "claim_locator": "PDF first page and method figure",
+      "finding": "The published PDF places Yupeng Li and Zirui Liu before Chunli Liu. Our bibliography follows that order. The HTML order differs. ACL treats the PDF as authoritative. Pages 25735–25760 and DOI match. The method combines grouping, temporal relevance, and conflict filtering."
+    },
+    {
+      "key": "graphiti2026source",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://raw.githubusercontent.com/getzep/graphiti/7514b4467d1f20f87bcf463fdb35e9f61086d263/graphiti_core/utils/maintenance/edge_operations.py"
+      ],
+      "claim_locator": "resolve_edge_contradictions and resolve_extracted_edge",
+      "finding": "The immutable source contains direct contradiction handling and assignments of invalid_at from a later valid_at. Source SHA256 is b773ff4489968af2a996d5074e679cab9806cc0904a7ff9f2aecc74382325abe. The entry identifies a software snapshot, not a research paper."
+    },
+    {
+      "key": "chen2026defuzzrag",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/40276",
+        "https://ojs.aaai.org/index.php/AAAI/article/view/40276/44237"
+      ],
+      "claim_locator": "Method, query extraction and temporal matching filter",
+      "finding": "Three authors, title, year, AAAI 40(36), pages 30252–30260, and DOI match. The method chooses temporal granularity and retains documents when inferred scopes overlap the query interval."
+    },
+    {
+      "key": "zerhoudi2026nuggetindex",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://arxiv.org/abs/2604.27306",
+        "https://arxiv.org/html/2604.27306v1",
+        "https://github.com/searchsim-org/sigir26-nuggetindex/blob/main/CITATION.cff"
+      ],
+      "claim_locator": "Sections 3.1–3.3 and algorithms 1–2; authors’ citation file",
+      "finding": "Three authors, title, year, SIGIR venue, pages 2286–2296, and publication DOI match. Source spans, temporal validity, and lifecycle states are explicit record fields. The method separates functional and multi-valued relations. Publisher access failed; the authors’ official citation file confirms pages."
+    },
+    {
+      "key": "anselma2013indeterminacy",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://experts.arizona.edu/en/publications/valid-time-indeterminacy-in-temporal-relational-databases-semanti/",
+        "https://ieeexplore.ieee.org/document/6329892"
+      ],
+      "claim_locator": "Author institution publication record and abstract",
+      "finding": "Three authors, title, TKDE 25(12), pages 2880–2894, 2013, and DOI match. The abstract specifies valid-time indeterminacy and 16 compact models. This supports the attributed statement. Some personal publication lists contain incorrect volume or page digits; they are not used."
+    },
+    {
+      "key": "fan2012currency",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://www.research.ed.ac.uk/en/publications/determining-the-currency-of-data-2/",
+        "https://www.pure.ed.ac.uk/ws/portalfiles/portal/17894133/Fan_Geerts_ET_AL_2012_Determining_the_currency_of_data.pdf",
+        "https://api.crossref.org/works/10.1145/2389241.2389244"
+      ],
+      "claim_locator": "Author institution publication record and paper abstract",
+      "finding": "Three authors, title, TODS 37(4), article 25, 46 pages, 2012, and DOI match. The manuscript correctly describes currency without reliable timestamps. The institutional early manuscript uses provisional page prefixes. The bibliography uses published article numbering."
+    },
+    {
+      "key": "amarilli2017order",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TIME.2017.4",
+        "https://drops.dagstuhl.de/storage/00lipics/lipics-vol090-time2017/LIPIcs.TIME.2017.4/LIPIcs.TIME.2017.4.pdf"
+      ],
+      "claim_locator": "Definition 7, page 4:6; Example 9, page 4:7; Theorem 26, page 4:11",
+      "finding": "Four authors, title, TIME 2017, LIPIcs 90, pages 4:1–4:19, and DOI match. Definition 7 tests whether a list is possible or is the unique whole result. The paper also studies top-k accumulation. The manuscript’s description is supported."
+    },
+    {
+      "key": "li2025erase",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://aclanthology.org/2025.findings-naacl.168/",
+        "https://aclanthology.org/2025.findings-naacl.168.pdf"
+      ],
+      "claim_locator": "Abstract and knowledge update method",
+      "finding": "Six authors, title, Findings NAACL 2025, pages 3070–3090, and DOI match. ERASE deletes or rewrites stored knowledge when documents arrive. The manuscript’s history-editing description is supported."
+    },
+    {
+      "key": "hua2008ranking",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://www.cse.unsw.edu.au/~lxue/sigmod08.pdf",
+        "https://scholars.duke.edu/publication/1530940"
+      ],
+      "claim_locator": "Paper abstract and possible-world example",
+      "finding": "Four authors match in order. Title, SIGMOD 2008, pages 673–686, and DOI match. The paper computes probabilities that uncertain records enter top-k results. It uses uncertain tuple membership, which matches the manuscript’s attribution."
+    },
+    {
+      "key": "amarilli2017topk",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2017.5"
+      ],
+      "claim_locator": "Abstract and official BibTeX",
+      "finding": "Four authors, title, ICDT 2017, LIPIcs 68, pages 5:1–5:18, and DOI match. The method models unknown numerical values under partial order constraints. The manuscript correctly separates that setting from uncertain eligibility."
+    },
+    {
+      "key": "karp1972reducibility",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://link.springer.com/chapter/10.1007/978-1-4684-2001-2_9",
+        "https://cgi.di.uoa.gr/~sgk/teaching/grad/handouts/karp.pdf",
+        "https://link.springer.com/content/pdf/bfm:978-1-4684-2001-2/1"
+      ],
+      "claim_locator": "Original page 94, Main Theorem and problem 6; original volume front matter, pages ii–iii",
+      "finding": "The original scan explicitly lists Set Covering among complete problems. Author, title, year, pages 85–103, and DOI match. Original Plenum publication and Miller/Thatcher editors are retained. Modern publisher metadata also lists associate editor Bohlinger."
+    },
+    {
+      "key": "qwen2024model",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://qwenlm.github.io/blog/qwen2.5/",
+        "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF"
+      ],
+      "claim_locator": "Official release post and official GGUF model card",
+      "finding": "Qwen Team, title, September 2024, and URL match the model card’s recommended citation. The official card lists the 3B instruction model and Q4_K_M quantization. The pinned CPU runtime is a study configuration, not a claim about the cited post."
+    },
+    {
+      "key": "feng2023ranking",
+      "status": "verified",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "primary_urls": [
+        "https://www.vldb.org/pvldb/vol16/p1346-feng.pdf"
+      ],
+      "claim_locator": "Abstract and introduction, page 1346",
+      "finding": "Three authors, title, PVLDB 16(6), pages 1346–1358, 2023, and DOI match. The method bounds certain and possible outputs for ranking, top-k, and window queries. The related-work statement is supported."
+    }
+  ],
+  "primary_cache_policy": "Full third-party texts remain outside the project. This audit records URLs, hashes, locators, and brief findings."
+}

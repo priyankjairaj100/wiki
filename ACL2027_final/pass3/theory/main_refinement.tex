@@ -1,0 +1,29 @@
+\paragraph{Locate decisions that need date refinement.}
+Let $U=\operatorname{Top}_k(P(Q))\setminus H(Q)$.
+These claims have unresolved support and enter the possible context.
+Their status determines whether date uncertainty can change retrieval.
+
+\begin{theorem}[Constructive instability and refinement]
+\label{thm:refinement}
+If $U\ne\varnothing$, the compiled certificates construct two allowed date assignments with different contexts in $O(n)$ time.
+Every refinement that stabilizes the context makes each current pivot guaranteed or impossible.
+\end{theorem}
+
+Each $c\in U$ has fewer than $k$ possible claims above it.
+Any timeline supporting $c$ therefore selects it.
+We place each incoming witness no later than $c$ or after a supporting query time.
+The second timeline starts $c$ after the query, or retires $c$ by the query start.
+Replaying their complete contexts uses the accepted pairs and takes $O(n+m)$ time.
+Date refinement can only remove possible claims.
+Thus a remaining possible pivot cannot leave the possible context through rank changes.
+It must become guaranteed.
+Appendix~\ref{app:refinement} gives the construction and proof.
+
+The frontier identifies necessary support decisions, rather than a minimum set of date fields.
+New unresolved claims can enter after current pivots disappear.
+We recompute the frontier after each refinement.
+
+\paragraph{A tractable certificate for a harder ranking problem.}
+When $k$ is part of the input, deciding possible context membership is NP-hard.
+This holds even for a point query and a bipartite gate with one edge layer.
+Our exact stability test avoids constructing this full context envelope.

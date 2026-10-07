@@ -1,0 +1,60 @@
+{
+  "tie_batches": [],
+  "recurring_keys": [],
+  "cross_key_pairs": [
+    {
+      "older": "rw:0",
+      "newer": "rw:3",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Steven Paul Jobs was an American businessman, inventor, and investor. Jobs returned to Apple in 1997 as CEO, where he was closely involved with the creation and promotion of many of the company's most influential products until his resignation in 2011."
+    },
+    {
+      "older": "rw:0",
+      "newer": "rw:5",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Jeffrey Preston Bezos is an American businessman, and the founder, executive chairman, and former president and CEO of Amazon, the world's largest e-commerce and cloud computing company."
+    },
+    {
+      "older": "rw:0",
+      "newer": "rw:7",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Lawrence Edward Page is an American businessman and computer scientist who co-founded Google with Sergey Brin. Page was chief executive officer of Google from 1997 until August 2001 when he was succeeded by Eric Schmidt, and then again from April 2011 until July 2015 when he became CEO of its newly formed parent organization Alphabet Inc."
+    },
+    {
+      "older": "rw:0",
+      "newer": "rw:9",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Michael Dammann Eisner is an American businessman and media proprietor who served as chairman and chief executive officer of the Walt Disney Company from September 1984 to September 2005."
+    },
+    {
+      "older": "rw:0",
+      "newer": "rw:11",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Robert Alan Chapek is an American businessman and former media executive who was the chief executive officer of the Walt Disney Company from 2020 to 2022."
+    },
+    {
+      "older": "rw:0",
+      "newer": "rw:18",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Howard D. Schultz is an American businessman and author who was the chairman and chief executive officer of Starbucks from 1986 to 2000, from 2008 to 2017, and interim CEO from 2022 to 2023."
+    },
+    {
+      "older": "rw:0",
+      "newer": "rw:19",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Kevin R. Johnson is an American businessman and software engineer who was the president and chief executive officer of Starbucks Coffee Company from 2017 to 2022."
+    },
+    {
+      "older": "rw:0",
+      "newer": "rw:23",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "George Richard Wagoner Jr. is an American businessman and former chair and chief executive officer of General Motors."
+    },
+    {
+      "older": "rw:0",
+      "newer": "rw:25",
+      "older_text": "William Henry Gates III is an American businessman and philanthropist.",
+      "newer_text": "Travis Cordell Kalanick is an American businessman best known as the co-founder and former chief executive officer of Uber."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Temporal memory and replacement.}
+Graphiti closes earlier facts through direct contradictory evidence~\citep{rasmussen2025zep,graphiti2026source}.
+MemStrata applies deterministic supersession to structured keys~\citep{yadav2026memstrata}.
+ERASE edits stored fact histories as new documents arrive~\citep{li2025erase}.
+NuggetIndex attaches source spans, validity intervals, and lifecycle states to atomic records~\citep{zerhoudi2026nuggetindex}.
+It distinguishes functional and multi-valued relations.
+These systems establish direct invalidation and cardinality-aware memory as existing mechanisms.
+Our contribution concerns exact compilation across uncertain occurrence dates under fixed direct decisions.
+
+\paragraph{Temporal retrieval.}
+Re$^3$ combines fact grouping, conflict filtering, and temporal relevance~\citep{cao2026re3}.
+DeFuzzRAG adapts temporal granularity and filters inferred document scopes by query overlap~\citep{chen2026defuzzrag}.
+IA-RAG represents intervals and refines uncertain event dates~\citep{wang2026iarag}.
+TA-RAG retrieves evidence across timelines~\citep{lau2025tarag}.
+These methods motivate interval-aware evidence selection.
+We preserve all assignments within supplied occurrence bounds.
+The resulting compiler distinguishes possible support from guaranteed support within a window.
+The latter uses a different quantifier order from overlap with certainly active points.
+
+\paragraph{Uncertain temporal data.}
+Possible and certain temporal semantics have a substantial database foundation.
+\citet{anselma2013indeterminacy} study valid-time indeterminacy and compact representations.
+\citet{fan2012currency} study data currency without reliable timestamps.
+\citet{amarilli2017order} analyze possible and certain answers over order-incomplete data.
+Our model restricts uncertainty to independent occurrence bounds with a fixed replacement predicate.
+Within this model, two direct witnesses answer all support queries.
+The witness bound and local influence result concern this specific compilation problem.
+
+\paragraph{Temporal evaluation.}
+TimeQA supplies natural passages and questions about dated histories~\citep{chen2021timeqa}.
+TempLAMA evaluates factual answers at yearly resolution~\citep{dhingra2022templama}.
+StreamingQA and FreshLLMs study changing information access~\citep{liska2022streamingqa,vu2024freshllms}.
+FRESCO distinguishes obsolete evidence from current but insufficient passages~\citep{an2026fresco}.
+Our protocol preserves complete answer arrays and original answer spans.
+It separates snapshot observations from occurrence bounds.
+This distinction prevents a benchmark's date labels from silently becoming stronger temporal assumptions.

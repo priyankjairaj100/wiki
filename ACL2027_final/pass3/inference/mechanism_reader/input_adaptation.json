@@ -1,0 +1,11 @@
+{
+  "source": "pass3/pipeline/pilot_final/reader_mechanism_jobs.jsonl",
+  "source_sha256": "5410c03d2653c83bc77b0c4bf2a83c55ddea921e6096ceb49e770145a77e001a",
+  "rows": 22,
+  "adaptation": "id=job_id; prompt unchanged; all other fields retained in metadata; max_tokens=96 unless row overrides",
+  "temperature": 0,
+  "seed": 1729,
+  "response_format_constraint": null,
+  "evaluation_labels_loaded": false,
+  "cohort": "Declared completion-sensitive mechanism diagnostic; not primary QA benchmark"
+}

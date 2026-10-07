@@ -1,0 +1,626 @@
+[
+  {
+    "dataset": "freshrag",
+    "n_claims": 304,
+    "n_keys": 100,
+    "n_distinct_dates": 90,
+    "ties": 0,
+    "recurring_keys": 0,
+    "detection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 181,
+      "fp": 0,
+      "fn": 0,
+      "n_claims": 304,
+      "n_gold_superseded": 181,
+      "n_detected": 181,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "cached_comparison": {
+      "precision": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "recall": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "f1": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "tp": {
+        "cached": 181,
+        "rerun": 181,
+        "matches": true
+      },
+      "fp": {
+        "cached": 0,
+        "rerun": 0,
+        "matches": true
+      },
+      "fn": {
+        "cached": 0,
+        "rerun": 0,
+        "matches": true
+      }
+    },
+    "literal_value_absent": 0,
+    "literal_subject_absent": 0
+  },
+  {
+    "dataset": "multihop_asof",
+    "n_claims": 277,
+    "n_keys": 120,
+    "n_distinct_dates": 24,
+    "ties": 0,
+    "recurring_keys": 0,
+    "detection": {
+      "precision": 0.9128,
+      "recall": 1.0,
+      "f1": 0.9544,
+      "tp": 157,
+      "fp": 15,
+      "fn": 0,
+      "n_claims": 277,
+      "n_gold_superseded": 157,
+      "n_detected": 172,
+      "false_positives": [
+        "mh:11",
+        "mh:117",
+        "mh:131",
+        "mh:141",
+        "mh:145",
+        "mh:18",
+        "mh:193",
+        "mh:234",
+        "mh:248",
+        "mh:3",
+        "mh:46",
+        "mh:60",
+        "mh:69",
+        "mh:92",
+        "mh:96"
+      ],
+      "false_negatives": []
+    },
+    "cached_comparison": {},
+    "literal_value_absent": 0,
+    "literal_subject_absent": 0
+  },
+  {
+    "dataset": "multihop_real",
+    "n_claims": 67,
+    "n_keys": 19,
+    "n_distinct_dates": 33,
+    "ties": 0,
+    "recurring_keys": 1,
+    "detection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 44,
+      "fp": 0,
+      "fn": 0,
+      "n_claims": 67,
+      "n_gold_superseded": 44,
+      "n_detected": 44,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "cached_comparison": {},
+    "literal_value_absent": 0,
+    "literal_subject_absent": 0
+  },
+  {
+    "dataset": "realprose",
+    "n_claims": 132,
+    "n_keys": 35,
+    "n_distinct_dates": 42,
+    "ties": 0,
+    "recurring_keys": 2,
+    "detection": {
+      "precision": 0.9778,
+      "recall": 0.9072,
+      "f1": 0.9412,
+      "tp": 88,
+      "fp": 2,
+      "fn": 9,
+      "n_claims": 132,
+      "n_gold_superseded": 97,
+      "n_detected": 90,
+      "false_positives": [
+        "rp:102",
+        "rp:93"
+      ],
+      "false_negatives": [
+        "rp:111",
+        "rp:123",
+        "rp:126",
+        "rp:18",
+        "rp:20",
+        "rp:3",
+        "rp:32",
+        "rp:58",
+        "rp:72"
+      ]
+    },
+    "cached_comparison": {
+      "precision": {
+        "cached": 0.9778,
+        "rerun": 0.9778,
+        "matches": true
+      },
+      "recall": {
+        "cached": 0.9072,
+        "rerun": 0.9072,
+        "matches": true
+      },
+      "f1": {
+        "cached": 0.9412,
+        "rerun": 0.9412,
+        "matches": true
+      },
+      "tp": {
+        "cached": 88,
+        "rerun": 88,
+        "matches": true
+      },
+      "fp": {
+        "cached": 2,
+        "rerun": 2,
+        "matches": true
+      },
+      "fn": {
+        "cached": 9,
+        "rerun": 9,
+        "matches": true
+      }
+    },
+    "literal_value_absent": 87,
+    "literal_subject_absent": 18
+  },
+  {
+    "dataset": "realwiki",
+    "n_claims": 26,
+    "n_keys": 12,
+    "n_distinct_dates": 19,
+    "ties": 0,
+    "recurring_keys": 0,
+    "detection": {
+      "precision": 1.0,
+      "recall": 0.7857,
+      "f1": 0.88,
+      "tp": 11,
+      "fp": 0,
+      "fn": 3,
+      "n_claims": 26,
+      "n_gold_superseded": 14,
+      "n_detected": 11,
+      "false_positives": [],
+      "false_negatives": [
+        "rw:18",
+        "rw:20",
+        "rw:3"
+      ]
+    },
+    "cached_comparison": {
+      "precision": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "recall": {
+        "cached": 0.7857,
+        "rerun": 0.7857,
+        "matches": true
+      },
+      "f1": {
+        "cached": 0.88,
+        "rerun": 0.88,
+        "matches": true
+      },
+      "tp": {
+        "cached": 11,
+        "rerun": 11,
+        "matches": true
+      },
+      "fp": {
+        "cached": 0,
+        "rerun": 0,
+        "matches": true
+      },
+      "fn": {
+        "cached": 3,
+        "rerun": 3,
+        "matches": true
+      }
+    },
+    "literal_value_absent": 20,
+    "literal_subject_absent": 2
+  },
+  {
+    "dataset": "realworld",
+    "n_claims": 56,
+    "n_keys": 20,
+    "n_distinct_dates": 41,
+    "ties": 0,
+    "recurring_keys": 2,
+    "detection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 36,
+      "fp": 0,
+      "fn": 0,
+      "n_claims": 56,
+      "n_gold_superseded": 36,
+      "n_detected": 36,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "cached_comparison": {
+      "precision": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "recall": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "f1": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "tp": {
+        "cached": 36,
+        "rerun": 36,
+        "matches": true
+      },
+      "fp": {
+        "cached": 0,
+        "rerun": 0,
+        "matches": true
+      },
+      "fn": {
+        "cached": 0,
+        "rerun": 0,
+        "matches": true
+      }
+    },
+    "literal_value_absent": 0,
+    "literal_subject_absent": 0
+  },
+  {
+    "dataset": "templama",
+    "n_claims": 747,
+    "n_keys": 300,
+    "n_distinct_dates": 11,
+    "ties": 0,
+    "recurring_keys": 8,
+    "detection": {
+      "precision": 0.9819,
+      "recall": 0.9709,
+      "f1": 0.9764,
+      "tp": 434,
+      "fp": 8,
+      "fn": 13,
+      "n_claims": 747,
+      "n_gold_superseded": 447,
+      "n_detected": 442,
+      "false_positives": [
+        "tl:Q1029527_P39:2011:Q13218630",
+        "tl:Q11112119_P39:2015:Q13218630",
+        "tl:Q1135774_P39:2015:Q4416090",
+        "tl:Q11669_P39:2013:Q13218630",
+        "tl:Q11860_P102:2014:Q14924303",
+        "tl:Q1186234_P488:2015:Q81065",
+        "tl:Q1240224_P39:2013:Q13218630",
+        "tl:Q1282411_P39:2013:Q4416090"
+      ],
+      "false_negatives": [
+        "tl:Q10403942_P127:2010:Q1543093",
+        "tl:Q10543612_P39:2010:Q140686",
+        "tl:Q10552391_P54:2011:Q1671357",
+        "tl:Q107124_P39:2010:Q1162163",
+        "tl:Q10931647_P127:2010:Q7021083",
+        "tl:Q11080923_P127:2010:Q721162",
+        "tl:Q1150936_P127:2010:Q486633",
+        "tl:Q11705283_P127:2010:Q2036076",
+        "tl:Q11705283_P127:2015:Q18378979",
+        "tl:Q12149_P39:2010:Q852152",
+        "tl:Q1280872_P39:2014:Q140686",
+        "tl:Q13306_P54:2010:Q1344163",
+        "tl:Q13306_P54:2011:Q1277549"
+      ]
+    },
+    "cached_comparison": {
+      "precision": {
+        "cached": 0.9819,
+        "rerun": 0.9819,
+        "matches": true
+      },
+      "recall": {
+        "cached": 0.9709,
+        "rerun": 0.9709,
+        "matches": true
+      },
+      "f1": {
+        "cached": 0.9764,
+        "rerun": 0.9764,
+        "matches": true
+      },
+      "tp": {
+        "cached": 434,
+        "rerun": 434,
+        "matches": true
+      },
+      "fp": {
+        "cached": 8,
+        "rerun": 8,
+        "matches": true
+      },
+      "fn": {
+        "cached": 13,
+        "rerun": 13,
+        "matches": true
+      }
+    },
+    "literal_value_absent": 0,
+    "literal_subject_absent": 747
+  },
+  {
+    "dataset": "wikidata",
+    "n_claims": 208,
+    "n_keys": 73,
+    "n_distinct_dates": 27,
+    "ties": 9,
+    "recurring_keys": 11,
+    "detection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 133,
+      "fp": 0,
+      "fn": 0,
+      "n_claims": 208,
+      "n_gold_superseded": 133,
+      "n_detected": 133,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "cached_comparison": {
+      "precision": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "recall": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "f1": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "tp": {
+        "cached": 133,
+        "rerun": 133,
+        "matches": true
+      },
+      "fp": {
+        "cached": 0,
+        "rerun": 0,
+        "matches": true
+      },
+      "fn": {
+        "cached": 0,
+        "rerun": 0,
+        "matches": true
+      }
+    },
+    "literal_value_absent": 0,
+    "literal_subject_absent": 0
+  },
+  {
+    "dataset": "wikidata_prose",
+    "n_claims": 208,
+    "n_keys": 73,
+    "n_distinct_dates": 27,
+    "ties": 9,
+    "recurring_keys": 11,
+    "detection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 133,
+      "fp": 0,
+      "fn": 0,
+      "n_claims": 208,
+      "n_gold_superseded": 133,
+      "n_detected": 133,
+      "false_positives": [],
+      "false_negatives": []
+    },
+    "cached_comparison": {
+      "precision": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "recall": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "f1": {
+        "cached": 1.0,
+        "rerun": 1.0,
+        "matches": true
+      },
+      "tp": {
+        "cached": 133,
+        "rerun": 133,
+        "matches": true
+      },
+      "fp": {
+        "cached": 0,
+        "rerun": 0,
+        "matches": true
+      },
+      "fn": {
+        "cached": 0,
+        "rerun": 0,
+        "matches": true
+      }
+    },
+    "literal_value_absent": 0,
+    "literal_subject_absent": 0
+  },
+  {
+    "dataset": "wikidata_prose_normalized",
+    "n_claims": 208,
+    "n_keys": 73,
+    "n_distinct_dates": 27,
+    "ties": 9,
+    "recurring_keys": 11,
+    "detection": {
+      "precision": 0.8,
+      "recall": 0.2406,
+      "f1": 0.3699,
+      "tp": 32,
+      "fp": 8,
+      "fn": 101,
+      "n_claims": 208,
+      "n_gold_superseded": 133,
+      "n_detected": 40,
+      "false_positives": [
+        "prose:P169:Q2283:Q7426870:2014-02-04",
+        "prose:P169:Q248:Q7143480:2021-02-15",
+        "prose:P169:Q334800:Q56042353:2018-10-03",
+        "prose:P169:Q37156:Q84053114:2020-04-00",
+        "prose:P169:Q37158:Q117249140:2024-09-09",
+        "prose:P169:Q3884:Q41812531:2021-07-06",
+        "prose:P169:Q44294:Q18921712:2020-10-01",
+        "prose:P169:Q66:Q109767256:2024-08-08"
+      ],
+      "false_negatives": [
+        "prose:P169:Q66:Q16104555:2003-00-00",
+        "prose:P6:Q142:Q101410:2007-05-17",
+        "prose:P6:Q142:Q10287:2014-03-31",
+        "prose:P6:Q142:Q12963:2024-12-13",
+        "prose:P6:Q142:Q20020731:2022-05-16",
+        "prose:P6:Q142:Q30339350:2024-01-09",
+        "prose:P6:Q142:Q3171170:2020-07-03",
+        "prose:P6:Q142:Q3579995:2017-05-15",
+        "prose:P6:Q142:Q438465:2024-09-05",
+        "prose:P6:Q142:Q560890:2016-12-06",
+        "prose:P6:Q142:Q7711:2012-05-16",
+        "prose:P6:Q145:Q10648:2007-00-00",
+        "prose:P6:Q145:Q192:2010-05-11",
+        "prose:P6:Q145:Q20055561:2022-10-25",
+        "prose:P6:Q145:Q264766:2016-07-13",
+        "prose:P6:Q145:Q272201:2022-09-06",
+        "prose:P6:Q155:Q10304982:2019-01-01",
+        "prose:P6:Q155:Q463533:2016-08-31",
+        "prose:P6:Q16:Q128529:2003-12-12",
+        "prose:P6:Q16:Q206:2006-02-06",
+        "prose:P6:Q16:Q3099714:2015-11-04",
+        "prose:P6:Q17:Q122465:2020-09-16",
+        "prose:P6:Q17:Q132345:2012-12-26",
+        "prose:P6:Q17:Q1335527:2024-10-01",
+        "prose:P6:Q17:Q359480:2021-10-04",
+        "prose:P6:Q183:Q61053:2021-12-08",
+        "prose:P6:Q20:Q207655:2001-10-19",
+        "prose:P6:Q20:Q291644:2013-10-16",
+        "prose:P6:Q213:Q10819807:2017-12-06",
+        "prose:P6:Q213:Q12025475:2013-06-25",
+        "prose:P6:Q213:Q155880:2006-08-16",
+        "prose:P6:Q213:Q161671:2005-04-25",
+        "prose:P6:Q213:Q193675:2009-04-09",
+        "prose:P6:Q213:Q3377548:2021-11-28",
+        "prose:P6:Q213:Q348896:2004-08-04",
+        "prose:P6:Q213:Q890971:2014-01-29",
+        "prose:P6:Q27:Q1728820:2022-12-17",
+        "prose:P6:Q27:Q7518922:2024-04-09",
+        "prose:P6:Q27:Q920403:2020-06-27",
+        "prose:P6:Q28:Q57641:2010-05-29",
+        "prose:P6:Q29:Q10819:2011-12-21",
+        "prose:P6:Q29:Q41395:2004-04-16",
+        "prose:P6:Q31:Q18434995:2019-10-27",
+        "prose:P6:Q31:Q476596:2020-10-01",
+        "prose:P6:Q31:Q950958:2014-10-11",
+        "prose:P6:Q33:Q11852228:2019-06-06",
+        "prose:P6:Q33:Q16986436:2019-12-10",
+        "prose:P6:Q33:Q1711532:2015-05-29",
+        "prose:P6:Q34:Q2740012:2014-10-03",
+        "prose:P6:Q34:Q4935873:2021-11-30",
+        "prose:P6:Q34:Q52920:2006-10-06",
+        "prose:P6:Q35:Q182397:2009-04-05",
+        "prose:P6:Q35:Q182397:2015-06-28",
+        "prose:P6:Q35:Q46052:2001-11-27",
+        "prose:P6:Q35:Q57652:2011-10-03",
+        "prose:P6:Q36:Q11771436:2017-12-11",
+        "prose:P6:Q36:Q246216:2014-09-22",
+        "prose:P6:Q36:Q4877021:2015-11-16",
+        "prose:P6:Q36:Q55782:2001-10-19",
+        "prose:P6:Q36:Q55917:2006-07-14",
+        "prose:P6:Q36:Q55920:2005-10-31",
+        "prose:P6:Q36:Q946:2007-11-16",
+        "prose:P6:Q38:Q1071031:2016-12-12",
+        "prose:P6:Q38:Q11860:2001-06-11",
+        "prose:P6:Q38:Q11860:2005-04-23",
+        "prose:P6:Q38:Q11860:2008-05-08",
+        "prose:P6:Q38:Q202209:2000-04-25",
+        "prose:P6:Q38:Q294460:2021-02-13",
+        "prose:P6:Q38:Q38484:2006-05-17",
+        "prose:P6:Q38:Q47563:2014-02-22",
+        "prose:P6:Q38:Q47904:2011-11-16",
+        "prose:P6:Q38:Q53844829:2018-06-01",
+        "prose:P6:Q38:Q674957:2013-04-28",
+        "prose:P6:Q408:Q348577:2013-09-18",
+        "prose:P6:Q408:Q41563:2010-06-24",
+        "prose:P6:Q408:Q43135:2007-03-12",
+        "prose:P6:Q408:Q43135:2013-06-27",
+        "prose:P6:Q408:Q7436908:2018-08-24",
+        "prose:P6:Q408:Q927550:2015-09-15",
+        "prose:P6:Q40:Q18135060:2016-05-17",
+        "prose:P6:Q40:Q2125645:2000-02-04",
+        "prose:P6:Q40:Q2262885:2017-12-18",
+        "prose:P6:Q40:Q2262885:2020-01-07",
+        "prose:P6:Q40:Q260037:2007-01-11",
+        "prose:P6:Q40:Q45808771:2019-05-28",
+        "prose:P6:Q40:Q64168538:2021-10-11",
+        "prose:P6:Q40:Q916162:2019-06-03",
+        "prose:P6:Q43:Q39259:2003-03-23",
+        "prose:P6:Q43:Q42852:2002-12-18",
+        "prose:P6:Q43:Q58198:2014-08-28",
+        "prose:P6:Q43:Q863496:2016-05-24",
+        "prose:P6:Q45:Q57615:2011-06-21",
+        "prose:P6:Q45:Q610788:2015-11-26",
+        "prose:P6:Q55:Q133386:2002-07-22",
+        "prose:P6:Q55:Q22338116:2024-07-02",
+        "prose:P6:Q55:Q57792:2010-10-14",
+        "prose:P6:Q668:Q41914:2004-05-22",
+        "prose:P6:Q801:Q39318:2021-06-13",
+        "prose:P6:Q801:Q43723:2009-03-31",
+        "prose:P6:Q801:Q60206:2001-03-07",
+        "prose:P6:Q801:Q93181:2006-04-14"
+      ]
+    },
+    "cached_comparison": {},
+    "literal_value_absent": 0,
+    "literal_subject_absent": 19
+  }
+]

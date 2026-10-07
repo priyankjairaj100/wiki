@@ -1,0 +1,305 @@
+{
+  "dataset": "realwiki",
+  "n_cutoffs": 19,
+  "summary": {
+    "all_pairs": {
+      "n": 21,
+      "direct_max_affected": 1,
+      "component_max_affected": 2,
+      "component_more_than_one": 1,
+      "direct_total_flips": 50,
+      "component_total_flips": 62
+    },
+    "false_pairs": {
+      "n": 9,
+      "direct_max_affected": 1,
+      "component_max_affected": 1,
+      "component_more_than_one": 0,
+      "direct_total_flips": 1,
+      "component_total_flips": 13
+    },
+    "cross_key_pairs": {
+      "n": 9,
+      "direct_max_affected": 1,
+      "component_max_affected": 1,
+      "component_more_than_one": 0,
+      "direct_total_flips": 1,
+      "component_total_flips": 13
+    }
+  },
+  "interventions": [
+    {
+      "dataset": "realwiki",
+      "older": "rw:0",
+      "newer": "rw:1",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:0",
+      "newer": "rw:3",
+      "false_pair": true,
+      "cross_key": true,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:0",
+      "newer": "rw:5",
+      "false_pair": true,
+      "cross_key": true,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:0",
+      "newer": "rw:7",
+      "false_pair": true,
+      "cross_key": true,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:0",
+      "newer": "rw:9",
+      "false_pair": true,
+      "cross_key": true,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 1,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:0",
+      "newer": "rw:11",
+      "false_pair": true,
+      "cross_key": true,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 13,
+      "component_affected_ids": [
+        "rw:0"
+      ]
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:0",
+      "newer": "rw:18",
+      "false_pair": true,
+      "cross_key": true,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:0",
+      "newer": "rw:19",
+      "false_pair": true,
+      "cross_key": true,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:0",
+      "newer": "rw:23",
+      "false_pair": true,
+      "cross_key": true,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:0",
+      "newer": "rw:25",
+      "false_pair": true,
+      "cross_key": true,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:1",
+      "newer": "rw:2",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 7,
+      "component_membership_flips": 7,
+      "component_affected_ids": [
+        "rw:1"
+      ]
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:5",
+      "newer": "rw:6",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 2,
+      "component_membership_flips": 2,
+      "component_affected_ids": [
+        "rw:5"
+      ]
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:7",
+      "newer": "rw:8",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 6,
+      "component_membership_flips": 6,
+      "component_affected_ids": [
+        "rw:7"
+      ]
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:9",
+      "newer": "rw:10",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 10,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:9",
+      "newer": "rw:11",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 0,
+      "component_affected_claims": 0,
+      "direct_membership_flips": 0,
+      "component_membership_flips": 0,
+      "component_affected_ids": []
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:10",
+      "newer": "rw:11",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 2,
+      "direct_membership_flips": 3,
+      "component_membership_flips": 13,
+      "component_affected_ids": [
+        "rw:9",
+        "rw:10"
+      ]
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:12",
+      "newer": "rw:13",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 3,
+      "component_membership_flips": 3,
+      "component_affected_ids": [
+        "rw:12"
+      ]
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:14",
+      "newer": "rw:15",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 4,
+      "component_membership_flips": 4,
+      "component_affected_ids": [
+        "rw:14"
+      ]
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:16",
+      "newer": "rw:17",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 2,
+      "component_membership_flips": 2,
+      "component_affected_ids": [
+        "rw:16"
+      ]
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:23",
+      "newer": "rw:22",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 7,
+      "component_membership_flips": 7,
+      "component_affected_ids": [
+        "rw:23"
+      ]
+    },
+    {
+      "dataset": "realwiki",
+      "older": "rw:25",
+      "newer": "rw:24",
+      "false_pair": false,
+      "cross_key": false,
+      "direct_affected_claims": 1,
+      "component_affected_claims": 1,
+      "direct_membership_flips": 5,
+      "component_membership_flips": 5,
+      "component_affected_ids": [
+        "rw:25"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+% Insert after the paper defines pair gate G and source timestamps.
+% Required packages: amsmath, amssymb, amsthm.
+% Required environments: theorem, proposition, corollary, proof.
+
+\paragraph{Direct temporal witnesses.}
+Let $G(d,c)$ test whether claim $d$ supplies a replacement for claim $c$.
+The test uses claim text and fixed extraction rules.
+It need not define a transitive relation.
+At cutoff $\tau$, eligible evidence is
+\begin{equation}
+ A_G(\tau)=\{c:t_c\leq\tau,\;\nexists d\text{ with }t_c<t_d\leq\tau\text{ and }G(d,c)\}.
+ \label{eq:direct-eligibility}
+\end{equation}
+This definition concerns the supplied corpus and its timestamp semantics.
+Equal timestamps do not establish replacement order.
+
+For each claim, store its first direct replacement time:
+\begin{equation}
+ b_G(c)=\min\{t_d:t_d>t_c,\;G(d,c)\},\qquad
+ I_G(c)=[t_c,b_G(c)),
+ \label{eq:direct-certificate}
+\end{equation}
+where $\min\varnothing=\infty$.
+Store one attaining witness for source attribution.
+An identifier rule resolves ties without changing the boundary.
+
+\begin{theorem}[All-cutoff compilation]
+\label{thm:all-cutoff}
+For every finite cutoff $\tau$, $c\in A_G(\tau)$ if and only if $\tau\in I_G(c)$.
+The compiler therefore preserves all temporal masks with at most one witness per claim.
+\end{theorem}
+\begin{proof}
+If $t_c>\tau$, both statements are false.
+Otherwise, a qualifying witness exists by $\tau$ exactly when $b_G(c)\leq\tau$.
+Taking the complement proves the claim.
+\end{proof}
+
+\begin{corollary}[Prefix consistency]
+\label{cor:prefix}
+Querying the full index at $\tau$ equals compiling only claims dated at or before $\tau$.
+Consequently, later additions cannot change earlier evidence states.
+\end{corollary}
+\begin{proof}
+Both procedures test exactly the pairs satisfying $t_c<t_d\leq\tau$.
+\end{proof}
+
+\paragraph{Local influence.}
+The guarantee does not require error-free matching.
+It controls how matching errors affect the compiled evidence.
+
+\begin{theorem}[Bounded influence]
+\label{thm:influence}
+Fix timestamps and a candidate ranking.
+Suppose gates $G$ and $H$ differ on $h$ temporally ordered pairs.
+Let $U$ contain their older endpoints.
+For every cutoff $\tau$,
+\begin{align}
+ A_G(\tau)\triangle A_H(\tau)&\subseteq U,\label{eq:mask-influence}\\
+ |R_G(\tau)\triangle R_H(\tau)|&\leq2\min\{k,|U|\}\leq2h,
+ \label{eq:context-influence}
+\end{align}
+where $R$ filters the fixed ranking before selecting at most $k$ claims.
+\end{theorem}
+\begin{proof}
+The boundary for $c$ depends only on pairs whose older endpoint is $c$.
+It cannot change outside $U$.
+Changing one eligibility bit replaces at most one selected claim.
+Applying this argument successively gives $2|U|$.
+The two contexts contain at most $2k$ claims altogether.
+\end{proof}
+
+\paragraph{Why direct witnesses matter.}
+Connected components treat local matches as a transitive identity relation.
+One wrong bridge can therefore change many historical intervals.
+Consider repeated value $a$ for one key at times $0,\ldots,m-1$.
+It changes to $b$ at time $2m$.
+A second key contains $z$ at $m$ and $w$ at $2m+1$.
+Let all four values differ.
+A false bridge between $b$ and $w$ merges the histories.
+Component sorting then closes all $m$ earlier $a$ claims at time $m$.
+At cutoff $m+\tfrac12$, direct compilation changes no claim.
+The false bridge affects only $b$, which has not arrived.
+Thus, component closure can amplify one future error into arbitrarily many earlier exclusions.
+
+\paragraph{Construction cost.}
+Process timestamps in increasing batches.
+Keep unresolved older claims in a complete inverted index.
+The first positive gate fixes a claim's boundary and removes it from the index.
+Insert each batch after all comparisons, so tied claims remain unordered.
+The output uses $O(n)$ words.
+Construction costs $O(n\log n+L+V+Pg)$ after feature extraction.
+Here $L$ counts posting entries, $V$ counts posting visits, and $P$ counts pair tests.
+The quantity $g$ bounds one gate evaluation.
+Uninformative blocks can still require quadratic work.

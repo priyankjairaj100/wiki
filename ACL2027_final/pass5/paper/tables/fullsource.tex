@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrr}
+\toprule
+Policy & H@1 $\uparrow$ & R@5 $\uparrow$ & S@5 $\downarrow$ \\
+\midrule
+BM25 & 64.64 & 80.84 & 45.89 \\
+BM25 + recent ties & 84.04 & 90.10 & 40.50 \\
+Age weighting & 99.81 & 99.98 & 24.07 \\
+Date-first ranking & 99.81 & 99.98 & 0.00 \\
+Original predicate & 99.37 & 99.77 & 0.77 \\
+Graphiti kernel & 99.78 & 99.93 & 0.00 \\
+Query latest-value & 99.89 & 86.37 & 0.00 \\
+Query latest-batch & 99.89 & 99.98 & 0.00 \\
+\bottomrule
+\end{tabular}
+\caption{Annual source-label retrieval on 25,752 held-out questions. All values are percentages. H@1: first-result accuracy; R@5: answer recall; S@5: target-label stale exposure.}
+\label{tab:fullsource}
+\end{table}

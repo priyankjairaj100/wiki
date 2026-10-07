@@ -1,0 +1,78 @@
+\section{From Sources to Temporal Evidence}
+\label{sec:sources}
+
+An occurrence date says when a state began.
+A duration gives separate start and end dates.
+Table~\ref{tab:date-types} shows how we represent both.
+
+\begin{table}[b]
+\centering\small
+\begin{tabular}{@{}p{.28\columnwidth}p{.65\columnwidth}@{}}
+\toprule
+Source meaning & Representation\\
+\midrule
+Started in September & An unknown start between that month's first and last dates.\\[3pt]
+Served from 2001 to 2005 & Separate uncertain start and end dates.\\
+\bottomrule
+\end{tabular}
+\caption{Date precision and state duration carry different information. Only an occurrence range bounds one unknown event date.}
+\label{tab:date-types}
+\end{table}
+
+\paragraph{Occurrence precision.}
+A day gives a point on the time axis.
+A month or year bounds an occurrence within that calendar period.
+Expressions such as \emph{around 1713} require additional evidence before they supply finite bounds.
+We preserve the literal date expression and its source span.
+The query adapter applies the same convention to the visible question.
+A question about a whole year therefore remains a period query.
+Our predicate asks whether a claim applies \emph{somewhere} within that period.
+
+\paragraph{Replacement and coexistence.}
+A directed replacement decision connects values of the same subject and role.
+For office succession, the organization and office define the slot; people supply its values.
+For affiliation, a new organization can coexist with an older affiliation.
+The Chicago Stadium passage in TimeQA, for example, gives overlapping tenancies for two teams~\citep{chen2021timeqa}.
+The source adapter records explicit succession separately from ordinary appointments or joins.
+
+\paragraph{Explicit ends.}
+A stated departure supplies an end event targeting its own claim.
+The compiler treats this hidden event as a direct replacement.
+Every permitted end must follow every permitted start: its lower bound exceeds the start's upper bound.
+This reduction preserves gaps between tenures.
+It also handles a departure without a named successor.
+Appendix~\ref{app:lifecycle} proves equivalence to the corresponding half-open lifetime.
+
+\paragraph{Evidence units.}
+A paragraph can contain several states, so temporal selection operates on source excerpts.
+Each modeled claim preserves exact character offsets and its supporting sentence for audit.
+Uncovered text remains available through a shared fallback policy.
+A loan's planned expiry never becomes an observed departure.
+An incomplete temporal parse retains the complete source text.
+Readers receive original excerpts, date bounds, and support tags.
+Source-derived subject and relation labels preserve context for short succession clauses.
+
+\paragraph{Support tags.}
+Modeled claims are guaranteed, unresolved, or unsupported for the requested period.
+Unresolved claims have possible support without guaranteed support.
+Unmodeled excerpts carry a separate \emph{unknown} tag.
+Their fixed fallback eligibility lets us isolate uncertainty in modeled dates.
+
+\paragraph{A source-grounded example.}
+
+TimeQA's Warburg Institute passage names three successive directors~\citep{chen2021timeqa}.
+Henri Frankfort started in 1949, Gertrud Bing in 1955, and Ernst Gombrich in 1959.
+A deterministic clause adapter recovers these three starts and their two direct succession links from the paragraph.
+The passage separately dates Bing's earlier organizational membership to 1922.
+That membership date does not start her directorship.
+
+Consider the illustrative period January 1954 through June 1955.
+Frankfort has guaranteed support somewhere within that period.
+Bing has possible support because her appointment might precede July.
+Gombrich has no support within the period.
+Rank Frankfort first and Bing second.
+A one-item context always contains Frankfort.
+A two-item context changes when Bing's start moves from January to December 1955.
+Both assignments satisfy the source's year-level precision.
+The same possible pool thus yields different stability decisions at different budgets.
+The source is natural; the query, ranking, and assignments illustrate the theorem.

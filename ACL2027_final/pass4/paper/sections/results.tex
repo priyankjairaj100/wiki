@@ -1,0 +1,77 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Most selected contexts need no finer modeled dates}
+
+Table~\ref{tab:mechanism} reports exact context decisions under the frozen title-aware ranking.
+Among 417 template contexts containing modeled evidence, 313 remain unchanged across all permitted timelines.
+The corresponding human group has 79 stable contexts among 90.
+Their stability rates are 75.06\% and 87.78\%, respectively.
+The remaining contexts contain selected support decisions that date refinement must resolve.
+\input{tables/mechanism}
+
+The adapter extracts 792 development claims and 744 test claims.
+They occupy 2.37\% and 2.16\% of indexed source units, respectively.
+Explicit end events number 445 and 384.
+The confirmation cases exercise uncertain starts and explicit ends.
+All three recovered succession pairs belong to calibration articles.
+Appendix~\ref{app:pipeline} reports the independent source audit and retained extraction judgments.
+
+Parsed all-fallback contexts number 1,879 and 723 across the two tracks.
+Their evidence stays fixed under the shared fallback policy.
+We keep them outside the modeled-context stability rates.
+
+\subsection{The budget exposes consequential uncertainty}
+
+The first unresolved rank gives the largest stable context prefix.
+Table~\ref{tab:budget} varies only the excerpt budget on each fixed modeled cohort.
+At one excerpt, stability reaches 89.9\% for template questions and 96.7\% for human questions.
+At twenty excerpts, both rates approach 73\%.
+A system can therefore retain a short stable context while exposing the extra evidence requiring date verification.
+\input{tables/budget}
+
+The lazy selector examines only the candidates needed to fill the context.
+On modeled template contexts, it examines 5.26 candidates and performs 2.92 temporal tests on average.
+The human averages are 5.17 candidates and 2.70 tests.
+The full masks would evaluate both support predicates for all 792 or 744 claims.
+All 3,109 parsed queries match the full-mask selections exactly.
+These counts isolate selection after the relevance ranking has been computed.
+
+\subsection{Unstable contexts return replayable alternatives}
+
+Every unstable context receives two complete assignments to the modeled event dates.
+Independent replay verifies all 230 assignments and all 115 changes in rendered source excerpts.
+Across both tracks, 75 exclusions retire the pivot by the query start.
+Forty move its start beyond the query end.
+One hundred refinement frontiers contain one claim, fourteen contain two, and one contains three.
+The interface returns these current support decisions with their source spans.
+
+\paragraph{A month-level departure changes the context.}
+A human question about Helen Clark specifies the period 1989 through August 1989.
+The source dates her conservation tenure from August 1987 until January 1989.
+An end on January 1 removes that excerpt from the requested period.
+An end on January 31 retains it.
+Both dates respect the source's month-level precision.
+The command-line interface reproduces both contexts from the frozen source records.
+More precise evidence needs to settle this boundary; the system does not require every historical date to become exact.
+
+\subsection{Stronger retrieval and exact certificates compose}
+
+Table~\ref{tab:matched} compares shown-span recall under identical source units and budgets.
+The pilot-selected title-aware ranking reaches 66.30\% on template questions and 57.39\% on human questions.
+It improves over original BM25 with recency by 13.32 and 5.00 percentage points.
+The paired intervals are $[10.80,15.80]$ and $[0.59,9.21]$ points.
+\input{tables/matched}
+
+Adding recency to the title-aware ranking reaches 63.59\% on human questions.
+Its improvement over the original recency control is 11.20 points, with interval $[7.52,15.19]$.
+Possible support and the interval control select identical excerpts on these tracks.
+The same evidence pipeline therefore combines improved retrieval with exact uncertainty certificates.
+
+A secondary analysis applies the certificate to all six prespecified ranking variants.
+It reads no answer labels and preserves the frozen main ranking.
+Under the strongest human retrieval control, 146 of 166 modeled contexts remain stable.
+Across variants, mean temporal tests range from 2.55 to 3.00 per modeled context.
+The appendix reports variant-specific coverage and fixed-cohort comparisons.
+
+\input{sections/reader_results}

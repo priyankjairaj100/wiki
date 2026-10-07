@@ -1,0 +1,13 @@
+{
+  "independent_counterworld_check": {
+    "configurations": 120,
+    "contexts_checked": 3556,
+    "counterworld_pairs_checked": 1300,
+    "legal_worlds_enumerated": 12925
+  },
+  "independent_hardness_reduction_check": {
+    "set_cover_instances": 1536,
+    "date_worlds_checked": 12288
+  },
+  "interpretation": "Constructed correctness checks. Finite checks supplement the proofs; they are not benchmark observations."
+}

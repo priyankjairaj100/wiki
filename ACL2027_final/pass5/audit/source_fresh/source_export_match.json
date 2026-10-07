@@ -1,0 +1,15 @@
+{
+  "match": {
+    "dev": {
+      "extraction_source_file": "pass3/protocol/dev_source_passages.jsonl",
+      "sha256": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4",
+      "selected_passage_id_article_and_text_identical": 20
+    },
+    "test": {
+      "extraction_source_file": "pass3/protocol/test_source_passages.jsonl",
+      "sha256": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a",
+      "selected_passage_id_article_and_text_identical": 40
+    }
+  },
+  "note": "Selection used the original normalized source inventory. Every sampled passage identifier, article path, and source text exactly match the frozen extraction source export. Export metadata differs. Sample membership remains unchanged."
+}

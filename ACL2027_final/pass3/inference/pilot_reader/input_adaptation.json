@@ -1,0 +1,10 @@
+{
+  "source": "pass3/pipeline/pilot_final/reader_jobs.jsonl",
+  "source_sha256": "c7deec63393aa7742f07ed7477c5d4f78a86b9c2954e90793008fadc6a485c35",
+  "rows": 52,
+  "adaptation": "id=job_id; prompt unchanged; all other fields retained in metadata; max_tokens=96 unless row overrides",
+  "temperature": 0,
+  "seed": 1729,
+  "response_format_constraint": null,
+  "evaluation_labels_loaded": false
+}

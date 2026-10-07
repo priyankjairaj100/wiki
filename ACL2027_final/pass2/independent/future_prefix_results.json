@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "trials": 500,
+  "comparisons": 7000,
+  "strict_boundary_counterexample": "a new event at b can change support",
+  "scope": "existing date bounds and directed gates remain fixed"
+}

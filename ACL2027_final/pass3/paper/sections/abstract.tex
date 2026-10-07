@@ -1,0 +1,15 @@
+\begin{abstract}
+Sources often date historical changes only to a month or year.
+Guessing exact dates can change which evidence reaches an answer model.
+We ask when that uncertainty matters to retrieval.
+Our compiler stores at most two replacement witnesses per claim.
+These witnesses identify evidence that could apply and evidence that must apply somewhere within the requested period.
+We give an exact test for whether every allowed timeline selects the same ranked context.
+When the test fails, we construct two valid timelines with different contexts.
+We also identify support decisions that every stabilizing date refinement must resolve.
+These operations take linear time, although general possible-context membership is NP-hard.
+A source-only TimeQA evaluation covers 2,348 validation questions.
+Among 375 parsed questions with modeled evidence in context, 306 have certified stable contexts.
+The remaining 69 expose consequential date ambiguity.
+The implementation preserves source spans, explicit departures, and unparsed evidence through answer generation.
+\end{abstract}

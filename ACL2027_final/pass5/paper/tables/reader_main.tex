@@ -1,0 +1,22 @@
+% Generated only from complete frozen-scoring outputs.
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Method & Primary & Diagnostic\\
+\midrule
+Original BM25 & 16.67 & 9.09\\
+Original BM25 + year & 18.33 & 9.09\\
+Title-aware ranking & 21.67 & 9.09\\
+\quad + earliest completion & 20.00 & 18.18\\
+\quad + midpoint completion & 20.00 & 9.09\\
+\quad + latest completion & 20.00 & 9.09\\
+\quad + interval control & 20.00 & 9.09\\
+\quad + possible support & 20.00 & 9.09\\
+\quad + guaranteed support & 20.00 & 18.18\\
+Title-aware + year & 21.67 & 15.15\\
+\bottomrule
+\end{tabular}
+\caption{Strict answer-set F1 (\%). The primary sample has 60 questions. The diagnostic retains eleven previously selected context-sensitive questions.}
+\label{tab:reader_main}
+\end{table}

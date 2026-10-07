@@ -1,0 +1,268 @@
+{
+  "dataset": "realprose",
+  "n_claims": 132,
+  "n_keys": 35,
+  "n_query_keys": 35,
+  "n_tie_batches": 0,
+  "n_recurring_keys": 2,
+  "original_detection": {
+    "tp": 88,
+    "fp": 2,
+    "fn": 9,
+    "precision": 0.9777777777777777,
+    "recall": 0.9072164948453608,
+    "f1": 0.9411764705882353
+  },
+  "current_mask_exactly_reproduced": true,
+  "all_cutoff_direct_equivalence": true,
+  "n_cutoffs_checked": 42,
+  "n_pairs": 273,
+  "n_cross_key_pairs": 96,
+  "n_components": 42,
+  "n_mixed_components": 4,
+  "n_fragmented_gold_keys": 13,
+  "compilation_seconds": 0.023441605999323656,
+  "n_time_ordered_comparisons": 8432,
+  "results": {
+    "historical": {
+      "n": 97,
+      "n_keys": 35,
+      "methods": {
+        "bm25": {
+          "hit1": 0.5670103092783505,
+          "hit5": 0.9278350515463918,
+          "value_hit1": 0.5670103092783505,
+          "stale_exposure5": 0.7835051546391752,
+          "relevant_precision5": 0.18556701030927836,
+          "wrong_key1": 0.07216494845360824
+        },
+        "date_top5": {
+          "hit1": 0.38144329896907214,
+          "hit5": 0.9278350515463918,
+          "value_hit1": 0.38144329896907214,
+          "stale_exposure5": 0.7835051546391752,
+          "relevant_precision5": 0.18556701030927836,
+          "wrong_key1": 0.5979381443298969
+        },
+        "date_full_pool": {
+          "hit1": 0.09278350515463918,
+          "hit5": 0.21649484536082475,
+          "value_hit1": 0.09278350515463918,
+          "stale_exposure5": 0.0,
+          "relevant_precision5": 0.04329896907216495,
+          "wrong_key1": 0.9072164948453608
+        },
+        "direct_first": {
+          "hit1": 0.8350515463917526,
+          "hit5": 0.9381443298969072,
+          "value_hit1": 0.8350515463917526,
+          "stale_exposure5": 0.4845360824742268,
+          "relevant_precision5": 0.18762886597938144,
+          "wrong_key1": 0.09278350515463918
+        },
+        "direct_last": {
+          "hit1": 0.5670103092783505,
+          "hit5": 0.9278350515463918,
+          "value_hit1": 0.5670103092783505,
+          "stale_exposure5": 0.7835051546391752,
+          "relevant_precision5": 0.18556701030927836,
+          "wrong_key1": 0.07216494845360824
+        },
+        "component": {
+          "hit1": 0.8350515463917526,
+          "hit5": 0.9175257731958762,
+          "value_hit1": 0.8350515463917526,
+          "stale_exposure5": 0.38144329896907214,
+          "relevant_precision5": 0.18350515463917527,
+          "wrong_key1": 0.09278350515463918
+        },
+        "component_latest": {
+          "hit1": 0.8350515463917526,
+          "hit5": 0.9175257731958762,
+          "value_hit1": 0.8350515463917526,
+          "stale_exposure5": 0.38144329896907214,
+          "relevant_precision5": 0.18350515463917527,
+          "wrong_key1": 0.09278350515463918
+        },
+        "exact_group_latest": {
+          "hit1": 0.5670103092783505,
+          "hit5": 0.9278350515463918,
+          "value_hit1": 0.5670103092783505,
+          "stale_exposure5": 0.7835051546391752,
+          "relevant_precision5": 0.18556701030927836,
+          "wrong_key1": 0.07216494845360824
+        },
+        "oracle": {
+          "hit1": 0.8865979381443299,
+          "hit5": 0.9896907216494846,
+          "value_hit1": 0.8865979381443299,
+          "stale_exposure5": 0.0,
+          "relevant_precision5": 0.19793814432989693,
+          "wrong_key1": 0.1134020618556701
+        }
+      },
+      "comparisons": {
+        "bm25": {
+          "delta": 0.26804123711340205,
+          "ci95": [
+            0.16091954022988506,
+            0.37815126050420167
+          ],
+          "n_keys": 35,
+          "repetitions": 5000,
+          "seed": 20261006
+        },
+        "component": {
+          "delta": 0.0,
+          "ci95": [
+            -0.08035714285714286,
+            0.06930693069306931
+          ],
+          "n_keys": 35,
+          "repetitions": 5000,
+          "seed": 20261006
+        },
+        "exact_group_latest": {
+          "delta": 0.26804123711340205,
+          "ci95": [
+            0.16091954022988506,
+            0.37815126050420167
+          ],
+          "n_keys": 35,
+          "repetitions": 5000,
+          "seed": 20261006
+        },
+        "direct_last": {
+          "delta": 0.26804123711340205,
+          "ci95": [
+            0.16091954022988506,
+            0.37815126050420167
+          ],
+          "n_keys": 35,
+          "repetitions": 5000,
+          "seed": 20261006
+        }
+      }
+    },
+    "current": {
+      "n": 35,
+      "n_keys": 35,
+      "methods": {
+        "bm25": {
+          "hit1": 0.42857142857142855,
+          "hit5": 0.8857142857142857,
+          "value_hit1": 0.42857142857142855,
+          "stale_exposure5": 1.0,
+          "relevant_precision5": 0.17714285714285716,
+          "wrong_key1": 0.02857142857142857
+        },
+        "date_top5": {
+          "hit1": 0.5428571428571428,
+          "hit5": 0.8857142857142857,
+          "value_hit1": 0.5428571428571428,
+          "stale_exposure5": 1.0,
+          "relevant_precision5": 0.17714285714285716,
+          "wrong_key1": 0.4
+        },
+        "date_full_pool": {
+          "hit1": 0.14285714285714285,
+          "hit5": 0.14285714285714285,
+          "value_hit1": 0.14285714285714285,
+          "stale_exposure5": 0.0,
+          "relevant_precision5": 0.02857142857142857,
+          "wrong_key1": 0.8571428571428571
+        },
+        "direct_first": {
+          "hit1": 0.8,
+          "hit5": 0.9142857142857143,
+          "value_hit1": 0.8,
+          "stale_exposure5": 0.7428571428571429,
+          "relevant_precision5": 0.18285714285714286,
+          "wrong_key1": 0.08571428571428572
+        },
+        "direct_last": {
+          "hit1": 0.8,
+          "hit5": 0.9142857142857143,
+          "value_hit1": 0.8,
+          "stale_exposure5": 0.7428571428571429,
+          "relevant_precision5": 0.18285714285714286,
+          "wrong_key1": 0.08571428571428572
+        },
+        "component": {
+          "hit1": 0.8,
+          "hit5": 0.9142857142857143,
+          "value_hit1": 0.8,
+          "stale_exposure5": 0.7428571428571429,
+          "relevant_precision5": 0.18285714285714286,
+          "wrong_key1": 0.08571428571428572
+        },
+        "component_latest": {
+          "hit1": 0.8,
+          "hit5": 0.9142857142857143,
+          "value_hit1": 0.8,
+          "stale_exposure5": 0.7428571428571429,
+          "relevant_precision5": 0.18285714285714286,
+          "wrong_key1": 0.08571428571428572
+        },
+        "exact_group_latest": {
+          "hit1": 0.42857142857142855,
+          "hit5": 0.8857142857142857,
+          "value_hit1": 0.42857142857142855,
+          "stale_exposure5": 1.0,
+          "relevant_precision5": 0.17714285714285716,
+          "wrong_key1": 0.02857142857142857
+        },
+        "oracle": {
+          "hit1": 0.9142857142857143,
+          "hit5": 0.9714285714285714,
+          "value_hit1": 0.9142857142857143,
+          "stale_exposure5": 0.0,
+          "relevant_precision5": 0.1942857142857143,
+          "wrong_key1": 0.08571428571428572
+        }
+      },
+      "comparisons": {
+        "bm25": {
+          "delta": 0.37142857142857144,
+          "ci95": [
+            0.2,
+            0.5428571428571428
+          ],
+          "n_keys": 35,
+          "repetitions": 5000,
+          "seed": 20261006
+        },
+        "component": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_keys": 35,
+          "repetitions": 5000,
+          "seed": 20261006
+        },
+        "exact_group_latest": {
+          "delta": 0.37142857142857144,
+          "ci95": [
+            0.2,
+            0.5428571428571428
+          ],
+          "n_keys": 35,
+          "repetitions": 5000,
+          "seed": 20261006
+        },
+        "direct_last": {
+          "delta": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "n_keys": 35,
+          "repetitions": 5000,
+          "seed": 20261006
+        }
+      }
+    }
+  }
+}

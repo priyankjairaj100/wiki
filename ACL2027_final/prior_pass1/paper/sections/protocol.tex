@@ -1,0 +1,81 @@
+\section{Experimental Protocol}
+\label{sec:protocol}
+
+We use three evidence collections with distinct source forms.
+Table~\ref{tab:datasets} records their pool sizes and query counts.
+No synthetic benchmark contributes to the main results.
+Constructed examples test implementation correctness only.
+\input{tables/datasets}
+
+\paragraph{Wikidata.}
+The archive contains 208 rendered claims over 73 annotated attribute keys~\citep{vrandecic2014wikidata}.
+Thirty-three changing keys produce current and historical queries.
+Timestamps come from recorded starts.
+The corpus also contains stable attributes that serve as distractors.
+All claims share one retrieval pool.
+
+\paragraph{TempLAMA and complete answer sets.}
+The released adaptation contains 747 rendered claims over 300 keys~\citep{dhingra2022templama}.
+Its builder selects the first listed answer at each year and collapses repeated selected answers.
+This produces a selected-answer transition task.
+We recovered all 2,677 original yearly records for these keys.
+Of 447 selected-answer changes, 153 leave the previous answer in the new complete answer set.
+Moreover, 245 keys have multiple supported answers in at least one year.
+Therefore, our primary TempLAMA scoring accepts every answer in the original source set.
+
+Rankings, gates, and the 747-claim pool remain fixed during this source-set rescore.
+At each cutoff, the latest observed yearly source set defines valid answers.
+That set persists between observations and after the final observation within this snapshot evaluation.
+The experiment has 447 historical probes and 300 current probes.
+A separate source-defined subset contains 55 keys with exactly one answer in every observed year.
+It retains the full retrieval pool and has 57 historical probes.
+Subset selection uses source metadata alone.
+
+\paragraph{RealProse.}
+This collection contains 132 genuine Wikipedia lead extracts over 35 subjects and five relation families.
+The families cover corporate executives, government heads, heads of state, club managers, and organization leaders.
+Curated tenure starts supply timestamps.
+The resulting evaluation has 97 historical and 35 current probes.
+These are source extracts with annotated times, rather than archived page revisions.
+The CEO subset is reported only as a breakdown, since it overlaps RealProse.
+
+\paragraph{Visible inputs and queries.}
+Inference receives new claim objects containing only identifiers, text, and timestamps.
+Gold keys and values are removed before matching, compilation, and ranking.
+Benchmark templates or subject--relation labels generate questions without answer values.
+Historical probes use midpoints between distinct observed dates within each query key.
+Current probes follow the corpus's latest date.
+Every method searches the same full pool.
+No gold claim selects a timeline or seeds retrieval.
+
+\paragraph{Matched baselines.}
+All new retrieval conditions use the same BM25 ranking~\citep{robertson1995bm25}.
+We fix $k_1=1.5$, $b=0.75$, and the context budget at five claims.
+All methods exclude records dated after the query cutoff.
+\emph{BM25} adds no replacement filter.
+\emph{Date-top5} reorders five BM25 candidates by date.
+\emph{Date-full-pool} ranks the entire available pool by date, with relevance breaking date ties.
+\emph{Exact-group latest} groups identical extracted frames and subject phrases, then retains the latest available records per group.
+All records tied at that date survive.
+
+\emph{Text-CC} links each claim to its newest accepted replacement, then sorts connected claims into intervals.
+It uses extracted value features, without gold values.
+This matched text-based control replaces the archived module's access to annotated values.
+\emph{Direct latest} uses the last accepted replacement as the endpoint.
+It tests whether retaining a replacement witness alone is sufficient.
+\emph{Direct first} implements our certificates.
+The Graphiti invalidation primitive has the same endpoint semantics under identical ordered pair decisions.
+Our matched-gate comparison concerns that primitive, rather than a separately executed Graphiti pipeline.
+
+\paragraph{Measurements.}
+Evidence Hit@1 requires a returned claim to match the requested key and a value valid at the cutoff.
+Hit@5 requires at least one such claim among five.
+Stale@5 measures whether any selected claim carries a value invalid at its own key's cutoff state.
+This metric can reward an irrelevant but current context, so we report it alongside Hit@1 and Hit@5.
+Paired confidence intervals resample complete key clusters with 5,000 repetitions and seed 20261006.
+
+Prefix tests compare full-corpus intervals against intervals compiled from claims available at each observed event time.
+Pair-sensitivity tests remove each observed accepted pair individually and rebuild both compilers.
+They record the number of affected intervals and membership changes across event times.
+Gold keys classify cross-key decisions only after these interventions.
+Finally, exhaustive pair scans test compiled boundaries, witness ties, and every distinct eligibility interval.

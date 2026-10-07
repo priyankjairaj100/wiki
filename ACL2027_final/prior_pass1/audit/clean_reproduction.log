@@ -1,0 +1,168 @@
+test_a_b_a_return_does_not_resurrect_old_claim (test_engine.CertificateTests.test_a_b_a_return_does_not_resurrect_old_claim) ... ok
+test_duplicate_and_invalid_inputs_fail (test_engine.CertificateTests.test_duplicate_and_invalid_inputs_fail) ... ok
+test_empty_input (test_engine.CertificateTests.test_empty_input) ... ok
+test_filter_before_topk_and_unknown_id (test_engine.CertificateTests.test_filter_before_topk_and_unknown_id) ... ok
+test_gate_ignores_changed_gold_annotations (test_engine.CertificateTests.test_gate_ignores_changed_gold_annotations) ... ok
+test_gold_properties_are_never_read (test_engine.CertificateTests.test_gold_properties_are_never_read) ... ok
+test_input_order_invariance_and_all_random_event_intervals (test_engine.CertificateTests.test_input_order_invariance_and_all_random_event_intervals) ... ok
+test_json_has_portable_null_infinite_boundaries (test_engine.CertificateTests.test_json_has_portable_null_infinite_boundaries) ... ok
+test_missing_time_excluded_asof_retained_current (test_engine.CertificateTests.test_missing_time_excluded_asof_retained_current) ... ok
+test_nontransitive_triad_has_no_component_contamination (test_engine.CertificateTests.test_nontransitive_triad_has_no_component_contamination) ... ok
+test_original_gate_blocking_and_ablation_equivalence (test_engine.CertificateTests.test_original_gate_blocking_and_ablation_equivalence) ... ok
+test_same_value_repeat_retains_both_spans (test_engine.CertificateTests.test_same_value_repeat_retains_both_spans) ... ok
+test_simultaneous_conflicts_and_deterministic_witness_tie (test_engine.CertificateTests.test_simultaneous_conflicts_and_deterministic_witness_tie) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.183s
+
+OK
+freshrag: 304 claims; 181 cutoffs; 0 mismatches; current difference 0
+multihop_asof: 277 claims; 49 cutoffs; 0 mismatches; current difference 0
+multihop_real: 67 claims; 67 cutoffs; 0 mismatches; current difference 0
+realprose: 132 claims; 85 cutoffs; 0 mismatches; current difference 0
+realwiki: 26 claims; 39 cutoffs; 0 mismatches; current difference 0
+realworld: 56 claims; 83 cutoffs; 0 mismatches; current difference 0
+templama: 747 claims; 23 cutoffs; 0 mismatches; current difference 0
+wikidata: 208 claims; 55 cutoffs; 0 mismatches; current difference 0
+wikidata_prose: 208 claims; 55 cutoffs; 0 mismatches; current difference 0
+wikidata_prose_normalized: 208 claims; 55 cutoffs; 0 mismatches; current difference 0
+test_arrival_clipping_is_needed_for_minimality (__main__.FrontierTests.test_arrival_clipping_is_needed_for_minimality) ... ok
+test_duplicate_points_keep_one_deterministic_witness (__main__.FrontierTests.test_duplicate_points_keep_one_deterministic_witness) ... ok
+test_equal_valid_dates_do_not_replace (__main__.FrontierTests.test_equal_valid_dates_do_not_replace) ... ok
+test_every_frontier_point_has_a_distinguishing_query (__main__.FrontierTests.test_every_frontier_point_has_a_distinguishing_query) ... ok
+test_future_arrivals_preserve_past_knowledge (__main__.FrontierTests.test_future_arrivals_preserve_past_knowledge) ... ok
+test_one_pair_changes_only_its_older_endpoint (__main__.FrontierTests.test_one_pair_changes_only_its_older_endpoint) ... ok
+test_random_gates_match_exhaustive_specification (__main__.FrontierTests.test_random_gates_match_exhaustive_specification) ... ok
+test_two_incomparable_witnesses (__main__.FrontierTests.test_two_incomparable_witnesses) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.018s
+
+OK
+Running audit_release.py
+{
+  "integrity": true,
+  "detection_datasets": 10,
+  "detection_compared": 7,
+  "pooled_all_match": true,
+  "caches": [
+    {
+      "path": "data/cache/openai_generations.jsonl",
+      "n_rows": 1828,
+      "fields": [
+        "key",
+        "out"
+      ],
+      "sha256": "6c04c08c32896f95f20b14181016eed0f4531cfcfe1a70b2493dbcd4723bc4bb"
+    },
+    {
+      "path": "data/cache/qwen_generations.jsonl",
+      "n_rows": 4995,
+      "fields": [
+        "key",
+        "out"
+      ],
+      "sha256": "8dc9b8fa39013cb80c3213ee38492c4e21ff783f475abba69e8f14258c54c275"
+    }
+  ]
+}
+Running run_evidence.py
+wikidata {"historical": {"bm25": 0.296, "date_top5": 0.6, "date_full_pool": 0.224, "direct_first": 1.0, "direct_last": 0.296, "component": 1.0, "component_latest": 1.0, "exact_group_latest": 1.0, "oracle": 1.0}, "current": {"bm25": 0.0606, "date_top5": 0.3636, "date_full_pool": 0.1212, "direct_first": 0.8182, "direct_last": 0.8182, "component": 0.8182, "component_latest": 0.8182, "exact_group_latest": 0.8182, "oracle": 0.8182}}
+templama {"historical": {"bm25": 0.7383, "date_top5": 0.5414, "date_full_pool": 0.2841, "direct_first": 0.9821, "direct_last": 0.745, "component": 0.9732, "component_latest": 0.9754, "exact_group_latest": 0.9776, "oracle": 0.9978}, "current": {"bm25": 0.18, "date_top5": 0.6033, "date_full_pool": 0.1267, "direct_first": 0.9467, "direct_last": 0.9467, "component": 0.9467, "component_latest": 0.9467, "exact_group_latest": 0.8633, "oracle": 0.9967}}
+wikidata_prose {"historical": {"bm25": 0.376, "date_top5": 0.68, "date_full_pool": 0.224, "direct_first": 1.0, "direct_last": 0.384, "component": 1.0, "component_latest": 1.0, "exact_group_latest": 1.0, "oracle": 1.0}, "current": {"bm25": 0.0303, "date_top5": 0.4545, "date_full_pool": 0.1212, "direct_first": 0.6061, "direct_last": 0.6061, "component": 0.6061, "component_latest": 0.6061, "exact_group_latest": 0.6061, "oracle": 0.6061}}
+realprose {"historical": {"bm25": 0.567, "date_top5": 0.3814, "date_full_pool": 0.0928, "direct_first": 0.8351, "direct_last": 0.567, "component": 0.8351, "component_latest": 0.8351, "exact_group_latest": 0.567, "oracle": 0.8866}, "current": {"bm25": 0.4286, "date_top5": 0.5429, "date_full_pool": 0.1429, "direct_first": 0.8, "direct_last": 0.8, "component": 0.8, "component_latest": 0.8, "exact_group_latest": 0.4286, "oracle": 0.9143}}
+realwiki {"historical": {"bm25": 0.9286, "date_top5": 0.1429, "date_full_pool": 0.0714, "direct_first": 0.9286, "direct_last": 0.9286, "component": 0.9286, "component_latest": 0.9286, "exact_group_latest": 0.9286, "oracle": 0.9286}, "current": {"bm25": 0.5833, "date_top5": 0.25, "date_full_pool": 0.0833, "direct_first": 0.8333, "direct_last": 0.8333, "component": 0.8333, "component_latest": 0.8333, "exact_group_latest": 0.5833, "oracle": 0.9167}}
+realworld {"historical": {"bm25": 0.5556, "date_top5": 0.8056, "date_full_pool": 0.2222, "direct_first": 1.0, "direct_last": 0.5556, "component": 1.0, "component_latest": 1.0, "exact_group_latest": 1.0, "oracle": 1.0}, "current": {"bm25": 0.25, "date_top5": 0.6, "date_full_pool": 0.05, "direct_first": 1.0, "direct_last": 1.0, "component": 1.0, "component_latest": 1.0, "exact_group_latest": 1.0, "oracle": 1.0}}
+Running run_sensitivity.py
+wikidata {"all_pairs": {"n": 452, "direct_max_affected": 1, "component_max_affected": 4, "component_more_than_one": 31, "direct_total_flips": 503, "component_total_flips": 395}, "false_pairs": {"n": 0, "direct_max_affected": 0, "component_max_affected": 0, "component_more_than_one": 0, "direct_total_flips": 0, "component_total_flips": 0}, "cross_key_pairs": {"n": 0, "direct_max_affected": 0, "component_max_affected": 0, "component_more_than_one": 0, "direct_total_flips": 0, "component_total_flips": 0}}
+templama {"all_pairs": {"n": 698, "direct_max_affected": 1, "component_max_affected": 3, "component_more_than_one": 88, "direct_total_flips": 1746, "component_total_flips": 1679}, "false_pairs": {"n": 46, "direct_max_affected": 1, "component_max_affected": 3, "component_more_than_one": 3, "direct_total_flips": 21, "component_total_flips": 28}, "cross_key_pairs": {"n": 46, "direct_max_affected": 1, "component_max_affected": 3, "component_more_than_one": 3, "direct_total_flips": 21, "component_total_flips": 28}}
+wikidata_prose {"all_pairs": {"n": 452, "direct_max_affected": 1, "component_max_affected": 4, "component_more_than_one": 31, "direct_total_flips": 503, "component_total_flips": 395}, "false_pairs": {"n": 0, "direct_max_affected": 0, "component_max_affected": 0, "component_more_than_one": 0, "direct_total_flips": 0, "component_total_flips": 0}, "cross_key_pairs": {"n": 0, "direct_max_affected": 0, "component_max_affected": 0, "component_more_than_one": 0, "direct_total_flips": 0, "component_total_flips": 0}}
+realprose {"all_pairs": {"n": 273, "direct_max_affected": 1, "component_max_affected": 8, "component_more_than_one": 31, "direct_total_flips": 554, "component_total_flips": 604}, "false_pairs": {"n": 96, "direct_max_affected": 1, "component_max_affected": 3, "component_more_than_one": 7, "direct_total_flips": 37, "component_total_flips": 68}, "cross_key_pairs": {"n": 96, "direct_max_affected": 1, "component_max_affected": 3, "component_more_than_one": 7, "direct_total_flips": 37, "component_total_flips": 68}}
+realwiki {"all_pairs": {"n": 21, "direct_max_affected": 1, "component_max_affected": 2, "component_more_than_one": 1, "direct_total_flips": 50, "component_total_flips": 62}, "false_pairs": {"n": 9, "direct_max_affected": 1, "component_max_affected": 1, "component_more_than_one": 0, "direct_total_flips": 1, "component_total_flips": 13}, "cross_key_pairs": {"n": 9, "direct_max_affected": 1, "component_max_affected": 1, "component_more_than_one": 0, "direct_total_flips": 1, "component_total_flips": 13}}
+realworld {"all_pairs": {"n": 58, "direct_max_affected": 1, "component_max_affected": 2, "component_more_than_one": 11, "direct_total_flips": 465, "component_total_flips": 493}, "false_pairs": {"n": 0, "direct_max_affected": 0, "component_max_affected": 0, "component_more_than_one": 0, "direct_total_flips": 0, "component_total_flips": 0}, "cross_key_pairs": {"n": 0, "direct_max_affected": 0, "component_max_affected": 0, "component_more_than_one": 0, "direct_total_flips": 0, "component_total_flips": 0}}
+Running run_prefix.py
+wikidata {"event_cutoffs": {"n_cutoffs": 27, "direct_mismatch_cutoffs": 0, "component_mismatch_cutoffs": 0, "component_membership_differences": 0, "component_max_differences": 0}, "historical_queries": {"n": 125, "full_hits": 125, "prefix_hits": 125, "changed_top1": 0}}
+templama {"event_cutoffs": {"n_cutoffs": 11, "direct_mismatch_cutoffs": 0, "component_mismatch_cutoffs": 8, "component_membership_differences": 21, "component_max_differences": 4}, "historical_queries": {"n": 447, "full_hits": 435, "prefix_hits": 439, "changed_top1": 6}}
+wikidata_prose {"event_cutoffs": {"n_cutoffs": 27, "direct_mismatch_cutoffs": 0, "component_mismatch_cutoffs": 0, "component_membership_differences": 0, "component_max_differences": 0}, "historical_queries": {"n": 125, "full_hits": 125, "prefix_hits": 125, "changed_top1": 0}}
+realprose {"event_cutoffs": {"n_cutoffs": 42, "direct_mismatch_cutoffs": 0, "component_mismatch_cutoffs": 27, "component_membership_differences": 50, "component_max_differences": 4}, "historical_queries": {"n": 97, "full_hits": 81, "prefix_hits": 81, "changed_top1": 8}}
+realwiki {"event_cutoffs": {"n_cutoffs": 19, "direct_mismatch_cutoffs": 0, "component_mismatch_cutoffs": 0, "component_membership_differences": 0, "component_max_differences": 0}, "historical_queries": {"n": 14, "full_hits": 13, "prefix_hits": 13, "changed_top1": 0}}
+realworld {"event_cutoffs": {"n_cutoffs": 41, "direct_mismatch_cutoffs": 0, "component_mismatch_cutoffs": 0, "component_membership_differences": 0, "component_max_differences": 0}, "historical_queries": {"n": 36, "full_hits": 36, "prefix_hits": 36, "changed_top1": 0}}
+Running audit_templama_source.py
+{
+  "source_sha256": "bb70d1a4b591a36bbcc6e3d6373cbbbf108e5fc13823764fdc8a4dbab9178ddc",
+  "n_released_keys": 300,
+  "n_found_keys": 300,
+  "n_source_rows": 2677,
+  "multi_answer_rows": 613,
+  "keys_with_any_multi_answer": 245,
+  "keys_single_answer_every_year": 55,
+  "first_answer_transitions": 447,
+  "first_answer_transitions_where_old_answer_remains": 153,
+  "keys_with_such_transitions": 130,
+  "rendered_claims_exactly_match_rebuild": true,
+  "relations": {
+    "P54": {
+      "rows": 535,
+      "multi_rows": 238
+    },
+    "P39": {
+      "rows": 295,
+      "multi_rows": 79
+    },
+    "P69": {
+      "rows": 33,
+      "multi_rows": 3
+    },
+    "P488": {
+      "rows": 357,
+      "multi_rows": 43
+    },
+    "P102": {
+      "rows": 328,
+      "multi_rows": 34
+    },
+    "P108": {
+      "rows": 261,
+      "multi_rows": 39
+    },
+    "P6": {
+      "rows": 422,
+      "multi_rows": 58
+    },
+    "P286": {
+      "rows": 358,
+      "multi_rows": 93
+    },
+    "P127": {
+      "rows": 88,
+      "multi_rows": 26
+    }
+  },
+  "note": "A first-listed answer change is not a retirement when the old answer remains in the complete source answer set."
+}
+Running score_source_sets.py
+{
+  "historical": {
+    "bm25": 0.7808,
+    "date_top5": 0.5436,
+    "date_full_pool": 0.2841,
+    "direct_first": 0.9821,
+    "direct_last": 0.7875,
+    "component": 0.9754,
+    "component_latest": 0.9776,
+    "exact_group_latest": 0.9843,
+    "oracle": 0.9978
+  },
+  "current": {
+    "bm25": 0.2333,
+    "date_top5": 0.6067,
+    "date_full_pool": 0.1267,
+    "direct_first": 0.9467,
+    "direct_last": 0.9467,
+    "component": 0.9467,
+    "component_latest": 0.9467,
+    "exact_group_latest": 0.8833,
+    "oracle": 0.9967
+  }
+}
+Running score_single_value_slice.py

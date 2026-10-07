@@ -1,0 +1,241 @@
+{
+  "bibliography_sha256": "b53ec72bf39ac7ed88d93b039011fc68fc417ee71ffdc37237f40e2e0a7c56c7",
+  "references": 24,
+  "citation_commands": 28,
+  "unique_cited_keys": 24,
+  "unknown_citations": [],
+  "uncited_references": [],
+  "unaudited_references": [],
+  "duplicate_keys": [],
+  "commands": [
+    {
+      "file": "pass5/paper/sections/appendix_refinement.tex",
+      "line": 79,
+      "keys": [
+        "karp1972reducibility"
+      ],
+      "command": "\\citep{karp1972reducibility}"
+    },
+    {
+      "file": "pass5/paper/sections/introduction.tex",
+      "line": 12,
+      "keys": [
+        "lewis2020rag"
+      ],
+      "command": "\\citep{lewis2020rag}"
+    },
+    {
+      "file": "pass5/paper/sections/introduction.tex",
+      "line": 26,
+      "keys": [
+        "rasmussen2025zep",
+        "zerhoudi2026nuggetindex"
+      ],
+      "command": "\\citep{rasmussen2025zep,zerhoudi2026nuggetindex}"
+    },
+    {
+      "file": "pass5/paper/sections/introduction.tex",
+      "line": 27,
+      "keys": [
+        "chen2026defuzzrag",
+        "wang2026iarag"
+      ],
+      "command": "\\citep{chen2026defuzzrag,wang2026iarag}"
+    },
+    {
+      "file": "pass5/paper/sections/protocol.tex",
+      "line": 5,
+      "keys": [
+        "chen2021timeqa"
+      ],
+      "command": "\\citep{chen2021timeqa}"
+    },
+    {
+      "file": "pass5/paper/sections/protocol.tex",
+      "line": 22,
+      "keys": [
+        "robertson1995bm25"
+      ],
+      "command": "\\citep{robertson1995bm25}"
+    },
+    {
+      "file": "pass5/paper/sections/protocol.tex",
+      "line": 45,
+      "keys": [
+        "qwen2024model"
+      ],
+      "command": "\\citep{qwen2024model}"
+    },
+    {
+      "file": "pass5/paper/sections/refinement.tex",
+      "line": 41,
+      "keys": [
+        "karp1972reducibility"
+      ],
+      "command": "\\citep{karp1972reducibility}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 5,
+      "keys": [
+        "rasmussen2025zep",
+        "graphiti2026source"
+      ],
+      "command": "\\citep{rasmussen2025zep,graphiti2026source}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 6,
+      "keys": [
+        "yadav2026memstrata"
+      ],
+      "command": "\\citep{yadav2026memstrata}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 7,
+      "keys": [
+        "li2025erase"
+      ],
+      "command": "\\citep{li2025erase}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 8,
+      "keys": [
+        "zerhoudi2026nuggetindex"
+      ],
+      "command": "\\citep{zerhoudi2026nuggetindex}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 13,
+      "keys": [
+        "cao2026re3"
+      ],
+      "command": "\\citep{cao2026re3}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 14,
+      "keys": [
+        "chen2026defuzzrag"
+      ],
+      "command": "\\citep{chen2026defuzzrag}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 15,
+      "keys": [
+        "wang2026iarag"
+      ],
+      "command": "\\citep{wang2026iarag}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 16,
+      "keys": [
+        "lau2025tarag"
+      ],
+      "command": "\\citep{lau2025tarag}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 22,
+      "keys": [
+        "anselma2013indeterminacy"
+      ],
+      "command": "\\citet{anselma2013indeterminacy}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 23,
+      "keys": [
+        "fan2012currency"
+      ],
+      "command": "\\citet{fan2012currency}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 24,
+      "keys": [
+        "amarilli2017order"
+      ],
+      "command": "\\citet{amarilli2017order}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 29,
+      "keys": [
+        "hua2008ranking"
+      ],
+      "command": "\\citet{hua2008ranking}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 30,
+      "keys": [
+        "amarilli2017topk"
+      ],
+      "command": "\\citet{amarilli2017topk}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 31,
+      "keys": [
+        "feng2023ranking"
+      ],
+      "command": "\\citet{feng2023ranking}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 36,
+      "keys": [
+        "chen2021timeqa"
+      ],
+      "command": "\\citep{chen2021timeqa}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 37,
+      "keys": [
+        "dhingra2022templama"
+      ],
+      "command": "\\citep{dhingra2022templama}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 38,
+      "keys": [
+        "liska2022streamingqa",
+        "vu2024freshllms"
+      ],
+      "command": "\\citep{liska2022streamingqa,vu2024freshllms}"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 39,
+      "keys": [
+        "an2026fresco"
+      ],
+      "command": "\\citep{an2026fresco}"
+    },
+    {
+      "file": "pass5/paper/sections/sources.tex",
+      "line": 35,
+      "keys": [
+        "chen2021timeqa"
+      ],
+      "command": "\\citep{chen2021timeqa}"
+    },
+    {
+      "file": "pass5/paper/sections/sources.tex",
+      "line": 70,
+      "keys": [
+        "chen2021timeqa"
+      ],
+      "command": "\\citep{chen2021timeqa}"
+    }
+  ],
+  "status": "passed"
+}

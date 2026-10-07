@@ -1,0 +1,13 @@
+{
+  "generated_text_matches": [
+    true,
+    true
+  ],
+  "request_hash_matches": [
+    true,
+    true
+  ],
+  "num_prompts": 2,
+  "repeat_used_fresh_server": true,
+  "purpose": "runtime determinism smoke test only"
+}

@@ -1,0 +1,13 @@
+{
+  "pass4/protocol/config.json": "989724a081d536c81d7aedeb128bd67deba6734bc6c983ef3eb740e2e375de8b",
+  "pass3/protocol/dev_source_passages.jsonl": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4",
+  "pass4/protocol/dev_validation_queries.jsonl": "65966e2814d7213f3a6e4ef20c82ecac43eb7ceb75b2a4d19c7b00d1ea1e09e7",
+  "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/pipeline/run_matched.py": "1fcff9dbb162f74ea9d8a558315480ac6ba30afd3e996235c429ca11d6aa8fb1",
+  "/workspace/scratch/956c06247f78/ACL2027_pass3/pass3/extraction/source_adapter.py": "2424a76fdcfe08330fddc45853969406f1784bb2f1aad00d90499d79d2a8d185",
+  "/workspace/scratch/956c06247f78/ACL2027_pass3/pass3/theory/lifecycle.py": "4a765c40233ee33b2f1230a59df952acea8c93f8b2142c5e72cd73f6607ab81c",
+  "/workspace/scratch/956c06247f78/ACL2027_pass3/pass2/theory/uncertain_time.py": "0b91608941cdb292c68e2301db2233946a361724397be85006b54db667263833",
+  "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/ranking.py": "bd898547382a12903b34656c4d06d518c63390efb68aec0fdbd46722066205dd",
+  "/workspace/scratch/956c06247f78/ACL2027_pass3/pass3/pipeline/run_matched.py": "a0a109aa4eab810686e372a57c3d4a5bc3663b9b9d31e49a97a9ab31ec200a39",
+  "/workspace/scratch/956c06247f78/ACL2027_pass3/pass3/theory/refinement.py": "a5ff01561725a879c876952f8e86c4b16c702e54aee7418c056292b08ff43670",
+  "pass4/extraction/dev_frozen/claims.jsonl": "9bf8aab587ed13334d15860f7d286253c5353ed06e4b8e6f3eb1eb2bf4fca143"
+}

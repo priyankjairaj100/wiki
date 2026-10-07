@@ -1,0 +1,1861 @@
+{
+  "dataset": "wikidata",
+  "event_cutoffs": {
+    "n_cutoffs": 27,
+    "direct_mismatch_cutoffs": 0,
+    "component_mismatch_cutoffs": 0,
+    "component_membership_differences": 0,
+    "component_max_differences": 0
+  },
+  "all_cutoffs": {
+    "n_cutoffs": 51,
+    "direct_mismatch_cutoffs": 0,
+    "component_mismatch_cutoffs": 0,
+    "component_membership_differences": 0,
+    "component_max_differences": 0
+  },
+  "historical_queries": {
+    "n": 125,
+    "full_hits": 125,
+    "prefix_hits": 125,
+    "changed_top1": 0
+  },
+  "cutoffs": [
+    {
+      "cutoff": 2000.0,
+      "is_event": true,
+      "n_observed": 4,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2000.5,
+      "is_event": false,
+      "n_observed": 4,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2001.0,
+      "is_event": true,
+      "n_observed": 11,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2002.0,
+      "is_event": true,
+      "n_observed": 15,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2002.5,
+      "is_event": false,
+      "n_observed": 15,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2003.0,
+      "is_event": true,
+      "n_observed": 18,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2003.5,
+      "is_event": false,
+      "n_observed": 18,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2004.0,
+      "is_event": true,
+      "n_observed": 22,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2004.5,
+      "is_event": false,
+      "n_observed": 22,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2005.0,
+      "is_event": true,
+      "n_observed": 31,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2005.5,
+      "is_event": false,
+      "n_observed": 31,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2006.0,
+      "is_event": true,
+      "n_observed": 39,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2006.5,
+      "is_event": false,
+      "n_observed": 39,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2007.0,
+      "is_event": true,
+      "n_observed": 44,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2007.5,
+      "is_event": false,
+      "n_observed": 44,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2008.0,
+      "is_event": true,
+      "n_observed": 46,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2008.5,
+      "is_event": false,
+      "n_observed": 46,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2009.0,
+      "is_event": true,
+      "n_observed": 49,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2009.5,
+      "is_event": false,
+      "n_observed": 49,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2010.0,
+      "is_event": true,
+      "n_observed": 54,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2010.5,
+      "is_event": false,
+      "n_observed": 54,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2011.0,
+      "is_event": true,
+      "n_observed": 59,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2011.5,
+      "is_event": false,
+      "n_observed": 59,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2012.0,
+      "is_event": true,
+      "n_observed": 62,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2012.5,
+      "is_event": false,
+      "n_observed": 62,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2013.0,
+      "is_event": true,
+      "n_observed": 68,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2013.5,
+      "is_event": false,
+      "n_observed": 68,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2014.0,
+      "is_event": true,
+      "n_observed": 79,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2014.5,
+      "is_event": false,
+      "n_observed": 79,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2015.0,
+      "is_event": true,
+      "n_observed": 86,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2015.5,
+      "is_event": false,
+      "n_observed": 86,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2016.0,
+      "is_event": true,
+      "n_observed": 92,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2016.5,
+      "is_event": false,
+      "n_observed": 92,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2017.0,
+      "is_event": true,
+      "n_observed": 98,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2017.5,
+      "is_event": false,
+      "n_observed": 98,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2018.0,
+      "is_event": true,
+      "n_observed": 104,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2018.5,
+      "is_event": false,
+      "n_observed": 104,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2019.0,
+      "is_event": true,
+      "n_observed": 113,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2019.5,
+      "is_event": false,
+      "n_observed": 113,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2020.0,
+      "is_event": true,
+      "n_observed": 122,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2020.5,
+      "is_event": false,
+      "n_observed": 122,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2021.0,
+      "is_event": true,
+      "n_observed": 133,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2021.5,
+      "is_event": false,
+      "n_observed": 133,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.0,
+      "is_event": true,
+      "n_observed": 143,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.5,
+      "is_event": false,
+      "n_observed": 143,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2023.0,
+      "is_event": true,
+      "n_observed": 148,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2023.5,
+      "is_event": false,
+      "n_observed": 148,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2024.0,
+      "is_event": true,
+      "n_observed": 158,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2024.5,
+      "is_event": false,
+      "n_observed": 158,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2025.0,
+      "is_event": true,
+      "n_observed": 204,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2026.0,
+      "is_event": true,
+      "n_observed": 208,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    }
+  ],
+  "queries": [
+    {
+      "key": [
+        "apple",
+        "chief executive officer"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q312:Q265852:2011-08-24",
+      "prefix_cid": "P169:Q312:Q265852:2011-08-24"
+    },
+    {
+      "key": [
+        "australia",
+        "head of government"
+      ],
+      "cutoff": 2008.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q408:Q43135:2007-03-12",
+      "prefix_cid": "P6:Q408:Q43135:2007-03-12"
+    },
+    {
+      "key": [
+        "australia",
+        "head of government"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q408:Q41563:2010-06-24",
+      "prefix_cid": "P6:Q408:Q41563:2010-06-24"
+    },
+    {
+      "key": [
+        "australia",
+        "head of government"
+      ],
+      "cutoff": 2014.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q408:Q43135:2013-06-27",
+      "prefix_cid": "P6:Q408:Q43135:2013-06-27"
+    },
+    {
+      "key": [
+        "australia",
+        "head of government"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q408:Q927550:2015-09-15",
+      "prefix_cid": "P6:Q408:Q927550:2015-09-15"
+    },
+    {
+      "key": [
+        "australia",
+        "head of government"
+      ],
+      "cutoff": 2020.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q408:Q7436908:2018-08-24",
+      "prefix_cid": "P6:Q408:Q7436908:2018-08-24"
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "cutoff": 2003.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q40:Q2125645:2000-02-04",
+      "prefix_cid": "P6:Q40:Q2125645:2000-02-04"
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "cutoff": 2007.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q40:Q260037:2007-01-11",
+      "prefix_cid": "P6:Q40:Q260037:2007-01-11"
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q40:Q53282:2008-12-02",
+      "prefix_cid": "P6:Q40:Q53282:2008-12-02"
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q40:Q18135060:2016-05-17",
+      "prefix_cid": "P6:Q40:Q18135060:2016-05-17"
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "cutoff": 2018.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q40:Q2262885:2017-12-18",
+      "prefix_cid": "P6:Q40:Q2262885:2017-12-18"
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q40:Q45808771:2019-05-28",
+      "prefix_cid": "P6:Q40:Q45808771:2019-05-28"
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "cutoff": 2020.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q40:Q2262885:2020-01-07",
+      "prefix_cid": "P6:Q40:Q2262885:2020-01-07"
+    },
+    {
+      "key": [
+        "austria",
+        "head of government"
+      ],
+      "cutoff": 2023.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q40:Q64168538:2021-10-11",
+      "prefix_cid": "P6:Q40:Q64168538:2021-10-11"
+    },
+    {
+      "key": [
+        "belgium",
+        "head of government"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q31:Q950958:2014-10-11",
+      "prefix_cid": "P6:Q31:Q950958:2014-10-11"
+    },
+    {
+      "key": [
+        "belgium",
+        "head of government"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q31:Q18434995:2019-10-27",
+      "prefix_cid": "P6:Q31:Q18434995:2019-10-27"
+    },
+    {
+      "key": [
+        "belgium",
+        "head of government"
+      ],
+      "cutoff": 2022.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q31:Q476596:2020-10-01",
+      "prefix_cid": "P6:Q31:Q476596:2020-10-01"
+    },
+    {
+      "key": [
+        "boeing",
+        "chief executive officer"
+      ],
+      "cutoff": 2004.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q66:Q16104555:2003-00-00",
+      "prefix_cid": "P169:Q66:Q16104555:2003-00-00"
+    },
+    {
+      "key": [
+        "boeing",
+        "chief executive officer"
+      ],
+      "cutoff": 2010.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q66:Q1680807:2005-00-00",
+      "prefix_cid": "P169:Q66:Q1680807:2005-00-00"
+    },
+    {
+      "key": [
+        "boeing",
+        "chief executive officer"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q66:Q20205127:2015-07-01",
+      "prefix_cid": "P169:Q66:Q20205127:2015-07-01"
+    },
+    {
+      "key": [
+        "boeing",
+        "chief executive officer"
+      ],
+      "cutoff": 2022.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q66:Q16727786:2020-01-13",
+      "prefix_cid": "P169:Q66:Q16727786:2020-01-13"
+    },
+    {
+      "key": [
+        "brazil",
+        "head of government"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q155:Q463533:2016-08-31",
+      "prefix_cid": "P6:Q155:Q463533:2016-08-31"
+    },
+    {
+      "key": [
+        "brazil",
+        "head of government"
+      ],
+      "cutoff": 2021.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q155:Q10304982:2019-01-01",
+      "prefix_cid": "P6:Q155:Q10304982:2019-01-01"
+    },
+    {
+      "key": [
+        "canada",
+        "head of government"
+      ],
+      "cutoff": 2004.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q16:Q128529:2003-12-12",
+      "prefix_cid": "P6:Q16:Q128529:2003-12-12"
+    },
+    {
+      "key": [
+        "canada",
+        "head of government"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q16:Q206:2006-02-06",
+      "prefix_cid": "P6:Q16:Q206:2006-02-06"
+    },
+    {
+      "key": [
+        "canada",
+        "head of government"
+      ],
+      "cutoff": 2020.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q16:Q3099714:2015-11-04",
+      "prefix_cid": "P6:Q16:Q3099714:2015-11-04"
+    },
+    {
+      "key": [
+        "denmark",
+        "head of government"
+      ],
+      "cutoff": 2005.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q35:Q46052:2001-11-27",
+      "prefix_cid": "P6:Q35:Q46052:2001-11-27"
+    },
+    {
+      "key": [
+        "denmark",
+        "head of government"
+      ],
+      "cutoff": 2010.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q35:Q182397:2009-04-05",
+      "prefix_cid": "P6:Q35:Q182397:2009-04-05"
+    },
+    {
+      "key": [
+        "denmark",
+        "head of government"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q35:Q57652:2011-10-03",
+      "prefix_cid": "P6:Q35:Q57652:2011-10-03"
+    },
+    {
+      "key": [
+        "denmark",
+        "head of government"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q35:Q182397:2015-06-28",
+      "prefix_cid": "P6:Q35:Q182397:2015-06-28"
+    },
+    {
+      "key": [
+        "disney",
+        "chief executive officer"
+      ],
+      "cutoff": 2012.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q7414:Q532423:2005-00-00",
+      "prefix_cid": "P169:Q7414:Q532423:2005-00-00"
+    },
+    {
+      "key": [
+        "disney",
+        "chief executive officer"
+      ],
+      "cutoff": 2021.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q7414:Q86408516:2020-00-00",
+      "prefix_cid": "P169:Q7414:Q86408516:2020-00-00"
+    },
+    {
+      "key": [
+        "disney",
+        "chief executive officer"
+      ],
+      "cutoff": 2024.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q7414:Q532423:2022-00-00",
+      "prefix_cid": "P169:Q7414:Q532423:2022-00-00"
+    },
+    {
+      "key": [
+        "finland",
+        "head of government"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q33:Q503143:2014-06-24",
+      "prefix_cid": "P6:Q33:Q503143:2014-06-24"
+    },
+    {
+      "key": [
+        "finland",
+        "head of government"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q33:Q1711532:2015-05-29",
+      "prefix_cid": "P6:Q33:Q1711532:2015-05-29"
+    },
+    {
+      "key": [
+        "finland",
+        "head of government"
+      ],
+      "cutoff": 2021.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q33:Q11852228:2019-06-06",
+      "prefix_cid": "P6:Q33:Q11852228:2019-06-06"
+    },
+    {
+      "key": [
+        "ford",
+        "chief executive officer"
+      ],
+      "cutoff": 2003.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q44294:Q321698:2001-10-00",
+      "prefix_cid": "P169:Q44294:Q321698:2001-10-00"
+    },
+    {
+      "key": [
+        "ford",
+        "chief executive officer"
+      ],
+      "cutoff": 2010.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q44294:Q348874:2006-09-00",
+      "prefix_cid": "P169:Q44294:Q348874:2006-09-00"
+    },
+    {
+      "key": [
+        "ford",
+        "chief executive officer"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q44294:Q6767603:2014-07-00",
+      "prefix_cid": "P169:Q44294:Q6767603:2014-07-00"
+    },
+    {
+      "key": [
+        "ford",
+        "chief executive officer"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q44294:Q30030987:2017-05-00",
+      "prefix_cid": "P169:Q44294:Q30030987:2017-05-00"
+    },
+    {
+      "key": [
+        "france",
+        "head of government"
+      ],
+      "cutoff": 2009.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q142:Q101410:2007-05-17",
+      "prefix_cid": "P6:Q142:Q101410:2007-05-17"
+    },
+    {
+      "key": [
+        "france",
+        "head of government"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q142:Q7711:2012-05-16",
+      "prefix_cid": "P6:Q142:Q7711:2012-05-16"
+    },
+    {
+      "key": [
+        "france",
+        "head of government"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q142:Q10287:2014-03-31",
+      "prefix_cid": "P6:Q142:Q10287:2014-03-31"
+    },
+    {
+      "key": [
+        "france",
+        "head of government"
+      ],
+      "cutoff": 2016.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q142:Q560890:2016-12-06",
+      "prefix_cid": "P6:Q142:Q560890:2016-12-06"
+    },
+    {
+      "key": [
+        "france",
+        "head of government"
+      ],
+      "cutoff": 2018.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q142:Q3579995:2017-05-15",
+      "prefix_cid": "P6:Q142:Q3579995:2017-05-15"
+    },
+    {
+      "key": [
+        "france",
+        "head of government"
+      ],
+      "cutoff": 2021.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q142:Q3171170:2020-07-03",
+      "prefix_cid": "P6:Q142:Q3171170:2020-07-03"
+    },
+    {
+      "key": [
+        "france",
+        "head of government"
+      ],
+      "cutoff": 2023.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q142:Q20020731:2022-05-16",
+      "prefix_cid": "P6:Q142:Q20020731:2022-05-16"
+    },
+    {
+      "key": [
+        "france",
+        "head of government"
+      ],
+      "cutoff": 2024.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q142:Q30339350:2024-01-09",
+      "prefix_cid": "P6:Q142:Q30339350:2024-01-09"
+    },
+    {
+      "key": [
+        "germany",
+        "head of government"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q183:Q567:2005-11-22",
+      "prefix_cid": "P6:Q183:Q567:2005-11-22"
+    },
+    {
+      "key": [
+        "germany",
+        "head of government"
+      ],
+      "cutoff": 2023.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q183:Q61053:2021-12-08",
+      "prefix_cid": "P6:Q183:Q61053:2021-12-08"
+    },
+    {
+      "key": [
+        "hungary",
+        "head of government"
+      ],
+      "cutoff": 2018.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q28:Q57641:2010-05-29",
+      "prefix_cid": "P6:Q28:Q57641:2010-05-29"
+    },
+    {
+      "key": [
+        "ibm",
+        "chief executive officer"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q37156:Q782805:2002-00-00",
+      "prefix_cid": "P169:Q37156:Q782805:2002-00-00"
+    },
+    {
+      "key": [
+        "ibm",
+        "chief executive officer"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q37156:Q49971:2012-00-00",
+      "prefix_cid": "P169:Q37156:Q49971:2012-00-00"
+    },
+    {
+      "key": [
+        "india",
+        "head of government"
+      ],
+      "cutoff": 2009.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q668:Q41914:2004-05-22",
+      "prefix_cid": "P6:Q668:Q41914:2004-05-22"
+    },
+    {
+      "key": [
+        "intel",
+        "chief executive officer"
+      ],
+      "cutoff": 2009.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q248:Q1148995:2005-05-18",
+      "prefix_cid": "P169:Q248:Q1148995:2005-05-18"
+    },
+    {
+      "key": [
+        "intel",
+        "chief executive officer"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q248:Q12572999:2013-05-16",
+      "prefix_cid": "P169:Q248:Q12572999:2013-05-16"
+    },
+    {
+      "key": [
+        "intel",
+        "chief executive officer"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q248:Q55819738:2018-06-21",
+      "prefix_cid": "P169:Q248:Q55819738:2018-06-21"
+    },
+    {
+      "key": [
+        "ireland",
+        "head of government"
+      ],
+      "cutoff": 2021.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q27:Q920403:2020-06-27",
+      "prefix_cid": "P6:Q27:Q920403:2020-06-27"
+    },
+    {
+      "key": [
+        "ireland",
+        "head of government"
+      ],
+      "cutoff": 2023.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q27:Q1728820:2022-12-17",
+      "prefix_cid": "P6:Q27:Q1728820:2022-12-17"
+    },
+    {
+      "key": [
+        "ireland",
+        "head of government"
+      ],
+      "cutoff": 2024.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q27:Q7518922:2024-04-09",
+      "prefix_cid": "P6:Q27:Q7518922:2024-04-09"
+    },
+    {
+      "key": [
+        "israel",
+        "head of government"
+      ],
+      "cutoff": 2003.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q801:Q60206:2001-03-07",
+      "prefix_cid": "P6:Q801:Q60206:2001-03-07"
+    },
+    {
+      "key": [
+        "israel",
+        "head of government"
+      ],
+      "cutoff": 2007.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q801:Q93181:2006-04-14",
+      "prefix_cid": "P6:Q801:Q93181:2006-04-14"
+    },
+    {
+      "key": [
+        "israel",
+        "head of government"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q801:Q43723:2009-03-31",
+      "prefix_cid": "P6:Q801:Q43723:2009-03-31"
+    },
+    {
+      "key": [
+        "israel",
+        "head of government"
+      ],
+      "cutoff": 2021.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q801:Q39318:2021-06-13",
+      "prefix_cid": "P6:Q801:Q39318:2021-06-13"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2000.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q202209:2000-04-25",
+      "prefix_cid": "P6:Q38:Q202209:2000-04-25"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2003.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q11860:2001-06-11",
+      "prefix_cid": "P6:Q38:Q11860:2001-06-11"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2005.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q11860:2001-06-11",
+      "prefix_cid": "P6:Q38:Q11860:2001-06-11"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q38484:2006-05-17",
+      "prefix_cid": "P6:Q38:Q38484:2006-05-17"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2009.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q11860:2008-05-08",
+      "prefix_cid": "P6:Q38:Q11860:2008-05-08"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q47904:2011-11-16",
+      "prefix_cid": "P6:Q38:Q47904:2011-11-16"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q674957:2013-04-28",
+      "prefix_cid": "P6:Q38:Q674957:2013-04-28"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q47563:2014-02-22",
+      "prefix_cid": "P6:Q38:Q47563:2014-02-22"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q1071031:2016-12-12",
+      "prefix_cid": "P6:Q38:Q1071031:2016-12-12"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q53844829:2018-06-01",
+      "prefix_cid": "P6:Q38:Q53844829:2018-06-01"
+    },
+    {
+      "key": [
+        "italy",
+        "head of government"
+      ],
+      "cutoff": 2021.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q38:Q294460:2021-02-13",
+      "prefix_cid": "P6:Q38:Q294460:2021-02-13"
+    },
+    {
+      "key": [
+        "japan",
+        "head of government"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q17:Q132345:2012-12-26",
+      "prefix_cid": "P6:Q17:Q132345:2012-12-26"
+    },
+    {
+      "key": [
+        "japan",
+        "head of government"
+      ],
+      "cutoff": 2020.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q17:Q122465:2020-09-16",
+      "prefix_cid": "P6:Q17:Q122465:2020-09-16"
+    },
+    {
+      "key": [
+        "japan",
+        "head of government"
+      ],
+      "cutoff": 2022.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q17:Q359480:2021-10-04",
+      "prefix_cid": "P6:Q17:Q359480:2021-10-04"
+    },
+    {
+      "key": [
+        "japan",
+        "head of government"
+      ],
+      "cutoff": 2024.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q17:Q1335527:2024-10-01",
+      "prefix_cid": "P6:Q17:Q1335527:2024-10-01"
+    },
+    {
+      "key": [
+        "microsoft",
+        "chief executive officer"
+      ],
+      "cutoff": 2007.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q2283:Q181162:2000-01-00",
+      "prefix_cid": "P169:Q2283:Q181162:2000-01-00"
+    },
+    {
+      "key": [
+        "norway",
+        "head of government"
+      ],
+      "cutoff": 2000.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q20:Q57665:2000-03-17",
+      "prefix_cid": "P6:Q20:Q57665:2000-03-17"
+    },
+    {
+      "key": [
+        "norway",
+        "head of government"
+      ],
+      "cutoff": 2003.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q20:Q207655:2001-10-19",
+      "prefix_cid": "P6:Q20:Q207655:2001-10-19"
+    },
+    {
+      "key": [
+        "norway",
+        "head of government"
+      ],
+      "cutoff": 2009.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q20:Q57665:2005-10-17",
+      "prefix_cid": "P6:Q20:Q57665:2005-10-17"
+    },
+    {
+      "key": [
+        "norway",
+        "head of government"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q20:Q291644:2013-10-16",
+      "prefix_cid": "P6:Q20:Q291644:2013-10-16"
+    },
+    {
+      "key": [
+        "pepsico",
+        "chief executive officer"
+      ],
+      "cutoff": 2003.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q334800:Q7615193:2001-00-00",
+      "prefix_cid": "P169:Q334800:Q7615193:2001-00-00"
+    },
+    {
+      "key": [
+        "pepsico",
+        "chief executive officer"
+      ],
+      "cutoff": 2012.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q334800:Q264913:2006-00-00",
+      "prefix_cid": "P169:Q334800:Q264913:2006-00-00"
+    },
+    {
+      "key": [
+        "poland",
+        "head of government"
+      ],
+      "cutoff": 2002.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q36:Q55782:2001-10-19",
+      "prefix_cid": "P6:Q36:Q55782:2001-10-19"
+    },
+    {
+      "key": [
+        "poland",
+        "head of government"
+      ],
+      "cutoff": 2004.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q36:Q55900:2004-05-02",
+      "prefix_cid": "P6:Q36:Q55900:2004-05-02"
+    },
+    {
+      "key": [
+        "poland",
+        "head of government"
+      ],
+      "cutoff": 2005.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q36:Q55920:2005-10-31",
+      "prefix_cid": "P6:Q36:Q55920:2005-10-31"
+    },
+    {
+      "key": [
+        "poland",
+        "head of government"
+      ],
+      "cutoff": 2006.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q36:Q55917:2006-07-14",
+      "prefix_cid": "P6:Q36:Q55917:2006-07-14"
+    },
+    {
+      "key": [
+        "poland",
+        "head of government"
+      ],
+      "cutoff": 2010.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q36:Q946:2007-11-16",
+      "prefix_cid": "P6:Q36:Q946:2007-11-16"
+    },
+    {
+      "key": [
+        "poland",
+        "head of government"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q36:Q246216:2014-09-22",
+      "prefix_cid": "P6:Q36:Q246216:2014-09-22"
+    },
+    {
+      "key": [
+        "poland",
+        "head of government"
+      ],
+      "cutoff": 2016.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q36:Q4877021:2015-11-16",
+      "prefix_cid": "P6:Q36:Q4877021:2015-11-16"
+    },
+    {
+      "key": [
+        "poland",
+        "head of government"
+      ],
+      "cutoff": 2020.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q36:Q11771436:2017-12-11",
+      "prefix_cid": "P6:Q36:Q11771436:2017-12-11"
+    },
+    {
+      "key": [
+        "portugal",
+        "head of government"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q45:Q57615:2011-06-21",
+      "prefix_cid": "P6:Q45:Q57615:2011-06-21"
+    },
+    {
+      "key": [
+        "portugal",
+        "head of government"
+      ],
+      "cutoff": 2019.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q45:Q610788:2015-11-26",
+      "prefix_cid": "P6:Q45:Q610788:2015-11-26"
+    },
+    {
+      "key": [
+        "spain",
+        "head of government"
+      ],
+      "cutoff": 2007.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q29:Q41395:2004-04-16",
+      "prefix_cid": "P6:Q29:Q41395:2004-04-16"
+    },
+    {
+      "key": [
+        "spain",
+        "head of government"
+      ],
+      "cutoff": 2014.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q29:Q10819:2011-12-21",
+      "prefix_cid": "P6:Q29:Q10819:2011-12-21"
+    },
+    {
+      "key": [
+        "starbucks",
+        "chief executive officer"
+      ],
+      "cutoff": 2020.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q37158:Q6396617:2017-04-03",
+      "prefix_cid": "P169:Q37158:Q6396617:2017-04-03"
+    },
+    {
+      "key": [
+        "starbucks",
+        "chief executive officer"
+      ],
+      "cutoff": 2023.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P169:Q37158:Q64745663:2023-04-01",
+      "prefix_cid": "P169:Q37158:Q64745663:2023-04-01"
+    },
+    {
+      "key": [
+        "sweden",
+        "head of government"
+      ],
+      "cutoff": 2010.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q34:Q52920:2006-10-06",
+      "prefix_cid": "P6:Q34:Q52920:2006-10-06"
+    },
+    {
+      "key": [
+        "sweden",
+        "head of government"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q34:Q2740012:2014-10-03",
+      "prefix_cid": "P6:Q34:Q2740012:2014-10-03"
+    },
+    {
+      "key": [
+        "sweden",
+        "head of government"
+      ],
+      "cutoff": 2021.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q34:Q4935873:2021-11-30",
+      "prefix_cid": "P6:Q34:Q4935873:2021-11-30"
+    },
+    {
+      "key": [
+        "turkey",
+        "head of government"
+      ],
+      "cutoff": 2002.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q43:Q42852:2002-12-18",
+      "prefix_cid": "P6:Q43:Q42852:2002-12-18"
+    },
+    {
+      "key": [
+        "turkey",
+        "head of government"
+      ],
+      "cutoff": 2008.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q43:Q39259:2003-03-23",
+      "prefix_cid": "P6:Q43:Q39259:2003-03-23"
+    },
+    {
+      "key": [
+        "turkey",
+        "head of government"
+      ],
+      "cutoff": 2015.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q43:Q58198:2014-08-28",
+      "prefix_cid": "P6:Q43:Q58198:2014-08-28"
+    },
+    {
+      "key": [
+        "turkey",
+        "head of government"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q43:Q863496:2016-05-24",
+      "prefix_cid": "P6:Q43:Q863496:2016-05-24"
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "cutoff": 2003.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q213:Q32777:2002-07-15",
+      "prefix_cid": "P6:Q213:Q32777:2002-07-15"
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "cutoff": 2004.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q213:Q348896:2004-08-04",
+      "prefix_cid": "P6:Q213:Q348896:2004-08-04"
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "cutoff": 2005.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q213:Q161671:2005-04-25",
+      "prefix_cid": "P6:Q213:Q161671:2005-04-25"
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "cutoff": 2007.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q213:Q155880:2006-08-16",
+      "prefix_cid": "P6:Q213:Q155880:2006-08-16"
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "cutoff": 2009.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q213:Q193675:2009-04-09",
+      "prefix_cid": "P6:Q213:Q193675:2009-04-09"
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "cutoff": 2011.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q213:Q35786:2010-06-28",
+      "prefix_cid": "P6:Q213:Q35786:2010-06-28"
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "cutoff": 2013.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q213:Q12025475:2013-06-25",
+      "prefix_cid": "P6:Q213:Q12025475:2013-06-25"
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "cutoff": 2015.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q213:Q890971:2014-01-29",
+      "prefix_cid": "P6:Q213:Q890971:2014-01-29"
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "cutoff": 2019.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q213:Q10819807:2017-12-06",
+      "prefix_cid": "P6:Q213:Q10819807:2017-12-06"
+    },
+    {
+      "key": [
+        "the czech republic",
+        "head of government"
+      ],
+      "cutoff": 2023.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q213:Q3377548:2021-11-28",
+      "prefix_cid": "P6:Q213:Q3377548:2021-11-28"
+    },
+    {
+      "key": [
+        "the netherlands",
+        "head of government"
+      ],
+      "cutoff": 2006.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q55:Q133386:2002-07-22",
+      "prefix_cid": "P6:Q55:Q133386:2002-07-22"
+    },
+    {
+      "key": [
+        "the netherlands",
+        "head of government"
+      ],
+      "cutoff": 2017.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q55:Q57792:2010-10-14",
+      "prefix_cid": "P6:Q55:Q57792:2010-10-14"
+    },
+    {
+      "key": [
+        "the netherlands",
+        "head of government"
+      ],
+      "cutoff": 2025.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q55:Q22338116:2024-07-02",
+      "prefix_cid": "P6:Q55:Q22338116:2024-07-02"
+    },
+    {
+      "key": [
+        "the united kingdom",
+        "head of government"
+      ],
+      "cutoff": 2008.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q145:Q10648:2007-00-00",
+      "prefix_cid": "P6:Q145:Q10648:2007-00-00"
+    },
+    {
+      "key": [
+        "the united kingdom",
+        "head of government"
+      ],
+      "cutoff": 2013.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q145:Q192:2010-05-11",
+      "prefix_cid": "P6:Q145:Q192:2010-05-11"
+    },
+    {
+      "key": [
+        "the united kingdom",
+        "head of government"
+      ],
+      "cutoff": 2017.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q145:Q264766:2016-07-13",
+      "prefix_cid": "P6:Q145:Q264766:2016-07-13"
+    },
+    {
+      "key": [
+        "the united kingdom",
+        "head of government"
+      ],
+      "cutoff": 2020.5,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q145:Q180589:2019-07-24",
+      "prefix_cid": "P6:Q145:Q180589:2019-07-24"
+    },
+    {
+      "key": [
+        "the united kingdom",
+        "head of government"
+      ],
+      "cutoff": 2023.0,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "P6:Q145:Q272201:2022-09-06",
+      "prefix_cid": "P6:Q145:Q272201:2022-09-06"
+    }
+  ]
+}

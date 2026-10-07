@@ -1,0 +1,11 @@
+{
+  "rows": 52,
+  "total_generation_wall_seconds": 643.6349910349963,
+  "median_request_seconds": 6.779106167001373,
+  "finish_reason_counts": {
+    "stop": 52
+  },
+  "total_completion_tokens": 1705,
+  "total_prompt_tokens": 26289,
+  "timing_context": "Shared CPU environment; concurrent verification caused variable request latency; not a controlled latency benchmark."
+}

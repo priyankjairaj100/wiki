@@ -1,0 +1,106 @@
+{
+  "n_questions": 176,
+  "n_articles": 50,
+  "metrics": {
+    "earliest_completion": {
+      "all_annotated_spans_covered_at_5": 0.6590909090909091,
+      "all_annotated_strings_covered_at_5": 0.6590909090909091,
+      "annotated_span_recall_at_5": 0.6751893939393939,
+      "annotated_string_recall_at_5": 0.6751893939393939,
+      "parent_passage_hit_at_5": 0.7102272727272727,
+      "passages_used": 4.875,
+      "tokens_used": 393.32954545454544,
+      "units_used": 4.954545454545454
+    },
+    "guaranteed_support": {
+      "all_annotated_spans_covered_at_5": 0.6590909090909091,
+      "all_annotated_strings_covered_at_5": 0.6590909090909091,
+      "annotated_span_recall_at_5": 0.6751893939393939,
+      "annotated_string_recall_at_5": 0.6751893939393939,
+      "parent_passage_hit_at_5": 0.7102272727272727,
+      "passages_used": 4.875,
+      "tokens_used": 393.32954545454544,
+      "units_used": 4.954545454545454
+    },
+    "interval_outer_control": {
+      "all_annotated_spans_covered_at_5": 0.6590909090909091,
+      "all_annotated_strings_covered_at_5": 0.6590909090909091,
+      "annotated_span_recall_at_5": 0.6751893939393939,
+      "annotated_string_recall_at_5": 0.6751893939393939,
+      "parent_passage_hit_at_5": 0.7102272727272727,
+      "passages_used": 4.8352272727272725,
+      "tokens_used": 391.21590909090907,
+      "units_used": 4.954545454545454
+    },
+    "latest_completion": {
+      "all_annotated_spans_covered_at_5": 0.6590909090909091,
+      "all_annotated_strings_covered_at_5": 0.6590909090909091,
+      "annotated_span_recall_at_5": 0.6751893939393939,
+      "annotated_string_recall_at_5": 0.6751893939393939,
+      "parent_passage_hit_at_5": 0.7102272727272727,
+      "passages_used": 4.8352272727272725,
+      "tokens_used": 391.21590909090907,
+      "units_used": 4.954545454545454
+    },
+    "latest_mentioned_year_top20": {
+      "all_annotated_spans_covered_at_5": 0.6363636363636364,
+      "all_annotated_strings_covered_at_5": 0.6363636363636364,
+      "annotated_span_recall_at_5": 0.6524621212121212,
+      "annotated_string_recall_at_5": 0.6524621212121212,
+      "parent_passage_hit_at_5": 0.6988636363636364,
+      "passages_used": 4.806818181818182,
+      "tokens_used": 371.4261363636364,
+      "units_used": 4.948863636363637
+    },
+    "midpoint_completion": {
+      "all_annotated_spans_covered_at_5": 0.6590909090909091,
+      "all_annotated_strings_covered_at_5": 0.6590909090909091,
+      "annotated_span_recall_at_5": 0.6751893939393939,
+      "annotated_string_recall_at_5": 0.6751893939393939,
+      "parent_passage_hit_at_5": 0.7102272727272727,
+      "passages_used": 4.840909090909091,
+      "tokens_used": 391.5738636363636,
+      "units_used": 4.954545454545454
+    },
+    "no_temporal_filter": {
+      "all_annotated_spans_covered_at_5": 0.6590909090909091,
+      "all_annotated_strings_covered_at_5": 0.6590909090909091,
+      "annotated_span_recall_at_5": 0.6723484848484849,
+      "annotated_string_recall_at_5": 0.6723484848484849,
+      "parent_passage_hit_at_5": 0.7045454545454546,
+      "passages_used": 4.755681818181818,
+      "tokens_used": 381.21022727272725,
+      "units_used": 4.954545454545454
+    },
+    "original_bm25": {
+      "all_annotated_spans_covered_at_5": 0.3693181818181818,
+      "all_annotated_strings_covered_at_5": 0.3693181818181818,
+      "annotated_span_recall_at_5": 0.38636363636363635,
+      "annotated_string_recall_at_5": 0.38636363636363635,
+      "parent_passage_hit_at_5": 0.4602272727272727,
+      "passages_used": 4.9147727272727275,
+      "tokens_used": 114.39772727272727,
+      "units_used": 5.0
+    },
+    "original_bm25_latestyear": {
+      "all_annotated_spans_covered_at_5": 0.5284090909090909,
+      "all_annotated_strings_covered_at_5": 0.5284090909090909,
+      "annotated_span_recall_at_5": 0.5482954545454546,
+      "annotated_string_recall_at_5": 0.5482954545454546,
+      "parent_passage_hit_at_5": 0.5965909090909091,
+      "passages_used": 4.857954545454546,
+      "tokens_used": 219.69886363636363,
+      "units_used": 5.0
+    },
+    "possible_support": {
+      "all_annotated_spans_covered_at_5": 0.6590909090909091,
+      "all_annotated_strings_covered_at_5": 0.6590909090909091,
+      "annotated_span_recall_at_5": 0.6751893939393939,
+      "annotated_string_recall_at_5": 0.6751893939393939,
+      "parent_passage_hit_at_5": 0.7102272727272727,
+      "passages_used": 4.8352272727272725,
+      "tokens_used": 391.21590909090907,
+      "units_used": 4.954545454545454
+    }
+  }
+}

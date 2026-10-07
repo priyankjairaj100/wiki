@@ -1,0 +1,83 @@
+\section{Source Pipeline and Run Provenance}
+\label{app:pipeline}
+
+\paragraph{Development and validation.}
+Removing the eight development--test article overlaps leaves 2,651 eligible development questions.
+A hash selects 176 questions from 50 articles for calibration.
+The remaining initial partition contains 2,475 questions from 679 articles.
+Source inspection and succession calibration identify 35 further validation articles for exclusion.
+Removing their 127 questions produces the reported 2,348-question validation partition.
+The amendment precedes validation outcomes and preserves the original split.
+Gold-anchor-guided source inspections and source-only succession selection have separate exclusion records.
+Rule development also inspected development source text outside the fixed pilot.
+It did not read answer labels or retrieval outcomes as inference features.
+The source manifests distinguish calibration inspection from the later frozen validation run.
+
+\paragraph{Source adapter.}
+A year maps to January 1 through December 31 on the Gregorian ordinal axis.
+A month maps to its actual first and last dates.
+A fully stated day gives a singleton.
+These are occurrence bounds, not inferred durations.
+Rules require an explicit state-start or tenure construction.
+They reject relative durations, future loan expiries, and unsupported person resolution.
+Temporary-state qualifiers remain in the fallback source when no complete supported lifetime is extracted.
+All source words remain in disjoint modeled or fallback units.
+The compiled development corpus contains 481 claims and 221 hidden end events.
+No accepted cross-claim pair occurs under the frozen rule adapter.
+A separate calibration pool contains thirty source-cue-selected succession paragraphs.
+A narrow deterministic clause adapter extracts five dated starts and three direct pairs from two articles.
+Model-assisted source audits check role scope, date attachment, and replacement direction for each record.
+The Warburg case replays the automatic adapter's output rather than manually supplied claim identifiers.
+Its query period and ranking remain illustrative.
+
+Two exploratory learned adapters each process the first six calibration paragraphs.
+The first returns 41 records, all missing required source quotes.
+A schema-constrained variant returns 46 records; 45 fail literal source grounding.
+The remaining record has an incorrect holder--date association and fails semantic review.
+Both planned thirty-paragraph batches stop after six completed requests because their interface fails source grounding.
+No learned claim or pair enters the reported validation experiment.
+The partial manifests preserve settings, output hashes, and the stop decisions.
+These calibration counts do not estimate held-out extraction precision.
+
+\paragraph{Reader generation and scoring.}
+The model revision is \texttt{91cad511}; the manifest records its full hash and weight checksum.
+The runtime is llama.cpp release b11435 at commit \texttt{43fe9c6}.
+The official model license is Apache-2.0; the runtime license is MIT.
+Requests run sequentially with eight CPU threads and prompt caching disabled.
+Prompts include the visible question, original source excerpts, date bounds, and temporal status.
+The JSON response requests an answer list and excerpt indices.
+The scorer accepts a complete object or a single JSON code fence.
+It rejects narrative repair, invalid field types, invalid indices, and truncated outputs.
+Failures receive empty answer lists and remain in the denominator.
+Answer normalization applies Unicode NFKC, case folding, and word-token extraction.
+It preserves articles and compares deduplicated complete answer sets.
+Normalized exact answer sets define the main generated-answer metric.
+Token overlap is retained only as a secondary metric.
+
+The primary reader subset has 24 questions from 21 articles.
+Deduplication reduces 192 method conditions to 52 unique generations.
+A context-sensitive diagnostic has nine questions and 72 method conditions.
+Six primary generations are reused; twenty-two additional prompts complete that diagnostic.
+The cohorts overlap on two questions, giving 31 distinct questions and 74 actual generations.
+Selection uses disagreement among retrieved contexts, never answer quality.
+This slice characterizes sensitivity and is not an independently selected accuracy benchmark.
+
+\paragraph{Reproduction.}
+The release stores exact prompts, request hashes, raw responses, context membership, source offsets, and scoring outputs.
+It includes pinned public download instructions for the model and runtime.
+The generation weights are not embedded in the source archive.
+A reproducibility fix sorts BM25 token accumulation and stops after selecting five accepted units.
+Every one of 20,192 saved method contexts remains identical after this change.
+The original runner and equivalence logs remain available.
+
+\subsection{Complete annual controls}
+\input{tables/sourceaudit}
+\input{tables/fullsource}
+The annual split and complete-source labels match the archived second-pass experiment.
+No repeated model inference is implied by these retained results.
+
+\subsection{Natural paragraph controls}
+\input{tables/natural}
+These earlier paragraph runs use the published test passages and positive annotations.
+Their human-question results were inspected before the new development experiment.
+The source-unit validation and paragraph test results have different retrieval units and denominators.

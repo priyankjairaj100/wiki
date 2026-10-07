@@ -1,0 +1,14 @@
+{
+  "review_scope": "presentation example source audit only",
+  "question_count": 11,
+  "reader_outcome_reads": 0,
+  "answer_label_reads": 0,
+  "algorithm_changes": 0,
+  "input_hashes": {
+    "pass4/pipeline/human_diagnostic/queries.jsonl": "b1d2f20e919ef90e8aa6a46dbbd7aa75e49f0c5145992898ed8956727aadd0a0",
+    "pass4/pipeline/human/predictions.jsonl": "cbd2867dc0fed4d5d83caaf4e405c37e4273284fa404a06a2c702913dca34912",
+    "pass4/pipeline/human/claims.jsonl": "e6b255a03a0fd8662dca5f6d917d0fe474b96f9fa520fed544a52c986a9fab7a",
+    "pass4/pipeline/human/counterworlds.jsonl": "cc7e923a6384c47ea4a9812fad08f48b20ce509784096133998a348b23b5ed06",
+    "pass3/protocol/test_source_passages.jsonl": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a"
+  }
+}

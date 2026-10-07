@@ -1,0 +1,15 @@
+0.00.049.098 I srv  llama_server: initializing ...
+0.00.049.256 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.049.881 I srv  init_listene: The UI is disabled
+0.00.049.895 I srv  init_listene: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+0.00.050.158 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.052.602 I srv    load_model: loading model '/workspace/scratch/956c06247f78/acl2027_inference_cache/qwen2.5-3b-instruct-q4_k_m.gguf'
+0.01.026.895 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.05.846.921 I cmn          init: llama threadpool init, n_threads = 8
+0.29.748.026 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 2048, kv_unified = 'false'
+0.29.769.368 I srv  llama_server: model loaded
+0.29.769.431 I srv  llama_server: listening on http://127.0.0.1:46721
+0.29.911.851 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+0.29.912.059 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+0.53.736.006 I slot print_timing: id  0 | task 0 | prompt processing, n_tokens =    512, progress = 0.50, t =  23.82 s / 21.49 tokens per second
+1.20.306.159 I slot print_timing: id  0 | task 0 | prompt processing, n_tokens =   1024, progress = 1.00, t =  50.39 s / 20.32 tokens per second

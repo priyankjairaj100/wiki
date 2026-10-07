@@ -1,0 +1,267 @@
+{
+  "date": "2026-10-07",
+  "refs_sha256": "b53ec72bf39ac7ed88d93b039011fc68fc417ee71ffdc37237f40e2e0a7c56c7",
+  "reference_count": 24,
+  "citation_command_count": 28,
+  "unknown_keys": [],
+  "uncited_keys": [],
+  "unaudited_keys": [],
+  "citations": [
+    {
+      "file": "pass5/paper/sections/appendix_refinement.tex",
+      "line": 79,
+      "keys": [
+        "karp1972reducibility"
+      ],
+      "context": "We reduce Set Cover~\\citep{karp1972reducibility} to possible top-$k$ membership.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/introduction.tex",
+      "line": 12,
+      "keys": [
+        "lewis2020rag"
+      ],
+      "context": "Retrieval-augmented systems select passages before generating answers~\\citep{lewis2020rag}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/introduction.tex",
+      "line": 26,
+      "keys": [
+        "rasmussen2025zep",
+        "zerhoudi2026nuggetindex"
+      ],
+      "context": "Temporal memories already preserve histories and invalidate replaced facts~\\citep{rasmussen2025zep,zerhoudi2026nuggetindex}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/introduction.tex",
+      "line": 27,
+      "keys": [
+        "chen2026defuzzrag",
+        "wang2026iarag"
+      ],
+      "context": "Interval retrievers also handle fuzzy dates~\\citep{chen2026defuzzrag,wang2026iarag}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/protocol.tex",
+      "line": 5,
+      "keys": [
+        "chen2021timeqa"
+      ],
+      "context": "The natural-source experiments use original TimeQA paragraphs~\\citep{chen2021timeqa}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/protocol.tex",
+      "line": 22,
+      "keys": [
+        "robertson1995bm25"
+      ],
+      "context": "It removes matched title words before BM25 scoring~\\citep{robertson1995bm25}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/protocol.tex",
+      "line": 45,
+      "keys": [
+        "qwen2024model"
+      ],
+      "context": "We run Qwen2.5-3B-Instruct with official Q4\\_K\\_M weights and a pinned CPU runtime~\\citep{qwen2024model}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/refinement.tex",
+      "line": 39,
+      "keys": [
+        "karp1972reducibility"
+      ],
+      "context": "Take a Set Cover instance with elements $E$, sets $S_1,\\ldots,S_s$, and budget $1\\le B\\le s$~\\citep{karp1972reducibility}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 5,
+      "keys": [
+        "rasmussen2025zep",
+        "graphiti2026source"
+      ],
+      "context": "Graphiti closes earlier facts through direct contradictory evidence~\\citep{rasmussen2025zep,graphiti2026source}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 6,
+      "keys": [
+        "yadav2026memstrata"
+      ],
+      "context": "MemStrata applies deterministic supersession to structured keys~\\citep{yadav2026memstrata}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 7,
+      "keys": [
+        "li2025erase"
+      ],
+      "context": "ERASE edits stored fact histories as new documents arrive~\\citep{li2025erase}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 8,
+      "keys": [
+        "zerhoudi2026nuggetindex"
+      ],
+      "context": "NuggetIndex attaches source spans, validity intervals, and lifecycle states to atomic records~\\citep{zerhoudi2026nuggetindex}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 13,
+      "keys": [
+        "cao2026re3"
+      ],
+      "context": "Re$^3$ combines fact grouping, conflict filtering, and temporal relevance~\\citep{cao2026re3}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 14,
+      "keys": [
+        "chen2026defuzzrag"
+      ],
+      "context": "DeFuzzRAG adapts temporal granularity and filters inferred document scopes by query overlap~\\citep{chen2026defuzzrag}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 15,
+      "keys": [
+        "wang2026iarag"
+      ],
+      "context": "IA-RAG represents intervals and refines uncertain event dates~\\citep{wang2026iarag}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 16,
+      "keys": [
+        "lau2025tarag"
+      ],
+      "context": "TA-RAG retrieves evidence across timelines~\\citep{lau2025tarag}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 22,
+      "keys": [
+        "anselma2013indeterminacy"
+      ],
+      "context": "\\citet{anselma2013indeterminacy} study valid-time indeterminacy and compact representations.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 23,
+      "keys": [
+        "fan2012currency"
+      ],
+      "context": "\\citet{fan2012currency} study data currency without reliable timestamps.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 24,
+      "keys": [
+        "amarilli2017order"
+      ],
+      "context": "\\citet{amarilli2017order} study possible ordered answers and certainty of an entire query result.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 29,
+      "keys": [
+        "hua2008ranking"
+      ],
+      "context": "\\citet{hua2008ranking} study top-$k$ membership probabilities under uncertain record membership.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 30,
+      "keys": [
+        "amarilli2017topk"
+      ],
+      "context": "\\citet{amarilli2017topk} study unknown ranking values constrained by a partial order.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 31,
+      "keys": [
+        "feng2023ranking"
+      ],
+      "context": "\\citet{feng2023ranking} bound possible and certain results for ranking and SQL window queries.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 36,
+      "keys": [
+        "chen2021timeqa"
+      ],
+      "context": "TimeQA supplies natural passages and questions about dated histories~\\citep{chen2021timeqa}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 37,
+      "keys": [
+        "dhingra2022templama"
+      ],
+      "context": "TempLAMA evaluates factual answers at yearly resolution~\\citep{dhingra2022templama}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 38,
+      "keys": [
+        "liska2022streamingqa",
+        "vu2024freshllms"
+      ],
+      "context": "StreamingQA and FreshLLMs study changing information access~\\citep{liska2022streamingqa,vu2024freshllms}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/related.tex",
+      "line": 39,
+      "keys": [
+        "an2026fresco"
+      ],
+      "context": "FRESCO distinguishes obsolete evidence from current but insufficient passages~\\citep{an2026fresco}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/sources.tex",
+      "line": 35,
+      "keys": [
+        "chen2021timeqa"
+      ],
+      "context": "The Chicago Stadium passage in TimeQA, for example, gives overlapping tenancies for two teams~\\citep{chen2021timeqa}.",
+      "status": "supported"
+    },
+    {
+      "file": "pass5/paper/sections/sources.tex",
+      "line": 70,
+      "keys": [
+        "chen2021timeqa"
+      ],
+      "context": "A Warburg Institute paragraph lists Henri Frankfort, Gertrud Bing, and Ernst Gombrich as successive directors~\\citep{chen2021timeqa}.",
+      "status": "supported"
+    }
+  ]
+}

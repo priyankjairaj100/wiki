@@ -1,0 +1,16 @@
+{
+  "label": "Graphiti policy kernel (matched extraction)",
+  "full_system_run": false,
+  "n_observations": 45866,
+  "n_candidate_visits": 182582,
+  "source_sha256": "b773ff4489968af2a996d5074e679cab9806cc0904a7ff9f2aecc74382325abe",
+  "tie_rule": "strict later date only",
+  "time_encoding": "order-preserving ranks encoded as UTC datetimes",
+  "omitted_subsystems": [
+    "LLM extraction",
+    "duplicate merging",
+    "candidate search",
+    "graph storage",
+    "reader generation"
+  ]
+}

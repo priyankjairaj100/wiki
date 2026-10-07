@@ -1,0 +1,136 @@
+{
+  "id": "exclude-calibration-20261006-v2",
+  "timing": "Before pass-3 validation comparative outcomes.",
+  "initial_validation_queries": 2475,
+  "initial_validation_articles": 679,
+  "removed_validation_queries": 127,
+  "removed_validation_articles": 35,
+  "remaining_validation_queries": 2348,
+  "remaining_validation_articles": 644,
+  "calibration_article_reasons": {
+    "/wiki/Amsterdam": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Atlanta_Braves": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Billy_Bremner": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Craig_Emerson": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Ed_van_Thijn": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/FC_Aarau": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Flughafen_Berlin_Brandenburg_GmbH": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Frank_O'Farrell": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/German_submarine_U-101_(1940)": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Heinrich_Brandler": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Issai_Schur": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Jai_Ram_Reddy": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Jonathan_Sexton": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Journal_de_20_heures": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Krasimir_Balakov": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Maimunah_Mohd_Sharif": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Maryland_Terrapins": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Meet_the_Press": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/National_Council_of_French_Women": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Nintendo": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Parliament_House,_Melbourne": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Paul_Godfrey": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Paul_Painlevé": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Pertti_Salolainen": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Pietro_Tacca": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Sara_Annie_Burstall": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Texas_Longhorns_women's_basketball": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Warburg_Institute": [
+      "Source-cue succession calibration; no question, answer, or outcome selection."
+    ],
+    "/wiki/Ian_Gibson_(politician)": [
+      "Earlier qualitative source audit selected a gold anchor paragraph; exclude from validation."
+    ],
+    "/wiki/Esperanza_Aguirre": [
+      "Earlier qualitative source audit selected a gold anchor paragraph; exclude from validation."
+    ],
+    "/wiki/Gerhard_Hirschfeld": [
+      "Earlier qualitative source audit selected a gold anchor paragraph; exclude from validation."
+    ],
+    "/wiki/Evelyn_Berezin": [
+      "Earlier qualitative source audit selected a gold anchor paragraph; exclude from validation."
+    ],
+    "/wiki/Henry_Dundas,_1st_Viscount_Melville": [
+      "Earlier qualitative source audit selected a gold anchor paragraph; exclude from validation."
+    ],
+    "/wiki/Steny_Hoyer": [
+      "Earlier qualitative source audit selected a gold anchor paragraph; exclude from validation."
+    ],
+    "/wiki/Friedrich_Guggenberger": [
+      "Earlier qualitative source audit selected a gold anchor paragraph; exclude from validation."
+    ],
+    "/wiki/Beatrix_Tugendhut_Gardner": [
+      "Earlier qualitative source audit selected a gold anchor paragraph; exclude from validation."
+    ],
+    "/wiki/Richard_Court": [
+      "Earlier qualitative source audit selected a gold anchor paragraph; exclude from validation."
+    ],
+    "/wiki/Shelley_Sekula-Gibbs": [
+      "Earlier qualitative source audit selected a gold anchor paragraph; exclude from validation."
+    ],
+    "/wiki/Val_Ackerman": [
+      "Additional source paragraph inspected during extraction development."
+    ]
+  },
+  "sources": {
+    "pass3/data/dev_succession_selection.json": "9cf7349a17e1e6dd8f70251622592c431c70be36a41c51bfc1c211b8201046f7",
+    "pass3/data/dev_source_audit.json": "f6f091be447d0dd3b7e7e3ea3a6d8f54a493e35bc19c59db744cc3250adde5ba"
+  },
+  "selection_scope": "The succession sample is source-only. Ten earlier audit articles were selected through gold anchors. All are excluded.",
+  "source_exposure": "Initial regex development inspected text beyond the hash pilot. Remaining validation source text is not claimed completely unseen.",
+  "preserved_original": "pass3/protocol/v1_original_split/"
+}

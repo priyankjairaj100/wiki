@@ -1,0 +1,11 @@
+{
+  "review_type": "Independent model-assisted source semantics review",
+  "phase": "Calibration, before pass-4 rule freeze",
+  "input_source": "pass4/extraction/calibration_sources.jsonl",
+  "claim_source": "pass3/extraction/source_adapter.py on calibration sources",
+  "records_reviewed": 57,
+  "accepted": 53,
+  "rejected": 4,
+  "answer_label_reads": 0,
+  "scope": "All 57 inherited calibration outputs reviewed; not confirmation precision or extraction recall."
+}

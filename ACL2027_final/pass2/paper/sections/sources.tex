@@ -1,0 +1,64 @@
+\section{From Sources to Date Constraints}
+\label{sec:sources}
+
+Temporal evidence contains several kinds of dates.
+The retrieval interface must preserve their meaning before applying any replacement rule.
+We distinguish an uncertain occurrence from a known duration and from a dated observation.
+Table~\ref{tab:date-types} gives the operational difference.
+
+\begin{table}[t]
+\centering\small
+\begin{tabular}{@{}p{.28\columnwidth}p{.65\columnwidth}@{}}
+\toprule
+Source meaning & Representation and operation\\
+\midrule
+Update occurred in a year & Bound its unknown start by that year's dates; use the two-witness compiler.\\[3pt]
+Fact held during a stated period & Preserve its validity interval; test overlap with the question's period.\\[3pt]
+Fact was observed in a yearly snapshot & Preserve the observation and all listed answers; do not infer an exact transition date.\\
+\bottomrule
+\end{tabular}
+\caption{Three date meanings require different operations. The compiler takes bounds on one occurrence date.}
+\label{tab:date-types}
+\end{table}
+
+\paragraph{Occurrence precision.}
+An exact day gives a point on the chosen time axis.
+A stated month gives bounds on an occurrence within that month.
+A stated year gives wider bounds.
+The representation keeps this precision instead of substituting January 1 or the interval midpoint.
+Relative expressions require a source anchor.
+An expression such as \emph{around 1713} does not itself supply a numerical error radius.
+The source adapter must provide justified bounds before invoking the compiler.
+
+\paragraph{Replacement decisions.}
+A directed decision states that one claim replaces another if it occurs strictly later.
+The decision concerns the same subject and attribute.
+It must distinguish a changed value from an additional valid value.
+For example, the Chicago Stadium passage gives overlapping periods for the Blackhawks and the Bulls.
+Neither tenancy replaces the other.
+The compiler takes pair decisions as inputs, together with source identifiers and date bounds.
+This interface allows the same executor to serve rule-based and learned extractors.
+
+\paragraph{Question scope.}
+We study questions asking which claims apply at some time within a specified period.
+Point questions are the special case with identical start and end dates.
+A question asking what held throughout a period requires a different predicate.
+The query adapter preserves this distinction.
+It preserves the supplied date precision.
+Thus a question about a whole year does not silently become a question about its last day.
+
+\paragraph{Source units.}
+Replacement operates on claims, rather than entire paragraphs.
+A single paragraph can contain several historical states and several relations.
+The News Quiz passage, for example, lists successive hosts and a returning host.
+Removing that paragraph because one host was replaced would remove other requested evidence.
+Each extracted claim retains its passage identifier and source span.
+The retrieval layer can recover the supporting text after temporal selection.
+
+\paragraph{Three output states.}
+For a given question, the compiler marks each claim as guaranteed, unresolved, or unsupported.
+A guaranteed claim has support under every permitted timeline.
+An unresolved claim has support under some, but not all, timelines.
+An unsupported claim has support under none.
+The interface exposes these states before the context budget is applied.
+This preserves the difference between lacking temporal support and merely having uncertain dates.

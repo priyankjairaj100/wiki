@@ -1,0 +1,380 @@
+{
+  "tie_batches": [],
+  "recurring_keys": [
+    {
+      "key": [
+        "q1003357",
+        "p286"
+      ],
+      "values": [
+        "olivier krumbholz",
+        "alain portes",
+        "olivier krumbholz"
+      ]
+    },
+    {
+      "key": [
+        "q10553748",
+        "p54"
+      ],
+      "values": [
+        "milton keynes dons f.c.",
+        "england national under-17 football team",
+        "england national under-19 football team",
+        "milton keynes dons f.c.",
+        "england national under-21 football team"
+      ]
+    },
+    {
+      "key": [
+        "q1055449",
+        "p39"
+      ],
+      "values": [
+        "member of the european parliament",
+        "party leader",
+        "member of the european parliament",
+        "vice president of the council of ministers of italy"
+      ]
+    },
+    {
+      "key": [
+        "q109397",
+        "p54"
+      ],
+      "values": [
+        "sv werder bremen",
+        "fc bayern munich",
+        "sv werder bremen"
+      ]
+    },
+    {
+      "key": [
+        "q109428",
+        "p54"
+      ],
+      "values": [
+        "juventus fc",
+        "atlético madrid",
+        "vfl wolfsburg",
+        "atlético madrid",
+        "fenerbahçe fc",
+        "clube de regatas do flamengo"
+      ]
+    },
+    {
+      "key": [
+        "q113916",
+        "p54"
+      ],
+      "values": [
+        "aston villa f.c.",
+        "newcastle united f.c.",
+        "aston villa f.c.",
+        "stoke city f.c."
+      ]
+    },
+    {
+      "key": [
+        "q1185115",
+        "p6"
+      ],
+      "values": [
+        "dan plato",
+        "patricia de lille",
+        "dan plato"
+      ]
+    },
+    {
+      "key": [
+        "q11979",
+        "p286"
+      ],
+      "values": [
+        "paco herrera",
+        "pako ayestarán",
+        "paco jémez",
+        "paco herrera",
+        "pepe mel"
+      ]
+    }
+  ],
+  "cross_key_pairs": [
+    {
+      "older": "tl:Q1029527_P39:2011:Q13218630",
+      "newer": "tl:Q10853588_P39:2018:Q4416090",
+      "older_text": "Steve Womack holds the position of United States representative.",
+      "newer_text": "Kamala Harris holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1029527_P39:2011:Q13218630",
+      "newer": "tl:Q11112119_P39:2015:Q13218630",
+      "older_text": "Steve Womack holds the position of United States representative.",
+      "newer_text": "Mia Love holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1029527_P39:2011:Q13218630",
+      "newer": "tl:Q1135774_P39:2015:Q4416090",
+      "older_text": "Steve Womack holds the position of United States representative.",
+      "newer_text": "Cory Gardner holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1029527_P39:2011:Q13218630",
+      "newer": "tl:Q11669_P39:2013:Q13218630",
+      "older_text": "Steve Womack holds the position of United States representative.",
+      "newer_text": "Mark Sanford holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1029527_P39:2011:Q13218630",
+      "newer": "tl:Q1240224_P39:2013:Q13218630",
+      "older_text": "Steve Womack holds the position of United States representative.",
+      "newer_text": "Donald Payne, Jr. holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1029527_P39:2011:Q13218630",
+      "newer": "tl:Q1282411_P39:2013:Q4416090",
+      "older_text": "Steve Womack holds the position of United States representative.",
+      "newer_text": "Ed Markey holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1029792_P488:2010:Q2977816",
+      "newer": "tl:Q1186234_P488:2015:Q81065",
+      "older_text": "Claude Meisch is the chair of Democratic Party.",
+      "newer_text": "Zandaakhüügiin Enkhbold is the chair of Democratic Party."
+    },
+    {
+      "older": "tl:Q1029792_P488:2013:Q561213",
+      "newer": "tl:Q1186234_P488:2015:Q81065",
+      "older_text": "Xavier Bettel is the chair of Democratic Party.",
+      "newer_text": "Zandaakhüügiin Enkhbold is the chair of Democratic Party."
+    },
+    {
+      "older": "tl:Q11112119_P39:2015:Q13218630",
+      "newer": "tl:Q10853588_P39:2018:Q4416090",
+      "older_text": "Mia Love holds the position of United States representative.",
+      "newer_text": "Kamala Harris holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1135774_P39:2011:Q13218630",
+      "newer": "tl:Q10853588_P39:2018:Q4416090",
+      "older_text": "Cory Gardner holds the position of United States representative.",
+      "newer_text": "Kamala Harris holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1135774_P39:2011:Q13218630",
+      "newer": "tl:Q11112119_P39:2015:Q13218630",
+      "older_text": "Cory Gardner holds the position of United States representative.",
+      "newer_text": "Mia Love holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1135774_P39:2011:Q13218630",
+      "newer": "tl:Q11669_P39:2013:Q13218630",
+      "older_text": "Cory Gardner holds the position of United States representative.",
+      "newer_text": "Mark Sanford holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1135774_P39:2011:Q13218630",
+      "newer": "tl:Q1240224_P39:2013:Q13218630",
+      "older_text": "Cory Gardner holds the position of United States representative.",
+      "newer_text": "Donald Payne, Jr. holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1135774_P39:2011:Q13218630",
+      "newer": "tl:Q1282411_P39:2013:Q4416090",
+      "older_text": "Cory Gardner holds the position of United States representative.",
+      "newer_text": "Ed Markey holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1135774_P39:2015:Q4416090",
+      "newer": "tl:Q10853588_P39:2018:Q4416090",
+      "older_text": "Cory Gardner holds the position of United States senator.",
+      "newer_text": "Kamala Harris holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q11669_P39:2010:Q3773752",
+      "newer": "tl:Q11668_P39:2011:Q3773752",
+      "older_text": "Mark Sanford holds the position of Governor of South Carolina.",
+      "newer_text": "Nikki Haley holds the position of Governor of South Carolina."
+    },
+    {
+      "older": "tl:Q11669_P39:2013:Q13218630",
+      "newer": "tl:Q10853588_P39:2018:Q4416090",
+      "older_text": "Mark Sanford holds the position of United States representative.",
+      "newer_text": "Kamala Harris holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q11669_P39:2013:Q13218630",
+      "newer": "tl:Q11112119_P39:2015:Q13218630",
+      "older_text": "Mark Sanford holds the position of United States representative.",
+      "newer_text": "Mia Love holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q11669_P39:2013:Q13218630",
+      "newer": "tl:Q1135774_P39:2015:Q4416090",
+      "older_text": "Mark Sanford holds the position of United States representative.",
+      "newer_text": "Cory Gardner holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q11689876_P39:2010:Q43165333",
+      "newer": "tl:Q10819_P39:2011:Q844587",
+      "older_text": "Luis Planas holds the position of permanent representative of Spain to the European Union.",
+      "newer_text": "Mariano Rajoy holds the position of Prime Minister of Spain."
+    },
+    {
+      "older": "tl:Q11702_P39:2010:Q13218630",
+      "newer": "tl:Q1029527_P39:2011:Q13218630",
+      "older_text": "John Boehner holds the position of United States representative.",
+      "newer_text": "Steve Womack holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q11702_P39:2010:Q13218630",
+      "newer": "tl:Q10853588_P39:2018:Q4416090",
+      "older_text": "John Boehner holds the position of United States representative.",
+      "newer_text": "Kamala Harris holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q11702_P39:2010:Q13218630",
+      "newer": "tl:Q11112119_P39:2015:Q13218630",
+      "older_text": "John Boehner holds the position of United States representative.",
+      "newer_text": "Mia Love holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q11702_P39:2010:Q13218630",
+      "newer": "tl:Q1135774_P39:2011:Q13218630",
+      "older_text": "John Boehner holds the position of United States representative.",
+      "newer_text": "Cory Gardner holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q11702_P39:2010:Q13218630",
+      "newer": "tl:Q1135774_P39:2015:Q4416090",
+      "older_text": "John Boehner holds the position of United States representative.",
+      "newer_text": "Cory Gardner holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q11702_P39:2010:Q13218630",
+      "newer": "tl:Q11669_P39:2013:Q13218630",
+      "older_text": "John Boehner holds the position of United States representative.",
+      "newer_text": "Mark Sanford holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q11702_P39:2010:Q13218630",
+      "newer": "tl:Q1240224_P39:2013:Q13218630",
+      "older_text": "John Boehner holds the position of United States representative.",
+      "newer_text": "Donald Payne, Jr. holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q11702_P39:2010:Q13218630",
+      "newer": "tl:Q1282411_P39:2013:Q4416090",
+      "older_text": "John Boehner holds the position of United States representative.",
+      "newer_text": "Ed Markey holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q11860_P102:2010:Q47720",
+      "newer": "tl:Q11860_P39:2019:Q27169",
+      "older_text": "Silvio Berlusconi is a member of the The People of Freedom.",
+      "newer_text": "Silvio Berlusconi holds the position of member of the European Parliament."
+    },
+    {
+      "older": "tl:Q11860_P102:2014:Q14924303",
+      "newer": "tl:Q11860_P39:2019:Q27169",
+      "older_text": "Silvio Berlusconi is a member of the Forza Italia (2013).",
+      "newer_text": "Silvio Berlusconi holds the position of member of the European Parliament."
+    },
+    {
+      "older": "tl:Q1186234_P488:2010:Q57888",
+      "newer": "tl:Q1029792_P488:2013:Q561213",
+      "older_text": "Norovyn Altankhuyag is the chair of Democratic Party.",
+      "newer_text": "Xavier Bettel is the chair of Democratic Party."
+    },
+    {
+      "older": "tl:Q1186234_P488:2010:Q57888",
+      "newer": "tl:Q1029792_P488:2016:Q15629005",
+      "older_text": "Norovyn Altankhuyag is the chair of Democratic Party.",
+      "newer_text": "Corinne Cahen is the chair of Democratic Party."
+    },
+    {
+      "older": "tl:Q1186234_P488:2015:Q81065",
+      "newer": "tl:Q1029792_P488:2016:Q15629005",
+      "older_text": "Zandaakhüügiin Enkhbold is the chair of Democratic Party.",
+      "newer_text": "Corinne Cahen is the chair of Democratic Party."
+    },
+    {
+      "older": "tl:Q1240224_P39:2013:Q13218630",
+      "newer": "tl:Q10853588_P39:2018:Q4416090",
+      "older_text": "Donald Payne, Jr. holds the position of United States representative.",
+      "newer_text": "Kamala Harris holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1240224_P39:2013:Q13218630",
+      "newer": "tl:Q11112119_P39:2015:Q13218630",
+      "older_text": "Donald Payne, Jr. holds the position of United States representative.",
+      "newer_text": "Mia Love holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1240224_P39:2013:Q13218630",
+      "newer": "tl:Q1135774_P39:2015:Q4416090",
+      "older_text": "Donald Payne, Jr. holds the position of United States representative.",
+      "newer_text": "Cory Gardner holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1282411_P39:2010:Q13218630",
+      "newer": "tl:Q1029527_P39:2011:Q13218630",
+      "older_text": "Ed Markey holds the position of United States representative.",
+      "newer_text": "Steve Womack holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1282411_P39:2010:Q13218630",
+      "newer": "tl:Q10853588_P39:2018:Q4416090",
+      "older_text": "Ed Markey holds the position of United States representative.",
+      "newer_text": "Kamala Harris holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1282411_P39:2010:Q13218630",
+      "newer": "tl:Q11112119_P39:2015:Q13218630",
+      "older_text": "Ed Markey holds the position of United States representative.",
+      "newer_text": "Mia Love holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1282411_P39:2010:Q13218630",
+      "newer": "tl:Q1135774_P39:2011:Q13218630",
+      "older_text": "Ed Markey holds the position of United States representative.",
+      "newer_text": "Cory Gardner holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1282411_P39:2010:Q13218630",
+      "newer": "tl:Q1135774_P39:2015:Q4416090",
+      "older_text": "Ed Markey holds the position of United States representative.",
+      "newer_text": "Cory Gardner holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1282411_P39:2010:Q13218630",
+      "newer": "tl:Q11669_P39:2013:Q13218630",
+      "older_text": "Ed Markey holds the position of United States representative.",
+      "newer_text": "Mark Sanford holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1282411_P39:2010:Q13218630",
+      "newer": "tl:Q1240224_P39:2013:Q13218630",
+      "older_text": "Ed Markey holds the position of United States representative.",
+      "newer_text": "Donald Payne, Jr. holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1282411_P39:2013:Q4416090",
+      "newer": "tl:Q10853588_P39:2018:Q4416090",
+      "older_text": "Ed Markey holds the position of United States senator.",
+      "newer_text": "Kamala Harris holds the position of United States senator."
+    },
+    {
+      "older": "tl:Q1282411_P39:2013:Q4416090",
+      "newer": "tl:Q11112119_P39:2015:Q13218630",
+      "older_text": "Ed Markey holds the position of United States senator.",
+      "newer_text": "Mia Love holds the position of United States representative."
+    },
+    {
+      "older": "tl:Q1282411_P39:2013:Q4416090",
+      "newer": "tl:Q1135774_P39:2015:Q4416090",
+      "older_text": "Ed Markey holds the position of United States senator.",
+      "newer_text": "Cory Gardner holds the position of United States senator."
+    }
+  ]
+}

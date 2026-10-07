@@ -1,0 +1,274 @@
+{
+  "_id": "66e98aed2b824e26843793c6",
+  "id": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "tags": [
+    "gguf",
+    "chat",
+    "text-generation",
+    "en",
+    "arxiv:2407.10671",
+    "base_model:Qwen/Qwen2.5-3B-Instruct",
+    "base_model:quantized:Qwen/Qwen2.5-3B-Instruct",
+    "license:other",
+    "endpoints_compatible",
+    "region:us",
+    "conversational"
+  ],
+  "downloads": 196298,
+  "likes": 203,
+  "modelId": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+  "author": "Qwen",
+  "sha": "7dabda4d13d513e3e842b20f0d435c732f172cbe",
+  "lastModified": "2024-09-20T06:34:33.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "other",
+    "license_name": "qwen-research",
+    "license_link": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/blob/main/LICENSE",
+    "language": [
+      "en"
+    ],
+    "pipeline_tag": "text-generation",
+    "base_model": "Qwen/Qwen2.5-3B-Instruct",
+    "tags": [
+      "chat"
+    ]
+  },
+  "gguf": {
+    "total": 3397103616,
+    "architecture": "qwen2",
+    "context_length": 32768,
+    "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] }}\n    {%- else %}\n        {{- 'You are Qwen, created by Alibaba Cloud. You are a helpful assistant.' }}\n    {%- endif %}\n    {{- \"\\n\\n# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0]['content'] + '<|im_end|>\\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and not message.tool_calls) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role }}\n        {%- if message.content %}\n            {{- '\\n' + message.content }}\n        {%- endif %}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '\\n<tool_call>\\n{\"name\": \"' }}\n            {{- tool_call.name }}\n            {{- '\", \"arguments\": ' }}\n            {{- tool_call.arguments | tojson }}\n            {{- '}\\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n{%- endif %}\n",
+    "bos_token": "<|endoftext|>",
+    "eos_token": "<|im_end|>",
+    "totalFileSize": 1376856480
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "e79ce6a89353fed9e05c6bd0e566fbd82c8d6d5f",
+      "size": 1561
+    },
+    {
+      "rfilename": "LICENSE",
+      "blobId": "ed317377ac0abff39f17eec693ce664f4b8152af",
+      "size": 7388
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "334d54421ca2e346f3d2a1265236d6da0992a436",
+      "size": 4867
+    },
+    {
+      "rfilename": "qwen2.5-3b-instruct-fp16-00001-of-00002.gguf",
+      "blobId": "41db47cc2c8f6313403b9af16da76766b44b64aa",
+      "size": 3980517664,
+      "lfs": {
+        "sha256": "abfbd7569b55de1549c95b052a8e933556e28676607dee3e4ee87920c005ac71",
+        "size": 3980517664,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "qwen2.5-3b-instruct-fp16-00002-of-00002.gguf",
+      "blobId": "dad7fd1225e587c07a12fe22659414c359c116fe",
+      "size": 2820129120,
+      "lfs": {
+        "sha256": "f54c631133d77afa1b5e206cca90196652269be3e8992adb8289c6297afdd476",
+        "size": 2820129120,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "qwen2.5-3b-instruct-q2_k.gguf",
+      "blobId": "fcbc1e9dcd10d8f82fb78dd499f7aed9c8572436",
+      "size": 1376856480,
+      "lfs": {
+        "sha256": "8ab4be7ea643fe2b207cf286ce032ca4f5b592f4cebb0db6aa6533c0b26f218d",
+        "size": 1376856480,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "qwen2.5-3b-instruct-q3_k_m.gguf",
+      "blobId": "ec08e711ac5336da2ed85e3cfb0d55e4ab29651d",
+      "size": 1724178848,
+      "lfs": {
+        "sha256": "ba8627a48c2bddefac2f995caf7887551304f26a72137fb94b74449121d0df4e",
+        "size": 1724178848,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "qwen2.5-3b-instruct-q4_0.gguf",
+      "blobId": "907f7566a5b5a262a5ba0709a46ea1526adcd721",
+      "size": 1997879712,
+      "lfs": {
+        "sha256": "670d82d0fbee6289b661eb323612c65bd2e97ec8c65cdbd9131aa44d30e9816a",
+        "size": 1997879712,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "qwen2.5-3b-instruct-q4_k_m.gguf",
+      "blobId": "01230798622073dd9fd68ed22ee1a81ddbb00892",
+      "size": 2104932768,
+      "lfs": {
+        "sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+        "size": 2104932768,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "qwen2.5-3b-instruct-q5_0.gguf",
+      "blobId": "7ef28df72388e3983697effe4784cd7a190d10ab",
+      "size": 2383591840,
+      "lfs": {
+        "sha256": "dddaa70cdf8bc82320af1d7bc7787b9013eadc6e44b7754a7764ce2e91a4a18a",
+        "size": 2383591840,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "qwen2.5-3b-instruct-q5_k_m.gguf",
+      "blobId": "ffee048cd9cd76e7e4848d17fb96892023e8eca1",
+      "size": 2438740384,
+      "lfs": {
+        "sha256": "2c63dde5f2c9ab1fd64d47dee2d34dade6ba9ff62442d1d20b5342310c982081",
+        "size": 2438740384,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "qwen2.5-3b-instruct-q6_k.gguf",
+      "blobId": "a1e2062197da4595141851c388734b04adba0f99",
+      "size": 2793410976,
+      "lfs": {
+        "sha256": "12da1a5d3fa6905111d8798b00ed49e0f6425441598c8c41bb37a2c36d49d0f3",
+        "size": 2793410976,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "qwen2.5-3b-instruct-q8_0.gguf",
+      "blobId": "5435fe4c4cc69ecc7bf12ab11a87731185de5e15",
+      "size": 3616088480,
+      "lfs": {
+        "sha256": "6dcc22694c8654b045ec40bbe350212b88893fd9010e8474bae5b19a43578ba1",
+        "size": 3616088480,
+        "pointerSize": 135
+      }
+    }
+  ],
+  "spaces": [
+    "tardellirs/model-pulse",
+    "build-small-hackathon/dempsters-court",
+    "build-small-hackathon/Crop-Guard-AI",
+    "build-small-hackathon/lesson-agent",
+    "Dark-Davies/freellm",
+    "IDKHowToCodeFr/vera-engine",
+    "build-small-hackathon/wikipedia-companion",
+    "build-small-hackathon/flashcard-generator-slm",
+    "XyloDev/DocuMind.Ai_V.1",
+    "Awk123/workspace",
+    "omaryasserhassan/flight_delay_chatbot",
+    "AhmadA82/coder-demo",
+    "muhammadasgoraya/GoGram_space",
+    "Realgar/prehistoire-rag",
+    "Seounghyup/chatbit-api",
+    "sohaa143/resume",
+    "Leonardo0711/astrohunters-llm",
+    "Abdelrahman-a99/nu-policy-rag",
+    "Uunan/DeeDe",
+    "Rootsystem2101/zero-cyber-slm-app",
+    "acekinghighcard/IMSHIT",
+    "Haya-O/naf3-rag-core",
+    "RaphaelSDG1/CarbobotSpace",
+    "gabrielanitu/IBS-Hypnosis-Assistant",
+    "gabrielanitu/Chatbot-RAG",
+    "EduBotOfficial/edubot",
+    "Ragabhai/Legal-Bot",
+    "vijjj1/cbox-llm",
+    "anon-user-blckbx-nlp/unicode-attack-demo",
+    "fs4rdgrrr/my-ai",
+    "AlsGans/video2txt-gradio",
+    "Manaswini0304/llm2",
+    "yassineopneclaw/terminal2",
+    "yassineopneclaw/terminal3",
+    "yassineopneclaw/terminal4",
+    "yassineopneclaw/terminal5",
+    "yassineopneclaw/terminal4-s",
+    "Moimma/detectifai-backend",
+    "ltyytn/himeko-chat",
+    "lekrikri/travel-order-resolver",
+    "blacksinisterx/DetectifAI-Backend",
+    "Mayankojhaa/ai-guru-wisdom",
+    "JosefPilter/appointments-chatbot",
+    "Into-The-Eye/inference-gateway",
+    "albertoo85/modelo",
+    "Unmid/Ana-2",
+    "Biraboro/My",
+    "Nomos42/nomos-cpu-gemma4",
+    "sfzsd/qwen3-cpu-api",
+    "ZyncWolf/Gemma-AI-WA",
+    "rsl-ai/qwen-assistant",
+    "Xeexeex/chatassist",
+    "ttt795420/Aigodot",
+    "ZyncWolf/gemma-4-api",
+    "mahdymohamed-1/almister-ai-engine",
+    "au3456/untranslator-chronicler",
+    "sagar1697/sagar-bitnet-cpu-brain",
+    "VirusDumb/tungtungtungtestspace",
+    "GyanAISystems/My-Hindi-Chat-API",
+    "Mohamed-20/sahel-api",
+    "Lachowskii/English",
+    "vinaykumarkv/Medical_Rag_Agent",
+    "dpv007/LLM",
+    "jaguaarxd/model",
+    "Ysn010/Gooddamn",
+    "xx-arteeem-xx/AI-Assistant",
+    "Crrvvh33/Ai",
+    "AyandaMbali/RAG2",
+    "MSGEncrypted/lesson-agent-dev",
+    "boj-per/legal_rag_compare",
+    "GaindeNdiaye/khAdI",
+    "marco-mars/Lucy",
+    "SamilG2/BACKEND-CheckScan",
+    "ajayduraisamy/ajay-nanogpt",
+    "CJHauser/Qwentestapi",
+    "TytonTerrapin/doc_rag",
+    "D3wqq/omnirank-x",
+    "gyawalisanish0/Domain_AI",
+    "aventuralegal/aventura-legal-ai",
+    "SamilG2/checkscan-tesis-api",
+    "redsulley/llm_hf",
+    "suman246/multimodal-rag-chatbot",
+    "gen-rl-millz/Hyphy-Holonic-Glazzed-Crwalla",
+    "vikasvyas/AI_Assistant_Cohort_Builder",
+    "Brand1809/daily-review-video",
+    "EYEDOL/asknetworkstate",
+    "Kolamk/my_bot",
+    "anon-user-unicode/unicode-attack-demo"
+  ],
+  "createdAt": "2024-09-17T13:58:05.000Z",
+  "usedStorage": 43672007040
+}

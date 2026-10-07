@@ -1,0 +1,18 @@
+\begin{abstract}
+Archives contain relevant statements that describe different periods.
+Temporal retrieval must select evidence that applies to the requested date.
+An incorrect connection between claims can also change earlier evidence when a system merges their histories.
+We study this propagation problem through direct supersession certificates.
+Each certificate stores the first later claim accepted as a replacement by a supplied pairwise matcher.
+We characterize this operation when matching decisions do not form consistent groups.
+One certificate per claim reproduces replacement decisions at every requested date.
+Later-dated additions preserve earlier eligibility decisions.
+Changing one pair affects at most one claim interval.
+With a fixed ranking, the selected set changes by at most one removal and one insertion.
+An exact compiler produces these certificates without gold entity or value annotations.
+Component timelines change past eligibility at 8 of 11 TempLAMA event times and 27 of 42 Wikipedia event times.
+Direct certificates have no such changes.
+Complete TempLAMA answer sets give 94.7\% current evidence accuracy, compared with 88.3\% for exact-group date selection.
+Historical stale-context exposure falls from 16.6\% to 1.8\%, with historical accuracy of 98.2\% versus 98.4\%.
+The results connect formal stability to source-attributed evidence selection.
+\end{abstract}

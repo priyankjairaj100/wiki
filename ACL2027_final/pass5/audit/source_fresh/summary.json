@@ -1,0 +1,45 @@
+{
+  "review_type": "Model-assisted review of complete source paragraphs",
+  "human_annotations": false,
+  "claims": 60,
+  "articles": 55,
+  "split_counts": {
+    "dev": 20,
+    "test": 40
+  },
+  "core_event_counts": {
+    "accept": 54,
+    "reject": 4,
+    "uncertain": 2
+  },
+  "supplied_end_counts": {
+    "not_supplied": 33,
+    "accept": 26,
+    "reject": 1
+  },
+  "omitted_end_counts": {
+    "explicit_omission": 8,
+    "none": 45,
+    "uncertain": 7
+  },
+  "omitted_end_counts_in_accepted_events": {
+    "explicit_omission": 8,
+    "none": 41,
+    "uncertain": 5
+  },
+  "literal_checks": {
+    "claims_checked": 60,
+    "spans_checked": 408,
+    "spans_matching": 408,
+    "issues": [],
+    "supplied_ends": 27,
+    "sample_sha256": "58f7a4c15b9330a4dbc1f6bda97704e8c124dbf06d3897f754fc14a0f19c7c96",
+    "freeze_inputs_unchanged": true
+  },
+  "source_only_review": true,
+  "post_audit_adapter_tuning": false,
+  "prior_lost_results_reused": false,
+  "prior_exposure_reconstruction_complete": false,
+  "recorded_excluded_articles": 277,
+  "scope": "New recorded sample outside documented exposure. Full membership of the lost prior audit is unavailable. These judgments do not estimate extraction recall or corpus-wide precision."
+}

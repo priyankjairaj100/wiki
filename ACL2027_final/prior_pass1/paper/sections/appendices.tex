@@ -1,0 +1,186 @@
+\section{Proofs and Boundary Cases}
+\label{app:proofs}
+
+\subsection{All-cutoff equivalence}
+
+Fix a dated claim $c$ and a finite cutoff $\tau$.
+If $\tau<t_c$, the claim has not appeared in either representation.
+Otherwise define the witness set
+\[
+W_\tau(c)=\{d:t_c<t_d\leq\tau,\ G(d,c)\}.
+\]
+This set is nonempty exactly when its earliest possible timestamp satisfies $b_G(c)\leq\tau$.
+Thus $W_\tau(c)=\varnothing$ exactly when $t_c\leq\tau<b_G(c)$.
+This proves Theorem~\ref{thm:cutoff}, including the empty-witness case.
+Equal timestamps never belong to $W_\tau(c)$.
+The identifier tie rule changes the stored source, but not eligibility.
+
+For a prefix $\mathcal C_{\leq\tau}$, the relevant witness set is exactly $W_\tau(c)$.
+Claims outside the prefix cannot appear in it.
+This proves Corollary~\ref{cor:prefix} without requiring correct or transitive pair decisions.
+It requires fixed features and a fixed gate.
+Corpus-dependent feature changes constitute different gates and belong to the influence analysis instead.
+
+\subsection{Pair-local influence and temporal footprint}
+
+Let $D=\{(d,c):t_d>t_c,\ G(d,c)\ne H(d,c)\}$.
+Let $U=\{c:\exists d,\ (d,c)\in D\}$.
+For each $c\notin U$, every possible witness has the same gate value under both compilers.
+Therefore $b_G(c)=b_H(c)$.
+Its certificate and eligibility agree at every cutoff.
+This proves the mask containment and the bound $|U|\leq|D|=h$.
+
+For the context bound, change the eligibility bits in $U$ one at a time.
+Adding one eligible record either leaves the selected context unchanged or inserts it at its fixed ranking position.
+At capacity, that insertion displaces one record.
+Removing one eligible record either leaves the context unchanged or removes that record.
+The next eligible record can fill its slot.
+Each bit change therefore contributes at most two elements to the symmetric difference.
+The triangle inequality gives $2|U|$.
+Since each context has size at most $k$, the bound is also at most $2k$.
+
+Both certificates start at $t_c$.
+Their indicator functions differ exactly between their endpoints.
+Hence Equation~\ref{eq:footprint} follows, including an infinite endpoint.
+By linearity of expectation,
+\[
+\mathbb E_{\tau\sim\mu}|A_G(\tau)\triangle A_H(\tau)|
+=\sum_c\mu(J_c).
+\]
+The context expectation is at most twice this quantity.
+The statement uses the same ranking at each compared cutoff.
+It does not require independent claim errors or independent query times.
+
+\subsection{Amplification through a component bridge}
+
+Use $m\geq2$ records with value $a$ at times $0,1,\ldots,m-1$.
+Their shared attribute changes to $b$ at time $2m$.
+A second attribute contains $z$ at time $m$ and $w$ at time $2m+1$.
+Assume $a,b,z,w$ are distinct.
+Initially all matching decisions are correct.
+Each $a$ record has a replacement link to $b$.
+The $z$ record has a replacement link to $w$.
+
+Add the single false decision that $w$ replaces $b$.
+The component graph now joins both histories.
+Sorting this component makes $z$ the first later distinct value for every $a$ record.
+Their component endpoints become $m$.
+At cutoff $m+\frac12$, all $m$ records therefore become ineligible.
+The direct construction changes only $b$'s boundary.
+Because $b$ starts after the cutoff, direct eligibility does not change there.
+
+The prefix at this cutoff contains neither endpoint of the false bridge.
+Consequently, component reconstruction on that prefix cannot make the same exclusions.
+This gives a prefix inconsistency caused entirely by later-dated records.
+For a context difference, add $k$ independent filler records and rank the $a$ records first.
+When $k\leq m$, direct selection returns $k$ such records.
+Component selection replaces them with the fillers.
+The contexts have symmetric difference $2k$.
+This construction establishes possibility, not an observed frequency.
+
+\subsection{Exact indexed compilation}
+
+Order timestamp batches increasingly.
+Within a batch, order candidate witnesses by identifier.
+Before processing the first batch, the unresolved index is empty.
+Assume it contains precisely earlier claims without an accepted earlier witness before some batch.
+Complete posting lists expose every accepted pair from this batch to these claims.
+The first positive comparison therefore has the earliest possible timestamp and the smallest eligible witness identifier.
+Recording it establishes the exhaustive boundary and witness.
+Removing the resolved claim is safe because subsequent batches have later timestamps.
+
+After processing all comparisons, insert the batch's claims.
+They cannot have a strictly later witness among previously processed records.
+They therefore satisfy the unresolved invariant.
+Induction establishes the output for every batch.
+Any remaining claim has no accepted later witness and receives an infinite boundary.
+
+For the supplied positive frame threshold, an accepted pair with nonempty frames shares at least one token.
+The union of frame-token postings therefore contains every such candidate.
+Empty frames use a common posting.
+Repeated posting visits are deduplicated before the gate test.
+For other gate definitions, completeness must be proved separately or ensured through a full unresolved scan.
+
+\section{Source and Scoring Details}
+\label{app:source}
+
+The complete TempLAMA audit recovers all 300 keys used by the released adaptation.
+It checks 2,677 original yearly records.
+There are 613 multi-answer records and 245 keys with at least one such record.
+The original builder takes the first answer identifier and collapses consecutive repetitions.
+Rebuilding that procedure exactly reproduces the released claim texts and answer identifiers.
+The audit finds 153 transitions where the previous selected answer remains in the next complete answer set.
+
+Our source-set evaluation accepts all answer identifiers from the latest source observation at the cutoff.
+It retains the existing claim pool and every method's previously computed ranking.
+No parameter changes follow this rescore.
+The old selected-answer oracle is not a complete source-set oracle.
+It is therefore excluded from primary source-set superiority claims.
+
+The single-answer subset contains keys with exactly one answer identifier in every source year.
+This criterion selects 55 keys before examining retrieval outcomes.
+The experiment retains all 747 claims as candidates.
+Its 57 historical probes and 55 current probes therefore preserve the original distractor pool.
+
+Historical cluster intervals resample keys and retain every sampled key's probes.
+We use 5,000 resamples with seed 20261006.
+This preserves dependence between dates from the same chronology.
+All method comparisons use aligned questions and cutoffs.
+The saved prediction records contain selected identifiers, target identifiers, and per-query metrics.
+
+\section{Archived Current-Answer Runs}
+\label{app:legacy}
+
+The inherited reader uses \texttt{Qwen2.5-3B-Instruct}, greedy decoding, and at most 24 new tokens.
+Its contexts contain five claims from a hybrid lexical and dense ranking.
+The dense encoder is \texttt{all-MiniLM-L6-v2}~\citep{reimers2019sbert}.
+Prompts include the available dates and request one answer value.
+These settings and generated outputs precede the certificate study.
+The compiler checks establish identical current masks under the unchanged pair gate.
+Thus the archived contexts remain applicable to the current path.
+They do not measure new historical reader performance.
+\input{tables/legacy_reader}
+
+The archived scorer checks whether the normalized selected answer appears in the generated response.
+We call this \emph{contained-value accuracy}.
+A stricter version also rejects responses containing a competing archived answer.
+Neither metric is normalized whole-answer exact match.
+The TempLAMA rows use the original selected-answer transition task.
+They do not use the complete source-answer scoring introduced in Section~\ref{sec:protocol}.
+
+On that task, archived lifecycle selection reaches 0.937 contained-value accuracy across 300 TempLAMA questions.
+Flat retrieval reaches 0.567 and the dated-prompt variant reaches 0.623.
+On 33 Wikidata questions, the corresponding lifecycle and flat results are 0.970 and 0.424.
+On 35 RealProse questions, they are 0.857 and 0.714.
+The RealProse paired difference has archived interval $[0.000,0.286]$ and reported $p=0.076$.
+These results describe the previous current-answer system.
+
+The archived temporal-score comparisons adapt TempRALM and half-life formulas to the same local encoder.
+They do not reproduce those papers' complete systems.
+The selected half-life setting uses nine Wikidata development keys.
+Those keys remain in the 33-key archived aggregate.
+The full result cards preserve that selection history.
+
+\section{Implementation and Reproduction}
+\label{app:reproduction}
+
+The released compiler uses the Python standard library and the supplied feature parser.
+Its output records claim identifiers, timestamps, witness identifiers, source hashes, and detector settings.
+It also records pair tests and posting visits.
+An infinite endpoint is encoded as a null endpoint in JSON.
+An undated start has no historical eligibility and remains separately identifiable.
+
+The correctness runner compares indexed output with an exhaustive gate scan.
+It checks repeated values, shuffled inputs, equal timestamps, missing timestamps, and arbitrary pair relations.
+Constructed cases are labeled as software checks.
+Benchmark results come from the supplied source collections.
+The run manifest distinguishes new CPU experiments from inherited model generations.
+The experiment scripts preserve per-query and per-intervention outputs alongside aggregate tables.
+
+Each historical certificate identifies the source that caused exclusion.
+Each evaluation record identifies the claims actually selected.
+These records support inspection of an interval error separately from a ranking or reader error.
+
+\section{AI Assistance}
+AI tools assisted with literature searches, code development, proof drafts, and manuscript editing.
+No new language-model inference contributed to the revised experimental tables.

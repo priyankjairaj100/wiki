@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "families_checked": 65809,
+  "conditions_checked": 328747,
+  "universe_sizes": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "maximum_world_masks_per_family": 16,
+  "all_k_from_zero_to_n": true,
+  "world_families": "arbitrary, including correlated and nonproduct families",
+  "ranking": "fixed complete strict order"
+}

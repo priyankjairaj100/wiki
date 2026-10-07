@@ -1,0 +1,127 @@
+\section{Direct Supersession Certificates}
+\label{sec:method}
+
+\subsection{Inputs and temporal eligibility}
+
+Let $\mathcal C$ contain source-attributed claims.
+A dated claim $c$ has text $x_c$, identifier $\mathrm{id}_c$, and finite timestamp $t_c$.
+The timestamp identifies the supplied source state or recorded change time.
+A publication date alone does not establish an unobserved effective date.
+The query supplies a cutoff $\tau$ and a relevance ranking $\pi_q$ over the corpus.
+Our output contains at most $k$ claims that remain eligible at $\tau$.
+
+The pairwise gate $G(d,c)$ means that $d$ supplies a replacement for $c$.
+It combines a shared-attribute decision with a changed-value decision.
+The gate uses fixed claim features or a fixed pairwise procedure.
+It need not be transitive, symmetric, or correct against world knowledge.
+We study the evidence policy induced by this gate.
+Interpreting its output as factual validity additionally requires correct replacement decisions and correctly ordered change times.
+Concurrent values require a gate that distinguishes coexistence from replacement.
+
+Define eligible evidence by
+\begin{equation}
+\begin{split}
+A_G(\tau)=\{c:\;&t_c\leq\tau,\ \nexists d\in\mathcal C\text{ such that}\\
+&t_c<t_d\leq\tau\text{ and }G(d,c)\}.
+\end{split}
+\label{eq:eligibility}
+\end{equation}
+Thus a claim remains eligible until an accepted later replacement becomes available at the cutoff.
+Equal timestamps do not establish replacement order.
+Undated claims receive no historical certificate.
+The current-answer interface retains them as unresolved evidence, matching the archived system's policy.
+
+\subsection{A certificate for every cutoff}
+
+For each dated claim, define its first replacement boundary:
+\begin{equation}
+b_G(c)=\min\{t_d:t_d>t_c,\ G(d,c)\},
+\label{eq:boundary}
+\end{equation}
+with $\min\varnothing=\infty$.
+Store a witness $w_G(c)$ that attains this boundary.
+The smallest identifier selects among witnesses with the same timestamp.
+The certificate is
+\begin{equation}
+I_G(c)=[t_c,b_G(c)).
+\label{eq:certificate}
+\end{equation}
+The interval determines eligibility.
+The witness identifies the source responsible for its endpoint.
+An infinite endpoint means that the corpus contains no accepted later replacement.
+
+The selected context is
+\begin{equation}
+R_G(q,\tau)=\operatorname{Top}_k\langle c\in\pi_q:\tau\in I_G(c)\rangle.
+\label{eq:context}
+\end{equation}
+Filtering precedes the context budget.
+The operation preserves the relative relevance order of retained claims.
+It does not fill empty slots with excluded claims.
+Historical and current retrieval use the same certificates.
+For dated claims, the final current mask retains exactly those with infinite endpoints.
+
+Repeated values remain separate source records.
+A return to an earlier value creates a new record with its own start time.
+The earlier occurrence retains its original endpoint.
+The method therefore represents recurrence without reopening an expired source record.
+For the Northstar illustration, each appointment closes the preceding record through its own direct decision.
+
+\subsection{Exact compilation}
+
+\begin{figure}[t]
+\centering
+\fbox{\begin{minipage}{0.93\columnwidth}
+\small
+\textbf{Inputs:} dated claims, fixed gate $G$, complete postings.\\
+\textbf{Output:} boundary $b(c)$ and witness $w(c)$.
+\begin{enumerate}
+\item Set $b(c)=\infty$ and $w(c)=\varnothing$ for every claim.
+\item Initialize the unresolved index $U=\varnothing$.
+\item Process timestamp batches $B$ in increasing order.
+\item For each $d\in B$, process identifiers in order.
+\item Find unresolved candidates $c$ from complete postings.
+\item If $G(d,c)$, set $(b(c),w(c))=(t_d,d)$.
+\item Remove each resolved $c$ from all postings in $U$.
+\item After all comparisons for $B$, insert its claims into $U$.
+\end{enumerate}
+\end{minipage}}
+\caption{Exact compilation. Steps 4--7 run inside each timestamp batch. Removing resolved claims avoids repeated work. Delayed batch insertion prevents replacement between simultaneous claims.}
+\label{fig:compiler}
+\end{figure}
+
+
+Figure~\ref{fig:compiler} gives the compiler.
+It processes timestamp batches in increasing order.
+An inverted index stores unresolved older claims.
+Each new claim queries complete candidate postings and evaluates the gate against unresolved candidates.
+The first accepted replacement fixes an older claim's endpoint.
+The compiler then removes that older claim from the postings.
+No later replacement can improve its earliest endpoint.
+Claims from the current batch enter the postings only after all comparisons finish.
+This preserves equal-time claims and deterministic witness ties.
+
+For the supplied text matcher, a positive frame threshold permits complete token blocking.
+Accepted nonempty frames share a frame token.
+All empty frames use one common posting key.
+A nonpositive threshold uses one global posting key.
+Custom gates use a full unresolved scan unless their candidate index has an equivalent completeness guarantee.
+Blocking changes the comparisons examined, but not the certificates produced.
+
+The supplied gate uses the earlier detector's fixed parsing rules.
+It compares relation frames, named phrases, and changed numeric or textual values.
+We preserve these rules throughout the compiler comparisons.
+No gold subject, relation, answer value, or chronology enters the compiler.
+Section~\ref{sec:protocol} identifies the annotations used only to construct questions and score results.
+
+Let $n=|\mathcal C|$.
+Let $L$ count posting entries, $V$ posting visits, and $P$ unique pair tests.
+If one gate evaluation costs at most $g$, construction costs
+\begin{equation}
+O(n\log n+L+V+Pg)
+\label{eq:cost}
+\end{equation}
+after feature extraction.
+Output storage is $O(n)$ words.
+Uninformative postings and long repeated-value runs can still require quadratic work.
+We therefore report pair tests and posting visits separately from elapsed time.

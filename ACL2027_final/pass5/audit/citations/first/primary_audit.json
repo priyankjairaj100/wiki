@@ -1,0 +1,209 @@
+{
+  "audit_date": "2026-10-07",
+  "audit_type": "primary-source bibliography and claim verification",
+  "bibliography_sha256": "b53ec72bf39ac7ed88d93b039011fc68fc417ee71ffdc37237f40e2e0a7c56c7",
+  "reference_count": 24,
+  "hallucinated_references": [],
+  "unresolved_metadata": [],
+  "unsupported_attributions": [],
+  "references": [
+    {
+      "key": "lewis2020rag",
+      "primary_url": "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+      "locator": "Abstract, author list, and paper Section 2",
+      "finding": "Completed all 12 authors. The source supports retrieval before generation. It does not establish historical filtering.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "robertson1995bm25",
+      "primary_url": "https://pages.nist.gov/trec-browser/trec3/proceedings/",
+      "locator": "Paper pp. 109\u2013126, BM25 term-weighting subsection; NIST publication record confirms report 500-225 and April 1, 1995 publication date",
+      "finding": "Retained NIST SP 500-225 and 1995. The older TREC HTML incorrectly says 500-226. NIST assigns paper DOI 10.6028/NIST.SP.500-225.routing-city. Our BM25 parameters are implementation choices.",
+      "metadata_status": "verified",
+      "attribution_status": "supported",
+      "additional_primary_urls": [
+        "https://www.nist.gov/publications/overview-third-text-retrieval-conference-trec-3",
+        "https://www.nist.gov/publications/overview-third-text-retrieval-conference-trec-3-0"
+      ],
+      "evidence_correction": "The first audit mistakenly identified T-SB.pdf as front matter from a search snippet. Direct inspection by the second auditor showed a separate statistical analysis paper. Removed that locator. The verified NIST publication record supports the report number and year."
+    },
+    {
+      "key": "dhingra2022templama",
+      "primary_url": "https://aclanthology.org/2022.tacl-1.15/",
+      "locator": "Publisher record and paper Section 2.1, pp. 258\u2013259",
+      "finding": "Added DOI 10.1162/tacl_a_00459 and URL. TempLAMA uses annual temporal contexts. It does not directly label exact occurrence bounds.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "vu2024freshllms",
+      "primary_url": "https://aclanthology.org/2024.findings-acl.813/",
+      "locator": "Publisher metadata and abstract",
+      "finding": "Added full Findings venue, publisher, pages 13697\u201313720, DOI and URL. FreshQA and FreshPrompt support the changing-information-access claim.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "chen2021timeqa",
+      "primary_url": "https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/1f0e3dad99908345f7439f8ffabdffc4-Abstract-round2.html",
+      "locator": "Original PDF title page and dataset construction section",
+      "finding": "Completed proceedings title and volume. The HTML record duplicates William Yang Wang. The original PDF correctly lists three authors. Passage examples also require the bundled source paragraphs.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "liska2022streamingqa",
+      "primary_url": "https://proceedings.mlr.press/v162/liska22a.html",
+      "locator": "Publisher metadata and abstract",
+      "finding": "Completed PMLR series, volume 162, pages 13604\u201313622 and URL. Fourteen authors verified. The benchmark studies adaptation to dated news.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "lau2025tarag",
+      "primary_url": "https://arxiv.org/abs/2507.22917",
+      "locator": "Version 1, Section 4 and Figure 1",
+      "finding": "Added arXiv DOI and URL. Five authors verified. TA-RAG uses normalized temporal intervals, time filtering and temporal context structuring.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "an2026fresco",
+      "primary_url": "https://arxiv.org/abs/2604.14227",
+      "locator": "Version 1, Section 3, Problem Formulation",
+      "finding": "Added arXiv DOI and URL. Seven named authors verified. Candidate pools include obsolete informative passages and current insufficient passages.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "wang2026iarag",
+      "primary_url": "https://arxiv.org/abs/2606.06044",
+      "locator": "Version 1, abstract and Sub-graph Time Tightening method",
+      "finding": "Added arXiv DOI and URL. Ten named authors verified. The method uses interval events, Allen relations and boundary tightening.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "rasmussen2025zep",
+      "primary_url": "https://arxiv.org/abs/2501.13956",
+      "locator": "Version 1, Section 2.2.3",
+      "finding": "Added arXiv DOI. Five authors verified. New contradictory edges can close existing validity intervals while preserving histories.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "yadav2026memstrata",
+      "primary_url": "https://arxiv.org/abs/2606.26511",
+      "locator": "Version 1, Sections 4.1\u20134.2",
+      "finding": "Added arXiv DOI. Single author Neeraj Yadav verified. Deterministic supersession uses normalized subject-relation keys.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "cao2026re3",
+      "primary_url": "https://aclanthology.org/2026.acl-long.1180.pdf",
+      "locator": "Published PDF title page, Figure 1 and conflict-aware filter section",
+      "finding": "Kept published PDF author order. The HTML record gives a different order. Pages 25735\u201325760 and DOI match. Figure 1 supports grouping, conflict filtering and temporal relevance.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "graphiti2026source",
+      "primary_url": "https://github.com/getzep/graphiti/blob/7514b4467d1f20f87bcf463fdb35e9f61086d263/graphiti_core/utils/maintenance/edge_operations.py",
+      "locator": "resolve_edge_contradictions, lines 538\u2013573; resolve_extracted_edge, lines 754\u2013847",
+      "finding": "Pinned the cited source to an immutable commit. Downloaded 36,703 bytes. SHA256 b773ff4489968af2a996d5074e679cab9806cc0904a7ff9f2aecc74382325abe. Direct contradictory edges trigger temporal invalidation.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "chen2026defuzzrag",
+      "primary_url": "https://ojs.aaai.org/index.php/AAAI/article/view/40276/44237",
+      "locator": "Published PDF p. 30255, temporal intent extraction and alignment filtering",
+      "finding": "Publisher metadata confirms three authors, volume 40(36), pages 30252\u201330260 and DOI. The method adapts granularity and checks overlap with inferred document intervals.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "zerhoudi2026nuggetindex",
+      "primary_url": "https://arxiv.org/html/2604.27306v1",
+      "locator": "Sections 3.1\u20133.2.2, Algorithms 1\u20132; author repository citation block",
+      "finding": "Added published pages 2286\u20132296 and ACM publisher. Changed URL to the published DOI landing page. Source supports provenance, intervals, lifecycle states and relation cardinality.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "anselma2013indeterminacy",
+      "primary_url": "https://iris.unito.it/handle/2318/143137",
+      "locator": "Institutional author repository and original author manuscript abstract",
+      "finding": "Title, three authors, volume 25(12), pages 2880\u20132894, 2013 and DOI verified. A separate author list contains volume/page typos. The manuscript studies valid-time uncertainty and compact representations.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "fan2012currency",
+      "primary_url": "https://www.research.ed.ac.uk/en/publications/determining-the-currency-of-data-2/",
+      "locator": "Institutional publication record and abstract",
+      "finding": "Added pages 25:1\u201325:46. Three authors, volume 37(4), article 25, 46 pages and DOI verified. The 2011 PODS paper is a different version.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "amarilli2017order",
+      "primary_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.TIME.2017.4",
+      "locator": "Published PDF Definition 7, p. 4:6; introduction pp. 4:1\u20134:2",
+      "finding": "Added publisher. Definition 7 defines possibility and certainty for an entire ordered output. Do not use Definition 8 as its locator. Four authors and volume 90 verified.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "li2025erase",
+      "primary_url": "https://aclanthology.org/2025.findings-naacl.168/",
+      "locator": "Publisher abstract and author list",
+      "finding": "Six authors, pages 3070\u20133090, Findings NAACL 2025 and DOI verified. ERASE deletes or rewrites stored entries when new documents arrive.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "hua2008ranking",
+      "primary_url": "https://www.cse.unsw.edu.au/~lxue/sigmod08.pdf",
+      "locator": "Original paper title page and abstract; author institution record https://scholars.duke.edu/publication/1530940",
+      "finding": "Four authors, pages 673\u2013686, SIGMOD 2008 and DOI verified. The method computes records with threshold probability of top-k membership.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "amarilli2017topk",
+      "primary_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICDT.2017.5",
+      "locator": "Publisher metadata and abstract",
+      "finding": "Added LIPIcs volume 68, publisher and URL. The method studies unknown numerical values subject to order constraints. It estimates rankings under a possible-world distribution.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "karp1972reducibility",
+      "primary_url": "https://link.springer.com/chapter/10.1007/978-1-4684-2001-2_9",
+      "locator": "Original chapter p. 94, Main Theorem and problem 6, Set Covering; original front matter https://link.springer.com/content/pdf/bfm:978-1-4684-2001-2/1",
+      "finding": "Author, title, year, pages 85\u2013103 and DOI verified. Original front matter names Miller and Thatcher as editors. Bohlinger is associate editor. Plenum Press is the original publisher.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "qwen2024model",
+      "primary_url": "https://qwenlm.github.io/blog/qwen2.5/",
+      "locator": "Official September 19, 2024 announcement and exact GGUF artifact license",
+      "finding": "Model family, 3B variant and release year verified. The pinned 3B artifact uses the Qwen Research License, not Apache 2.0. Execution settings come from this project.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    },
+    {
+      "key": "feng2023ranking",
+      "primary_url": "https://www.vldb.org/pvldb/vol16/p1346-feng.pdf",
+      "locator": "Published PDF title page, abstract and uncertainty model",
+      "finding": "Three authors, PVLDB 16(6), pages 1346\u20131358, 2023 and DOI verified. The paper bounds results of ranking, top-k and SQL window queries.",
+      "metadata_status": "verified",
+      "attribution_status": "supported"
+    }
+  ],
+  "scope": "Primary sources verify metadata and cited method descriptions. They do not verify every reported result in those external papers."
+}

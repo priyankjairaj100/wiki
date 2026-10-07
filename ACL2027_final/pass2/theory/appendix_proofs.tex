@@ -1,0 +1,135 @@
+\section{Proofs for Uncertain Dates}
+\label{app:uncertain-proofs}
+
+All date assignments belong to the product $\Omega$ defined in Section~\ref{sec:theory}.
+The replacement gate remains fixed across these assignments.
+The proofs use real dates with closed input bounds.
+Every witness differs from its target: $G(c,c)=0$.
+
+\subsection{Point support}
+\begin{lemma}[Exact point support]
+\label{lem:uncertain-point}
+For every date $t$,
+\begin{align}
+ \exists x\in\Omega:A_x(c,t)=1
+ &\iff \ell_c\leq t<p_c,\\
+ \forall x\in\Omega:A_x(c,t)=1
+ &\iff u_c\leq t\ \land\bigl(t\leq\ell_c\ \lor\ t<r_c\bigr).
+\end{align}
+\end{lemma}
+\begin{proof}
+If $t<\ell_c$, no assignment makes $c$ active.
+If $t\geq p_c$, a witness satisfies $\ell_d>u_c$ and $u_d\leq t$.
+It occurs strictly after $c$ and by $t$ in every assignment.
+Thus possible support requires $\ell_c\leq t<p_c$.
+
+Conversely, assume these inequalities.
+Choose $x_c=\min(u_c,t)$.
+For each accepted witness, choose $x_d\leq x_c$ when its bounds permit that choice.
+Otherwise, $\ell_d>x_c$.
+If $x_c=t$, this witness occurs after $t$.
+If $x_c=u_c<t$, the definition of $p_c$ gives $u_d>t$.
+Choose the witness after $t$ in this case.
+Independent date bounds permit all these choices simultaneously.
+No witness then retires $c$ by $t$.
+
+For certain support, every assignment has $x_c\leq t$ exactly when $u_c\leq t$.
+Assume this condition.
+A witness can retire $c$ by $t$ exactly when some assignment satisfies $x_c<x_d\leq t$.
+Choose $x_c=\ell_c$.
+A suitable witness date exists exactly when
+$t>\ell_c$, $\ell_d\leq t$, and $u_d>\ell_c$.
+The minimum eligible $\ell_d$ is $r_c$.
+Possible retirement therefore requires $t>\ell_c$ and $r_c\leq t$.
+Its complement gives the stated condition.
+\end{proof}
+
+The equality term is necessary.
+Take $[\ell_c,u_c]=[0,0]$ and $[\ell_d,u_d]=[0,1]$ with $G(d,c)$ true.
+Claim $c$ is certainly active at zero.
+A strictly later replacement cannot have occurred by zero.
+It is not certainly active at any later date.
+An ordinary half-open interval cannot represent this singleton.
+The implementation retains the exact comparisons from the lemma.
+
+\subsection{Window support}
+\begin{proof}[Proof of Theorem~\ref{thm:window-support}]
+Possible point support occupies $[\ell_c,p_c)$ by Lemma~\ref{lem:uncertain-point}.
+This set intersects $[a,b]$ exactly when $\ell_c\leq b$ and $a<p_c$.
+The two existential quantifiers commute, proving Equation~\ref{eq:possible-window}.
+
+For guaranteed support, first suppose $u_c>b$.
+The assignment $x_c=u_c$ gives no support within the window.
+Thus $u_c\leq b$ is necessary.
+Now assume that inequality.
+Every assignment with $x_c\geq a$ supplies support at $x_c$ itself.
+For an earlier occurrence, support fails exactly when a direct witness retires $c$ by $a$.
+Such an assignment exists exactly when some witness satisfies $x_c<x_d\leq a$.
+The preceding lemma shows this is equivalent to $a>\ell_c$ and $r_c\leq a$.
+Taking its complement proves Equation~\ref{eq:guaranteed-window}.
+\end{proof}
+
+For each world, support means existence of a suitable time.
+The suitable time can differ across worlds.
+Consequently, a window can have guaranteed support even when no point has certain support.
+This distinction remains after exact text matching.
+
+\subsection{Sharpness and refinement}
+The possible filter retains precisely the union of world-specific support sets.
+Any smaller filter omits a supported claim in some world.
+The guaranteed filter retains precisely their intersection.
+Any larger filter includes an unsupported claim in some world.
+These statements establish the claimed minimal and maximal filters.
+They concern each retained claim's support, rather than one jointly optimal context.
+
+Narrowing date bounds replaces $\Omega$ with a subset $\Omega'\subseteq\Omega$.
+Existential support can only disappear when its assignment set shrinks.
+Universal support can only appear.
+This proves refinement monotonicity without assumptions about gate transitivity.
+For correlated dates, a product approximation instead gives conservative bounds.
+It can enlarge possible support and reduce guaranteed support.
+
+\subsection{Local gate influence}
+Suppose gates $G$ and $H$ differ on directed pairs with target set $U$.
+Every claim outside $U$ uses identical terms in both boundary minima.
+Its support status therefore remains unchanged for every query window.
+Thus either mask difference lies within $U$, where $|U|\leq h$.
+
+Fix a complete candidate ranking and deterministic tie handling.
+Changing one eligibility bit alters at most one selected item and one replacement.
+Apply this argument successively to the targets in $U$.
+The resulting context difference is at most $2|U|$.
+Each context also contains at most $k$ items.
+The difference is therefore at most $2\min(k,|U|)\leq2\min(k,h)$.
+
+A directed gate edit differs from a symmetric matching edit.
+A symmetric edit can change both directions and affect two target claims.
+Overlapping date bounds do not define one fixed older endpoint.
+A date edit can also affect several target certificates.
+The local bound does not treat either edit as one directed decision.
+
+\subsection{Exact dates and compilation cost}
+When $\ell_c=u_c=x_c$ for every claim, both boundary minima select the earliest strictly later direct witness.
+The possible and guaranteed masks then coincide for every window.
+For a point query, they equal the pass-1 earliest-witness policy.
+
+The reference compiler evaluates all $n(n-1)$ candidate directed gates.
+The certificates require this scan or a proved complete candidate index.
+Two stored witnesses alone cannot verify that no omitted witness changes a boundary.
+If accepted pairs are already available, two minima require $O(n+m)$ time for $m$ pairs.
+The output contains at most $2n$ witness records.
+Every point or window decision takes $O(1)$ time per claim.
+A full mask takes $O(n)$ time.
+A complete text index can reduce gate evaluations without changing these results.
+No subquadratic guarantee is asserted for candidate discovery.
+
+\subsection{Worst-case witness minimality}
+At most two direct witness records preserve every possible and guaranteed query.
+The bound is sharp among subsets of direct witnesses.
+Take $c=[0,2]$, $d=[1,4]$, and $e=[3,5]$.
+Accept $G(d,c)$ and $G(e,c)$.
+Then $p_c=5$ is supplied by $e$, while $r_c=1$ is supplied by $d$.
+Removing $e$ changes possible support at time 5 from false to true.
+Removing $d$ changes certain support at time 2 from false to true.
+Neither single-witness subset preserves all decisions.
+This result concerns source-witness subsets, rather than arbitrary compressed representations.

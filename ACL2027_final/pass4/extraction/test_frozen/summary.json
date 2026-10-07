@@ -1,0 +1,25 @@
+{
+  "adapter_version": "source-clause-v2",
+  "input_passages": 33493,
+  "input_articles": 749,
+  "claims": 744,
+  "new_claims": 489,
+  "explicit_ends": 384,
+  "covered_passages": 652,
+  "rules": {
+    "clause_explicit_tenure": 185,
+    "explicit_tenure": 90,
+    "modified_suffix_occurrence": 59,
+    "date_suffix_occurrence": 64,
+    "date_led_occurrence": 101,
+    "relative_biography_tenure": 14,
+    "modified_leading_occurrence": 134,
+    "coordinated_explicit_tenure": 18,
+    "leading_explicit_tenure": 77,
+    "explicit_succession_start": 2
+  },
+  "directed_pairs": 0,
+  "source_sha256": "335280e036457357d6f1716d623e77e98445836c8615fa3f7cd7e7b3c233e75a",
+  "adapter_sha256": "e55a2981bc5e04f84e1534be37669f79860d54fe975f6df0921f0eca618cc74f",
+  "answer_annotation_reads": 0
+}

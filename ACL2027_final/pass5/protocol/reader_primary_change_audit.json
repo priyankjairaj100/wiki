@@ -1,0 +1,959 @@
+{
+  "scope": "Post-run descriptive interpretation audit. No labels read. Frozen scoring and denominators unchanged.",
+  "questions": 60,
+  "methods": 10,
+  "contrasts": {
+    "earliest_completion__guaranteed_support": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "earliest_completion__interval_outer_control": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "earliest_completion__latest_completion": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "earliest_completion__latest_mentioned_year_top20": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 29,
+      "answer_changes_with_both_outputs_parsed": 7,
+      "answer_changes_involving_parse_failure": 12,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Marcus_Ericsson#P641#annotation3",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/Arnolfini_Portrait#P127#annotation4",
+        "/wiki/Ghaziabad#P17#annotation1"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Cheryl_Tiegs#P26#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Lisa_Marie_Presley#P26#annotation3",
+        "/wiki/Alliance_of_Small_Island_States#P488#annotation0"
+      ]
+    },
+    "earliest_completion__midpoint_completion": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "earliest_completion__no_temporal_filter": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 1,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 1,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Roma_Mitchell#P39#annotation0"
+      ]
+    },
+    "earliest_completion__original_bm25": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 27,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 14,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Erich_Topp#P1416#annotation3",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Fellbach#P6#annotation0",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Erich_Topp#P1416#annotation1",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Nana_Okada#P463#annotation2",
+        "/wiki/Lee_Nogan#P54#annotation2",
+        "/wiki/Wetten,_dass..?#P371#annotation2",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/Pierre_Gasly#P641#annotation0"
+      ]
+    },
+    "earliest_completion__original_bm25_latestyear": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 21,
+      "both_outputs_parsed_questions": 23,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 16,
+      "changed_both_parsed_question_ids": [
+        "/wiki/2AM_(band)#P1416#annotation1",
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Albuquerque_Dukes#P118#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/First_Air_Group#P4791#annotation7"
+      ]
+    },
+    "earliest_completion__possible_support": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "guaranteed_support__interval_outer_control": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "guaranteed_support__latest_completion": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "guaranteed_support__latest_mentioned_year_top20": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 29,
+      "answer_changes_with_both_outputs_parsed": 7,
+      "answer_changes_involving_parse_failure": 12,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Marcus_Ericsson#P641#annotation3",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/Arnolfini_Portrait#P127#annotation4",
+        "/wiki/Ghaziabad#P17#annotation1"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Cheryl_Tiegs#P26#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Lisa_Marie_Presley#P26#annotation3",
+        "/wiki/Alliance_of_Small_Island_States#P488#annotation0"
+      ]
+    },
+    "guaranteed_support__midpoint_completion": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "guaranteed_support__no_temporal_filter": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 1,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 1,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Roma_Mitchell#P39#annotation0"
+      ]
+    },
+    "guaranteed_support__original_bm25": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 27,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 14,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Erich_Topp#P1416#annotation3",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Fellbach#P6#annotation0",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Erich_Topp#P1416#annotation1",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Nana_Okada#P463#annotation2",
+        "/wiki/Lee_Nogan#P54#annotation2",
+        "/wiki/Wetten,_dass..?#P371#annotation2",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/Pierre_Gasly#P641#annotation0"
+      ]
+    },
+    "guaranteed_support__original_bm25_latestyear": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 21,
+      "both_outputs_parsed_questions": 23,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 16,
+      "changed_both_parsed_question_ids": [
+        "/wiki/2AM_(band)#P1416#annotation1",
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Albuquerque_Dukes#P118#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/First_Air_Group#P4791#annotation7"
+      ]
+    },
+    "guaranteed_support__possible_support": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "interval_outer_control__latest_completion": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "interval_outer_control__latest_mentioned_year_top20": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 29,
+      "answer_changes_with_both_outputs_parsed": 7,
+      "answer_changes_involving_parse_failure": 12,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Marcus_Ericsson#P641#annotation3",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/Arnolfini_Portrait#P127#annotation4",
+        "/wiki/Ghaziabad#P17#annotation1"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Cheryl_Tiegs#P26#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Lisa_Marie_Presley#P26#annotation3",
+        "/wiki/Alliance_of_Small_Island_States#P488#annotation0"
+      ]
+    },
+    "interval_outer_control__midpoint_completion": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "interval_outer_control__no_temporal_filter": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 1,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 1,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Roma_Mitchell#P39#annotation0"
+      ]
+    },
+    "interval_outer_control__original_bm25": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 27,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 14,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Erich_Topp#P1416#annotation3",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Fellbach#P6#annotation0",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Erich_Topp#P1416#annotation1",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Nana_Okada#P463#annotation2",
+        "/wiki/Lee_Nogan#P54#annotation2",
+        "/wiki/Wetten,_dass..?#P371#annotation2",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/Pierre_Gasly#P641#annotation0"
+      ]
+    },
+    "interval_outer_control__original_bm25_latestyear": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 21,
+      "both_outputs_parsed_questions": 23,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 16,
+      "changed_both_parsed_question_ids": [
+        "/wiki/2AM_(band)#P1416#annotation1",
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Albuquerque_Dukes#P118#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/First_Air_Group#P4791#annotation7"
+      ]
+    },
+    "interval_outer_control__possible_support": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "latest_completion__latest_mentioned_year_top20": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 29,
+      "answer_changes_with_both_outputs_parsed": 7,
+      "answer_changes_involving_parse_failure": 12,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Marcus_Ericsson#P641#annotation3",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/Arnolfini_Portrait#P127#annotation4",
+        "/wiki/Ghaziabad#P17#annotation1"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Cheryl_Tiegs#P26#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Lisa_Marie_Presley#P26#annotation3",
+        "/wiki/Alliance_of_Small_Island_States#P488#annotation0"
+      ]
+    },
+    "latest_completion__midpoint_completion": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "latest_completion__no_temporal_filter": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 1,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 1,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Roma_Mitchell#P39#annotation0"
+      ]
+    },
+    "latest_completion__original_bm25": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 27,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 14,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Erich_Topp#P1416#annotation3",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Fellbach#P6#annotation0",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Erich_Topp#P1416#annotation1",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Nana_Okada#P463#annotation2",
+        "/wiki/Lee_Nogan#P54#annotation2",
+        "/wiki/Wetten,_dass..?#P371#annotation2",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/Pierre_Gasly#P641#annotation0"
+      ]
+    },
+    "latest_completion__original_bm25_latestyear": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 21,
+      "both_outputs_parsed_questions": 23,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 16,
+      "changed_both_parsed_question_ids": [
+        "/wiki/2AM_(band)#P1416#annotation1",
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Albuquerque_Dukes#P118#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/First_Air_Group#P4791#annotation7"
+      ]
+    },
+    "latest_completion__possible_support": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "latest_mentioned_year_top20__midpoint_completion": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 29,
+      "answer_changes_with_both_outputs_parsed": 7,
+      "answer_changes_involving_parse_failure": 12,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Marcus_Ericsson#P641#annotation3",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/Arnolfini_Portrait#P127#annotation4",
+        "/wiki/Ghaziabad#P17#annotation1"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Cheryl_Tiegs#P26#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Lisa_Marie_Presley#P26#annotation3",
+        "/wiki/Alliance_of_Small_Island_States#P488#annotation0"
+      ]
+    },
+    "latest_mentioned_year_top20__no_temporal_filter": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 18,
+      "both_outputs_parsed_questions": 30,
+      "answer_changes_with_both_outputs_parsed": 7,
+      "answer_changes_involving_parse_failure": 11,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Marcus_Ericsson#P641#annotation3",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/Arnolfini_Portrait#P127#annotation4",
+        "/wiki/Ghaziabad#P17#annotation1"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Cheryl_Tiegs#P26#annotation2",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Lisa_Marie_Presley#P26#annotation3",
+        "/wiki/Alliance_of_Small_Island_States#P488#annotation0"
+      ]
+    },
+    "latest_mentioned_year_top20__original_bm25": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 29,
+      "both_outputs_parsed_questions": 25,
+      "answer_changes_with_both_outputs_parsed": 10,
+      "answer_changes_involving_parse_failure": 19,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Erich_Topp#P1416#annotation3",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Fellbach#P6#annotation0",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Marcus_Ericsson#P641#annotation3",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/Arnolfini_Portrait#P127#annotation4",
+        "/wiki/Ghaziabad#P17#annotation1"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Erich_Topp#P1416#annotation1",
+        "/wiki/Cheryl_Tiegs#P26#annotation2",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Nana_Okada#P463#annotation2",
+        "/wiki/Lee_Nogan#P54#annotation2",
+        "/wiki/Wetten,_dass..?#P371#annotation2",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/Lisa_Marie_Presley#P26#annotation3",
+        "/wiki/Alliance_of_Small_Island_States#P488#annotation0",
+        "/wiki/Pierre_Gasly#P641#annotation0"
+      ]
+    },
+    "latest_mentioned_year_top20__original_bm25_latestyear": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 30,
+      "answer_changes_with_both_outputs_parsed": 7,
+      "answer_changes_involving_parse_failure": 12,
+      "changed_both_parsed_question_ids": [
+        "/wiki/2AM_(band)#P1416#annotation1",
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation3",
+        "/wiki/Arnolfini_Portrait#P127#annotation4",
+        "/wiki/Beugr\u00f3#P449#annotation4"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Cheryl_Tiegs#P26#annotation2",
+        "/wiki/Albuquerque_Dukes#P118#annotation2",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/First_Air_Group#P4791#annotation7",
+        "/wiki/Lisa_Marie_Presley#P26#annotation3",
+        "/wiki/Alliance_of_Small_Island_States#P488#annotation0",
+        "/wiki/Ghaziabad#P17#annotation1"
+      ]
+    },
+    "latest_mentioned_year_top20__possible_support": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 29,
+      "answer_changes_with_both_outputs_parsed": 7,
+      "answer_changes_involving_parse_failure": 12,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Marcus_Ericsson#P641#annotation3",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/Arnolfini_Portrait#P127#annotation4",
+        "/wiki/Ghaziabad#P17#annotation1"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Cheryl_Tiegs#P26#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Lisa_Marie_Presley#P26#annotation3",
+        "/wiki/Alliance_of_Small_Island_States#P488#annotation0"
+      ]
+    },
+    "midpoint_completion__no_temporal_filter": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 1,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 1,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Roma_Mitchell#P39#annotation0"
+      ]
+    },
+    "midpoint_completion__original_bm25": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 27,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 14,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Erich_Topp#P1416#annotation3",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Fellbach#P6#annotation0",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Erich_Topp#P1416#annotation1",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Nana_Okada#P463#annotation2",
+        "/wiki/Lee_Nogan#P54#annotation2",
+        "/wiki/Wetten,_dass..?#P371#annotation2",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/Pierre_Gasly#P641#annotation0"
+      ]
+    },
+    "midpoint_completion__original_bm25_latestyear": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 21,
+      "both_outputs_parsed_questions": 23,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 16,
+      "changed_both_parsed_question_ids": [
+        "/wiki/2AM_(band)#P1416#annotation1",
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Albuquerque_Dukes#P118#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/First_Air_Group#P4791#annotation7"
+      ]
+    },
+    "midpoint_completion__possible_support": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 0,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 0,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": []
+    },
+    "no_temporal_filter__original_bm25": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 28,
+      "answer_changes_with_both_outputs_parsed": 6,
+      "answer_changes_involving_parse_failure": 13,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Erich_Topp#P1416#annotation3",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Fellbach#P6#annotation0",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Erich_Topp#P1416#annotation1",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Nana_Okada#P463#annotation2",
+        "/wiki/Lee_Nogan#P54#annotation2",
+        "/wiki/Wetten,_dass..?#P371#annotation2",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/Pierre_Gasly#P641#annotation0"
+      ]
+    },
+    "no_temporal_filter__original_bm25_latestyear": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 20,
+      "both_outputs_parsed_questions": 24,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 15,
+      "changed_both_parsed_question_ids": [
+        "/wiki/2AM_(band)#P1416#annotation1",
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Albuquerque_Dukes#P118#annotation2",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/First_Air_Group#P4791#annotation7"
+      ]
+    },
+    "no_temporal_filter__possible_support": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 1,
+      "both_outputs_parsed_questions": 37,
+      "answer_changes_with_both_outputs_parsed": 0,
+      "answer_changes_involving_parse_failure": 1,
+      "changed_both_parsed_question_ids": [],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Roma_Mitchell#P39#annotation0"
+      ]
+    },
+    "original_bm25__original_bm25_latestyear": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 23,
+      "both_outputs_parsed_questions": 23,
+      "answer_changes_with_both_outputs_parsed": 8,
+      "answer_changes_involving_parse_failure": 15,
+      "changed_both_parsed_question_ids": [
+        "/wiki/2AM_(band)#P1416#annotation1",
+        "/wiki/Erich_Topp#P1416#annotation3",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Fellbach#P6#annotation0",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2",
+        "/wiki/Beugr\u00f3#P449#annotation4"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Erich_Topp#P1416#annotation1",
+        "/wiki/Albuquerque_Dukes#P118#annotation2",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Nana_Okada#P463#annotation2",
+        "/wiki/Lee_Nogan#P54#annotation2",
+        "/wiki/Wetten,_dass..?#P371#annotation2",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/First_Air_Group#P4791#annotation7",
+        "/wiki/Pierre_Gasly#P641#annotation0"
+      ]
+    },
+    "original_bm25__possible_support": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 19,
+      "both_outputs_parsed_questions": 27,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 14,
+      "changed_both_parsed_question_ids": [
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Erich_Topp#P1416#annotation3",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Fellbach#P6#annotation0",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Erich_Topp#P1416#annotation1",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Nana_Okada#P463#annotation2",
+        "/wiki/Lee_Nogan#P54#annotation2",
+        "/wiki/Wetten,_dass..?#P371#annotation2",
+        "/wiki/Beugr\u00f3#P449#annotation4",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/Pierre_Gasly#P641#annotation0"
+      ]
+    },
+    "original_bm25_latestyear__possible_support": {
+      "full_cohort_questions": 60,
+      "all_answer_set_changes": 21,
+      "both_outputs_parsed_questions": 23,
+      "answer_changes_with_both_outputs_parsed": 5,
+      "answer_changes_involving_parse_failure": 16,
+      "changed_both_parsed_question_ids": [
+        "/wiki/2AM_(band)#P1416#annotation1",
+        "/wiki/VP-29#P1448#annotation4",
+        "/wiki/Young_Girl_with_a_Flower_Basket#P127#annotation1",
+        "/wiki/Helen_Clark#P39#annotation4",
+        "/wiki/HMAS_Cairns_(J183)#P137#annotation2"
+      ],
+      "changed_with_parse_failure_question_ids": [
+        "/wiki/Thomas_Fearnley#P937#annotation0",
+        "/wiki/Albuquerque_Dukes#P118#annotation2",
+        "/wiki/Roma_Mitchell#P39#annotation0",
+        "/wiki/Peter_Beattie#P39#annotation1",
+        "/wiki/Georges_Pompidou#P39#annotation0",
+        "/wiki/Olivier_Bernard#P54#annotation1",
+        "/wiki/Marcus_Ericsson#P641#annotation0",
+        "/wiki/Jeff_Goldblum#P26#annotation2",
+        "/wiki/Gary_Mills_(footballer,_born_1961)#P6087#annotation3",
+        "/wiki/Li_Sizhong_(ichthyologist)#P793#annotation2",
+        "/wiki/Zambia#P35#annotation0",
+        "/wiki/International_Mathematical_Union#P488#annotation7",
+        "/wiki/Nora_Ephron#P26#annotation1",
+        "/wiki/Campaign_Against_Homophobia#P488#annotation0",
+        "/wiki/Zhansaya_Abdumalik#P2962#annotation3",
+        "/wiki/First_Air_Group#P4791#annotation7"
+      ]
+    }
+  },
+  "hashes": {
+    "pass5/protocol/reader_primary_scored/predictions_with_reader.jsonl": "42d6388ff02f5dcec18d0a2d6b3746e1eecb378f71baac0e6dd056f3f5e1d757",
+    "/workspace/scratch/956c06247f78/ACL2027_pass4/pass5/protocol/audit_answer_changes.py": "6d00dd1bcd61bee41d4fe6402152c2f75cbf1a9c748100c71f1b002d5a366c3d",
+    "/workspace/scratch/956c06247f78/ACL2027_pass4/pass3/protocol/score_predictions.py": "d947af316ffcf0f716fca86051e4b0ba9867dc591cabf79c323e96b4bd09575f"
+  }
+}

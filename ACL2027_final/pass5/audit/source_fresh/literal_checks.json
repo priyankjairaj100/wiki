@@ -1,0 +1,9 @@
+{
+  "claims_checked": 60,
+  "spans_checked": 408,
+  "spans_matching": 408,
+  "issues": [],
+  "supplied_ends": 27,
+  "sample_sha256": "58f7a4c15b9330a4dbc1f6bda97704e8c124dbf06d3897f754fc14a0f19c7c96",
+  "freeze_inputs_unchanged": true
+}

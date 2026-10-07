@@ -1,0 +1,759 @@
+{
+  "scope": "Describe the three answer changes where both outputs pass the frozen parser. This review does not alter outputs, labels, metrics, or membership.",
+  "source_review": "Model-assisted; no independent human annotation claimed.",
+  "cases": [
+    {
+      "question_id": "/wiki/Atlético_Madrid#P286#annotation5",
+      "question": "Who was football team Atletico Madrid's coach from Feb 2009 to Oct 2009?",
+      "review_type": "Model-assisted descriptive source review",
+      "interpretation": "Possible support returns Åge Hareide. The displayed source describes his role with Norway, not Atlético Madrid. Guaranteed support abstains. Both responses receive zero strict credit.",
+      "methods": {
+        "possible_support": {
+          "answers": [
+            "Åge Hareide"
+          ],
+          "evidence": [
+            4
+          ],
+          "exact_set": 0.0,
+          "strict_f1": 0.0,
+          "contexts": [
+            {
+              "unit_id": "fallback:0c658097aa0a970a00fc1b87:0:561",
+              "claim_id": null,
+              "passage_id": "0c658097aa0a970a00fc1b87",
+              "article_path": "/wiki/Atlético_Madrid",
+              "title": "Atlético Madrid",
+              "start_char": 0,
+              "end_char_exclusive": 561,
+              "text": "In October 2018 , Atletico De Madrid announced their first academy in Pakistan which was based in Lahore , which was the first European football academy in Pakistan . In April 2019 , they launched Football School Program in Lahore . In October 2019 , Atletico De Madrid conducted talents in Lahore . In February 2020 , Pakistan Football Federation announced the 2020-21 Football Federation League in which Atletico Madrid Lahore was included in Group C and was made a professional Pakistani football club . It made its debut against Hazara Coal and won by 2–0 .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:3a69b31c0545db66a04635f4:0:891",
+              "claim_id": null,
+              "passage_id": "3a69b31c0545db66a04635f4",
+              "article_path": "/wiki/Atlético_Madrid",
+              "title": "Atlético Madrid",
+              "start_char": 0,
+              "end_char_exclusive": 891,
+              "text": "More recently , a heated rivalry has emerged between Atlético Madrid and Barcelona , which is also considered one of the Classics of Spanish football . This rivalry has become notorious in the late 2010s , marked by events such as the 2016 Champions League knockout phase where Atletico Madrid upset Barcelona , the controversial departure of French striker Antoine Griezmann from the Madrid club to the Catalan club in 2019 , and the surprise move of Luis Suárez from Barcelona to Atlético Madrid in 2020 , which saw the Uruguyan star play a crucial role in the teams championship run . However , by tradition and current affairs , the greatest rivalry is that which exists with its merengues neighbors . Furthermore , while Atletico Madrid and FC Barcelona are increasingly seen as rivals , fans of the clubs are noticeably more amicable towards each other than they are with Real Madrid .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:189a11ff8397c0b1cac8a05b:0:599",
+              "claim_id": null,
+              "passage_id": "189a11ff8397c0b1cac8a05b",
+              "article_path": "/wiki/Calcio_Catania",
+              "title": "Calcio Catania",
+              "start_char": 0,
+              "end_char_exclusive": 599,
+              "text": "After a long judicial battle , however , the magistrature declared the FIGCs decision as invalid , thus forcing it to include Catania back into the footballing fold for the year . Catania was thus included in the Sicilian Eccellenza ( the sixth tier of Italian football ) , but in the meantime another Sicilian football team , Atletico Leonzio from Lentini ( in the Province of Syracuse ) , had been relocated in the city and renamed Atletico Catania . Despite all of this , the real Catania was able to rise back to Serie C in a relatively small number of years , and even back to Serie B in 2002 .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "8388ccb4960a827e27a11b3e",
+              "claim_id": "8388ccb4960a827e27a11b3e",
+              "passage_id": "f90cf4350e3d298bd57521a9",
+              "article_path": "/wiki/Steve_Guppy",
+              "title": "Steve Guppy",
+              "start_char": 338,
+              "end_char_exclusive": 419,
+              "text": "He was assistant coach at the Colorado Rapids for three years , from 2009 to 2012",
+              "kind": "modeled",
+              "start": {
+                "lower": 733408,
+                "upper": 733772,
+                "lower_iso": "2009-01-01",
+                "upper_iso": "2009-12-31",
+                "precision": "year",
+                "source_span": {
+                  "start": 407,
+                  "end": 411,
+                  "text": "2009"
+                }
+              },
+              "end": {
+                "lower": 734503,
+                "upper": 734868,
+                "lower_iso": "2012-01-01",
+                "upper_iso": "2012-12-31",
+                "precision": "year",
+                "source_span": {
+                  "start": 415,
+                  "end": 419,
+                  "text": "2012"
+                }
+              },
+              "source_subject": "Steve Guppy",
+              "source_relation": "position",
+              "temporal_status": "unresolved"
+            },
+            {
+              "unit_id": "fallback:b4f77dd13aa75a07ca72c6ff:0:502",
+              "claim_id": null,
+              "passage_id": "b4f77dd13aa75a07ca72c6ff",
+              "article_path": "/wiki/Åge_Hareide",
+              "title": "Åge Hareide",
+              "start_char": 0,
+              "end_char_exclusive": 502,
+              "text": "Hareide was employed as the coach of the Norway national football team at the end of 2003 , replacing Nils Johan Semb , after one season as coach of Rosenborg BK . On 8 December 2008 , after having failed to take Norway to any international tournaments , and having had a bad start to the 2010 FIFA World Cup qualifying campaign , Hareide resigned from his position as national team coach of Norway . On 9 December 2008 Hareide announced that he was stepping down as coach of the Norway national team .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            }
+          ]
+        },
+        "guaranteed_support": {
+          "answers": [],
+          "evidence": [],
+          "exact_set": 0.0,
+          "strict_f1": 0.0,
+          "contexts": [
+            {
+              "unit_id": "fallback:0c658097aa0a970a00fc1b87:0:561",
+              "claim_id": null,
+              "passage_id": "0c658097aa0a970a00fc1b87",
+              "article_path": "/wiki/Atlético_Madrid",
+              "title": "Atlético Madrid",
+              "start_char": 0,
+              "end_char_exclusive": 561,
+              "text": "In October 2018 , Atletico De Madrid announced their first academy in Pakistan which was based in Lahore , which was the first European football academy in Pakistan . In April 2019 , they launched Football School Program in Lahore . In October 2019 , Atletico De Madrid conducted talents in Lahore . In February 2020 , Pakistan Football Federation announced the 2020-21 Football Federation League in which Atletico Madrid Lahore was included in Group C and was made a professional Pakistani football club . It made its debut against Hazara Coal and won by 2–0 .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:3a69b31c0545db66a04635f4:0:891",
+              "claim_id": null,
+              "passage_id": "3a69b31c0545db66a04635f4",
+              "article_path": "/wiki/Atlético_Madrid",
+              "title": "Atlético Madrid",
+              "start_char": 0,
+              "end_char_exclusive": 891,
+              "text": "More recently , a heated rivalry has emerged between Atlético Madrid and Barcelona , which is also considered one of the Classics of Spanish football . This rivalry has become notorious in the late 2010s , marked by events such as the 2016 Champions League knockout phase where Atletico Madrid upset Barcelona , the controversial departure of French striker Antoine Griezmann from the Madrid club to the Catalan club in 2019 , and the surprise move of Luis Suárez from Barcelona to Atlético Madrid in 2020 , which saw the Uruguyan star play a crucial role in the teams championship run . However , by tradition and current affairs , the greatest rivalry is that which exists with its merengues neighbors . Furthermore , while Atletico Madrid and FC Barcelona are increasingly seen as rivals , fans of the clubs are noticeably more amicable towards each other than they are with Real Madrid .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:189a11ff8397c0b1cac8a05b:0:599",
+              "claim_id": null,
+              "passage_id": "189a11ff8397c0b1cac8a05b",
+              "article_path": "/wiki/Calcio_Catania",
+              "title": "Calcio Catania",
+              "start_char": 0,
+              "end_char_exclusive": 599,
+              "text": "After a long judicial battle , however , the magistrature declared the FIGCs decision as invalid , thus forcing it to include Catania back into the footballing fold for the year . Catania was thus included in the Sicilian Eccellenza ( the sixth tier of Italian football ) , but in the meantime another Sicilian football team , Atletico Leonzio from Lentini ( in the Province of Syracuse ) , had been relocated in the city and renamed Atletico Catania . Despite all of this , the real Catania was able to rise back to Serie C in a relatively small number of years , and even back to Serie B in 2002 .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:b4f77dd13aa75a07ca72c6ff:0:502",
+              "claim_id": null,
+              "passage_id": "b4f77dd13aa75a07ca72c6ff",
+              "article_path": "/wiki/Åge_Hareide",
+              "title": "Åge Hareide",
+              "start_char": 0,
+              "end_char_exclusive": 502,
+              "text": "Hareide was employed as the coach of the Norway national football team at the end of 2003 , replacing Nils Johan Semb , after one season as coach of Rosenborg BK . On 8 December 2008 , after having failed to take Norway to any international tournaments , and having had a bad start to the 2010 FIFA World Cup qualifying campaign , Hareide resigned from his position as national team coach of Norway . On 9 December 2008 Hareide announced that he was stepping down as coach of the Norway national team .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:e4237d9822e26351a19cb5cb:0:183",
+              "claim_id": null,
+              "passage_id": "e4237d9822e26351a19cb5cb",
+              "article_path": "/wiki/Darije_Kalezić",
+              "title": "Darije Kalezić",
+              "start_char": 0,
+              "end_char_exclusive": 183,
+              "text": "After his retirement from football as a player , Kalezić accepted to stay at De Graafschap as a reserve/youth team coach from 2006 to 2008 , and later on being promoted as assistant .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "/wiki/Katherine_Maher#P108#annotation3",
+      "question": "Katherine Maher had a role at which workplace from Apr 2014 to Apr 2015?",
+      "review_type": "Model-assisted descriptive source review",
+      "interpretation": "Possible support returns a job title plus the employer. Guaranteed support returns the requested employer name. The displayed excerpt supports that employer during the query. Only the latter receives strict exact-set credit.",
+      "methods": {
+        "possible_support": {
+          "answers": [
+            "chief communications officer of the Wikimedia Foundation"
+          ],
+          "evidence": [
+            2
+          ],
+          "exact_set": 0.0,
+          "strict_f1": 0.0,
+          "contexts": [
+            {
+              "unit_id": "3efddc126fcd8528e867048e",
+              "claim_id": "3efddc126fcd8528e867048e",
+              "passage_id": "5e2133638bdecec4e8b8e605",
+              "article_path": "/wiki/Katherine_Maher",
+              "title": "Katherine Maher",
+              "start_char": 0,
+              "end_char_exclusive": 65,
+              "text": "From 2013 to 2014 , Maher was advocacy director at the Washington",
+              "kind": "modeled",
+              "start": {
+                "lower": 734869,
+                "upper": 735233,
+                "lower_iso": "2013-01-01",
+                "upper_iso": "2013-12-31",
+                "precision": "year",
+                "source_span": {
+                  "start": 5,
+                  "end": 9,
+                  "text": "2013"
+                }
+              },
+              "end": {
+                "lower": 735234,
+                "upper": 735598,
+                "lower_iso": "2014-01-01",
+                "upper_iso": "2014-12-31",
+                "precision": "year",
+                "source_span": {
+                  "start": 13,
+                  "end": 17,
+                  "text": "2014"
+                }
+              },
+              "source_subject": "Katherine Maher",
+              "source_relation": "position",
+              "temporal_status": "unresolved"
+            },
+            {
+              "unit_id": "774eaf94fd43598fdfa4746f",
+              "claim_id": "774eaf94fd43598fdfa4746f",
+              "passage_id": "8bae93bc9358fe520a201da5",
+              "article_path": "/wiki/Katherine_Maher",
+              "title": "Katherine Maher",
+              "start_char": 0,
+              "end_char_exclusive": 96,
+              "text": "Maher was chief communications officer of the Wikimedia Foundation from April 2014 to March 2016",
+              "kind": "modeled",
+              "start": {
+                "lower": 735324,
+                "upper": 735353,
+                "lower_iso": "2014-04-01",
+                "upper_iso": "2014-04-30",
+                "precision": "month",
+                "source_span": {
+                  "start": 72,
+                  "end": 82,
+                  "text": "April 2014"
+                }
+              },
+              "end": {
+                "lower": 736024,
+                "upper": 736054,
+                "lower_iso": "2016-03-01",
+                "upper_iso": "2016-03-31",
+                "precision": "month",
+                "source_span": {
+                  "start": 86,
+                  "end": 96,
+                  "text": "March 2016"
+                }
+              },
+              "source_subject": "Katherine Maher",
+              "source_relation": "position",
+              "temporal_status": "guaranteed"
+            },
+            {
+              "unit_id": "fallback:0d042f6b19019c4a6585da65:0:830",
+              "claim_id": null,
+              "passage_id": "0d042f6b19019c4a6585da65",
+              "article_path": "/wiki/Katherine_Maher",
+              "title": "Katherine Maher",
+              "start_char": 0,
+              "end_char_exclusive": 830,
+              "text": "From 2010 to 2011 , Maher worked at the National Democratic Institute as an ICT Program Officer , working in the field of information and communications technology ( ICT ) . From 2011 to 2013 , Maher worked at the World Bank as an ICT innovation specialist and consulted on technology for international development and democratization , working on ICT for accountability and governance with a focus on the role of mobile phones and other technologies in facilitating civil society and institutional reform , particularly in the Middle East and Africa . She co-authored a chapter on Making Government Mobile of a World Bank publication titled Information and Communications for Development 2012 : Maximizing Mobile . In 2012 , Mahers Twitter feed on issues related to the Middle East was noted for its coverage of the Arab Spring .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:eae9e36c3f5318b0a262a241:0:396",
+              "claim_id": null,
+              "passage_id": "eae9e36c3f5318b0a262a241",
+              "article_path": "/wiki/Katherine_Maher",
+              "title": "Katherine Maher",
+              "start_char": 0,
+              "end_char_exclusive": 396,
+              "text": "Maher grew up in Wilton , Connecticut and attended Wilton High School . After high school , Maher graduated from the Arabic Language Institutes Arabic Language Intensive Program of The American University in Cairo in 2003 , which she said was a formative experience that instilled a deep love of the Middle East . Maher subsequently studied at the in Syria and spent time in Lebanon and Tunisia .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:b4078bf03605764e2f61d5d2:0:599",
+              "claim_id": null,
+              "passage_id": "b4078bf03605764e2f61d5d2",
+              "article_path": "/wiki/Katherine_Maher",
+              "title": "Katherine Maher",
+              "start_char": 0,
+              "end_char_exclusive": 599,
+              "text": "In 2007 , Maher returned to New York City where from 2007 to 2010 she worked at UNICEF as an innovation and communication officer . She worked to promote the use of technology to improve peoples lives and traveled extensively to work on issues related to maternal health , HIV/AIDS prevention , and youth participation in technology . One of her first projects at UNICEF involved testing MediaWiki extensions related to accessibility in Ethiopia . Another project received USAid Development 2.0 Challenge grant funding to work on the use of mobile phones to monitor nutrition in children in Malawi .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            }
+          ]
+        },
+        "guaranteed_support": {
+          "answers": [
+            "Wikimedia Foundation"
+          ],
+          "evidence": [
+            1
+          ],
+          "exact_set": 1.0,
+          "strict_f1": 1.0,
+          "contexts": [
+            {
+              "unit_id": "774eaf94fd43598fdfa4746f",
+              "claim_id": "774eaf94fd43598fdfa4746f",
+              "passage_id": "8bae93bc9358fe520a201da5",
+              "article_path": "/wiki/Katherine_Maher",
+              "title": "Katherine Maher",
+              "start_char": 0,
+              "end_char_exclusive": 96,
+              "text": "Maher was chief communications officer of the Wikimedia Foundation from April 2014 to March 2016",
+              "kind": "modeled",
+              "start": {
+                "lower": 735324,
+                "upper": 735353,
+                "lower_iso": "2014-04-01",
+                "upper_iso": "2014-04-30",
+                "precision": "month",
+                "source_span": {
+                  "start": 72,
+                  "end": 82,
+                  "text": "April 2014"
+                }
+              },
+              "end": {
+                "lower": 736024,
+                "upper": 736054,
+                "lower_iso": "2016-03-01",
+                "upper_iso": "2016-03-31",
+                "precision": "month",
+                "source_span": {
+                  "start": 86,
+                  "end": 96,
+                  "text": "March 2016"
+                }
+              },
+              "source_subject": "Katherine Maher",
+              "source_relation": "position",
+              "temporal_status": "guaranteed"
+            },
+            {
+              "unit_id": "fallback:0d042f6b19019c4a6585da65:0:830",
+              "claim_id": null,
+              "passage_id": "0d042f6b19019c4a6585da65",
+              "article_path": "/wiki/Katherine_Maher",
+              "title": "Katherine Maher",
+              "start_char": 0,
+              "end_char_exclusive": 830,
+              "text": "From 2010 to 2011 , Maher worked at the National Democratic Institute as an ICT Program Officer , working in the field of information and communications technology ( ICT ) . From 2011 to 2013 , Maher worked at the World Bank as an ICT innovation specialist and consulted on technology for international development and democratization , working on ICT for accountability and governance with a focus on the role of mobile phones and other technologies in facilitating civil society and institutional reform , particularly in the Middle East and Africa . She co-authored a chapter on Making Government Mobile of a World Bank publication titled Information and Communications for Development 2012 : Maximizing Mobile . In 2012 , Mahers Twitter feed on issues related to the Middle East was noted for its coverage of the Arab Spring .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:eae9e36c3f5318b0a262a241:0:396",
+              "claim_id": null,
+              "passage_id": "eae9e36c3f5318b0a262a241",
+              "article_path": "/wiki/Katherine_Maher",
+              "title": "Katherine Maher",
+              "start_char": 0,
+              "end_char_exclusive": 396,
+              "text": "Maher grew up in Wilton , Connecticut and attended Wilton High School . After high school , Maher graduated from the Arabic Language Institutes Arabic Language Intensive Program of The American University in Cairo in 2003 , which she said was a formative experience that instilled a deep love of the Middle East . Maher subsequently studied at the in Syria and spent time in Lebanon and Tunisia .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:b4078bf03605764e2f61d5d2:0:599",
+              "claim_id": null,
+              "passage_id": "b4078bf03605764e2f61d5d2",
+              "article_path": "/wiki/Katherine_Maher",
+              "title": "Katherine Maher",
+              "start_char": 0,
+              "end_char_exclusive": 599,
+              "text": "In 2007 , Maher returned to New York City where from 2007 to 2010 she worked at UNICEF as an innovation and communication officer . She worked to promote the use of technology to improve peoples lives and traveled extensively to work on issues related to maternal health , HIV/AIDS prevention , and youth participation in technology . One of her first projects at UNICEF involved testing MediaWiki extensions related to accessibility in Ethiopia . Another project received USAid Development 2.0 Challenge grant funding to work on the use of mobile phones to monitor nutrition in children in Malawi .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:6bdad8da18030f3694ef3e26:0:505",
+              "claim_id": null,
+              "passage_id": "6bdad8da18030f3694ef3e26",
+              "article_path": "/wiki/Katherine_Maher",
+              "title": "Katherine Maher",
+              "start_char": 0,
+              "end_char_exclusive": 505,
+              "text": "Katherine Roberts Maher ( ; born April 18 , 1983 ) is the former chief executive officer and executive director of the Wikimedia Foundation , positions she held from 2019 to April 2021 and from 2016 to April 2021 respectively . Previously , she was chief communications officer . She has a background in the field of information and communications technology and worked in the non-profit and international sectors , focusing on the use of technology to empower human rights and international development .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "/wiki/Helen_Clark#P39#annotation0",
+      "question": "What governmental role did Helen Elizabeth Clark assume from 1989 to Aug 1989?",
+      "review_type": "Model-assisted descriptive source review",
+      "interpretation": "Possible support returns Minister of Conservation. Guaranteed support returns Minister of Housing. Both roles occur in their respective displayed excerpts. Neither response receives strict credit for the annotated answer set.",
+      "methods": {
+        "possible_support": {
+          "answers": [
+            "Minister of Conservation"
+          ],
+          "evidence": [
+            2
+          ],
+          "exact_set": 0.0,
+          "strict_f1": 0.0,
+          "contexts": [
+            {
+              "unit_id": "e1eea0e35355af8f3f3b0927",
+              "claim_id": "e1eea0e35355af8f3f3b0927",
+              "passage_id": "c63cbf6eea11fd4272979e95",
+              "article_path": "/wiki/Helen_Clark",
+              "title": "Helen Clark",
+              "start_char": 242,
+              "end_char_exclusive": 303,
+              "text": "and as Minister of Housing from August 1987 until August 1989",
+              "kind": "modeled",
+              "start": {
+                "lower": 725584,
+                "upper": 725614,
+                "lower_iso": "1987-08-01",
+                "upper_iso": "1987-08-31",
+                "precision": "month",
+                "source_span": {
+                  "start": 274,
+                  "end": 285,
+                  "text": "August 1987"
+                }
+              },
+              "end": {
+                "lower": 726315,
+                "upper": 726345,
+                "lower_iso": "1989-08-01",
+                "upper_iso": "1989-08-31",
+                "precision": "month",
+                "source_span": {
+                  "start": 292,
+                  "end": 303,
+                  "text": "August 1989"
+                }
+              },
+              "source_subject": "Helen Clark",
+              "source_relation": "position",
+              "temporal_status": "guaranteed"
+            },
+            {
+              "unit_id": "cf4d0967b9abbe9f10c6b911",
+              "claim_id": "cf4d0967b9abbe9f10c6b911",
+              "passage_id": "c63cbf6eea11fd4272979e95",
+              "article_path": "/wiki/Helen_Clark",
+              "title": "Helen Clark",
+              "start_char": 167,
+              "end_char_exclusive": 241,
+              "text": "She served as Minister of Conservation from August 1987 until January 1989",
+              "kind": "modeled",
+              "start": {
+                "lower": 725584,
+                "upper": 725614,
+                "lower_iso": "1987-08-01",
+                "upper_iso": "1987-08-31",
+                "precision": "month",
+                "source_span": {
+                  "start": 211,
+                  "end": 222,
+                  "text": "August 1987"
+                }
+              },
+              "end": {
+                "lower": 726103,
+                "upper": 726133,
+                "lower_iso": "1989-01-01",
+                "upper_iso": "1989-01-31",
+                "precision": "month",
+                "source_span": {
+                  "start": 229,
+                  "end": 241,
+                  "text": "January 1989"
+                }
+              },
+              "source_subject": "Helen Clark",
+              "source_relation": "position",
+              "temporal_status": "unresolved"
+            },
+            {
+              "unit_id": "fallback:32939b1ed24d0562441c1dda:0:154",
+              "claim_id": null,
+              "passage_id": "32939b1ed24d0562441c1dda",
+              "article_path": "/wiki/Helen_Clark",
+              "title": "Helen Clark",
+              "start_char": 0,
+              "end_char_exclusive": 154,
+              "text": "Clark said that she was busy working in the back seat and had no influence or role in the decision to speed and did not realise the speed of her vehicle .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "bf36b0c3689b61632ce15302",
+              "claim_id": "bf36b0c3689b61632ce15302",
+              "passage_id": "c63cbf6eea11fd4272979e95",
+              "article_path": "/wiki/Helen_Clark",
+              "title": "Helen Clark",
+              "start_char": 306,
+              "end_char_exclusive": 351,
+              "text": "She became Minister of Health in January 1989",
+              "kind": "modeled",
+              "start": {
+                "lower": 726103,
+                "upper": 726133,
+                "lower_iso": "1989-01-01",
+                "upper_iso": "1989-01-31",
+                "precision": "month",
+                "source_span": {
+                  "start": 339,
+                  "end": 351,
+                  "text": "January 1989"
+                }
+              },
+              "end": null,
+              "source_subject": "Helen Clark",
+              "source_relation": "position",
+              "temporal_status": "guaranteed"
+            },
+            {
+              "unit_id": "fallback:92d4f551383732022cd4899a:0:341",
+              "claim_id": null,
+              "passage_id": "92d4f551383732022cd4899a",
+              "article_path": "/wiki/Helen_Clark",
+              "title": "Helen Clark",
+              "start_char": 0,
+              "end_char_exclusive": 341,
+              "text": "Helen Elizabeth Clark ( born 26 February 1950 ) is a New Zealand politician who served as the 37th Prime Minister of New Zealand from 1999 to 2008 , and was the Administrator of the United Nations Development Programme from 2009 to 2017 . She was New Zealands fifth-longest-serving prime minister , and the second woman to hold that office .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            }
+          ]
+        },
+        "guaranteed_support": {
+          "answers": [
+            "Minister of Housing"
+          ],
+          "evidence": [
+            1
+          ],
+          "exact_set": 0.0,
+          "strict_f1": 0.0,
+          "contexts": [
+            {
+              "unit_id": "e1eea0e35355af8f3f3b0927",
+              "claim_id": "e1eea0e35355af8f3f3b0927",
+              "passage_id": "c63cbf6eea11fd4272979e95",
+              "article_path": "/wiki/Helen_Clark",
+              "title": "Helen Clark",
+              "start_char": 242,
+              "end_char_exclusive": 303,
+              "text": "and as Minister of Housing from August 1987 until August 1989",
+              "kind": "modeled",
+              "start": {
+                "lower": 725584,
+                "upper": 725614,
+                "lower_iso": "1987-08-01",
+                "upper_iso": "1987-08-31",
+                "precision": "month",
+                "source_span": {
+                  "start": 274,
+                  "end": 285,
+                  "text": "August 1987"
+                }
+              },
+              "end": {
+                "lower": 726315,
+                "upper": 726345,
+                "lower_iso": "1989-08-01",
+                "upper_iso": "1989-08-31",
+                "precision": "month",
+                "source_span": {
+                  "start": 292,
+                  "end": 303,
+                  "text": "August 1989"
+                }
+              },
+              "source_subject": "Helen Clark",
+              "source_relation": "position",
+              "temporal_status": "guaranteed"
+            },
+            {
+              "unit_id": "fallback:32939b1ed24d0562441c1dda:0:154",
+              "claim_id": null,
+              "passage_id": "32939b1ed24d0562441c1dda",
+              "article_path": "/wiki/Helen_Clark",
+              "title": "Helen Clark",
+              "start_char": 0,
+              "end_char_exclusive": 154,
+              "text": "Clark said that she was busy working in the back seat and had no influence or role in the decision to speed and did not realise the speed of her vehicle .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "bf36b0c3689b61632ce15302",
+              "claim_id": "bf36b0c3689b61632ce15302",
+              "passage_id": "c63cbf6eea11fd4272979e95",
+              "article_path": "/wiki/Helen_Clark",
+              "title": "Helen Clark",
+              "start_char": 306,
+              "end_char_exclusive": 351,
+              "text": "She became Minister of Health in January 1989",
+              "kind": "modeled",
+              "start": {
+                "lower": 726103,
+                "upper": 726133,
+                "lower_iso": "1989-01-01",
+                "upper_iso": "1989-01-31",
+                "precision": "month",
+                "source_span": {
+                  "start": 339,
+                  "end": 351,
+                  "text": "January 1989"
+                }
+              },
+              "end": null,
+              "source_subject": "Helen Clark",
+              "source_relation": "position",
+              "temporal_status": "guaranteed"
+            },
+            {
+              "unit_id": "fallback:92d4f551383732022cd4899a:0:341",
+              "claim_id": null,
+              "passage_id": "92d4f551383732022cd4899a",
+              "article_path": "/wiki/Helen_Clark",
+              "title": "Helen Clark",
+              "start_char": 0,
+              "end_char_exclusive": 341,
+              "text": "Helen Elizabeth Clark ( born 26 February 1950 ) is a New Zealand politician who served as the 37th Prime Minister of New Zealand from 1999 to 2008 , and was the Administrator of the United Nations Development Programme from 2009 to 2017 . She was New Zealands fifth-longest-serving prime minister , and the second woman to hold that office .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            },
+            {
+              "unit_id": "fallback:c63cbf6eea11fd4272979e95:0:166",
+              "claim_id": null,
+              "passage_id": "c63cbf6eea11fd4272979e95",
+              "article_path": "/wiki/Helen_Clark",
+              "title": "Helen Clark",
+              "start_char": 0,
+              "end_char_exclusive": 166,
+              "text": "In 1987 , Clark became a Cabinet minister in the Fourth Labour Government , led by David Lange ( 1984–1989 ) , Geoffrey Palmer ( 1989–1990 ) and Mike Moore ( 1990 ) .",
+              "kind": "fallback",
+              "start": null,
+              "end": null,
+              "source_subject": null,
+              "source_relation": null,
+              "temporal_status": "unknown"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "hashes": {
+    "pass5/protocol/reader_diagnostic_scored/predictions_with_reader.jsonl": "b9c789191336197e5dd2a0268fa1628dc08ccad3797e62f147c40292270aede5",
+    "pass5/protocol/reader_diagnostic_scored/scored_questions.jsonl": "7eeae4368a012a9a0fbb38d738dce5f4545ad61d821c80ebb93a2544f59ca5ba",
+    "pass5/protocol/reader_diagnostic_change_audit.json": "16f31bdba9464a4a5cc127e5198c8d61e564c1b6663ab9db4b4522d686894dd1"
+  }
+}

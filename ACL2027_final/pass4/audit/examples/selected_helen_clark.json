@@ -1,0 +1,195 @@
+{
+  "question": {
+    "question_id": "/wiki/Helen_Clark#P39#annotation0",
+    "question": "What governmental role did Helen Elizabeth Clark assume from 1989 to Aug 1989?"
+  },
+  "query_window_iso": [
+    "1989-01-01",
+    "1989-08-31"
+  ],
+  "pivot_claim": {
+    "claim_id": "c8f2adbf96cb7f443ce4bc48",
+    "passage_id": "c63cbf6eea11fd4272979e95",
+    "article_path": "/wiki/Helen_Clark",
+    "source_span": {
+      "start": 167,
+      "end": 241,
+      "text": "She served as Minister of Conservation from August 1987 until January 1989"
+    },
+    "subject": {
+      "surface": "She",
+      "canonical": "Helen Clark",
+      "source_span": {
+        "start": 167,
+        "end": 170,
+        "text": "She"
+      },
+      "resolution": "article_title_pronoun",
+      "article_title": "Helen Clark"
+    },
+    "slot": "position",
+    "value": "Minister of Conservation",
+    "value_span": {
+      "start": 181,
+      "end": 205,
+      "text": "Minister of Conservation"
+    },
+    "predicate_span": {
+      "start": 171,
+      "end": 180,
+      "text": "served as"
+    },
+    "temporal_kind": "validity_duration",
+    "start": {
+      "lower": 725584,
+      "upper": 725614,
+      "lower_iso": "1987-08-01",
+      "upper_iso": "1987-08-31",
+      "precision": "month",
+      "source_span": {
+        "start": 211,
+        "end": 222,
+        "text": "August 1987"
+      }
+    },
+    "end": {
+      "lower": 726103,
+      "upper": 726133,
+      "lower_iso": "1989-01-01",
+      "upper_iso": "1989-01-31",
+      "precision": "month",
+      "source_span": {
+        "start": 229,
+        "end": 241,
+        "text": "January 1989"
+      }
+    },
+    "rule": "clause_explicit_tenure",
+    "replacement_policy": "explicit_succession_only",
+    "compiler_eligible": true,
+    "state_text": "Helen Clark: position = Minister of Conservation.",
+    "exclusion_assertion": null,
+    "adapter_version": "source-clause-v2",
+    "atomic_span": {
+      "start": 167,
+      "end": 241,
+      "text": "She served as Minister of Conservation from August 1987 until January 1989"
+    },
+    "coverage_scope": "atomic_clause_only",
+    "unparsed_source_policy": "Keep all source text outside atomic_span as unmodeled evidence."
+  },
+  "source_paragraph": {
+    "passage_id": "c63cbf6eea11fd4272979e95",
+    "article_path": "/wiki/Helen_Clark",
+    "paragraph_index": 17,
+    "text": "In 1987 , Clark became a Cabinet minister in the Fourth Labour Government , led by David Lange ( 1984–1989 ) , Geoffrey Palmer ( 1989–1990 ) and Mike Moore ( 1990 ) . She served as Minister of Conservation from August 1987 until January 1989 and as Minister of Housing from August 1987 until August 1989 . She became Minister of Health in January 1989 , and took on additional portfolios as Minister of Labour and Deputy Prime Minister in August 1989 . As Health Minister , Clark introduced a series of legislative changes that allowed midwives to practice autonomously . She also introduced the Smoke-free Environments Act 1990 , a law which restricted smoking in places such as workplaces and schools ."
+  },
+  "worlds": {
+    "support": {
+      "pivot_event_dates": {
+        "c8f2adbf96cb7f443ce4bc48": "1987-08-31",
+        "@explicit-end:c8f2adbf96cb7f443ce4bc48": "1989-01-31"
+      },
+      "selected_unit_ids": [
+        "c5de8e475f5d33ba6cd33ab6",
+        "c8f2adbf96cb7f443ce4bc48",
+        "fallback:32939b1ed24d0562441c1dda:0:154",
+        "bf36b0c3689b61632ce15302",
+        "fallback:92d4f551383732022cd4899a:0:341"
+      ],
+      "contexts": [
+        {
+          "unit_id": "c5de8e475f5d33ba6cd33ab6",
+          "passage_id": "c63cbf6eea11fd4272979e95",
+          "start_char": 242,
+          "end_char_exclusive": 303,
+          "text": "and as Minister of Housing from August 1987 until August 1989"
+        },
+        {
+          "unit_id": "c8f2adbf96cb7f443ce4bc48",
+          "passage_id": "c63cbf6eea11fd4272979e95",
+          "start_char": 167,
+          "end_char_exclusive": 241,
+          "text": "She served as Minister of Conservation from August 1987 until January 1989"
+        },
+        {
+          "unit_id": "fallback:32939b1ed24d0562441c1dda:0:154",
+          "passage_id": "32939b1ed24d0562441c1dda",
+          "start_char": 0,
+          "end_char_exclusive": 154,
+          "text": "Clark said that she was busy working in the back seat and had no influence or role in the decision to speed and did not realise the speed of her vehicle ."
+        },
+        {
+          "unit_id": "bf36b0c3689b61632ce15302",
+          "passage_id": "c63cbf6eea11fd4272979e95",
+          "start_char": 306,
+          "end_char_exclusive": 351,
+          "text": "She became Minister of Health in January 1989"
+        },
+        {
+          "unit_id": "fallback:92d4f551383732022cd4899a:0:341",
+          "passage_id": "92d4f551383732022cd4899a",
+          "start_char": 0,
+          "end_char_exclusive": 341,
+          "text": "Helen Elizabeth Clark ( born 26 February 1950 ) is a New Zealand politician who served as the 37th Prime Minister of New Zealand from 1999 to 2008 , and was the Administrator of the United Nations Development Programme from 2009 to 2017 . She was New Zealands fifth-longest-serving prime minister , and the second woman to hold that office ."
+        }
+      ]
+    },
+    "exclusion": {
+      "pivot_event_dates": {
+        "c8f2adbf96cb7f443ce4bc48": "1987-08-01",
+        "@explicit-end:c8f2adbf96cb7f443ce4bc48": "1989-01-01"
+      },
+      "selected_unit_ids": [
+        "c5de8e475f5d33ba6cd33ab6",
+        "fallback:32939b1ed24d0562441c1dda:0:154",
+        "bf36b0c3689b61632ce15302",
+        "fallback:92d4f551383732022cd4899a:0:341",
+        "fallback:c63cbf6eea11fd4272979e95:0:166"
+      ],
+      "contexts": [
+        {
+          "unit_id": "c5de8e475f5d33ba6cd33ab6",
+          "passage_id": "c63cbf6eea11fd4272979e95",
+          "start_char": 242,
+          "end_char_exclusive": 303,
+          "text": "and as Minister of Housing from August 1987 until August 1989"
+        },
+        {
+          "unit_id": "fallback:32939b1ed24d0562441c1dda:0:154",
+          "passage_id": "32939b1ed24d0562441c1dda",
+          "start_char": 0,
+          "end_char_exclusive": 154,
+          "text": "Clark said that she was busy working in the back seat and had no influence or role in the decision to speed and did not realise the speed of her vehicle ."
+        },
+        {
+          "unit_id": "bf36b0c3689b61632ce15302",
+          "passage_id": "c63cbf6eea11fd4272979e95",
+          "start_char": 306,
+          "end_char_exclusive": 351,
+          "text": "She became Minister of Health in January 1989"
+        },
+        {
+          "unit_id": "fallback:92d4f551383732022cd4899a:0:341",
+          "passage_id": "92d4f551383732022cd4899a",
+          "start_char": 0,
+          "end_char_exclusive": 341,
+          "text": "Helen Elizabeth Clark ( born 26 February 1950 ) is a New Zealand politician who served as the 37th Prime Minister of New Zealand from 1999 to 2008 , and was the Administrator of the United Nations Development Programme from 2009 to 2017 . She was New Zealands fifth-longest-serving prime minister , and the second woman to hold that office ."
+        },
+        {
+          "unit_id": "fallback:c63cbf6eea11fd4272979e95:0:166",
+          "passage_id": "c63cbf6eea11fd4272979e95",
+          "start_char": 0,
+          "end_char_exclusive": 166,
+          "text": "In 1987 , Clark became a Cabinet minister in the Fourth Labour Government , led by David Lange ( 1984–1989 ) , Geoffrey Palmer ( 1989–1990 ) and Mike Moore ( 1990 ) ."
+        }
+      ]
+    }
+  },
+  "assessment": {
+    "question_semantics": "The verb assume suggests a role-start event.",
+    "pivot_relevance": "Same person and governmental role.",
+    "source_judgment": "Correctly grounded Conservation tenure. The January 1989 endpoint creates an intelligible context boundary.",
+    "recommendation": "Retain with retrieval-window framing."
+  }
+}

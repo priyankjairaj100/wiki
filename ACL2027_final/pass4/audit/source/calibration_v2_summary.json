@@ -1,0 +1,13 @@
+{
+  "phase": "Calibration, pre-freeze",
+  "review_type": "Independent model-assisted source audit",
+  "new_or_rekeyed_records_reviewed": 24,
+  "status_counts": {
+    "accept": 21,
+    "uncertain": 1,
+    "reject": 2
+  },
+  "earlier_rejected_claims_removed": true,
+  "answer_label_reads": 0,
+  "scope": "Incremental source review. Re-keyed valid inherited outputs count as reviewed, not as extraction gains."
+}

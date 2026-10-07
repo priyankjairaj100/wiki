@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "refs_sha256": "b53ec72bf39ac7ed88d93b039011fc68fc417ee71ffdc37237f40e2e0a7c56c7",
+  "checks": {
+    "all_24_primary_sources_resolved": true,
+    "all_28_citation_commands_supported": true,
+    "no_unknown_uncited_unaudited_keys": true,
+    "rag_complete_author_list": true,
+    "bm25_original_volume_and_publication_year": true,
+    "re3_pdf_author_order": true,
+    "time_definition_7_not_8": true,
+    "graphiti_immutable_commit_hash": true,
+    "karp_original_editors_and_set_covering": true,
+    "warburg_selected_paragraph_attribution": true,
+    "bm25_parameters_are_study_choices": true
+  },
+  "note": "The second audit did not modify the bibliography or manuscript. Root applied attribution changes. The first auditor applied bibliography repairs."
+}

@@ -1,0 +1,10 @@
+{
+  "source_paragraphs": 30,
+  "assertions": 5,
+  "claims": 5,
+  "directed_pair_candidates": 3,
+  "articles_with_claims": 2,
+  "source_sha256": "15538757a6c6a52dbf8a4fba96f9177f5665bea36c6553459c40bd6a067ee11a",
+  "adapter_sha256": "7f43b04487ef223b5114c79df203ed8962ef2963f14b7efcc8051e523c6e8795",
+  "scope": "Source-only cue calibration. This separate deterministic adapter is not the learned model or frozen primary adapter. All candidates require semantic source audit. No QA score."
+}

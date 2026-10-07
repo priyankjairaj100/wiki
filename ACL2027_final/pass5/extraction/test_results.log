@@ -1,0 +1,32 @@
+test_abbreviated_duration_fallback (pass5.extraction.test_source_adapter.AdapterTests.test_abbreviated_duration_fallback) ... ok
+test_abbreviation_acronym (pass5.extraction.test_source_adapter.AdapterTests.test_abbreviation_acronym) ... ok
+test_abbreviation_not_partial_value (pass5.extraction.test_source_adapter.AdapterTests.test_abbreviation_not_partial_value) ... ok
+test_about_year_fallback (pass5.extraction.test_source_adapter.AdapterTests.test_about_year_fallback) ... ok
+test_ambiguous_end_not_attached (pass5.extraction.test_source_adapter.AdapterTests.test_ambiguous_end_not_attached) ... ok
+test_appearance_date_not_tenure (pass5.extraction.test_source_adapter.AdapterTests.test_appearance_date_not_tenure) ... ok
+test_between_duration (pass5.extraction.test_source_adapter.AdapterTests.test_between_duration) ... ok
+test_calendar_departure (pass5.extraction.test_source_adapter.AdapterTests.test_calendar_departure) ... ok
+test_calendar_sacking (pass5.extraction.test_source_adapter.AdapterTests.test_calendar_sacking) ... ok
+test_calibration_partition (pass5.extraction.test_source_adapter.AdapterTests.test_calibration_partition) ... ok
+test_coordinated_roles_rejected (pass5.extraction.test_source_adapter.AdapterTests.test_coordinated_roles_rejected) ... ok
+test_coordination_disjoint (pass5.extraction.test_source_adapter.AdapterTests.test_coordination_disjoint) ... ok
+test_crossed_coordinate_rejected (pass5.extraction.test_source_adapter.AdapterTests.test_crossed_coordinate_rejected) ... ok
+test_end_cue_not_open (pass5.extraction.test_source_adapter.AdapterTests.test_end_cue_not_open) ... ok
+test_finite_predicate_cut (pass5.extraction.test_source_adapter.AdapterTests.test_finite_predicate_cut) ... ok
+test_foreign_event_date (pass5.extraction.test_source_adapter.AdapterTests.test_foreign_event_date) ... ok
+test_held_until (pass5.extraction.test_source_adapter.AdapterTests.test_held_until) ... ok
+test_initial_inside_name (pass5.extraction.test_source_adapter.AdapterTests.test_initial_inside_name) ... ok
+test_liga_period (pass5.extraction.test_source_adapter.AdapterTests.test_liga_period) ... ok
+test_local_foreign_holder (pass5.extraction.test_source_adapter.AdapterTests.test_local_foreign_holder) ... ok
+test_modifier_and_precise_duration (pass5.extraction.test_source_adapter.AdapterTests.test_modifier_and_precise_duration) ... ok
+test_no_cross_paragraph_pronoun (pass5.extraction.test_source_adapter.AdapterTests.test_no_cross_paragraph_pronoun) ... ok
+test_organisation_pronoun_rejected (pass5.extraction.test_source_adapter.AdapterTests.test_organisation_pronoun_rejected) ... ok
+test_relative_duration_not_open (pass5.extraction.test_source_adapter.AdapterTests.test_relative_duration_not_open) ... ok
+test_trial_expiry_fallback (pass5.extraction.test_source_adapter.AdapterTests.test_trial_expiry_fallback) ... ok
+test_two_direct_pairs (pass5.extraction.test_source_adapter.AdapterTests.test_two_direct_pairs) ... ok
+test_unresolved_pronoun (pass5.extraction.test_source_adapter.AdapterTests.test_unresolved_pronoun) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 5.505s
+
+OK

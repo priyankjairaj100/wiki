@@ -1,0 +1,1044 @@
+{
+  "dataset": "realworld",
+  "event_cutoffs": {
+    "n_cutoffs": 41,
+    "direct_mismatch_cutoffs": 0,
+    "component_mismatch_cutoffs": 0,
+    "component_membership_differences": 0,
+    "component_max_differences": 0
+  },
+  "all_cutoffs": {
+    "n_cutoffs": 69,
+    "direct_mismatch_cutoffs": 0,
+    "component_mismatch_cutoffs": 0,
+    "component_membership_differences": 0,
+    "component_max_differences": 0
+  },
+  "historical_queries": {
+    "n": 36,
+    "full_hits": 36,
+    "prefix_hits": 36,
+    "changed_top1": 0
+  },
+  "cutoffs": [
+    {
+      "cutoff": 1990.0,
+      "is_event": true,
+      "n_observed": 1,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1990.5005,
+      "is_event": false,
+      "n_observed": 1,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1991.001,
+      "is_event": true,
+      "n_observed": 2,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1996.0,
+      "is_event": true,
+      "n_observed": 3,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1997.0005,
+      "is_event": false,
+      "n_observed": 3,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 1998.001,
+      "is_event": true,
+      "n_observed": 4,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2001.0,
+      "is_event": true,
+      "n_observed": 5,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2001.5005,
+      "is_event": false,
+      "n_observed": 5,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2002.001,
+      "is_event": true,
+      "n_observed": 6,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2005.0,
+      "is_event": true,
+      "n_observed": 7,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2005.5005,
+      "is_event": false,
+      "n_observed": 7,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2006.001,
+      "is_event": true,
+      "n_observed": 8,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2008.5014999999999,
+      "is_event": false,
+      "n_observed": 8,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2009.0,
+      "is_event": true,
+      "n_observed": 9,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2009.5005,
+      "is_event": false,
+      "n_observed": 9,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2010.0,
+      "is_event": true,
+      "n_observed": 10,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2010.001,
+      "is_event": true,
+      "n_observed": 11,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2010.5005,
+      "is_event": false,
+      "n_observed": 11,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2011.001,
+      "is_event": true,
+      "n_observed": 12,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2012.0,
+      "is_event": true,
+      "n_observed": 13,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2012.5005,
+      "is_event": false,
+      "n_observed": 13,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2013.001,
+      "is_event": true,
+      "n_observed": 14,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2014.0,
+      "is_event": true,
+      "n_observed": 16,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2014.5005,
+      "is_event": false,
+      "n_observed": 16,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2015.0,
+      "is_event": true,
+      "n_observed": 18,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2015.001,
+      "is_event": true,
+      "n_observed": 19,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2016.0005,
+      "is_event": false,
+      "n_observed": 19,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2017.001,
+      "is_event": true,
+      "n_observed": 21,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2018.0,
+      "is_event": true,
+      "n_observed": 23,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2018.001,
+      "is_event": true,
+      "n_observed": 24,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2018.5005,
+      "is_event": false,
+      "n_observed": 24,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2019.0,
+      "is_event": true,
+      "n_observed": 25,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2019.001,
+      "is_event": true,
+      "n_observed": 26,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2019.0014999999999,
+      "is_event": false,
+      "n_observed": 26,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2019.002,
+      "is_event": true,
+      "n_observed": 27,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2019.5005,
+      "is_event": false,
+      "n_observed": 27,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2020.0,
+      "is_event": true,
+      "n_observed": 30,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2020.001,
+      "is_event": true,
+      "n_observed": 31,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2020.0014999999999,
+      "is_event": false,
+      "n_observed": 31,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2020.5005,
+      "is_event": false,
+      "n_observed": 31,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2020.5014999999999,
+      "is_event": false,
+      "n_observed": 31,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2020.5025,
+      "is_event": false,
+      "n_observed": 31,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2021.0,
+      "is_event": true,
+      "n_observed": 32,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2021.0005,
+      "is_event": false,
+      "n_observed": 32,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2021.001,
+      "is_event": true,
+      "n_observed": 35,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2021.002,
+      "is_event": true,
+      "n_observed": 37,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2021.5005,
+      "is_event": false,
+      "n_observed": 37,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2021.5014999999999,
+      "is_event": false,
+      "n_observed": 37,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.0,
+      "is_event": true,
+      "n_observed": 39,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.001,
+      "is_event": true,
+      "n_observed": 41,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.002,
+      "is_event": true,
+      "n_observed": 44,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.003,
+      "is_event": true,
+      "n_observed": 45,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.4025,
+      "is_event": false,
+      "n_observed": 45,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.5005,
+      "is_event": false,
+      "n_observed": 45,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.5014999999999,
+      "is_event": false,
+      "n_observed": 45,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.5025,
+      "is_event": false,
+      "n_observed": 45,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2022.8029999999999,
+      "is_event": true,
+      "n_observed": 46,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2023.001,
+      "is_event": true,
+      "n_observed": 48,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2023.0014999999999,
+      "is_event": false,
+      "n_observed": 48,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2023.002,
+      "is_event": true,
+      "n_observed": 49,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2023.0025,
+      "is_event": false,
+      "n_observed": 49,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2023.003,
+      "is_event": true,
+      "n_observed": 50,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2023.4035,
+      "is_event": false,
+      "n_observed": 50,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2023.5025,
+      "is_event": false,
+      "n_observed": 50,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2024.002,
+      "is_event": true,
+      "n_observed": 51,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2024.003,
+      "is_event": true,
+      "n_observed": 53,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2024.004,
+      "is_event": true,
+      "n_observed": 54,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2025.002,
+      "is_event": true,
+      "n_observed": 55,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    },
+    {
+      "cutoff": 2025.003,
+      "is_event": true,
+      "n_observed": 56,
+      "direct_differences": 0,
+      "component_differences": 0,
+      "only_full": [],
+      "only_prefix": []
+    }
+  ],
+  "queries": [
+    {
+      "key": [
+        "croatia",
+        "official currency"
+      ],
+      "cutoff": 2022.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Croatia:official_currency:0",
+      "prefix_cid": "rw:Croatia:official_currency:0"
+    },
+    {
+      "key": [
+        "estonia",
+        "official currency"
+      ],
+      "cutoff": 2010.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Estonia:official_currency:0",
+      "prefix_cid": "rw:Estonia:official_currency:0"
+    },
+    {
+      "key": [
+        "germany",
+        "official currency"
+      ],
+      "cutoff": 2001.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Germany:official_currency:0",
+      "prefix_cid": "rw:Germany:official_currency:0"
+    },
+    {
+      "key": [
+        "google",
+        "holding company"
+      ],
+      "cutoff": 2014.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Google:holding_company:0",
+      "prefix_cid": "rw:Google:holding_company:0"
+    },
+    {
+      "key": [
+        "instagram",
+        "parent company"
+      ],
+      "cutoff": 2019.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Instagram:parent_company:0",
+      "prefix_cid": "rw:Instagram:parent_company:0"
+    },
+    {
+      "key": [
+        "japan",
+        "prime minister"
+      ],
+      "cutoff": 2019.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Japan:prime_minister:0",
+      "prefix_cid": "rw:Japan:prime_minister:0"
+    },
+    {
+      "key": [
+        "japan",
+        "prime minister"
+      ],
+      "cutoff": 2020.5014999999999,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Japan:prime_minister:1",
+      "prefix_cid": "rw:Japan:prime_minister:1"
+    },
+    {
+      "key": [
+        "japan",
+        "prime minister"
+      ],
+      "cutoff": 2022.5025,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Japan:prime_minister:2",
+      "prefix_cid": "rw:Japan:prime_minister:2"
+    },
+    {
+      "key": [
+        "kazakhstan",
+        "capital city"
+      ],
+      "cutoff": 1997.0005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Kazakhstan:capital_city:0",
+      "prefix_cid": "rw:Kazakhstan:capital_city:0"
+    },
+    {
+      "key": [
+        "kazakhstan",
+        "capital city"
+      ],
+      "cutoff": 2008.5014999999999,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Kazakhstan:capital_city:1",
+      "prefix_cid": "rw:Kazakhstan:capital_city:1"
+    },
+    {
+      "key": [
+        "kazakhstan",
+        "capital city"
+      ],
+      "cutoff": 2020.5025,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Kazakhstan:capital_city:2",
+      "prefix_cid": "rw:Kazakhstan:capital_city:2"
+    },
+    {
+      "key": [
+        "microsoft",
+        "flagship operating system"
+      ],
+      "cutoff": 2020.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Microsoft:flagship_operating_system:0",
+      "prefix_cid": "rw:Microsoft:flagship_operating_system:0"
+    },
+    {
+      "key": [
+        "myanmar",
+        "capital city"
+      ],
+      "cutoff": 2005.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Myanmar:capital_city:0",
+      "prefix_cid": "rw:Myanmar:capital_city:0"
+    },
+    {
+      "key": [
+        "nigeria",
+        "capital city"
+      ],
+      "cutoff": 1990.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Nigeria:capital_city:0",
+      "prefix_cid": "rw:Nigeria:capital_city:0"
+    },
+    {
+      "key": [
+        "ubuntu",
+        "latest long term support release"
+      ],
+      "cutoff": 2021.0005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Ubuntu:latest_long_term_support_release:0",
+      "prefix_cid": "rw:Ubuntu:latest_long_term_support_release:0"
+    },
+    {
+      "key": [
+        "ubuntu",
+        "latest long term support release"
+      ],
+      "cutoff": 2023.0014999999999,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:Ubuntu:latest_long_term_support_release:1",
+      "prefix_cid": "rw:Ubuntu:latest_long_term_support_release:1"
+    },
+    {
+      "key": [
+        "the catholic church",
+        "head"
+      ],
+      "cutoff": 2012.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_Catholic_Church:head:0",
+      "prefix_cid": "rw:the_Catholic_Church:head:0"
+    },
+    {
+      "key": [
+        "the catholic church",
+        "head"
+      ],
+      "cutoff": 2019.0014999999999,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_Catholic_Church:head:1",
+      "prefix_cid": "rw:the_Catholic_Church:head:1"
+    },
+    {
+      "key": [
+        "the fifa world cup",
+        "reigning champion"
+      ],
+      "cutoff": 2016.0005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_FIFA_World_Cup:reigning_champion:0",
+      "prefix_cid": "rw:the_FIFA_World_Cup:reigning_champion:0"
+    },
+    {
+      "key": [
+        "the fifa world cup",
+        "reigning champion"
+      ],
+      "cutoff": 2020.0014999999999,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_FIFA_World_Cup:reigning_champion:1",
+      "prefix_cid": "rw:the_FIFA_World_Cup:reigning_champion:1"
+    },
+    {
+      "key": [
+        "the python programming language",
+        "latest stable version"
+      ],
+      "cutoff": 2021.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_Python_programming_language:latest_stable_version:0",
+      "prefix_cid": "rw:the_Python_programming_language:latest_stable_version:0"
+    },
+    {
+      "key": [
+        "the python programming language",
+        "latest stable version"
+      ],
+      "cutoff": 2022.5014999999999,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_Python_programming_language:latest_stable_version:1",
+      "prefix_cid": "rw:the_Python_programming_language:latest_stable_version:1"
+    },
+    {
+      "key": [
+        "the python programming language",
+        "latest stable version"
+      ],
+      "cutoff": 2023.5025,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_Python_programming_language:latest_stable_version:2",
+      "prefix_cid": "rw:the_Python_programming_language:latest_stable_version:2"
+    },
+    {
+      "key": [
+        "the twitter platform",
+        "official name"
+      ],
+      "cutoff": 2022.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_Twitter_platform:official_name:0",
+      "prefix_cid": "rw:the_Twitter_platform:official_name:0"
+    },
+    {
+      "key": [
+        "the united kingdom",
+        "head of government"
+      ],
+      "cutoff": 2018.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_United_Kingdom:head_of_government:0",
+      "prefix_cid": "rw:the_United_Kingdom:head_of_government:0"
+    },
+    {
+      "key": [
+        "the united kingdom",
+        "head of government"
+      ],
+      "cutoff": 2020.5014999999999,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_United_Kingdom:head_of_government:1",
+      "prefix_cid": "rw:the_United_Kingdom:head_of_government:1"
+    },
+    {
+      "key": [
+        "the united kingdom",
+        "head of government"
+      ],
+      "cutoff": 2022.4025,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_United_Kingdom:head_of_government:2",
+      "prefix_cid": "rw:the_United_Kingdom:head_of_government:2"
+    },
+    {
+      "key": [
+        "the united kingdom",
+        "head of government"
+      ],
+      "cutoff": 2023.4035,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_United_Kingdom:head_of_government:3",
+      "prefix_cid": "rw:the_United_Kingdom:head_of_government:3"
+    },
+    {
+      "key": [
+        "the united nations",
+        "secretary general"
+      ],
+      "cutoff": 2016.0005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_United_Nations:secretary_general:0",
+      "prefix_cid": "rw:the_United_Nations:secretary_general:0"
+    },
+    {
+      "key": [
+        "the united states",
+        "president"
+      ],
+      "cutoff": 2016.0005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_United_States:president:0",
+      "prefix_cid": "rw:the_United_States:president:0"
+    },
+    {
+      "key": [
+        "the united states",
+        "president"
+      ],
+      "cutoff": 2019.0014999999999,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_United_States:president:1",
+      "prefix_cid": "rw:the_United_States:president:1"
+    },
+    {
+      "key": [
+        "the united states",
+        "president"
+      ],
+      "cutoff": 2023.0025,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_United_States:president:2",
+      "prefix_cid": "rw:the_United_States:president:2"
+    },
+    {
+      "key": [
+        "the company x corp",
+        "chief executive officer"
+      ],
+      "cutoff": 2020.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_company_X_Corp:chief_executive_officer:0",
+      "prefix_cid": "rw:the_company_X_Corp:chief_executive_officer:0"
+    },
+    {
+      "key": [
+        "the company x corp",
+        "chief executive officer"
+      ],
+      "cutoff": 2021.5014999999999,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_company_X_Corp:chief_executive_officer:1",
+      "prefix_cid": "rw:the_company_X_Corp:chief_executive_officer:1"
+    },
+    {
+      "key": [
+        "the company x corp",
+        "chief executive officer"
+      ],
+      "cutoff": 2022.5025,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_company_X_Corp:chief_executive_officer:2",
+      "prefix_cid": "rw:the_company_X_Corp:chief_executive_officer:2"
+    },
+    {
+      "key": [
+        "the world",
+        "tallest building"
+      ],
+      "cutoff": 2009.5005,
+      "full_hit": 1,
+      "prefix_hit": 1,
+      "full_cid": "rw:the_world:tallest_building:0",
+      "prefix_cid": "rw:the_world:tallest_building:0"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "verification_kind": "Join and metric regression using archived pass-3 actual reader outputs; not a new benchmark run.",
+  "n_questions": 24,
+  "n_logical_conditions": 192,
+  "n_unique_generations": 52,
+  "all_existing_metrics_identical": true,
+  "dropped_complete_question_rejected": true,
+  "parser_unchanged": true,
+  "pairwise_f1_and_exact_set_intervals": 28,
+  "scorer_sha256": "5542da2fdd32d72c2b0f27f48a0a533c204cdaed5e903fbb02516c9d19ccc6e7",
+  "parser_sha256": "fe0d8ffedafcd1fa62bb2e6f3cd4ee86624c529e5eea68e7d8958e0b0fa23eff",
+  "deduplicated_prompt_provenance": "Each condition retains its own source context signature. Identical rendered requests may reuse a generation across differing source identifiers."
+}

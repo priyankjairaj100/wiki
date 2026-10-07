@@ -1,0 +1,63 @@
+\section{From Sources to Temporal Evidence}
+\label{sec:sources}
+
+The source interface separates three meanings of time.
+An occurrence date says when a state began.
+A duration gives separate start and end dates.
+An annual observation says which values were reported for that year.
+Table~\ref{tab:date-types} shows their different operations.
+
+\begin{table}[b]
+\centering\small
+\begin{tabular}{@{}p{.28\columnwidth}p{.65\columnwidth}@{}}
+\toprule
+Source meaning & Representation\\
+\midrule
+Started in September & An unknown start between that month's first and last dates.\\[3pt]
+Served from 2001 to 2005 & Separate uncertain start and end dates.\\[3pt]
+Listed in the 2005 snapshot & A dated observation retaining every listed answer.\\
+\bottomrule
+\end{tabular}
+\caption{Date precision and state duration carry different information. Only an occurrence range bounds one unknown event date.}
+\label{tab:date-types}
+\end{table}
+
+\paragraph{Occurrence precision.}
+A day gives a point on the time axis.
+A month or year bounds an occurrence within that calendar period.
+Expressions such as \emph{around 1713} require additional evidence before they supply finite bounds.
+We preserve the literal date expression and its source span.
+The query adapter applies the same convention to the visible question.
+A question about a whole year therefore remains a period query.
+Our predicate asks whether a claim applies \emph{somewhere} within that period.
+
+\paragraph{Replacement and coexistence.}
+A directed replacement decision connects values of the same subject and role.
+For office succession, the organization and office define the slot; people supply its values.
+For affiliation, a new organization can coexist with an older affiliation.
+The Chicago Stadium passage in TimeQA, for example, gives overlapping tenancies for two teams~\citep{chen2021timeqa}.
+The source adapter records explicit succession separately from ordinary appointments or joins.
+All temporal policies receive identical pair decisions.
+
+\paragraph{Explicit ends.}
+A stated departure supplies an end event targeting its own claim.
+The compiler treats this hidden event as a direct replacement.
+Every permitted end must follow every permitted start: its lower bound exceeds the start's upper bound.
+This reduction preserves gaps between tenures.
+It also handles a departure without a named successor.
+Appendix~\ref{app:lifecycle} proves equivalence to the corresponding half-open lifetime.
+
+\paragraph{Evidence units.}
+A paragraph can contain several states, so temporal selection operates on source excerpts.
+Each modeled claim preserves exact character offsets and its full supporting sentence.
+Uncovered text remains available through a shared fallback policy.
+A loan's planned expiry never becomes an observed departure.
+An incomplete temporal parse retains the complete source text.
+Readers receive original excerpts, their date bounds, and their support tags.
+
+\paragraph{Support tags.}
+Modeled claims are guaranteed, unresolved, or unsupported for the requested period.
+Unresolved claims have possible support without guaranteed support.
+Unmodeled excerpts carry a separate \emph{unknown} tag.
+Their fixed fallback eligibility lets us isolate uncertainty in modeled dates.
+The context certificate concerns that declared temporal input and retrieval policy.

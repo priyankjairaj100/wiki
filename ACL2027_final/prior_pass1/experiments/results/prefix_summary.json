@@ -1,0 +1,143 @@
+{
+  "protocol": "observed-prefix-v1",
+  "cards": [
+    {
+      "dataset": "wikidata",
+      "event_cutoffs": {
+        "n_cutoffs": 27,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 0,
+        "component_membership_differences": 0,
+        "component_max_differences": 0
+      },
+      "all_cutoffs": {
+        "n_cutoffs": 51,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 0,
+        "component_membership_differences": 0,
+        "component_max_differences": 0
+      },
+      "historical_queries": {
+        "n": 125,
+        "full_hits": 125,
+        "prefix_hits": 125,
+        "changed_top1": 0
+      }
+    },
+    {
+      "dataset": "templama",
+      "event_cutoffs": {
+        "n_cutoffs": 11,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 8,
+        "component_membership_differences": 21,
+        "component_max_differences": 4
+      },
+      "all_cutoffs": {
+        "n_cutoffs": 21,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 16,
+        "component_membership_differences": 42,
+        "component_max_differences": 4
+      },
+      "historical_queries": {
+        "n": 447,
+        "full_hits": 435,
+        "prefix_hits": 439,
+        "changed_top1": 6
+      }
+    },
+    {
+      "dataset": "wikidata_prose",
+      "event_cutoffs": {
+        "n_cutoffs": 27,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 0,
+        "component_membership_differences": 0,
+        "component_max_differences": 0
+      },
+      "all_cutoffs": {
+        "n_cutoffs": 51,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 0,
+        "component_membership_differences": 0,
+        "component_max_differences": 0
+      },
+      "historical_queries": {
+        "n": 125,
+        "full_hits": 125,
+        "prefix_hits": 125,
+        "changed_top1": 0
+      }
+    },
+    {
+      "dataset": "realprose",
+      "event_cutoffs": {
+        "n_cutoffs": 42,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 27,
+        "component_membership_differences": 50,
+        "component_max_differences": 4
+      },
+      "all_cutoffs": {
+        "n_cutoffs": 72,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 52,
+        "component_membership_differences": 97,
+        "component_max_differences": 4
+      },
+      "historical_queries": {
+        "n": 97,
+        "full_hits": 81,
+        "prefix_hits": 81,
+        "changed_top1": 8
+      }
+    },
+    {
+      "dataset": "realwiki",
+      "event_cutoffs": {
+        "n_cutoffs": 19,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 0,
+        "component_membership_differences": 0,
+        "component_max_differences": 0
+      },
+      "all_cutoffs": {
+        "n_cutoffs": 29,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 0,
+        "component_membership_differences": 0,
+        "component_max_differences": 0
+      },
+      "historical_queries": {
+        "n": 14,
+        "full_hits": 13,
+        "prefix_hits": 13,
+        "changed_top1": 0
+      }
+    },
+    {
+      "dataset": "realworld",
+      "event_cutoffs": {
+        "n_cutoffs": 41,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 0,
+        "component_membership_differences": 0,
+        "component_max_differences": 0
+      },
+      "all_cutoffs": {
+        "n_cutoffs": 69,
+        "direct_mismatch_cutoffs": 0,
+        "component_mismatch_cutoffs": 0,
+        "component_membership_differences": 0,
+        "component_max_differences": 0
+      },
+      "historical_queries": {
+        "n": 36,
+        "full_hits": 36,
+        "prefix_hits": 36,
+        "changed_top1": 0
+      }
+    }
+  ]
+}

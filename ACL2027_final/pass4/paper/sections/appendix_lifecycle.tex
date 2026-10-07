@@ -1,0 +1,33 @@
+\section{Explicit Lifetimes and Fixed Fallbacks}
+\label{app:lifecycle}
+Let claim $c$ start at $x_c\in[\ell_c,u_c]$ and end at $z_c\in[v_c,w_c]$.
+Assume $u_c<v_c$ and independent start and end dates.
+Its explicit lifetime is $[x_c,z_c)$, additionally shortened by accepted direct replacements.
+Introduce a hidden event $e_c$ with bounds $[v_c,w_c]$ and the pair $e_c\to c$.
+Every world has $x_c<z_c$.
+The hidden event retires $c$ exactly when the explicit end occurs.
+It therefore preserves activity in every world.
+The support boundaries update to
+\[
+ p'_c=\min(p_c,w_c),\qquad r'_c=\min(r_c,v_c).
+\]
+The same support formulas apply, with at most two witness records per claim.
+Hidden end events never enter a reader's context.
+
+The strict separation condition is necessary for this independent-date reduction.
+For start bounds $[0,2]$ and end bounds $[1,3]$, the product permits start 2 and end 1.
+A valid lifetime excludes that assignment, but direct replacement ignores an earlier event.
+The adapter therefore leaves overlapping start--end bounds unmodeled.
+It also retains approximate dates without justified finite bounds as unmodeled text.
+
+Let $F$ contain fixed fallback items and $S_x$ contain the modeled support set.
+The operational mask is $S_x\cup F$.
+Its union over worlds is $P\cup F$, and its intersection is $H\cup F$.
+The context test therefore compares $\operatorname{Top}_k(P\cup F)$ with $\operatorname{Top}_k(H\cup F)$.
+Fallback eligibility records a policy choice and never receives the guaranteed-support tag.
+
+Additional source constraints can restrict the independent date rectangle.
+Possible support then remains an outer bound, while guaranteed support remains an inner bound.
+Equal endpoint contexts still certify stability under the extra constraints.
+Different endpoint contexts need not establish instability within that smaller family.
+Counterworld exactness uses the stated independent-date model.

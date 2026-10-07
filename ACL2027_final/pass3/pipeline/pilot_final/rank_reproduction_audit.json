@@ -1,0 +1,8 @@
+{
+  "comparisons": 1408,
+  "mismatches": [],
+  "deterministic_accumulation_sha256": "a0a109aa4eab810686e372a57c3d4a5bc3663b9b9d31e49a97a9ab31ec200a39",
+  "original_run_sha256": "14ff5057b8c4a1c1ff3542bbdd654d1460b6a70b66dbca4782750f99cda28024",
+  "scope": "All selected top-five units before source-prefix clipping",
+  "status": "passed"
+}

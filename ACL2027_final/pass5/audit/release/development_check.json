@@ -1,0 +1,14 @@
+{
+  "status": "preliminary checks passed; final gate pending",
+  "python_syntax": [
+    "verify_submission.py",
+    "pass5/release/build_final_packages.py",
+    "pass5/release/checkpoint.py"
+  ],
+  "frozen_dependencies_in_review_selection": 35,
+  "frozen_dependencies_omitted": 0,
+  "author_patterns_scanned": 6,
+  "initial_author_identity_matches": 0,
+  "checkpoint_stage": "Create and verify ZIP files in /tmp before copying into the shared workspace.",
+  "final_gate": "Do not run before the final root manifest is ready."
+}

@@ -1,0 +1,154 @@
+{
+  "status": "passed",
+  "queries": 2348,
+  "articles": 644,
+  "context_offsets_verified": 117305,
+  "gold_anchors_verified": 2562,
+  "metrics": {
+    "earliest_completion": {
+      "span_recall": 0.6683702441794435,
+      "all_spans": 0.6575809199318569,
+      "parent_hit": 0.6971890971039182,
+      "words": 349.69463373083477,
+      "units": 4.994889267461669
+    },
+    "guaranteed_support": {
+      "span_recall": 0.6662407722884724,
+      "all_spans": 0.65587734241908,
+      "parent_hit": 0.694633730834753,
+      "words": 350.5826235093697,
+      "units": 4.994889267461669
+    },
+    "interval_outer_control": {
+      "span_recall": 0.667305508233958,
+      "all_spans": 0.6563032367972743,
+      "parent_hit": 0.696763202725724,
+      "words": 347.8032367972743,
+      "units": 4.994889267461669
+    },
+    "latest_completion": {
+      "span_recall": 0.6647501419647927,
+      "all_spans": 0.6541737649063032,
+      "parent_hit": 0.6937819420783645,
+      "words": 348.58475298126064,
+      "units": 4.994889267461669
+    },
+    "latest_mentioned_year_top20": {
+      "span_recall": 0.6532509937535491,
+      "all_spans": 0.6422487223168655,
+      "parent_hit": 0.6839863713798978,
+      "words": 332.5498296422487,
+      "units": 4.994463373083475
+    },
+    "midpoint_completion": {
+      "span_recall": 0.6656019307211811,
+      "all_spans": 0.6545996592844975,
+      "parent_hit": 0.6954855195911414,
+      "words": 348.53364565587736,
+      "units": 4.994889267461669
+    },
+    "no_temporal_filter": {
+      "span_recall": 0.6630465644520158,
+      "all_spans": 0.6511925042589438,
+      "parent_hit": 0.694633730834753,
+      "words": 342.5711243611584,
+      "units": 4.9957410562180575
+    },
+    "original_bm25": {
+      "span_recall": 0.37840715502555367,
+      "all_spans": 0.36754684838160134,
+      "parent_hit": 0.42035775127768316,
+      "words": 99.47316865417376,
+      "units": 5.0
+    },
+    "original_bm25_latestyear": {
+      "span_recall": 0.5298126064735945,
+      "all_spans": 0.5191652470187393,
+      "parent_hit": 0.5617546848381602,
+      "words": 187.20315161839864,
+      "units": 5.0
+    },
+    "possible_support": {
+      "span_recall": 0.667305508233958,
+      "all_spans": 0.6563032367972743,
+      "parent_hit": 0.696763202725724,
+      "words": 347.8032367972743,
+      "units": 4.994889267461669
+    }
+  },
+  "paired_span_contrasts": {
+    "no_temporal_filter minus original_bm25_latestyear": {
+      "difference": 0.13323395797842133,
+      "ci95": [
+        0.10718366181091117,
+        0.1590265987549519
+      ],
+      "clusters": 644,
+      "repetitions": 2000,
+      "seed": 20261006,
+      "sampler": "Python random.choices; independent resample sequence from primary scorer"
+    },
+    "no_temporal_filter minus original_bm25": {
+      "difference": 0.28463940942646226,
+      "ci95": [
+        0.2553763440860215,
+        0.31216931216931215
+      ],
+      "clusters": 644,
+      "repetitions": 2000,
+      "seed": 20261006,
+      "sampler": "Python random.choices; independent resample sequence from primary scorer"
+    },
+    "possible_support minus no_temporal_filter": {
+      "difference": 0.004258943781942078,
+      "ci95": [
+        0.0013066202090592336,
+        0.007725321888412017
+      ],
+      "clusters": 644,
+      "repetitions": 2000,
+      "seed": 20261006,
+      "sampler": "Python random.choices; independent resample sequence from primary scorer"
+    },
+    "guaranteed_support minus possible_support": {
+      "difference": -0.0010647359454855196,
+      "ci95": [
+        -0.004152097902097902,
+        0.001509271237602415
+      ],
+      "clusters": 644,
+      "repetitions": 2000,
+      "seed": 20261006,
+      "sampler": "Python random.choices; independent resample sequence from primary scorer"
+    },
+    "possible_support minus interval_outer_control": {
+      "difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "clusters": 644,
+      "repetitions": 2000,
+      "seed": 20261006,
+      "sampler": "Python random.choices; independent resample sequence from primary scorer"
+    },
+    "latest_mentioned_year_top20 minus no_temporal_filter": {
+      "difference": -0.009795570698466781,
+      "ci95": [
+        -0.02924223253198369,
+        0.008783113755489447
+      ],
+      "clusters": 644,
+      "repetitions": 2000,
+      "seed": 20261006,
+      "sampler": "Python random.choices; independent resample sequence from primary scorer"
+    }
+  },
+  "elapsed_seconds": 10.05839991569519,
+  "input_sha256": {
+    "pass4/pipeline/validation/predictions.jsonl": "2b1fc200cf6ee8ccf48adcd26499870a140dc9c275b3ca175b135794276f8c7d",
+    "pass3/protocol/dev_validation_labels.jsonl": "9230b9ce0aefd7ba5924b6cf674ad5f1723c5a688cec23bdb856e335315ecfc3",
+    "pass3/protocol/dev_source_passages.jsonl": "7814f8190699e968806ec045f9b417e4f906855954ac8503f45c6b674f9965d4",
+    "/workspace/scratch/956c06247f78/ACL2027_pass3/pass4/retrieval/independent_score.py": "e56b409a8ffaee2c8ec10dd2d0aa2c80820b1adf6d09ad51fefc4ecba1ffb3f1"
+  }
+}

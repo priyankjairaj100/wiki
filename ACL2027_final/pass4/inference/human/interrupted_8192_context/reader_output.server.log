@@ -1,0 +1,13 @@
+0.00.149.382 I srv  llama_server: initializing ...
+0.00.149.531 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.150.121 I srv  init_listene: The UI is disabled
+0.00.150.456 I srv  init_listene: Use --ui/--no-ui (or deprecated --webui/--no-webui) to enable/disable
+0.00.150.875 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.171.250 I srv    load_model: loading model '/workspace/scratch/956c06247f78/acl2027_inference_cache/qwen2.5-3b-instruct-q4_k_m.gguf'
+0.02.753.498 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.22.796.162 I cmn          init: llama threadpool init, n_threads = 8
+0.40.697.480 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 8192, kv_unified = 'false'
+0.40.727.289 I srv  llama_server: model loaded
+0.40.727.312 I srv  llama_server: listening on http://127.0.0.1:42069
+0.40.789.629 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = -1
+0.40.789.876 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0

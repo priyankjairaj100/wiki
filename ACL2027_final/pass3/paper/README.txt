@@ -1,0 +1,1 @@
+Compile main.tex with pdfLaTeX and BibTeX. Eight main pages; limitations begin on page nine. Sixteen total pages. Anonymous ACL review style. Vector figure source: ../data/draw_architecture.py. This is the third research checkpoint.
